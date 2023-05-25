@@ -3,7 +3,7 @@
     <fullName>Champion__c</fullName>
     <description>Champion</description>
     <externalId>false</externalId>
-    <inlineHelpText>Weak = no internal sponsor identified | Moderate = You have identified the champion and you're convincing him/her of the value of the solution | Strong = You're in frequent contact with the champion. He/she advocates the solution internally on your behalf [zazazazz]</inlineHelpText>
+    <inlineHelpText>Weak = no internal sponsor identified | Moderate = You have identified the champion and you're convincing him/her of the value of the solution | Strong = You're in frequent contact with the champion. He/she advocates the solution internally on your behalf</inlineHelpText>
     <label>Champion</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
