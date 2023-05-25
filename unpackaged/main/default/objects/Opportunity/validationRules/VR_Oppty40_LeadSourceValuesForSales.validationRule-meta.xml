@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty40_LeadSourceValuesForSales</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+NOT($User.BypassVR__c),
+NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Oppty40_LeadSourceValuesForSales")),
+$Profile.Name = "Cegid Sales",
+OR(ISCHANGED(LeadSource ), ISNEW()),
+NOT(ISPICKVAL(LeadSource,"Sales Prospecting")),
+NOT(ISPICKVAL(LeadSource,"Partner")),
+NOT(ISPICKVAL(LeadSource,"SDR")),
+NOT(ISPICKVAL(LeadSource,"SDR-Marketing Prospecting")),
+NOT(ISPICKVAL(LeadSource,"SDR Lead Purchase")),
+NOT(ISPICKVAL(LeadSource,"EuroCRM")),
+NOT($User.SalesPRM__c)
+)</errorConditionFormula>
+    <errorMessage>You can only choose "Sales Prospecting", "Partner" or "SDR" or "EuroCRM".</errorMessage>
+</ValidationRule>

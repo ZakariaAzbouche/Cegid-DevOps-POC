@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>CEGID Article Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery/Training --></label>
+            <section>Delivery/Training</section>
+        </sections>
+        <sections>
+            <label><!-- Flux --></label>
+            <section>Flux</section>
+        </sections>
+        <sections>
+            <label><!-- Informations complémentaires --></label>
+            <section>Informations complémentaires</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Description --></label>
+            <section>Internal Description</section>
+        </sections>
+        <sections>
+            <label><!-- Royalties Information --></label>
+            <section>Royalties Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CEGID Charge Layout</layout>
+        <sections>
+            <label><!-- Attributes --></label>
+            <section>Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Flux --></label>
+            <section>Flux</section>
+        </sections>
+        <sections>
+            <label><!-- Niveaux de remise --></label>
+            <section>Niveaux de remise</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing --></label>
+            <section>Pricing</section>
+        </sections>
+        <sections>
+            <label><!-- Subscriptions --></label>
+            <section>Subscriptions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CEGID Product Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Agreement Product --></label>
+            <section>Agreement Product</section>
+        </sections>
+        <sections>
+            <label><!-- Attributes --></label>
+            <section>Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Excess Setup --></label>
+            <section>Excess Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Flux --></label>
+            <section>Flux</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing --></label>
+            <section>Pricing</section>
+        </sections>
+        <sections>
+            <label><!-- Store --></label>
+            <section>Store</section>
+        </sections>
+        <sections>
+            <label><!-- Subscriptions --></label>
+            <section>Subscriptions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CEGID Tier Layout</layout>
+        <sections>
+            <label><!-- Attributes --></label>
+            <section>Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Excess Setup --></label>
+            <section>Excess Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Flux --></label>
+            <section>Flux</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing --></label>
+            <section>Pricing</section>
+        </sections>
+        <sections>
+            <label><!-- Subscriptions --></label>
+            <section>Subscriptions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CPQ Product Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Felder</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Preise</label>
+            <section>Pricing</section>
+        </sections>
+        <sections>
+            <label>Verlängerungen</label>
+            <section>Renewals</section>
+        </sections>
+        <sections>
+            <label>Salesforce CPQ-Konfiguration</label>
+            <section>Salesforce CPQ Configuration</section>
+        </sections>
+        <sections>
+            <label>Abonnements</label>
+            <section>Subscriptions</section>
+        </sections>
+        <sections>
+            <label>Upgrades</label>
+            <section>Upgrades</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Service Level Price --></label>
+        <name>Add_Service_Level_Price</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Block Price --></label>
+        <name>Add_Service_Level_Price_Block</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add List Price --></label>
+        <name>Add_Service_Level_Price_List</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Clone with configuration --></label>
+        <name>Clone_with_configuration</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Version --></label>
+        <name>New_Version</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Synchronize --></label>
+        <name>Synchronize</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Article --></label>
+        <name>Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Charge --></label>
+        <name>Charge</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Package --></label>
+        <name>Package</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product --></label>
+        <name>Product</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Tier --></label>
+        <name>Tier</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Product Description cannot exceed 500 caracters --></errorMessage>
+        <name>DescriptionLengthControl</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The end of commercialization date can&apos;t be inferior to the current date + 31 days (maximum period of a quote validity) --></errorMessage>
+        <name>End_of_Commercialization_Date_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Internal Description is required. --></errorMessage>
+        <name>Required_ShortDescription_Tier_Product</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot check &quot;No Royalty&quot; and another type of Royalty at the same time. --></errorMessage>
+        <name>Royalty_No_Royalty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You have to set a Royalties Type for this Article. --></errorMessage>
+        <name>Royalty_Type_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Je dois obligatoirement, lorsque je créé un produit avec une structure d&apos;activité de niveau 1 SaaS, y associer un ou plusieurs niveaux de service parmi la liste des niveaux existants. --></errorMessage>
+        <name>SaaS_Prdt_must_have_at_least_1_serv_Lvl</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Non-modifiable data following Synchro with Zuora. --></errorMessage>
+        <name>Synchro_Date_Zuora</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If you want to insert a Product with a Charge Type equals to &apos;Usage&apos;, you have to fill the Consumption Code. --></errorMessage>
+        <name>VR003_UsageRequiresConsumptionCode</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter at least one possible Billing Mode for each Product and each Package. --></errorMessage>
+        <name>VR005_BillingModesMustBeFilled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t register a Charge with Excess Pricing Method equals to Main Charge Unit Price if the Main Charge Product has a null Excess Unit Price Coeff. --></errorMessage>
+        <name>VR006_MainChargeUnitPriceIssue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are saving an Article with Quantity Declarative as Royalties Type. Buying Metric, Purchasing Price, Purchased Quantity and Declarative Royalties are mandatory. --></errorMessage>
+        <name>VR007_Buying_Metric_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please, fill the Charge Type field for a non-Article Product. --></errorMessage>
+        <name>VR016_ChargeTypeAlwaysRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t synchronize a product if it does not have a Structure Level 1, 2 and 3, a Product Line, a Core Business and a Billing Type. Please, review the Product. --></errorMessage>
+        <name>VR018_Cant_Sync_if_missing_info</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Allowed Quantities Field is not properly filled. Please, write only &quot;ALL&quot;, or a list of allowed quantities separated by semicolons. Don&apos;t forget a semicolon at the end. --></errorMessage>
+        <name>VR_013_Allowed_Quantities_Field_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Pricing Method is List, please fill a Metric. If no Metric can be applied, please choose Flat Fee value by default. --></errorMessage>
+        <name>VR_018_Metric_when_List</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For a Schedulable Article, Duration is mandatory. Please fill this field --></errorMessage>
+        <name>VR_Prod_SchedulableDurationMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For a Schedulable Article, Service Term is mandatory and can&apos;t be &quot;Flat Fee&quot;. --></errorMessage>
+        <name>VR_Prod_SchedulableServiceLevelMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t set the Product Status to Inactive if you are not a CPQ Expert or a System Administrator. --></errorMessage>
+        <name>VR_Validate_Inactive_Status_Transition</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only change the Tier Status to Closed if you are a CPQ Specialist, and if the end of commercialization date is already passed --></errorMessage>
+        <name>Validate_Closed_Tier_Status_Transition</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Supplier is required --></errorMessage>
+        <name>Validation_of_checkbox_royalties</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- At least one of the royalties must be selected --></errorMessage>
+        <name>Validation_of_checkbox_royalties_F</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ExportPricing --></label>
+        <name>ExportPricing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Global_Export --></label>
+        <name>Global_Export</name>
+    </webLinks>
+</CustomObjectTranslation>

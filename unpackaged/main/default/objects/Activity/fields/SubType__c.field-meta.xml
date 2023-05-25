@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubType__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Business</fullName>
+                <default>false</default>
+                <label>Business</label>
+            </value>
+            <value>
+                <fullName>Business review</fullName>
+                <default>false</default>
+                <label>Business review</label>
+            </value>
+            <value>
+                <fullName>Cegid</fullName>
+                <default>false</default>
+                <label>Cegid</label>
+            </value>
+            <value>
+                <fullName>Closing</fullName>
+                <default>false</default>
+                <label>Closing</label>
+            </value>
+            <value>
+                <fullName>Customer follow-up</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer follow-up</label>
+            </value>
+            <value>
+                <fullName>Customer Success Review</fullName>
+                <default>false</default>
+                <label>Customer Success Review</label>
+            </value>
+            <value>
+                <fullName>Demonstration</fullName>
+                <default>false</default>
+                <label>Demonstration</label>
+            </value>
+            <value>
+                <fullName>Déploiement - Formation</fullName>
+                <default>false</default>
+                <label>Déploiement - Formation</label>
+            </value>
+            <value>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+                <label>Discovery</label>
+            </value>
+            <value>
+                <fullName>Dispute</fullName>
+                <default>false</default>
+                <label>Dispute</label>
+            </value>
+            <value>
+                <fullName>Engagement et croissance</fullName>
+                <default>false</default>
+                <label>Engagement et croissance</label>
+            </value>
+            <value>
+                <fullName>Executive Meeting</fullName>
+                <default>false</default>
+                <label>Executive Meeting</label>
+            </value>
+            <value>
+                <fullName>Executive Sponsorship Program</fullName>
+                <default>false</default>
+                <label>Executive Sponsorship Program</label>
+            </value>
+            <value>
+                <fullName>External</fullName>
+                <default>false</default>
+                <label>External</label>
+            </value>
+            <value>
+                <fullName>Follow-up</fullName>
+                <default>false</default>
+                <label>Follow-up</label>
+            </value>
+            <value>
+                <fullName>Incoming</fullName>
+                <default>false</default>
+                <label>Incoming</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Négo (Defence / Negotiation)</fullName>
+                <default>false</default>
+                <label>Negociation</label>
+            </value>
+            <value>
+                <fullName>Non-commercial</fullName>
+                <default>false</default>
+                <label>Non-commercial</label>
+            </value>
+            <value>
+                <fullName>OnBoarding</fullName>
+                <default>false</default>
+                <label>Onboarding</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Partnership</fullName>
+                <default>false</default>
+                <label>Partnership</label>
+            </value>
+            <value>
+                <fullName>Plan de succès</fullName>
+                <default>false</default>
+                <label>Plan de succès</label>
+            </value>
+            <value>
+                <fullName>Project</fullName>
+                <default>false</default>
+                <label>Project</label>
+            </value>
+            <value>
+                <fullName>Project management</fullName>
+                <default>false</default>
+                <label>Project management</label>
+            </value>
+            <value>
+                <fullName>Prospecting</fullName>
+                <default>false</default>
+                <label>Prospecting</label>
+            </value>
+            <value>
+                <fullName>Qualification</fullName>
+                <default>false</default>
+                <label>Qualification</label>
+            </value>
+            <value>
+                <fullName>Reclamation</fullName>
+                <default>false</default>
+                <label>Reclamation</label>
+            </value>
+            <value>
+                <fullName>Retention</fullName>
+                <default>false</default>
+                <label>Retention</label>
+            </value>
+            <value>
+                <fullName>Signature</fullName>
+                <default>false</default>
+                <label>Signature</label>
+            </value>
+            <value>
+                <fullName>Survey</fullName>
+                <default>false</default>
+                <label>Survey</label>
+            </value>
+            <value>
+                <fullName>Termination</fullName>
+                <default>false</default>
+                <label>Termination</label>
+            </value>
+            <value>
+                <fullName>Transfert de connaissance</fullName>
+                <default>false</default>
+                <label>Transfert de connaissance</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Make a Call</controllingFieldValue>
+            <valueName>Closing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <controllingFieldValue>Make a Call</controllingFieldValue>
+            <valueName>Dispute</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <valueName>Executive Sponsorship Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <controllingFieldValue>Make a Call</controllingFieldValue>
+            <valueName>Follow-up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Make a Call</controllingFieldValue>
+            <valueName>Incoming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Make a Call</controllingFieldValue>
+            <valueName>Non-commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Make a Call</controllingFieldValue>
+            <valueName>Prospecting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Make a Call</controllingFieldValue>
+            <valueName>Qualification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <controllingFieldValue>Make a Call</controllingFieldValue>
+            <valueName>Retention</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Make a Call</controllingFieldValue>
+            <valueName>Survey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <controllingFieldValue>Upcoming Event</controllingFieldValue>
+            <valueName>Cegid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <controllingFieldValue>Upcoming Event</controllingFieldValue>
+            <valueName>External</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <valueName>Business review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <valueName>Customer Success Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <valueName>Demonstration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>CSM</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <valueName>Discovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <valueName>Executive Meeting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <valueName>Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Alliance</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <valueName>Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <valueName>Négo (Defence / Negotiation)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>CSM</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <valueName>OnBoarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <valueName>Project management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Plan a Meeting</controllingFieldValue>
+            <valueName>Signature</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notification</controllingFieldValue>
+            <valueName>Reclamation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notification</controllingFieldValue>
+            <valueName>Termination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alliance</controllingFieldValue>
+            <valueName>Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alliance</controllingFieldValue>
+            <valueName>Partnership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alliance</controllingFieldValue>
+            <valueName>Project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSM</controllingFieldValue>
+            <valueName>Déploiement - Formation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSM</controllingFieldValue>
+            <valueName>Engagement et croissance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSM</controllingFieldValue>
+            <valueName>Plan de succès</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSM</controllingFieldValue>
+            <valueName>Transfert de connaissance</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

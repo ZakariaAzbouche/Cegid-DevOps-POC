@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    <layouts>
+        <layout>Account Contact Relationship Layout</layout>
+        <sections>
+            <label>Statut de la relation</label>
+            <section>Relationship Status</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

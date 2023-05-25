@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Check_Agency_Specific_Rules</fullName>
+    <active>true</active>
+    <description>Une Specific rule avec Agency doit avoir une Agency</description>
+    <errorConditionFormula>AND(
+NOT($User.BypassVR__c ),
+ISBLANK(TEXT(Agency__c)),
+ISPICKVAL(Specific_Rules__c,'UNE_AGENCE')
+)</errorConditionFormula>
+    <errorMessage>Une Specific rule avec Agency doit avoir une Agency</errorMessage>
+</ValidationRule>

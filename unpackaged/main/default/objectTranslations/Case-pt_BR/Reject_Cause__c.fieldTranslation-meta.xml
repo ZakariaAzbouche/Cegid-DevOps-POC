@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reject Cause --></label>
+        <name>Reject_Cause__c</name>
+        <picklistValues>
+            <masterLabel>Cancellation by the client</masterLabel>
+            <translation><!-- Cancellation by the client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Framework Contract Conflict with Parent Company</masterLabel>
+            <translation><!-- Framework Contract Conflict with Parent Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete Data</masterLabel>
+            <translation><!-- Incomplete Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost opportunity</masterLabel>
+            <translation><!-- Lost opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No project</masterLabel>
+            <translation><!-- No project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Too Low</masterLabel>
+            <translation><!-- Price Too Low --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

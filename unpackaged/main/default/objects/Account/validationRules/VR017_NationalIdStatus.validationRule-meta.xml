@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR017_NationalIdStatus</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+NOT ( $User.BypassVR__c ),
+NOT(INCLUDES($User.List_of_VR_to_By_Pass__c,"VR017_NationalIdStatus")),
+ISNEW(),
+National_ID_Active__c = False
+)</errorConditionFormula>
+    <errorMessage>Unable to create an account with an inactive National ID</errorMessage>
+</ValidationRule>

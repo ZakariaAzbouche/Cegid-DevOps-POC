@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Lead016_ImpartnerConversionBlocked</fullName>
+    <active>true</active>
+    <description>Cette VR empêche la conversion de lead affecté au user impartner</description>
+    <errorConditionFormula>AND( NOT( $User.BypassVR__c),
+				 !PRIORVALUE(IsConverted), 
+				  IsConverted,
+				   Owner:User.LastName = 'Impartner'
+				)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>You cannot convert a Lead Owned by Impartner. Please, allocate this Lead to yourself to convert it</errorMessage>
+</ValidationRule>

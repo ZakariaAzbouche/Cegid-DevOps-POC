@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Mode --></label>
+        <name>Mode__c</name>
+        <picklistValues>
+            <masterLabel>OD</masterLabel>
+            <translation><!-- OD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OP</masterLabel>
+            <translation><!-- OP --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

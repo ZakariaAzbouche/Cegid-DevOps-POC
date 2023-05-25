@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty04_OldMRR</fullName>
+    <active>true</active>
+    <description>Old MRR must be set to 0 for Newcli, Cross Sell or Upsell</description>
+    <errorConditionFormula>AND (
+NOT($User.BypassVR__c) ,
+    OR(
+				    ISPICKVAL( Sales_Purpose__c,"111"),
+								ISPICKVAL( Sales_Purpose__c,"121"),
+				    ISPICKVAL( Sales_Purpose__c,"411")
+							),
+				 Old_MRR__c &gt; 0
+				)</errorConditionFormula>
+    <errorDisplayField>Old_MRR__c</errorDisplayField>
+    <errorMessage>For Newcli, Cross Sell or Upsell, Old MRR must be set to 0.</errorMessage>
+</ValidationRule>

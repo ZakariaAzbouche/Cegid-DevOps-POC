@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Previous Contact Affinity to CEGID --></label>
+        <name>Previous_Contact_Affinity_to_CEGID__c</name>
+    </CustomFieldTranslation>

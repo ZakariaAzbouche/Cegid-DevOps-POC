@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR002_CPA</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+RegisteredwiththeOrderofCharteredA__c  = true,
+ ISBLANK(Yearofregistration__c  ) )</errorConditionFormula>
+    <errorDisplayField>Yearofregistration__c</errorDisplayField>
+    <errorMessage>Year of registration is required when Registered with the Order of Chartered Accountants is true</errorMessage>
+</ValidationRule>

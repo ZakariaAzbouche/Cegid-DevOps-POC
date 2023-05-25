@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Objectif</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Objectifs</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Objective By Amount Layout</layout>
+        <sections>
+            <label>Informations complémentaires</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Montants cibles</label>
+            <section>Target Amounts</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Objective By Quantity Layout</layout>
+        <sections>
+            <label>Informations complémentaires</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom de l'objectif</nameFieldLabel>
+    <recordTypes>
+        <label>Objectif en montant</label>
+        <name>Objective_By_Amount</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Objectif Par Quantité</label>
+        <name>Objective_By_Quantity</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Only the PAC owner or an admin can create or edit an objective. --></errorMessage>
+        <name>VR_Obj_01_OnlyPacOwnerCanEditorCreate</name>
+    </validationRules>
+</CustomObjectTranslation>

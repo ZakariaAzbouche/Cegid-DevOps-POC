@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transversal_Theme__c</fullName>
+    <description>Transversal Theme which will be linked to the Product</description>
+    <externalId>false</externalId>
+    <label>Transversal Theme</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Transversal_Theme</valueSetName>
+    </valueSet>
+</CustomField>

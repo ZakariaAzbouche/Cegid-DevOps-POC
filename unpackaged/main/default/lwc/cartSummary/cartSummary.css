@@ -1,0 +1,99 @@
+.container {
+    background-color: #F7F7F7;
+    color:#0D2C4F;
+    display: flex;
+   /* padding-bottom: var(--lwc-spacingXxLarge, 3rem);*/
+    flex-direction: column;
+    padding-bottom: 19px;
+    padding-top: var(--lwc-spacingXxLarge, 3rem);
+}
+
+.summary-header {
+    font-size:28px;
+    font-style: normal;
+    /*font-weight: var(--lwc-fontWeightRegular);*/
+    font-weight:500 !important;
+    line-height: 34px;
+}
+
+
+
+.original-price {
+    align-self: flex-end;
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+.final-price-container {
+    align-items: flex-end;
+    color: inherit;
+    display: flex;
+    font-family: 'gelion';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500 !important;
+    justify-content: space-between;
+    line-height: 24px;
+}
+
+.final-price-container span {
+    font-weight: var(--lwc-fontWeightRegular);
+}
+
+.final-price-container lightning-formatted-number {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold !important;
+    line-height: 31px;
+    text-align: right;
+}
+
+/* Tablet screens */
+@media only screen and (max-width: 64em) {
+    .final-price-container {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .final-price-container lightning-formatted-number {
+        align-self: flex-end;
+        padding-left: 1rem;
+    }
+}
+
+/* Phone screens */
+@media only screen and (max-width: 47.9375em) {
+    .final-price-container {
+        align-items: flex-end;
+        flex-direction: row;
+    }
+}
+
+.custombtn{
+/* CGD - Orange */
+
+background: #FF5C35;
+border-radius: 23px;
+
+color: #FFFFFF;
+font-size: 15px;
+font-style: normal;
+font-weight: bold;
+height: 50px;
+line-height: 18px;
+width: 331px;
+}
+
+.disabled{
+/* CGD - Grey */
+
+background: grey;
+border-radius: 23px;
+
+color: #FFFFFF;
+font-size: 15px;
+font-style: normal;
+font-weight: bold;
+height: 50px;
+line-height: 18px;
+width: 331px;
+}

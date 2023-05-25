@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To allow specific users to view encrypted data and required for admin setup for DocuSign so that bank info can be visible and editable in document sent for signature</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Cegid - View Encrypted Data</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewEncryptedData</name>
+    </userPermissions>
+</PermissionSet>

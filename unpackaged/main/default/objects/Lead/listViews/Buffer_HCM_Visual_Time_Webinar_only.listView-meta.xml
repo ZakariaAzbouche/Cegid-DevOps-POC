@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buffer_HCM_Visual_Time_Webinar_only</fullName>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>Nature__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Marketing_Status__c</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Expertise__c</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Call_back_date__c</columns>
+    <columns>ATTRILTmedium__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.COUNTRY_CODE</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Buffer_Name__c</field>
+        <operation>equals</operation>
+        <value>HCM Visual Time</value>
+    </filters>
+    <filters>
+        <field>mkto71_Acquisition_Program__c</field>
+        <operation>contains</operation>
+        <value>webinar</value>
+    </filters>
+    <label>Buffer HCM Visual Time Webinar only</label>
+    <queue>Telemarketing_Leads</queue>
+</ListView>

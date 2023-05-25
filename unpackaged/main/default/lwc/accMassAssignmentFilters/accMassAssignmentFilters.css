@@ -1,0 +1,24 @@
+.field-title{
+    margin-left: 10px;
+}
+
+.btn{
+    float: right;
+    padding-right: 30px;
+    /*padding-top: 22px;*/
+}
+
+.btnSearch{
+    float: right;
+    /*padding-top: 22px;*/
+}
+
+.paddingAccExp{ 
+    padding-left: 10px;
+    padding-right: 12px;
+}
+
+.paddingAccCom{ 
+    padding-left: 12px;
+    padding-right: 10px;
+}

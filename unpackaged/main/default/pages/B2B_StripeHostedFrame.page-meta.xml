@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>Used in B2B LE CEGID Store to display Stripe credit card number fields in iframe</description>
+    <label>B2B_StripeHostedFrame</label>
+</ApexPage>

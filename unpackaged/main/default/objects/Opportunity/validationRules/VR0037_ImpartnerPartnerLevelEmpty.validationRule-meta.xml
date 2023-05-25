@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR0037_ImpartnerPartnerLevelEmpty</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c),
+ISCHANGED(ImpartnerPRM__PartnerAccount__c),
+NOT(ImpartnerPRM__PartnerAccount__c = null),
+ISBLANK(TEXT(ImpartnerPRM__PartnerAccount__r.Impartner_Partner_Level__c ))
+)</errorConditionFormula>
+    <errorDisplayField>ImpartnerPRM__PartnerAccount__c</errorDisplayField>
+    <errorMessage>This Partner Account is not related to PRM. Please, use the appropriate partner field at the top of the Opportunity page.</errorMessage>
+</ValidationRule>

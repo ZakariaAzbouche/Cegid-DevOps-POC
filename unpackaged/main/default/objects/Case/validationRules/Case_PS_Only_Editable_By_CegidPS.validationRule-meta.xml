@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_PS_Only_Editable_By_CegidPS</fullName>
+    <active>true</active>
+    <description>Case PS are only editable by profile CEGID PS and admin</description>
+    <errorConditionFormula>And( 
+NOT(ISNEW()),
+NOT($User.BypassVR__c),
+RecordType.DeveloperName="Professional_Services_Request",
+NOT($Profile.Name = 'Cegid PS'),
+NOT($Profile.Name = 'System Administrator')
+)</errorConditionFormula>
+    <errorMessage>You don't have the necessary privileges to edit this record.</errorMessage>
+</ValidationRule>

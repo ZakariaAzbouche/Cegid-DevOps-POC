@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Date_of_Cancellation__c</fullName>
+    <description>Display the Last Date of Cancellation</description>
+    <externalId>false</externalId>
+    <label>Last Date of Cancellation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

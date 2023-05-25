@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- School Level --></label>
+        <name>School_Level__c</name>
+        <picklistValues>
+            <masterLabel>BAC PRO</masterLabel>
+            <translation><!-- BAC PRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAC PRO services</masterLabel>
+            <translation><!-- BAC PRO services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BEP</masterLabel>
+            <translation><!-- BEP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTS</masterLabel>
+            <translation><!-- BTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTS CG</masterLabel>
+            <translation><!-- BTS CG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTS GPME</masterLabel>
+            <translation><!-- BTS GPME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTS Industriels</masterLabel>
+            <translation><!-- BTS Industriels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTS NDRC</masterLabel>
+            <translation><!-- BTS NDRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTS SAM</masterLabel>
+            <translation><!-- BTS SAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTS Tertiaires</masterLabel>
+            <translation><!-- BTS Tertiaires --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTS commerce international</masterLabel>
+            <translation><!-- BTS commerce international --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTS hotellerie-restauration</masterLabel>
+            <translation><!-- BTS hotellerie-restauration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTSMCO</masterLabel>
+            <translation><!-- BTSMCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bac</masterLabel>
+            <translation><!-- Bac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bac + 2</masterLabel>
+            <translation><!-- Bac + 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bac + 3</masterLabel>
+            <translation><!-- Bac + 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bac + 4</masterLabel>
+            <translation><!-- Bac + 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bac + 5 et +</masterLabel>
+            <translation><!-- Bac + 5 et + --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bac Hôtellerie Restauration</masterLabel>
+            <translation><!-- Bac Hôtellerie Restauration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bac STMG</masterLabel>
+            <translation><!-- Bac STMG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bac pro ARCU</masterLabel>
+            <translation><!-- Bac pro ARCU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bac pro GA</masterLabel>
+            <translation><!-- Bac pro GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAP</masterLabel>
+            <translation><!-- CAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DCG</masterLabel>
+            <translation><!-- DCG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DSCG</masterLabel>
+            <translation><!-- DSCG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DUT</masterLabel>
+            <translation><!-- DUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DUT GEA</masterLabel>
+            <translation><!-- DUT GEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DUT GLT</masterLabel>
+            <translation><!-- DUT GLT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DUT QUO</masterLabel>
+            <translation><!-- DUT QUO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dut QLIO</masterLabel>
+            <translation><!-- Dut QLIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Licence PRO</masterLabel>
+            <translation><!-- Licence PRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Licence Pro PAIE / RH</masterLabel>
+            <translation><!-- Licence Pro PAIE / RH --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

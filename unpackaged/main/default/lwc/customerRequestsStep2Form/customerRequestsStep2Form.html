@@ -1,0 +1,114 @@
+<template>
+
+    <!-- Spinner -->
+    <div if:true={showLoadingSpinner} class="main-spinner">
+        <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+    </div>
+
+    <!-- Toast Warning -->
+    <template if:true={showWarningToast}>
+        <div class="toast-container">
+            <div class="slds-notify_container slds-is-relative">
+                <div class="slds-notify slds-notify_toast slds-theme_warning" role="status">
+                    <div class="slds-notify__content">
+                        <h2 class="slds-text-heading_small ">{warningText}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <div class="main-container">
+        <p class="bloc-title">Lignes de facture</p>
+        <div class="table-invoice-lines grid-tree">
+            <table class="slds-table">
+                <thead>
+                    <tr>
+                        <th style="width: 50px;"></th>
+                        <th style="width: 230px;">
+                            {CustomerRequestFormColumnInvoiceLineNum}
+                        </th>
+                        <th>
+                            {CustomerRequestFormColumnProduct}
+                        </th>
+                        <th>
+                            {CustomerRequestFormColumnAmount}
+                        </th>
+                        <th>
+                            {CustomerRequestFormColumnDate}
+                        </th>
+                        <th>
+                            {CustomerRequestFormColumnThirdParty}
+                        </th>
+                        <th>
+                            {CustomerRequestFormColumnCalculatedBU}
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={invoiceLines} for:item="invoiceline">
+                        <template if:false={invoiceline.amount}>
+                            <tr key={invoiceline.lineNumber} data-linename={invoiceline.name}>
+                                <td style="width: 50px;">
+                                    <input type="checkbox" class="parentcheckbox" data-checkboxname={invoiceline.name} data-totallines={invoiceline.totalLines} onchange={handleParentCheckboxChange}/>
+                                    <div></div>
+                                </td>
+                                <td style="width: 230px;">
+                                    <button data-togglename={invoiceline.name} data-collapse="true" onclick={handleToggle}>
+                                        <img src={arrowdown} width="12px">
+                                    </button>
+                                    {invoiceline.name}
+                                </td>
+                                <td></td>
+                                <td>
+                                    <lightning-formatted-number value={invoiceline.totalAmount} format-style="currency" currency-code="EUR"></lightning-formatted-number>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </template>
+                        <template if:true={invoiceline.amount}>
+                            <tr key={invoiceline.lineNumber} data-parent={invoiceline.lineNumber} data-linename={invoiceline.name} style="display: none;">
+                                <td style="width: 50px;">
+                                    <input type="checkbox" class="linecheckbox" data-checkboxname={invoiceline.lineName} data-checkboxparentname={invoiceline.lineNumber} onchange={handleChildCheckboxChange}/>
+                                </td>
+                                <td style="color: transparent;width: 230px;">
+                                    {invoiceline.name}
+                                </td>
+                                <td>
+                                    {invoiceline.loadName}
+                                </td>
+                                <td>
+                                    <lightning-formatted-number value={invoiceline.amount} format-style="currency" currency-code="EUR"></lightning-formatted-number>
+                                </td>
+                                <td>
+                                    {invoiceline.lineDate}
+                                </td>
+                                <td>
+                                    {invoiceline.tierslivre}
+                                </td>
+                                <td>
+                                    {invoiceline.calculatedBu}
+                                </td>
+                            </tr>
+                        </template>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pagination-container">
+            <div class="next">
+                <img src={arrowPagination} onclick={next} data-id="nextimg" style="display: none;">
+            </div>
+        </div>
+
+        <div class="buttons-container">
+            <lightning-button class="slds-m-top_small" variant="Neutral" label="Annuler" onclick={cancel}></lightning-button>
+            <lightning-button class="slds-m-top_small" variant="brand" onclick={getCheckedLines} label="Suivant" ></lightning-button>
+        </div>
+
+    </div>
+
+</template>

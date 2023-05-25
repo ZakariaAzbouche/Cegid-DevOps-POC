@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Targeting_Plan__c</fullName>
+    <externalId>false</externalId>
+    <label>Targeting Plan</label>
+    <referenceTo>Targeting_Plan__c</referenceTo>
+    <relationshipLabel>Objectives</relationshipLabel>
+    <relationshipName>Objectives</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

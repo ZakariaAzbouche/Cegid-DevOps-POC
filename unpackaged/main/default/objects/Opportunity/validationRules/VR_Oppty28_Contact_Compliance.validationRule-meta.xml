@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty28_Contact_Compliance</fullName>
+    <active>true</active>
+    <description>Contact should be compliant</description>
+    <errorConditionFormula>AND (
+NOT( $User.BypassVR__c ),
+NOT(INCLUDES($User.List_of_VR_to_By_Pass__c, "VR_Oppty28_Contact_Compliance")),
+ISNEW(),
+ISBLANK(SBQQ__AmendedContract__c),
+NOT(Primary_Contact__r.Compliant__c),
+NOT(ISBLANK(Primary_Contact__c))
+)</errorConditionFormula>
+    <errorMessage>The contact is not compliant (Mandatory fields : salutation, last name, first name, email, phone, service and function)</errorMessage>
+</ValidationRule>

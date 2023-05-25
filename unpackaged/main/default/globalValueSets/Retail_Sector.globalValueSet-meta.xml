@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Fashion</fullName>
+        <default>false</default>
+        <label>Fashion</label>
+    </customValue>
+    <customValue>
+        <fullName>Ladieswear</fullName>
+        <default>false</default>
+        <label>Ladieswear</label>
+    </customValue>
+    <customValue>
+        <fullName>Footwear</fullName>
+        <default>false</default>
+        <label>Footwear</label>
+    </customValue>
+    <customValue>
+        <fullName>Beauty &amp; Cosmetics</fullName>
+        <default>false</default>
+        <label>Beauty &amp; Cosmetics</label>
+    </customValue>
+    <customValue>
+        <fullName>Sportswear</fullName>
+        <default>false</default>
+        <label>Sportswear</label>
+    </customValue>
+    <customValue>
+        <fullName>Jewelry Watches</fullName>
+        <default>false</default>
+        <label>Jewelry Watches</label>
+    </customValue>
+    <customValue>
+        <fullName>Childrenswear</fullName>
+        <default>false</default>
+        <label>Childrenswear</label>
+    </customValue>
+    <customValue>
+        <fullName>Menswear</fullName>
+        <default>false</default>
+        <label>Menswear</label>
+    </customValue>
+    <customValue>
+        <fullName>Accessories</fullName>
+        <default>false</default>
+        <label>Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>Home linens</fullName>
+        <default>false</default>
+        <label>Home linens</label>
+    </customValue>
+    <customValue>
+        <fullName>Lingerie</fullName>
+        <default>false</default>
+        <label>Lingerie</label>
+    </customValue>
+    <customValue>
+        <fullName>Specialty foods</fullName>
+        <default>false</default>
+        <label>Specialty foods</label>
+    </customValue>
+    <customValue>
+        <fullName>Culture and Entertainement</fullName>
+        <default>false</default>
+        <label>Culture and Entertainement</label>
+    </customValue>
+    <customValue>
+        <fullName>Leather Goods</fullName>
+        <default>false</default>
+        <label>Leather Goods</label>
+    </customValue>
+    <customValue>
+        <fullName>General Merchandise</fullName>
+        <default>false</default>
+        <label>General Merchandise</label>
+    </customValue>
+    <customValue>
+        <fullName>Marriage birth nursery</fullName>
+        <default>false</default>
+        <label>Marriage birth nursery</label>
+    </customValue>
+    <customValue>
+        <fullName>Gifts &amp; Gadgets</fullName>
+        <default>false</default>
+        <label>Gifts &amp; Gadgets</label>
+    </customValue>
+    <customValue>
+        <fullName>Furniture</fullName>
+        <default>false</default>
+        <label>Furniture</label>
+    </customValue>
+    <customValue>
+        <fullName>Do it yourself and Gardening</fullName>
+        <default>false</default>
+        <label>Do it yourself and Gardening</label>
+    </customValue>
+    <customValue>
+        <fullName>Decoration and objects</fullName>
+        <default>false</default>
+        <label>Decoration and objects</label>
+    </customValue>
+    <customValue>
+        <fullName>Museum</fullName>
+        <default>false</default>
+        <label>Museum</label>
+    </customValue>
+    <customValue>
+        <fullName>Toys</fullName>
+        <default>false</default>
+        <label>Toys</label>
+    </customValue>
+    <customValue>
+        <fullName>Art of entertaining</fullName>
+        <default>false</default>
+        <label>Art of entertaining</label>
+    </customValue>
+    <customValue>
+        <fullName>Optical</fullName>
+        <default>false</default>
+        <label>Optical</label>
+    </customValue>
+    <customValue>
+        <fullName>Household Appliances</fullName>
+        <default>false</default>
+        <label>Household Appliances</label>
+    </customValue>
+    <customValue>
+        <fullName>Duty free</fullName>
+        <default>false</default>
+        <label>Duty free</label>
+    </customValue>
+    <customValue>
+        <fullName>Telephony IT</fullName>
+        <default>false</default>
+        <label>Telephony IT</label>
+    </customValue>
+    <customValue>
+        <fullName>Automotive</fullName>
+        <default>false</default>
+        <label>Automotive</label>
+    </customValue>
+    <customValue>
+        <fullName>Hotel and Resorts</fullName>
+        <default>false</default>
+        <label>Hotel and Resorts</label>
+    </customValue>
+    <customValue>
+        <fullName>Office supplies</fullName>
+        <default>false</default>
+        <label>Office supplies</label>
+    </customValue>
+    <customValue>
+        <fullName>Clubs and Stadiums</fullName>
+        <default>false</default>
+        <label>Clubs and Stadiums</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional clothes</fullName>
+        <default>false</default>
+        <label>Professional clothes</label>
+    </customValue>
+    <customValue>
+        <fullName>Department Store</fullName>
+        <default>false</default>
+        <label>Department Store</label>
+    </customValue>
+    <customValue>
+        <fullName>Luxury</fullName>
+        <default>false</default>
+        <label>Luxury</label>
+    </customValue>
+    <masterLabel>Retail Sector</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

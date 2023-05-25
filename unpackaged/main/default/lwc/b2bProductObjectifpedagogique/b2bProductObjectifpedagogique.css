@@ -1,0 +1,14 @@
+.product-description--container {
+    background-color: #fff;
+}
+.product-detail_intro-section--cta p {
+    background: #ff5c35;
+    border-radius: 78px;
+    color: #fff;
+    display: inline-block;
+    font-family: "gelion";
+}
+.product-detail_intro-section--cta p:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}

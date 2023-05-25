@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Code_NAF_Finance_large_Mid_1_5_b__c</fullName>
+    <description>Code NAF finance for territory assignment</description>
+    <externalId>false</externalId>
+    <formula>OR(
+BEGINS( Industry_Code__r.Name  ,"2223Z"),
+BEGINS( Industry_Code__r.Name  ,"2229A"),
+BEGINS( Industry_Code__r.Name  ,"2229B"),
+BEGINS( Industry_Code__r.Name  ,"2311Z"),
+BEGINS( Industry_Code__r.Name  ,"2312Z"),
+BEGINS( Industry_Code__r.Name  ,"2313Z"),
+BEGINS( Industry_Code__r.Name  ,"2314Z"),
+BEGINS( Industry_Code__r.Name  ,"2319Z"),
+BEGINS( Industry_Code__r.Name  ,"2320Z"),
+BEGINS( Industry_Code__r.Name  ,"2331Z"),
+BEGINS( Industry_Code__r.Name  ,"2332Z"),
+BEGINS( Industry_Code__r.Name  ,"2341Z"),
+BEGINS( Industry_Code__r.Name  ,"2342Z"),
+BEGINS( Industry_Code__r.Name  ,"2343Z"),
+BEGINS( Industry_Code__r.Name  ,"2344Z"),
+BEGINS( Industry_Code__r.Name  ,"2349Z"),
+BEGINS( Industry_Code__r.Name  ,"2351Z"),
+BEGINS( Industry_Code__r.Name  ,"2352Z"),
+BEGINS( Industry_Code__r.Name  ,"2361Z"),
+BEGINS( Industry_Code__r.Name  ,"2362Z"),
+BEGINS( Industry_Code__r.Name  ,"2363Z"),
+BEGINS( Industry_Code__r.Name  ,"2364Z"),
+BEGINS( Industry_Code__r.Name  ,"2365Z"),
+BEGINS( Industry_Code__r.Name  ,"2369Z"),
+BEGINS( Industry_Code__r.Name  ,"2370Z"),
+BEGINS( Industry_Code__r.Name  ,"2391Z"),
+BEGINS( Industry_Code__r.Name  ,"2399Z"),
+BEGINS( Industry_Code__r.Name  ,"2410Z"),
+BEGINS( Industry_Code__r.Name  ,"2420Z"),
+BEGINS( Industry_Code__r.Name  ,"2431Z"),
+BEGINS( Industry_Code__r.Name  ,"2432Z"),
+BEGINS( Industry_Code__r.Name  ,"2433Z"),
+BEGINS( Industry_Code__r.Name  ,"2434Z"),
+BEGINS( Industry_Code__r.Name  ,"2441Z"),
+BEGINS( Industry_Code__r.Name  ,"2442Z"),
+BEGINS( Industry_Code__r.Name  ,"2443Z"),
+BEGINS( Industry_Code__r.Name  ,"2444Z"),
+BEGINS( Industry_Code__r.Name  ,"2445Z"),
+BEGINS( Industry_Code__r.Name  ,"2446Z"),
+BEGINS( Industry_Code__r.Name  ,"2451Z"),
+BEGINS( Industry_Code__r.Name  ,"2452Z"),
+BEGINS( Industry_Code__r.Name  ,"2453Z"),
+BEGINS( Industry_Code__r.Name  ,"2454Z"))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tech Code NAF Finance large &amp; Mid 1_5(b)</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

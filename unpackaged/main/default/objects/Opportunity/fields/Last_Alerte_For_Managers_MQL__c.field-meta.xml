@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Alerte_For_Managers_MQL__c</fullName>
+    <description>last time when Job BatchAlertManagerOppyStageMql  sent alerte to managers</description>
+    <externalId>false</externalId>
+    <label>Last Alerte For Managers MQL</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

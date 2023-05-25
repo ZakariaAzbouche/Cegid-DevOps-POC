@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Question only asked if recommendation score ≤ 6. Customer confirms if he/she wants to be contacted back or not --></help>
+        <label><!-- Asked to be contacted back --></label>
+        <name>Asked_to_be_contacted_back__c</name>
+    </CustomFieldTranslation>

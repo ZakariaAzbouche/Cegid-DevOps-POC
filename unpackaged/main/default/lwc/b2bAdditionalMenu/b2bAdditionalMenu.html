@@ -1,0 +1,91 @@
+<template>
+    <h2 class="page-description">
+        <lightning-formatted-rich-text value={label.pageDescription}></lightning-formatted-rich-text>
+    </h2>
+
+    <div id="formations" class="slds-grid slds-gutters slds-wrap">
+        <div class="slds-col slds-size_1-of-1 slds-large-size_12-of-12">
+            <h3 class="section-title">{label.formationTitle}</h3>
+            <p class="section-description">{label.formationDescription}</p>
+        </div>
+    </div>
+
+    <div class="slds-grid slds-gutters slds-wrap">
+        <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="wrap-collabsible">
+                <input id="collapsible1" class="toggle" type="checkbox" checked="">
+                <label for="collapsible1" class="lbl-toggle">{label.gestionDuCabinet}</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+                        <lightning-formatted-rich-text value={label.formationsGestionCabinet}></lightning-formatted-rich-text>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="wrap-collabsible">
+                <input id="collapsible2" class="toggle" type="checkbox" checked="">
+                <label for="collapsible2" class="lbl-toggle">{label.gestionPaieEtDesRH}</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+                        <lightning-formatted-rich-text value={label.formationsGestionPaieRH}></lightning-formatted-rich-text>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="wrap-collabsible">
+                <input id="collapsible3" class="toggle" type="checkbox" checked="">
+                <label for="collapsible3" class="lbl-toggle">{label.productionFinanciereOuComptable}</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+                        <lightning-formatted-rich-text value={label.formationsProductionFinanciere}></lightning-formatted-rich-text>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slds-grid slds-gutters slds-wrap slds-m-bottom--x-large">
+
+        <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="wrap-collabsible">
+                <input id="collapsible4" class="toggle" type="checkbox" checked="">
+                <label for="collapsible4" class="lbl-toggle">{label.productionIndustrielle}</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+                        <lightning-formatted-rich-text value={label.formationsProductionIndustrielle}></lightning-formatted-rich-text>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="wrap-collabsible">
+                <input id="collapsible5" class="toggle" type="checkbox" checked="">
+                <label for="collapsible5" class="lbl-toggle">{label.developpementDesVentes}</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+                        <lightning-formatted-rich-text value={label.formationsDeveloppementVentes}></lightning-formatted-rich-text>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="wrap-collabsible">
+                <input id="collapsible6" class="toggle" type="checkbox" checked="">
+                <label for="collapsible6" class="lbl-toggle">{label.migrationPrestations}</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+                        <lightning-formatted-rich-text value={label.formationb2bFormationsMigrationsPrestations}></lightning-formatted-rich-text>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</template>

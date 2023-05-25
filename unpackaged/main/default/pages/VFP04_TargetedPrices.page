@@ -1,0 +1,24 @@
+<apex:page controller="VFC04_TargetdPrices">
+
+    <apex:includeLightning />
+    
+    <div id="LC007">
+        
+        
+    </div>
+    
+    <script>
+    	var res = "{!quoteId}";
+    	console.log('MCU RES : ' , res);
+    	$Lightning.use("c:LC007_ReviewPricingApp", function() {
+			$Lightning.createComponent("c:LC007_ReviewPricing",
+                                       {"recordId" : "{!quoteId}"} , //
+										"LC007", 
+                                         function(cmp){
+            								console.log("Component created");
+            							 });
+    	});
+    </script>
+    
+    
+</apex:page>

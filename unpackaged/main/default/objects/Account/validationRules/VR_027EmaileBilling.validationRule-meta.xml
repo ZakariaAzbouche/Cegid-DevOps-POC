@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_027EmaileBilling</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c ),
+ISPICKVAL( Nature__c,"CLI"),
+ISPICKVAL( Invoice_Sending_Mode__c ,"Email"),
+ISBLANK( Email_e_Billing__c )
+)</errorConditionFormula>
+    <errorDisplayField>Email_e_Billing__c</errorDisplayField>
+    <errorMessage>Email e Billing is mandatory</errorMessage>
+</ValidationRule>

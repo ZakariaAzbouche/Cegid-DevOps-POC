@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Methodology__c</fullName>
+    <description>W-001883 créer dans le cadre de TalentSoft</description>
+    <externalId>false</externalId>
+    <label>Methodology</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Plug &amp; Play</fullName>
+                <default>false</default>
+                <label>Plug &amp; Play</label>
+            </value>
+            <value>
+                <fullName>Adjust &amp; Play</fullName>
+                <default>false</default>
+                <label>Adjust &amp; Play</label>
+            </value>
+            <value>
+                <fullName>Customize &amp; Play</fullName>
+                <default>false</default>
+                <label>Customize &amp; Play</label>
+            </value>
+            <value>
+                <fullName>Advanced Services</fullName>
+                <default>false</default>
+                <label>Advanced Services</label>
+            </value>
+            <value>
+                <fullName>Additional Services</fullName>
+                <default>false</default>
+                <label>Additional Services</label>
+            </value>
+            <value>
+                <fullName>Outsourced</fullName>
+                <default>false</default>
+                <label>Outsourced</label>
+            </value>
+            <value>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+                <label>Third Party</label>
+            </value>
+            <value>
+                <fullName>Quality Insurance</fullName>
+                <default>false</default>
+                <label>Quality Insurance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

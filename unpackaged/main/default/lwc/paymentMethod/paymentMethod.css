@@ -1,0 +1,21 @@
+div.slds-p-bottom_x-small {
+    font-weight: var(--lwc-fontWeightBold);
+}
+
+.purchase-order-error {
+    background-color: #fafaf9;
+    color: #c23934;
+    border: 0.125rem solid #c23934;
+}
+
+/*.container{
+    height:100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px 14px rgb(0 0 0 / 10%);
+    border-radius: 30px;
+    padding: 8vw 6vw 6vw 6vw;
+}*/
+
+.slds-input{
+    border-radius: 30px !important;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tech_IsApproved__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>tech field to flag that the record has been approved and used in validation rules</description>
+    <externalId>false</externalId>
+    <label>tech_IsApproved</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

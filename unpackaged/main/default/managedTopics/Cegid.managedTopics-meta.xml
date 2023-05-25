@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Cegid.Content:API</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>API</name>
+        <parentName></parentName>
+        <position>11</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Accès CAC</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Accès CAC</name>
+        <parentName></parentName>
+        <position>17</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Actualités Produit</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Actualités Produit</name>
+        <parentName></parentName>
+        <position>10</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Autres...</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Autres...</name>
+        <parentName></parentName>
+        <position>12</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Boite à idée</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Boite à idée</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Cegid Pour Vous</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Cegid Pour Vous</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Cegid Profession Libérales</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Cegid Profession Libérales</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Etats Financiers</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Etats Financiers</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Event - Webinars</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Event - Webinars</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Facture Électronique</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Facture Électronique</name>
+        <parentName></parentName>
+        <position>15</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Fiscalité</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Fiscalité</name>
+        <parentName></parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Nouveautés</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Nouveautés</name>
+        <parentName></parentName>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Replay</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Replay</name>
+        <parentName></parentName>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Ressources Communauté</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Ressources Communauté</name>
+        <parentName></parentName>
+        <position>16</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Révision</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Révision</name>
+        <parentName></parentName>
+        <position>9</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Saisie</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Saisie</name>
+        <parentName></parentName>
+        <position>13</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Webformation</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Webformation</name>
+        <parentName></parentName>
+        <position>14</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Cegid.Content:Épisode</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Épisode</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty03_ExternalPSAmount</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT($User.BypassVR__c),
+NOT(ISBLANK(Professional_Services_External_Amount__c)),
+ISBLANK(Partner_Integrator__c )
+ )</errorConditionFormula>
+    <errorDisplayField>Professional_Services_External_Amount__c</errorDisplayField>
+    <errorMessage>Please select the Partner Integrator to put this amount.</errorMessage>
+</ValidationRule>

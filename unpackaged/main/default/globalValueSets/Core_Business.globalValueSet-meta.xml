@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>110</fullName>
+        <default>false</default>
+        <label>Accounting</label>
+    </customValue>
+    <customValue>
+        <fullName>156</fullName>
+        <default>false</default>
+        <label>Archiving</label>
+    </customValue>
+    <customValue>
+        <fullName>157</fullName>
+        <default>false</default>
+        <label>Audit and Tax Review</label>
+    </customValue>
+    <customValue>
+        <fullName>202</fullName>
+        <default>false</default>
+        <label>Banking communications</label>
+    </customValue>
+    <customValue>
+        <fullName>201</fullName>
+        <default>false</default>
+        <label>Bank Statement</label>
+    </customValue>
+    <customValue>
+        <fullName>210</fullName>
+        <default>false</default>
+        <label>BI Reporting</label>
+    </customValue>
+    <customValue>
+        <fullName>220</fullName>
+        <default>false</default>
+        <label>Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>270</fullName>
+        <default>false</default>
+        <label>Business Management</label>
+    </customValue>
+    <customValue>
+        <fullName>165</fullName>
+        <default>false</default>
+        <label>Collaborative Portal</label>
+    </customValue>
+    <customValue>
+        <fullName>160</fullName>
+        <default>false</default>
+        <label>Consolidation</label>
+    </customValue>
+    <customValue>
+        <fullName>205</fullName>
+        <default>false</default>
+        <label>Core HR</label>
+    </customValue>
+    <customValue>
+        <fullName>170</fullName>
+        <default>false</default>
+        <label>Council</label>
+    </customValue>
+    <customValue>
+        <fullName>260</fullName>
+        <default>false</default>
+        <label>CRM</label>
+    </customValue>
+    <customValue>
+        <fullName>238</fullName>
+        <default>false</default>
+        <label>Dematerialization</label>
+    </customValue>
+    <customValue>
+        <fullName>235</fullName>
+        <default>false</default>
+        <label>DMS</label>
+    </customValue>
+    <customValue>
+        <fullName>290</fullName>
+        <default>false</default>
+        <label>e Commerce</label>
+    </customValue>
+    <customValue>
+        <fullName>239</fullName>
+        <default>false</default>
+        <label>Editique</label>
+    </customValue>
+    <customValue>
+        <fullName>230</fullName>
+        <default>false</default>
+        <label>ERP</label>
+    </customValue>
+    <customValue>
+        <fullName>158</fullName>
+        <default>false</default>
+        <label>FEC (fic ecritures comptables)</label>
+    </customValue>
+    <customValue>
+        <fullName>130</fullName>
+        <default>false</default>
+        <label>Fixed Asset</label>
+    </customValue>
+    <customValue>
+        <fullName>171</fullName>
+        <default>false</default>
+        <label>Forecast</label>
+    </customValue>
+    <customValue>
+        <fullName>310</fullName>
+        <default>false</default>
+        <label>Generic user</label>
+    </customValue>
+    <customValue>
+        <fullName>180</fullName>
+        <default>false</default>
+        <label>Legal</label>
+    </customValue>
+    <customValue>
+        <fullName>350</fullName>
+        <default>false</default>
+        <label>Not Concerned (Others)</label>
+    </customValue>
+    <customValue>
+        <fullName>340</fullName>
+        <default>false</default>
+        <label>Not Concerned (System Licence - Hardware)</label>
+    </customValue>
+    <customValue>
+        <fullName>112</fullName>
+        <default>false</default>
+        <label>Payment monitoring</label>
+    </customValue>
+    <customValue>
+        <fullName>120</fullName>
+        <default>false</default>
+        <label>Payroll</label>
+    </customValue>
+    <customValue>
+        <fullName>250</fullName>
+        <default>false</default>
+        <label>Retail POS</label>
+    </customValue>
+    <customValue>
+        <fullName>240</fullName>
+        <default>false</default>
+        <label>Production Management</label>
+    </customValue>
+    <customValue>
+        <fullName>124</fullName>
+        <default>false</default>
+        <label>Professional fees</label>
+    </customValue>
+    <customValue>
+        <fullName>173</fullName>
+        <default>false</default>
+        <label>Revision</label>
+    </customValue>
+    <customValue>
+        <fullName>123</fullName>
+        <default>false</default>
+        <label>Social commitments</label>
+    </customValue>
+    <customValue>
+        <fullName>280</fullName>
+        <default>false</default>
+        <label>Supply Chain Management</label>
+    </customValue>
+    <customValue>
+        <fullName>203</fullName>
+        <default>false</default>
+        <label>Talent - Acquisition</label>
+    </customValue>
+    <customValue>
+        <fullName>204</fullName>
+        <default>false</default>
+        <label>Talent - Learning</label>
+    </customValue>
+    <customValue>
+        <fullName>128</fullName>
+        <default>false</default>
+        <label>Talent Management</label>
+    </customValue>
+    <customValue>
+        <fullName>155</fullName>
+        <default>false</default>
+        <label>Tax</label>
+    </customValue>
+    <customValue>
+        <fullName>152</fullName>
+        <default>false</default>
+        <label>Tax consolidation</label>
+    </customValue>
+    <customValue>
+        <fullName>295</fullName>
+        <default>false</default>
+        <label>Tax Portal</label>
+    </customValue>
+    <customValue>
+        <fullName>150</fullName>
+        <default>false</default>
+        <label>Tax return</label>
+    </customValue>
+    <customValue>
+        <fullName>126</fullName>
+        <default>false</default>
+        <label>Time Management</label>
+    </customValue>
+    <customValue>
+        <fullName>140</fullName>
+        <default>false</default>
+        <label>Treasury Management</label>
+    </customValue>
+    <customValue>
+        <fullName>251</fullName>
+        <default>false</default>
+        <label>Retail Store Excellence</label>
+    </customValue>
+    <customValue>
+        <fullName>206</fullName>
+        <default>false</default>
+        <label>Employee Experience</label>
+    </customValue>
+    <customValue>
+        <fullName>341</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mail</label>
+    </customValue>
+    <customValue>
+        <fullName>WEB</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WEB</label>
+    </customValue>
+    <customValue>
+        <fullName>Backup</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Backup</label>
+    </customValue>
+    <customValue>
+        <fullName>Social Declarations</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Social Declarations</label>
+    </customValue>
+    <customValue>
+        <fullName>Web Site</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Web Site</label>
+    </customValue>
+    <customValue>
+        <fullName>GRC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GRC</label>
+    </customValue>
+    <customValue>
+        <fullName>Group Reporting</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Group Reporting</label>
+    </customValue>
+    <customValue>
+        <fullName>EDI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EDI</label>
+    </customValue>
+    <customValue>
+        <fullName>FEC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FEC</label>
+    </customValue>
+    <customValue>
+        <fullName>GDPR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GDPR</label>
+    </customValue>
+    <customValue>
+        <fullName>Index Equality W/M</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Index Equality W/M</label>
+    </customValue>
+    <customValue>
+        <fullName>Time management</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Time management</label>
+    </customValue>
+    <customValue>
+        <fullName>GRH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GRH</label>
+    </customValue>
+    <customValue>
+        <fullName>346</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Internet Security</label>
+    </customValue>
+    <customValue>
+        <fullName>344</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Antivirus</label>
+    </customValue>
+    <customValue>
+        <fullName>342</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Database</label>
+    </customValue>
+    <customValue>
+        <fullName>343</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Operating System</label>
+    </customValue>
+    <masterLabel>Core Business</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

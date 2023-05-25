@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty08_LossReason</fullName>
+    <active>true</active>
+    <description>Loss Reason mandatory if stage =  Closed Lost, No Go Client or No Go Cegid.</description>
+    <errorConditionFormula>AND (
+NOT( $User.BypassVR__c ),
+				ISBLANK(TEXT(Loss_Reason__c)),
+				CASE( StageName ,
+									"Closed Lost",1,
+									"No Go Client",1,
+									"No Go Cegid",1,
+									0) = 1, 
+				NOT(ISNEW())
+				)</errorConditionFormula>
+    <errorDisplayField>Loss_Reason__c</errorDisplayField>
+    <errorMessage>You must define a Loss Reason for this stage.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Check_Decision_M_C_B1_SAME_D_M_C_B2</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Decision_Maker_Core_Business_1__c) =  TEXT(Decision_Maker_Core_Business_2__c),
+NOT ISBLANK(TEXT(Decision_Maker_Core_Business_1__c)),
+NOT ISBLANK(TEXT(Decision_Maker_Core_Business_2__c)))</errorConditionFormula>
+    <errorMessage>Decision Maker Core Business - 2 should be different to Decision Maker Core Business - 1</errorMessage>
+</ValidationRule>

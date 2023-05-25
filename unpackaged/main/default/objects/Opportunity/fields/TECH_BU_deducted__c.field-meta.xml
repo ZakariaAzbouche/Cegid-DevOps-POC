@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_BU_deducted__c</fullName>
+    <description>Deduce the BU of the opportunity based on the Expertise</description>
+    <externalId>false</externalId>
+    <formula>IF ( ISPICKVAL(Expertise__c, '110'), "CPA",
+
+IF (OR(ISPICKVAL(Expertise__c, '350'),ISPICKVAL(Expertise__c, '340'), ISPICKVAL(Expertise__c,
+'310'), ISPICKVAL(Expertise__c, '360'), ISPICKVAL(Expertise__c, '370')), "FINANCE",
+
+IF (OR(ISPICKVAL(Expertise__c, '320'), ISPICKVAL(Expertise__c, '380')), "HCM",
+
+IF (ISPICKVAL(Expertise__c, '200'), "RETAIL",
+
+IF (ISPICKVAL(Expertise__c, '100'), "SB",
+
+IF (ISPICKVAL(Expertise__c, '999'), "OTHER",
+
+""
+
+)
+)
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TECH BU deducted</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

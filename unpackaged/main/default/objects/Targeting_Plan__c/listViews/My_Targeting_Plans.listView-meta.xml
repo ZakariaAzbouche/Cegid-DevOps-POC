@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Targeting_Plans</fullName>
+    <columns>NAME</columns>
+    <columns>Saas_Target_Amount__c</columns>
+    <columns>Sales_Purpose__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>Status__c</columns>
+    <columns>Description__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Targeting Plans</label>
+</ListView>

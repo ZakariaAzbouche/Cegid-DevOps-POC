@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Neutral</masterLabel>
+        <translation>Neutre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pro</masterLabel>
+        <translation>Pro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>To Be Convinced</masterLabel>
+        <translation>A convaincre</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Purposes__c</fullName>
+    <description>This field is linked to the filter done with “Add Product” button in quote”</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is linked to the filter done with “Add Product” button in quote”</inlineHelpText>
+    <label>Quote's Sales Purpose</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Sales_Purpose</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cegid_XRP_Ultimate</fullName>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Synchronization_Date_Zuora__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Reference_Number__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Asset_Code__c</columns>
+    <columns>SaaS_production_code__c</columns>
+    <columns>Service_Book__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>StructureLevel2__c</columns>
+    <columns>Category__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>contains</operation>
+        <value>xrp ultimate</value>
+    </filters>
+    <label>Cegid XRP Ultimate</label>
+</ListView>

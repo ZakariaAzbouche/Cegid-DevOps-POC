@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR016_ChargeTypeAlwaysRequired</fullName>
+    <active>true</active>
+    <description>Because of Integration needs and critical setup, Charge Type is always required for non-Article Products.</description>
+    <errorConditionFormula>AND( RecordType.DeveloperName != 'Article', ISBLANK( TEXT(SBQQ__ChargeType__c) ) )</errorConditionFormula>
+    <errorMessage>Please, fill the Charge Type field for a non-Article Product.</errorMessage>
+</ValidationRule>

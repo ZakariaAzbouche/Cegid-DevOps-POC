@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Articles</fullName>
+    <columns>Reference_Number__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Asset_Code__c</columns>
+    <columns>SaaS_production_code__c</columns>
+    <columns>NoRoyalty__c</columns>
+    <columns>percentage_of_turnover__c</columns>
+    <columns>Quantity_Declarative__c</columns>
+    <columns>Brand__c</columns>
+    <columns>Declarative_Royalties__c</columns>
+    <columns>percentage_value_of_turnover__c</columns>
+    <columns>Purchasing_Price__c</columns>
+    <columns>Purchased_Quantity__c</columns>
+    <columns>Buying_Metric__c</columns>
+    <columns>id_buyme__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Reference_Number__c</field>
+        <operation>startsWith</operation>
+        <value>A</value>
+    </filters>
+    <label>Articles</label>
+</ListView>

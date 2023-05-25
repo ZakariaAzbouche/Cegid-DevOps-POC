@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buffer_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Buffer Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>HCM Canada - USA</fullName>
+                <default>false</default>
+                <label>HCM Canada - USA</label>
+            </value>
+            <value>
+                <fullName>HCM Iberia</fullName>
+                <default>false</default>
+                <label>HCM Iberia</label>
+            </value>
+            <value>
+                <fullName>HCM Iberia - Latam</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HCM Iberia - Latam</label>
+            </value>
+            <value>
+                <fullName>HCM Latam</fullName>
+                <default>false</default>
+                <label>HCM Latam</label>
+            </value>
+            <value>
+                <fullName>HCM Time Management Rest of the world</fullName>
+                <default>false</default>
+                <label>HCM Time Management Rest of the world</label>
+            </value>
+            <value>
+                <fullName>HCM Visual Time</fullName>
+                <default>false</default>
+                <label>HCM Visual Time</label>
+            </value>
+            <value>
+                <fullName>Partner Marketing leads - ERP</fullName>
+                <default>false</default>
+                <label>Partner Marketing leads - ERP</label>
+            </value>
+            <value>
+                <fullName>Partner Marketing leads – HCM</fullName>
+                <default>false</default>
+                <label>Partner Marketing leads – HCM</label>
+            </value>
+            <value>
+                <fullName>Partner Marketing leads - Retail</fullName>
+                <default>false</default>
+                <label>Partner Marketing leads - Retail</label>
+            </value>
+            <value>
+                <fullName>Retail International</fullName>
+                <default>false</default>
+                <label>Retail International</label>
+            </value>
+            <value>
+                <fullName>SDR CPA France</fullName>
+                <default>false</default>
+                <label>SDR CPA France</label>
+            </value>
+            <value>
+                <fullName>SDR Finance France</fullName>
+                <default>false</default>
+                <label>SDR Finance France</label>
+            </value>
+            <value>
+                <fullName>SDR HCM France</fullName>
+                <default>false</default>
+                <label>SDR HCM France</label>
+            </value>
+            <value>
+                <fullName>SDR HCM International</fullName>
+                <default>false</default>
+                <label>SDR HCM International</label>
+            </value>
+            <value>
+                <fullName>SDR Leads</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SDR Leads</label>
+            </value>
+            <value>
+                <fullName>SDR Notilus</fullName>
+                <default>false</default>
+                <label>SDR Notilus</label>
+            </value>
+            <value>
+                <fullName>SDR Retail France</fullName>
+                <default>false</default>
+                <label>SDR Retail France</label>
+            </value>
+            <value>
+                <fullName>SDR StorIQ</fullName>
+                <default>false</default>
+                <label>SDR StorIQ</label>
+            </value>
+            <value>
+                <fullName>Talentsoft Benelux</fullName>
+                <default>false</default>
+                <label>Talentsoft Benelux</label>
+            </value>
+            <value>
+                <fullName>Talentsoft DACH</fullName>
+                <default>false</default>
+                <label>Talentsoft DACH</label>
+            </value>
+            <value>
+                <fullName>Talentsoft Nordics</fullName>
+                <default>false</default>
+                <label>Talentsoft Nordics</label>
+            </value>
+            <value>
+                <fullName>TAX Spain</fullName>
+                <default>false</default>
+                <label>TAX Spain</label>
+            </value>
+            <value>
+                <fullName>Telemarketing France</fullName>
+                <default>false</default>
+                <label>Telemarketing France</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

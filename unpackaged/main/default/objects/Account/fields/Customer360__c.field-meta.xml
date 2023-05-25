@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer360__c</fullName>
+    <description>URL that redirects to 360 Symphony vue of the account.
+The variable part of the URL is the ERP Number at the end. It there is no ERP number, the formula is blank.
+Created for W-002289.</description>
+    <externalId>false</externalId>
+    <formula>IF(ERP_Number__c != null,
+			
+ HYPERLINK('https://symphony/MicroStrategy/asp/Main.aspx?Server=SYMPHONYIS&amp;Project=CEGID_BI&amp;Port=0&amp;evt=3140&amp;src=Main.aspx.3140&amp;documentID=2E9E16DD4AC132EB6F40CD8357F4B210&amp;elementsPromptAnswers=6DFAEE2B48CFDA3488BAE1A93A8171D5;6DFAEE2B48CFDA3488BAE1A93A8171D5:' + ERP_Number__c, "Click to Customer 360 access", "_self"), '')</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Customer 360</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

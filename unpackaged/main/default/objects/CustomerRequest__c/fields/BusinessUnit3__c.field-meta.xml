@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BusinessUnit3__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>BU of the Product concerned by the request</inlineHelpText>
+    <label>Business Unit 3</label>
+    <referenceTo>Business_Unit__c</referenceTo>
+    <relationshipLabel>Customer Requests (Business Unit 3)</relationshipLabel>
+    <relationshipName>Customer_Requests1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

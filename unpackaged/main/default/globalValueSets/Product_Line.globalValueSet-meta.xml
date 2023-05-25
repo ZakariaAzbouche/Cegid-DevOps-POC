@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>225</fullName>
+        <default>false</default>
+        <label>.Carlabella Finances</label>
+    </customValue>
+    <customValue>
+        <fullName>047</fullName>
+        <default>false</default>
+        <label>.Next M</label>
+    </customValue>
+    <customValue>
+        <fullName>043</fullName>
+        <default>false</default>
+        <label>Amphora</label>
+    </customValue>
+    <customValue>
+        <fullName>021</fullName>
+        <default>false</default>
+        <label>Ancienne Gamme GTI</label>
+    </customValue>
+    <customValue>
+        <fullName>034</fullName>
+        <default>false</default>
+        <label>Anciennes gammes - BTP</label>
+    </customValue>
+    <customValue>
+        <fullName>107</fullName>
+        <default>false</default>
+        <label>Anciennes Gammes - CCMX PCL</label>
+    </customValue>
+    <customValue>
+        <fullName>033</fullName>
+        <default>false</default>
+        <label>Anciennes gammes - CHR</label>
+    </customValue>
+    <customValue>
+        <fullName>029</fullName>
+        <default>false</default>
+        <label>Anciennes gammes - Entreprises</label>
+    </customValue>
+    <customValue>
+        <fullName>032</fullName>
+        <default>false</default>
+        <label>Anciennes gammes - Industrie</label>
+    </customValue>
+    <customValue>
+        <fullName>031</fullName>
+        <default>false</default>
+        <label>Anciennes gammes - Mode</label>
+    </customValue>
+    <customValue>
+        <fullName>242</fullName>
+        <default>false</default>
+        <label>Atalante</label>
+    </customValue>
+    <customValue>
+        <fullName>098</fullName>
+        <default>false</default>
+        <label>A ventiler - Recherches et méthodes</label>
+    </customValue>
+    <customValue>
+        <fullName>279</fullName>
+        <default>false</default>
+        <label>Axys</label>
+    </customValue>
+    <customValue>
+        <fullName>117</fullName>
+        <default>false</default>
+        <label>Carlabella</label>
+    </customValue>
+    <customValue>
+        <fullName>108</fullName>
+        <default>false</default>
+        <label>Ccmx anciennes gammes - ENT</label>
+    </customValue>
+    <customValue>
+        <fullName>113</fullName>
+        <default>false</default>
+        <label>CCMX Entreprise (Unix)</label>
+    </customValue>
+    <customValue>
+        <fullName>100</fullName>
+        <default>false</default>
+        <label>Ccmx Expert Winner</label>
+    </customValue>
+    <customValue>
+        <fullName>103</fullName>
+        <default>false</default>
+        <label>CCMX Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>102</fullName>
+        <default>false</default>
+        <label>Ccmx Win Winner</label>
+    </customValue>
+    <customValue>
+        <fullName>030</fullName>
+        <default>false</default>
+        <label>Cegid anciennes gammes - PCL</label>
+    </customValue>
+    <customValue>
+        <fullName>015</fullName>
+        <default>false</default>
+        <label>Cegid CAC</label>
+    </customValue>
+    <customValue>
+        <fullName>027</fullName>
+        <default>false</default>
+        <label>Cegid Consolidation</label>
+    </customValue>
+    <customValue>
+        <fullName>230</fullName>
+        <default>false</default>
+        <label>Cegid Expert</label>
+    </customValue>
+    <customValue>
+        <fullName>119</fullName>
+        <default>false</default>
+        <label>Cegid Expert agricole</label>
+    </customValue>
+    <customValue>
+        <fullName>232</fullName>
+        <default>false</default>
+        <label>LePortail.Cegid.com</label>
+    </customValue>
+    <customValue>
+        <fullName>237</fullName>
+        <default>false</default>
+        <label>Cegid Front RH</label>
+    </customValue>
+    <customValue>
+        <fullName>004</fullName>
+        <default>false</default>
+        <label>Cegid HR Sprint</label>
+    </customValue>
+    <customValue>
+        <fullName>138</fullName>
+        <default>false</default>
+        <label>Cegid HR Ultimate</label>
+    </customValue>
+    <customValue>
+        <fullName>275</fullName>
+        <default>false</default>
+        <label>Cegid Loop</label>
+    </customValue>
+    <customValue>
+        <fullName>040</fullName>
+        <default>false</default>
+        <label>Cegid Missions de Conseil</label>
+    </customValue>
+    <customValue>
+        <fullName>045</fullName>
+        <default>false</default>
+        <label>Cegid PMI</label>
+    </customValue>
+    <customValue>
+        <fullName>136</fullName>
+        <default>false</default>
+        <label>Cegid Portail Etafi - Déclaratif</label>
+    </customValue>
+    <customValue>
+        <fullName>134</fullName>
+        <default>false</default>
+        <label>Cegid Portail Etafi - New Services</label>
+    </customValue>
+    <customValue>
+        <fullName>128</fullName>
+        <default>false</default>
+        <label>Cegid Public Finance Collectivités</label>
+    </customValue>
+    <customValue>
+        <fullName>127</fullName>
+        <default>false</default>
+        <label>Cegid Public Finance EP</label>
+    </customValue>
+    <customValue>
+        <fullName>129</fullName>
+        <default>false</default>
+        <label>Cegid Public SIRH</label>
+    </customValue>
+    <customValue>
+        <fullName>036</fullName>
+        <default>false</default>
+        <label>Cegid Quadra</label>
+    </customValue>
+    <customValue>
+        <fullName>017</fullName>
+        <default>false</default>
+        <label>Cegid Retail Y2</label>
+    </customValue>
+    <customValue>
+        <fullName>266</fullName>
+        <default>false</default>
+        <label>Cegid Talents</label>
+    </customValue>
+    <customValue>
+        <fullName>130</fullName>
+        <default>false</default>
+        <label>Cegid Tax Ultimate ES</label>
+    </customValue>
+    <customValue>
+        <fullName>131</fullName>
+        <default>false</default>
+        <label>Cegid Tax Ultimate FR</label>
+    </customValue>
+    <customValue>
+        <fullName>137</fullName>
+        <default>false</default>
+        <label>Cegid XRP Flex</label>
+    </customValue>
+    <customValue>
+        <fullName>007</fullName>
+        <default>false</default>
+        <label>Cegid XRP Sprint Gestion commerciale</label>
+    </customValue>
+    <customValue>
+        <fullName>009</fullName>
+        <default>false</default>
+        <label>Cegid XRP Sprint Gestion d&apos;affaires</label>
+    </customValue>
+    <customValue>
+        <fullName>022</fullName>
+        <default>false</default>
+        <label>Cegid XRP Sprint Gestion de production</label>
+    </customValue>
+    <customValue>
+        <fullName>003</fullName>
+        <default>false</default>
+        <label>Cegid XRP Sprint Gestion financière</label>
+    </customValue>
+    <customValue>
+        <fullName>133</fullName>
+        <default>false</default>
+        <label>Cegid XRP Ultimate</label>
+    </customValue>
+    <customValue>
+        <fullName>239</fullName>
+        <default>false</default>
+        <label>Cegid Yes</label>
+    </customValue>
+    <customValue>
+        <fullName>257</fullName>
+        <default>false</default>
+        <label>Channel</label>
+    </customValue>
+    <customValue>
+        <fullName>210</fullName>
+        <default>false</default>
+        <label>Civitas - Anciennes Gammes</label>
+    </customValue>
+    <customValue>
+        <fullName>220</fullName>
+        <default>false</default>
+        <label>Civitas - A ventiler</label>
+    </customValue>
+    <customValue>
+        <fullName>206</fullName>
+        <default>false</default>
+        <label>Civitas GF - C/S</label>
+    </customValue>
+    <customValue>
+        <fullName>212</fullName>
+        <default>false</default>
+        <label>Civitas Must</label>
+    </customValue>
+    <customValue>
+        <fullName>202</fullName>
+        <default>false</default>
+        <label>Civitas RH - C/S</label>
+    </customValue>
+    <customValue>
+        <fullName>214</fullName>
+        <default>false</default>
+        <label>Civitas Services Généraux</label>
+    </customValue>
+    <customValue>
+        <fullName>046</fullName>
+        <default>false</default>
+        <label>Colombus</label>
+    </customValue>
+    <customValue>
+        <fullName>231</fullName>
+        <default>false</default>
+        <label>Conventions Experts</label>
+    </customValue>
+    <customValue>
+        <fullName>270</fullName>
+        <default>false</default>
+        <label>CV Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>135</fullName>
+        <default>false</default>
+        <label>Cylande</label>
+    </customValue>
+    <customValue>
+        <fullName>238</fullName>
+        <default>false</default>
+        <label>Détection de missions</label>
+    </customValue>
+    <customValue>
+        <fullName>277</fullName>
+        <default>false</default>
+        <label>Dièse</label>
+    </customValue>
+    <customValue>
+        <fullName>037</fullName>
+        <default>false</default>
+        <label>Etafi Decisiv</label>
+    </customValue>
+    <customValue>
+        <fullName>120</fullName>
+        <default>false</default>
+        <label>Etafi Start</label>
+    </customValue>
+    <customValue>
+        <fullName>112</fullName>
+        <default>false</default>
+        <label>eWS</label>
+    </customValue>
+    <customValue>
+        <fullName>109</fullName>
+        <default>false</default>
+        <label>Expert 400</label>
+    </customValue>
+    <customValue>
+        <fullName>105</fullName>
+        <default>false</default>
+        <label>FCRS</label>
+    </customValue>
+    <customValue>
+        <fullName>023</fullName>
+        <default>false</default>
+        <label>Front et Back Office CHR (PGI)</label>
+    </customValue>
+    <customValue>
+        <fullName>025</fullName>
+        <default>false</default>
+        <label>Gestion Commerciale BTP (PGI)</label>
+    </customValue>
+    <customValue>
+        <fullName>204</fullName>
+        <default>false</default>
+        <label>GF 150</label>
+    </customValue>
+    <customValue>
+        <fullName>008</fullName>
+        <default>false</default>
+        <label>GRC Générique (PGI)</label>
+    </customValue>
+    <customValue>
+        <fullName>115</fullName>
+        <default>false</default>
+        <label>Horoquartz</label>
+    </customValue>
+    <customValue>
+        <fullName>122</fullName>
+        <default>false</default>
+        <label>INTEGRATION FISCALE</label>
+    </customValue>
+    <customValue>
+        <fullName>268</fullName>
+        <default>false</default>
+        <label>IQ</label>
+    </customValue>
+    <customValue>
+        <fullName>039</fullName>
+        <default>false</default>
+        <label>Isoflex</label>
+    </customValue>
+    <customValue>
+        <fullName>116</fullName>
+        <default>false</default>
+        <label>Jedéclare</label>
+    </customValue>
+    <customValue>
+        <fullName>038</fullName>
+        <default>false</default>
+        <label>LOGAM</label>
+    </customValue>
+    <customValue>
+        <fullName>900</fullName>
+        <default>false</default>
+        <label>Logiciel (OS, SGBD, Bureautique ...)</label>
+    </customValue>
+    <customValue>
+        <fullName>263</fullName>
+        <default>false</default>
+        <label>Lonix</label>
+    </customValue>
+    <customValue>
+        <fullName>099</fullName>
+        <default>false</default>
+        <label>Non Codifié</label>
+    </customValue>
+    <customValue>
+        <fullName>048</fullName>
+        <default>false</default>
+        <label>OAD/OAV</label>
+    </customValue>
+    <customValue>
+        <fullName>016</fullName>
+        <default>false</default>
+        <label>OGA</label>
+    </customValue>
+    <customValue>
+        <fullName>259</fullName>
+        <default>false</default>
+        <label>Old Cegid Retail Mobile</label>
+    </customValue>
+    <customValue>
+        <fullName>026</fullName>
+        <default>false</default>
+        <label>Old NEXT D</label>
+    </customValue>
+    <customValue>
+        <fullName>126</fullName>
+        <default>false</default>
+        <label>Optim’FEC</label>
+    </customValue>
+    <customValue>
+        <fullName>125</fullName>
+        <default>false</default>
+        <label>Optim’is Datafinance</label>
+    </customValue>
+    <customValue>
+        <fullName>123</fullName>
+        <default>false</default>
+        <label>Optim’is IF</label>
+    </customValue>
+    <customValue>
+        <fullName>276</fullName>
+        <default>false</default>
+        <label>Optitaxes</label>
+    </customValue>
+    <customValue>
+        <fullName>019</fullName>
+        <default>false</default>
+        <label>Orli &amp; SCM</label>
+    </customValue>
+    <customValue>
+        <fullName>260</fullName>
+        <default>false</default>
+        <label>Passerelle - Echanges/Reprises</label>
+    </customValue>
+    <customValue>
+        <fullName>280</fullName>
+        <default>false</default>
+        <label>Peoplenet</label>
+    </customValue>
+    <customValue>
+        <fullName>132</fullName>
+        <default>false</default>
+        <label>People Vision</label>
+    </customValue>
+    <customValue>
+        <fullName>010</fullName>
+        <default>false</default>
+        <label>Plateforme PGI (Web Access)</label>
+    </customValue>
+    <customValue>
+        <fullName>233</fullName>
+        <default>false</default>
+        <label>Portail QWS</label>
+    </customValue>
+    <customValue>
+        <fullName>252</fullName>
+        <default>false</default>
+        <label>Produit partenaire : AGYSOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>248</fullName>
+        <default>false</default>
+        <label>Produit partenaire : Altares</label>
+    </customValue>
+    <customValue>
+        <fullName>118</fullName>
+        <default>false</default>
+        <label>Produit partenaire : ALTAVEN</label>
+    </customValue>
+    <customValue>
+        <fullName>269</fullName>
+        <default>false</default>
+        <label>Produit partenaire : ASTECH</label>
+    </customValue>
+    <customValue>
+        <fullName>253</fullName>
+        <default>false</default>
+        <label>Produit partenaire : BODET</label>
+    </customValue>
+    <customValue>
+        <fullName>246</fullName>
+        <default>false</default>
+        <label>Produit partenaire : C3S</label>
+    </customValue>
+    <customValue>
+        <fullName>273</fullName>
+        <default>false</default>
+        <label>Produit partenaire : E DECLARATION</label>
+    </customValue>
+    <customValue>
+        <fullName>254</fullName>
+        <default>false</default>
+        <label>Produit partenaire : EFL</label>
+    </customValue>
+    <customValue>
+        <fullName>274</fullName>
+        <default>false</default>
+        <label>Produit partenaire : ESCORT</label>
+    </customValue>
+    <customValue>
+        <fullName>265</fullName>
+        <default>false</default>
+        <label>Produit partenaire: Humanforces</label>
+    </customValue>
+    <customValue>
+        <fullName>111</fullName>
+        <default>false</default>
+        <label>Produit partenaire : ISIALIS</label>
+    </customValue>
+    <customValue>
+        <fullName>264</fullName>
+        <default>false</default>
+        <label>Produit partenaire : Office 365</label>
+    </customValue>
+    <customValue>
+        <fullName>272</fullName>
+        <default>false</default>
+        <label>Produit partenaire : PEOPLE DOC</label>
+    </customValue>
+    <customValue>
+        <fullName>247</fullName>
+        <default>false</default>
+        <label>Produit partenaire : Pertilience</label>
+    </customValue>
+    <customValue>
+        <fullName>251</fullName>
+        <default>false</default>
+        <label>Produit partenaire : Qliktech</label>
+    </customValue>
+    <customValue>
+        <fullName>241</fullName>
+        <default>false</default>
+        <label>Produit partenaire : Sidetrade</label>
+    </customValue>
+    <customValue>
+        <fullName>245</fullName>
+        <default>false</default>
+        <label>Produit partenaire : UGAL</label>
+    </customValue>
+    <customValue>
+        <fullName>255</fullName>
+        <default>false</default>
+        <label>Produit partenaire : Vdoc</label>
+    </customValue>
+    <customValue>
+        <fullName>243</fullName>
+        <default>false</default>
+        <label>Produit partenaire : Yooz</label>
+    </customValue>
+    <customValue>
+        <fullName>249</fullName>
+        <default>false</default>
+        <label>Produit partenaires : CHR</label>
+    </customValue>
+    <customValue>
+        <fullName>236</fullName>
+        <default>false</default>
+        <label>Produits partenaire Octime</label>
+    </customValue>
+    <customValue>
+        <fullName>104</fullName>
+        <default>false</default>
+        <label>Produits partenaires : Xpert</label>
+    </customValue>
+    <customValue>
+        <fullName>041</fullName>
+        <default>false</default>
+        <label>Produits partenaires Comptanoo</label>
+    </customValue>
+    <customValue>
+        <fullName>106</fullName>
+        <default>false</default>
+        <label>Produits partenaires EIC</label>
+    </customValue>
+    <customValue>
+        <fullName>244</fullName>
+        <default>false</default>
+        <label>Produits Visa</label>
+    </customValue>
+    <customValue>
+        <fullName>228</fullName>
+        <default>false</default>
+        <label>Projet DSN</label>
+    </customValue>
+    <customValue>
+        <fullName>035</fullName>
+        <default>false</default>
+        <label>QuadraEntreprise</label>
+    </customValue>
+    <customValue>
+        <fullName>121</fullName>
+        <default>false</default>
+        <label>QUADRA NEW</label>
+    </customValue>
+    <customValue>
+        <fullName>267</fullName>
+        <default>false</default>
+        <label>QuadraPropreté</label>
+    </customValue>
+    <customValue>
+        <fullName>Q01</fullName>
+        <default>false</default>
+        <label>Quadratus générique</label>
+    </customValue>
+    <customValue>
+        <fullName>028</fullName>
+        <default>false</default>
+        <label>Reporting BI (Open)</label>
+    </customValue>
+    <customValue>
+        <fullName>250</fullName>
+        <default>false</default>
+        <label>Retail Intelligence</label>
+    </customValue>
+    <customValue>
+        <fullName>200</fullName>
+        <default>false</default>
+        <label>RH - 150</label>
+    </customValue>
+    <customValue>
+        <fullName>110</fullName>
+        <default>false</default>
+        <label>RHPI</label>
+    </customValue>
+    <customValue>
+        <fullName>114</fullName>
+        <default>false</default>
+        <label>RH Place Portail</label>
+    </customValue>
+    <customValue>
+        <fullName>101</fullName>
+        <default>false</default>
+        <label>RH Place Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>271</fullName>
+        <default>false</default>
+        <label>RITA</label>
+    </customValue>
+    <customValue>
+        <fullName>240</fullName>
+        <default>false</default>
+        <label>SYGES</label>
+    </customValue>
+    <customValue>
+        <fullName>057</fullName>
+        <default>false</default>
+        <label>TDA</label>
+    </customValue>
+    <customValue>
+        <fullName>055</fullName>
+        <default>false</default>
+        <label>TDA CHR</label>
+    </customValue>
+    <customValue>
+        <fullName>054</fullName>
+        <default>false</default>
+        <label>TDA Entreprise</label>
+    </customValue>
+    <customValue>
+        <fullName>053</fullName>
+        <default>false</default>
+        <label>TDA Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>051</fullName>
+        <default>false</default>
+        <label>TDA PCL</label>
+    </customValue>
+    <customValue>
+        <fullName>056</fullName>
+        <default>false</default>
+        <label>TDA RETAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>052</fullName>
+        <default>false</default>
+        <label>TDA RH</label>
+    </customValue>
+    <customValue>
+        <fullName>258</fullName>
+        <default>false</default>
+        <label>Visa C/S</label>
+    </customValue>
+    <customValue>
+        <fullName>124</fullName>
+        <default>false</default>
+        <label>Winretail</label>
+    </customValue>
+    <customValue>
+        <fullName>044</fullName>
+        <default>false</default>
+        <label>Winshop</label>
+    </customValue>
+    <customValue>
+        <fullName>002</fullName>
+        <default>false</default>
+        <label>YourCegid Entrepreneurs &amp; TPE</label>
+    </customValue>
+    <customValue>
+        <fullName>006</fullName>
+        <default>false</default>
+        <label>Your Cegid Fiscalité</label>
+    </customValue>
+    <customValue>
+        <fullName>005</fullName>
+        <default>false</default>
+        <label>Cegid Immobilisation Sprint</label>
+    </customValue>
+    <customValue>
+        <fullName>229</fullName>
+        <default>false</default>
+        <label>Yourcegid RH Intelligence</label>
+    </customValue>
+    <customValue>
+        <fullName>050</fullName>
+        <default>false</default>
+        <label>YourCegid Solos</label>
+    </customValue>
+    <customValue>
+        <fullName>001</fullName>
+        <default>false</default>
+        <label>Non Affecté</label>
+    </customValue>
+    <customValue>
+        <fullName>235</fullName>
+        <default>false</default>
+        <label>Partner : Kyriba</label>
+    </customValue>
+    <customValue>
+        <fullName>278</fullName>
+        <default>false</default>
+        <label>Cegid Immobilisation Ultimate</label>
+    </customValue>
+    <customValue>
+        <fullName>281</fullName>
+        <default>false</default>
+        <label>Winstore</label>
+    </customValue>
+    <customValue>
+        <fullName>282</fullName>
+        <default>false</default>
+        <label>UR (United Retail)</label>
+    </customValue>
+    <customValue>
+        <fullName>283</fullName>
+        <default>false</default>
+        <label>Cyrus</label>
+    </customValue>
+    <customValue>
+        <fullName>284</fullName>
+        <default>false</default>
+        <label>Storeland</label>
+    </customValue>
+    <customValue>
+        <fullName>234</fullName>
+        <default>false</default>
+        <label>Cegid Flow</label>
+    </customValue>
+    <customValue>
+        <fullName>286</fullName>
+        <default>false</default>
+        <label>Partner : Esker</label>
+    </customValue>
+    <customValue>
+        <fullName>287</fullName>
+        <default>false</default>
+        <label>Cegid Gérer Ma Boite</label>
+    </customValue>
+    <customValue>
+        <fullName>801</fullName>
+        <default>false</default>
+        <label>OLD Meta4 e-mind</label>
+    </customValue>
+    <customValue>
+        <fullName>291</fullName>
+        <default>false</default>
+        <label>Dhatim Stand Alone</label>
+    </customValue>
+    <customValue>
+        <fullName>292</fullName>
+        <default>false</default>
+        <label>Cegid Conciliator</label>
+    </customValue>
+    <customValue>
+        <fullName>293</fullName>
+        <default>false</default>
+        <label>Cegid Conciliator Pay</label>
+    </customValue>
+    <customValue>
+        <fullName>294</fullName>
+        <default>false</default>
+        <label>Cegid Assurex</label>
+    </customValue>
+    <customValue>
+        <fullName>295</fullName>
+        <default>false</default>
+        <label>Star</label>
+    </customValue>
+    <customValue>
+        <fullName>296</fullName>
+        <default>false</default>
+        <label>Cegid Isie</label>
+    </customValue>
+    <customValue>
+        <fullName>297</fullName>
+        <default>false</default>
+        <label>Alex &amp; Oct</label>
+    </customValue>
+    <customValue>
+        <fullName>298</fullName>
+        <default>false</default>
+        <label>Cegid Treasury</label>
+    </customValue>
+    <customValue>
+        <fullName>290</fullName>
+        <default>false</default>
+        <label>Cedricom</label>
+    </customValue>
+    <customValue>
+        <fullName>299</fullName>
+        <default>false</default>
+        <label>Cegid Relations Bancaires</label>
+    </customValue>
+    <customValue>
+        <fullName>300</fullName>
+        <default>false</default>
+        <label>Cegid Optichèque</label>
+    </customValue>
+    <customValue>
+        <fullName>301</fullName>
+        <default>false</default>
+        <label>Cegid Serveurs Bancaires</label>
+    </customValue>
+    <customValue>
+        <fullName>302</fullName>
+        <default>false</default>
+        <label>Talentsoft</label>
+    </customValue>
+    <customValue>
+        <fullName>303</fullName>
+        <default>false</default>
+        <label>Cegid Professions Libérales</label>
+    </customValue>
+    <customValue>
+        <fullName>304</fullName>
+        <default>false</default>
+        <label>VisualTime</label>
+    </customValue>
+    <customValue>
+        <fullName>305</fullName>
+        <default>false</default>
+        <label>Partner : SIS-ID</label>
+    </customValue>
+    <customValue>
+        <fullName>306</fullName>
+        <default>false</default>
+        <label>Wittyfit</label>
+    </customValue>
+    <customValue>
+        <fullName>307</fullName>
+        <default>false</default>
+        <label>Cegid Retail Store Excellence</label>
+    </customValue>
+    <customValue>
+        <fullName>289</fullName>
+        <default>false</default>
+        <label>Koalaboox</label>
+    </customValue>
+    <customValue>
+        <fullName>308</fullName>
+        <default>false</default>
+        <label>Cegid Notilus TNE</label>
+    </customValue>
+    <customValue>
+        <fullName>309</fullName>
+        <default>false</default>
+        <label>Cegid Notilus PIO</label>
+    </customValue>
+    <customValue>
+        <fullName>310</fullName>
+        <default>false</default>
+        <label>Cegid Notilus CAR</label>
+    </customValue>
+    <customValue>
+        <fullName>222</fullName>
+        <default>false</default>
+        <label>DevisFact Gescom</label>
+    </customValue>
+    <customValue>
+        <fullName>311</fullName>
+        <default>false</default>
+        <label>Cegid Digitalrecruiters</label>
+    </customValue>
+    <customValue>
+        <fullName>256</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RH - CARRUS</label>
+    </customValue>
+    <customValue>
+        <fullName>049</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WinHôtel&amp;WinRestau</label>
+    </customValue>
+    <customValue>
+        <fullName>5</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cegid Immobilisations Sprint</label>
+    </customValue>
+    <customValue>
+        <fullName>285</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Produit partenaire Quick MS</label>
+    </customValue>
+    <masterLabel>Product Line</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_CustomerReq01_ApprovalMandatory</fullName>
+    <active>true</active>
+    <description>All records must go through the approval process</description>
+    <errorConditionFormula>AND (
+				NOT($User.BypassVR__c),
+				NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_CustomerReq01_ApprovalMandatory")),
+				TEXT(Status__c) &lt;&gt; 'Draft' &amp;&amp; NOT(tech_IsSubmitted__c)
+)</errorConditionFormula>
+    <errorMessage>You can't change the status of a customer request before submitting it for approval.</errorMessage>
+</ValidationRule>

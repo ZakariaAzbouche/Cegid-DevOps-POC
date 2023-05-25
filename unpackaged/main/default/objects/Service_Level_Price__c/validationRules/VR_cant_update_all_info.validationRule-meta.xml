@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_cant_update_all_info</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(not( $User.BypassVR__c ),not(isnew()),or(ischanged( Price_Book__c ),ischanged( Sales_Purpose__c ),ischanged( Service_Level__c )))</errorConditionFormula>
+    <errorMessage>Once created, Service level, Sales Purpose and Pricebook can't be modified on Service Level Price.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Attached Document --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Attached Document --></value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>CGV Page Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GTC Page Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Livret de Service Page Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Book Page Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technical Prerequisite Page Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Attached Document Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Conditions Générales de Vente --></label>
+        <name>Conditions_Generales_de_Vente</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Conditions Générales</label>
+        <name>General_Terms_And_Conditions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Livret de Service --></label>
+        <name>Livret_de_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Livret de service</label>
+        <name>Service_Book</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Pré-requis techniques</label>
+        <name>Technical_Prerequisite</name>
+    </recordTypes>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

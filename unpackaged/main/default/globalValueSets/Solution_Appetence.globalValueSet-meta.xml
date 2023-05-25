@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Orli</fullName>
+        <default>false</default>
+        <label>Orli</label>
+    </customValue>
+    <customValue>
+        <fullName>HCM Solutions</fullName>
+        <default>false</default>
+        <label>HCM Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>conciliator CRB</fullName>
+        <default>false</default>
+        <label>conciliator CRB</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance</fullName>
+        <default>false</default>
+        <label>Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Outil de production CPA</fullName>
+        <default>false</default>
+        <label>Outil de production CPA</label>
+    </customValue>
+    <customValue>
+        <fullName>Flex</fullName>
+        <default>false</default>
+        <label>Flex</label>
+    </customValue>
+    <customValue>
+        <fullName>Quadra Propreté</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Quadra Propreté</label>
+    </customValue>
+    <customValue>
+        <fullName>ERP Middle Solutions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ERP Middle Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>TDA Solutions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TDA Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB</label>
+    </customValue>
+    <customValue>
+        <fullName>GP Solutions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GP Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Tax Solutions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tax Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Portal Solutions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portal Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>cegid expert</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>cegid expert</label>
+    </customValue>
+    <customValue>
+        <fullName>Loop</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Loop</label>
+    </customValue>
+    <customValue>
+        <fullName>cegid quadra</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>cegid quadra</label>
+    </customValue>
+    <masterLabel>Solution Appetence</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

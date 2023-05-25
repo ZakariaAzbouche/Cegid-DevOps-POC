@@ -1,0 +1,49 @@
+<template>
+    <div data-name="solutions" class="slds-grid slds-gutters slds-wrap">
+        <div class="slds-col slds-size_1-of-1 slds-large-size_12-of-12">
+            <h3 class="section-title">{label.solutionTitle}</h3>
+            <p class="section-description">{label.solutionDescription}</p>
+        </div>
+    </div>
+
+    <div class="slds-grid slds-gutters slds-wrap">
+        <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="wrap-collabsible">
+                <input id="collapsible11" class="toggle" type="checkbox" checked="">
+                <label for="collapsible11" class="lbl-toggle">{label.gestionDuCabinet}</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+                        <lightning-formatted-rich-text value={label.solutionsGestionCabinet}></lightning-formatted-rich-text>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="wrap-collabsible">
+                <input id="collapsible21" class="toggle" type="checkbox" checked="">
+                <label for="collapsible21" class="lbl-toggle">{label.gestionPaieEtDesRH}</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+                        <lightning-formatted-rich-text value={label.solutionsGestionPaieRH}></lightning-formatted-rich-text>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="wrap-collabsible">
+                <input id="collapsible31" class="toggle" type="checkbox" checked="">
+                <label for="collapsible31" class="lbl-toggle">{label.productionFinanciereOuComptable}</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+                        <lightning-formatted-rich-text value={label.solutionsProductionFinanciere}></lightning-formatted-rich-text>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</template>

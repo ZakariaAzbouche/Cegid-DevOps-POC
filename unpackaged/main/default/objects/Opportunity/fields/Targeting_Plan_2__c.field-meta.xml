@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Targeting_Plan_2__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Targeting Plan 2</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Second targeting plan</inlineHelpText>
+    <label>Targeting Plan 2</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Targeting_Plan__c.End_Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <valueField>Targeting_Plan__c.Date_du_jour__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Targeting_Plan__c</referenceTo>
+    <relationshipLabel>Opportunities (Targeting Plan 2)</relationshipLabel>
+    <relationshipName>Opportunities1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>All Sales Purpose</masterLabel>
+        <translation><!-- All Sales Purpose --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cross-Sell</masterLabel>
+        <translation><!-- Cross-Sell --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Migration OP/OP</masterLabel>
+        <translation><!-- Migration OP/OP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Migration OP/SaaS</masterLabel>
+        <translation><!-- Migration OP/SaaS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Migration SaaS/SaaS</masterLabel>
+        <translation><!-- Migration SaaS/SaaS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Newcli</masterLabel>
+        <translation><!-- Newcli --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Renew</masterLabel>
+        <translation><!-- Renew --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Upsell only</masterLabel>
+        <translation>Upsell seul</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,93 @@
+<aura:component controller="AP01_RelatedListContrat" access="global" >
+    <aura:attribute name="subscript" type="object" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <lightning:card title="{!v.subscript.subscriptionId}" iconName="action:new_opportunity">
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <span>MRR</span>
+                <br/> 
+                <ui:outputText value="{!v.subscript.meanRecurringRevenue}" />
+            </div>
+            <div class="slds-col">
+                <span>Valeur Totale (TCV)</span>
+                <br/> 
+                <ui:outputText value="{!v.subscript.totalCustomerValue}" />
+            </div>
+            <div class="slds-col">
+                <span>Entité</span>
+                <br/> 
+                <ui:outputText value="{!v.subscript.entity}" />
+            </div>
+        </div>
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <span>Nom du compte</span>
+                <br/>
+                <ui:outputText value="{!v.subscript.customer.name}" />
+            </div>
+            <div class="slds-col">
+                <span>Date D'activation</span>
+                <br/> 
+                <ui:outputText value="{!v.subscript.serviceActivationDate}" />
+            </div>
+            <div class="slds-col">
+                <span>Durée d'engagement initial</span>
+                <br/> 
+                <ui:outputText value="{!v.subscript.initialTerm}" />
+            </div>
+        </div>
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <span>Référence Client</span>
+                <br/> 
+                <ui:outputText value="not available" />
+            </div>
+            <div class="slds-col">
+                <span>Date fin du terme en cours</span>
+                <br/> 
+                <ui:outputText value="{!v.subscript.currentTermEndDate}" />
+            </div>
+            <div class="slds-col">
+                <span>Durée de renouvellement</span>
+                <br/> 
+                <ui:outputText value="{!v.subscript.renewalDate}" />
+            </div>
+        </div>
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <span>Nom du compte facturé</span>
+                <br/>
+                <ui:outputText value="{!v.subscript.invoicedAccount.name}" />
+            </div>
+            <div class="slds-col">
+                <span>Durée en terme en cours</span>
+                <br/>
+                <ui:outputText value="{!v.subscript.currentTerm}" />
+            </div>
+            <div class="slds-col">
+                <span>Tacite reconduction</span>
+                <br/>
+                <ui:outputText value="{!v.subscript.autoRenew}" />
+            </div>
+        </div>
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <span>Apporteur d'affaire</span>
+                <br/>
+                <ui:outputText value="{!v.subscript.autoRenew}"/>
+            </div>
+            <div class="slds-col">
+                <span>Date résiliations prévue</span>
+                <br/>
+                <ui:outputText value="not available}"/>
+            </div>
+            <div class="slds-col">
+                <span>Usage (6mois )</span>
+                <br/>
+                <ui:outputText value="not available}"/>
+            </div>
+        </div>
+    </lightning:card>
+    
+</aura:component>

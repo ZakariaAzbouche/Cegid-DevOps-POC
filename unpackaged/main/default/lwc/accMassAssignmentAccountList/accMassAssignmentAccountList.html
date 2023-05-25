@@ -1,0 +1,18 @@
+<template>
+    <!-- Spinner -->
+    <div if:true={showLoadingSpinner}>
+        <lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+    </div>
+    
+    <!-- Datatable-->
+    <lightning-card>
+        <div>
+            <lightning-datatable data={data} 
+                                 columns={columns}
+                                 show-row-number-column
+                                 key-field="Id"
+                                 onrowaction={handleRowAction}>
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

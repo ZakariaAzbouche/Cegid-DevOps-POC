@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_1994916</developerName>
+        <masterLabel>Sales Purpose Group</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.Sales_Purpose__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>612</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>611</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>613</sourceValue>
+            </sourceValues>
+            <value>Migration</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>121</sourceValue>
+            </sourceValues>
+            <value>XSell</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>111</sourceValue>
+            </sourceValues>
+            <value>NewCli</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>411</sourceValue>
+            </sourceValues>
+            <value>Upsell</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_91457978</developerName>
+        <masterLabel>Stage Group</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>STAGE_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>G - MQL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>G - Sales Ready</sourceValue>
+            </sourceValues>
+            <value>Lead</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>F - Identify the needs</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>E - Analyze the needs</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>D - Draw up the solution</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>C - Validate the solution</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>B - Negotiate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>A - Sign</sourceValue>
+            </sourceValues>
+            <value>Open Oppy</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed Won</sourceValue>
+            </sourceValues>
+            <value>Won Oppy</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>No Go Client</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>No Go CEGID</sourceValue>
+            </sourceValues>
+            <value>Closed Oppy</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>User.Agency__c</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Product_Line__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Partner_Consulting__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Partner_Distributor__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Partner_Integrator__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Partner_Interaction__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Sales_Purpose__c</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Amount_Saas_and_Licences__c</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity.Sales_Purpose__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>121,611,612,111,411</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Product_Line__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>137</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CREATED_DATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>THIS_YEAR</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_91457978</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>CREATED_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_1994916</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Flex Mid Crea Pipe</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

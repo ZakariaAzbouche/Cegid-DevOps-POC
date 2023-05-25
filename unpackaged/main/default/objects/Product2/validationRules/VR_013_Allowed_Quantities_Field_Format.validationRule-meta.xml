@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_013_Allowed_Quantities_Field_Format</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+AND(NOT( LEN(Allowed_Quantities__c)=0),
+NOT(Allowed_Quantities__c ='ALL'),
+NOT( RIGHT(Allowed_Quantities__c, 1) = ';')),
+AND(CONTAINS(Allowed_Quantities__c,'ALL'), LEN( Allowed_Quantities__c ) &gt;3)
+)</errorConditionFormula>
+    <errorMessage>Allowed Quantities Field is not properly filled. Please, write only "ALL", or a list of allowed quantities separated by semicolons. Don't forget a semicolon at the end.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Synchronisation_Zuora__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Champs renseigné par Mulesoft après la synchro</description>
+    <externalId>false</externalId>
+    <label>IS Synchro</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

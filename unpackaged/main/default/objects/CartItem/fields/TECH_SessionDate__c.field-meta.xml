@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_SessionDate__c</fullName>
+    <description>US W-001812 BtoB_USXX_Affichage des dates de sessions pour un produit de formation vendu unitairement</description>
+    <externalId>false</externalId>
+    <label>Session Date</label>
+    <length>30</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

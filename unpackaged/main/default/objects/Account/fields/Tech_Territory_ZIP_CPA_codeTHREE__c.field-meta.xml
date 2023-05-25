@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Territory_ZIP_CPA_codeTHREE__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+or(AND (
+OR
+(
+BEGINS(BillingPostalCode, '12'),
+BEGINS(BillingPostalCode, '2B'),
+BEGINS(BillingPostalCode, '33'),
+BEGINS(BillingPostalCode, '83'),
+BEGINS(BillingPostalCode, '95')
+
+),
+
+(ISPICKVAL( BillingCountryCode,  'FR') )),
+AND(
+BEGINS(BillingPostalCode, '971'),
+ISPICKVAL( BillingCountryCode,  'GP') 
+),
+AND(
+BEGINS(BillingPostalCode, '972'),
+ISPICKVAL( BillingCountryCode,  'MQ') 
+),
+AND(
+BEGINS(BillingPostalCode, '973'),
+ISPICKVAL( BillingCountryCode,  'RE') 
+),
+AND(
+BEGINS(BillingPostalCode, '974'),
+ISPICKVAL( BillingCountryCode,  'GY') 
+)
+)
+,'CPAChasse9',NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tech Territory ZIP CPA codeTHREE</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

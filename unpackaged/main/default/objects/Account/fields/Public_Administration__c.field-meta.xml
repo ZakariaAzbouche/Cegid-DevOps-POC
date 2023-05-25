@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Public_Administration__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To select an account as a public account</description>
+    <externalId>false</externalId>
+    <label>Public Administration</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

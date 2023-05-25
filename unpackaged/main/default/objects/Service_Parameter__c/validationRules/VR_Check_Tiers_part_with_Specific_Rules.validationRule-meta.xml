@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Check_Tiers_part_with_Specific_Rules</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+NOT($User.BypassVR__c ),
+ISPICKVAL(Specific_Rules__c,'Tiers partenaire'),
+ISBLANK(TEXT(Partner_Ship__c )),
+ISBLANK(TEXT(Offer__c ))
+)</errorConditionFormula>
+    <errorMessage>Une Specific rule  avec Tiers partenaire doit avoir une Offre ou un Partner Ship</errorMessage>
+</ValidationRule>

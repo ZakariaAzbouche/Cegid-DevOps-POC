@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_To_Be_Validated</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Status__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>To Be Validated,In Progress Validation</value>
+    </filters>
+    <filters>
+        <field>No_Business__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Accounts To Be Validated</label>
+</ListView>

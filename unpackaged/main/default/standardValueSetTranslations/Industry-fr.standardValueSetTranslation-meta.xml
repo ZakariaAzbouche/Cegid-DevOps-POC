@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Accommodation / Restauration food</masterLabel>
+        <translation><!-- Accommodation / Restauration food --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Accounting / Legal / Operation</masterLabel>
+        <translation><!-- Accounting / Legal / Operation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Agriculture / Aquaculture and Fishing</masterLabel>
+        <translation><!-- Agriculture / Aquaculture and Fishing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Art / Show / Culture</masterLabel>
+        <translation><!-- Art / Show / Culture --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Association</masterLabel>
+        <translation><!-- Association --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Automobile / Motorcycle</masterLabel>
+        <translation><!-- Automobile / Motorcycle --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Banking / Finance</masterLabel>
+        <translation><!-- Banking / Finance --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Beverage industry</masterLabel>
+        <translation><!-- Beverage industry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chemistry industry</masterLabel>
+        <translation><!-- Chemistry industry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Clothing / Textile industry</masterLabel>
+        <translation><!-- Clothing / Textile industry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Editing / Media / Communication</masterLabel>
+        <translation><!-- Editing / Media / Communication --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Education</masterLabel>
+        <translation>Education</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electricity / Gas / Water</masterLabel>
+        <translation><!-- Electricity / Gas / Water --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electronic industry</masterLabel>
+        <translation><!-- Electronic industry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Employment</masterLabel>
+        <translation><!-- Employment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Environment / Waste</masterLabel>
+        <translation><!-- Environment / Waste --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Food industry</masterLabel>
+        <translation><!-- Food industry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Furniture manufacturing</masterLabel>
+        <translation><!-- Furniture manufacturing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health / social</masterLabel>
+        <translation><!-- Health / social --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT activities</masterLabel>
+        <translation><!-- IT activities --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Industry</masterLabel>
+        <translation><!-- Industry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Information services</masterLabel>
+        <translation><!-- Information services --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Insurance</masterLabel>
+        <translation>Assurance</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Leisure / Sport</masterLabel>
+        <translation><!-- Leisure / Sport --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Machinery and equipment</masterLabel>
+        <translation><!-- Machinery and equipment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Metallurgy</masterLabel>
+        <translation><!-- Metallurgy --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Paper and Carton industry</masterLabel>
+        <translation><!-- Paper and Carton industry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pharmaceutical industry</masterLabel>
+        <translation><!-- Pharmaceutical industry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Plastic product</masterLabel>
+        <translation><!-- Plastic product --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Printing / Recorded media</masterLabel>
+        <translation><!-- Printing / Recorded media --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public services</masterLabel>
+        <translation><!-- Public services --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public works / Buildings / Works</masterLabel>
+        <translation><!-- Public works / Buildings / Works --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Real estate activity</masterLabel>
+        <translation><!-- Real estate activity --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rental and Leasing</masterLabel>
+        <translation><!-- Rental and Leasing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail trade</masterLabel>
+        <translation><!-- Retail trade --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Scientific / Technical activity</masterLabel>
+        <translation><!-- Scientific / Technical activity --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Services</masterLabel>
+        <translation><!-- Services --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Telecommunication</masterLabel>
+        <translation><!-- Telecommunication --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tourism</masterLabel>
+        <translation><!-- Tourism --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Transportation</masterLabel>
+        <translation>Transports</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wholesale trade</masterLabel>
+        <translation><!-- Wholesale trade --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wood industry</masterLabel>
+        <translation><!-- Wood industry --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

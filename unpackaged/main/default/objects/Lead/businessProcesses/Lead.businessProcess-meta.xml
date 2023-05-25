@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Assigned</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Converted Lead</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Not Converted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Buffer</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Qualified</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

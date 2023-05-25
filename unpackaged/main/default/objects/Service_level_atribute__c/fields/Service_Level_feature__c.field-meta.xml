@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Level_feature__c</fullName>
+    <externalId>false</externalId>
+    <label>Service Level feature</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Service_Level_feature</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

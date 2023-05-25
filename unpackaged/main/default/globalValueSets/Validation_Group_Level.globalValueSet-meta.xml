@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1 - IC</fullName>
+        <default>false</default>
+        <label>1 - IC</label>
+    </customValue>
+    <customValue>
+        <fullName>2 - Sales Manager and Branch Manager</fullName>
+        <default>false</default>
+        <label>2 - Sales Manager and Branch Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>3 - Sales Director and Regional Director</fullName>
+        <default>false</default>
+        <label>3 - Sales Director and Regional Director</label>
+    </customValue>
+    <customValue>
+        <fullName>4 - BU Director</fullName>
+        <default>false</default>
+        <label>4 - BU Director</label>
+    </customValue>
+    <masterLabel>Validation Group Level</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

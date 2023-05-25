@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cegid Partner</fullName>
+        <default>false</default>
+        <label>Cegid Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Cegid Partner Silver</fullName>
+        <default>false</default>
+        <label>Cegid Partner Silver</label>
+    </customValue>
+    <customValue>
+        <fullName>Cegid Partner Gold</fullName>
+        <default>false</default>
+        <label>Cegid Partner Gold</label>
+    </customValue>
+    <customValue>
+        <fullName>Cegid Partner Platinum</fullName>
+        <default>false</default>
+        <label>Cegid Partner Platinum</label>
+    </customValue>
+    <customValue>
+        <fullName>Cegid Partner Standard</fullName>
+        <default>false</default>
+        <label>Cegid Partner Standard</label>
+    </customValue>
+    <customValue>
+        <fullName>Maghrebian Partner</fullName>
+        <default>false</default>
+        <label>Maghrebian Partner</label>
+    </customValue>
+    <masterLabel>Partnership Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

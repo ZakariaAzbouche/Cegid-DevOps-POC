@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Set to TRUE if the Order is created from the Store. --></help>
+        <label><!-- B2B Order --></label>
+        <name>B2BOrder__c</name>
+    </CustomFieldTranslation>

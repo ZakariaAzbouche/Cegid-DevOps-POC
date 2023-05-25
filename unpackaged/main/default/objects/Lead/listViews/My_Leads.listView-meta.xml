@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Leads</fullName>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>Nature__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Marketo_Info__c</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.FIRST_NAME</columns>
+    <columns>LEAD.LAST_NAME</columns>
+    <columns>Call_back_date__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Expertise__c</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>ATTRILTmedium__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>In Buffer,Assigned,In Progress,Qualified</value>
+    </filters>
+    <filters>
+        <field>Lead_TS__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>My Open Leads</label>
+</ListView>

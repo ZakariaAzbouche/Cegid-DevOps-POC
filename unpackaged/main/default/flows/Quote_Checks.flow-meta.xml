@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <assignments>
+        <name>Assign_Quote_Checked</name>
+        <label>Assign Quote Checked</label>
+        <locationX>1106</locationX>
+        <locationY>2702</locationY>
+        <assignmentItems>
+            <assignToReference>GetQuote.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>GetRecordTypeId.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Has_Admin_SAAS</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Tech_Passed_in_PS_OK</name>
+        <label>Assign Tech_Passed in PS OK</label>
+        <locationX>1229</locationX>
+        <locationY>758</locationY>
+        <assignmentItems>
+            <assignToReference>GetQuote.TECH_Passed_in_PS_OK_Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Elearning_Lines_100_OK</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Has_Admin_SAAS</name>
+        <label>Has Admin SAAS</label>
+        <locationX>1106</locationX>
+        <locationY>2822</locationY>
+        <assignmentItems>
+            <assignToReference>GetQuote.Saas_Admin_found__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>HasAdminSAAS</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Quotes</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>At_least_one_Exceptional_Date_Request_opened</name>
+        <label>At least one Exceptional Date Request opened</label>
+        <locationX>809</locationX>
+        <locationY>1886</locationY>
+        <defaultConnector>
+            <targetReference>Get_Approved_Particular_Conditions_Requests</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>At_least_One</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Open_Exceptional_Date_Requests</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Pending_Request</targetReference>
+            </connector>
+            <label>At least One</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Decomissioning_duration_check</name>
+        <label>Decomissioning duration check</label>
+        <locationX>476</locationX>
+        <locationY>398</locationY>
+        <defaultConnector>
+            <targetReference>Delay_negative</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_blank</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>GetQuote.Decomissioning_duration__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetQuote.HasNegativeLines__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Screen_error_Decomissioning_duration</targetReference>
+            </connector>
+            <label>Is blank</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Delay_negative</name>
+        <label>Delay negative</label>
+        <locationX>903</locationX>
+        <locationY>518</locationY>
+        <defaultConnector>
+            <targetReference>Infra_Appli_Product_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Delay_Is_Negative</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>GetQuote.Delay_for_Service_Start_Date__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>-1.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Screen_error_delay</targetReference>
+            </connector>
+            <label>Delay Is Negative</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Elearning_Lines_100_OK</name>
+        <label>Elearning Lines 100% OK</label>
+        <locationX>1493</locationX>
+        <locationY>1526</locationY>
+        <defaultConnector>
+            <targetReference>Missing_Sessions</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>No_Missing_Session</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>GetQuote.CountELearningLinesWOAllTraining__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetQuote.CountELearningLinesWOAllTraining__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Quote_Status_Is_Not_Approved</targetReference>
+            </connector>
+            <label>No Missing Session</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Infra_Appli_Product_0</name>
+        <label>Infra + Appli Product = 0?</label>
+        <locationX>1493</locationX>
+        <locationY>638</locationY>
+        <defaultConnector>
+            <targetReference>Passed_in_PS_Ok_Status</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Infra_And_Appli</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>GetQuote.Infra_Product__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetQuote.Functional_Product__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Tech_Passed_in_PS_OK</targetReference>
+            </connector>
+            <label>Infra And Appli</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>No_Approved_PCR_and_Particular_Conditions_filled</name>
+        <label>No Approved PCR and Particular Conditions filled</label>
+        <locationX>1040</locationX>
+        <locationY>2126</locationY>
+        <defaultConnector>
+            <targetReference>Get_pending_Particular_Conditions_Requests_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Particular_Conditions_validation_needed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>GetQuote.Particular_Conditions__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Approved_Particular_Conditions_Requests</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>ParticularConditions</targetReference>
+            </connector>
+            <label>Particular Conditions validation needed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>No_Pending_PCR</name>
+        <label>No Pending PCR</label>
+        <locationX>1238</locationX>
+        <locationY>2366</locationY>
+        <defaultConnector>
+            <targetReference>ParticularConditions</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>No_PCR</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_pending_Particular_Conditions_Requests_0</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Service_Activation_Date_filled_In</targetReference>
+            </connector>
+            <label>No PCR</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Passed_in_PS_Ok_Status</name>
+        <label>Passed in PS Ok Status?</label>
+        <locationX>1757</locationX>
+        <locationY>758</locationY>
+        <defaultConnector>
+            <targetReference>PassedPSOKStatus</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Passed_in_PS_OK</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>GetQuote.TECH_Passed_in_PS_OK_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Passed_legally_in_PS_OK_Status</targetReference>
+            </connector>
+            <label>Passed in PS OK</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Passed_legally_in_PS_OK_Status</name>
+        <label>Passed legally in PS OK Status</label>
+        <locationX>1581</locationX>
+        <locationY>878</locationY>
+        <defaultConnector>
+            <targetReference>Not_Passed_PS_OK</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>PS_Ok</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>GetQuote.TECH_Passed_in_PS_OK_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetQuote.Open_PS_Cases__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Elearning_Lines_100_OK</targetReference>
+            </connector>
+            <label>PS Ok</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Quote_Status_Is_Not_Approved</name>
+        <label>Quote Status Is Approved</label>
+        <locationX>1177</locationX>
+        <locationY>1646</locationY>
+        <defaultConnector>
+            <targetReference>Quote_Not_Approved_Screen</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>GetQuote.SBQQ__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Approved</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Open_Exceptional_Date_Requests</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Service_Activation_Date_filled_In</name>
+        <label>Service Activation Date filled In</label>
+        <locationX>1106</locationX>
+        <locationY>2486</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Quote_Checked</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Yes</defaultConnectorLabel>
+        <rules>
+            <name>No</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>GetQuote.Service_Activation_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetQuote.Service_Activation_Date__c</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <elementReference>$Flow.CurrentDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Quote_Checked</targetReference>
+            </connector>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <description>ACO, 25/01/23 : Updates for W-002452 (Decomissioning duration) WITHOUT Admin Saas Check, as requested in B-2111. Currently, this version needs to be deployed in Production since there are still some issues with Admin Saas Fetchs.
+ACO 30/01 : Update, add filter &quot;HasNegativeLines&quot;.
+
+
+
+////////////////////////////
+NEW VERSION WITH W-01485. Can&apos;t be activated because of Saas Admin current issue.
+
+W-001317 - SMO added webservice callout verify if account has admin SAAS - 0812 - ACO Update : Update Quote only at the end.
+1712 : ACoO : Update for the Service Activation Date Subject, W-001458.
+Update Pending Exceptional Date Request
+TNG : update delay negative
+
+10/31 KMM : Integrate WS Find Admin Sass (WS001_FindAccountAdminSAAS)
+21/11 MCU : Mise à jour du flux côté Admin Saas</description>
+    <environments>Default</environments>
+    <interviewLabel>Quote Checks {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Quote Checks</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Approved_Particular_Conditions_Requests</name>
+        <label>Get Approved Particular Conditions Requests</label>
+        <locationX>1040</locationX>
+        <locationY>2006</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>No_Approved_PCR_and_Particular_Conditions_filled</targetReference>
+        </connector>
+        <filterLogic>1 AND 3 AND (2 OR 4)</filterLogic>
+        <filters>
+            <field>Quote__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Renewal_Mode__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Approved</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Requested_End_Date__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Open_Exceptional_Date_Requests</name>
+        <label>Get Open Exceptional Date Requests</label>
+        <locationX>809</locationX>
+        <locationY>1766</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>At_least_one_Exceptional_Date_Request_opened</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Quote__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Targeted_Exceptional_Date__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Rejected</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Approved</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_pending_Particular_Conditions_Requests_0</name>
+        <label>Get pending Particular Conditions Requests</label>
+        <locationX>1238</locationX>
+        <locationY>2246</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>No_Pending_PCR</targetReference>
+        </connector>
+        <filterLogic>1 AND 3 AND 4 AND (2 OR 5)</filterLogic>
+        <filters>
+            <field>Quote__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Renewal_Mode__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Approved</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Rejected</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Requested_End_Date__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>GetQuote</name>
+        <label>GetQuote</label>
+        <locationX>476</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>GetRecordTypeId</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>SBQQ__Quote__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>GetRecordTypeId</name>
+        <label>GetRecordTypeId</label>
+        <locationX>476</locationX>
+        <locationY>278</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Decomissioning_duration_check</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>After_Checks</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>RecordType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Quotes</name>
+        <label>Update Quotes</label>
+        <locationX>1106</locationX>
+        <locationY>2942</locationY>
+        <connector>
+            <targetReference>Quote_Checked</targetReference>
+        </connector>
+        <inputReference>GetQuote</inputReference>
+    </recordUpdates>
+    <runInMode>SystemModeWithSharing</runInMode>
+    <screens>
+        <name>Missing_Sessions</name>
+        <label>Missing Sessions</label>
+        <locationX>1810</locationX>
+        <locationY>1646</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Missing_Session</name>
+            <fieldText>&lt;p&gt;&lt;i&gt;Training Sessions for e-learning Products to be filled. Please, update blank Training Sessions records. &lt;/i&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Not_Passed_PS_OK</name>
+        <label>Not Passed PS OK</label>
+        <locationX>1669</locationX>
+        <locationY>998</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Passed_PS_OK</name>
+            <fieldText>&lt;p&gt;&lt;i&gt;You have to send your Quote to Professional Services Teams because it contains Products to review.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Please, click on &quot;Send to PS&quot; Button.&lt;/i&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>ParticularConditions</name>
+        <label>ParticularConditions</label>
+        <locationX>1040</locationX>
+        <locationY>3494</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Particular1</name>
+            <fieldText>&lt;p&gt;&lt;i&gt;Legal Validators need to approve your Particular Conditions. If you sent a request, please contact Legal.&lt;/i&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>PassedPSOKStatus</name>
+        <label>PassedPSOKStatus</label>
+        <locationX>1933</locationX>
+        <locationY>878</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Passed_in_PS_OK_text</name>
+            <fieldText>&lt;p&gt;&lt;i&gt;Your Quote didn&apos;t passed by the PS OK Status.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Please, send to PS your Quote.&lt;/i&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Pending_Request</name>
+        <label>Pending Request</label>
+        <locationX>578</locationX>
+        <locationY>2006</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>WarningMessageRequest</name>
+            <fieldText>&lt;p&gt;&lt;i style=&quot;color: rgb(255, 0, 0);&quot;&gt;An Exceptional Date Request is pending.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;i style=&quot;color: rgb(255, 0, 0);&quot;&gt;Verify the current Case Status.&lt;/i&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Quote_Checked</name>
+        <label>Quote Checked</label>
+        <locationX>1106</locationX>
+        <locationY>3062</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Quote_Checked_Text</name>
+            <fieldText>&lt;p&gt;Your Quote has been checked!&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Quote_Not_Approved_Screen</name>
+        <label>Quote Not Approved</label>
+        <locationX>1546</locationX>
+        <locationY>1766</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Quote_Not_Approved</name>
+            <fieldText>&lt;p&gt;You have to submit your Quote for Approval before to check it.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Screen_error_Decomissioning_duration</name>
+        <label>Screen error Decomissioning duration</label>
+        <locationX>50</locationX>
+        <locationY>518</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>error_Decomissioning_duration</name>
+            <fieldText>&lt;p&gt;&lt;em&gt;{!$Label.Decomissioning_duration_needed}&lt;/em&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <pausedText>&lt;p&gt;The delay value is negative, check the Start Date Delay table.&lt;/p&gt;</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Screen_error_delay</name>
+        <label>Screen error delay</label>
+        <locationX>314</locationX>
+        <locationY>638</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>error_delay</name>
+            <fieldText>&lt;p&gt;&lt;i&gt;The delay value is negative, check the Start Date Delay table.&lt;/i&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <pausedText>&lt;p&gt;The delay value is negative, check the Start Date Delay table.&lt;/p&gt;</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>350</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>GetQuote</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>Variable to store response from apex WS call</description>
+        <name>HasAdminSAAS</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Store response details from WS for error handling</description>
+        <name>WSResponseDetails</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

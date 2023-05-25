@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Structure_Level_2_Discount_Max_IC__c</fullName>
+    <description>Used to fill in the maximal discount allowed for each 'Structure Level 1' value, for the Validation Group Level 2</description>
+    <externalId>false</externalId>
+    <label>Structure Level 1 Discount Max - Level 2</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Family</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Discount_Max</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>190</controllingFieldValue>
+            <controllingFieldValue>140</controllingFieldValue>
+            <controllingFieldValue>110</controllingFieldValue>
+            <controllingFieldValue>120</controllingFieldValue>
+            <controllingFieldValue>130</controllingFieldValue>
+            <valueName>10</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

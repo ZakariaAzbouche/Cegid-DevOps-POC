@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IntercommunityVATnumber__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>A tax Number or taxpayer identification number, also known as a TIN for short, is a number issued to organizations to track tax obligations and payments they make
+Do not enter any spaces in the field.</inlineHelpText>
+    <label>Tax Number</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

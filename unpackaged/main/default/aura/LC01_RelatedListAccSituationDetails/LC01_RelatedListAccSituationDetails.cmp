@@ -1,0 +1,277 @@
+<!--
+    Author: Akshi Boojhawon - Comforth
+    Date: 2020-07-20
+    Name: LC01_RelatedListAccSituationDetails.cmp
+    Description: Component for displaying financial information via WS Aston
+-->
+<aura:component description="LC01_RelatedListAccSituationDetails" implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="AP05_RelatedListAccSituation">
+  <aura:attribute name="data" type="list" access="global" />
+  <aura:attribute name="accName" type="String" access="global" />
+  <aura:attribute name="reference" type="String" access="global" />
+  <aura:attribute name="yearMonthRef" type="String" access="global" />
+  <aura:attribute name="scoring" type="String" access="global" />
+  <aura:attribute name="annualTurnover" type="Decimal" access="global" />
+  <aura:attribute name="annualTurnoverY1" type="Decimal" access="global" />
+  <aura:attribute name="sumRemainingInc" type="Decimal" access="global" />
+  <aura:attribute name="sumRemainingExc" type="Decimal" access="global" />
+  <aura:attribute name="realOustanding" type="Decimal" access="global" />
+  <aura:attribute name="disputed" type="Decimal" access="global" />
+  <aura:attribute name="litigation" type="Decimal" access="global" />
+  <aura:attribute name="dso" type="Decimal" access="global" />
+  <aura:attribute name="d30" type="Decimal" access="global" />
+  <aura:attribute name="d_31_60" type="Decimal" access="global" />
+  <aura:attribute name="d_61_90" type="Decimal" access="global" />
+  <aura:attribute name="d_91_120" type="Decimal" access="global" />
+  <aura:attribute name="d_121_150" type="Decimal" access="global" />
+  <aura:attribute name="d150" type="Decimal" access="global" />
+  <aura:attribute name="inv30" type="Decimal" access="global" />
+  <aura:attribute name="inv_31_60" type="Decimal" access="global" />
+  <aura:attribute name="inv_61_90" type="Decimal" access="global" />
+  <aura:attribute name="inv_91_120" type="Decimal" access="global" />
+  <aura:attribute name="inv_121_150" type="Decimal" access="global" />
+  <aura:attribute name="inv150" type="Decimal" access="global" />
+  <aura:attribute name="total" type="Decimal" access="global" />
+  <aura:attribute name="totalInv" type="Decimal" access="global" />
+  <aura:attribute name="nChargedCredits" type="Decimal" access="global" />
+  <aura:attribute name="unpaidNumber" type="Decimal" access="global" />
+  <aura:attribute name="unpaidAmount" type="Decimal" access="global" />
+  <aura:attribute name="colorCode" type="String" access="global" />
+  <aura:attribute name="errorMsg" type="String"/>
+
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+  <aura:attribute name="mySpinner" type="Boolean" />
+
+  <aura:if isTrue="{!v.mySpinner}">
+    <lightning:spinner variant="brand" />
+  </aura:if>
+
+    <!--
+  <aura:if isTrue="{!v.errorMsg != null}">
+    <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert">
+        <h2>{!v.errorMsg}</h2>
+    </div>
+  </aura:if>-->
+
+  <table class="slds-table slds-table_fixed-layout slds-no-cell-focus slds-no-row-hover ">
+    <thead>
+      <br />
+      <tr class="slds-line-height_reset heading">
+        <th>
+          <lightning:icon iconName="action:new_opportunity" size="xx-small" /> &nbsp; {!v.accName}
+        </th>
+        <th></th>
+        <th>
+            {!$Label.c.Reference} : &nbsp; {!v.reference} 
+        </th>
+        <th></th>
+        <th>
+            {!$Label.c.YearMonthRef} : &nbsp; {!v.yearMonthRef}
+        </th>
+      </tr>
+    </thead>
+    <br />
+    <tbody>
+      <tr>
+        <span class="scorring">
+        {!$Label.c.Scorring}: &nbsp;
+        </span>
+        <b>{!v.scoring}</b>
+        <aura:if isTrue="{!v.colorCode == 'blue'}">
+          <span class="dotBlue"> </span>
+        </aura:if>
+        <aura:if isTrue="{!v.colorCode == 'green'}">
+          <span class="dotGreen"> </span>
+        </aura:if>
+        <aura:if isTrue="{!v.colorCode == 'yellow'}">
+          <span class="dotYellow"> </span>
+        </aura:if>
+        <aura:if isTrue="{!v.colorCode == 'red'}">
+          <span class="dotRed"> </span>
+        </aura:if>
+        <aura:if isTrue="{!v.colorCode == 'black'}">
+          <span class="dotBlack"> </span>
+        </aura:if>
+      </tr>
+      <br />
+      <tr>
+        <div class="slds-border_bottom">
+            {!$Label.c.InfoTurnover}:
+        </div>
+      </tr>
+      <tr>
+        <td>{!$Label.c.AnnualTurnover} :</td>
+        <td class="align"><b>{!v.annualTurnover} &nbsp; {!$Label.c.EUR}</b></td>
+        <td>{!$Label.c.AnnualTurnoverY1} :</td>
+        <td class="align"><b>{!v.annualTurnoverY1} &nbsp; {!$Label.c.EUR}</b></td>
+      </tr>
+      <tr>
+       <!-- <td>Sum of the remaining due incl. VAT:</td>-->
+        <td></td>
+        <td></td>
+        <td>{!$Label.c.RealOutstanding} :</td>
+        <td class="align"><b>{!v.realOustanding} &nbsp; {!$Label.c.EUR}</b></td>
+      </tr>
+      <br />
+      <br />
+      <br />
+      <tr>
+        <div class="slds-border_bottom">
+          <td>{!$Label.c.Outstanding}:</td>
+        </div>
+        <td></td>
+        <div class="slds-border_bottom">
+            <td>{!$Label.c.Delay}: </td>
+        </div>
+      </tr>
+      <br />
+    <!--<tr>
+        <td>Sum of the remaining incl. VAT:</td>
+        <td></td>
+        <td></td>
+        <td>Amount</td>
+        <td>Invoices</td>
+      </tr>
+      <tr>
+        <td>Sum of the remaining excl. VAT:</td>
+        <td></td>
+        <td>Delays &lt; 30 days:</td>
+        <td class="align"><b>{!v.d30} EUR</b></td>
+        <td class="align"><b>{!v.inv30}</b></td>
+      </tr>
+      <tr>
+        <td>Real outstanding (incl. VAT)</td>
+        <td><b>{!v.realOustanding} EUR </b></td>
+        <td>Delays from 31 days to 60 days:</td>
+        <td class="align"><b>{!v.d_31_60} EUR </b></td>
+        <td class="align"><b>{!v.inv_31_60}</b></td>
+      </tr>
+      <tr>
+        <td>Disputed:</td>
+        <td><b>{!v.disputed} EUR</b></td>
+        <td>Delays from 61 days to 90 days</td>
+        <td class="align"><b>{!v.d_61_90} EUR</b></td>
+        <td class="align"><b>{!v.inv_61_90}</b></td>
+      </tr>
+      <tr>
+        <td>In litigation:</td>
+        <td><b>{!v.litigation}</b></td>
+        <td>Delays from 91 days to 120 days</td>
+        <td class="align"><b>{!v.d_91_120} EUR </b></td>
+        <td class="align"><b>{!v.inv_91_120}</b></td>
+      </tr>
+      <tr>
+        <td>Max outstanding reached (12 last months):</td>
+        <td></td>
+        <td>Delays from 121 days to 150 days</td>
+        <td class="align"><b>{!v.d_121_150} EUR</b></td>
+        <td class="align"><b>{!v.inv_121_150}</b></td>
+      </tr>
+      <tr>
+        <td>% covered by draft:</td>
+        <td></td>
+        <td>Delays &gt; 150 days</td>
+        <td class="align"><b>{!v.d150} EUR</b></td>
+        <td class="align"><b>{!v.inv150}</b></td>
+      </tr>
+      <tr>
+        <td>Not due imputed drafts:</td>
+        <td></td>
+        <td>Total:</td>
+        <td class="align"><b>{!v.total} EUR</b></td>
+        <td class="align"><b>{!v.totalInv}</b></td>
+      </tr>
+      <tr>
+        <td>Outstanding concentration</td>
+        <td></td>
+        <td>Non charged credits</td>
+        <td class="align"><b>{!v.nChargedCredits}</b></td>
+      </tr>
+      <tr>
+        <td>DSO:</td>
+        <td><b>{!v.dso}</b></td>
+        <td>Number of unpaid:</td>
+        <td class="align"><b>{!v.unpaidNumber}</b></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>Unpaid amount:</td>
+        <td class="align"><b>{!v.unpaidAmount} EUR</b></td>
+      </tr>-->
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>{!$Label.c.Amount}</td>
+        <td>{!$Label.c.Invoices}</td>
+      </tr>
+      <tr>
+        <td>{!$Label.c.RealOutstanding}:</td>
+        <td class="align"><b>{!v.realOustanding} &nbsp; {!$Label.c.EUR}</b></td>
+        <td>{!$Label.c.Delays30} :</td>
+        <td class="align"><b>{!v.d30} &nbsp; {!$Label.c.EUR}</b></td>
+        <td class="align"><b>{!v.inv30}</b></td>
+      </tr>
+      <tr>
+        <td>{!$Label.c.Disputed}:</td>
+        <td class="align"><b>{!v.disputed} &nbsp; {!$Label.c.EUR}</b></td>
+        <td>{!$Label.c.Delays31_60} :</td>
+        <td class="align"><b>{!v.d_31_60} &nbsp; {!$Label.c.EUR} </b></td>
+        <td class="align"><b>{!v.inv_31_60}</b></td>
+      </tr>
+      <tr>
+        <td>{!$Label.c.Litigation}:</td>
+        <td class="align"><b>{!v.litigation} &nbsp; {!$Label.c.EUR}</b></td>
+        <td>{!$Label.c.Delays61_90}:</td>
+        <td class="align"><b>{!v.d_61_90} &nbsp; {!$Label.c.EUR}</b></td>
+        <td class="align"><b>{!v.inv_61_90}</b></td>
+      </tr>
+      <tr>
+        <td>{!$Label.c.DSO}</td>
+        <td class="align"><b>{!v.dso}</b></td>
+        <td>{!$Label.c.Delays91_120}:</td>
+        <td class="align"><b>{!v.d_91_120} &nbsp; {!$Label.c.EUR}</b></td>
+        <td class="align"><b>{!v.inv_91_120}</b></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>{!$Label.c.Delays121_150}: </td>
+        <td class="align"><b>{!v.d_121_150} &nbsp; {!$Label.c.EUR}</b></td>
+        <td class="align"><b>{!v.inv_121_150}</b></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>{!$Label.c.Delays150}:</td>
+        <td class="align"><b>{!v.d150} &nbsp; {!$Label.c.EUR}</b></td>
+        <td class="align"><b>{!v.inv150}</b></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>{!$Label.c.Total}:</td>
+        <td class="align"><b>{!v.total} &nbsp; {!$Label.c.EUR}</b></td>
+        <td class="align"><b>{!v.totalInv}</b></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>{!$Label.c.NonChargedCredits}:</td>
+        <td class="align"><b>{!v.nChargedCredits} &nbsp; {!$Label.c.EUR}</b></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>{!$Label.c.NumberUnpaid} :</td>
+        <td class="align"><b>{!v.unpaidNumber}</b></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>{!$Label.c.UnpaidAmount} :</td>
+        <td class="align"><b>{!v.unpaidAmount} &nbsp; {!$Label.c.EUR}</b></td>
+      </tr>
+    </tbody>
+  </table>
+</aura:component>

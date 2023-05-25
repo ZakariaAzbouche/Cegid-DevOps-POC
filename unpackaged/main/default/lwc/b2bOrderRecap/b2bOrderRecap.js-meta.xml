@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="urn:metadata.tooling.soap.sforce.com" fqn="b2bOrderRecap">
+    <apiVersion>51.0</apiVersion>
+   <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="getCartIds" type="String" label="Current cart Id" 
+                        description="Id of the current record"/>
+
+            <property
+                name="recordId"
+                type="String"
+                label="Record Id"
+                description="Automatically bind the page's record id to the component variable"
+                default="{!recordId}"
+            />
+            <property
+                name="effectiveAccountId"
+                type="String"
+                label="Effective Account Id"
+                description="The ID of the account under which the user is acting (BETA)"
+                default="{!CurrentUser.effectiveAccountId}"
+            />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

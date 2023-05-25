@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Contact_Invalid_Email_Rules</fullName>
+    <active>true</active>
+    <description>The Email field has been marked invalid by Marketo</description>
+    <errorConditionFormula>AND( 
+NOT( $User.BypassVR__c ),
+NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c,"VR_Contact_Invalid_Email_Rules")),
+NOT ( AND (ISNEW(), ISPICKVAL( LeadSource,"LinkedIn"))),
+NOT(Mkto_email_invalid__c =FALSE),1 = 2
+)</errorConditionFormula>
+    <errorDisplayField>Email</errorDisplayField>
+    <errorMessage>The Email field has been marked invalid by Marketo</errorMessage>
+</ValidationRule>

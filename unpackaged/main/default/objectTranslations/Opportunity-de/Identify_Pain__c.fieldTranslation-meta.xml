@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Weak = No compelling event / we don’t know | Moderate = Compelling event exists, but impact or delay not significant to customer | Strong = Compelling event exists and impact or delay is significant to Customer --></help>
+        <label><!-- Identify Pain --></label>
+        <name>Identify_Pain__c</name>
+    </CustomFieldTranslation>

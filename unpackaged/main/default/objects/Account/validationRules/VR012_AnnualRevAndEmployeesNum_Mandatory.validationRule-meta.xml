@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR012_AnnualRevAndEmployeesNum_Mandatory</fullName>
+    <active>false</active>
+    <description>Annual Revenue and Employees number mandatory when VAT Number or National Id fulfilled.
+Exception if account being created by Infolegale</description>
+    <errorConditionFormula>AND (
+		NOT(INCLUDES($User.List_of_VR_to_By_Pass__c,"VR012_AnnualRevAndEmployeesNum_Mandatory")),
+		NOT ( $User.BypassVR__c ),
+		OR (
+			ISBLANK(Infolegale_conn__TECH_InfoLegaleExternalKey__c),
+			AND (
+				NOT(ISBLANK(Infolegale_conn__TECH_InfoLegaleExternalKey__c)),
+				ISPICKVAL(Status__c,"Validated"),
+				NOT(ISCHANGED(Status__c))
+				)
+			), 
+		OR (
+			NOT(ISBLANK( National_ID__c )),
+			NOT(ISBLANK( IntercommunityVATnumber__c ))
+			),
+		OR (
+			ISBLANK( AnnualRevenue ),
+			ISBLANK( NumberOfEmployees )
+			)
+	)</errorConditionFormula>
+    <errorMessage>When VAT number or National ID is fulfilled, Number of Employees and Annual Revenue are mandatory on the account file.</errorMessage>
+</ValidationRule>

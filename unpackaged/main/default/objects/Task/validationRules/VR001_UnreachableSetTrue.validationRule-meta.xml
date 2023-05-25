@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR001_UnreachableSetTrue</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Unreachable__c = True,
+ISBLANK( ReminderDate__c )
+ )</errorConditionFormula>
+    <errorDisplayField>ReminderDate__c</errorDisplayField>
+    <errorMessage>Please select a reminder date</errorMessage>
+</ValidationRule>

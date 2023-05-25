@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR019_blockChangeAdressCustomer</fullName>
+    <active>false</active>
+    <description>Cegid Sales profile can't edit Account Name and Billing Adresse if account nature is customer</description>
+    <errorConditionFormula>AND (
+NOT($User.BypassVR__c),
+NOT(INCLUDES($User.List_of_VR_to_By_Pass__c,"VR019_blockChangeAdressCustomer")),
+ISPICKVAL( Nature__c , "CLI"),
+($Profile.Name ="Cegid Sales"),
+  OR(ISCHANGED( BillingAddress ), 
+ ISCHANGED( Name ) ) 
+
+)</errorConditionFormula>
+    <errorMessage>Cegid Sales profile can't edit Account Name and Billing Adresse if account nature is customer</errorMessage>
+</ValidationRule>

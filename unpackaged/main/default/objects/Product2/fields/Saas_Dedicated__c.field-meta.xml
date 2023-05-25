@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Saas_Dedicated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>identifier au niveau de l’Order si le client a commandé un solution Saas Dédiée afin de pouvoir correctement lui adresser la communication adéquate dans le cadre de la campagne d’Onboarding.</description>
+    <externalId>false</externalId>
+    <label>Saas Dedicated</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

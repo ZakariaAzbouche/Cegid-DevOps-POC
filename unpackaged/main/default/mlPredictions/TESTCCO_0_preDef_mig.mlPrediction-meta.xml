@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MLPredictionDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aiApplicationDeveloperName>TESTCCO_app_mig</aiApplicationDeveloperName>
+    <description>TESTCCO</description>
+    <developerName>TESTCCO_0_preDef_mig</developerName>
+    <masterLabel>TESTCCO_0_preDef_mig</masterLabel>
+    <negativeExpression>
+        <filterName>ML_Filter_2020_10_21T18_28_45_020777</filterName>
+        <lhPredictionField>Account.Mkto_account_owner_Profile__c</lhPredictionField>
+        <operation>IsNull</operation>
+        <rhType>String</rhType>
+        <rhValue>true</rhValue>
+        <sortOrder>0</sortOrder>
+    </negativeExpression>
+    <positiveExpression>
+        <filterName>ML_Filter_2020_10_21T18_28_45_020634</filterName>
+        <lhPredictionField>Account.ERP_Number__c</lhPredictionField>
+        <operation>IsNull</operation>
+        <rhType>String</rhType>
+        <rhValue>true</rhValue>
+        <sortOrder>0</sortOrder>
+    </positiveExpression>
+    <pushbackField>Account.Field_testcco__c</pushbackField>
+    <status>Enabled</status>
+    <type>BinaryClassification</type>
+</MLPredictionDefinition>

@@ -1,0 +1,262 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global">
+    <lightning:overlayLibrary aura:id="overlayLib" />
+
+    <!-- call doInit method on component load -->
+<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <aura:attribute name="lineDetails" type="list" />
+    <aura:attribute name="addToList" type="Boolean" default="false" />
+    <aura:attribute name="disableButton" type="Boolean" default="false" />
+    <aura:attribute name="subscriptionId" type="String"/>
+    
+    
+    <aura:handler name="change" value="{!v.disableButton}" action="{!c.doInit}"/>
+
+    <!--call Method on change-->
+    <aura:handler name="change" value="{!v.addToList}" action="{!c.onChangeCheckBox}"/>
+
+    <!--register Event-->
+    <aura:registerEvent name="list" type="c:LC005_AddToList"/>
+    
+    <aura:if isTrue="{!v.lineDetails.message!=null}">
+        <ui:message severity="warning" closable="false">{!v.lineDetails.message}</ui:message>
+    </aura:if>
+    
+    <div class="slds-grid slds-gutters bottom_large">
+        
+        <!--Selection col-->
+        <div class="slds-col">
+            <!--Nom du compte-->
+            <div class="slds-p-bottom_medium">
+                <aura:if isTrue="{!v.lineDetails.subscriptionNumber!=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.subscriptionNumber}" />
+                </aura:if>
+            </div>
+            <!--End Nom du compte-->
+
+            <!--Entité-->
+            <div class="slds-p-bottom_medium">
+                <aura:if isTrue="{!v.lineDetails.status!=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.status}" />
+                </aura:if>
+            </div>
+            <!--End Entité-->
+
+             <!--Entité-->
+             <div class="slds-p-bottom_medium">
+                <aura:if isTrue="{!v.lineDetails.entity!=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.entity}" />
+                </aura:if>
+            </div>
+            <!--End Entité-->
+
+
+            <!--CheckBox-->
+            <div class="slds-p-bottom_medium">
+                <!--lightning:input type="checkbox-button" label="Input Two" name="input2" checked="{!v.addToList}" disabled="{!v.disableButton}"/-->
+                <lightning:input type="checkbox-button" label="Input Two" name="input2" checked="{!v.addToList}" disabled="{!v.lineDetails.isDisable}"/>
+            </div>
+            <!--CheckBox-->
+        </div>
+        <!--End Selection col-->
+
+
+       <!--first col-->
+        <div class="slds-col">
+            <!--Ordering account-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Ordering account</span><br/>
+                <aura:if isTrue="{!v.lineDetails.customer.name!=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.ordering}" />
+                    <!--ui:outputText class="slds-text-title bold" value="{!v.lineDetails.customer.name}" /-->
+                </aura:if>
+            </div>
+            <!--End Ordering account-->
+
+            <!--Nom du compte facturé-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Billing account</span><br/>
+                <aura:if isTrue="{!v.lineDetails.billing !=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.billing}" />
+                    <!--ui:outputText class="slds-text-title bold" value="{!v.lineDetails.invoicedAccount.name}" /-->
+                </aura:if>
+            </div>
+            <!--End Nom du compte facturé-->
+
+            <!--Payment Method-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Payment Method</span><br/>
+                <aura:if isTrue="{!v.lineDetails.paymentMethod!=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.paymentMethod}" />
+                </aura:if>
+            </div>
+            <!--End Payment Method-->
+
+        </div>
+        <!--End first col-->
+
+        <!--Second col-->
+        <div class="slds-col">
+            <!--Valeur Totale (TCV)-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Total value</span><br/>
+                <aura:if isTrue="{!v.lineDetails.totalCustomerValue!=null}">
+                    <ui:outputCurrency class="slds-text-title bold" value="{!v.lineDetails.totalCustomerValue}" />
+                </aura:if>
+            </div>
+            <!--End Valeur Totale (TCV)-->
+
+            <!--MRR-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">MRR</span><br/>
+                <aura:if isTrue="{!v.lineDetails.meanRecurringRevenue!=null}">
+                    <ui:outputCurrency class="slds-text-title bold" value="{!v.lineDetails.meanRecurringRevenue}" />
+                </aura:if>
+            </div>
+            <!--End of MRR-->
+
+            <!--Payment Term-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Payment Term</span><br/>
+                <aura:if isTrue="{!v.lineDetails.paymentTerm!=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.paymentTerm}" />
+                </aura:if>
+            </div>
+            <!--End of Payment Term -->
+        </div>
+        <!--End Second col-->
+
+        <!--Third col-->
+        <div class="slds-col">
+            <!--Date d'activation-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Activation Date</span><br/>
+                <aura:if isTrue="{!v.lineDetails.serviceActivationDate!=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.serviceActivationDate}" />
+                </aura:if>
+            </div>
+            <!--End Date d'activation-->
+
+            <!--Date fin du terme en cours-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">End term</span><br/>
+                <aura:if isTrue="{!v.lineDetails.currentTermEndDate!=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.currentTermEndDate}" />
+                </aura:if>
+            </div>
+            <!--End of Date fin du terme en cours-->
+
+            <!--Payment Date-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Payment Date</span><br/>
+                <aura:if isTrue="{!v.lineDetails.paymentDate!=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.paymentDate}" />
+                </aura:if>
+            </div>
+            <!--End of Payment Date-->
+        </div>
+        <!--End Third col-->
+
+        <!--Fourth col-->
+        <div class="slds-col">
+            <!--Durée en terme en cours-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Initial term</span><br/>
+                <aura:if isTrue="{!v.lineDetails.initialTerm!=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.initialTerm}" />
+                </aura:if>
+            </div>
+            <!--End Durée en terme en cours-->
+
+            <!--Date résiliations prévue-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Current term</span><br/>
+                <aura:if isTrue="{!v.lineDetails.currentTerm!=null}">
+                    <ui:outputText class="slds-text-title bold " value="{!v.lineDetails.currentTerm}" />
+                </aura:if>
+            </div>
+            <!--End of Date résiliations prévue-->
+
+             <!--Billing Frequency-->
+             <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Billing Frequency</span><br/>
+                <aura:if isTrue="{!v.lineDetails.billingfrequency!=null}">
+                    <ui:outputText class="slds-text-title bold " value="{!v.lineDetails.billingfrequency}" />
+                </aura:if>
+            </div>
+            <!--End of Billing Frequency-->
+        </div>
+        <!--End Fourth col-->
+
+        <!--fifth col-->
+        <div class="slds-col">
+            <!--Durée de renouvellement-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Renew term</span><br/>
+                <aura:if isTrue="{!v.lineDetails.renewalTerm!=null}">
+                    <ui:outputText class="slds-text-title bold " value="{!v.lineDetails.renewalTerm}" />
+                </aura:if>
+            </div>
+            <!--End of Durée de renouvellement-->
+
+            <!--Resiliation date-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Resiliation date</span><br/>
+                <aura:if isTrue="{!v.lineDetails.resiliationDate!=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.resiliationDate}" />
+                </aura:if>
+            </div>
+            <!--End Resiliation date-->
+
+            <!--Increase Mode-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Increase Mode</span><br/>
+                <aura:if isTrue="{!v.lineDetails.increaseMode!=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.increaseMode}" />
+                </aura:if>
+            </div>
+            <!--End Increase Mode-->
+        </div>
+        <!--End fifth col-->
+
+        <!--Sixth col-->
+        <div class="slds-col">
+            <!--Tacite reconduction-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Auto Renew</span><br/>
+                <aura:if isTrue="{!v.lineDetails.autoRenew != 'false'}">
+                    <ui:outputCheckbox class="slds-text-title bold" value="{!v.lineDetails.autoRenew}" />
+                </aura:if>
+            </div>
+            <!--End Tacite reconduction-->
+
+            <!--Usage-->
+            <div class="slds-p-bottom_medium height">
+                <span class="slds-text-title title slds-p-bottom_medium ">Increase Type</span><br/>
+                <aura:if isTrue="{!v.lineDetails.increaseType !=null}">
+                    <ui:outputText class="slds-text-title bold" value="{!v.lineDetails.increaseType}" />
+                </aura:if>
+            </div>
+            <!--End of Usage-->
+        </div>
+        <!--End Sixth col-->
+   </div>
+   <aura:if isTrue="{!v.lineDetails.ratePlans !=null}">
+        <aura:iteration items="{!v.lineDetails.ratePlans}" var="obj">
+            <div class="slds-grid slds-gutters bottom_large">
+                <!--Product col-->
+                <div class="slds-col">
+                    <!--Product-->
+                    <div class="slds-p-bottom_medium">
+                        <c:LC006_OpportunityQuickActionRatePlan ratePlanDetails="{!obj}"/> 
+                    </div>
+                    <!--End Product-->
+                </div>
+                <!--End Product col-->
+            </div>
+        </aura:iteration>
+   </aura:if>
+   
+   <hr/>
+
+</aura:component>

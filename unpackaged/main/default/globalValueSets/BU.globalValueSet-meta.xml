@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>110</fullName>
+        <default>false</default>
+        <label>CPA</label>
+    </customValue>
+    <customValue>
+        <fullName>200</fullName>
+        <default>false</default>
+        <label>RETAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>302</fullName>
+        <default>false</default>
+        <label>ERP Large Accounts</label>
+    </customValue>
+    <customValue>
+        <fullName>305</fullName>
+        <default>false</default>
+        <label>ERP Enterprises</label>
+    </customValue>
+    <customValue>
+        <fullName>315</fullName>
+        <default>false</default>
+        <label>TAX</label>
+    </customValue>
+    <customValue>
+        <fullName>317</fullName>
+        <default>false</default>
+        <label>HCM TALENT</label>
+    </customValue>
+    <customValue>
+        <fullName>318</fullName>
+        <default>false</default>
+        <label>HCM Meta4</label>
+    </customValue>
+    <customValue>
+        <fullName>320</fullName>
+        <default>false</default>
+        <label>HCM Payroll</label>
+    </customValue>
+    <customValue>
+        <fullName>999</fullName>
+        <default>false</default>
+        <label>OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>316</fullName>
+        <default>false</default>
+        <label>FINANCE (ACA)</label>
+    </customValue>
+    <customValue>
+        <fullName>100</fullName>
+        <default>false</default>
+        <label>SB</label>
+    </customValue>
+    <customValue>
+        <fullName>319</fullName>
+        <default>false</default>
+        <label>Talentsoft</label>
+    </customValue>
+    <customValue>
+        <fullName>111</fullName>
+        <default>false</default>
+        <label>DHATIM</label>
+    </customValue>
+    <customValue>
+        <fullName>802</fullName>
+        <default>false</default>
+        <label>Cedricom</label>
+    </customValue>
+    <customValue>
+        <fullName>321</fullName>
+        <default>false</default>
+        <label>VisualTime</label>
+    </customValue>
+    <customValue>
+        <fullName>322</fullName>
+        <default>false</default>
+        <label>Wittyfit</label>
+    </customValue>
+    <customValue>
+        <fullName>801</fullName>
+        <default>false</default>
+        <label>KOALABOOX</label>
+    </customValue>
+    <customValue>
+        <fullName>201</fullName>
+        <default>false</default>
+        <label>STORIQ</label>
+    </customValue>
+    <customValue>
+        <fullName>314</fullName>
+        <default>false</default>
+        <label>NOTILUS</label>
+    </customValue>
+    <customValue>
+        <fullName>323</fullName>
+        <default>false</default>
+        <label>Digital Recruiters</label>
+    </customValue>
+    <customValue>
+        <fullName>205</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CYLANDE</label>
+    </customValue>
+    <customValue>
+        <fullName>210</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BU BTP</label>
+    </customValue>
+    <customValue>
+        <fullName>220</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BU CHR</label>
+    </customValue>
+    <customValue>
+        <fullName>230</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BU MT&amp;S</label>
+    </customValue>
+    <customValue>
+        <fullName>310</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BU FISCALITE</label>
+    </customValue>
+    <customValue>
+        <fullName>500</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DIRECTION MARKETING</label>
+    </customValue>
+    <customValue>
+        <fullName>700</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BU PUBLIC</label>
+    </customValue>
+    <customValue>
+        <fullName>800</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>QUADRATUS</label>
+    </customValue>
+    <customValue>
+        <fullName>105</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PORTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>140</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BU TDA</label>
+    </customValue>
+    <customValue>
+        <fullName>121</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DIRECTION INTERNATIONALE</label>
+    </customValue>
+    <customValue>
+        <fullName>300</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BU FINANCE</label>
+    </customValue>
+    <masterLabel>BU</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

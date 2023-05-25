@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR01_NoCegidSolutionForProspect</fullName>
+    <active>false</active>
+    <errorConditionFormula>Cegid_solution__c &amp;&amp;  ISPICKVAL(Account__r.Nature__c, 'Prospect')</errorConditionFormula>
+    <errorDisplayField>Cegid_solution__c</errorDisplayField>
+    <errorMessage>You can't have a Cegid Solution for a Prospect</errorMessage>
+</ValidationRule>

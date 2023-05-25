@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_of_Commercialization_Date_Check</fullName>
+    <active>false</active>
+    <description>Check if the date is correct considering the following business rule : the end of commercialization date can't be inferior to the current date + 31 days (maximum period of a quote validity)</description>
+    <errorConditionFormula>End_of_Commercialization__c &lt; (DATEVALUE(NOW()) + 31)</errorConditionFormula>
+    <errorDisplayField>End_of_Commercialization__c</errorDisplayField>
+    <errorMessage>The end of commercialization date can't be inferior to the current date + 31 days (maximum period of a quote validity)</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Selling Context --></label>
+        <name>Selling_Context__c</name>
+        <picklistValues>
+            <masterLabel>Distributor Selling Services</masterLabel>
+            <translation><!-- Distributor Selling Services --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

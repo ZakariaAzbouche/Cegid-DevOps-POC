@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Prod_SchedulableDurationMandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( $User.BypassVR__c = FALSE,
+RecordType.DeveloperName = 'Article',
+Schedulable__c ,
+ISBLANK(Duration__c)
+)</errorConditionFormula>
+    <errorDisplayField>Duration__c</errorDisplayField>
+    <errorMessage>For a Schedulable Article, Duration is mandatory. Please fill this field</errorMessage>
+</ValidationRule>

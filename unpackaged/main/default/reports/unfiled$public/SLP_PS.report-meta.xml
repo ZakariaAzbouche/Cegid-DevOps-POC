@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <block>
+        <blockInfo>
+            <blockId>B0</blockId>
+            <joinTable>x</joinTable>
+        </blockInfo>
+        <columns>
+            <field>CUST_NAME</field>
+        </columns>
+        <columns>
+            <aggregateTypes>Sum</aggregateTypes>
+            <field>Service_Level_Price__c.RegularPrice__c</field>
+        </columns>
+        <columns>
+            <field>Service_Level_Price__c.Service_Level__c</field>
+        </columns>
+        <columns>
+            <field>Service_Level_Price__c.Sales_Purpose__c</field>
+        </columns>
+        <columns>
+            <field>Service_Level_Price__c.Price_Book__c</field>
+        </columns>
+        <currency>EUR</currency>
+        <filter>
+            <criteriaItems>
+                <column>FK_PROD_FAMILY</column>
+                <columnToColumn>false</columnToColumn>
+                <isUnlocked>true</isUnlocked>
+                <operator>equals</operator>
+                <value>140,Professional services</value>
+            </criteriaItems>
+            <criteriaItems>
+                <column>FK_$Product2.BU_Offer__c</column>
+                <columnToColumn>false</columnToColumn>
+                <isUnlocked>true</isUnlocked>
+                <operator>equals</operator>
+                <value>315</value>
+            </criteriaItems>
+            <criteriaItems>
+                <column>FK_PROD_ACTIVE</column>
+                <columnToColumn>false</columnToColumn>
+                <isUnlocked>true</isUnlocked>
+                <operator>equals</operator>
+                <value>1</value>
+            </criteriaItems>
+        </filter>
+        <format>Summary</format>
+        <name>Service Level Prices with Produc block 1</name>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>CustomEntity$Service_Level_Price__c@Service_Level_Price__c.Product__c</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <timeFrameFilter>
+            <dateColumn>CUST_CREATED_DATE</dateColumn>
+            <interval>INTERVAL_CUSTOM</interval>
+        </timeFrameFilter>
+    </block>
+    <blockInfo>
+        <blockId xsi:nil="true"/>
+        <joinTable>x</joinTable>
+    </blockInfo>
+    <format>MultiBlock</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_$Product2.Reference_Number__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>SLP PS</name>
+    <params>
+        <name>lsk</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Service_Level_Price__c@Service_Level_Price__c.Product__c</reportType>
+    <showDetails>true</showDetails>
+</Report>

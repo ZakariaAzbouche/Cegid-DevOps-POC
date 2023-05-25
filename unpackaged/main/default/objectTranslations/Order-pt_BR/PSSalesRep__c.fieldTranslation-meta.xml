@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- PS Sales Rep --></label>
+        <name>PSSalesRep__c</name>
+        <relationshipLabel><!-- Orders (PS Sales Rep) --></relationshipLabel>
+    </CustomFieldTranslation>

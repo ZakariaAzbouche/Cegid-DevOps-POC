@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>This month</fullName>
+        <default>false</default>
+        <label>This month</label>
+    </customValue>
+    <customValue>
+        <fullName>Thiis trimester</fullName>
+        <default>false</default>
+        <label>Thiis trimester</label>
+    </customValue>
+    <customValue>
+        <fullName>Next Trimester</fullName>
+        <default>false</default>
+        <label>Next Trimester</label>
+    </customValue>
+    <customValue>
+        <fullName>This semester</fullName>
+        <default>false</default>
+        <label>This semester</label>
+    </customValue>
+    <customValue>
+        <fullName>Next Semester</fullName>
+        <default>false</default>
+        <label>Next Semester</label>
+    </customValue>
+    <customValue>
+        <fullName>More than 12 months</fullName>
+        <default>false</default>
+        <label>More than 12 months</label>
+    </customValue>
+    <masterLabel>Time</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

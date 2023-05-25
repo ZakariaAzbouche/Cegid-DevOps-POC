@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Faible Process de décision et de signature inconnu|Moyen: Process de décision et de signature connu mais ne sait pas quand Cegid sera à l'ordre du jour des comités|Fort Process de décision et de signature connus.Date de présentation CEGID en Comité conue</help>
+        <label>Processus de décision</label>
+        <name>Decision_Process__c</name>
+    </CustomFieldTranslation>

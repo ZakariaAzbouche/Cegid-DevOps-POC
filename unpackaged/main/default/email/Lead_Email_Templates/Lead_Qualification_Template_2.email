@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>Email Lead Cegid</title> 
+	</head>
+	<body width="100%" height="100%" bgcolor="#efefef" style="padding:0; margin:0;">
+		<!-- Page -->
+		<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#efefef" text="#002c52" link="#0046fe" alink="#0046fe" vlink="#0046fe" style="padding:0; margin:0; font-family: 
+'Segoe UI', Roboto, sans-serif;font-weight: normal; font-size: 14px;">
+			<tr>
+				<td align="center">
+					<!-- Template -->
+					<table width="640" style="max-width:90%" cellpadding="0" cellspacing="0" bgcolor="white">
+						<tr>
+							<td align="center">
+								<!--  Header Template -->
+								<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#d5cdcb">
+									<tr>
+										<td width="70%">
+											<!-- VISUEL HEADER MODIFIABLE :
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailAvionLogo.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailBalance.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailBallonsLivresLogo.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailBallonsMaisonLogo.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailBuildingsLogo.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailConfettisLogo.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailGlobeLogo.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailLampeLogo.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailMontagneLogo.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailMontgolfiereLogo.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailMoulinLogo.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailNuageLogo.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailRouagesLogo.jpg"
+												src="https://storage.mkt.cegid.com/resources/brand/HeaderMailTelescopeLogo.jpg"
+											-->
+											<img src="https://storage.mkt.cegid.com/resources/brand/HeaderMailAvionLogo.jpg" alt="cegid" width="100%" height="100%"/>
+											<!-- FIN : VISUEL HEADER MODIFIABLE -->
+										</td>
+										<!-- COULEUR HEADER :
+											bgcolor="#0046fe" pour le bleu
+											bgcolor="#ff5c35" pour le orange
+										-->
+										<td width="30%" height="154" bgcolor="#0046fe">
+										<!-- FIN : COULEUR HEADER -->
+											<!-- Context -->
+											<table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Segoe UI', Roboto, sans-serif;text-align : center;">
+												<tr>
+													<td width="10%" height="10%">&nbsp;</td>
+													<td width="80%" height="10%">&nbsp;</td>
+													<td width="10%" height="10%">&nbsp;</td>
+												</tr>
+												<tr>
+													<td width="10%">&nbsp;</td>
+													<td width="80%" height="80%" valign="bottom">
+														<!-- CONTEXTE E-MAIL -->
+														<font color="white" style="font-size:14px"><strong>
+														
+														<br/><br/>
+														
+														<br/><br/>
+														
+														</strong></font>
+														<!-- FIN : CONTEXTE E-MAIL -->
+													</td>
+													<td width="10%">&nbsp;</td>
+												</tr>
+												<tr>
+													<td width="10%" height="10%">&nbsp;</td>
+													<td width="80%" height="10%">&nbsp;</td>
+													<td width="10%" height="10%">&nbsp;</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<table width="100%" cellpadding="0" cellspacing="0" bgcolor="white" style="font-family: 'Segoe UI', Roboto, sans-serif; color:#002C52;">
+									<tr>
+										<td colspan="3" width="100%" height="30" bgcolor="#efefef">&nbsp;</td>
+									</tr>
+									<!-- SECTION FR -->
+									<tr>
+										<td id="FrenchVersion" colspan="3" width="100%" height="30" style="font-size:12px; color:#0046FE; padding-left:10px;">
+										</td>
+									</tr>
+									<tr>
+										<td width="5%"></td>
+										<td width="90%">
+											<!-- TITRE FR -->
+											<h1 style="margin-top:0;">Cegid - Prise de contact {!Lead.Company}</h1>
+											<!-- FIN : TITRE FR -->
+											<!-- CONTENU FR -->
+											<p>Bonjour {!Lead.Salutation} {!Lead.Name},<br/><br/>
+J’ai cherché à vous joindre à plusieurs reprises concernant le projet que vous avez exprimé auprès de nos services. <br/>
+Vous pouvez me joindre par téléphone ou par e-mail pour que l’on puisse préciser votre besoin,  vous trouverez mes coordonnées dans la signature. <br/>
+Vous avez aussi la possibilité de répondre au questionnaire ci-dessous, adresse e-mail que vous retrouvez dans ma  signature.<br/><br/>
+
+<b><u>Concernant votre société :</b></u><br/>
+-	La raison sociale <br/>
+-	Le numéro de Siret <br/>
+(Si votre société est en cours de création, merci d'indiquer la ville où elle sera située) <br/>
+-	Le secteur d’activité <br/>
+-	L’effectif total  <br/>
+-	Les coordonnées et la fonction de l’interlocuteur principal <br/>
+Important : Si Cegid vous a été recommandé par votre Expert-Comptable, merci d’indiquer le nom du cabinet, son code postal et sa ville. <br/><br/>
+
+<b><u>Concernant votre projet :</b></u><br/>
+-	Le type de logiciel recherché<br/>
+-	Le système d’exploitation utilisé (Windows ? Mac ?)<br/>
+-	Les fonctions souhaitées <br/>
+-	Le nombre d’utilisateurs <br/>
+-	Le nom de la solution existante, les raisons de ce changement ou de cette mise en place <br/>
+-	L’échéance envisagée <br/>
+-	Toutes spécificités liées à votre projet <br/>
+<br/><br/>
+
+Dès réception de ces informations, votre demande sera transmise à un expert. Il reprendra contact avec vous prochainement. Pour cela, merci d’indiquer vos disponibilités.<br/><br/>
+Merci d’avance pour votre retour.<br/><br/>
+Bien cordialement,<br/><br/>
+
+{!User.Name}<br/>
+{!User.Email}<br/>
+{!User.Phone}<br/>
+
+
+</p>
+											<!-- FIN : CONTENU FR -->
+										</td>
+										<td width="5%"></td>
+									</tr>
+									<tr>
+										<td colspan="3" width="100%" height="30" bgcolor="#efefef">&nbsp;</td>
+									</tr>
+									<!-- FIN : SECTION FR -->
+								</table>
+								<!-- FOOTER -->
+								<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#0046fe">
+									<tr><td style="font-size:5px;">&nbsp;</td></tr>
+									<tr height="50">
+										<td>
+											<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#0046fe">
+												<tr> 
+													<!-- SANS YAMMER -->
+													<td width="25%" valign="middle" align="center">
+														<a href="https://www.cegid.com" style="text-decoration:none; font-size:12px;"><font color="white">www.cegid.com</font></a>
+													</td>
+													<td width="46%" valign="middle" align="center">
+														<a href="https://www.cegid.com">
+															<img src="https://storage.mkt.cegid.com/resources/brand/CEGID_Logo_Blanc.png" alt="Cegid" width="78" height="50">
+														</a>
+													</td>
+													<!-- FIN : SANS YAMMER -->
+													<!-- AVEC YAMMER >
+													<td width="25%" valign="middle" align="center">
+														<a href="https://www.cegid.com" style="text-decoration:none; font-size:12px;"><font color="white">www.cegid.com</font></a>
+													</td>
+													<td width="40%" valign="middle" align="center">
+														<a href="https://www.cegid.com">
+															<img src="https://storage.mkt.cegid.com/resources/brand/CEGID_Logo_Blanc.png" alt="Cegid" width="78" height="50">
+														</a>
+													</td>
+													<td width="6%" valign="middle" align="center" style="">
+														<a href="https://www.yammer.com/cegid.fr#/home">
+															<img width="75%" alt="yammer" src="https://storage.mkt.cegid.com/resources/brand/yammer.png">
+														</a>
+													</td>
+													<!-- FIN : AVEC YAMMER -->
+													<td width="6%" valign="middle" align="center" style="">
+														<a href="https://twitter.com/CegidGroup">
+															<img width="75%" alt="twitter" src="https://storage.mkt.cegid.com/resources/brand/twitter.png">
+														</a>
+													</td>
+													<td width="6%" valign="middle" align="center" style="">
+														<a href="https://www.linkedin.com/company/cegid">
+															<img width="75%" alt="linkedin" src="https://storage.mkt.cegid.com/resources/brand/linkedin.png">
+														</a>
+													</td>
+													<td width="6%" valign="middle" align="center" style="">
+														<a href="https://www.facebook.com/Cegid-Group/">
+															<img width="75%" alt="Facebook" src="https://storage.mkt.cegid.com/resources/brand/facebook.png">
+														</a>
+													</td>
+													<td width="6%" valign="middle" align="center" style="">
+														<a href="https://www.youtube.com/user/CegidOfficiel">
+															<img width="75%" alt="youtube" src="https://storage.mkt.cegid.com/resources/brand/youtube.png">
+														</a>
+													</td>
+													<td width="5%">&nbsp;</td>
+												</tr>
+											</table>											
+										</td>
+									</tr>
+									<tr><td style="font-size:5px;">&nbsp;</td></tr>
+								</table>
+								<!-- FIN : FOOTER -->
+			<p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif"><a href="https://go.cegid.com/UnsubscribePage"  target="_blank"><span style="color:#9A9A9A">Suivez ce lien pour vous désinscrire</span></a></span></b><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;mso-fareast-language:EN-US"><o:p></o:p></span></p>
+							</td>
+						</tr>
+
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+Bonjour,<br><br>
+Un devis nécessite une intervention de votre part ; pour accéder à la demande {!Case.CaseNumber}, connectez-vous à CPQ ou accédez directement au case <a title="case" href={!Case.Link}>ici</a>.
+
+
+<br>
+
+Devis : {!Case.Quote__c}
+
+<br>
+<br>
+
+Cordialement,

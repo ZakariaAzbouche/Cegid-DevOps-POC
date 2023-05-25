@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Profile to assign to connecting user --></help>
+        <label><!-- Profile --></label>
+        <name>Profile__c</name>
+        <picklistValues>
+            <masterLabel>B2B Customer Community Plus</masterLabel>
+            <translation><!-- B2B Customer Community Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Community User</masterLabel>
+            <translation><!-- Customer Community User --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

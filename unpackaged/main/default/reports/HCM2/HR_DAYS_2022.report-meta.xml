@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_88745461</developerName>
+        <masterLabel>City</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>CAMPAIGN_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>WJ2022.HCM.Cegid HR days Lille 220712</sourceValue>
+            </sourceValues>
+            <value>Lille</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>WJ2022.HCM.Cegid HR days Lyon 220705</sourceValue>
+            </sourceValues>
+            <value>Lyon</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>WJ2022.HCM.Cegid HR days Nantes 220913</sourceValue>
+            </sourceValues>
+            <value>Nates</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>WJ2022.HCM.Cegid HR days Paris 220915</sourceValue>
+            </sourceValues>
+            <value>Paris</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>WJ2022.HCM.Cegid HR days Strasbourg 220708</sourceValue>
+            </sourceValues>
+            <value>Strasbourg</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>COMPANY</field>
+    </columns>
+    <columns>
+        <field>MEMBER_TYPE</field>
+    </columns>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>PHONE</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>CAMPAIGN_PARENT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>EVT.2205.IB.FR.HCM-fr-2-upsell_payroll.Event.Cegid HR Days</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>COMPANY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>cegid</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_88745461</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>HR DAYS 2022</name>
+    <params>
+        <name>scopeid</name>
+        <value></value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CampaignWithCampaignMembers</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+</Report>

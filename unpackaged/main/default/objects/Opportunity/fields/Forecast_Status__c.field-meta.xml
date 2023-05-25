@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Forecast_Status__c</fullName>
+    <description>Forecast Status - une picklist des valeurs de forecast utilisées par cegid pour qualifier une opportunité</description>
+    <externalId>false</externalId>
+    <label>TO BE DELETED Forecast Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Upside</fullName>
+                <default>false</default>
+                <label>Upside</label>
+            </value>
+            <value>
+                <fullName>Probable</fullName>
+                <default>false</default>
+                <label>Probable</label>
+            </value>
+            <value>
+                <fullName>Firm</fullName>
+                <default>false</default>
+                <label>Firm</label>
+            </value>
+            <value>
+                <fullName>Signed</fullName>
+                <default>false</default>
+                <label>Signed</label>
+            </value>
+            <value>
+                <fullName>Lost</fullName>
+                <default>false</default>
+                <label>Lost</label>
+            </value>
+            <value>
+                <fullName>NOGO CEGID</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NOGO CEGID</label>
+            </value>
+            <value>
+                <fullName>NOGO CLIENT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NOGO CLIENT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

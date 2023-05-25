@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Case_001_RejectCause</fullName>
+    <active>true</active>
+    <description>Reject Cause Mandatory when Rejected</description>
+    <errorConditionFormula>AND (
+				NOT( $User.BypassVR__c), 
+				NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c,"VR_Case_001_RejectCause")), 
+				ISPICKVAL( Status, "Rejected"), 
+				ISBLANK (TEXT( Reject_Cause__c ))
+				)</errorConditionFormula>
+    <errorDisplayField>Reject_Cause__c</errorDisplayField>
+    <errorMessage>Please indicate a reject cause.</errorMessage>
+</ValidationRule>

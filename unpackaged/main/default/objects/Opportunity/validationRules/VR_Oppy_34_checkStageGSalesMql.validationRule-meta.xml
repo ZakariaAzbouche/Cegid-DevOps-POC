@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppy_34_checkStageGSalesMql</fullName>
+    <active>true</active>
+    <description>Cette VR empêche le passage d'un stage G - Sales Ready à G - MQL.</description>
+    <errorConditionFormula>AND(
+				NOT($User.BypassVR__c),
+ISPICKVAL( PRIORVALUE(StageName),"G - Sales Ready"),
+ISPICKVAL( StageName, "G - MQL")
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>The Stage "G-MQL" is dedicated to Marketing. Please move this Cross Sell opportunity directly to Stage "F-Identify the needs".</errorMessage>
+</ValidationRule>

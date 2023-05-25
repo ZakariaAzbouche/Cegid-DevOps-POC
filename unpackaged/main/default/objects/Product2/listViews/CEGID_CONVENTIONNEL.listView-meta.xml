@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CEGID_CONVENTIONNEL</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>PRODUCT2.PRODUCT_CLASS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>contains</operation>
+        <value>CONVENT</value>
+    </filters>
+    <label>CEGID CONVENTIONNEL</label>
+</ListView>

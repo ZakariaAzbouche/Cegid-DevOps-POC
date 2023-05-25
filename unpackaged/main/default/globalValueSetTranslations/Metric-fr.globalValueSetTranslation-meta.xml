@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>50 Documents PIA</masterLabel>
+        <translation>50 Documents PIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Active Company</masterLabel>
+        <translation>Société active</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Active Users</masterLabel>
+        <translation><!-- Active Users --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Asset</masterLabel>
+        <translation><!-- Asset --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bank Account Identity</masterLabel>
+        <translation>Rib</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bank statement</masterLabel>
+        <translation><!-- Bank statement --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Base</masterLabel>
+        <translation><!-- Base --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Big Folder</masterLabel>
+        <translation>Gros Dossier</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CA (turnover)</masterLabel>
+        <translation><!-- CA (turnover) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CV</masterLabel>
+        <translation><!-- CV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Concurrent Users</masterLabel>
+        <translation>Utilisateur concurrent</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consumption</masterLabel>
+        <translation>Consommation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Credits</masterLabel>
+        <translation><!-- Credits --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Environment</masterLabel>
+        <translation><!-- Customer Environment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DL folder</masterLabel>
+        <translation>Dossier DL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Device</masterLabel>
+        <translation><!-- Device --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Digital Safe</masterLabel>
+        <translation>Coffre-fort</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Documents</masterLabel>
+        <translation><!-- Documents --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EO - Operational Events</masterLabel>
+        <translation><!-- EO - Operational Events --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Effective employee</masterLabel>
+        <translation><!-- Effective employee --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Employee</masterLabel>
+        <translation><!-- Employee --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Establishment</masterLabel>
+        <translation><!-- Establishment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Expense reports</masterLabel>
+        <translation><!-- Expense reports --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Flat Fee</masterLabel>
+        <translation>Forfait</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Folder</masterLabel>
+        <translation>Dossier</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gigabyte</masterLabel>
+        <translation><!-- Gigabyte --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hiring Authorisations</masterLabel>
+        <translation><!-- Hiring Authorisations --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Housing</masterLabel>
+        <translation>Logements</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inactive Company</masterLabel>
+        <translation><!-- Inactive Company --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inactive establishment</masterLabel>
+        <translation>Etablissement inactif</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Invoice</masterLabel>
+        <translation>Facture</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Learners</masterLabel>
+        <translation><!-- Learners --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mans - Days</masterLabel>
+        <translation><!-- Mans - Days --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Medium Folder</masterLabel>
+        <translation>Moyen Dossier</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Member</masterLabel>
+        <translation>Adhérent</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Named User</masterLabel>
+        <translation>Utilisateur nommé</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>National ID</masterLabel>
+        <translation>Siren</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Non-SCI folder</masterLabel>
+        <translation>Dossier hors SCI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PIA file</masterLabel>
+        <translation>Dossier PIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>POS</masterLabel>
+        <translation><!-- POS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Packs</masterLabel>
+        <translation><!-- Packs --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Page</masterLabel>
+        <translation><!-- Page --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Payslip</masterLabel>
+        <translation>Bulletin</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Recruiters</masterLabel>
+        <translation><!-- Recruiters --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SCI folder</masterLabel>
+        <translation>Dossier SCI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Signature</masterLabel>
+        <translation><!-- Signature --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Small Folder</masterLabel>
+        <translation>Petit Dossier</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Stores</masterLabel>
+        <translation><!-- Stores --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Text Messages</masterLabel>
+        <translation><!-- Text Messages --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unit of use</masterLabel>
+        <translation><!-- Unit of use --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vehicules</masterLabel>
+        <translation><!-- Vehicules --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

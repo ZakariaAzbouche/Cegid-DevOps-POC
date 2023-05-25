@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Line__c</fullName>
+    <externalId>false</externalId>
+    <label>Quote Line</label>
+    <referenceTo>SBQQ__QuoteLine__c</referenceTo>
+    <relationshipLabel>Quote Line Approvals</relationshipLabel>
+    <relationshipName>Quote_Line_Approvals</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

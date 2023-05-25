@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Compte</label>
+        <name>Account_BU__c</name>
+        <relationshipLabel>BU</relationshipLabel>
+    </CustomFieldTranslation>

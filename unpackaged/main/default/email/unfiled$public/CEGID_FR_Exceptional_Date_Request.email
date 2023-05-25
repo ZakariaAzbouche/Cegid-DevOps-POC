@@ -1,0 +1,7 @@
+Bonjour,<br><br>
+Une dérogation pour la date de démarrage Saas du client {!Case.AccountName__c} est soumise à votre validation.
+Pour accéder à la demande {!Case.CaseNumber}, connectez-vous à CPQ ou accédez directement au case <a title="case" href="https://cegid--uat.lightning.force.com/lightning/r/Case/{!Case.Id}/view">ici</a>.
+<br>
+<br>
+
+Cordialement,

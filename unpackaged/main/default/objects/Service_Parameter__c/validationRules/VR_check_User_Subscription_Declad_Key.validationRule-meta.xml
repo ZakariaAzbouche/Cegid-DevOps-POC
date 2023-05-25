@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_check_User_Subscription_Declad_Key</fullName>
+    <active>true</active>
+    <description>Un service doit être avec Abonnement utilisateur ou avec Déclaration CD Key.</description>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c ),
+User_Subscription__c=False,  
+Declare_Key__c= False
+)</errorConditionFormula>
+    <errorMessage>Un service doit être avec Abonnement utilisateur ou avec Déclaration CD Key.</errorMessage>
+</ValidationRule>

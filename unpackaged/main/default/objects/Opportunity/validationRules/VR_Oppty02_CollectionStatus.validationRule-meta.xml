@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty02_CollectionStatus</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT($User.BypassVR__c),
+ISPICKVAL( Account.Collection_Status__c ,"Black")
+)</errorConditionFormula>
+    <errorMessage>You can't create an opportunity for an Account with Collection Status Black</errorMessage>
+</ValidationRule>

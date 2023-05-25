@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Event</fullName>
+        <default>true</default>
+        <label>Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo Signup / Trial</fullName>
+        <default>false</default>
+        <label>Demo Signup / Trial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral Program</fullName>
+        <default>false</default>
+        <label>Referral Program</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Search</fullName>
+        <default>false</default>
+        <label>Search</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Thought Leadership</fullName>
+        <default>false</default>
+        <label>Thought Leadership</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website Direct</fullName>
+        <default>false</default>
+        <label>Website Direct</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gated Content (GTC)</fullName>
+        <default>false</default>
+        <label>Gated Content (GTC)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hosted event (EVT)</fullName>
+        <default>false</default>
+        <label>Hosted event (EVT)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nurture (NUR)</fullName>
+        <default>false</default>
+        <label>Nurture (NUR)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Newsletter (NWL)</fullName>
+        <default>false</default>
+        <label>Newsletter (NWL)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>List Import (LII)</fullName>
+        <default>false</default>
+        <label>List Import (LII)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tradeshow (TDS)</fullName>
+        <default>false</default>
+        <label>Tradeshow (TDS)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webform (WBF)</fullName>
+        <default>false</default>
+        <label>Webform (WBF)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar (WBN)</fullName>
+        <default>false</default>
+        <label>Webinar (WBN)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Blast (EMB)</fullName>
+        <default>false</default>
+        <label>Email Blast (EMB)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Video Tracking (VID)</fullName>
+        <default>false</default>
+        <label>Video Tracking (VID)</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Cegid - Le store en ligne</container>
+    <containerType>Network</containerType>
+    <label>Default Navigation</label>
+    <navigationMenuItem>
+        <label>Nos Formations</label>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/menu</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Nos Solutions</label>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://store.cegid.com/s/menu#menu-solutions</target>
+        <targetPreference>OpenExternalLinkInSameTab</targetPreference>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Cegid Life</label>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://gestion.cegidlife.com/Cegid.CDE.Web/</target>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

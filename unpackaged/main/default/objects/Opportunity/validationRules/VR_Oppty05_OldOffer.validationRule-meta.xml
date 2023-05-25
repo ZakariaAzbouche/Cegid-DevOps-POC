@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty05_OldOffer</fullName>
+    <active>true</active>
+    <description>Old Offer is mandatory for migrations</description>
+    <errorConditionFormula>AND (
+NOT( $User.BypassVR__c ),				ISBLANK(TEXT(Old_Product_Line__c)),
+				CASE( Sales_Purpose__c, 
+									"611",1,
+									"612",1,
+									"613",1,
+									0)=1, 
+					CASE(StageName,
+									"D - Draw up the solution",1,
+									"C - Validate the solution",1,
+									"B - Negotiate",1,
+									"A - Sign",1,
+									"Closed Won",1,
+									0)= 1
+				)</errorConditionFormula>
+    <errorDisplayField>Old_Product_Line__c</errorDisplayField>
+    <errorMessage>Please fulfill Old Offer as it is mandatory from stage D for migrations.</errorMessage>
+</ValidationRule>

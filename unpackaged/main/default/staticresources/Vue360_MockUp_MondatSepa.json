@@ -1,0 +1,22 @@
+{"success": true, "mandates": [{
+    "info_nro_Item": "1",
+    "ICS": "1",
+    "Tiers": "",
+    "RUM": "000281939037581100",
+    "CLEID": "49229",
+    "LIBELLE": "Mandat 9037581100",
+    "BIC": "CCBPFRPPGRE",
+    "IBAN": "FR7616807004008100646521113",
+    "Paiement": "1PR",
+    "Type": "1PD",
+    "datemvtenvoi": "2019-12-19 00:00:00",
+    "datesignature": "2019-02-27 00:00:00",
+    "datemvtrejet": "1900-01-01 00:00:00",
+    "statut": "2RE",
+    "bankName": "BEAUREPAIRE",
+    "bankCity": "BEAUREPAIRE",
+    "nbrItem": "2",
+    "nbrItemTotal": "2"
+  }
+]
+ }

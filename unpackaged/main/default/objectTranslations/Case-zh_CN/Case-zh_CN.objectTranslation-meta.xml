@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Case Layout</layout>
+        <sections>
+            <label><!-- Bid Management --></label>
+            <section>Bid Management</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Exceptional Date Request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Particular Conditions Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Particular Conditions --></label>
+            <section>Particular Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PreSales Case Layout</layout>
+        <sections>
+            <label><!-- Bid Management --></label>
+            <section>Bid Management</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>Create_New_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Schedule --></label>
+        <name>Schedule</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Internal Request --></label>
+        <name>Internal_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Professional Services - Additional Order --></label>
+        <name>PS_additional_order</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Particular Conditions Request --></label>
+        <name>Particular_Conditions_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PreSales Request --></label>
+        <name>PreSales_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Professional Services Request --></label>
+        <name>Professional_Services_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quote Approval Request --></label>
+        <name>Quote_Approval_Request</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You don&apos;t have the necessary privileges to edit this record. --></errorMessage>
+        <name>Case_PS_Only_Editable_By_CegidPS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t update status other than &quot;to be assigned&quot; if assigned to field is empty. --></errorMessage>
+        <name>Case_PS_RestrictStatusUpdate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot modify this field. --></errorMessage>
+        <name>Control_on_case_fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please indicate a reject cause. --></errorMessage>
+        <name>VR_Case_001_RejectCause</name>
+    </validationRules>
+</CustomObjectTranslation>

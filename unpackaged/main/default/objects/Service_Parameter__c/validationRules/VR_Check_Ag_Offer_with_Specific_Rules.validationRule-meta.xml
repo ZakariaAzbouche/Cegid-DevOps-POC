@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Check_Ag_Offer_with_Specific_Rules</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+ISPICKVAL(Specific_Rules__c,'UNE_AGENCE_GAMMESOLUTION'),
+ISBLANK(TEXT(Agency__c)),
+ISBLANK(TEXT(Offer__c)),
+NOT($User.BypassVR__c )
+)</errorConditionFormula>
+    <errorMessage>Une Specific rule  avec Agency -Offer doit avoir une Agency ou une Offer</errorMessage>
+</ValidationRule>

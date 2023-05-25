@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty14_ConfirmationMandatory</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND (
+				NOT( $User.BypassVR__c ), 
+				IsClosed,
+				ISCHANGED( StageName ), 
+				NOT(ISPICKVAL( Confirmation_of_opportunity_closing__c, "Yes"))
+				)</errorConditionFormula>
+    <errorMessage>You have to confirm you do understand that closing an opportunity prevents you from making further changes to it.</errorMessage>
+</ValidationRule>

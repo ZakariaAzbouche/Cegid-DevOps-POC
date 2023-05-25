@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <outboundMessages>
+        <fullName>Survey_Calls_Sales_API</fullName>
+        <apiVersion>56.0</apiVersion>
+        <endpointUrl>https://fra1.qualtrics.com/triggers/api/v1/event?eventType=SalesforceOutboundMessage&amp;s=SV_ex6hXwJZ072C2LY&amp;u=UR_42cPpS8qMBHqZr7&amp;t=OC_x4xq59V2Wy0jcvw&amp;b=cegid</endpointUrl>
+        <fields>Contact__c</fields>
+        <fields>CreatedById</fields>
+        <fields>Id</fields>
+        <fields>Task_SubType__c</fields>
+        <fields>Task_Type__c</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>baptiste.celerier.externe-cegid@capgemini.com</integrationUser>
+        <name>Survey Calls Sales API</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+</Workflow>

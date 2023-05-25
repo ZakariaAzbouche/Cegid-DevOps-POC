@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Lead_Marketo_Synch_User_Inactive</fullName>
+    <active>false</active>
+    <description>The Lead Owner is Inactive, so you can't synch this record</description>
+    <errorConditionFormula>NOT(Owner:User.IsActive  = TRUE)</errorConditionFormula>
+    <errorDisplayField>Mkto_marketo_sync__c</errorDisplayField>
+    <errorMessage>The Lead Owner is Inactive, so you can't synch this record</errorMessage>
+</ValidationRule>

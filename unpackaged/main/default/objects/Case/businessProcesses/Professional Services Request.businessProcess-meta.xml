@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Professional Services Request</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Assigned</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Delivered</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Revoked</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>To be assigned</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Waiting for Information</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

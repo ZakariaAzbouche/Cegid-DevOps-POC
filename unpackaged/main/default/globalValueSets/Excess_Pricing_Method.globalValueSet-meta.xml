@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Capped Unit Price</fullName>
+        <default>false</default>
+        <label>Capped Unit Price</label>
+    </customValue>
+    <customValue>
+        <fullName>Decreasing Unit Price</fullName>
+        <default>false</default>
+        <label>Decreasing Unit Price</label>
+    </customValue>
+    <customValue>
+        <fullName>Fixed Unit Price</fullName>
+        <default>false</default>
+        <label>Fixed Unit Price</label>
+    </customValue>
+    <customValue>
+        <fullName>Main Charge Unit Price</fullName>
+        <default>false</default>
+        <label>Main Charge Unit Price</label>
+    </customValue>
+    <customValue>
+        <fullName>Amount Discount</fullName>
+        <default>false</default>
+        <label>Amount Discount</label>
+    </customValue>
+    <customValue>
+        <fullName>Percentage Discount</fullName>
+        <default>false</default>
+        <label>Percentage Discount</label>
+    </customValue>
+    <customValue>
+        <fullName>TalentSoft</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TalentSoft</label>
+    </customValue>
+    <masterLabel>Excess Pricing Method</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

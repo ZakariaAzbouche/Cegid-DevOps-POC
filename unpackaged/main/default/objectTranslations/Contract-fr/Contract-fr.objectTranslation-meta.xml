@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>CPQ Contract Layout</layout>
+        <sections>
+            <label>Amendements</label>
+            <section>Amendments</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Recalcul</label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label>Information sur Salesforce CPQ</label>
+            <section>Salesforce CPQ Information</section>
+        </sections>
+        <sections>
+            <label>Informations système</label>
+            <section>System Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contract Layout</layout>
+        <sections>
+            <label><!-- Contract Type --></label>
+            <section>Contract Type</section>
+        </sections>
+        <sections>
+            <label><!-- Term --></label>
+            <section>Term</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

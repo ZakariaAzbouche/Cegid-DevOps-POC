@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pricing Model --></label>
+        <name>PricingModel__c</name>
+        <picklistValues>
+            <masterLabel>Flat Rate</masterLabel>
+            <translation><!-- Flat Rate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Rate + Overage</masterLabel>
+            <translation><!-- Flat Rate + Overage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription + Use</masterLabel>
+            <translation><!-- Subscription + Use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront</masterLabel>
+            <translation><!-- Upfront --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

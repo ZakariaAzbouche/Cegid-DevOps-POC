@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebStoreTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <autoFacetingEnabled>false</autoFacetingEnabled>
+    <checkoutTimeToLive>2880</checkoutTimeToLive>
+    <commerceEinsteinActivitiesTracked>false</commerceEinsteinActivitiesTracked>
+    <commerceEinsteinDeployed>false</commerceEinsteinDeployed>
+    <defaultCurrency>EUR</defaultCurrency>
+    <defaultLanguage>fr</defaultLanguage>
+    <defaultTaxLocaleType xsi:nil="true"/>
+    <guestBrowsingEnabled>false</guestBrowsingEnabled>
+    <guestCartTimeToLive>10080</guestCartTimeToLive>
+    <masterLabel>B2BCegidStore</masterLabel>
+    <maxValuesPerFacet>100</maxValuesPerFacet>
+    <paginationSize>20</paginationSize>
+    <pricingStrategy>LowestPrice</pricingStrategy>
+    <productGrouping>VariationParent</productGrouping>
+    <skipAdditionalEntitlementCheckForSearch>false</skipAdditionalEntitlementCheckForSearch>
+    <supportedCurrencies>CAD</supportedCurrencies>
+    <supportedLanguages>fr</supportedLanguages>
+    <type>B2B</type>
+</WebStoreTemplate>

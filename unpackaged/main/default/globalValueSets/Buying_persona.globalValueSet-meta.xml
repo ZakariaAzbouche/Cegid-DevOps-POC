@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Managing Director</fullName>
+        <default>false</default>
+        <label>Managing Director</label>
+    </customValue>
+    <customValue>
+        <fullName>IT Management</fullName>
+        <default>false</default>
+        <label>IT Management</label>
+    </customValue>
+    <customValue>
+        <fullName>HR Manager</fullName>
+        <default>false</default>
+        <label>HR Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Payroll Manager</fullName>
+        <default>false</default>
+        <label>Payroll Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Talent Manager</fullName>
+        <default>false</default>
+        <label>Talent Manager</label>
+    </customValue>
+    <masterLabel>Buying persona</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

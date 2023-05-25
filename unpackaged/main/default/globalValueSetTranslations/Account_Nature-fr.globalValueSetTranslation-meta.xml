@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>CUSTOMER</masterLabel>
+        <translation>CLIENT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EX CUSTOMER</masterLabel>
+        <translation>EX CLIENT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PROSPECT</masterLabel>
+        <translation>PROSPECT</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

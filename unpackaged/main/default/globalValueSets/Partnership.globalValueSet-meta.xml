@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>008</fullName>
+        <default>false</default>
+        <label>ANALYST</label>
+    </customValue>
+    <customValue>
+        <fullName>009</fullName>
+        <default>false</default>
+        <label>BPO</label>
+    </customValue>
+    <customValue>
+        <fullName>001</fullName>
+        <default>false</default>
+        <label>CONSULTING FIRM</label>
+    </customValue>
+    <customValue>
+        <fullName>101</fullName>
+        <default>false</default>
+        <label>CONSULTING FIRM &amp; INTEGRATOR</label>
+    </customValue>
+    <customValue>
+        <fullName>013</fullName>
+        <default>false</default>
+        <label>GROUP</label>
+    </customValue>
+    <customValue>
+        <fullName>002</fullName>
+        <default>false</default>
+        <label>HARDWARE VENDOR</label>
+    </customValue>
+    <customValue>
+        <fullName>003</fullName>
+        <default>false</default>
+        <label>INDEPENDENT CONSULTANT</label>
+    </customValue>
+    <customValue>
+        <fullName>005</fullName>
+        <default>false</default>
+        <label>INDEPENDENT SOFTWARE VENDOR</label>
+    </customValue>
+    <customValue>
+        <fullName>014</fullName>
+        <default>false</default>
+        <label>INSTANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>010</fullName>
+        <default>false</default>
+        <label>NETWORK</label>
+    </customValue>
+    <customValue>
+        <fullName>004</fullName>
+        <default>false</default>
+        <label>RESELLER</label>
+    </customValue>
+    <customValue>
+        <fullName>006</fullName>
+        <default>false</default>
+        <label>SYSTEM INTEGRATOR</label>
+    </customValue>
+    <customValue>
+        <fullName>012</fullName>
+        <default>false</default>
+        <label>TECHNICAL ASSOCIATION</label>
+    </customValue>
+    <customValue>
+        <fullName>007</fullName>
+        <default>false</default>
+        <label>TECHNOLOGY PARTNER</label>
+    </customValue>
+    <customValue>
+        <fullName>011</fullName>
+        <default>false</default>
+        <label>UNION</label>
+    </customValue>
+    <masterLabel>Subtype</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

@@ -1,0 +1,27 @@
+<messaging:emailTemplate subject="A quote requires your approbation" recipientType="User" relatedToType="sbaa__Approval__c">
+<messaging:htmlEmailBody > 
+<html>
+    <body>
+    
+       <!--Begin body of email. -->
+       Hello, <br/><br/>
+       {!relatedTo.Owner.Name} has requested your approval for a Quote : <br/>
+       - Quote Comment : {!relatedTo.Quote_Comment__c}<br/>
+       - Account : {!relatedTo.Quote_Account__c}<br/>
+       - Approval request reason : {!relatedTo.Approval_Rule_Name__c}<br/>
+       - Approval # : {!relatedTo.Name}
+       <br/><br/>
+       
+       To see more details before approving or rejecting this Quote, click this link : <br/>
+       <apex:outputlink value="{!LEFT($Api.Partner_Server_URL_140,FIND('.com',$Api.Partner_Server_URL_140)+4)+relatedTo.Id}">
+       Quote Approval</apex:outputlink> 
+       <br/><br/>
+       
+       <p style="color:white">
+           <apex:outputText value="{!relatedTo.Id}"/>
+       </p>
+       
+    </body>
+</html>
+</messaging:htmlEmailBody>               
+</messaging:emailTemplate>

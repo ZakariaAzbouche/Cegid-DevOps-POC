@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_Finance_Large_1_8__c</fullName>
+    <description>Code NAF finance for territory assignment</description>
+    <externalId>false</externalId>
+    <formula>OR (
+BEGINS( Industry_Code__r.Name ,"4614"),
+BEGINS( Industry_Code__r.Name ,"4615"),
+BEGINS( Industry_Code__r.Name ,"4616"),
+BEGINS( Industry_Code__r.Name ,"4618"),
+BEGINS( Industry_Code__r.Name ,"4619"),
+BEGINS( Industry_Code__r.Name ,"4641"),
+BEGINS( Industry_Code__r.Name ,"4642"),
+BEGINS( Industry_Code__r.Name ,"4643"),
+BEGINS( Industry_Code__r.Name ,"4644"),
+BEGINS( Industry_Code__r.Name ,"4645"),
+BEGINS( Industry_Code__r.Name ,"4647"),
+BEGINS( Industry_Code__r.Name ,"4648"),
+BEGINS( Industry_Code__r.Name ,"4649"),
+BEGINS( Industry_Code__r.Name ,"4651"),
+BEGINS( Industry_Code__r.Name ,"4652"),
+BEGINS( Industry_Code__r.Name ,"4662"),
+BEGINS( Industry_Code__r.Name ,"4664"),
+BEGINS( Industry_Code__r.Name ,"4665"),
+BEGINS( Industry_Code__r.Name ,"4666"),
+BEGINS( Industry_Code__r.Name ,"4669"),
+BEGINS( Industry_Code__r.Name ,"4671"),
+BEGINS( Industry_Code__r.Name ,"4673B"),
+BEGINS( Industry_Code__r.Name ,"4674"),
+BEGINS( Industry_Code__r.Name ,"4676"),
+BEGINS( Industry_Code__r.Name ,"469"),
+BEGINS( Industry_Code__r.Name ,"4711"),
+BEGINS( Industry_Code__r.Name ,"4719"),
+BEGINS( Industry_Code__r.Name ,"4721"),
+BEGINS( Industry_Code__r.Name ,"4722"),
+BEGINS( Industry_Code__r.Name ,"4723"),
+BEGINS( Industry_Code__r.Name ,"4724"),
+BEGINS( Industry_Code__r.Name ,"4725"),
+BEGINS( Industry_Code__r.Name ,"4726"),
+BEGINS( Industry_Code__r.Name ,"4729"),
+BEGINS( Industry_Code__r.Name ,"4741"),
+BEGINS( Industry_Code__r.Name ,"4742"),
+BEGINS( Industry_Code__r.Name ,"4743"),
+BEGINS( Industry_Code__r.Name ,"4751"),
+BEGINS( Industry_Code__r.Name ,"4752"),
+BEGINS( Industry_Code__r.Name ,"4753"),
+BEGINS( Industry_Code__r.Name ,"4754"),
+BEGINS( Industry_Code__r.Name ,"4759"),
+BEGINS( Industry_Code__r.Name ,"4761"),
+BEGINS( Industry_Code__r.Name ,"4762"),
+BEGINS( Industry_Code__r.Name ,"4763"),
+BEGINS( Industry_Code__r.Name ,"4764"),
+BEGINS( Industry_Code__r.Name ,"4765"),
+BEGINS( Industry_Code__r.Name ,"4771"),
+BEGINS( Industry_Code__r.Name ,"4772"),
+BEGINS( Industry_Code__r.Name ,"4775"),
+BEGINS( Industry_Code__r.Name ,"4776"),
+BEGINS( Industry_Code__r.Name ,"4777"),
+BEGINS( Industry_Code__r.Name ,"4778C"),
+BEGINS( Industry_Code__r.Name ,"4779"),
+BEGINS( Industry_Code__r.Name ,"4781"),
+BEGINS( Industry_Code__r.Name ,"4782"),
+BEGINS( Industry_Code__r.Name ,"4789"),
+BEGINS( Industry_Code__r.Name ,"4791"),
+BEGINS( Industry_Code__r.Name ,"4799")
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TECH Finance Large 1 - 8</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

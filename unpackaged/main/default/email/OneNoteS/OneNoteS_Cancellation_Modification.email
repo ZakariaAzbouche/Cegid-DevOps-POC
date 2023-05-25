@@ -1,0 +1,34 @@
+<table border="0" cellpadding="5" width="650" cellspacing="0" height="550" >
+<tr valign="top" height="100" >
+<td style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="100%" cellspacing="0" height="100%" >
+<tr valign="top" height="100" >
+<td width="650" tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div><font face="arial"><span style="font-size: 12pt;"><i><br></i></span></font></div><font face="arial"><span style="font-size: 12pt;"><i>Votre demande nécessite des compléments d'informations.</i></span></font><div style=""><font face="arial"><i>{!CustomerRequest__c.tech_CustomerRequestUrl__c} pour modifier votre demande.</i></font></div><div style=""><font face="arial"><i>Celle-ci est disponible en mode brouillon et peut être reprise à tout moment.</i></font></div>]]></td>
+</tr>
+<tr height="15" >
+<td style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<![CDATA[]]></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr valign="top" height="450" >
+<td style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="100%" cellspacing="5" height="100%" >
+<tr valign="top" height="225" >
+<td width="50%" tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[Filiale<div><br></div><div>Erp Number</div><div>Nom du client</div><div><br></div><div><br></div><div>N° de la demande</div><div>Nature de la demande</div><div><br></div><div>MRR annulé</div><div><br></div>]]></td>
+<td width="50%" tEditID="c2r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r2" locked="0" >
+<![CDATA[<font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!CustomerRequest__c.Subsidiary__c}</font><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial" style="">{!CustomerRequest__c.ErpNumber__c}</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial" style="">{!CustomerRequest__c.Account__c}</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div style=""><font face="arial">{!CustomerRequest__c.CustomerRequestNumber__c}</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial" style="">{!CustomerRequest__c.Type__c}</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial">{!CustomerRequest__c.MRR_Cancelled__c}</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial" style=""><br></font></div>]]></td>
+</tr>
+<tr valign="top" height="225" >
+<td width="50%" tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<div><span style="font-size: 12pt;">Commentaire de l'approbateur</span></div>]]></td>
+<td width="50%" tEditID="c2r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r3" locked="0" >
+<![CDATA[<font color="#080707" style="" face="Arial, sans-serif">{!ApprovalRequest.Comments}</font>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

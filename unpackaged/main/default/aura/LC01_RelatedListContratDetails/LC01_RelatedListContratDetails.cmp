@@ -1,0 +1,442 @@
+<aura:component description="LC01_RelatedListContratDetails" implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="AP01_RelatedListContrat">
+    <aura:attribute name="objectType" type="String"/>
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="parentFieldName" type="String"/>
+    <aura:attribute name="data" type="list" access="global"/>
+    <aura:attribute name="status" type="list" access="global"/>
+    <aura:attribute name="dataLoaded" type="boolean" access="global" default="false"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="force:showToast" action="{!c.handleApplicationEvent}"/>
+    <aura:attribute name="subscriptionId" type="String" default=""/>
+    <aura:attribute name="subscriptionName" type="string" />
+    <aura:attribute name="mySpinner" type="Boolean"/>
+    
+    <aura:if isTrue="{!v.mySpinner}">
+        <lightning:spinner variant="brand" size="medium" alternativeText="..." />
+    </aura:if>
+    
+    <!-- screen one-->
+    <aura:if isTrue="{!v.dataLoaded}">
+        <aura:iteration  items="{!v.data}" var="subscript">
+            <aura:if isTrue="{!subscript.isActive}">
+                <lightning:card title="{!subscript.subscriptionId}" iconName="action:new_opportunity">
+                    <div class="slds-grid slds-gutters bottom_large">
+                        <div class="slds-col">
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">MRR</span><br/>
+                                <aura:if isTrue="{!subscript.meanRecurringRevenue!=null}">
+                                    <ui:outputCurrency class="slds-text-title" value="{!subscript.meanRecurringRevenue}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Nom du compte</span><br/>
+                                <aura:if isTrue="{!subscript.customer.name!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.customer.name}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Référence Client</span><br/>
+                                <aura:if isTrue="{!subscript.purchaseOrder!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.purchaseOrder}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Nom du compte facturé</span><br/>
+                                <aura:if isTrue="{!subscript.invoicedAccount.name!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.invoicedAccount.name}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Apporteur d'affaire</span><br/>
+                                <aura:if isTrue="{!subscript.businessProviderName!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.businessProviderName}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                        </div>
+                        <div class="slds-col">
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Valeur Totale (TCV)</span><br/>
+                                <aura:if isTrue="{!subscript.totalCustomerValue!=null}">
+                                    <ui:outputCurrency class="slds-text-title" value="{!subscript.totalCustomerValue}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Date D'activation</span><br/>
+                                <aura:if isTrue="{!subscript.serviceActivationDate!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.serviceActivationDate}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Date fin du terme en cours</span><br/>
+                                <aura:if isTrue="{!subscript.currentTermEndDate!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.currentTermEndDate}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Durée en terme en cours</span><br/>
+                                <aura:if isTrue="{!subscript.currentTerm!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.currentTerm}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Date résiliations prévue</span><br/>
+                                <aura:if isTrue="{!subscript.plannedCancelationDate!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.plannedCancelationDate}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                        </div>
+                        <div class="slds-col">
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Entité</span><br/>
+                                <aura:if isTrue="{!subscript.entity!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.entity}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Durée d'engagement initial</span><br/>
+                                <aura:if isTrue="{!subscript.initialTerm!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.initialTerm}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Durée de renouvellement</span><br/>
+                                <aura:if isTrue="{!subscript.renewalTerm!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.renewalTerm}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Tacite reconduction</span><br/>
+                                <aura:if isTrue="{!subscript.autoRenew != 'false'}">
+                                    <ui:outputCheckbox class="slds-text-title" value="{!subscript.autoRenew}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Usage (6mois )</span><br/>
+                                <aura:if isTrue="{!subscript.usage!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.usage}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                        </div>
+                    </div>
+                </lightning:card>
+            </aura:if>
+        </aura:iteration>
+    </aura:if>
+    <!-- End screen one -->
+    
+    <!-- screen two-->
+    <aura:if isTrue="{!v.dataLoaded}">
+        <aura:iteration items="{!v.data}" var="subscript">
+            <aura:if isTrue="{!subscript.isPending}">
+                <lightning:card title="Abonnements - A activer" iconName="custom:custom18">
+                    <div class="slds-grid slds-gutters bottom_large">
+                        <div class="slds-col">
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Nom du compte</span><br/>
+                                <aura:if isTrue="{!subscript.customer.name!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.customer.name}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Référence Client</span><br/>
+                                <aura:if isTrue="{!subscript.purchaseOrder!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.purchaseOrder}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Nom du compte facturé</span><br/>
+                                <aura:if isTrue="{!subscript.invoicedAccount.name!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.invoicedAccount.name}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Apporteur d'affaire</span><br/>
+                                <aura:if isTrue="{!subscript.businessProviderName!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.businessProviderName}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                        </div>
+                        <div class="slds-col">
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Ordonnancé par</span><br/>
+                                <aura:if isTrue="{!subscript.followedBy!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.followedBy}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Date d'activation souhaitée</span><br/>
+                                <aura:if isTrue="{!subscript.targetDeliveryDate!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.targetDeliveryDate}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                                <ui:outputText class="slds-text-title" value="{!subscript.targetDeliveryDate}" />
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Date d'activation prévue</span><br/>
+                                <aura:if isTrue="{!subscript.serviceActivationDate!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.serviceActivationDate}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                        </div>
+                        <div class="slds-col">
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Entité</span><br/>
+                                <aura:if isTrue="{!subscript.entity!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.entity}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Durée d'engagement initial</span><br/>
+                                <aura:if isTrue="{!subscript.initialTerm!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.initialTerm}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Durée de renouvellement</span><br/>
+                                <aura:if isTrue="{!subscript.renewalTerm!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.renewalTerm}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Tacite reconduction</span><br/>
+                                <aura:if isTrue="{!subscript.autoRenew!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.autoRenew}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                        </div>
+                    </div>
+                </lightning:card>
+            </aura:if>
+        </aura:iteration>
+    </aura:if>
+    <!-- End screen two -->
+    
+    <!-- screen three-->
+    <aura:if isTrue="{!v.dataLoaded}">
+        <aura:iteration items="{!v.data}" var="subscript">
+            <aura:if isTrue="{!subscript.isCancelled}">
+                <lightning:card title="Abonnements - Fermer" iconName="custom:custom18">
+                    <div class="slds-grid slds-gutters bottom_large">
+                        <div class="slds-col">
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">MRR</span><br/>
+                                <aura:if isTrue="{!subscript.meanRecurringRevenue!=null}">
+                                    <ui:outputCurrency class="slds-text-title" value="{!subscript.meanRecurringRevenue}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Nom du compte</span><br/>
+                                <aura:if isTrue="{!subscript.customer.name!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.customer.name}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Référence Client</span><br/>
+                                <aura:if isTrue="{!subscript.purchaseOrder!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.purchaseOrder}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Nom du compte facturé</span><br/>
+                                <aura:if isTrue="{!subscript.invoicedAccount.name!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.invoicedAccount.name}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Apporteur d'affaire</span><br/>
+                                <aura:if isTrue="{!subscript.businessProviderName!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.businessProviderName}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                        </div>
+                        <div class="slds-col">
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Valeur Totale (TCV)</span><br/>
+                                <aura:if isTrue="{!subscript.totalCustomerValue!=null}">
+                                    <ui:outputCurrency class="slds-text-title" value="{!subscript.totalCustomerValue}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Date d'activation</span><br/>
+                                <aura:if isTrue="{!subscript.serviceActivationDate!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.serviceActivationDate}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Date fermeture</span><br/>
+                                <aura:if isTrue="{!subscript.subscriptionEndDate!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.subscriptionEndDate}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Motif fermeture</span><br/>
+                                <aura:if isTrue="{!subscript.reasoncancellation!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.reasoncancellation}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                        </div>
+                        <div class="slds-col">
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Entité</span><br/>
+                                <aura:if isTrue="{!subscript.entity!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.entity}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Durée d'engagement initial</span><br/>
+                                <aura:if isTrue="{!subscript.initialTerm!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.initialTerm}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Durée de renouvellement</span><br/>
+                                <aura:if isTrue="{!subscript.renewalTerm!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.renewalTerm}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Tacite reconduction</span><br/>
+                                <aura:if isTrue="{!subscript.autoRenew!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.autoRenew}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                            <div class="slds-p-bottom_medium">
+                                <span class="slds-text-heading_small slds-p-bottom_medium ">Usage (6mois )</span><br/>
+                                <aura:if isTrue="{!subscript.usage!=null}">
+                                    <ui:outputText class="slds-text-title" value="{!subscript.usage}" />
+                                    <aura:set attribute="else">
+                                        Null
+                                    </aura:set>
+                                </aura:if>
+                            </div>
+                        </div>
+                    </div>
+                </lightning:card>
+            </aura:if>
+        </aura:iteration>
+    </aura:if>
+    <!-- End screen three -->
+    <aura:if isTrue="{!v.subscriptionName ne null}">
+        <c:LC01_RelatedListProduit subscriptionName="{!v.subscriptionName}" recordId="{!v.recordId}"/>
+    </aura:if>
+    <!--
+    <aura:if isTrue="{!v.subscriptionName ne null}">
+        <c:LC01_RelatedListUsage subscriptionName="{!v.subscriptionName}" recordId="{!v.recordId}"/>
+    </aura:if>-->
+</aura:component>

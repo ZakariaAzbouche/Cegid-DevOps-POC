@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Talentsoft</fullName>
+    <columns>Synchronization_Date_Zuora__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Offer_Lookup__c</columns>
+    <columns>Reference_Number__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Metric__c</columns>
+    <columns>Asset_Code__c</columns>
+    <columns>SBQQ__BillingType__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>StructureLevel2__c</columns>
+    <columns>Category__c</columns>
+    <columns>SBQQ__PricingMethod__c</columns>
+    <columns>Core_Business__c</columns>
+    <columns>Service_Levels__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>talentsoft</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Talentsoft</label>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Registration number of the company with the authorities of the country where it is located. For example, for France, this is the Siret and for Spain the CIF. --></help>
+        <label><!-- National ID --></label>
+        <name>National_ID__c</name>
+    </CustomFieldTranslation>

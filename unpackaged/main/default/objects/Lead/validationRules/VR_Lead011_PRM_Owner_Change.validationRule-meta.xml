@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Lead011_PRM_Owner_Change</fullName>
+    <active>false</active>
+    <description>Un Sales "PRM" peut changer le owner d'un lead PRM uniquement pour mettre owner un owner Sales PRM</description>
+    <errorConditionFormula>AND (
+NOT( $User.BypassVR__c),
+NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Lead011_PRM_Owner_Change")),
+ImpartnerPRM__IsDealRegistration__c, 
+$User.SalesPRM__c, 		
+ISCHANGED(OwnerId),
+NOT(Owner:User.SalesPRM__c)
+)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>As a PRM Sales, you can only change the ownership on PRM leads to define another PRM Sales as the owner</errorMessage>
+</ValidationRule>

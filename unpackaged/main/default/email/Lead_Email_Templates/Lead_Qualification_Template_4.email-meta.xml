@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>FR - Lead avec coordonnées erronées</name>
+    <style>none</style>
+    <subject>Cegid - Prise de contact {!Lead.Company}</subject>
+    <textOnly>Email Lead Cegid
+
+
+
+
+
+Cegid - Prise de contact {!Lead.Company}
+
+Bonjour {!Lead.Salutation} {!Lead.Name},
+
+Une demande de contact à votre nom est arrivée sur notre site Cegid.
+
+Malheureusement les coordonnées à ma disposition semblant erronées, pourriez-vous me communiquer un numéro de téléphone valide ainsi que vos disponibilités ?
+
+Je suis joignable par téléphone ou par e-mail afin que l’on puisse préciser votre besoin.
+Vous trouverez mes coordonnées dans la signature.
+
+Merci d’avance pour votre retour.
+
+Bien cordialement,
+
+{!User.Name}
+{!User.Email}
+{!User.Phone}
+
+www.cegid.com
+
+Suivez ce lien pour vous désinscrire</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason for closing --></label>
+        <name>Reasonforclosing__c</name>
+        <picklistValues>
+            <masterLabel>Cessation of activity</masterLabel>
+            <translation><!-- Cessation of activity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company being acquired</masterLabel>
+            <translation><!-- Company being acquired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conveyance of property</masterLabel>
+            <translation><!-- Conveyance of property --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate account</masterLabel>
+            <translation><!-- Duplicate account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early dissolution</masterLabel>
+            <translation><!-- Early dissolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive company</masterLabel>
+            <translation><!-- Inactive company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invalid National Id</masterLabel>
+            <translation><!-- Invalid National Id --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal liquidation</masterLabel>
+            <translation><!-- Legal liquidation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non compliant Account</masterLabel>
+            <translation><!-- Non compliant Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Scope</masterLabel>
+            <translation><!-- Out of Scope --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

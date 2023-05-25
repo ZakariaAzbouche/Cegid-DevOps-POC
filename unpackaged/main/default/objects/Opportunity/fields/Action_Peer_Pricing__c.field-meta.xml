@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action_Peer_Pricing__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(ISBLANK(Buy_Me_Quote_Id__c), ISBLANK(SBQQ__PrimaryQuote__c)),"",
+
+IF( NOT(ISBLANK(Buy_Me_Quote_Id__c)), HYPERLINK( "https://symphony/MicroStrategy/asp/Main.aspx?evt=3140&amp;src=Main.aspx.3140&amp;documentID=C9D36F2F4D0EF3E985F7CA91478C3EEA&amp;Server=SYMPHONYIS&amp;Project=CEGID_BI&amp;Port=0&amp;share=1&amp;valuePromptAnswers="+ Buy_Me_Quote_Id__c ,"See Peer Pricing Dashboard"),
+
+
+IF(NOT(ISBLANK(SBQQ__PrimaryQuote__c)),
+HYPERLINK("https://symphony/MicroStrategy/asp/Main.aspx?evt=3140&amp;src=Main.aspx.3140&amp;documentID=C9D36F2F4D0EF3E985F7CA91478C3EEA&amp;Server=SYMPHONYIS&amp;Project=CEGID_BI&amp;Port=0&amp;share=1&amp;valuePromptAnswers=" + SBQQ__PrimaryQuote__r.Name, "See Peer Pricing Dashboard"),
+
+""
+
+)
+)
+)</formula>
+    <label>Action Peer Pricing</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Purchase_Order_is_mandatory</fullName>
+    <active>true</active>
+    <description>The account requires a purchase order number for order creation.</description>
+    <errorConditionFormula>AND(Account.Order_Number__c, (LEN(Order_Number__c) &lt; 1))</errorConditionFormula>
+    <errorDisplayField>Order_Number__c</errorDisplayField>
+    <errorMessage>Purchase Order is required</errorMessage>
+</ValidationRule>

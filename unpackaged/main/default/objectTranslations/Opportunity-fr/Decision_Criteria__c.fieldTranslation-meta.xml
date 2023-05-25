@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Faible: Le critère de décision n'est pas clairement défini et compris|Moyen: Le critère de décison est défini mais notre proposition n'est pas encore approuvée par le client|Fort: Le critère de décision est défini et notre proposition est approuvée.</help>
+        <label>Critères de decision</label>
+        <name>Decision_Criteria__c</name>
+    </CustomFieldTranslation>

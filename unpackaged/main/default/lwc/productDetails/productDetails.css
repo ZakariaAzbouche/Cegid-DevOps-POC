@@ -1,0 +1,11 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+.warningMsg{
+    color:rgb(255, 92, 53);
+    font-family:"gelion";
+    font-size: 15px;
+    padding: 26px 107px;
+}

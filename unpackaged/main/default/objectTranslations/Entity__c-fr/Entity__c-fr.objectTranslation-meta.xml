@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Cegid Entity --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Cegid Entity --></value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>Cegid Entity Layout</layout>
+        <sections>
+            <label><!-- Company Label --></label>
+            <section>Company Label</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Entité - Adresse</label>
+            <section>Entity Address</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Entity Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

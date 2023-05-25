@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Force de la relation</label>
+        <name>Relationship_Strength__c</name>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation>Moyen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strong</masterLabel>
+            <translation>Fort</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weak</masterLabel>
+            <translation>Faible</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

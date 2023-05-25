@@ -1,0 +1,33 @@
+<!--
+  @description       : 
+  @author            : keshav Matabadul
+  @group             : 
+  @last modified on  : 10-28-2021
+  @last modified by  : keshav Matabadul
+-->
+<template>
+    <div class="slider">
+        <div class="slides">
+          <div id="slide-1">
+            <lightning-formatted-rich-text
+            value={training1} style="width: 100vw;">
+            </lightning-formatted-rich-text>
+          </div>
+          <div id="slide-2">
+            <lightning-formatted-rich-text
+            value={training2} style="width: 100vw;">
+            </lightning-formatted-rich-text>
+          </div>
+          <div id="slide-3">
+            <lightning-formatted-rich-text
+            value={training3} style="width: 100vw;">
+            </lightning-formatted-rich-text>
+          </div>
+        </div>
+
+        <a href="#slide-1" data-id="1" class="isActive " onclick={setClass}></a>
+        <a href="#slide-2" data-id="2" class=" " onclick={setClass}></a>
+        <a href="#slide-3" data-id="3" class=" " onclick={setClass}></a>
+      </div>
+  
+   </template>

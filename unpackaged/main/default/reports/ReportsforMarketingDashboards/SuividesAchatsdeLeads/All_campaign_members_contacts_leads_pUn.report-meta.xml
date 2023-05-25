@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CAMPAIGN_NAME</field>
+    </columns>
+    <columns>
+        <field>SALUTATION</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>COMPANY</field>
+    </columns>
+    <columns>
+        <field>PHONE</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <currency>EUR</currency>
+    <customDetailFormulas>
+        <calculatedFormula>IF (CONTAINS (CAMPAIGN_NAME, &quot;CPA&quot;), &quot;CPA&quot;,
+IF (CONTAINS (CAMPAIGN_NAME, &quot;ERPhigh&quot;), &quot;ERP High&quot;,
+IF (CONTAINS (CAMPAIGN_NAME, &quot;ERPmid&quot;), &quot;ERP Mid&quot;, 
+IF (CONTAINS (CAMPAIGN_NAME, &quot;HCM&quot;), &quot;HCM&quot;, 
+IF (CONTAINS (CAMPAIGN_NAME, &quot;Retail&quot;), &quot;Retail&quot;, 
+IF (CONTAINS (CAMPAIGN_NAME, &quot;SMB&quot;), &quot;SMB&quot;, 
+IF (CONTAINS (CAMPAIGN_NAME, &quot;TAX&quot;), &quot;TAX&quot;, 
+NULL) ))))))</calculatedFormula>
+        <dataType>Text</dataType>
+        <developerName>CDF1</developerName>
+        <label>Expertise</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <description>Contacts &amp; Leads</description>
+    <filter>
+        <criteriaItems>
+            <column>CAMPAIGN_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Lead_Purchase_</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>MEMBER_TYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CDF1</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Campaign members LeadPurchase</name>
+    <params>
+        <name>scopeid</name>
+        <value></value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CampaignWithCampaignMembers</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+</Report>

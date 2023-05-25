@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Bid Manager in charge --></label>
+        <name>Bidmanager_in_charge__c</name>
+        <relationshipLabel><!-- Cases (Bid Manager in charge) --></relationshipLabel>
+    </CustomFieldTranslation>

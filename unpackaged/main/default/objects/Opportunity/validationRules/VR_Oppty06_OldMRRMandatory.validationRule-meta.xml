@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty06_OldMRRMandatory</fullName>
+    <active>true</active>
+    <description>Old MRR mandatory if Sales Purpose = Migration &amp; Status &gt; D</description>
+    <errorConditionFormula>AND (
+		NOT( $User.BypassVR__c ),
+		OR(ISBLANK( Old_MRR__c ), Old_MRR__c &lt;= 0),
+		OR(ISBLANK( Old_SaaS_Booking_BuyMe__c),Old_SaaS_Booking_BuyMe__c &lt;= 0),
+		CASE(Sales_Purpose__c,
+			"612",1,
+			"611",1,
+			0) = 1,
+		CASE(StageName,
+			"D - Draw up the solution",1,
+			"C - Validate the solution",1,
+			"B - Negotiate",1,
+			"A - Sign",1,
+			"Closed Won",1,
+			0)= 1
+	)</errorConditionFormula>
+    <errorDisplayField>Old_MRR__c</errorDisplayField>
+    <errorMessage>Please fulfill Old MRR (or Old SaaS Booking BuyMe) as it is mandatory from stage D for SaaS/SaaS migrations and Migration OP/Saas.</errorMessage>
+</ValidationRule>

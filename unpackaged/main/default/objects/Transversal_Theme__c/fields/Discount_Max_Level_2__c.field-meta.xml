@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Max_Level_2__c</fullName>
+    <description>Used to fill in the maximal discount allowed for each 'Transversal Theme' value, for the Validation Group Level 2</description>
+    <externalId>false</externalId>
+    <label>Discount Max - Level 2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Transversal_Theme__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Discount_Max</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>018</controllingFieldValue>
+            <controllingFieldValue>033</controllingFieldValue>
+            <controllingFieldValue>034</controllingFieldValue>
+            <valueName>100</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty21_NoChangeLeadSourceForSales</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+				NOT($User.BypassVR__c), 
+				NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Oppty21_NoChangeLeadSourceForSales")),
+				$Profile.Name = "Cegid Sales", 
+				ISCHANGED( LeadSource ), 
+				NOT(ISPICKVAL(PRIORVALUE(LeadSource),"Sales Prospecting")), 
+				NOT(ISPICKVAL(PRIORVALUE(LeadSource),"Partner"))
+				)</errorConditionFormula>
+    <errorDisplayField>LeadSource</errorDisplayField>
+    <errorMessage>You can't change this lead source set by the marketing department</errorMessage>
+</ValidationRule>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service Parameter</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Services Parameters</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Service Parameter Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Features --></label>
+            <section>Features</section>
+        </sections>
+        <sections>
+            <label><!-- Object --></label>
+            <section>Object</section>
+        </sections>
+        <sections>
+            <label><!-- Specific Rules --></label>
+            <section>Specific Rules</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create New Service Parameter --></label>
+        <name>Create_New_Service_Parameter</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Une Specific rule  avec Agency -Offer doit avoir une Agency ou une Offer --></errorMessage>
+        <name>VR_Check_Ag_Offer_with_Specific_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Une Specific rule avec Agency doit avoir une Agency --></errorMessage>
+        <name>VR_Check_Agency_Specific_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Une Specific rule avec Au moins un article parc en service avec Offer doit avoir une Offre --></errorMessage>
+        <name>VR_Check_Article_par_with_Specific_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Une Specific rule  avec Core Business-Offer-Niveau de service doit avoir un Offer ou un Core Business ou un Service Level Feature. --></errorMessage>
+        <name>VR_Check_CB_Offer_NS_with_Specific_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Un service Gestion du CDE ne peut être  Duplicate on Children --></errorMessage>
+        <name>VR_Check_CDE_Dup_On_children</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Une Specific rule  avec Fonctionnel ou Niveau Service doivent avoir un Core Business --></errorMessage>
+        <name>VR_Check_Core_Biz_with_Specific_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La date Fin de validité doit être supérieure à la date de Début. --></errorMessage>
+        <name>VR_Check_End_Date_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Une Specific rule  avec Tiers Expertise doit avoir une Expertise --></errorMessage>
+        <name>VR_Check_Expertise_with_Specific_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Une Specific rule  avec Tiers Partenaire doit avoir un Partner Ship ou un Offer --></errorMessage>
+        <name>VR_Check_Offer_with_Specific_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Une Specific rule  avecAu moins un article parc en service avec Core Business doit avoir un Core Business --></errorMessage>
+        <name>VR_Check_Parc_CC_with_Specific_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Un service Privé ne peut être en Abonnement auto --></errorMessage>
+        <name>VR_Check_Private_Sub_Auto</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Une Specific rule  avec Specifique Tiers doit avoir un Account. --></errorMessage>
+        <name>VR_Check_Spec_Tiers_with_Specific_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Une Specific rule  avec Tiers partenaire doit avoir une Offre ou un Partner Ship --></errorMessage>
+        <name>VR_Check_Tiers_part_with_Specific_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Un service Chapeau ne peut pas avoir aucune visibilité --></errorMessage>
+        <name>VR_Check_Visibility_Parent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Ce service doit être rattaché à un service Chapeau. --></errorMessage>
+        <name>VR_Check_Visibility_Reattach_Parent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- le security level doit être renseigné --></errorMessage>
+        <name>VR_Check_security_level</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Un service avec Déclaration CD Key ne peut pas être Rattaché --></errorMessage>
+        <name>VR_check_Declare_CDKey_Reattacch</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Un service sans Abonnement utilisateur ne peut pas être en Abonnement automatique. --></errorMessage>
+        <name>VR_check_User_Subscription_Auto_Sub</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Un service doit être avec Abonnement utilisateur ou avec Déclaration CD Key. --></errorMessage>
+        <name>VR_check_User_Subscription_Declad_Key</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Un service sans Abonnement utilisateur ne peut pas être Duplicate on Children --></errorMessage>
+        <name>VR_check_User_Subscription_Duplicate_Chi</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Un service sans Abonnement utilisateur ne peut pas être en Abonnement étendu. --></errorMessage>
+        <name>VR_check_User_Subscription_Extended_Subs</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Un service sans Abonnement utilisateur ne peut pas être  Duplicate on Children --></errorMessage>
+        <name>VR_check_User_Subscription_Gestion_Code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Un service sans Abonnement utilisateur ne peut pas être privé. --></errorMessage>
+        <name>VR_check_User_Subscription_Private</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Un service sans Abonnement utilisateur ne peut pas être en Suivi en quantité. --></errorMessage>
+        <name>VR_check_User_Subscription_Quantity_Man</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Un service sans Abonnement utilisateur ne peut pas être en Server Sites --></errorMessage>
+        <name>VR_check_User_Subscription_Server_Sites</name>
+    </validationRules>
+</CustomObjectTranslation>

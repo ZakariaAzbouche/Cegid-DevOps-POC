@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CNS</fullName>
+        <default>true</default>
+        <label>CNS</label>
+    </customValue>
+    <customValue>
+        <fullName>DEF</fullName>
+        <default>false</default>
+        <label>DEF</label>
+    </customValue>
+    <customValue>
+        <fullName>VCS</fullName>
+        <default>false</default>
+        <label>VCS</label>
+    </customValue>
+    <masterLabel>Generation Profile</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

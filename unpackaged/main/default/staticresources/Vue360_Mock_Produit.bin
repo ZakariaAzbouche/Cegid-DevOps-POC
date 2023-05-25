@@ -1,0 +1,33 @@
+{
+    "success": true,
+    "subscriptionItems": {
+        "customer": {
+            "Id": "98671965-056-00",
+            "name": "JOALINE COQUILLAGES",
+            "currency": "EUR"
+        },
+        "product": {
+            "sku": "SKUZ90-00000200",
+            "name": "CEXS-USER-OLD"
+        },
+        "rateplans": [
+            {
+                "name": "CEXS-USER",
+                "startDate": "2019-05-26",
+                "endDate": "2022-05-26",
+                "lastInvoiceDate": "",
+                "nextInvoiceDate": "",
+                "charges": [
+                    {
+                        "name": "Cegid Expert - Utilisateurs supplementaires",
+                        "type": "Recurring",
+                        "model": "Tiered",
+                        "billingPeriod": "Month",
+                        "uom": "060|Utilisateur nommé ",
+                        "unitPrice": null
+                    }
+                ]
+            }
+        ]
+    }
+}

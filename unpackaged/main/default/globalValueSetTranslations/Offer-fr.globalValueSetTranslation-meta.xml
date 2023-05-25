@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Cegid Conciliator</masterLabel>
+        <translation>Cegid Conciliator</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cegid Conso</masterLabel>
+        <translation>Cegid Conso</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cegid Expert</masterLabel>
+        <translation>A supprimer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cegid Finance Fiscalité</masterLabel>
+        <translation>Cegid Finance Fiscalité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cegid Loop</masterLabel>
+        <translation>Cegid Loop</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cegid Professions Libérales</masterLabel>
+        <translation>Cegid Professions Libérales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cegid Relations Bancaires</masterLabel>
+        <translation>Cegid Relations Bancaires</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cegid Talentsoft</masterLabel>
+        <translation><!-- Cegid Talentsoft --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cegid Tax Ultimate</masterLabel>
+        <translation>Cegid Tax Ultimate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cegid Tax Ultimate Spain</masterLabel>
+        <translation>Cegid Tax Ultimate Spain</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cegid XRP Flex</masterLabel>
+        <translation>Cegid XRP Flex</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cegid XRP Sprint</masterLabel>
+        <translation>Cegid XRP Sprint</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cegid XRP Ultimate</masterLabel>
+        <translation>Cegid XRP Ultimate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Data finance</masterLabel>
+        <translation>Data finance</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HR Ultimate</masterLabel>
+        <translation>A supprimer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OPTITAXE</masterLabel>
+        <translation>OPTITAXE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Optim’Is</masterLabel>
+        <translation>Optim’Is</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quadra Entreprise 2020</masterLabel>
+        <translation>Quadra Entreprise 2021</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quadra Expert</masterLabel>
+        <translation>Quadra Expert</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Talentsoft PXS</masterLabel>
+        <translation><!-- Talentsoft PXS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YC BI</masterLabel>
+        <translation>YC BI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YC ETAFI START</masterLabel>
+        <translation>YC ETAFI START</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YC FCRS</masterLabel>
+        <translation>YC FCRS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YC Fiscalité</masterLabel>
+        <translation>YC Fiscalité</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

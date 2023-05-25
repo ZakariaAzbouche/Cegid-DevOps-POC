@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>3 to 6 months</masterLabel>
+        <translation>3 à 6 mois</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>&lt; 3 months</masterLabel>
+        <translation>&lt; 3 mois</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>&gt; 6 months</masterLabel>
+        <translation>&gt; 6 mois</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Remplissage_PAC_Accounts_Key</fullName>
+        <description>Remplissage PAC/Accounts Key</description>
+        <field>Key__c</field>
+        <formula>Account__r.Id + Targeting_Plan__r.Id</formula>
+        <name>Remplissage PAC/Accounts Key</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Remplissage PAC%2FAccounts Key</fullName>
+        <actions>
+            <name>Remplissage_PAC_Accounts_Key</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Used to associate an account only once with a PAC</description>
+        <formula>True</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

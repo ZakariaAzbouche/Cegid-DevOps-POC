@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Ne pas rédiger de commentaires excessifs ou insultants et ne pas indiquer de données sensibles (origine raciale, opinions politiques ou religieuses, données de santé, n° de sécurité sociale...).</help>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+    </CustomFieldTranslation>

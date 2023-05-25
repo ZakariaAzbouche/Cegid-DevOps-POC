@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Cross_BU__c</fullName>
+    <description>Check if the oppy creator's BU equals the BU deducted of the oppy</description>
+    <externalId>false</externalId>
+    <formula>IF (
+AND(
+TECH_BU_deducted__c = TECH_BU_Created_By_2__c ,
+TECH_Created_Stage__c = 'G - Sales Ready',
+OR(
+ISPICKVAL( StageName , 'G - MQL'),
+ISPICKVAL( StageName , 'G - Sales Ready'),
+ISPICKVAL( StageName , 'F - Identify the needs'),
+ISPICKVAL( StageName , 'E - Analyze the needs'),
+ISPICKVAL( StageName , 'D - Draw up the solution'),
+ISPICKVAL( StageName , 'C - Validate the solution'),
+ISPICKVAL( StageName , 'B - Negotiate'),
+ISPICKVAL( StageName , 'A - Sign'),
+ISPICKVAL( StageName , 'Closed Won'),
+ISPICKVAL( StageName , 'Closed Lost'),
+ISPICKVAL( StageName , 'No Go Client'),
+ISPICKVAL( StageName , 'No Go CEGID')
+)
+),"No",
+
+IF(
+OR(TECH_Created_Stage__c &lt;&gt; 'G - Sales Ready', TECH_BU_Created_By_2__c = 'Not Assigned'), "",
+
+IF(
+OR(ISPICKVAL(LeadSource, 'SDR'), ISPICKVAL(LeadSource, 'Partner'), ISPICKVAL(LeadSource, 'EuroCRM'), ISPICKVAL(LeadSource, 'Customer Care'), ISPICKVAL(LeadSource, 'SDR-Marketing Prospecting'), ISPICKVAL(LeadSource,'SDR Lead Purchase')),"",
+
+"Yes"
+
+)
+)
+)</formula>
+    <label>Opportunity Cross-BU</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

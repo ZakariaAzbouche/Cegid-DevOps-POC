@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>999</fullName>
+        <default>false</default>
+        <label>All Level</label>
+    </customValue>
+    <customValue>
+        <fullName>08</fullName>
+        <default>false</default>
+        <label>Assistance Maxi Mode Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>03</fullName>
+        <default>false</default>
+        <label>Assistance Mode Retail +</label>
+    </customValue>
+    <customValue>
+        <fullName>01</fullName>
+        <default>false</default>
+        <label>Assistance Optimal</label>
+    </customValue>
+    <customValue>
+        <fullName>06</fullName>
+        <default>false</default>
+        <label>Assistance PCL +</label>
+    </customValue>
+    <customValue>
+        <fullName>22</fullName>
+        <default>false</default>
+        <label>Assistance Seule Super+</label>
+    </customValue>
+    <customValue>
+        <fullName>02</fullName>
+        <default>false</default>
+        <label>Assistance Super +</label>
+    </customValue>
+    <customValue>
+        <fullName>12</fullName>
+        <default>false</default>
+        <label>Bureautique</label>
+    </customValue>
+    <customValue>
+        <fullName>G24</fullName>
+        <default>false</default>
+        <label>Cegid – Cegid – Cylande Samedi</label>
+    </customValue>
+    <customValue>
+        <fullName>C30</fullName>
+        <default>false</default>
+        <label>Cegid Connect</label>
+    </customValue>
+    <customValue>
+        <fullName>C10</fullName>
+        <default>false</default>
+        <label>Cegid CONNECT - ASSOCIATIONS - ENTREPRENEURS ET TPE</label>
+    </customValue>
+    <customValue>
+        <fullName>C01</fullName>
+        <default>false</default>
+        <label>Cegid CONNECT - INDUSTRY</label>
+    </customValue>
+    <customValue>
+        <fullName>C06</fullName>
+        <default>false</default>
+        <label>Cegid CONNECT - PERFORMANCE MANAGEMENT - Conso</label>
+    </customValue>
+    <customValue>
+        <fullName>C05</fullName>
+        <default>false</default>
+        <label>Cegid CONNECT - RESSOURCES HUMAINES</label>
+    </customValue>
+    <customValue>
+        <fullName>C02</fullName>
+        <default>false</default>
+        <label>Cegid CONNECT - RETAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>E23</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT.C - FINANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>E13</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT.C - INDUSTRY</label>
+    </customValue>
+    <customValue>
+        <fullName>E12</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT.C - PROFESSION COMPTABLE</label>
+    </customValue>
+    <customValue>
+        <fullName>E14</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT.C - RETAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>E17</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT.C - SERVICE - NEGOCE - FINANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>E11</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - ASSOCIATIONS - ENTREPRENEURS ET TPE</label>
+    </customValue>
+    <customValue>
+        <fullName>M04</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - BACKUP</label>
+    </customValue>
+    <customValue>
+        <fullName>M06</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - BASE DE DONNEES</label>
+    </customValue>
+    <customValue>
+        <fullName>E18</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - ENTREPRISE</label>
+    </customValue>
+    <customValue>
+        <fullName>M10</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - ENVIRONNEMENT SYSTEME</label>
+    </customValue>
+    <customValue>
+        <fullName>E09</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - FISCALITE</label>
+    </customValue>
+    <customValue>
+        <fullName>M07</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - ORLI WEB SYSTEM</label>
+    </customValue>
+    <customValue>
+        <fullName>M02</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - OS Unis/Linux</label>
+    </customValue>
+    <customValue>
+        <fullName>M03</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - OS Win. MONO</label>
+    </customValue>
+    <customValue>
+        <fullName>M01</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - OS Win. SERVEUR</label>
+    </customValue>
+    <customValue>
+        <fullName>E08</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - PERFORMANCE MANAGEMENT - BI</label>
+    </customValue>
+    <customValue>
+        <fullName>E19</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - PROGICIEL AUTEUR</label>
+    </customValue>
+    <customValue>
+        <fullName>M05</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - PROTECTION SUITE</label>
+    </customValue>
+    <customValue>
+        <fullName>E06</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT - RESSOURCES HUMAINES</label>
+    </customValue>
+    <customValue>
+        <fullName>G22</fullName>
+        <default>false</default>
+        <label>Cegid – Cylande</label>
+    </customValue>
+    <customValue>
+        <fullName>G23</fullName>
+        <default>false</default>
+        <label>Cegid – Cylande +</label>
+    </customValue>
+    <customValue>
+        <fullName>G25</fullName>
+        <default>false</default>
+        <label>Cegid – Cylande Soir et Samedi</label>
+    </customValue>
+    <customValue>
+        <fullName>G27</fullName>
+        <default>false</default>
+        <label>Cegid Cyrus</label>
+    </customValue>
+    <customValue>
+        <fullName>G30</fullName>
+        <default>true</default>
+        <label>Cegid Open</label>
+    </customValue>
+    <customValue>
+        <fullName>G11</fullName>
+        <default>false</default>
+        <label>Cegid OPEN.C - PROFESSION COMPTABLE</label>
+    </customValue>
+    <customValue>
+        <fullName>G13</fullName>
+        <default>false</default>
+        <label>Cegid OPEN.C - RETAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>G16</fullName>
+        <default>false</default>
+        <label>Cegid OPEN.C - SERVICE - NEGOCE</label>
+    </customValue>
+    <customValue>
+        <fullName>N04</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - BACKUP</label>
+    </customValue>
+    <customValue>
+        <fullName>N06</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - BASE DE DONNEES</label>
+    </customValue>
+    <customValue>
+        <fullName>N12</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - Cegid Access Box</label>
+    </customValue>
+    <customValue>
+        <fullName>N15</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - Cegid Cloud Access Box</label>
+    </customValue>
+    <customValue>
+        <fullName>N14</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - ENVIRONNEMENT SYSTEME</label>
+    </customValue>
+    <customValue>
+        <fullName>G18</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - FINANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>G09</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - FISCALITE</label>
+    </customValue>
+    <customValue>
+        <fullName>G02</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - INDUSTRY</label>
+    </customValue>
+    <customValue>
+        <fullName>N01</fullName>
+        <default>false</default>
+        <label>Cegid OPEN  - OS Win. SERVEUR</label>
+    </customValue>
+    <customValue>
+        <fullName>G08</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - PERFORMANCE MANAGEMENT - BI</label>
+    </customValue>
+    <customValue>
+        <fullName>G07</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - PERFORMANCE MANAGEMENT - Conso</label>
+    </customValue>
+    <customValue>
+        <fullName>N05</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - PROTECTION SUITE</label>
+    </customValue>
+    <customValue>
+        <fullName>G06</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - RESSOURCES HUMAINES</label>
+    </customValue>
+    <customValue>
+        <fullName>G03</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - RETAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>N07</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - SECURITE BASIC</label>
+    </customValue>
+    <customValue>
+        <fullName>N10</fullName>
+        <default>false</default>
+        <label>Cegid OPEN - Télécom SaaS IPSec</label>
+    </customValue>
+    <customValue>
+        <fullName>I30</fullName>
+        <default>false</default>
+        <label>Cegid Private</label>
+    </customValue>
+    <customValue>
+        <fullName>I11</fullName>
+        <default>false</default>
+        <label>Cegid PRIVATE.C - PROFESSION COMPTABLE</label>
+    </customValue>
+    <customValue>
+        <fullName>I13</fullName>
+        <default>false</default>
+        <label>Cegid PRIVATE.C - RETAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>I16</fullName>
+        <default>false</default>
+        <label>Cegid PRIVATE.C - SERVICE - NEGOCE</label>
+    </customValue>
+    <customValue>
+        <fullName>O01</fullName>
+        <default>false</default>
+        <label>Cegid PRIVATE - BASE DE DONNEES</label>
+    </customValue>
+    <customValue>
+        <fullName>I19</fullName>
+        <default>false</default>
+        <label>Cegid PRIVATE - FINANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>I02</fullName>
+        <default>false</default>
+        <label>Cegid PRIVATE - INDUSTRY</label>
+    </customValue>
+    <customValue>
+        <fullName>I17</fullName>
+        <default>false</default>
+        <label>Cegid PRIVATE - Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>I08</fullName>
+        <default>false</default>
+        <label>Cegid PRIVATE - PERFORMANCE MANAGEMENT - BI</label>
+    </customValue>
+    <customValue>
+        <fullName>I07</fullName>
+        <default>false</default>
+        <label>Cegid PRIVATE - PERFORMANCE MANAGEMENT - Conso</label>
+    </customValue>
+    <customValue>
+        <fullName>P01</fullName>
+        <default>false</default>
+        <label>Cegid PRIVATE - PREVENTCARE</label>
+    </customValue>
+    <customValue>
+        <fullName>I03</fullName>
+        <default>false</default>
+        <label>Cegid PRIVATE - RETAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>I10</fullName>
+        <default>false</default>
+        <label>Cegid PRIVATE - SERVICE - NEGOCE</label>
+    </customValue>
+    <customValue>
+        <fullName>G26</fullName>
+        <default>false</default>
+        <label>Cegid Retail Open</label>
+    </customValue>
+    <customValue>
+        <fullName>G31</fullName>
+        <default>false</default>
+        <label>Cegid Retail - partner - Open</label>
+    </customValue>
+    <customValue>
+        <fullName>I31</fullName>
+        <default>false</default>
+        <label>Cegid Retail - partner - Private</label>
+    </customValue>
+    <customValue>
+        <fullName>A01</fullName>
+        <default>false</default>
+        <label>Cegid SAFE</label>
+    </customValue>
+    <customValue>
+        <fullName>A02</fullName>
+        <default>false</default>
+        <label>Cegid SAFE.Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>T01</fullName>
+        <default>false</default>
+        <label>Cegid TALENTSOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>31</fullName>
+        <default>false</default>
+        <label>MAD - MAJ seule - Indirect</label>
+    </customValue>
+    <customValue>
+        <fullName>104</fullName>
+        <default>false</default>
+        <label>Maintenance Executive</label>
+    </customValue>
+    <customValue>
+        <fullName>101</fullName>
+        <default>false</default>
+        <label>Maintenance Optimal</label>
+    </customValue>
+    <customValue>
+        <fullName>103</fullName>
+        <default>false</default>
+        <label>Maintenance Retour Atelier</label>
+    </customValue>
+    <customValue>
+        <fullName>102</fullName>
+        <default>false</default>
+        <label>Maintenance Super+</label>
+    </customValue>
+    <customValue>
+        <fullName>30</fullName>
+        <default>false</default>
+        <label>Mise à jour seule</label>
+    </customValue>
+    <customValue>
+        <fullName>16</fullName>
+        <default>false</default>
+        <label>Prevent Care</label>
+    </customValue>
+    <customValue>
+        <fullName>15</fullName>
+        <default>false</default>
+        <label>Sérénité</label>
+    </customValue>
+    <customValue>
+        <fullName>E24</fullName>
+        <default>false</default>
+        <label>Cegid CONTACT.C - RETAIL STORE EXCELLENCE</label>
+    </customValue>
+    <customValue>
+        <fullName>T02</fullName>
+        <default>false</default>
+        <label>Cegid NOTILUS</label>
+    </customValue>
+    <customValue>
+        <fullName>CC1</fullName>
+        <default>false</default>
+        <label>Cegid Care</label>
+    </customValue>
+    <masterLabel>ServiceLevel</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CEGID IBERICA</fullName>
+        <default>false</default>
+        <label>CEGID IBERICA</label>
+    </customValue>
+    <customValue>
+        <fullName>CEGID CORP</fullName>
+        <default>false</default>
+        <label>CEGID CORP</label>
+    </customValue>
+    <customValue>
+        <fullName>CEGID UK</fullName>
+        <default>false</default>
+        <label>CEGID UK</label>
+    </customValue>
+    <customValue>
+        <fullName>CEGID ITALIA</fullName>
+        <default>false</default>
+        <label>CEGID ITALIA</label>
+    </customValue>
+    <customValue>
+        <fullName>CEGID SA</fullName>
+        <default>true</default>
+        <label>CEGID SA</label>
+    </customValue>
+    <customValue>
+        <fullName>CEGID INC</fullName>
+        <default>false</default>
+        <label>CEGID INC</label>
+    </customValue>
+    <masterLabel>Subsidiary</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

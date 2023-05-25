@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Serialization_type__c</fullName>
+    <externalId>false</externalId>
+    <label>Serialization type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>000</fullName>
+                <default>false</default>
+                <label>PGI Séria</label>
+            </value>
+            <value>
+                <fullName>001</fullName>
+                <default>false</default>
+                <label>Gamme II</label>
+            </value>
+            <value>
+                <fullName>002</fullName>
+                <default>false</default>
+                <label>CD Key CEGID</label>
+            </value>
+            <value>
+                <fullName>003</fullName>
+                <default>false</default>
+                <label>CD Key LOGAM</label>
+            </value>
+            <value>
+                <fullName>004</fullName>
+                <default>false</default>
+                <label>Jeton DK - Etafi</label>
+            </value>
+            <value>
+                <fullName>005</fullName>
+                <default>false</default>
+                <label>Jeton DK - CCMX</label>
+            </value>
+            <value>
+                <fullName>006</fullName>
+                <default>false</default>
+                <label>Code CD Gamme</label>
+            </value>
+            <value>
+                <fullName>007</fullName>
+                <default>false</default>
+                <label>CD Key VCS</label>
+            </value>
+            <value>
+                <fullName>008</fullName>
+                <default>false</default>
+                <label>VERIF DROITS</label>
+            </value>
+            <value>
+                <fullName>009</fullName>
+                <default>false</default>
+                <label>Visa</label>
+            </value>
+            <value>
+                <fullName>999</fullName>
+                <default>true</default>
+                <label>Sans</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

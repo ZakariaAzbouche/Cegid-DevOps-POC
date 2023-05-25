@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CEGID FR - Exceptional Date Request</name>
+    <style>none</style>
+    <subject>Demande de dérogation date de démarrage Saas</subject>
+    <textOnly>Bonjour,
+
+Une dérogation  pour la date de démarrage Saas du client {!Case.AccountName__c} est soumise à votre validation. Pour accéder à la demande {!Case.CaseNumber}, connectez-vous à CPQ ou accédez directement au case ici.
+
+Cordialement,</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

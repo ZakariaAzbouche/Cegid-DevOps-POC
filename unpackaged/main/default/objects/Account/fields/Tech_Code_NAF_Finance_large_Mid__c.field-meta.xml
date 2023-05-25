@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Code_NAF_Finance_large_Mid__c</fullName>
+    <description>Code NAF finance for territory assignment</description>
+    <externalId>false</externalId>
+    <formula>OR(
+BEGINS( Industry_Code__r.Name  , '6420Z'),
+BEGINS( Industry_Code__r.Name  , '7010Z'))</formula>
+    <label>Tech Code NAF Finance large &amp; Mid</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

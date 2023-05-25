@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Business__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field used to flag accounts with no business interest. The flagged accounts are not visible by IC.</description>
+    <externalId>false</externalId>
+    <label>No Business</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

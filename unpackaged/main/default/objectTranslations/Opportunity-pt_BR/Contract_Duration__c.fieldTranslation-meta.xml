@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Contract duration (in months) should be fulfilled manually when creating the opportunity and becomes calculated once a quote has been created. --></help>
+        <label><!-- Max Contract Duration --></label>
+        <name>Contract_Duration__c</name>
+    </CustomFieldTranslation>

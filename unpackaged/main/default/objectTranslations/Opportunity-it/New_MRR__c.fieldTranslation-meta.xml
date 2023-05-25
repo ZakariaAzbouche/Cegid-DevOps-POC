@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- New MRR should be fulfilled manually when creatiing the opportunity and becomes calculated once a quote BuyMe has been created. --></help>
+        <label><!-- New max MRR --></label>
+        <name>New_MRR__c</name>
+    </CustomFieldTranslation>

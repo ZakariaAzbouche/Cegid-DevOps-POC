@@ -1,0 +1,6 @@
+<aura:event type="APPLICATION" description="Event template">
+    <aura:attribute name="items" type="list" />
+    <aura:attribute name="checkBoxValue" type="boolean" />
+    <aura:attribute name="subscriptionId" type="String" />
+    <aura:attribute name="customerId" type="String" />
+</aura:event>

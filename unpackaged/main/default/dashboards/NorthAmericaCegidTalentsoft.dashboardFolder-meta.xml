@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>EditAllContents</accessLevel>
+        <sharedTo>mnataf@cegid.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>mcombs@cegid.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>tpapin@cegid.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <name>North America - Cegid Talentsoft - DBs</name>
+</DashboardFolder>

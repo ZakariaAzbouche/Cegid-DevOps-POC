@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Function__c</fullName>
+    <description>Used to calculate the Buynig persona used to target Campaigns</description>
+    <externalId>false</externalId>
+    <label>Function</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Service__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Function</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Administrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Assistant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Consultant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Customer Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Educational Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Employee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Member</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Operations Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Operations Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Partnerships Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Professor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Project Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Project Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Student</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transversal</controllingFieldValue>
+            <valueName>Task Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Accountant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Accounting Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Accounting Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Accounting recoverings contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Admin. &amp; Financial Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Admin. &amp; Financial Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Administrative Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Administrative Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Auditor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Chartered accountant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Chief Accounting Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Consolidation Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Financial Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Financial Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Fiscal integration Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Intern Chartered accountant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Local Tax Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Management Audit Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Public accounting officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Services Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Tax Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Tax Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance and accounting</controllingFieldValue>
+            <valueName>Treasury Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Career Planning Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Chief Learning Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Comp. &amp; benefits Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Comp. &amp; benefits Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>HR Assistant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>HR Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>HRIS Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>HRIS Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>HR Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Payroll Assistant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Payroll Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Personnel Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Personnel Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Recruitment Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Business app Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Chief Information Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Computer scientist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Computer System Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Data Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Developer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>IT Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>IT Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Maintenance Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Technical Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Technical Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Works Foreman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Affairs</controllingFieldValue>
+            <valueName>Chief Legal Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Affairs</controllingFieldValue>
+            <valueName>Lawyer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Affairs</controllingFieldValue>
+            <valueName>Legal Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Affairs</controllingFieldValue>
+            <valueName>Legal Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Associate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Board Member</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Branch Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Chairman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Chairman Board Directors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Chairman Board Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Chairman Supervisory Board</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Chief Executive Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Chief Strategy Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Company Secretary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Department Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Deputy General Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Development Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Development Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Elected Member</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Executive assistant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Executive Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Founder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Headmaster</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>International Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Mayor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Mayor Secretary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Regional Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Vice Chairman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Brand Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Brand Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Chief Digital Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Chief Marketing Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Communication Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Communications Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>E-commerce Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Marketing Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Merchandising Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Merchandising Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Product Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Retail Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Retail Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Sign of store Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing and communication</controllingFieldValue>
+            <valueName>Sign of store Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Chief Operating Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Export Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Export Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Factory Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Factory Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Inventory Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Logistics Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Logistics Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Operating Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Organization Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Production Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Production Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Quality Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Quality Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Research and Dev Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Research Development Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Supplies Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Supplies Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Supply Chain Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Supply Chain Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchasing</controllingFieldValue>
+            <valueName>Buyer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchasing</controllingFieldValue>
+            <valueName>General Services Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchasing</controllingFieldValue>
+            <valueName>Purchasing Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchasing</controllingFieldValue>
+            <valueName>Purchasing Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Representative</controllingFieldValue>
+            <valueName>After-Sales Service Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Representative</controllingFieldValue>
+            <valueName>Business Development Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Representative</controllingFieldValue>
+            <valueName>Customer Care Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Representative</controllingFieldValue>
+            <valueName>Franchise Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Representative</controllingFieldValue>
+            <valueName>Network Dir.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Representative</controllingFieldValue>
+            <valueName>Pre sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Representative</controllingFieldValue>
+            <valueName>Sales Administration Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Representative</controllingFieldValue>
+            <valueName>Sales assistant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Representative</controllingFieldValue>
+            <valueName>Sales Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Representative</controllingFieldValue>
+            <valueName>Sales Mgr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Representative</controllingFieldValue>
+            <valueName>Sales Representative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Representative</controllingFieldValue>
+            <valueName>Store Mgr.</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

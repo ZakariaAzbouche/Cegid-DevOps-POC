@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_to_B2B_Listview__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <label>Add to B2B Listview</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

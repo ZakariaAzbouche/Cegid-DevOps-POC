@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Contact004_Email_format_Validation</fullName>
+    <active>true</active>
+    <description>Contact - To validate the email format as x@x.xx and not in capital letters</description>
+    <errorConditionFormula>AND( 
+    NOT( $User.BypassVR__c ),
+				NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c ,"VR_Contact004_Email_format_Validation")), 
+    NOT(ISBLANK( Email )) ,
+    (NOT(REGEX ( Email ,"([a-zA-Z0-9_\\-\\.]+)@((\\[a-z]{1,3}\\.[a-z]{1,3}\\.[a-z]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,}|[0-9]{1,3})"))))</errorConditionFormula>
+    <errorDisplayField>Email</errorDisplayField>
+    <errorMessage>This email does not have the good format, please review it.</errorMessage>
+</ValidationRule>

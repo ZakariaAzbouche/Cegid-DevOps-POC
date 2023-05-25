@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Royalty_Type_Mandatory</fullName>
+    <active>false</active>
+    <description>Prevent user from ckecking "No Royalty" and another type of Royalty at the same time</description>
+    <errorConditionFormula>AND(
+NOT($User.BypassVR__c),
+RecordType.DeveloperName == 'Article',
+NOT(NoRoyalty__c),
+NOT(percentage_of_turnover__c),
+NOT(Prepaid__c),
+NOT(countermark__c),
+NOT(Quantity_Declarative__c))</errorConditionFormula>
+    <errorDisplayField>IsActive</errorDisplayField>
+    <errorMessage>You have to set a Royalties Type for this Article.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Score_MED__c</fullName>
+    <description>Score calculé à partir des différentes valeurs choisi ( "Weak", 0,"Medium", 1,"Strong", 2)  sur les différents champs  MEDDIC</description>
+    <externalId>false</externalId>
+    <formula>IF(
+				ISBLANK(TEXT(Metrics__c)) &amp;&amp; 
+				ISBLANK( TEXT(Economic_Buyer__c )) &amp;&amp;
+				ISBLANK( TEXT(Decision_Criteria__c )) &amp;&amp;
+				ISBLANK( TEXT(Decision_Process__c )) &amp;&amp;
+				ISBLANK( TEXT(Identify_Pain__c )) &amp;&amp;
+				ISBLANK( TEXT(Champion__c )) &amp;&amp;
+				ISBLANK( TEXT(Competition__c )) , "",
+				TEXT(ROUND(((
+								CASE(Metrics__c,"Weak", 0,"Medium", 1,"Strong", 2,0) 
+								+CASE(Economic_Buyer__c ,"Weak", 0,"Medium", 1,"Strong", 2,0) 
+								+CASE(Decision_Criteria__c,"Weak", 0,"Medium", 1,"Strong", 2,0) 
+								+CASE(Decision_Process__c,"Weak", 0,"Medium", 1,"Strong", 2,0) 
+								+CASE(Identify_Pain__c,"Weak", 0,"Medium", 1,"Strong", 2,0) 
+								+CASE(Champion__c,"Weak", 0,"Medium", 1,"Strong", 2,0) 
+								+CASE(Competition__c,"Weak", 0,"Medium", 1,"Strong", 2,0) 
+				)/14) * 100 , 0)) &amp; " %")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Score</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

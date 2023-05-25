@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <block>
+        <blockInfo>
+            <blockId>B0</blockId>
+            <joinTable>Account</joinTable>
+        </blockInfo>
+        <columns>
+            <field>Account$Name</field>
+        </columns>
+        <columns>
+            <field>Account.Account_Expertises__r$Name</field>
+        </columns>
+        <columns>
+            <field>Account.Account_Expertises__r.Account_Core_Business__r$Name</field>
+        </columns>
+        <columns>
+            <field>Account.Account_Expertises__r.Account_Core_Business__r$ProductLine__c</field>
+        </columns>
+        <currency>EUR</currency>
+        <filter>
+            <criteriaItems>
+                <column>Account$Headquarter__c</column>
+                <columnToColumn>false</columnToColumn>
+                <isUnlocked>true</isUnlocked>
+                <operator>equals</operator>
+                <value>1</value>
+            </criteriaItems>
+            <criteriaItems>
+                <column>Account$Network_Linked__c.Name</column>
+                <columnToColumn>false</columnToColumn>
+                <isUnlocked>true</isUnlocked>
+                <operator>equals</operator>
+                <value>CONSEIL NATIONAL DU RESEAU CER FRANCE</value>
+            </criteriaItems>
+        </filter>
+        <format>Tabular</format>
+        <name>Accounts with Account Expertises block 1</name>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>Accounts_with_Account_Expertises_with_Account_Core_Business__c</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <timeFrameFilter>
+            <dateColumn>Account$CreatedDate</dateColumn>
+            <endDate>2022-06-30</endDate>
+            <interval>INTERVAL_CUSTOM</interval>
+            <startDate>1971-04-04</startDate>
+        </timeFrameFilter>
+    </block>
+    <blockInfo>
+        <blockId xsi:nil="true"/>
+        <joinTable>Account</joinTable>
+    </blockInfo>
+    <description>Liste des clients CER FRANCE</description>
+    <format>MultiBlock</format>
+    <name>CER FRANCE CLIENTS</name>
+    <params>
+        <name>lsk</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Account_Expertises_with_Account_Core_Business__c</reportType>
+    <showDetails>true</showDetails>
+</Report>

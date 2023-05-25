@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Code_NAF_Finance_large_Mid_3_3__c</fullName>
+    <description>Code NAF finance for territory assignment</description>
+    <externalId>false</externalId>
+    <formula>OR(
+BEGINS( Industry_Code__r.Name  ,"1811Z"),
+BEGINS( Industry_Code__r.Name  ,"1812Z"),
+BEGINS( Industry_Code__r.Name  ,"1813Z"),
+BEGINS( Industry_Code__r.Name  ,"1814Z"),
+BEGINS( Industry_Code__r.Name  ,"1820Z"),
+BEGINS( Industry_Code__r.Name  ,"5811Z"),
+BEGINS( Industry_Code__r.Name  ,"5812Z"),
+BEGINS( Industry_Code__r.Name  ,"5813Z"),
+BEGINS( Industry_Code__r.Name  ,"5814Z"),
+BEGINS( Industry_Code__r.Name  ,"5819Z"),
+BEGINS( Industry_Code__r.Name  ,"5821Z"),
+BEGINS( Industry_Code__r.Name  ,"5829A"),
+BEGINS( Industry_Code__r.Name  ,"5829B"),
+BEGINS( Industry_Code__r.Name  ,"5829C"),
+BEGINS( Industry_Code__r.Name  ,"5911A"),
+BEGINS( Industry_Code__r.Name  ,"5911B"),
+BEGINS( Industry_Code__r.Name  ,"5911C"),
+BEGINS( Industry_Code__r.Name  ,"5912Z"),
+BEGINS( Industry_Code__r.Name  ,"5913A"),
+BEGINS( Industry_Code__r.Name  ,"5913B"),
+BEGINS( Industry_Code__r.Name  ,"5914Z"),
+BEGINS( Industry_Code__r.Name  ,"5920Z"),
+BEGINS( Industry_Code__r.Name  ,"6010Z"),
+BEGINS( Industry_Code__r.Name  ,"6020A"),
+BEGINS( Industry_Code__r.Name  ,"6020B"),
+BEGINS( Industry_Code__r.Name  ,"6110Z"),
+BEGINS( Industry_Code__r.Name  ,"6120Z"),
+BEGINS( Industry_Code__r.Name  ,"6130Z"),
+BEGINS( Industry_Code__r.Name  ,"6190Z"),
+BEGINS( Industry_Code__r.Name  ,"6201Z"),
+BEGINS( Industry_Code__r.Name  ,"6202A"),
+BEGINS( Industry_Code__r.Name  ,"6202B"),
+BEGINS( Industry_Code__r.Name  ,"6203Z"),
+BEGINS( Industry_Code__r.Name  ,"6209Z"),
+BEGINS( Industry_Code__r.Name  ,"6311Z"),
+BEGINS( Industry_Code__r.Name  ,"6312Z"),
+BEGINS( Industry_Code__r.Name  ,"6391Z"),
+BEGINS( Industry_Code__r.Name  ,"6399Z"),
+BEGINS( Industry_Code__r.Name  ,"7311Z"),
+BEGINS( Industry_Code__r.Name  ,"7312Z"),
+BEGINS( Industry_Code__r.Name  ,"7320Z"))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tech Code NAF Finance large &amp; Mid 3_3</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

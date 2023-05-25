@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_compare_Saas_Amount__c</fullName>
+    <externalId>false</externalId>
+    <formula>Amount  =  SaaS_Booking_Amount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TECH compare Saas &amp;&amp; Amount</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_Finance_Large_1_9__c</fullName>
+    <description>Code NAF finance for territory assignment</description>
+    <externalId>false</externalId>
+    <formula>OR (
+BEGINS( Industry_Code__r.Name ,"05"),
+BEGINS( Industry_Code__r.Name ,"06"),
+BEGINS( Industry_Code__r.Name ,"07"),
+BEGINS( Industry_Code__r.Name ,"08"),
+BEGINS( Industry_Code__r.Name ,"09"),
+BEGINS( Industry_Code__r.Name ,"35"),
+BEGINS( Industry_Code__r.Name ,"36"),
+BEGINS( Industry_Code__r.Name ,"37"),
+BEGINS( Industry_Code__r.Name ,"38"),
+BEGINS( Industry_Code__r.Name ,"39"),
+BEGINS( Industry_Code__r.Name ,"45"),
+BEGINS( Industry_Code__r.Name ,"4612"),
+BEGINS( Industry_Code__r.Name ,"4613"),
+BEGINS( Industry_Code__r.Name ,"4661"),
+BEGINS( Industry_Code__r.Name ,"4663"),
+BEGINS( Industry_Code__r.Name ,"4672"),
+BEGINS( Industry_Code__r.Name ,"4673A"),
+BEGINS( Industry_Code__r.Name ,"4675"),
+BEGINS( Industry_Code__r.Name ,"4677"),
+BEGINS( Industry_Code__r.Name ,"473"),
+BEGINS( Industry_Code__r.Name ,"4778B"),
+BEGINS( Industry_Code__r.Name ,"8411"),
+BEGINS( Industry_Code__r.Name ,"8412"),
+BEGINS( Industry_Code__r.Name ,"8413"),
+BEGINS( Industry_Code__r.Name ,"8421"),
+BEGINS( Industry_Code__r.Name ,"8422"),
+BEGINS( Industry_Code__r.Name ,"8423"),
+BEGINS( Industry_Code__r.Name ,"8424"),
+BEGINS( Industry_Code__r.Name ,"8425"),
+BEGINS( Industry_Code__r.Name ,"85"),
+BEGINS( Industry_Code__r.Name ,"87"),
+BEGINS( Industry_Code__r.Name ,"88"),
+BEGINS( Industry_Code__r.Name ,"94"),
+BEGINS( Industry_Code__r.Name ,"99")
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TECH Finance Large 1 - 9</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

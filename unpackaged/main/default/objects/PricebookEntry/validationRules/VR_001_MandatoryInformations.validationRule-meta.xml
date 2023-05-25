@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_001_MandatoryInformations</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT( $User.BypassVR__c ),
+OR(ISPICKVAL( Product2.Family,'' ),
+ISBLANK( Product2.Product_Line__c ),
+ISPICKVAL( Product2.Core_Business__c,'' ),
+ISPICKVAL( Product2.Category__c,'' ),
+ISPICKVAL( Product2.StructureLevel2__c,'' ),
+ISPICKVAL( Product2.SBQQ__BillingType__c,'' )),
+NOT(Product2.RecordType.DeveloperName = 'Article'),
+NOT(Product2.RecordType.DeveloperName = 'Package'),
+NOT(Pricebook2.Name = 'Standard Price Book')
+)</errorConditionFormula>
+    <errorMessage>You can't link a product to a non-standard Pricebook if it does not have a Structure Level 1, 2 and 3, a Product Line, a Core Business and a Billing Type. Please, review the Product.</errorMessage>
+</ValidationRule>

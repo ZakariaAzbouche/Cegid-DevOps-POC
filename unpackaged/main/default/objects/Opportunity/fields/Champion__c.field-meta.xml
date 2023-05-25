@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Champion__c</fullName>
+    <description>Champion</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Weak = no internal sponsor identified | Moderate = You have identified the champion and you're convincing him/her of the value of the solution | Strong = You're in frequent contact with the champion. He/she advocates the solution internally on your behalf</inlineHelpText>
+    <label>Champion</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>MEDDIC_Values</valueSetName>
+    </valueSet>
+</CustomField>

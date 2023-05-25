@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Bid status --></label>
+        <name>Bid_status__c</name>
+        <picklistValues>
+            <masterLabel>KO</masterLabel>
+            <translation><!-- KO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting the Go/No-go decision</masterLabel>
+            <translation><!-- Waiting the Go/No-go decision --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

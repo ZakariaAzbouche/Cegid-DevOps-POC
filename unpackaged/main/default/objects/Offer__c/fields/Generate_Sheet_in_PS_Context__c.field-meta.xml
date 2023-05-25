@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generate_Sheet_in_PS_Context__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <label>Generate Sheet in PS Context</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

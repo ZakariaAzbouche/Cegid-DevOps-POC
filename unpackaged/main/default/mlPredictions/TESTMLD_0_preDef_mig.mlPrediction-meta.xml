@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MLPredictionDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aiApplicationDeveloperName>TESTMLD_app_mig</aiApplicationDeveloperName>
+    <description>TESTMLD</description>
+    <developerName>TESTMLD_0_preDef_mig</developerName>
+    <masterLabel>TESTMLD_0_preDef_mig</masterLabel>
+    <predictionField>Account.CPA_Number_of_users__c</predictionField>
+    <pushbackField>Account.NB_USER_AND_NAF__c</pushbackField>
+    <status>Enabled</status>
+    <type>Regression</type>
+</MLPredictionDefinition>

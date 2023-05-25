@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Finance and accounting</masterLabel>
+        <translation>Finance gestion comptabilité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HR</masterLabel>
+        <translation>Ressources humaines</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT</masterLabel>
+        <translation>Informatique</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Legal Affairs</masterLabel>
+        <translation>Juridique</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Management</masterLabel>
+        <translation>Direction</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Marketing and communication</masterLabel>
+        <translation>Marketing et communication</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Production</masterLabel>
+        <translation>Production</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Purchasing</masterLabel>
+        <translation>Achats</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Representative</masterLabel>
+        <translation>Commercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Transversal</masterLabel>
+        <translation>Transverse</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

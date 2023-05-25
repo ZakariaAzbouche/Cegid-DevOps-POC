@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CEGID_RETAIL_Y2</fullName>
+    <columns>Reference_Number__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Asset_Code__c</columns>
+    <columns>date_synchro_buyme__c</columns>
+    <columns>Flux_SI__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>CEGID RETAIL Y2</value>
+    </filters>
+    <label>CEGID RETAIL Y2</label>
+</ListView>

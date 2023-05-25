@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR003_Email_Privilege_Edition</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c )
+, NOT(INCLUDES($User.List_of_VR_to_By_Pass__c,"VR003_Email_Privilege_Edition"))
+, NOT($Profile.Name = "System Administrator")
+, NOT($Profile.Name = "Cegid Business Support")
+, NOT (ISBLANK(PRIORVALUE(Email_e_Billing__c)))
+, ISCHANGED( Email_e_Billing__c )
+)</errorConditionFormula>
+    <errorDisplayField>Email_e_Billing__c</errorDisplayField>
+    <errorMessage>Only Admin or Business Support can edit this Field</errorMessage>
+</ValidationRule>

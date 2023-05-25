@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_83982854</developerName>
+        <masterLabel>Stage</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity$StageName</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>G - MQL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>F - Identify the needs</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>E - Analyze the needs</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>D - Draw up the solution</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>C - Validate the solution</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>B - Negotiate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>A - Sign</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TAL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MQL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>SAL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>SQL</sourceValue>
+            </sourceValues>
+            <value>Open</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed Won</sourceValue>
+            </sourceValues>
+            <value>Won</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>No Go Client</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>No Go CEGID</sourceValue>
+            </sourceValues>
+            <value>Lost</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Account</field>
+    </columns>
+    <columns>
+        <field>Opportunity$StageName</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Forecast_Category_EDIT__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$CloseDate</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$SaaS_Booking_Amount__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Account.ERP_Number__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>R-027</description>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity$Targeting_Plan__c.Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>In progress</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$Targeting_Plan__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>HCM EOL Axys</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_83982854</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity$Targeting_Plan__c.Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity$Owner</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>PAC HCM EOL PeopleNet</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_enhanced__c</reportType>
+    <roleHierarchyFilter>CEGID_Head</roleHierarchyFilter>
+    <scope>team</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

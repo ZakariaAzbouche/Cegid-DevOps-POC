@@ -1,0 +1,36 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="AP01_RelatedListContrat">
+    <lightning:overlayLibrary aura:id="overlayLib" />
+    <aura:attribute name="objectType" type="String"/>
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="parentFieldName" type="String"/>
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="tableSize" type="integer"/>
+    <aura:attribute name="data" type="sObject[]" access="global"/>
+    <aura:attribute name="tableType" type="string"/>
+    <aura:attribute name="page" type="integer"/>
+    <aura:attribute name="pages" type="integer"/>
+    <aura:attribute name="total" type="integer"/>
+    <aura:attribute name="totalRows" type="integer" />
+    <aura:attribute name="lightningIcon" type="string" />
+    <aura:attribute name="lightningTitle" type="string" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="force:showToast" action="{!c.handleApplicationEvent}"/>
+    <aura:attribute name="mySpinner" type="Boolean"/>
+    
+    <aura:if isTrue="{!v.mySpinner}">
+        <lightning:spinner variant="brand" size="medium" alternativeText="..." />
+    </aura:if>
+    
+    
+	<lightning:card title="{!v.lightningTitle}" iconName="{!v.lightningIcon}">
+        <div class="slds-m-around_small">
+            <aura:if isTrue="{!not(empty(v.data))}" >
+                <lightning:datatable data="{! v.data }"
+                                     columns="{! v.columns }"
+                                     keyField="id"
+                                     hideCheckboxColumn="true"
+                                     onrowaction="{!c.handleRowAction}"/>
+            </aura:if>
+        </div>
+    </lightning:card>
+</aura:component>

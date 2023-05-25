@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Quality OK if the following conditions are met
+SaaS_Booking_Amount__c &gt;= 30000 € and score medic calculated/ SaaS_Booking_Amount__c &gt;= 10 000€ and Next step completed/ Exceeded closedate by less than 15 days/Opportunity modified less than 3 months ago --></help>
+        <label><!-- Quality Score --></label>
+        <name>Quality_Score__c</name>
+    </CustomFieldTranslation>

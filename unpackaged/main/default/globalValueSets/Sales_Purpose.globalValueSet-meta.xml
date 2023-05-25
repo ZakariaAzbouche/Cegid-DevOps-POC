@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>999</fullName>
+        <default>false</default>
+        <label>All Sales Purpose</label>
+    </customValue>
+    <customValue>
+        <fullName>121</fullName>
+        <default>false</default>
+        <label>Cross-Sell</label>
+    </customValue>
+    <customValue>
+        <fullName>613</fullName>
+        <default>false</default>
+        <label>Migration OP/OP</label>
+    </customValue>
+    <customValue>
+        <fullName>611</fullName>
+        <default>false</default>
+        <label>Migration OP/SaaS</label>
+    </customValue>
+    <customValue>
+        <fullName>612</fullName>
+        <default>false</default>
+        <label>Migration SaaS/SaaS</label>
+    </customValue>
+    <customValue>
+        <fullName>111</fullName>
+        <default>false</default>
+        <label>Newcli</label>
+    </customValue>
+    <customValue>
+        <fullName>511</fullName>
+        <default>false</default>
+        <label>Renew</label>
+    </customValue>
+    <customValue>
+        <fullName>411</fullName>
+        <default>false</default>
+        <label>Upsell only</label>
+    </customValue>
+    <customValue>
+        <fullName>To define</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>To define</label>
+    </customValue>
+    <masterLabel>Sales Purpose</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

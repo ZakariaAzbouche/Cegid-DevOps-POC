@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Collective_agreement_IDCC_Lead__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Collective agreement IDCC</label>
+    <referenceTo>Collective_agreement__c</referenceTo>
+    <relationshipLabel>Used Collective Agreements</relationshipLabel>
+    <relationshipName>Used_Collective_Agreements</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

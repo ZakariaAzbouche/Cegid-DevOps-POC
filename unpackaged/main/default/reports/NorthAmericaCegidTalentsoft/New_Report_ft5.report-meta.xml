@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Owner</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Expertises__r$Expertise__c</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Expertises__r.Account_Core_Business__r$CoreBusiness__c</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Expertises__r.Account_Core_Business__r$ProductLine__c</field>
+    </columns>
+    <columns>
+        <field>Account$BillingCountryCode</field>
+    </columns>
+    <currency>CAD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Account$Nature__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CLI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Owner</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Thomas Papin,Marine Issartel,Monica Villanueva,Ahmed Bamba,Catherine Guhur,Matthew Combs</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>NA Sales Team - Customer Product Lines</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Account_Expertises_with_Account_Core_Business__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

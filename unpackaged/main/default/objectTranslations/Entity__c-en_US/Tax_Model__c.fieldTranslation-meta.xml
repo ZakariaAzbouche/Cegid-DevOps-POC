@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tax Model --></label>
+        <name>Tax_Model__c</name>
+        <picklistValues>
+            <masterLabel>Avalara</masterLabel>
+            <translation><!-- Avalara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NonTaxable</masterLabel>
+            <translation><!-- NonTaxable --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

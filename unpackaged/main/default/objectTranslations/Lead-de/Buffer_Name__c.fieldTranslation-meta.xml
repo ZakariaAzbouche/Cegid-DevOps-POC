@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Buffer Name --></label>
+        <name>Buffer_Name__c</name>
+        <picklistValues>
+            <masterLabel>HCM Canada - USA</masterLabel>
+            <translation><!-- HCM Canada - USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HCM Iberia</masterLabel>
+            <translation><!-- HCM Iberia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HCM Latam</masterLabel>
+            <translation><!-- HCM Latam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HCM Time Management Rest of the world</masterLabel>
+            <translation><!-- HCM Time Management Rest of the world --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HCM Visual Time</masterLabel>
+            <translation><!-- HCM Visual Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Marketing leads - ERP</masterLabel>
+            <translation><!-- Partner Marketing leads - ERP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Marketing leads - Retail</masterLabel>
+            <translation><!-- Partner Marketing leads - Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Marketing leads – HCM</masterLabel>
+            <translation><!-- Partner Marketing leads – HCM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail International</masterLabel>
+            <translation><!-- Retail International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR CPA France</masterLabel>
+            <translation><!-- SDR CPA France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR Finance France</masterLabel>
+            <translation><!-- SDR Finance France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR HCM France</masterLabel>
+            <translation><!-- SDR HCM France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR HCM International</masterLabel>
+            <translation><!-- SDR HCM International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR Notilus</masterLabel>
+            <translation><!-- SDR Notilus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR Retail France</masterLabel>
+            <translation><!-- SDR Retail France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR StorIQ</masterLabel>
+            <translation><!-- SDR StorIQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAX Spain</masterLabel>
+            <translation><!-- TAX Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talentsoft Benelux</masterLabel>
+            <translation><!-- Talentsoft Benelux --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talentsoft DACH</masterLabel>
+            <translation><!-- Talentsoft DACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talentsoft Nordics</masterLabel>
+            <translation><!-- Talentsoft Nordics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telemarketing France</masterLabel>
+            <translation><!-- Telemarketing France --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

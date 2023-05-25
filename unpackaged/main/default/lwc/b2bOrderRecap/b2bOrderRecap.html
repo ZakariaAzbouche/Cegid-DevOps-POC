@@ -1,0 +1,275 @@
+<!--
+  @description       : 
+  @author            : Keshav Matabadul
+  @group             : B2B
+  @last modified on  : 03-21-2022
+  @last modified by  : Keshav Matabadul
+-->
+<template>
+   <div class="container">
+    <ul>
+       <template for:each={displayItems} for:item="lineItem">
+          <li
+             key={lineItem.cartItemObj.cartItem.cartItemId}
+             class="slds-p-vertical_medium"
+             >
+             <!-- <figure>
+                <a
+                   tabindex="-1"
+                   href={lineItem.productUrl}
+                   data-productid={lineItem.cartItemObj.cartItem.productDetails.productId}
+                   onclick={handleProductDetailNavigation}
+                   >
+                <img
+                   src={lineItem.productImageUrl}
+                   alt={lineItem.productImageAlternativeText}
+                   data-productid={lineItem.cartItemObj.cartItem.productDetails.productId}
+                   />
+                </a>
+             </figure> -->
+             <div class="details slds-grid">
+                <div class="slds-col slds-size_1-of-1 slds-large-size_8-of-12">
+                    <!-- Product title -->
+                   <h3
+                      class="item-name slds-text-heading_medium slds-p-bottom_small"
+                      title={lineItem.cartItemObj.cartItem.productDetails.name}
+                      >
+                      <a
+                         href={lineItem.productUrl}
+                         data-productid={lineItem.cartItemObj.cartItem.productDetails.productId}
+                         onclick={handleProductDetailNavigation}
+                         tabindex="0"
+                         >
+                            <lightning-formatted-rich-text value={lineItem.cartItemObj.cartItem.productDetails.name}></lightning-formatted-rich-text>
+                      </a>
+                   </h3>
+                   <!-- END Product title -->
+   
+                   <!-- Product properties -->
+                   <div class="line-item-properties">
+                        <ul class="product-fields">
+                            <!--li>
+                                <span>SKU&nbsp;</span>
+                                <span>{lineItem.cartItemObj.cartItem.productDetails.sku}</span>
+                            </li-->
+                            <li>
+                                <span>Prix ​​unitaire&nbsp;</span>
+                                <lightning-formatted-number
+                                    format-style="currency"
+                                    currency-code={currencyCode}
+                                    currency-display-as="symbol"
+                                    maximum-fraction-digits="2"
+                                    value={lineItem.cartItemObj.cartItem.unitAdjustedPrice}
+                                ></lightning-formatted-number>
+                            </li>
+                            <!-- <dt class="slds-truncate">SKU#</dt>
+                            <dd
+                                class="slds-truncate"
+                                title={lineItem.cartItemObj.cartItem.productDetails.sku}
+                                >
+                                {lineItem.cartItemObj.cartItem.productDetails.sku}
+                            </dd>
+                            <dt class="slds-truncate">Price per unit</dt>
+                            <dd class="slds-truncate">
+                                <lightning-formatted-number
+                                format-style="currency"
+                                currency-code={currencyCode}
+                                currency-display-as="symbol"
+                                maximum-fraction-digits="2"
+                                value={lineItem.cartItemObj.cartItem.unitAdjustedPrice}
+                                ></lightning-formatted-number>
+                            </dd> -->
+                        </ul>
+                   </div>
+                   <!-- END Product properties -->
+                </div>
+
+                <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+                    <!-- Price -->
+                    <div class="quantity-price-remove">
+                       <!--div
+                          class="quantity-selector slds-grid slds-grid_vertical-align-center slds-text-title_caps"
+                          >
+                          <label
+                             for={lineItem.cartItemObj.cartItem.cartItemId}
+                             class="selector-label slds-m-right_x-small"
+                             >{labels.quantity}
+                          </label>
+                          <input
+                             class="selector-input slds-p-horizontal_medium slds-p-vertical_x-small"
+                             disabled={isCartDisabled}
+                             id={lineItem.cartItemObj.cartItem.cartItemId}
+                             data-item-id={lineItem.cartItemObj.cartItem.cartItemId}
+                             max="100000"
+                             min="1"
+                             required
+                             type="number"
+                             value={lineItem.cartItemObj.cartItem.quantity}
+                             onblur={handleQuantitySelectorBlur}
+                             onclick={handleQuantitySelectorClick}
+                             />
+                       </div-->
+                       <div
+                          class="price slds-p-horizontal_medium"
+                          >
+                          <!--lightning-formatted-number
+                             aria-label={lineItem.originalPriceLabel}
+                             format-style="currency"
+                             currency-code={currencyCode}
+                             class="original-price slds-truncate slds-text-heading_small"
+                             currency-display-as="symbol"
+                             maximum-fraction-digits="2"
+                             value={lineItem.cartItemObj.cartItem.totalListPrice}
+                             >
+                          </lightning-formatted-number-->
+                          <lightning-formatted-number
+                             format-style="currency"
+                             currency-code={currencyCode}
+                             class="negotiated-price slds-truncate slds-text-heading_large"
+                             currency-display-as="symbol"
+                             maximum-fraction-digits="2"
+                             value={lineItem.cartItemObj.cartItem.totalPrice}
+                             >
+                          </lightning-formatted-number>
+                       </div>
+                       <!--div class="slds-p-around_xx-small remove">
+                          <lightning-button-icon
+                             icon-name="utility:close"
+                             variant="bare"
+                             alternative-text="remove"
+                             onclick={handleDeleteCartItem}
+                             data-cartitemid={lineItem.cartItemObj.cartItem.cartItemId}
+                             disabled={isCartDisabled}
+                             >
+                          </lightning-button-icon>
+                       </div-->
+                    </div>
+                    <!-- END Price -->
+                </div>
+            </div>
+          </li>
+   
+         <div key={lineParticipant} class="participant slds-grid slds-m-bottom--large slds-p-bottom--x-large">
+            <div class="slds-col ">
+               <template for:each={lineItem.listParticipants} for:item="lineParticipant">
+                  <div key={lineParticipant} class="slds-m-left_x-small slds-m-right_x-small">
+                        <lightning-badge label={lineParticipant.fullname} class="slds-float_left"></lightning-badge>
+                  </div>
+               </template>
+            </div>
+         </div>
+
+       </template>
+    </ul>
+
+    <div class="subtotalbox">
+        <!-- Subtotal -->
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-1 slds-large-size_8-of-12">
+                <span class="summary-label">Total HT</span>
+            </div>
+
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+                <span class="summary-amount">{cartSummary.totalProductAmount}</span>
+            </div>
+        </div>
+
+        <!-- Tax -->
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-1 slds-large-size_8-of-12">
+                <span class="summary-label">TVA</span>
+            </div>
+
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+                <span class="summary-amount">{cartSummary.totalTaxAmount}</span>
+            </div>
+        </div>
+
+        <!-- Total -->
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-1 slds-large-size_8-of-12">
+                <span class="summary-label summary-label--total">Total TTC</span>
+            </div>
+
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+                <span class="summary-amount summary-amount--total">{cartSummary.grandTotalAmount}</span>
+            </div>
+        </div>
+
+        <!-- Promo code -->
+        <div class="slds-grid slds-m-top--large">
+            <div class="slds-col slds-size_1-of-1 slds-large-size_8-of-12 promo--col">
+                <span class="summary-label">Code promo</span>
+            </div>
+
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12 slds-p-left--large">
+                <lightning-input type="text" label="Avez vous un code de réduction ? (Optionnel)" class="discountBorder discount" onblur={PopulateCode}></lightning-input>
+                <div if:true={displayErrorMsg} class="slds-text-color_destructive">{displayErrorMsg}</div>
+                <label class="validate" onclick={validateCode}>VALIDER</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="slds-box subtotalbox">
+      <div class="slds-grid slds-grid_vertical">
+         <div class="slds-col">
+            <div class="Subtotal slds-float_left">
+               <label>Subtotal:</label>
+            </div>
+            <div class="SubtotalValue slds-float_right">
+               {cartSummary.totalProductAmount}
+            </div>
+         </div>
+         <div class="slds-col">
+            <div class="EstimatedTax slds-float_left" >
+               Estimated Tax:
+            </div>
+            <div class="EstimatedTaxValue slds-float_right">
+               {cartSummary.totalTaxAmount}
+            </div>
+         </div>
+
+         <div class="slds-co slds-p-top_x-large">
+            <div class="Discount slds-float_left">
+               <lightning-input type="text" label="Have a discount code?(Optional)" class="discountBorder"></lightning-input>
+               <label class="validate">VALIDATE</label>
+        
+            </div>
+         </div>
+
+         <hr>
+         <div class="slds-col">        
+            <div class="Discount slds-float_left">               
+               <label>Total</label>
+            </div>
+            <div class="EstimatedTaxValue Total slds-float_right">
+               {cartSummary.totalProductAmountAfterAdjustments}
+            </div>
+         </div>
+      </div>
+    </div> -->
+
+
+    <!-- Checkbox and Next button -->
+    <div class="slds-grid slds-m-top--xx-large">
+        <!-- Terms and conditions -->
+        <div class="slds-col slds-size_1-of-1 slds-large-size_8-of-12 terms--col">
+            <lightning-input type="checkbox"  
+                required 
+                onchange={verifycheckbox}
+            ></lightning-input>
+            <label for="terms" class="terms">
+               <lightning-formatted-rich-text value={label.cgvurl}></lightning-formatted-rich-text>
+            </label>
+        </div>
+
+        <!-- Next step button -->
+        <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12 next-btn--col">
+            <lightning-button variant="brand"
+                label="Suivant" title="Primary action"
+                onclick={proceedtoNext}
+                disabled={buttoncheck}></lightning-button>
+        </div>
+    </div>
+ </div>
+</template>

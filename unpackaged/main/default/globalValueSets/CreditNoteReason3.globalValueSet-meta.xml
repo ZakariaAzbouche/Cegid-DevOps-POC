@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>030</fullName>
+        <default>false</default>
+        <label>AA-Erreur saisie manuelle</label>
+    </customValue>
+    <customValue>
+        <fullName>031</fullName>
+        <default>false</default>
+        <label>AA-Autre erreur technique</label>
+    </customValue>
+    <customValue>
+        <fullName>032</fullName>
+        <default>false</default>
+        <label>AA-Changement de rythme / structure de facturation</label>
+    </customValue>
+    <customValue>
+        <fullName>033</fullName>
+        <default>false</default>
+        <label>AA-Erreur / changement adresse de facturation</label>
+    </customValue>
+    <customValue>
+        <fullName>034</fullName>
+        <default>false</default>
+        <label>AA-Erreur de taux de tva</label>
+    </customValue>
+    <customValue>
+        <fullName>035</fullName>
+        <default>false</default>
+        <label>AA-Migration</label>
+    </customValue>
+    <customValue>
+        <fullName>036</fullName>
+        <default>false</default>
+        <label>AA-Résiliation</label>
+    </customValue>
+    <customValue>
+        <fullName>037</fullName>
+        <default>false</default>
+        <label>AA-Eradication Cegid</label>
+    </customValue>
+    <customValue>
+        <fullName>038</fullName>
+        <default>false</default>
+        <label>AA-Absence / erreur de n° de PO</label>
+    </customValue>
+    <customValue>
+        <fullName>039</fullName>
+        <default>false</default>
+        <label>AA-Erreur / changement d&apos;entité à facturer</label>
+    </customValue>
+    <customValue>
+        <fullName>041</fullName>
+        <default>false</default>
+        <label>AA-Erreur taux augmentation tarifaire</label>
+    </customValue>
+    <customValue>
+        <fullName>042</fullName>
+        <default>false</default>
+        <label>AA-Plateforme ouverte trop tôt</label>
+    </customValue>
+    <customValue>
+        <fullName>043</fullName>
+        <default>false</default>
+        <label>AA-Données de consommation erronées</label>
+    </customValue>
+    <customValue>
+        <fullName>044</fullName>
+        <default>false</default>
+        <label>AA-Conditions particulières non appliquées</label>
+    </customValue>
+    <customValue>
+        <fullName>050</fullName>
+        <default>false</default>
+        <label>AA-Annule et remplace mal traité</label>
+    </customValue>
+    <customValue>
+        <fullName>052</fullName>
+        <default>false</default>
+        <label>AA-Refus contract tiering</label>
+    </customValue>
+    <customValue>
+        <fullName>053</fullName>
+        <default>false</default>
+        <label>AC-Solde litige amiable</label>
+    </customValue>
+    <customValue>
+        <fullName>054</fullName>
+        <default>false</default>
+        <label>AC-Accord négociation</label>
+    </customValue>
+    <customValue>
+        <fullName>056</fullName>
+        <default>false</default>
+        <label>AC-Problème déploiement</label>
+    </customValue>
+    <customValue>
+        <fullName>058</fullName>
+        <default>false</default>
+        <label>AC-Conditions particulières non transmises</label>
+    </customValue>
+    <customValue>
+        <fullName>059</fullName>
+        <default>false</default>
+        <label>AC-Erreur commerciale</label>
+    </customValue>
+    <customValue>
+        <fullName>061</fullName>
+        <default>false</default>
+        <label>AC-Annulation de frais de dossier</label>
+    </customValue>
+    <customValue>
+        <fullName>121</fullName>
+        <default>false</default>
+        <label>AC-Insatisfcation prestation</label>
+    </customValue>
+    <customValue>
+        <fullName>150</fullName>
+        <default>false</default>
+        <label>AC-Protocole d&apos;accord litige</label>
+    </customValue>
+    <customValue>
+        <fullName>170</fullName>
+        <default>false</default>
+        <label>AA-Redressement / Liquidation judiciaire</label>
+    </customValue>
+    <customValue>
+        <fullName>180</fullName>
+        <default>false</default>
+        <label>AA-Gestion full service</label>
+    </customValue>
+    <customValue>
+        <fullName>200</fullName>
+        <default>false</default>
+        <label>AA-Absence de pièces contractuelles (buyme, contrat, feuilles de présences, etc.)</label>
+    </customValue>
+    <customValue>
+        <fullName>230</fullName>
+        <default>false</default>
+        <label>AA-Cessation d&apos;activité</label>
+    </customValue>
+    <customValue>
+        <fullName>231</fullName>
+        <default>false</default>
+        <label>AA-Créance irrecouvrable</label>
+    </customValue>
+    <customValue>
+        <fullName>250</fullName>
+        <default>false</default>
+        <label>AC-Avoir src</label>
+    </customValue>
+    <customValue>
+        <fullName>AC-Insatisfcation prestation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AC-Insatisfcation prestation</label>
+    </customValue>
+    <masterLabel>CreditNoteReason3</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

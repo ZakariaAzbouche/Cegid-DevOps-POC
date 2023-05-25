@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR003_ClosingReason</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c ),
+ ISPICKVAL( Status__c ,"To Be Deleted"),
+ ISBLANK( TEXT(Reasonforclosing__c) ) 
+)</errorConditionFormula>
+    <errorDisplayField>Reasonforclosing__c</errorDisplayField>
+    <errorMessage>Select reason</errorMessage>
+</ValidationRule>

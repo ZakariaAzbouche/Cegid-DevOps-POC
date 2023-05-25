@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secteur__c</fullName>
+    <externalId>false</externalId>
+    <label>TO BE DELETED Secteur</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Auvergne-Rhône-Alpes</fullName>
+                <default>false</default>
+                <label>Auvergne-Rhône-Alpes</label>
+            </value>
+            <value>
+                <fullName>Bourgogne-Franche-Comté</fullName>
+                <default>false</default>
+                <label>Bourgogne-Franche-Comté</label>
+            </value>
+            <value>
+                <fullName>Bretagne</fullName>
+                <default>false</default>
+                <label>Bretagne</label>
+            </value>
+            <value>
+                <fullName>Centre-Val de Loire</fullName>
+                <default>false</default>
+                <label>Centre-Val de Loire</label>
+            </value>
+            <value>
+                <fullName>Corse</fullName>
+                <default>false</default>
+                <label>Corse</label>
+            </value>
+            <value>
+                <fullName>Grand Est</fullName>
+                <default>false</default>
+                <label>Grand Est</label>
+            </value>
+            <value>
+                <fullName>Guadeloupe</fullName>
+                <default>false</default>
+                <label>Guadeloupe</label>
+            </value>
+            <value>
+                <fullName>Guyane</fullName>
+                <default>false</default>
+                <label>Guyane</label>
+            </value>
+            <value>
+                <fullName>Hauts-de-France</fullName>
+                <default>false</default>
+                <label>Hauts-de-France</label>
+            </value>
+            <value>
+                <fullName>Île-de-France</fullName>
+                <default>false</default>
+                <label>Île-de-France</label>
+            </value>
+            <value>
+                <fullName>La Réunion</fullName>
+                <default>false</default>
+                <label>La Réunion</label>
+            </value>
+            <value>
+                <fullName>Martinique</fullName>
+                <default>false</default>
+                <label>Martinique</label>
+            </value>
+            <value>
+                <fullName>Mayotte</fullName>
+                <default>false</default>
+                <label>Mayotte</label>
+            </value>
+            <value>
+                <fullName>Normandie</fullName>
+                <default>false</default>
+                <label>Normandie</label>
+            </value>
+            <value>
+                <fullName>Nouvelle-Aquitaine</fullName>
+                <default>false</default>
+                <label>Nouvelle-Aquitaine</label>
+            </value>
+            <value>
+                <fullName>Occitanie</fullName>
+                <default>false</default>
+                <label>Occitanie</label>
+            </value>
+            <value>
+                <fullName>Pays de la Loire</fullName>
+                <default>false</default>
+                <label>Pays de la Loire</label>
+            </value>
+            <value>
+                <fullName>Provence-Alpes-Côte d'Azur</fullName>
+                <default>false</default>
+                <label>Provence-Alpes-Côte d'Azur</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

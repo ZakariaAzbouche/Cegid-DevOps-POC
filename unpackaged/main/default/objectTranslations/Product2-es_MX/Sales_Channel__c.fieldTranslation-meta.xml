@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sales Channel --></label>
+        <name>Sales_Channel__c</name>
+        <picklistValues>
+            <masterLabel>CPQ Only</masterLabel>
+            <translation><!-- CPQ Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store Only</masterLabel>
+            <translation><!-- Store Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store/CPQ</masterLabel>
+            <translation><!-- Store/CPQ --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

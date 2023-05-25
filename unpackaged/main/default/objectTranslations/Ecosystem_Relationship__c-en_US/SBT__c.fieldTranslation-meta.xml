@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Self Booking Tool --></help>
+        <label><!-- SBT --></label>
+        <name>SBT__c</name>
+        <picklistValues>
+            <masterLabel>CONCUR</masterLabel>
+            <translation><!-- CONCUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cytric</masterLabel>
+            <translation><!-- Cytric --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egencia</masterLabel>
+            <translation><!-- Egencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GETHERE</masterLabel>
+            <translation><!-- GETHERE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goelett</masterLabel>
+            <translation><!-- Goelett --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KDS Neo</masterLabel>
+            <translation><!-- KDS Neo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Navan</masterLabel>
+            <translation><!-- Navan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notilus Booking Tool</masterLabel>
+            <translation><!-- Notilus Booking Tool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supertripper</masterLabel>
+            <translation><!-- Supertripper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAVELDOO</masterLabel>
+            <translation><!-- TRAVELDOO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TravelPerk</masterLabel>
+            <translation><!-- TravelPerk --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

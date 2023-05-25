@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Who are the project&apos;s decision-makers and influencers (HRD, CIO...) ? --></help>
+        <label><!-- Decision-makers and influencers ? --></label>
+        <name>Decision_makers_and_influencers__c</name>
+    </CustomFieldTranslation>

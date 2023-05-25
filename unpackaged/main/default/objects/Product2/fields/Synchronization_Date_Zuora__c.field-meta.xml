@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Synchronization_Date_Zuora__c</fullName>
+    <description>Date de la dernière synchronisation entre Zuora et salesforce</description>
+    <externalId>false</externalId>
+    <label>IS Synchro Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

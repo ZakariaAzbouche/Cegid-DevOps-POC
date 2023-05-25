@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Weak = You don&apos;t know the client decision processes | Moderate = You know the technical or the business or the legal decision process, but not all 3 | Strong = You know the technical, business &amp; legal decision processes. You based your close plan on them --></help>
+        <label><!-- Decision Process --></label>
+        <name>Decision_Process__c</name>
+    </CustomFieldTranslation>

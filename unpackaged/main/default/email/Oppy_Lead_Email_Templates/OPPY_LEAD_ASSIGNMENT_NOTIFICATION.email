@@ -1,0 +1,42 @@
+Bonjour, 
+
+Une nouvelle Oppy Lead (MQL) vous a été attribué dans le CRM : 
+{!Opportunity.Link} 
+
+Voici des informations issues de la qualification : 
+•	Oppy Lead owner : {!Opportunity.OwnerFullName} 
+•	Oppy Lead name : {!Opportunity.Name} 
+•	Fonction : {!Opportunity.Title__c} 
+•	Niveau d'interlocuteur : {!Opportunity.Interlocutor_level__c}
+•	Besoin fonctionnel : {!Opportunity.00N1t00000Kxs3b} 
+•	Echéance du projet : {!Opportunity.Project_deadline__c} 
+•	Budget défini : {!Opportunity.Defined_budget__c}
+
+L’ensemble des informations est consultable sur le lien ci-dessus dans le CRM. 
+Merci de traiter l'Oppy Lead dans les 48h. 
+
+Cordialement, 
+L’équipe marketing 
+
+______________________________ 
+
+
+Hello, 
+
+A new Oppy Lead (MQL) has been assigned to you in Salesforce: 
+{!Opportunity.Link} 
+
+Here is an extract from the qualification : 
+•	Lead owner : {!Opportunity.OwnerFullName} 
+•	Lead name : {!Opportunity.Name} 
+•	Function : {!Opportunity.Title__c} 
+•	Hierarchy : {!Opportunity.Interlocutor_level__c}
+•	Need : {!Opportunity.00N1t00000Kxs3b}
+•	Timing : {!Opportunity.Project_deadline__c} 
+•	Budget : {!Opportunity.Defined_budget__c} 
+
+Please click on the link above to get all the info of the qualification on the CRM. 
+Thank you for dealing with it within 48h. 
+
+Kind regards, 
+The marketing team

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type of reference --></label>
+        <name>Type_of_reference__c</name>
+        <picklistValues>
+            <masterLabel>Marketing event</masterLabel>
+            <translation><!-- Marketing event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing testimonial</masterLabel>
+            <translation><!-- Marketing testimonial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect call</masterLabel>
+            <translation><!-- Prospect call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommendation score</masterLabel>
+            <translation><!-- Recommendation score --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

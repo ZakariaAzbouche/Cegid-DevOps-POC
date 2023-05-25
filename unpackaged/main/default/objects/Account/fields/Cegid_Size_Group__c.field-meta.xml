@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cegid_Size_Group__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>source : INSEE / D&amp;B. Might be different from the data available on the account</inlineHelpText>
+    <label>Cegid Size Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>01 - STR</fullName>
+                <default>false</default>
+                <label>01 - STR</label>
+            </value>
+            <value>
+                <fullName>11 - VSB</fullName>
+                <default>false</default>
+                <label>11 - VSB</label>
+            </value>
+            <value>
+                <fullName>12 - SMB</fullName>
+                <default>false</default>
+                <label>12 - SMB</label>
+            </value>
+            <value>
+                <fullName>21 - LMM</fullName>
+                <default>false</default>
+                <label>21 - LMM</label>
+            </value>
+            <value>
+                <fullName>22 - UMM</fullName>
+                <default>false</default>
+                <label>22 - UMM</label>
+            </value>
+            <value>
+                <fullName>31 - LA</fullName>
+                <default>false</default>
+                <label>31 - LA</label>
+            </value>
+            <value>
+                <fullName>32 - VLA</fullName>
+                <default>false</default>
+                <label>32 - VLA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

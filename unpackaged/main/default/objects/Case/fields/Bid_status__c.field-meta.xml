@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bid_status__c</fullName>
+    <externalId>false</externalId>
+    <label>Bid status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>OK</fullName>
+                <default>false</default>
+                <label>OK</label>
+            </value>
+            <value>
+                <fullName>KO</fullName>
+                <default>false</default>
+                <label>KO</label>
+            </value>
+            <value>
+                <fullName>Waiting the Go/No-go decision</fullName>
+                <default>false</default>
+                <label>Waiting the Go/No-go decision</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

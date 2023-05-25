@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Debit</fullName>
+        <default>false</default>
+        <label>Debit</label>
+    </customValue>
+    <customValue>
+        <fullName>Bank Transfert</fullName>
+        <default>false</default>
+        <label>Bank Transfert</label>
+    </customValue>
+    <customValue>
+        <fullName>30-Day-Bank Transfert</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>30-Day-Bank Transfert</label>
+    </customValue>
+    <customValue>
+        <fullName>45-Day-Bank Transfert</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>45-Day-Bank Transfert</label>
+    </customValue>
+    <customValue>
+        <fullName>30-Day-Mandat</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>30-Day-Mandat</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>30-Day-Debit</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>30-Day-Debit</label>
+    </customValue>
+    <customValue>
+        <fullName>Mandate</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mandate</label>
+    </customValue>
+    <customValue>
+        <fullName>45-Day-Debit</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>45-Day-Debit</label>
+    </customValue>
+    <masterLabel>Payment Method</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

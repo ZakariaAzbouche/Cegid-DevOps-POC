@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check this box if all attempts to reach the lead were done (Number of call attemps = 3) --></help>
+        <label><!-- Last Call? --></label>
+        <name>Last_Call__c</name>
+    </CustomFieldTranslation>

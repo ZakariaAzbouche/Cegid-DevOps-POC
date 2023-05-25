@@ -1,0 +1,206 @@
+/* Footer level 1 and 2 global styles */
+/* Author: Ashvin Motye */
+.footerLevel {
+    /* set width to prevent overflow */
+    width: 100%;
+}
+
+/* Ashvin 30/09/31 - B-1347 */
+.footer-container {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 768px) { 
+    .footer-container {
+        max-width: unset;
+    }
+}
+
+.footerLevel h2 {
+  color: #0046FE;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+}
+
+.footerLevel p {
+  color: #0D2C4F;
+  /* Set font-family to medium */
+  /* Ashvin 06/09/2021 */
+  font-family: 'gelion medium';
+  font-size: 16px;
+  /* set styling of p elements footer */
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.footerLevel a {
+  /* set color of links footer */
+  color: #0D2C4F;
+  font-size: 16px
+}
+
+.footerLevel a:active,
+.footerLevel a:focus,
+.footerLevel a:hover {
+  /* set hover states of links footer */
+  color: #FF5C35;
+  text-decoration: none;
+}
+
+/* tablet and mobile styles */
+@media screen and (max-width: 768px) {  
+  .footerLevel {
+    /* adjust padding in responsive for tablet and mobile */
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footerLevel > .slds-col {
+    /* add bottom spacing between columns  */
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* add bottom spacing between nested columns, except the last column  */
+  .footerLevel > .slds-col .slds-grid > .slds-col:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+/* END Footer level 1 and 2 global styles */
+
+/* Footer level 1 */
+/* Author: Ashvin Motye */
+.footerLevel--1 {
+  /* set background color */
+  background-color: #f2f4f6;
+}
+/* END Footer level 1 */
+
+/* Contact number */
+/* Author: Ashvin Motye */
+.footer--contact p {
+  /* decrease size of description text */
+  font-size: 14px;
+}
+
+.footer--contact-tel {
+  /* style contact number box */
+  align-items: center;
+  border: 1px solid #92939f;
+  display: inline-flex;
+  line-height: normal;
+}
+
+.footer--contact-tel span:first-child {
+  /* style phone number */
+  color: #92939f;
+  font-family: 'gelion';
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer--contact-tel span:last-child {
+  /* style phone helper text */
+  background: #92939f;
+  color: #fff;
+  display: inline-block;
+  font-family: 'gelion regular';
+  font-size: 11px;
+  line-height: normal;
+  position: relative;
+}
+
+.footer--contact-tel span:last-child:before {
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #f2f4f6;
+  border-top: 10px solid transparent;
+  /* set arrow in helper text box */
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+}
+/* END Contact number */
+
+/* Target blank links with icons */
+/* Author: Ashvin Motye */
+.footerLevel--2 a {
+  /* set icons and text alignment in link */
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLevel--2 a svg {
+  /* set svg icon width */
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+}
+
+.footerLevel--2 a:active span,
+.footerLevel--2 a:focus span,
+.footerLevel--2 a:hover span {
+  /* set hover states fill to span 
+   * the svg inherits fill color from immediate parent element 
+  */
+  fill: #FF5C35;
+}
+/* END Target blank links with icons */
+
+/* 3rd level footer */
+/* Author: Ashvin Motye */
+.footerFixed {
+  background: #0046FE;
+  color: #FFFFFF;
+  /* Set font-family to medium */
+  /* Ashvin 06/09/2021 */
+  font-family: 'gelion medium';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  height: 76px;
+  line-height: 18px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .footerFixed > div {
+        /* Set spacing between items on desktop */
+        /* Ashvin 08/09/2021 */
+        margin: 0 12px;
+    }
+}
+
+/* Set third level footer links color */
+/* Ashvin 06/09/2021 */
+.footerFixed a {
+    color: #FFFFFF;
+}
+
+/* tablet styles */
+@media screen and (max-width: 768px) {  
+  .footerFixed {
+    flex-direction: column;
+    height: auto;
+    padding: 60px 15px;
+  }
+
+  .footerFixed .slds-col:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footerFixed {
+    align-items: flex-start;
+  }
+}
+/* END 3rd level footer */

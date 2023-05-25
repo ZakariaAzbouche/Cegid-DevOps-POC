@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sub Type --></label>
+        <name>SubType__c</name>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation><!-- Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business review</masterLabel>
+            <translation><!-- Business review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid</masterLabel>
+            <translation><!-- Cegid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing</masterLabel>
+            <translation><!-- Closing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Success Review</masterLabel>
+            <translation><!-- Customer Success Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demonstration</masterLabel>
+            <translation><!-- Demonstration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discovery</masterLabel>
+            <translation><!-- Discovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispute</masterLabel>
+            <translation><!-- Dispute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Déploiement - Formation</masterLabel>
+            <translation><!-- Déploiement - Formation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engagement et croissance</masterLabel>
+            <translation><!-- Engagement et croissance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Meeting</masterLabel>
+            <translation><!-- Executive Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Sponsorship Program</masterLabel>
+            <translation><!-- Executive Sponsorship Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow-up</masterLabel>
+            <translation><!-- Follow-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoming</masterLabel>
+            <translation><!-- Incoming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negociation</masterLabel>
+            <translation><!-- Negociation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-commercial</masterLabel>
+            <translation><!-- Non-commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding</masterLabel>
+            <translation><!-- Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partnership</masterLabel>
+            <translation><!-- Partnership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan de succès</masterLabel>
+            <translation><!-- Plan de succès --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project</masterLabel>
+            <translation><!-- Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project management</masterLabel>
+            <translation><!-- Project management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospecting</masterLabel>
+            <translation><!-- Prospecting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation><!-- Qualification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reclamation</masterLabel>
+            <translation><!-- Reclamation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retention</masterLabel>
+            <translation><!-- Retention --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signature</masterLabel>
+            <translation><!-- Signature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey</masterLabel>
+            <translation><!-- Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation><!-- Termination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfert de connaissance</masterLabel>
+            <translation><!-- Transfert de connaissance --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

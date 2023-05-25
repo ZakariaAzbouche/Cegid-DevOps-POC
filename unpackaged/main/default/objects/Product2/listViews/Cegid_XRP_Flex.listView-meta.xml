@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cegid_XRP_Flex</fullName>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>PRODUCT2.CREATED_DATE</columns>
+    <columns>PRODUCT2.LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>id_buyme__c</columns>
+    <columns>Synchronization_Date_Zuora__c</columns>
+    <columns>Synchronisation_Zuora__c</columns>
+    <columns>Reference_Number__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Marketing_Status__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>SaaS_production_code__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Service_Levels__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>contains</operation>
+        <value>FLEX</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Cegid XRP Flex</label>
+</ListView>

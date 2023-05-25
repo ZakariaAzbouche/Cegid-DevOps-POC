@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>CPQ Opportunity Layout</layout>
+        <sections>
+            <label><!-- Booking Dimensions --></label>
+            <section>Booking Dimensions</section>
+        </sections>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Qualification criteria --></label>
+            <section>Qualification criteria</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Booking Dimensions --></label>
+            <section>Booking Dimensions</section>
+        </sections>
+        <sections>
+            <label><!-- BuyMe Information --></label>
+            <section>BuyMe Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Dimensions --></label>
+            <section>Contract Dimensions</section>
+        </sections>
+        <sections>
+            <label><!-- PRM Deal Registration Information --></label>
+            <section>PRM Deal Registration Information</section>
+        </sections>
+        <sections>
+            <label><!-- Professional Services Information --></label>
+            <section>Professional Services Information</section>
+        </sections>
+        <sections>
+            <label><!-- Qualification Criteria --></label>
+            <section>Qualification Criteria</section>
+        </sections>
+        <sections>
+            <label><!-- Talentsoft --></label>
+            <section>Talentsoft</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Oppy Lead Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Current Information System --></label>
+            <section>Current Information System</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Oppy Lead Details --></label>
+            <section>Oppy Lead Details</section>
+        </sections>
+        <sections>
+            <label><!-- Oppy Lead Information --></label>
+            <section>Oppy Lead Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other Questions --></label>
+            <section>Other Questions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Oppy lead Showpad Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Current Information System --></label>
+            <section>Current Information System</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Oppy Lead Details --></label>
+            <section>Oppy Lead Details</section>
+        </sections>
+        <sections>
+            <label><!-- Oppy Lead Information --></label>
+            <section>Oppy Lead Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other Questions --></label>
+            <section>Other Questions</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Contracts Repatriation --></label>
+        <name>ContractsRepatriation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>Create_New_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Quote --></label>
+        <name>New_Quote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Request for PreSales --></label>
+        <name>Request_for_PreSales</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- &apos;Classic&apos; Opportunity --></description>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- This Partner Account is not related to PRM. Please, use the appropriate partner field at the top of the Opportunity page. --></errorMessage>
+        <name>VR0037_ImpartnerPartnerLevelEmpty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This contact has not access to PRM. Please, use the person adapted. --></errorMessage>
+        <name>VR0038_ImpartnerPartnerSynctoprmEmpty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The source of the opportunity can not be changed. --></errorMessage>
+        <name>VR_Oppty01_LeadSource</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t create an opportunity for an Account with Collection Status Black --></errorMessage>
+        <name>VR_Oppty02_CollectionStatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the Partner Integrator to put this amount. --></errorMessage>
+        <name>VR_Oppty03_ExternalPSAmount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Newcli, Cross Sell or Upsell, Old MRR must be set to 0. --></errorMessage>
+        <name>VR_Oppty04_OldMRR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fulfill Old Offer as it is mandatory from stage D for migrations. --></errorMessage>
+        <name>VR_Oppty05_OldOffer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fulfill Old MRR (or Old SaaS Booking BuyMe) as it is mandatory from stage D for SaaS/SaaS migrations and Migration OP/Saas. --></errorMessage>
+        <name>VR_Oppty06_OldMRRMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t create an opportunity on this &quot;no business&quot; account. --></errorMessage>
+        <name>VR_Oppty07_NoOptyIfNoBusiness</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must define a Loss Reason for this stage. --></errorMessage>
+        <name>VR_Oppty08_LossReason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This opportunity stage is not valid for your profile. --></errorMessage>
+        <name>VR_Oppty09_NoGStageForSales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expertise is mandatory --></errorMessage>
+        <name>VR_Oppty10_ExpertiseMandatoryForSales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only an administrator or Sales Ops can update a closed opportunity. --></errorMessage>
+        <name>VR_Oppty11_NoChangeOnClosed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This opportunity is linked to a BuyMe quote, you can&apos;t change data coming from BuyMe. --></errorMessage>
+        <name>VR_Oppty12_NoChangeOnBuyMeFields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product Line is mandatory from stage F. --></errorMessage>
+        <name>VR_Oppty13_ProductLine</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You have to confirm you do understand that closing an opportunity prevents you from making further changes to it. --></errorMessage>
+        <name>VR_Oppty14_ConfirmationMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A quote is linked to this opportunity, please indicate the quote as &quot;won&quot; if you want the opportunity to be &quot;closed won&quot;. --></errorMessage>
+        <name>VR_Oppty15_NoCloseWonIfQuote</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t create an opportunity on a &quot;to be deleted&quot; account. --></errorMessage>
+        <name>VR_Oppty16_Account_TBDeleted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A contact with the &quot;decision maker&quot; role is mandatory on opportunity from stage D. --></errorMessage>
+        <name>VR_Oppty17_DecisionMakerMandatOnStageD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Deployment Status, Kickoff Date and Go-live date can be updated on a closed opportunity. --></errorMessage>
+        <name>VR_Oppty18_ForbiddenChangesOnClosed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This targeting plan is inactive. --></errorMessage>
+        <name>VR_Oppty18_NoInactivePACOnChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This targeting plan is inactive --></errorMessage>
+        <name>VR_Oppty19_Bis_NoInactivePACOnChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only choose &quot;Sales Prospecting&quot;, &quot;Partner&quot; or &quot;SDR&quot; or &quot;Sales Cross Sell&quot; --></errorMessage>
+        <name>VR_Oppty20_LeadSourceValuesForSales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change this lead source set by the marketing department --></errorMessage>
+        <name>VR_Oppty21_NoChangeLeadSourceForSales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t&apos; create an opportunity directly with your profile. You must create opportunities from lead conversion. --></errorMessage>
+        <name>VR_Oppty22_NoNewOppyForMarketing</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t create a new opportunity since the opportunity already exists (same account and same expertise / core business / sales purpose). --></errorMessage>
+        <name>VR_Oppty23_CheckMQL_Open</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t create a new opportunity since the closing date of the opportunity (same account and same expertise/core business.sales purpose) is less than 30 days. --></errorMessage>
+        <name>VR_Oppty24_CheckMQL_Closed_CPA_SMB</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t create a new opportunity since the closing date of the opportunity (same account and same expertise/core business.sales purpose) is less than 90 days. --></errorMessage>
+        <name>VR_Oppty25_CheckMQL_Closed_Other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot modify the sales purpose --></errorMessage>
+        <name>VR_Oppty26_CheckSalesPurpose</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The contact is not compliant (Mandatory fields : salutation, last name, first name, email, phone, service and function) --></errorMessage>
+        <name>VR_Oppty28_Contact_Compliance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only an administrator or Sales Ops or Opp&apos;s owner can transfer owner. --></errorMessage>
+        <name>VR_Oppty29_NoTransferOwner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Sales Purpose. --></errorMessage>
+        <name>VR_Oppty30_Correct_Sales_Purpose</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can choose a value only if the field Partner Distributor is filled --></errorMessage>
+        <name>VR_Oppty31_SellingContext</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only choose &quot;Sales Prospecting&quot;, &quot;Partner&quot; or &quot;SDR&quot; or &quot;EuroCRM&quot;. --></errorMessage>
+        <name>VR_Oppty40_LeadSourceValuesForSales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This opportunity is a G-Sales Ready intended to a colleague. You cannot treat it by your own. Please, create an opportunity F-Identify the needs if you sell this opportunity. --></errorMessage>
+        <name>VR_Oppty41_Owner_control_on_GSales_Ready</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This opportunity is a Stage G intended to a colleague. The Owner cannot be the person that creates the opportunity. Please, create a &quot;F-Identify the needs&quot; if you sell this opportunity. --></errorMessage>
+        <name>VR_Oppty42_ConnotAffectLeadOwnerCreator</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Choose another value for Targeting Plan --></errorMessage>
+        <name>VR_Oppty_SameValueOnChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t force this opportunity for Sync TS because it&apos;s already linked with BuyMe or CPQ Cegid --></errorMessage>
+        <name>VR_Oppy39_Manual_Sync</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Stage &quot;G-Sales Ready&quot; is dedicated to Cross Sell. Please move this Marketing opportunity directly to Stage &quot;F-Identify the needs. --></errorMessage>
+        <name>VR_Oppy_33_checkStageGMqlSales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Stage &quot;G-MQL&quot; is dedicated to Marketing. Please move this Cross Sell opportunity directly to Stage &quot;F-Identify the needs&quot;. --></errorMessage>
+        <name>VR_Oppy_34_checkStageGSalesMql</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Sales Purpose cannot be modified for Sales Cross Sell opportunities. Please, create a standard opportunity (Stage F). --></errorMessage>
+        <name>VR_Oppy_35_CheckLeadSource</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t use the G - MQL stage. --></errorMessage>
+        <name>VR_Oppy_35_allianceBlockGMqlCreation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product line is mandatory. --></errorMessage>
+        <name>VR_Oppy_36_ProductLineMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only update the Stage to &apos;D&apos; or Higher if you have at least one of the Booking Dimensions field not null/blank --></errorMessage>
+        <name>VR_Stage_D_or_higher_Booking_not_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Business Unit field is required --></errorMessage>
+        <name>Validation_BU_before_MQL_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Close date cannot be in the past. --></errorMessage>
+        <name>Validation_of_close_date</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Contact --></label>
+        <name>New_Contact</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR020_NoTransferOwner</fullName>
+    <active>true</active>
+    <description>Only an administrator or Sales Ops can transfer owner.</description>
+    <errorConditionFormula>AND (
+NOT( $User.BypassVR__c ),
+NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR020_NoTransferOwner")),
+$Profile.Name &lt;&gt; "System Administrator",
+$Profile.Name &lt;&gt; "Cegid Telemarketing",
+$Profile.Name &lt;&gt; "Cegid Business Support",
+ISCHANGED(OwnerId),
+NOT ($Permission.Can_modify_Sales_Purpose)
+)</errorConditionFormula>
+    <errorMessage>Only an administrator or Sales Ops can transfer owner.</errorMessage>
+</ValidationRule>

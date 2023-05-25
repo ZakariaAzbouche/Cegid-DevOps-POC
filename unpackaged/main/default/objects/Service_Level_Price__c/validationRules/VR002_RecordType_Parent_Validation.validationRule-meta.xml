@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR002_RecordType_Parent_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR( AND(RecordType.DeveloperName == 'Block_Pricing', NOT(ISPICKVAL(Product__r.SBQQ__PricingMethod__c,'Block')) ),AND(RecordType.DeveloperName == 'List_Pricing',ISPICKVAL(Product__r.SBQQ__PricingMethod__c,'Block')))</errorConditionFormula>
+    <errorMessage>For a Block Priced Product, you must create Block Pricing Service Level Prices. In another hand, for a List Priced Product, you must create List Pricing Service Level Prices. Please, verify the chosen Record Type.</errorMessage>
+</ValidationRule>

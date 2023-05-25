@@ -1,0 +1,192 @@
+<!--
+  @description       : B2B Cegid Store Footer
+  @author            : Ashvin MOTYE ashvin.motye@comforth-karoo.eu
+  @group             : B2B
+  @last modified on  : 2021-12-08
+  @last modified by  : Gulshan DOORGAH gulshan.doorgah@comforth-karoo.eu
+-->
+<template>
+    <div class="footerLevel footerLevel--1 slds-p-around_xx-large">
+        <div class="footer-container slds-grid slds-wrap">
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_4-of-12">
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-size_1-of-1">
+                        <div class="slds-m-bottom--medium">
+                            <img src={cegidLogo} alt="Cegid">
+                        </div>
+    
+                        <p class="slds-m-bottom--large slds-m-right_large">{label.FooterTitre}</p>
+    
+                        <h2 class="slds-m-bottom--medium">{label.FooterSuivezNous}</h2>
+    
+                        <a href={label.b2bFooterTwitterURL} class="slds-m-right_small" target="_blank"><img src={twitterlogoUrl}></a>
+                        <a href={label.b2bFooterLinkedInURL} class="slds-m-right_small" target="_blank"><img src={linkedinlogoUrl}></a>
+                        <a href={label.b2bFooterFacebookURL} class="slds-m-right_small" target="_blank"><img src={facebooklogoUrl}></a>
+                        <a href={label.b2BFooterYoutubeURL} class="slds-m-right_small" target="_blank"><img src={youtubelogoUrl}></a> 
+    
+                        <!--div class="footer--contact slds-m-top--large">
+                            <div class="footer--contact-tel slds-p-horizontal--x-small">
+                                <span>{label.FooterNumeroDappel}</span>
+                                <span
+                                    class="slds-m-left--x-small slds-p-bottom--x-small slds-p-left--medium slds-p-right--small slds-p-top--xxx-small">{label.FooterServiceGratuit}
+                                    <br />{label.FooterPrixAppel}</span>
+                            </div>
+                            <p class="footer--contact-msg slds-m-top--small">Numéro accessible depuis la France
+                                métropolitaine uniquement</p>
+                        </div-->
+                    </div>
+                </div>
+            </div>
+    
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_2-of-12">
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-size_1-of-1">
+                        <h2 class="slds-m-bottom--medium">{label.FooterJesuis}</h2>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPageExpertsComptables}>{label.FooterCabinetExperts}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPageTPEEntrepreneurs}>{label.FooterTpeEntrepreneurs}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPagePME}>{label.FooterPME}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPageETI}>{label.FooterETI}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebGrandComptables}>{label.FooterGrandComptes}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPageRetailerEnseigne}>{label.FooterRetailerEnseigne}</a></p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12">
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-size_12-of-12 slds-m-bottom--medium">
+                        <h2>{label.b2bFooterJaiBesoinDe}</h2>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12">
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPageGérerMaComptabiliteEtMesFinances}>{label.FooterGererMaComptabilite}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPageGérerFinances}>{label.FooterGererMaFinance}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPaieRH}>{label.FooterPaieEtRH}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebMonEntreprise}>{label.FooterGererMonEntreprise}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebAvecCegid}>{label.FooterMeFormerAvecCegid}</a></p>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12">
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebGererDeveloppeMaCommerce}>{label.FooterGererEtDevelopperMonCommerce}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebGererMaProductionIndustrielle}>{label.FooterGererMaProductionIndustrielle}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPiloterUneActiviteRetail}>{label.FooterPiloterUneActiviteRetail}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebGererMonCabinetEtMesMissions}>{label.FooterGererMonCabinetEtMesMission}</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footerLevel footerLevel--2 slds-p-around_xx-large">
+        <div class="footer-container slds-grid slds-wrap">
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_1-of-3">
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-size_12-of-12 slds-m-bottom--medium">
+                        <h2>{label.b2bFooterEngagerAvecVous}</h2>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12">
+                        <p class="slds-m-bottom--medium"><strong>{label.FooterClient}</strong></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPageClientSeConnecter}>{label.FooterSeConnecter}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPageClientCustomerCare}>{label.FooterCustomerCare}</a></p>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12">
+                        <p class="slds-m-bottom--medium"><strong>{label.FooterPartenaires}</strong></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPagePartenaireSeConnecter}>{label.FooterSeConnecterPartenaires}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPageDevenirPartenaireDis}>{label.FooterDevenirPartenaireDistributeur}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebPageTrouverPartenaireDis}>{label.FooterTrouverPartenaireDistributeur}</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_1-of-3">
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-size_12-of-12 slds-m-bottom--medium">
+                        <h2>{label.b2bFooterDecouvrirNosRessources}</h2>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12">
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebNosLivresBlanc}>{label.FooterNosLivresBlancs}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebDossierThematiques}>{label.FooterDossiersthematiques}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebBlog}>{label.FooterBlogUrl}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebCasClient}>{label.FooterCasClient}</a></p>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12">
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebinar}>{label.FooterWebdemoWebinar}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebFAQ}>{label.FooterFAQ}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebGlossaire}>{label.FooterGlossaire}</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_1-of-3">
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-size_12-of-12 slds-m-bottom--medium">
+                        <h2>{label.b2bFooterApropos}</h2>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12">
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebQuiSommesNous}>{label.FooterQuiSommesNous}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebSaasByCegid}>{label.FooterLeSaasByCegid}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebEspacePresse}>{label.FooterEspacePresse}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebRejoingezNous}>{label.FooterRejoignezNous}</a></p>
+                        <p class="slds-m-bottom--medium"><a href={url} onclick={navigateToWebCegidSolidaire}>{label.FooterCegidSolidaire}</a></p>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12">
+                        <p class="slds-m-bottom--medium">
+                            <a href="#" target="_blank" rel="nofollow noreferrer">
+                                <span>{label.FooterInnovationStore}</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg">
+                                        <use xlink:href={linkIcon}></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </p>
+                        <p class="slds-m-bottom--medium">
+                            <a href="#" target="_blank" rel="nofollow noreferrer">
+                                <span>{label.FooterCegidEducation}</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg">
+                                        <use xlink:href={linkIcon}></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </p>
+                        <p class="slds-m-bottom--medium">
+                            <a href="#" target="_blank" rel="nofollow noreferrer">
+                                <span>{label.FooterBoutique}</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg">
+                                        <use xlink:href={linkIcon}></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#" target="_blank" rel="nofollow noreferrer">
+                                <span>{label.FooterEvenements}</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg">
+                                        <use xlink:href={linkIcon}></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slds-grid slds-grid_vertical-align-center slds-grid_align-center footerFixed">
+        <div class="slds-col">
+            <span>{label.FooterSiegeSocial}</span>
+        </div>
+        <div class="slds-col">
+            <span>{label.FooterTousDroit} &copy; {label.FooterCegid} {dateValue}</span>
+        </div>
+        <div class="slds-col">
+            <a href={url} onclick={navigateToWebMentionsLegales}>{label.FooterMentionsLegales}</a>
+        </div>
+        <div class="slds-col">
+            <a href={url} onclick={navigateToWebConditionsGeneralesDeVente}>{label.FooterConditions}</a>
+        </div>
+        <div class="slds-col">
+            <a href={url} onclick={navigateToWebPolitiqueDeConfidentialite}>{label.FooterPolitiquesCookies}</a>
+        </div>
+    </div>
+</template>

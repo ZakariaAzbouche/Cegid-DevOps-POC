@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- source : INSEE / D&amp;B. Might be different from the data available on the account --></help>
+        <label><!-- Cegid Size Group --></label>
+        <name>Cegid_Size_Group__c</name>
+        <picklistValues>
+            <masterLabel>01 - STR</masterLabel>
+            <translation><!-- 01 - STR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 - VSB</masterLabel>
+            <translation><!-- 11 - VSB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 - SMB</masterLabel>
+            <translation><!-- 12 - SMB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21 - LMM</masterLabel>
+            <translation><!-- 21 - LMM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22 - UMM</masterLabel>
+            <translation><!-- 22 - UMM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31 - LA</masterLabel>
+            <translation><!-- 31 - LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32 - VLA</masterLabel>
+            <translation><!-- 32 - VLA --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

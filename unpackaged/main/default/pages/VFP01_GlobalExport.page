@@ -1,0 +1,61 @@
+<!--
+/**
+ * @author Keshav - Comforth
+ * @date Creation 2020-03-20
+ * @description Export complete product catalogue in Excel
+ *              Using Visualforce to benefit from 1M max records queried in readonly mode    
+ */
+-->
+<apex:page standardController="Product2" action="{!getAllProduct}" recordSetVar="Pro" 
+        extensions="VFC01_GlobalExport" 
+        contentType="application/vnd.ms-excel#{!$Label.GlobalExportExcelName}.xls" readOnly="true">
+    <head>
+        <meta http-equiv="Content-Type" content="text/HTML;charset=UTF-8" />
+        <style>
+            table {
+                border-collapse: collapse;
+            }            
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>    
+    <table>
+        <thead>
+            <tr>
+                <td colspan="3">{!$Label.Package}</td>
+                <td colspan="3">{!$Label.Product}</td>
+                <td colspan="4">{!$Label.ChargeArticle}</td>
+            </tr>            
+            <tr>
+                <td >{!$Label.ProductName}</td>
+                <td >{!$Label.ReferenceNumber}</td>
+                <td >{!$Label.StructureLevel1}</td>
+                <td >{!$Label.ProductName}</td>
+                <td >{!$Label.ReferenceNumber}</td>
+                <td >{!$Label.StructureLevel2}</td>
+                <td >{!$Label.RecordTypeName}</td>
+                <td >{!$Label.ProductName}</td>
+                <td >{!$Label.ChargeType}</td>
+                <td >{!$Label.NoRoyalty}</td>
+            </tr>
+        </thead>        
+        <tbody>
+
+            <apex:repeat value="{!mapProductWrapper}" var="i">
+                <tr>
+                    <td><apex:outputText value="{!mapProductWrapper[i].packProductName}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].packReference}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].packStructure}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].prodProductName}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].prodRef}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].prodStructure}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].artiRTName}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].artiProductName}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].articCharge}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].artiRoyalty}"/></td>
+                </tr>
+            </apex:repeat>
+        </tbody>
+    </table>            
+</apex:page>

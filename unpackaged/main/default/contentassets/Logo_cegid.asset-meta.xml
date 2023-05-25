@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>true</isVisibleByExternalUsers>
+    <language>fr</language>
+    <masterLabel>Logo_cegid</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>Logo cegid.png</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

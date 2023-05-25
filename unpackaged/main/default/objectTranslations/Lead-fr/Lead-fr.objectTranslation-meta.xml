@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- Marketo Field set LEAD --></label>
+        <name>Marketo_Field_set_LEAD</name>
+    </fieldSets>
+    <layouts>
+        <layout>Lead For Telemarketing</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Company&apos;s Details --></label>
+            <section>Company's Details</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement Panel --></label>
+            <section>Engagement Panel</section>
+        </sections>
+        <sections>
+            <label><!-- MANACT - Ability --></label>
+            <section>MANACT - Ability</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo --></label>
+            <section>Marketo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- Bizible Insights --></label>
+            <section>Bizible Insights</section>
+        </sections>
+        <sections>
+            <label><!-- Bizible Touchpoints --></label>
+            <section>Bizible Touchpoints</section>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Company&apos;s Details --></label>
+            <section>Company's Details</section>
+        </sections>
+        <sections>
+            <label><!-- Current Solutions --></label>
+            <section>Current Solutions</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement Panel --></label>
+            <section>Engagement Panel</section>
+        </sections>
+        <sections>
+            <label><!-- MANACT - Ability --></label>
+            <section>MANACT - Ability</section>
+        </sections>
+        <sections>
+            <label><!-- MANACT - Authority --></label>
+            <section>MANACT - Authority</section>
+        </sections>
+        <sections>
+            <label><!-- MANACT - Competitor / Time --></label>
+            <section>MANACT - Competitor / Time</section>
+        </sections>
+        <sections>
+            <label><!-- MANACT - Money --></label>
+            <section>MANACT - Money</section>
+        </sections>
+        <sections>
+            <label><!-- MANACT - Need --></label>
+            <section>MANACT - Need</section>
+        </sections>
+        <sections>
+            <label><!-- MANACT - Need 2 --></label>
+            <section>MANACT - Need 2</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo --></label>
+            <section>Marketo</section>
+        </sections>
+        <sections>
+            <label>Autres Questions</label>
+            <section>Other Questions</section>
+        </sections>
+        <sections>
+            <label><!-- PRM Deal Registration Information --></label>
+            <section>PRM Deal Registration Information</section>
+        </sections>
+        <sections>
+            <label><!-- Preference Center --></label>
+            <section>Preference Center</section>
+        </sections>
+        <sections>
+            <label><!-- Talensoft --></label>
+            <section>Talensoft</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>Create_New_Task</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Lead created for an existing Contact --></description>
+        <label><!-- Contact Lead --></label>
+        <name>Contact_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Standard Lead (not linked to an existing Contact) --></description>
+        <label><!-- Lead --></label>
+        <name>Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Lead_for_MKT --></description>
+        <label><!-- Lead Telemarketing --></label>
+        <name>Lead_MKT</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Reject Cause is mandatory --></errorMessage>
+        <name>VR0012_RejectCauseMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This lead is not related to PRM. You don&apos;t have the necessary access rights on this record. --></errorMessage>
+        <name>VR0015_PRMBlockIsDealAndOwner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This contact has not access to PRM. Please, use the person adapted. --></errorMessage>
+        <name>VR0016_ImpartnerPartnerSynctoprmEmpty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Check if your email address respect the format xx@xx.xx --></errorMessage>
+        <name>VR00Q_Email_format_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Your are not owner of this lead so you can&apos;t change it. --></errorMessage>
+        <name>VR_Lead0016_LeadConvertion_by_SDR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the owner when the lead source is different of SDR lead Purchase or SDR marketing Prospecting. --></errorMessage>
+        <name>VR_Lead0017_ChangeLeadowner_by_leadSourc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t convert a lead if the industry code has not been defined. Please fulfill it and try the conversion again. --></errorMessage>
+        <name>VR_Lead005_IndCodeMandatoryForConversion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Contact Lead can&apos;t be sync with Marketo --></errorMessage>
+        <name>VR_Lead006_CantSyncContactLead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A lead can only be assigned to a user whose profile is either &quot;Cegid Telemarketing&quot; or &quot;System Administrator&quot;. --></errorMessage>
+        <name>VR_Lead007_NoAssignmentToSales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t&apos; create a lead with your profile. --></errorMessage>
+        <name>VR_Lead008_NoNewLeadWithoutPermSet</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To convert the lead you must click the button convert --></errorMessage>
+        <name>VR_Lead009_StatusClosedConverted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the owner on a non-PRM lead if you don&apos;t own it. --></errorMessage>
+        <name>VR_Lead010_NonPRM_OwnerChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- As a PRM Sales, you can only change the ownership on PRM leads to define another PRM Sales as the owner --></errorMessage>
+        <name>VR_Lead011_PRM_Owner_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the owner of a lead. --></errorMessage>
+        <name>VR_Lead012_NonPRMSalesCantChangeOwner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot close the lead since the owner is a queue. --></errorMessage>
+        <name>VR_Lead013_StatusClosedNotConverted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You don&apos;t have the necessary access rights on this field. Please, see your administrator for help. --></errorMessage>
+        <name>VR_Lead014_lockedFieldForTelemark</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot convert a Lead Owned by Impartner. Please, allocate this Lead to yourself to convert it --></errorMessage>
+        <name>VR_Lead016_ImpartnerConversionBlocked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t affect the lead to this user --></errorMessage>
+        <name>VR_Lead018_SDR_Owner_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Email field is Empty or it&apos;s not valide, so You can&apos;t synch this record with Marketo --></errorMessage>
+        <name>VR_Lead_Marketo_Synch_Email_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Lead Owner is Inactive, so you can&apos;t synch this record --></errorMessage>
+        <name>VR_Lead_Marketo_Synch_User_Inactive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only the Marketo User can uncheck this field --></errorMessage>
+        <name>VR_Lead_Marketo_User_only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La Business Unit est obligatoire.</errorMessage>
+        <name>Validatio_of_BusinessUnit_MQL</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- DenyDealRegistration --></label>
+        <name>DenyDealRegistration</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

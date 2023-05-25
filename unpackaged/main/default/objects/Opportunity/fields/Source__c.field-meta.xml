@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source__c</fullName>
+    <description>La source de l'opportunité</description>
+    <externalId>false</externalId>
+    <label>Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Action Plan</fullName>
+                <default>false</default>
+                <label>Business Action Plan</label>
+            </value>
+            <value>
+                <fullName>IC Prospecting</fullName>
+                <default>false</default>
+                <label>IC Prospecting</label>
+            </value>
+            <value>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+                <label>Advertisement</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+                <label>Trade Show</label>
+            </value>
+            <value>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+                <label>Employee Referral</label>
+            </value>
+            <value>
+                <fullName>Customer Event</fullName>
+                <default>false</default>
+                <label>Customer Event</label>
+            </value>
+            <value>
+                <fullName>Google AdWords</fullName>
+                <default>false</default>
+                <label>Google AdWords</label>
+            </value>
+            <value>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+                <label>Purchased List</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

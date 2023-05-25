@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Business Relationship --></label>
+        <name>Business_Relationship__c</name>
+        <picklistValues>
+            <masterLabel>Installed Base</masterLabel>
+            <translation><!-- Installed Base --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Business</masterLabel>
+            <translation><!-- New Business --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

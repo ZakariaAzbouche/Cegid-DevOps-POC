@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Populate with the value of the publishable key in the Stripe Dashboard --></help>
+        <label><!-- Stripe Publishable Key --></label>
+        <name>StripePublishableKey__c</name>
+    </CustomFieldTranslation>

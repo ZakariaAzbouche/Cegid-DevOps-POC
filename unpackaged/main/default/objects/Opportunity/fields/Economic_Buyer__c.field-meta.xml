@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Economic_Buyer__c</fullName>
+    <description>Economic Buyer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Weak = We don't know who the ultimate economic buyer is | Moderate = We know who the ultimate economic buyer is but we don't have his/her approval yet | Strong = We are in contact with the ultimate economic buyer and we are aligned with their criteria</inlineHelpText>
+    <label>Economic Buyer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>MEDDIC_Values</valueSetName>
+    </valueSet>
+</CustomField>

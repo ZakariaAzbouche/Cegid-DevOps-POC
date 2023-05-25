@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#325C81</headerColor>
+        <logo>Roue_dentee</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>true</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>CPQ Admin Tools</label>
+    <navType>Standard</navType>
+    <tabs>Product_Line__c</tabs>
+    <tabs>Transversal_Theme__c</tabs>
+    <tabs>Contract_Type__c</tabs>
+    <tabs>SBQQ__ProductRule__c</tabs>
+    <tabs>SBQQ__PriceRule__c</tabs>
+    <tabs>standard-Pricebook2</tabs>
+    <tabs>Entity__c</tabs>
+    <tabs>SBQQ__QuoteTemplate__c</tabs>
+    <tabs>sbaa__ApprovalChain__c</tabs>
+    <tabs>sbaa__Approver__c</tabs>
+    <tabs>standard-DeleteEvent</tabs>
+    <tabs>sbaa__Approval__c</tabs>
+    <tabs>Start_Date_Delay__c</tabs>
+    <tabs>Showpad</tabs>
+    <tabs>Contact_Certification__c</tabs>
+    <tabs>Recommendation_score__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>CPQ_Admin_Tools_UtilityBar</utilityBar>
+</CustomApplication>

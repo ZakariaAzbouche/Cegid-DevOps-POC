@@ -1,0 +1,7 @@
+Bonjour,<br><br>
+Suite à validation par le service juridique, des prix contrat cadre pour le client {!Case.AccountName__c} sont à créer.
+Pour accéder à la demande validée {!Case.CaseNumber}, connectez-vous à CPQ ou accédez directement au case <a title="case" href="https://cegid--uat.lightning.force.com/lightning/r/Case/{!Case.Id}/view">ici</a>.
+<br>
+<br>
+
+Cordialement,

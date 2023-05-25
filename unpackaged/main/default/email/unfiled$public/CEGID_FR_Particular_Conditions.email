@@ -1,0 +1,7 @@
+Bonjour,<br><br>
+Des conditions particulières pour le client {!Case.AccountName__c} sont soumises à votre validation.
+Pour accéder à la demande {!Case.CaseNumber}, connectez-vous à CPQ ou accédez directement au case <a title="case" href="{!$Label.CPQ_OrgRootUrl}r/Case/{!Case.Id}/view">ici</a>.
+<br>
+<br>
+
+Cordialement,

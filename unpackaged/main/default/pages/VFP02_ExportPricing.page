@@ -1,0 +1,103 @@
+<!--
+/**
+ * @author Keshav - Comforth
+ * @date Creation 2020-03-20
+ * @description Export complete product catalogue in Excel
+ *              Using Visualforce to benefit from 1M max records queried in readonly mode    
+ */
+-->
+<apex:page standardController="Product2" action="{!getAllProduct}" 
+        extensions="VFC02_ExportPricing"  
+        contentType="application/vnd.ms-excel#{!$Label.PricingExportExcelName}.xls" readOnly="true">
+    <head>
+        <meta http-equiv="Content-Type" content="text/HTML;charset=UTF-8" />
+        <style>
+            table {
+                border-collapse: collapse;
+            }            
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>    
+    <table>
+        <thead>
+            <tr>
+                <td colspan="11">{!$Label.Package}</td>
+                <td colspan="11">{!$Label.Product}</td>
+                <td colspan="4">{!$Label.ChargeArticle}</td>
+            </tr>            
+            <tr>
+                <td >{!$Label.ProductName}</td>
+                <td >{!$Label.ReferenceNumber}</td>
+                <td >{!$Label.StructureLevel1}</td>
+                
+                <td>{!$Label.PriceBook}</td>
+                <td>{!$Label.Sales_Purpose}</td>
+                <td>{!$Label.LowerBound}</td>
+                <td>{!$Label.UpperBound}</td>
+                <td>{!$Label.Price}</td>
+                <td>{!$Label.Discount_Tier_Lower_Bound}</td>
+                <td>{!$Label.Discount_Tier_Upper_Bound}</td>
+                <td>{!$Label.DiscountTier_Discount}</td>
+              
+                
+                <td >{!$Label.ProductName}</td>
+                <td >{!$Label.ReferenceNumber}</td>
+                <td >{!$Label.StructureLevel2}</td>
+                
+                <td>{!$Label.PriceBook}</td>
+                <td>{!$Label.Sales_Purpose}</td>
+                <td>{!$Label.LowerBound}</td>
+                <td>{!$Label.UpperBound}</td>
+                <td>{!$Label.Price}</td>
+                <td>{!$Label.Discount_Tier_Lower_Bound}</td>
+                <td>{!$Label.Discount_Tier_Upper_Bound}</td>
+                <td>{!$Label.DiscountTier_Discount}</td>
+                
+                <td >{!$Label.RecordTypeName}</td>
+                <td >{!$Label.ProductName}</td>
+                <td >{!$Label.ChargeType}</td>
+                <td >{!$Label.NoRoyalty}</td>
+            </tr>
+        </thead>        
+        <tbody>
+
+            <apex:repeat value="{!mapProductWrapper}" var="i">
+                <tr>
+                    <td><apex:outputText value="{!mapProductWrapper[i].packProductName}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].packReference}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].packStructure}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].packPricing.slpPriceBook}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].packPricing.salesPurpose}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].packPricing.lowerBound}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].packPricing.upperBound}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].packPricing.price}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].packPricing.discountTierLowerbound}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].packPricing.discountTierUpperbound}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].packPricing.discountTierDiscount}"/></td>
+                    
+                    <td><apex:outputText value="{!mapProductWrapper[i].prodProductName}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].prodRef}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].prodStructure}"/></td>
+                    
+                    <td><apex:outputText value=" {!mapProductWrapper[i].prodPricing.slpPriceBook}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].prodPricing.salesPurpose}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].prodPricing.lowerBound}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].prodPricing.upperBound}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].prodPricing.price}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].prodPricing.discountTierLowerbound}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].prodPricing.discountTierUpperbound}"/></td>
+                    <td><apex:outputText value=" {!mapProductWrapper[i].prodPricing.discountTierDiscount}"/></td>
+                    
+                    <td><apex:outputText value="{!mapProductWrapper[i].artiRTName}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].artiProductName}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].articCharge}"/></td>
+                    <td><apex:outputText value="{!mapProductWrapper[i].artiRoyalty}"/></td>
+                    
+                    
+                </tr>
+            </apex:repeat>
+        </tbody>
+    </table>            
+</apex:page>

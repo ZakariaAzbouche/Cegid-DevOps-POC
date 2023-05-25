@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Collection_Status_Disp__c</fullName>
+    <description>Display Collection Status with Colors</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Collection_Status__c, "Black"), IMAGE("/servlet/servlet.FileDownload?file=" &amp;  $Label.IMG_Black ,"Black",20,20), 
+IF(ISPICKVAL(Collection_Status__c, "Red"), IMAGE("/servlet/servlet.FileDownload?file=" &amp;  $Label.IMG_Red,"Red",20,20),
+IF(ISPICKVAL(Collection_Status__c, "Orange"), IMAGE("/servlet/servlet.FileDownload?file=" &amp;  $Label.IMG_Orange,"Orange",20,20),
+IF(ISPICKVAL(Collection_Status__c, "Green"), IMAGE("/servlet/servlet.FileDownload?file=" &amp;  $Label.IMG_Green,"Green",20,20), "N/A"
+))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Statut de recouvrement du Compte</inlineHelpText>
+    <label>Collection Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

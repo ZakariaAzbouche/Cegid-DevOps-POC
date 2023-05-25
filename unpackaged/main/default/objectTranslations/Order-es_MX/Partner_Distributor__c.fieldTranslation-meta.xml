@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Partner Distributor --></label>
+        <name>Partner_Distributor__c</name>
+        <relationshipLabel><!-- Orders (Partner Distributor) --></relationshipLabel>
+    </CustomFieldTranslation>

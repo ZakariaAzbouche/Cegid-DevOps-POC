@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Determines which setting has priority in case a user has more than one service configured --></help>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+    </CustomFieldTranslation>

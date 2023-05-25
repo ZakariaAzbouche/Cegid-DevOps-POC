@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Territory_ZIP_CPA_codeOne__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND (
+OR
+(
+BEGINS(BillingPostalCode, '17'),
+BEGINS(BillingPostalCode, '27'),
+BEGINS(BillingPostalCode, '35'),
+BEGINS(BillingPostalCode, '36'),
+BEGINS(BillingPostalCode, '40'),
+BEGINS(BillingPostalCode, '44'),
+BEGINS(BillingPostalCode, '58'),
+BEGINS(BillingPostalCode, '75001'),
+BEGINS(BillingPostalCode, '75002'),
+BEGINS(BillingPostalCode, '75009'),
+BEGINS(BillingPostalCode, '75015'),
+BEGINS(BillingPostalCode, '90'),
+BEGINS(BillingPostalCode, '91')
+),
+
+ 
+
+(ISPICKVAL( BillingCountryCode, 'FR') ))
+,'CPAChasse4', IF(
+AND (
+OR
+(
+BEGINS(BillingPostalCode, '01'),
+BEGINS(BillingPostalCode, '07'),
+BEGINS(BillingPostalCode, '59'),
+BEGINS(BillingPostalCode, '75003'),
+BEGINS(BillingPostalCode, '75004'),
+BEGINS(BillingPostalCode, '75005'),
+BEGINS(BillingPostalCode, '75006'),
+BEGINS(BillingPostalCode, '75010'),
+BEGINS(BillingPostalCode, '75011'),
+BEGINS(BillingPostalCode, '75016'),
+BEGINS(BillingPostalCode, '75017'),
+BEGINS(BillingPostalCode, '75018'),
+BEGINS(BillingPostalCode, '75020'),
+BEGINS(BillingPostalCode, '75109')
+),
+
+ 
+
+(ISPICKVAL( BillingCountryCode, 'FR') ))
+,'CPAChasse8', IF(
+OR(AND (
+OR
+(
+BEGINS(BillingPostalCode, '12'),
+BEGINS(BillingPostalCode, '2B'),
+BEGINS(BillingPostalCode, '33'),
+BEGINS(BillingPostalCode, '83'),
+BEGINS(BillingPostalCode, '95')
+
+ 
+
+),
+
+ 
+
+(ISPICKVAL( BillingCountryCode, 'FR') ))
+)
+,'CPAChasse6', IF(
+AND (
+OR
+(
+BEGINS(BillingPostalCode, '52'),
+BEGINS(BillingPostalCode, '13'),
+BEGINS(BillingPostalCode, '21'),
+BEGINS(BillingPostalCode, '28'),
+BEGINS(BillingPostalCode, '34'),
+BEGINS(BillingPostalCode, '43'),
+BEGINS(BillingPostalCode, '48'),
+BEGINS(BillingPostalCode, '49'),
+BEGINS(BillingPostalCode, '55'),
+BEGINS(BillingPostalCode, '60'),
+BEGINS(BillingPostalCode, '71'),
+BEGINS(BillingPostalCode, '78'),
+BEGINS(BillingPostalCode, '84'),
+BEGINS(BillingPostalCode, '85')
+),
+
+ 
+
+(ISPICKVAL( BillingCountryCode, 'FR') ))
+,'CPAChasse10', null))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tech Territory ZIP CPA codeOne</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

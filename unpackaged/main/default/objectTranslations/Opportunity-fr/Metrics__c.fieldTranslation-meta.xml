@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Faible: Les enjeux du client ne sont pas compris ou identifiés| Moyen: Les enjeux du client sont compris mais pas qualifiés| Fort Les enjeux du client sont compris . Les impacts sont qualifiés et les besoins profonds sont clairs</help>
+        <label>Métriques</label>
+        <name>Metrics__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Contact_Marketo_Synch_User_Inactive</fullName>
+    <active>false</active>
+    <description>The Owner of this record is not Active, so You can't synch this record.  Think to update the ownership.</description>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c ),
+NOT(Owner.IsActive = True)
+)</errorConditionFormula>
+    <errorDisplayField>Mkto_marketo_sync__c</errorDisplayField>
+    <errorMessage>The Owner of this record is not Active, so You can't synch this record.  Think to update the ownership.</errorMessage>
+</ValidationRule>

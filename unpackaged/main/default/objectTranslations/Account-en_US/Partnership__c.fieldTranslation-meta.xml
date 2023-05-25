@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- A Reseller is a nonretail company that resells a vendor’s products.
+
+Independent software vendors are companies or individuals that build, develop and sell software products to consumers and/or businesses, often indirectly via distributors and Resellers through the Channel.
+
+A Systems Integrator is a company that builds and markets a complex solution using products and/or components form other compagnie, selling the solution and the service required to install it under its own name. --></help>
+        <label><!-- Subtype --></label>
+        <name>Partnership__c</name>
+    </CustomFieldTranslation>

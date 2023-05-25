@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cegid_LOOP</fullName>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Reference_Number__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Sales_Purposes__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>StructureLevel2__c</columns>
+    <columns>Category__c</columns>
+    <columns>id_buyme__c</columns>
+    <columns>Consommation_Code__c</columns>
+    <columns>Asset_Code__c</columns>
+    <columns>SaaS_production_code__c</columns>
+    <columns>SBQQ__SubscriptionPricing__c</columns>
+    <columns>Metric__c</columns>
+    <columns>Service_Book__c</columns>
+    <columns>Service_Levels__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Offer_Lookup__c</field>
+        <operation>contains</operation>
+        <value>loop</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.FAMILY</field>
+        <operation>equals</operation>
+        <value>130,Saas</value>
+    </filters>
+    <label>Cegid LOOP</label>
+</ListView>

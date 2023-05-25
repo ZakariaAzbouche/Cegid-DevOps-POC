@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR00Q_Email_format_Validation</fullName>
+    <active>true</active>
+    <description>Lead - Check if email address respect the format x@x.xx</description>
+    <errorConditionFormula>AND( 
+				NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR00Q_Email_format_Validation")),
+				NOT( $User.BypassVR__c ), 
+				NOT(ISBLANK( Email )) ,
+    (NOT(REGEX ( Email ,"([a-zA-Z0-9_\\-\\.]+)@((\\[a-z]{1,3}\\.[a-z]{1,3}\\.[a-z]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,}|[0-9]{1,3})")))
+)</errorConditionFormula>
+    <errorDisplayField>Email</errorDisplayField>
+    <errorMessage>Check if your email address respect the format xx@xx.xx</errorMessage>
+</ValidationRule>

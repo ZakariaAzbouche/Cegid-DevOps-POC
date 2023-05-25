@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>001</fullName>
+        <default>false</default>
+        <label>Mise à jour version</label>
+    </customValue>
+    <customValue>
+        <fullName>002</fullName>
+        <default>false</default>
+        <label>Accès Portail au support et assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>003</fullName>
+        <default>false</default>
+        <label>Accès téléphonique au support et assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>004</fullName>
+        <default>false</default>
+        <label>Extension Midi (jours ouvrés)</label>
+    </customValue>
+    <customValue>
+        <fullName>005</fullName>
+        <default>false</default>
+        <label>Extensions Matin ou Soir</label>
+    </customValue>
+    <customValue>
+        <fullName>006</fullName>
+        <default>false</default>
+        <label>Services élargis sur période</label>
+    </customValue>
+    <customValue>
+        <fullName>007</fullName>
+        <default>false</default>
+        <label>Support Langues Européennes</label>
+    </customValue>
+    <customValue>
+        <fullName>008</fullName>
+        <default>false</default>
+        <label>Rendez-vous planifiés</label>
+    </customValue>
+    <customValue>
+        <fullName>009</fullName>
+        <default>false</default>
+        <label>Suivi trimestriel personnalisé</label>
+    </customValue>
+    <customValue>
+        <fullName>010</fullName>
+        <default>false</default>
+        <label>Traitement prvilégié</label>
+    </customValue>
+    <customValue>
+        <fullName>011</fullName>
+        <default>false</default>
+        <label>Accès vidéos en ligne</label>
+    </customValue>
+    <customValue>
+        <fullName>012</fullName>
+        <default>false</default>
+        <label>Appels centralisés (avec certification obligatoire)</label>
+    </customValue>
+    <customValue>
+        <fullName>013</fullName>
+        <default>false</default>
+        <label>Evaluation des connaissances des collaborateurs</label>
+    </customValue>
+    <customValue>
+        <fullName>014</fullName>
+        <default>false</default>
+        <label>Support langue anglaise</label>
+    </customValue>
+    <customValue>
+        <fullName>015</fullName>
+        <default>false</default>
+        <label>Accès aux FAQ via le portail</label>
+    </customValue>
+    <customValue>
+        <fullName>016</fullName>
+        <default>false</default>
+        <label>Légal RH - Questions et documentation</label>
+    </customValue>
+    <customValue>
+        <fullName>017</fullName>
+        <default>false</default>
+        <label>Accès Mandarine</label>
+    </customValue>
+    <customValue>
+        <fullName>018</fullName>
+        <default>false</default>
+        <label>Accès 360L Connect</label>
+    </customValue>
+    <customValue>
+        <fullName>019</fullName>
+        <default>false</default>
+        <label>Accès 360L Open</label>
+    </customValue>
+    <customValue>
+        <fullName>020</fullName>
+        <default>false</default>
+        <label>Accès 360L Private</label>
+    </customValue>
+    <customValue>
+        <fullName>021</fullName>
+        <default>false</default>
+        <label>Accès Mandarine Premium</label>
+    </customValue>
+    <masterLabel>Service Level feature</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

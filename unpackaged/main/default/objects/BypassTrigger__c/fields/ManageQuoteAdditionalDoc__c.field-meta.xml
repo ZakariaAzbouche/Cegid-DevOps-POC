@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ManageQuoteAdditionalDoc__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Disable trigger automatic creation/deletion of quote related additional doc when PDF files are attached to SBQQ__Quote__c</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Disable trigger automatic creation/deletion of quote related additional doc when PDF files are attached to SBQQ__Quote__c</inlineHelpText>
+    <label>Manage Quote Additional Doc</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

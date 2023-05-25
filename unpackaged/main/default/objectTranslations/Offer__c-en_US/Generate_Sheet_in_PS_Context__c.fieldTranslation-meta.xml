@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Generate Sheet in PS Context --></label>
+        <name>Generate_Sheet_in_PS_Context__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Visibility on tickets --></label>
+        <name>Visibility_on_tickets__c</name>
+        <picklistValues>
+            <masterLabel>On my organization</masterLabel>
+            <translation><!-- On my organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restricted to my tickets</masterLabel>
+            <translation><!-- Restricted to my tickets --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

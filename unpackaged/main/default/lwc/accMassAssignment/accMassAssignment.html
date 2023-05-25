@@ -1,0 +1,35 @@
+<template>
+    <div class="layoutSize">
+        <lightning-card title="Add accounts to Targeting Plan">
+            <!-- Filters  -->
+            <c-acc-mass-assignment-filters
+                onnaturevaluechange={handleNatureChange}
+                onpostalcodevaluechange={handlePostalCodeChange}
+                onretailsegvaluechange={handleRetailSegChange}
+                ontargetingplanchange={handleTargetingPlanChange}
+                onpacaccownerchange={handlePacAccOwnerChange}
+                onexpertisevaluechange={handleExpertiseChange}
+                onmodevaluechange={handleModeChange}
+                onacccobuscorebusinessvaluechange={handleAccCoBusCoreBusinessChange}
+                onproductlinevaluechange={handleProductLineChange}
+                onacccombusinessvaluechange={handleAccComCoreBusinessChange}
+                oncompetitorvaluechange={handleCompetitorChange}
+                onannualrevminvaluechange={handleAnnualRevenueMinChange}
+                onannualrevmaxvaluechange={handleAnnualRevenueMaxChange}
+                onnumstoresminvaluechange={handleNumStoresMinChange}
+                onnumstoresmaxvaluechange={handleNumStoresMaxChange}
+                onemployeesnumminvaluechange={handleEmployeesNumMinChange}
+                onemployeesnummaxvaluechange={handleEmployeesNumMaxChange}
+                onerpnumvaluechange={handleErpNumChange}
+                oncolportalvaluechange={handleColPortalChange}
+                onhandlesearch={handleSearchBtn}
+                onhandlecreatepacaccount={handleCreatePacAccountBtn}
+                onhandleresetfilters={handleResetFiltersBtn}>
+            </c-acc-mass-assignment-filters>
+        </lightning-card>
+
+            <!-- Start Table -->
+            <c-acc-mass-assignment-account-list>
+            </c-acc-mass-assignment-account-list>
+    </div>
+</template>

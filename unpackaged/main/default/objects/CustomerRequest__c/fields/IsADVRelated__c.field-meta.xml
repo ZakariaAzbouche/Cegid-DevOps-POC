@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsADVRelated__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    AND(
+        OR(
+            $User.Id=Owner:User.Id,
+            $User.Id=LEFT(tech_CurrentApproverId__c,15)
+        ),
+        OR(
+            $User.Id=SalesPlanner__c,
+            $User.Id=SalesManager__c
+        )
+    ),
+    true,
+    false
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is ADV Related?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_ShortDescription_Tier_Product</fullName>
+    <active>true</active>
+    <description>The Short Description field is required for the following record types: Tier, Product</description>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c ),
+(RecordType.DeveloperName = 'Article'),
+ISBLANK( InternalDescription__c )
+)</errorConditionFormula>
+    <errorDisplayField>InternalDescription__c</errorDisplayField>
+    <errorMessage>The Internal Description is required.</errorMessage>
+</ValidationRule>

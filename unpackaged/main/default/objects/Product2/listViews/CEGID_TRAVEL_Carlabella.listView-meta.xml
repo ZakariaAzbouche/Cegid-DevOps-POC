@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CEGID_TRAVEL_Carlabella</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Reference_Number__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Synchronization_Date_Zuora__c</columns>
+    <columns>Asset_Code__c</columns>
+    <columns>id_buyme__c</columns>
+    <columns>Buying_Metric__c</columns>
+    <columns>Core_Business__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>StructureLevel2__c</columns>
+    <columns>Category__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>contains</operation>
+        <value>carlabella</value>
+    </filters>
+    <label>CEGID TRAVEL (Carlabella)</label>
+</ListView>

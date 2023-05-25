@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>505</fullName>
+        <default>false</default>
+        <label>Partner Agreement</label>
+    </customValue>
+    <customValue>
+        <fullName>201</fullName>
+        <default>false</default>
+        <label>System &amp; Database</label>
+    </customValue>
+    <customValue>
+        <fullName>302</fullName>
+        <default>false</default>
+        <label>Certification</label>
+    </customValue>
+    <customValue>
+        <fullName>700</fullName>
+        <default>false</default>
+        <label>Consumables</label>
+    </customValue>
+    <customValue>
+        <fullName>500</fullName>
+        <default>false</default>
+        <label>Support contract</label>
+    </customValue>
+    <customValue>
+        <fullName>600</fullName>
+        <default>false</default>
+        <label>Hardware maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>551</fullName>
+        <default>false</default>
+        <label>System support contract  (provided by Cegid)</label>
+    </customValue>
+    <customValue>
+        <fullName>550</fullName>
+        <default>false</default>
+        <label>Infrastructure support contract</label>
+    </customValue>
+    <customValue>
+        <fullName>949</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>150</fullName>
+        <default>false</default>
+        <label>Entry fee</label>
+    </customValue>
+    <customValue>
+        <fullName>823</fullName>
+        <default>false</default>
+        <label>Publishing</label>
+    </customValue>
+    <customValue>
+        <fullName>314</fullName>
+        <default>false</default>
+        <label>eLearning</label>
+    </customValue>
+    <customValue>
+        <fullName>900</fullName>
+        <default>false</default>
+        <label>Funding</label>
+    </customValue>
+    <customValue>
+        <fullName>301</fullName>
+        <default>false</default>
+        <label>On Cegid Center in-class courses</label>
+    </customValue>
+    <customValue>
+        <fullName>300</fullName>
+        <default>false</default>
+        <label>On-site training</label>
+    </customValue>
+    <customValue>
+        <fullName>826</fullName>
+        <default>false</default>
+        <label>Content delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>320</fullName>
+        <default>false</default>
+        <label>Travel expenses (provided by Cegid)</label>
+    </customValue>
+    <customValue>
+        <fullName>503</fullName>
+        <default>false</default>
+        <label>Off contract support</label>
+    </customValue>
+    <customValue>
+        <fullName>403</fullName>
+        <default>false</default>
+        <label>Set-up</label>
+    </customValue>
+    <customValue>
+        <fullName>100</fullName>
+        <default>false</default>
+        <label>Inhouse Licenses</label>
+    </customValue>
+    <customValue>
+        <fullName>750</fullName>
+        <default>false</default>
+        <label>Rental</label>
+    </customValue>
+    <customValue>
+        <fullName>030</fullName>
+        <default>false</default>
+        <label>Hardware</label>
+    </customValue>
+    <customValue>
+        <fullName>821</fullName>
+        <default>false</default>
+        <label>SaaS (provided by Cegid)</label>
+    </customValue>
+    <customValue>
+        <fullName>304</fullName>
+        <default>false</default>
+        <label>Software set-up &amp; configuration</label>
+    </customValue>
+    <customValue>
+        <fullName>820</fullName>
+        <default>false</default>
+        <label>Portal</label>
+    </customValue>
+    <customValue>
+        <fullName>401</fullName>
+        <default>false</default>
+        <label>Preparation and shipment</label>
+    </customValue>
+    <customValue>
+        <fullName>316</fullName>
+        <default>false</default>
+        <label>One-off SaaS operation</label>
+    </customValue>
+    <customValue>
+        <fullName>310</fullName>
+        <default>false</default>
+        <label>Remote training</label>
+    </customValue>
+    <customValue>
+        <fullName>305</fullName>
+        <default>false</default>
+        <label>Data transfer &amp; software interface</label>
+    </customValue>
+    <customValue>
+        <fullName>831</fullName>
+        <default>false</default>
+        <label>SaaS - Third Party Application Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>824</fullName>
+        <default>false</default>
+        <label>SaaS (provided by partner)</label>
+    </customValue>
+    <customValue>
+        <fullName>602</fullName>
+        <default>false</default>
+        <label>Subcontracting</label>
+    </customValue>
+    <customValue>
+        <fullName>504</fullName>
+        <default>false</default>
+        <label>Subscription</label>
+    </customValue>
+    <customValue>
+        <fullName>306</fullName>
+        <default>false</default>
+        <label>Custom software development ©</label>
+    </customValue>
+    <customValue>
+        <fullName>307</fullName>
+        <default>false</default>
+        <label>Custom software development (embedded in standard)</label>
+    </customValue>
+    <customValue>
+        <fullName>308</fullName>
+        <default>false</default>
+        <label>Project Management (provided by Cegid)</label>
+    </customValue>
+    <customValue>
+        <fullName>408</fullName>
+        <default>false</default>
+        <label>Project Management (provided by partner)</label>
+    </customValue>
+    <customValue>
+        <fullName>407</fullName>
+        <default>false</default>
+        <label>System</label>
+    </customValue>
+    <customValue>
+        <fullName>315</fullName>
+        <default>false</default>
+        <label>Remote services</label>
+    </customValue>
+    <customValue>
+        <fullName>531</fullName>
+        <default>false</default>
+        <label>Licence - Third Party Application Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>Abonnement Legal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Abonnement Legal</label>
+    </customValue>
+    <customValue>
+        <fullName>ASP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ASP</label>
+    </customValue>
+    <customValue>
+        <fullName>Avoir Assistance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>Avoir Assistance Système</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Assistance Système</label>
+    </customValue>
+    <customValue>
+        <fullName>Avoir Divers</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Divers</label>
+    </customValue>
+    <customValue>
+        <fullName>Avoir Logiciel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Logiciel</label>
+    </customValue>
+    <customValue>
+        <fullName>Avoir Matériel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Matériel</label>
+    </customValue>
+    <customValue>
+        <fullName>Avoir Prestation Editeur</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Prestation Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>Avoir Progiciel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Progiciel</label>
+    </customValue>
+    <customValue>
+        <fullName>Avoir Saas</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Saas</label>
+    </customValue>
+    <customValue>
+        <fullName>Avoirs Maintenance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoirs Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>Avoir sur Prestation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir sur Prestation</label>
+    </customValue>
+    <customValue>
+        <fullName>B.P.O</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>B.P.O</label>
+    </customValue>
+    <customValue>
+        <fullName>Base de données</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Base de données</label>
+    </customValue>
+    <customValue>
+        <fullName>Bureautique Messagerie Internet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bureautique Messagerie Internet</label>
+    </customValue>
+    <customValue>
+        <fullName>Cablage</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cablage</label>
+    </customValue>
+    <customValue>
+        <fullName>Commentaire</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Commentaire</label>
+    </customValue>
+    <customValue>
+        <fullName>Consommable</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consommable</label>
+    </customValue>
+    <customValue>
+        <fullName>Contrat Assistance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Contrat Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>Contrat Maintenance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Contrat Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>Contrat Système Editeur</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Contrat Système Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>Contrat Système Infra.</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Contrat Système Infra.</label>
+    </customValue>
+    <customValue>
+        <fullName>Création / Hébergement de Sites</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Création / Hébergement de Sites</label>
+    </customValue>
+    <customValue>
+        <fullName>Divers Assistance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>Divers Assistance Système</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Assistance Système</label>
+    </customValue>
+    <customValue>
+        <fullName>Divers Divers</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Divers</label>
+    </customValue>
+    <customValue>
+        <fullName>Divers Logiciel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Logiciel</label>
+    </customValue>
+    <customValue>
+        <fullName>Divers Maintenance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>Divers Matériel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Matériel</label>
+    </customValue>
+    <customValue>
+        <fullName>Divers Prestation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Prestation</label>
+    </customValue>
+    <customValue>
+        <fullName>349</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Prestation Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>Divers Progiciel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Progiciel</label>
+    </customValue>
+    <customValue>
+        <fullName>Divers Saas</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Saas</label>
+    </customValue>
+    <customValue>
+        <fullName>Editique</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Editique</label>
+    </customValue>
+    <customValue>
+        <fullName>Financement</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Financement</label>
+    </customValue>
+    <customValue>
+        <fullName>Formation Distributeur</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Formation Distributeur</label>
+    </customValue>
+    <customValue>
+        <fullName>Formation en centre</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Formation en centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Formation sur site</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Formation sur site</label>
+    </customValue>
+    <customValue>
+        <fullName>Fourniture de contenus</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fourniture de contenus</label>
+    </customValue>
+    <customValue>
+        <fullName>Frais d&apos;expédition</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Frais d&apos;expédition</label>
+    </customValue>
+    <customValue>
+        <fullName>Frais de déplacement - Distributeur</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Frais de déplacement - Distributeur</label>
+    </customValue>
+    <customValue>
+        <fullName>Frais de déplacement - Editeur</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Frais de déplacement - Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>Hors Contrat Assistance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hors Contrat Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>Hors Contrat Ligne de Crédit</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hors Contrat Ligne de Crédit</label>
+    </customValue>
+    <customValue>
+        <fullName>Hors Contrat Maintenance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hors Contrat Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Licence de Location</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence de Location</label>
+    </customValue>
+    <customValue>
+        <fullName>Licence Démonstration</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence Démonstration</label>
+    </customValue>
+    <customValue>
+        <fullName>Licence Extension</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence Extension</label>
+    </customValue>
+    <customValue>
+        <fullName>Licence mise à jour</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence mise à jour</label>
+    </customValue>
+    <customValue>
+        <fullName>Licence principale</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence principale</label>
+    </customValue>
+    <customValue>
+        <fullName>Licence secondaire / fidelité</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence secondaire / fidelité</label>
+    </customValue>
+    <customValue>
+        <fullName>Licence Transfert</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence Transfert</label>
+    </customValue>
+    <customValue>
+        <fullName>Location</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Location</label>
+    </customValue>
+    <customValue>
+        <fullName>Manuel d&apos;utilisation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Manuel d&apos;utilisation</label>
+    </customValue>
+    <customValue>
+        <fullName>Matériel d&apos;occasion</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Matériel d&apos;occasion</label>
+    </customValue>
+    <customValue>
+        <fullName>Matériel Neuf</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Matériel Neuf</label>
+    </customValue>
+    <customValue>
+        <fullName>Outsourcing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Outsourcing</label>
+    </customValue>
+    <customValue>
+        <fullName>Paramétrage et Installation Progic</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Paramétrage et Installation Progic</label>
+    </customValue>
+    <customValue>
+        <fullName>Portail</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portail</label>
+    </customValue>
+    <customValue>
+        <fullName>Préparation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Préparation</label>
+    </customValue>
+    <customValue>
+        <fullName>Prestation Ponctuelle Sourcing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prestation Ponctuelle Sourcing</label>
+    </customValue>
+    <customValue>
+        <fullName>Prestation WEB</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prestation WEB</label>
+    </customValue>
+    <customValue>
+        <fullName>Régie / Déploiement</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Régie / Déploiement</label>
+    </customValue>
+    <customValue>
+        <fullName>Reprise et Interface</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reprise et Interface</label>
+    </customValue>
+    <customValue>
+        <fullName>Retrocession</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Retrocession</label>
+    </customValue>
+    <customValue>
+        <fullName>SaaS Cegid</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SaaS Cegid</label>
+    </customValue>
+    <customValue>
+        <fullName>SaaS Partenaire</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SaaS Partenaire</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Delivery</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Service Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Sous Traitance ECONOCOM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sous Traitance ECONOCOM</label>
+    </customValue>
+    <customValue>
+        <fullName>Sous Traitance - Négoce</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sous Traitance - Négoce</label>
+    </customValue>
+    <customValue>
+        <fullName>Spécifique (c)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Spécifique (c)</label>
+    </customValue>
+    <customValue>
+        <fullName>Spécifique (intégré STD)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Spécifique (intégré STD)</label>
+    </customValue>
+    <customValue>
+        <fullName>Suivi de projet Distributeur</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Suivi de projet Distributeur</label>
+    </customValue>
+    <customValue>
+        <fullName>Suivi de Projet - Editeur</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Suivi de Projet - Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>Support Version</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Support Version</label>
+    </customValue>
+    <customValue>
+        <fullName>Système</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Système</label>
+    </customValue>
+    <customValue>
+        <fullName>Système d&apos;exploitation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Système d&apos;exploitation</label>
+    </customValue>
+    <customValue>
+        <fullName>Télé Prestation Editeur</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Télé Prestation Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>TMA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TMA</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Unknown</label>
+    </customValue>
+    <masterLabel>StructureLevel3</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

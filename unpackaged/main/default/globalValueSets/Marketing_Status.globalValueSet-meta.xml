@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cold</fullName>
+        <default>false</default>
+        <label>Cold</label>
+    </customValue>
+    <customValue>
+        <fullName>Warm</fullName>
+        <default>false</default>
+        <label>Warm</label>
+    </customValue>
+    <customValue>
+        <fullName>AQL</fullName>
+        <default>false</default>
+        <label>AQL</label>
+    </customValue>
+    <customValue>
+        <fullName>TAL</fullName>
+        <default>false</default>
+        <label>TAL</label>
+    </customValue>
+    <customValue>
+        <fullName>MQL</fullName>
+        <default>false</default>
+        <label>MQL</label>
+    </customValue>
+    <customValue>
+        <fullName>SAL</fullName>
+        <default>false</default>
+        <label>SAL</label>
+    </customValue>
+    <customValue>
+        <fullName>SQL</fullName>
+        <default>false</default>
+        <label>SQL</label>
+    </customValue>
+    <customValue>
+        <fullName>Onboarding</fullName>
+        <default>false</default>
+        <label>Onboarding</label>
+    </customValue>
+    <customValue>
+        <fullName>Recycled</fullName>
+        <default>false</default>
+        <label>Recycled</label>
+    </customValue>
+    <customValue>
+        <fullName>Competition</fullName>
+        <default>false</default>
+        <label>Competition</label>
+    </customValue>
+    <customValue>
+        <fullName>Stakeholder</fullName>
+        <default>false</default>
+        <label>Stakeholder</label>
+    </customValue>
+    <customValue>
+        <fullName>Student</fullName>
+        <default>false</default>
+        <label>Student</label>
+    </customValue>
+    <customValue>
+        <fullName>To Be Deleted</fullName>
+        <default>false</default>
+        <label>To Be Deleted</label>
+    </customValue>
+    <customValue>
+        <fullName>Software Partner</fullName>
+        <default>false</default>
+        <label>Software Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Influencer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Influencer</label>
+    </customValue>
+    <description>Used for Leads and Contacts</description>
+    <masterLabel>Marketing Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

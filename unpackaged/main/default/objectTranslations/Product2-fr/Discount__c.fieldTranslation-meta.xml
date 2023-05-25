@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used for Percentage or Amount Discount Charges.
+For Percentage Discount, please enter 20 if you want to apply 20% discount.
+For Amount Discount, please be careful about Product Currency to use. --></help>
+        <label><!-- Discount --></label>
+        <name>Discount__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Software__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Software</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non Communiqué</fullName>
+                <default>false</default>
+                <label>Non Communiqué</label>
+            </value>
+            <value>
+                <fullName>Cegid</fullName>
+                <default>false</default>
+                <label>Cegid</label>
+            </value>
+            <value>
+                <fullName>Ciel</fullName>
+                <default>false</default>
+                <label>Ciel</label>
+            </value>
+            <value>
+                <fullName>EBP</fullName>
+                <default>false</default>
+                <label>EBP</label>
+            </value>
+            <value>
+                <fullName>Sage</fullName>
+                <default>false</default>
+                <label>Sage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

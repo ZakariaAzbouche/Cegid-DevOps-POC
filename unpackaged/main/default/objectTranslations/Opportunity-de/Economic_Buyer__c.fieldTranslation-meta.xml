@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Weak = We don&apos;t know who the ultimate economic buyer is | Moderate = We know who the ultimate economic buyer is but we don&apos;t have his/her approval yet | Strong = We are in contact with the ultimate economic buyer and we are aligned with their criteria --></help>
+        <label><!-- Economic Buyer --></label>
+        <name>Economic_Buyer__c</name>
+    </CustomFieldTranslation>

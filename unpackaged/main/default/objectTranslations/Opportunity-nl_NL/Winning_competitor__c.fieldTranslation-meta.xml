@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Winning competitor --></label>
+        <name>Winning_competitor__c</name>
+        <picklistValues>
+            <masterLabel>15FIVE</masterLabel>
+            <translation><!-- 15FIVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>360L</masterLabel>
+            <translation><!-- 360L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>365 TALENTS</masterLabel>
+            <translation><!-- 365 TALENTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAREON</masterLabel>
+            <translation><!-- AAREON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACCOUNTIFY</masterLabel>
+            <translation><!-- ACCOUNTIFY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACCOUNTOR</masterLabel>
+            <translation><!-- ACCOUNTOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACD GROUPE</masterLabel>
+            <translation><!-- ACD GROUPE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADEQUASYS</masterLabel>
+            <translation><!-- ADEQUASYS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADP</masterLabel>
+            <translation><!-- ADP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGIRIS</masterLabel>
+            <translation><!-- AGIRIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALPHA3I</masterLabel>
+            <translation><!-- ALPHA3I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALTAYS</masterLabel>
+            <translation><!-- ALTAYS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMELKIS</masterLabel>
+            <translation><!-- AMELKIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APTOS</masterLabel>
+            <translation><!-- APTOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARAGON</masterLabel>
+            <translation><!-- ARAGON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARC LOGICIELS</masterLabel>
+            <translation><!-- ARC LOGICIELS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARTICULATE</masterLabel>
+            <translation><!-- ARTICULATE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUTEL/BEST STORE</masterLabel>
+            <translation><!-- AUTEL/BEST STORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AVATURE</masterLabel>
+            <translation><!-- AVATURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AVELON RMS</masterLabel>
+            <translation><!-- AVELON RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AXWAY</masterLabel>
+            <translation><!-- AXWAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apisoft</masterLabel>
+            <translation><!-- Apisoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apologic</masterLabel>
+            <translation><!-- Apologic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAISON</masterLabel>
+            <translation><!-- BAISON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAMBOO HR</masterLabel>
+            <translation><!-- BAMBOO HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANQUE POPULAIRE</masterLabel>
+            <translation><!-- BANQUE POPULAIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BEARINGPOINT</masterLabel>
+            <translation><!-- BEARINGPOINT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BEEBOLE</masterLabel>
+            <translation><!-- BEEBOLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BERGER LEVRAULT</masterLabel>
+            <translation><!-- BERGER LEVRAULT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIZNEO</masterLabel>
+            <translation><!-- BIZNEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BLEEXO</masterLabel>
+            <translation><!-- BLEEXO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREEZY</masterLabel>
+            <translation><!-- BREEZY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRZ</masterLabel>
+            <translation><!-- BRZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BURGEON</masterLabel>
+            <translation><!-- BURGEON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BY THE CERTIFIED ACCOUNTANT</masterLabel>
+            <translation><!-- BY THE CERTIFIED ACCOUNTANT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA2I</masterLabel>
+            <translation><!-- CA2I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CADOR</masterLabel>
+            <translation><!-- CADOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPTIO</masterLabel>
+            <translation><!-- CAPTIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CARLABELLA</masterLabel>
+            <translation><!-- CARLABELLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CASHFORCE</masterLabel>
+            <translation><!-- CASHFORCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CASHLAB</masterLabel>
+            <translation><!-- CASHLAB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CATALYSTONE</masterLabel>
+            <translation><!-- CATALYSTONE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEGAPE</masterLabel>
+            <translation><!-- CEGAPE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEGAR</masterLabel>
+            <translation><!-- CEGAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEGEDIM SRH</masterLabel>
+            <translation><!-- CEGEDIM SRH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEGI</masterLabel>
+            <translation><!-- CEGI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEGI ALFA</masterLabel>
+            <translation><!-- CEGI ALFA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CELERANT</masterLabel>
+            <translation><!-- CELERANT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CERFRANCE</masterLabel>
+            <translation><!-- CERFRANCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CERIDAN</masterLabel>
+            <translation><!-- CERIDAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEZANNE</masterLabel>
+            <translation><!-- CEZANNE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CGI</masterLabel>
+            <translation><!-- CGI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHORUS</masterLabel>
+            <translation><!-- CHORUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIRIL</masterLabel>
+            <translation><!-- CIRIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIVADIS</masterLabel>
+            <translation><!-- CIVADIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLIP INDUSTRIE</masterLabel>
+            <translation><!-- CLIP INDUSTRIE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CODINFO</masterLabel>
+            <translation><!-- CODINFO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COFILOG</masterLabel>
+            <translation><!-- COFILOG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COGESER</masterLabel>
+            <translation><!-- COGESER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COGILOG</masterLabel>
+            <translation><!-- COGILOG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COGIS</masterLabel>
+            <translation><!-- COGIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMARCH</masterLabel>
+            <translation><!-- COMARCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMERZZIA</masterLabel>
+            <translation><!-- COMERZZIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONCRETE</masterLabel>
+            <translation><!-- CONCRETE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONCUR</masterLabel>
+            <translation><!-- CONCUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COORPACADEMY</masterLabel>
+            <translation><!-- COORPACADEMY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORNERSTONE ON DEMAND</masterLabel>
+            <translation><!-- CORNERSTONE ON DEMAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COSOLUCE</masterLabel>
+            <translation><!-- COSOLUCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COTE OUEST</masterLabel>
+            <translation><!-- COTE OUEST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COURSERA</masterLabel>
+            <translation><!-- COURSERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPI SOLUCIONES</masterLabel>
+            <translation><!-- CPI SOLUCIONES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CROSSKNOWLEDGE</masterLabel>
+            <translation><!-- CROSSKNOWLEDGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CROSSTALENTS</masterLabel>
+            <translation><!-- CROSSTALENTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CULTURE AMP</masterLabel>
+            <translation><!-- CULTURE AMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CYBERTILL</masterLabel>
+            <translation><!-- CYBERTILL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chain trust</masterLabel>
+            <translation><!-- Chain trust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ciel</masterLabel>
+            <translation><!-- Ciel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DATALOG</masterLabel>
+            <translation><!-- DATALOG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEAL INFORMATIQUE</masterLabel>
+            <translation><!-- DEAL INFORMATIQUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEGREED</masterLabel>
+            <translation><!-- DEGREED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DELEGATION CABINET AVOCAT</masterLabel>
+            <translation><!-- DELEGATION CABINET AVOCAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DELTEK</masterLabel>
+            <translation><!-- DELTEK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIAPASON</masterLabel>
+            <translation><!-- DIAPASON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIDACTE</masterLabel>
+            <translation><!-- DIDACTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIGITAL RECRUITERS</masterLabel>
+            <translation><!-- DIGITAL RECRUITERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIMOSOFTWARE</masterLabel>
+            <translation><!-- DIMOSOFTWARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIVALTO</masterLabel>
+            <translation><!-- DIVALTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DOCEBO</masterLabel>
+            <translation><!-- DOCEBO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DOTSOFT</masterLabel>
+            <translation><!-- DOTSOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E PAYE</masterLabel>
+            <translation><!-- E PAYE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EBC</masterLabel>
+            <translation><!-- EBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EBP</masterLabel>
+            <translation><!-- EBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFL</masterLabel>
+            <translation><!-- EFL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EIC</masterLabel>
+            <translation><!-- EIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EIG</masterLabel>
+            <translation><!-- EIG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EKSAE</masterLabel>
+            <translation><!-- EKSAE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELAMP</masterLabel>
+            <translation><!-- ELAMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELEVO</masterLabel>
+            <translation><!-- ELEVO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELOOMI</masterLabel>
+            <translation><!-- ELOOMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENACTOR</masterLabel>
+            <translation><!-- ENACTOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EOLIA SOFTWARE</masterLabel>
+            <translation><!-- EOLIA SOFTWARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPICOR</masterLabel>
+            <translation><!-- EPICOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EURECIA</masterLabel>
+            <translation><!-- EURECIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUREKA</masterLabel>
+            <translation><!-- EUREKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUROSTOP</masterLabel>
+            <translation><!-- EUROSTOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EVANGEL SOFT</masterLabel>
+            <translation><!-- EVANGEL SOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EVERWIN</masterLabel>
+            <translation><!-- EVERWIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXALOG</masterLabel>
+            <translation><!-- EXALOG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXCEL</masterLabel>
+            <translation><!-- EXCEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXPENSIFY</masterLabel>
+            <translation><!-- EXPENSIFY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXPENSYA</masterLabel>
+            <translation><!-- EXPENSYA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAB MANAGER</masterLabel>
+            <translation><!-- FAB MANAGER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FACTORIAL</masterLabel>
+            <translation><!-- FACTORIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FASTMAG</masterLabel>
+            <translation><!-- FASTMAG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FICHORGA</masterLabel>
+            <translation><!-- FICHORGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIDGI</masterLabel>
+            <translation><!-- FIDGI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIDUCIAL</masterLabel>
+            <translation><!-- FIDUCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIS</masterLabel>
+            <translation><!-- FIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOEDERIS</masterLabel>
+            <translation><!-- FOEDERIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOKO</masterLabel>
+            <translation><!-- FOKO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOLKS</masterLabel>
+            <translation><!-- FOLKS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUJITSU</masterLabel>
+            <translation><!-- FUJITSU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FULLL</masterLabel>
+            <translation><!-- FULLL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUTURA</masterLabel>
+            <translation><!-- FUTURA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GENERIX</masterLabel>
+            <translation><!-- GENERIX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GESTIMUM</masterLabel>
+            <translation><!-- GESTIMUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GFI</masterLabel>
+            <translation><!-- GFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GI</masterLabel>
+            <translation><!-- GI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIC</masterLabel>
+            <translation><!-- GIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GK SOFTWARE</masterLabel>
+            <translation><!-- GK SOFTWARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GLINT</masterLabel>
+            <translation><!-- GLINT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GOODHABITZ</masterLabel>
+            <translation><!-- GOODHABITZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREENHOUSE</masterLabel>
+            <translation><!-- GREENHOUSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GRUPO SPEC</masterLabel>
+            <translation><!-- GRUPO SPEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HARDIS</masterLabel>
+            <translation><!-- HARDIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HARVARD GESTION</masterLabel>
+            <translation><!-- HARVARD GESTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEARTPACE</masterLabel>
+            <translation><!-- HEARTPACE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIBOB</masterLabel>
+            <translation><!-- HIBOB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOROQUARTZ</masterLabel>
+            <translation><!-- HOROQUARTZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOST ANALYTICS</masterLabel>
+            <translation><!-- HOST ANALYTICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBIZA</masterLabel>
+            <translation><!-- IBIZA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM</masterLabel>
+            <translation><!-- IBM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IFS</masterLabel>
+            <translation><!-- IFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IGOP</masterLabel>
+            <translation><!-- IGOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN EXTENSO</masterLabel>
+            <translation><!-- IN EXTENSO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INEDEE</masterLabel>
+            <translation><!-- INEDEE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INETUM</masterLabel>
+            <translation><!-- INETUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INFOR</masterLabel>
+            <translation><!-- INFOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INFORCE</masterLabel>
+            <translation><!-- INFORCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INSER</masterLabel>
+            <translation><!-- INSER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTERNAL DEVELOPMENT</masterLabel>
+            <translation><!-- INTERNAL DEVELOPMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVOKE</masterLabel>
+            <translation><!-- INVOKE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IPAIDTHAT</masterLabel>
+            <translation><!-- IPAIDTHAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISAGRI</masterLabel>
+            <translation><!-- ISAGRI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAZZ HR</masterLabel>
+            <translation><!-- JAZZ HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JD EDWARDS ERP</masterLabel>
+            <translation><!-- JD EDWARDS ERP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JDA</masterLabel>
+            <translation><!-- JDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JENJI</masterLabel>
+            <translation><!-- JENJI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JESTA</masterLabel>
+            <translation><!-- JESTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOBVITE</masterLabel>
+            <translation><!-- JOBVITE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JVS</masterLabel>
+            <translation><!-- JVS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K3</masterLabel>
+            <translation><!-- K3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KABIR PROFILE SOLUTIONS</masterLabel>
+            <translation><!-- KABIR PROFILE SOLUTIONS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KDS</masterLabel>
+            <translation><!-- KDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KINGDEE</masterLabel>
+            <translation><!-- KINGDEE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KPMG</masterLabel>
+            <translation><!-- KPMG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KWI</masterLabel>
+            <translation><!-- KWI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KYRIBA</masterLabel>
+            <translation><!-- KYRIBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LASER - SYMAG</masterLabel>
+            <translation><!-- LASER - SYMAG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LCA CONSEILS</masterLabel>
+            <translation><!-- LCA CONSEILS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LD SYSTEM</masterLabel>
+            <translation><!-- LD SYSTEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LD SYSTÈME</masterLabel>
+            <translation><!-- LD SYSTÈME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEARNINGBANK</masterLabel>
+            <translation><!-- LEARNINGBANK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEARNSTER</masterLabel>
+            <translation><!-- LEARNSTER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEFEBVRE SOFTWARE</masterLabel>
+            <translation><!-- LEFEBVRE SOFTWARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEGALPLACE</masterLabel>
+            <translation><!-- LEGALPLACE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEVER</masterLabel>
+            <translation><!-- LEVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEXISNEXIS</masterLabel>
+            <translation><!-- LEXISNEXIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIGHTSPEED</masterLabel>
+            <translation><!-- LIGHTSPEED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LINKEDIN</masterLabel>
+            <translation><!-- LINKEDIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LINX</masterLabel>
+            <translation><!-- LINX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LMS365</masterLabel>
+            <translation><!-- LMS365 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LS RETAIL</masterLabel>
+            <translation><!-- LS RETAIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LUCCA</masterLabel>
+            <translation><!-- LUCCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LUMESSE</masterLabel>
+            <translation><!-- LUMESSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MANITOU SOLUTION</masterLabel>
+            <translation><!-- MANITOU SOLUTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAPAP</masterLabel>
+            <translation><!-- MAPAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEMSOFT</masterLabel>
+            <translation><!-- MEMSOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>META COMPLIANCE</masterLabel>
+            <translation><!-- META COMPLIANCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>METROFY</masterLabel>
+            <translation><!-- METROFY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MICROSOFT</masterLabel>
+            <translation><!-- MICROSOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MISTRAL INFORMATIQUE</masterLabel>
+            <translation><!-- MISTRAL INFORMATIQUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOBARO</masterLabel>
+            <translation><!-- MOBARO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOBILE EXPENSE</masterLabel>
+            <translation><!-- MOBILE EXPENSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MODDO</masterLabel>
+            <translation><!-- MODDO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MODDWORK</masterLabel>
+            <translation><!-- MODDWORK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOONCARD</masterLabel>
+            <translation><!-- MOONCARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTAE</masterLabel>
+            <translation><!-- MTAE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYUNITSOFT</masterLabel>
+            <translation><!-- MYUNITSOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N2FSOFT</masterLabel>
+            <translation><!-- N2FSOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NCR COUNTERPOINT</masterLabel>
+            <translation><!-- NCR COUNTERPOINT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEEVA</masterLabel>
+            <translation><!-- NEEVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NETEXCOM</masterLabel>
+            <translation><!-- NETEXCOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NETSUITE</masterLabel>
+            <translation><!-- NETSUITE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NIBELIS(ex MEILLEURE GESTION)</masterLabel>
+            <translation><!-- NIBELIS(ex MEILLEURE GESTION) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO LEGAL SECRETARY</masterLabel>
+            <translation><!-- NO LEGAL SECRETARY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO SOCIAL</masterLabel>
+            <translation><!-- NO SOCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO TALENT MANAGEMENT</masterLabel>
+            <translation><!-- NO TALENT MANAGEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OC2i</masterLabel>
+            <translation><!-- OC2i --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCTOMINE</masterLabel>
+            <translation><!-- OCTOMINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ODOO</masterLabel>
+            <translation><!-- ODOO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OFFICEVIBE</masterLabel>
+            <translation><!-- OFFICEVIBE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ONAYA</masterLabel>
+            <translation><!-- ONAYA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OPEN HR</masterLabel>
+            <translation><!-- OPEN HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OPENBRAVO</masterLabel>
+            <translation><!-- OPENBRAVO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OPTIMMO</masterLabel>
+            <translation><!-- OPTIMMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORACLE</masterLabel>
+            <translation><!-- ORACLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORACLE/MICROS</masterLabel>
+            <translation><!-- ORACLE/MICROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORACULUS</masterLabel>
+            <translation><!-- ORACULUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORCHESTRA</masterLabel>
+            <translation><!-- ORCHESTRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Objectif-PI</masterLabel>
+            <translation><!-- Objectif-PI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAIE EXTERNALISEE (hors EXC)</masterLabel>
+            <translation><!-- PAIE EXTERNALISEE (hors EXC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAYFIT</masterLabel>
+            <translation><!-- PAYFIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PCMS</masterLabel>
+            <translation><!-- PCMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PENNYLANE</masterLabel>
+            <translation><!-- PENNYLANE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEOPLE SPHERES</masterLabel>
+            <translation><!-- PEOPLE SPHERES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEOPLEDOC</masterLabel>
+            <translation><!-- PEOPLEDOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PERSONIO</masterLabel>
+            <translation><!-- PERSONIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLAIN TALKING HR</masterLabel>
+            <translation><!-- PLAIN TALKING HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POINT SOFT</masterLabel>
+            <translation><!-- POINT SOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POINTEX</masterLabel>
+            <translation><!-- POINTEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POWERSHOP</masterLabel>
+            <translation><!-- POWERSHOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMERGENCY</masterLabel>
+            <translation><!-- PREMERGENCY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRESTASHOP</masterLabel>
+            <translation><!-- PRESTASHOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIOS</masterLabel>
+            <translation><!-- PRIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIOS GROUPE</masterLabel>
+            <translation><!-- PRIOS GROUPE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROGEMA</masterLabel>
+            <translation><!-- PROGEMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROGINOV</masterLabel>
+            <translation><!-- PROGINOV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QAD</masterLabel>
+            <translation><!-- QAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUALINTRA</masterLabel>
+            <translation><!-- QUALINTRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUALTRICS</masterLabel>
+            <translation><!-- QUALTRICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUICKBOOKS</masterLabel>
+            <translation><!-- QUICKBOOKS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUINYX</masterLabel>
+            <translation><!-- QUINYX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAYMARK</masterLabel>
+            <translation><!-- RAYMARK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECRUITEE</masterLabel>
+            <translation><!-- RECRUITEE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REFLEXIS</masterLabel>
+            <translation><!-- REFLEXIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REPORT ONE</masterLabel>
+            <translation><!-- REPORT ONE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RETAIL PRO</masterLabel>
+            <translation><!-- RETAIL PRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RETAIL ZIPLINE</masterLabel>
+            <translation><!-- RETAIL ZIPLINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RICS SOFTWARE</masterLabel>
+            <translation><!-- RICS SOFTWARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RUE DE LA PAYE (CEGEDIM)</masterLabel>
+            <translation><!-- RUE DE LA PAYE (CEGEDIM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RUNIT</masterLabel>
+            <translation><!-- RUNIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RYDOO</masterLabel>
+            <translation><!-- RYDOO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipt bank</masterLabel>
+            <translation><!-- Receipt bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAFETYCULTURE</masterLabel>
+            <translation><!-- SAFETYCULTURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAGES SOFTWARE</masterLabel>
+            <translation><!-- SAGES SOFTWARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SANDERSON</masterLabel>
+            <translation><!-- SANDERSON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP</masterLabel>
+            <translation><!-- SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD WORX</masterLabel>
+            <translation><!-- SD WORX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEGILOG</masterLabel>
+            <translation><!-- SEGILOG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SELLSY</masterLabel>
+            <translation><!-- SELLSY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEPTEO</masterLabel>
+            <translation><!-- SEPTEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SESAME INFORMATIQUE</masterLabel>
+            <translation><!-- SESAME INFORMATIQUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIGAL</masterLabel>
+            <translation><!-- SIGAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIGMA</masterLabel>
+            <translation><!-- SIGMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIGMA CONSO</masterLabel>
+            <translation><!-- SIGMA CONSO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SILKROAD</masterLabel>
+            <translation><!-- SILKROAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SILOG</masterLabel>
+            <translation><!-- SILOG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPLIFIELD</masterLabel>
+            <translation><!-- SIMPLIFIELD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SISQUAL</masterLabel>
+            <translation><!-- SISQUAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKILLSOFT</masterLabel>
+            <translation><!-- SKILLSOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMART RECRUITERS</masterLabel>
+            <translation><!-- SMART RECRUITERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SNEG</masterLabel>
+            <translation><!-- SNEG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOFTMACHINE</masterLabel>
+            <translation><!-- SOFTMACHINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOPRA</masterLabel>
+            <translation><!-- SOPRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPEED SERVICE</masterLabel>
+            <translation><!-- SPEED SERVICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPENDESK</masterLabel>
+            <translation><!-- SPENDESK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPIRAL GROUP/AUREA</masterLabel>
+            <translation><!-- SPIRAL GROUP/AUREA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STATUS2</masterLabel>
+            <translation><!-- STATUS2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STOREFORCE</masterLabel>
+            <translation><!-- STOREFORCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUM TOTAL</masterLabel>
+            <translation><!-- SUM TOTAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUPERMOOD</masterLabel>
+            <translation><!-- SUPERMOOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUREACT</masterLabel>
+            <translation><!-- SUREACT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYFADIS</masterLabel>
+            <translation><!-- SYFADIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYLOB</masterLabel>
+            <translation><!-- SYLOB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sage</masterLabel>
+            <translation><!-- Sage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silae</masterLabel>
+            <translation><!-- Silae --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAGETIK</masterLabel>
+            <translation><!-- TAGETIK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAIGA</masterLabel>
+            <translation><!-- TAIGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TALENTIA</masterLabel>
+            <translation><!-- TALENTIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TALENTSOFT</masterLabel>
+            <translation><!-- TALENTSOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TALENTSTECH</masterLabel>
+            <translation><!-- TALENTSTECH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAX-EXEMPT COMPANY</masterLabel>
+            <translation><!-- TAX-EXEMPT COMPANY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEACH ON MARS</masterLabel>
+            <translation><!-- TEACH ON MARS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEAMTAILOR</masterLabel>
+            <translation><!-- TEAMTAILOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEAMWORK</masterLabel>
+            <translation><!-- TEAMWORK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEOGEST</masterLabel>
+            <translation><!-- TEOGEST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TIMENET</masterLabel>
+            <translation><!-- TIMENET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAINING ORCHESTRA</masterLabel>
+            <translation><!-- TRAINING ORCHESTRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAMITAPP</masterLabel>
+            <translation><!-- TRAMITAPP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UDEMY</masterLabel>
+            <translation><!-- UDEMY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFIDA</masterLabel>
+            <translation><!-- UFIDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UKG</masterLabel>
+            <translation><!-- UKG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNIT 4</masterLabel>
+            <translation><!-- UNIT 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VEGA INFO</masterLabel>
+            <translation><!-- VEGA INFO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIAREPORT</masterLabel>
+            <translation><!-- VIAREPORT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIRTUALIA</masterLabel>
+            <translation><!-- VIRTUALIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VISMA</masterLabel>
+            <translation><!-- VISMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WAASBROS</masterLabel>
+            <translation><!-- WAASBROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WAVESOFT</masterLabel>
+            <translation><!-- WAVESOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WINCOR</masterLabel>
+            <translation><!-- WINCOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WINDOO</masterLabel>
+            <translation><!-- WINDOO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WITHOUT ACCOUNTING PRODUCTION</masterLabel>
+            <translation><!-- WITHOUT ACCOUNTING PRODUCTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WOFFU</masterLabel>
+            <translation><!-- WOFFU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WOLTERS KLUWER</masterLabel>
+            <translation><!-- WOLTERS KLUWER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WOOQER</masterLabel>
+            <translation><!-- WOOQER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WORD - Specific models</masterLabel>
+            <translation><!-- WORD - Specific models --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WORDPRESS</masterLabel>
+            <translation><!-- WORDPRESS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WORKABLE</masterLabel>
+            <translation><!-- WORKABLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WORKDAY</masterLabel>
+            <translation><!-- WORKDAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WORKLAND</masterLabel>
+            <translation><!-- WORKLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XL SOFT</masterLabel>
+            <translation><!-- XL SOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YOLAW</masterLabel>
+            <translation><!-- YOLAW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YOOBIC</masterLabel>
+            <translation><!-- YOOBIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YOOZ</masterLabel>
+            <translation><!-- YOOZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZEBRA</masterLabel>
+            <translation><!-- ZEBRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZEDONK</masterLabel>
+            <translation><!-- ZEDONK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZESTMEUP</masterLabel>
+            <translation><!-- ZESTMEUP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZIPLINE</masterLabel>
+            <translation><!-- ZIPLINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZOHO</masterLabel>
+            <translation><!-- ZOHO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZUCCHETTI</masterLabel>
+            <translation><!-- ZUCCHETTI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iAUDITOR</masterLabel>
+            <translation><!-- iAUDITOR --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

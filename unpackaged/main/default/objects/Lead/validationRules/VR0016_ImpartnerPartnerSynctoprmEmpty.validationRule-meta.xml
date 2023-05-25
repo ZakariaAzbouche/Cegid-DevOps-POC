@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR0016_ImpartnerPartnerSynctoprmEmpty</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c),
+ISCHANGED( ImpartnerPRM__PartnerContact__c ),
+ImpartnerPRM__PartnerContact__r.Sync_to_PRM__c = false)</errorConditionFormula>
+    <errorDisplayField>ImpartnerPRM__PartnerContact__c</errorDisplayField>
+    <errorMessage>This contact has not access to PRM. Please, use the person adapted.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,145 @@
+<!--
+  @description       : 
+  @author            : Keshav Matabadul
+  @group             : 
+  @last modified on  : 03-23-2022
+  @last modified by  : Keshav Matabadul
+-->
+<template>
+    <ul>
+        <template for:each={displayItems} for:item="lineItem">
+            <lightning-tabset key={lineItem.cartItem.cartItemId}>
+                <lightning-tab label="Détails du produit">
+                    <li key={lineItem.cartItem.cartItemId} class="slds-p-vertical_medium">
+                        <!-- <figure>
+                      <a
+                         tabindex="-1"
+                         href={lineItem.productUrl}
+                         data-productid={lineItem.cartItem.productDetails.productId}
+                         onclick={handleProductDetailNavigation}
+                         >
+                      <img
+                         src={lineItem.productImageUrl}
+                         alt={lineItem.productImageAlternativeText}
+                         data-productid={lineItem.cartItem.productDetails.productId}
+                         />
+                      </a>
+                   </figure> -->
+                        <div class="details slds-has-flexi-truncate">
+                            <div class="slds-grid slds-gutters">
+                                <div class="slds-col slds-size_10-of-12">
+                                    <span>
+                                        <h3 class="item-name slds-text-heading_medium slds-p-bottom_small slds-truncate"
+                                            title={lineItem.cartItem.productDetails.name}>
+                                            <a href={lineItem.productUrl}
+                                                data-productid={lineItem.cartItem.productDetails.productId}
+                                                onclick={handleProductDetailNavigation} tabindex="0">
+                                                {lineItem.cartItem.productDetails.name}
+                                            </a>
+                                        </h3>
+                                    </span>
+                                </div>
+                                <div class="slds-col slds-size_2-of-12">
+                                    <span>
+                                        <!--remove-->
+                                        <div class="slds-p-around_xx-small slds-m-top_none slds-float_right remove">
+                                            <button class="slds-button removebtn">
+                                                <lightning-button-icon icon-name="utility:close" variant="bare"
+                                                    alternative-text="retirer" onclick={handleDeleteCartItem}
+                                                    data-cartitemid={lineItem.cartItem.cartItemId}
+                                                    disabled={isCartDisabled}>
+                                                </lightning-button-icon>
+                                            </button>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- <div>
+                         <h3 class="slds-text-heading_medium subheading">Web Formation | Durée: 2 Heures | A distance</h3>
+                      </div> -->
+                            <!-- Product properties -->
+                            <div>
+                                <ul class="product-fields">
+                                    <!--li>
+                                        <span>SKU&nbsp;</span>
+                                        <span>{lineItem.cartItem.productDetails.sku}</span>
+                                    </li--> 
+                                    <li>
+                                        <span>Prix ​​unitaire&nbsp;</span>
+                                        <lightning-formatted-number format-style="currency" currency-code={currencyCode}
+                                            currency-display-as="symbol" maximum-fraction-digits="2"
+                                            value={lineItem.cartItem.unitAdjustedPrice}></lightning-formatted-number>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- END Product properties -->
+                            <div class="line-item-properties">
+                                <div class="quantity-price-remove">
+                                    <div
+                                        class="quantity-selector slds-grid slds-grid_vertical-align-center slds-text-title_caps">
+                                        <!-- <label
+                                for={lineItem.cartItem.cartItemId}
+                                class="selector-label slds-m-right_x-small"
+                                >{labels.quantity}
+                                </label>-->
+                                <!-- disabled={isCartDisabled}-->
+                                        <input class="selector-input slds-p-horizontal_medium slds-p-vertical_x-small"
+                                            disabled="True" id={lineItem.cartItem.cartItemId}
+                                            data-item-id={lineItem.cartItem.cartItemId} max={lineItem.cartItem.quantity} min="1" required
+                                            type="number" value={lineItem.cartItem.quantity}
+                                            onblur={handleQuantitySelectorBlur} onclick={handleQuantitySelectorClick} />
+                                    </div>
+                                    <div class="price slds-p-horizontal_medium slds-has-flexi-truncate">
+                                        <!--lightning-formatted-number aria-label={lineItem.originalPriceLabel}
+                                            format-style="currency" currency-code={currencyCode}
+                                            class="original-price slds-truncate slds-text-heading_small"
+                                            currency-display-as="symbol" maximum-fraction-digits="2"
+                                            value={lineItem.cartItem.totalListPrice}>
+                                        </lightning-formatted-number-->
+                                        <lightning-formatted-number format-style="currency" currency-code={currencyCode}
+                                            class="negotiated-price slds-truncate slds-text-heading_large"
+                                            currency-display-as="symbol" maximum-fraction-digits="2"
+                                            value={lineItem.cartItem.totalPrice}>
+                                        </lightning-formatted-number>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!--Add Participant -->
+                    <div class="slds-m-top--small participant-container">
+                        <template for:each={lineItem.participantIdsFromParent} for:item="lineParticipant">
+                            <div key={lineParticipant} class="slds-p-bottom_medium">
+                                <c-b2b-add-participant get-participants={lineParticipant}
+                                    get-cart-items-ids={lineItem.CartItemId__c} onreloadlogicpart={executeReload} disabled={isCartDisabled} oncheckboxvaluechange={sendDeleteListToParent}></c-b2b-add-participant>
+                            </div>
+                        </template>
+                    </div>
+                </lightning-tab>
+                <!--lightning-tab label="Modified Selected Date(s)" onactive={handleActive}-->
+                    {lineItem.cartItem.productDetails.Reference_Number__c}
+                    {lineItem.cartItem.productCode}
+                    <!--template for:each={lineItem.cartItem.productDetails.fields} for:item="field">
+                  <a
+                      key={field.id}
+                      title={field.value}
+                      tabindex={field.tabIndex}
+                      class="field-item slds-text-link_reset slds-p-top_xx-small slds-p-bottom_xx-small"
+                      onclick={notifyShowDetail}
+                  >
+                      <lightning-formatted-rich-text
+                          class={field.class}
+                          value={field.value}
+                      ></lightning-formatted-rich-text>
+                  </a>
+              </template-->
+                    <!--template if:true={rendertab}>
+                        <c-b2b-product-relationship record-id={lineItem.cartItem.productDetails.productId}>
+                        </c-b2b-product-relationship>
+                    </template-->
+
+                <!--/lightning-tab-->
+            </lightning-tabset>
+        </template>
+    </ul>
+</template>

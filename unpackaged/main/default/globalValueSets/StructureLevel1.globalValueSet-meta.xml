@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>110</fullName>
+        <default>false</default>
+        <label>Licenses</label>
+    </customValue>
+    <customValue>
+        <fullName>120</fullName>
+        <default>false</default>
+        <label>Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>130</fullName>
+        <default>false</default>
+        <label>Saas</label>
+    </customValue>
+    <customValue>
+        <fullName>140</fullName>
+        <default>false</default>
+        <label>Professional services</label>
+    </customValue>
+    <customValue>
+        <fullName>190</fullName>
+        <default>false</default>
+        <label>Hardware</label>
+    </customValue>
+    <customValue>
+        <fullName>400</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prestation Distributeur</label>
+    </customValue>
+    <customValue>
+        <fullName>500</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Assistance Progiciel</label>
+    </customValue>
+    <customValue>
+        <fullName>550</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Assistance Système</label>
+    </customValue>
+    <customValue>
+        <fullName>750</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Location</label>
+    </customValue>
+    <customValue>
+        <fullName>800</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Outsourcing</label>
+    </customValue>
+    <customValue>
+        <fullName>900</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers</label>
+    </customValue>
+    <customValue>
+        <fullName>M01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Marketing - Cegid Planning</label>
+    </customValue>
+    <customValue>
+        <fullName>700</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consommable</label>
+    </customValue>
+    <customValue>
+        <fullName>300</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prestation Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>200</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Logiciel</label>
+    </customValue>
+    <customValue>
+        <fullName>100</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Progiciel</label>
+    </customValue>
+    <customValue>
+        <fullName>000</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Matériel</label>
+    </customValue>
+    <customValue>
+        <fullName>Hardware and Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hardware and Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Unknown</label>
+    </customValue>
+    <masterLabel>StructureLevel1</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

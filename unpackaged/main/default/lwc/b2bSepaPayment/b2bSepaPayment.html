@@ -1,0 +1,111 @@
+<!--
+  @description       : 
+  @author            : keshav Matabadul
+  @group             : 
+  @last modified on  : 11-11-2021
+  @last modified by  : keshav Matabadul
+-->
+<template>
+    <div if:true={WsSepa} class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+       <lightning-button variant="brand" label="New MandatSepa" 
+          title="New MandatSepa" onclick={handleClick} class="slds-m-left_x-small slds-float_right slds-p-bottom_xx-large" disabled={enableButton}>
+       </lightning-button>
+       <lightning-spinner
+          if:true={isSpinning}
+          class="slds-is-relative slds-align_absolute-center slds-m-around_large"
+          alternative-text="Chargement du produit en cours..."
+          size="medium"
+          variant="brand"
+          >
+       </lightning-spinner>
+       <div if:false={isSpinning}>
+        <div if:true={displayErrormsg}>
+            <h5>
+                {errorMsg}
+            </h5>
+        </div>
+          <div if:false={displayErrormsg}>
+             <table class="slds-table slds-table--bordered slds-table--cell-buffer">
+                <thead>
+                   <tr class="slds-text-title--caps">
+                      <th>
+                         <span class="slds-truncate" title="Name"></span>
+                      </th>
+                      <th>
+                         <span class="slds-truncate" title="IBAN">IBAN</span>
+                      </th>
+                      <th>
+                         <span class="slds-truncate" title="BIC">BIC</span>
+                      </th>
+                      <th>
+                         <span class="slds-truncate" title="RUM">RUM</span>
+                      </th>
+                      <th>
+                         <span class="slds-truncate" title="bankCity">bankCity</span>
+                      </th>
+                      <th>
+                         <span class="slds-truncate" title="bankName">bankName</span>
+                      </th>
+                   </tr>
+                </thead>
+                <tbody>
+                   <!--div if:false={displayError}>
+                      {displayError}
+                      </div-->
+                   <template for:each={listToAttach} for:item="item">
+                      <tr key={item.IBAN}>
+                         <td scope="row" class="slds-text-align--right" style="width:3.25rem;">
+                            <div class="slds-form-element">
+                               <div class="slds-form-element__control">
+                                  <lightning-input type="checkbox"  name="input1" value={item.complyInformation} onchange={handleChecked}></lightning-input>
+                                  <!--input type="radio" name={item.complyInformation} value={radiobutton} onclick={handleChecked}/>
+                                     <lightning-button label="Reset" onclick={handleResetClick}></lightning-button-->
+                               </div>
+                            </div>
+                         </td>
+                         <td scope="row">
+                           {item.IBAN}
+                            <div class="slds-truncate" title={item.hiddenIban}><a>{item.hiddenIban}</a></div>
+                         </td>
+                         <td scope="row">
+                           {item.BIC}
+                            <div class="slds-truncate" title={item.hiddenBic}><a>{item.hiddenBic}</a></div>
+                         </td>
+                         <td scope="row">
+                            <div class="slds-truncate" title={item.RUM}><a>{item.RUM}</a></div>
+                         </td>
+                         <td scope="row">
+                            <div class="slds-truncate" title={item.bankCity}><a>{item.bankCity}</a></div>
+                         </td>
+                         <td scope="row">
+                            <div class="slds-truncate" title={item.bankName}><a>{item.bankName}</a></div>
+                         </td>
+                      </tr>
+                   </template>
+                </tbody>
+             </table>
+          </div>
+       </div>
+    </div>
+    <div if:false={WsSepa}>
+       <div class="slds-grid slds-gutters">
+          <div class="slds-col">
+             <span>
+                <lightning-input type="text" label="IBAN" onblur={handleIbanChange} pattern={ibanCheck} message-when-pattern-mismatch="Please enter a valid Iban" required></lightning-input>
+                <lightning-input type="text" label="BIC" onblur={handleBicChange} pattern={bicCheck} message-when-pattern-mismatch="Please enter a valid BIC" required></lightning-input>
+                <!--lightning-input type="text" label="RUM" onblur={handleRumChange}></lightning-input-->
+             </span>
+          </div>
+          <div class="slds-col">
+             <span>
+                <lightning-input type="text" label="Bank City" onblur={handleBankCityChange}></lightning-input>
+                <lightning-input type="text" label="Bank Name" onblur={handleBankNameChange}></lightning-input>
+             </span>
+          </div>
+       </div>
+       <!--div class="slds-align_absolute-center slds-p-top_x-large">
+          <lightning-button variant="brand" label="Save" title="Save" onclick={handleSave} class="slds-m-left_x-small"></lightning-button>
+          <lightning-button label="Cancel" title="Cancel" onclick={handleCancel} class="slds-m-left_x-small"></lightning-button>
+          </div-->
+    </div>
+ </template>

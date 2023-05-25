@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quality_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Account_Quality_Score__c = 1 , IMAGE('/resource/IMG_Green','Green',20,20),  
+IMAGE('/resource/IMG_Red','Red',20,20))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Quality OK if the following conditions are met :
+Full Address, Industry Code, phone ,Size (Number of employees or Annual revenue) and Identification number (National Id or Tax number) completed and At least one active compliant contact</inlineHelpText>
+    <label>Quality Score</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

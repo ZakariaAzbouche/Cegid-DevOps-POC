@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_Display_EndOfComm__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(RecordTypeId = '0121t000000EJK2',
+    Tech_IsLinkedToPackage__c,
+    NOT(ISNULL( End_of_Commercialization__c)))</formula>
+    <label>TECH_Display_EndOfComm</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

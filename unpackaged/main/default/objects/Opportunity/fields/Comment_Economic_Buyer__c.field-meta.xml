@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comment_Economic_Buyer__c</fullName>
+    <description>Commentaire sur la valeur attribuée au champ Economic Buyer</description>
+    <externalId>false</externalId>
+    <label>Economic Buyer Comment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

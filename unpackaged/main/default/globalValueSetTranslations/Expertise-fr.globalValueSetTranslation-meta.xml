@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Banking</masterLabel>
+        <translation><!-- Banking --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPA</masterLabel>
+        <translation><!-- CPA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ERP High</masterLabel>
+        <translation><!-- ERP High --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ERP Middle</masterLabel>
+        <translation><!-- ERP Middle --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM</masterLabel>
+        <translation><!-- HCM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Out of Expertise</masterLabel>
+        <translation>Hors Expertise</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail</masterLabel>
+        <translation><!-- Retail --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SMB</masterLabel>
+        <translation><!-- SMB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TAX</masterLabel>
+        <translation><!-- TAX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Talent</masterLabel>
+        <translation><!-- Talent --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Treasury</masterLabel>
+        <translation><!-- Treasury --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

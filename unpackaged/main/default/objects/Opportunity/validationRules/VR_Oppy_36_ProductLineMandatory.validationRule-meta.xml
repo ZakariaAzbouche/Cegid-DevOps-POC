@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppy_36_ProductLineMandatory</fullName>
+    <active>true</active>
+    <description>Cette VR empêche la possibilité de créer une oppy sans Product line quand le stage est différrent de G.</description>
+    <errorConditionFormula>AND(NOT($User.BypassVR__c),
+				NOT(ISPICKVAL( StageName , "G - Sales Ready")),
+				NOT(ISPICKVAL( StageName , "G - MQL")),
+				NOT(ISPICKVAL( StageName , "Closed Lost")),
+				NOT(ISPICKVAL( StageName , "No Go Client")),
+				NOT(ISPICKVAL( StageName , "No Go CEGID")),
+    ISBLANK(TEXT(Product_Line__c)) 			
+)</errorConditionFormula>
+    <errorDisplayField>Product_Line__c</errorDisplayField>
+    <errorMessage>Product line is mandatory.</errorMessage>
+</ValidationRule>

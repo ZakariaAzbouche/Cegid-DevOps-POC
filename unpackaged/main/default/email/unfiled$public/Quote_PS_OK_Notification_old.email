@@ -1,0 +1,2 @@
+Les cases Professionnal Services concernant votre devis {!SBQQ__Quote__c.Name} : {!SBQQ__Quote__c.Link} pour le client {!SBQQ__Quote__c.AccountName__c} ont été traités.
+Vous pouvez poursuivre avec l'envoi des demandes d'approbation.

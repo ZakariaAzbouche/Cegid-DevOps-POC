@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Alliances</masterLabel>
+        <translation><!-- Alliances --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPA CENTRE EST</masterLabel>
+        <translation><!-- CPA CENTRE EST --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPA CHASSE</masterLabel>
+        <translation><!-- CPA CHASSE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPA CSM</masterLabel>
+        <translation><!-- CPA CSM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPA GRANDS COMPTES OGA</masterLabel>
+        <translation><!-- CPA GRANDS COMPTES OGA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPA Installed Base Sedentary</masterLabel>
+        <translation><!-- CPA Installed Base Sedentary --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPA OUEST</masterLabel>
+        <translation><!-- CPA OUEST --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPA Paris NORD</masterLabel>
+        <translation><!-- CPA Paris NORD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPA SUD</masterLabel>
+        <translation><!-- CPA SUD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPA Specialist</masterLabel>
+        <translation><!-- CPA Specialist --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Digital Recruiters</masterLabel>
+        <translation><!-- Digital Recruiters --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EX Finance - Large &amp; Mid</masterLabel>
+        <translation><!-- EX Finance - Large &amp; Mid --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EX Finance - PMI &amp; CBM</masterLabel>
+        <translation><!-- EX Finance - PMI &amp; CBM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EX Finance - Quadra to Flex</masterLabel>
+        <translation><!-- EX Finance - Quadra to Flex --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EX Finance - SB</masterLabel>
+        <translation><!-- EX Finance - SB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EX IS CPA</masterLabel>
+        <translation><!-- EX IS CPA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EX IS TAX &amp; HCM</masterLabel>
+        <translation><!-- EX IS TAX &amp; HCM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EX PORTUGAL</masterLabel>
+        <translation><!-- EX PORTUGAL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EX SPAIN</masterLabel>
+        <translation><!-- EX SPAIN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EX Talentsoft Fr - Middle Market</masterLabel>
+        <translation><!-- EX Talentsoft Fr - Middle Market --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EXCEPT COMMERCIAL AGENCY</masterLabel>
+        <translation>HORS AGENCE COMMERCIALE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EXCEPT REVENUE</masterLabel>
+        <translation>HORS CHIFFRE D&apos;AFFAIRE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance - CSM</masterLabel>
+        <translation><!-- Finance - CSM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance - Strategic Accounts</masterLabel>
+        <translation><!-- Finance - Strategic Accounts --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance Flex</masterLabel>
+        <translation><!-- Finance Flex --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance Large 1</masterLabel>
+        <translation><!-- Finance Large 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance Large 2</masterLabel>
+        <translation><!-- Finance Large 2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance Large 3</masterLabel>
+        <translation><!-- Finance Large 3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance Mid 1</masterLabel>
+        <translation><!-- Finance Mid 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance Mid 2</masterLabel>
+        <translation><!-- Finance Mid 2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance Notilus InOne</masterLabel>
+        <translation><!-- Finance Notilus InOne --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance Notilus T&amp;E</masterLabel>
+        <translation><!-- Finance Notilus T&amp;E --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance Notilus YourWay</masterLabel>
+        <translation><!-- Finance Notilus YourWay --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance Spain</masterLabel>
+        <translation><!-- Finance Spain --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GROUP COMPANIES</masterLabel>
+        <translation>SOCIETES DU GROUPE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM - Wittyfit</masterLabel>
+        <translation><!-- HCM - Wittyfit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM Canada - Talentsoft</masterLabel>
+        <translation><!-- HCM Canada - Talentsoft --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM France - CSM</masterLabel>
+        <translation><!-- HCM France - CSM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM France - Installed Base</masterLabel>
+        <translation>HCM - Base Installée</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM France - New Cli</masterLabel>
+        <translation>HCM - Conquête</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM Iberia - Installed Base</masterLabel>
+        <translation><!-- HCM Iberia - Installed Base --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM Iberia - New Cli</masterLabel>
+        <translation><!-- HCM Iberia - New Cli --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM Iberia - Partner</masterLabel>
+        <translation><!-- HCM Iberia - Partner --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM Iberia - Talentsoft</masterLabel>
+        <translation><!-- HCM Iberia - Talentsoft --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM Iberia - VisualTime</masterLabel>
+        <translation><!-- HCM Iberia - VisualTime --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM LATAM - Mixte</masterLabel>
+        <translation><!-- HCM LATAM - Mixte --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM LATAM - Talentsoft</masterLabel>
+        <translation><!-- HCM LATAM - Talentsoft --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM Portugal</masterLabel>
+        <translation><!-- HCM Portugal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS ERP Mid Partner</masterLabel>
+        <translation><!-- IS ERP Mid Partner --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS HCM</masterLabel>
+        <translation><!-- IS HCM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS Relation</masterLabel>
+        <translation><!-- IS Relation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS SB MIG</masterLabel>
+        <translation><!-- IS SB MIG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS SB NCA</masterLabel>
+        <translation><!-- IS SB NCA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS SB Partner</masterLabel>
+        <translation><!-- IS SB Partner --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RETAIL Customer Success</masterLabel>
+        <translation><!-- RETAIL Customer Success --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RETAIL T2</masterLabel>
+        <translation><!-- RETAIL T2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RETAIL T3</masterLabel>
+        <translation><!-- RETAIL T3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail APAC</masterLabel>
+        <translation><!-- Retail APAC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail China</masterLabel>
+        <translation><!-- Retail China --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail DOM TOM</masterLabel>
+        <translation><!-- Retail DOM TOM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail France Indirect</masterLabel>
+        <translation><!-- Retail France Indirect --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail Middle East</masterLabel>
+        <translation><!-- Retail Middle East --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail North Africa</masterLabel>
+        <translation><!-- Retail North Africa --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail North Europe</masterLabel>
+        <translation><!-- Retail North Europe --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail South Europe</masterLabel>
+        <translation><!-- Retail South Europe --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail Store Excellence UK</masterLabel>
+        <translation><!-- Retail Store Excellence UK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail USA</masterLabel>
+        <translation><!-- Retail USA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Talentsoft - CSM</masterLabel>
+        <translation><!-- Talentsoft - CSM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Talentsoft Fr – MidMarket</masterLabel>
+        <translation><!-- Talentsoft Fr – MidMarket --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Talentsoft Fr – Public &amp; LA</masterLabel>
+        <translation><!-- Talentsoft Fr – Public &amp; LA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Talentsoft Int - Benelux</masterLabel>
+        <translation><!-- Talentsoft Int - Benelux --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Talentsoft Int - DACH</masterLabel>
+        <translation><!-- Talentsoft Int - DACH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Talentsoft Int - Nordics</masterLabel>
+        <translation><!-- Talentsoft Int - Nordics --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Talentsoft Int - Partners</masterLabel>
+        <translation><!-- Talentsoft Int - Partners --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Talentsoft Int - ROW</masterLabel>
+        <translation><!-- Talentsoft Int - ROW --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

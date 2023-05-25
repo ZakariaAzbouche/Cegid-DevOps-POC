@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="urn:metadata.tooling.soap.sforce.com" fqn="b2bAddParticipant">
+    <apiVersion>51.0</apiVersion>
+   <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="getCartIds" type="String" label="Current cart Id" 
+                        description="Id of the current record"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

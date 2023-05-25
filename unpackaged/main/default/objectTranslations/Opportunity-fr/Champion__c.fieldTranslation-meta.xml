@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Faible:Sponsor interne pas identifié|Moyen:Potentiel champion identifié et vous commencez à le convaincre des bénéfices de votre solution|F:En contact avec votre champion et vous avez aussi un champion B.Le champion préconise la solution CEGID en interne</help>
+        <label><!-- Champion --></label>
+        <name>Champion__c</name>
+    </CustomFieldTranslation>

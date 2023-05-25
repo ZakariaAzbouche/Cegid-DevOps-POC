@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>ALLIANCES</masterLabel>
+        <translation><!-- ALLIANCES --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CHANNEL ENTREPRISE</masterLabel>
+        <translation><!-- CHANNEL ENTREPRISE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPA</masterLabel>
+        <translation><!-- CPA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CYLANDE</masterLabel>
+        <translation><!-- CYLANDE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cedricom</masterLabel>
+        <translation><!-- Cedricom --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EDUCATION</masterLabel>
+        <translation><!-- EDUCATION --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EXCEPT ORGA COMM</masterLabel>
+        <translation>HORS ORGA COMM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FINANCE (ACA)</masterLabel>
+        <translation><!-- FINANCE (ACA) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance - Large &amp; MID</masterLabel>
+        <translation><!-- Finance - Large &amp; MID --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance - Notilus</masterLabel>
+        <translation><!-- Finance - Notilus --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance - Partner</masterLabel>
+        <translation><!-- Finance - Partner --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance - SB</masterLabel>
+        <translation><!-- Finance - SB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance - Strategic Accounts</masterLabel>
+        <translation><!-- Finance - Strategic Accounts --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM</masterLabel>
+        <translation><!-- HCM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM - Talentsoft</masterLabel>
+        <translation><!-- HCM - Talentsoft --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>INDIRECTE SALE</masterLabel>
+        <translation>VENTE INDIRECTE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS - CPA SMB VI</masterLabel>
+        <translation><!-- IS - CPA SMB VI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS - ERP TAX HCM</masterLabel>
+        <translation><!-- IS - ERP TAX HCM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS - QUICK SALES</masterLabel>
+        <translation><!-- IS - QUICK SALES --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS SB</masterLabel>
+        <translation><!-- IS SB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PORTAL</masterLabel>
+        <translation><!-- PORTAL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>QUADRATUS</masterLabel>
+        <translation><!-- QUADRATUS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>QUALIAC</masterLabel>
+        <translation><!-- QUALIAC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RETAIL</masterLabel>
+        <translation><!-- RETAIL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RETAIL INTERNATIONAL</masterLabel>
+        <translation><!-- RETAIL INTERNATIONAL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TAX</masterLabel>
+        <translation><!-- TAX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TELESALES OPERATIONS</masterLabel>
+        <translation>TELEVENTE OPERATIONS</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

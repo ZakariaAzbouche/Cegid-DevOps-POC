@@ -1,0 +1,328 @@
+<template>
+    <!-- Spinner -->
+    <div if:true={showLoadingSpinner} class="main-spinner">
+        <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+    </div>
+
+    <!-- Toast Success -->
+    <template if:true={showSuccessToast}>
+        <div class="toast-container">
+            <div class="slds-notify_container slds-is-relative">
+                <div class="slds-notify slds-notify_toast slds-theme_success" role="status">
+                    <div class="slds-notify__content">
+                        <h2 class="slds-text-heading_small ">{successTxt}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Toast Warning -->
+    <template if:true={showWarningToast}>
+        <div class="toast-container">
+            <div class="slds-notify_container slds-is-relative">
+                <div class="slds-notify slds-notify_toast slds-theme_warning" role="status">
+                    <div class="slds-notify__content">
+                        <h2 class="slds-text-heading_small ">{warningText}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Toast Error -->
+    <template if:true={showErrorToast}>
+        <div class="toast-container">
+            <div class="slds-notify_container slds-is-relative">
+                <div class="slds-notify slds-notify_toast slds-theme_error" role="status">
+                    <div class="slds-notify__content">
+                        <h2 class="slds-text-heading_small ">{CustomerRequestFormError}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <div class="main-container" style={step1Style}>
+        <lightning-record-edit-form object-api-name="CustomerRequest__c" density="comfy" onsuccess={handleSuccess} onsubmit ={handleSubmit} onerror={handleError}>
+            <lightning-messages></lightning-messages>
+            <p class="bloc-title">Caractéristiques de la demande</p>
+            <div class="inputs-container">
+                <div class="inputs-side">
+                    <lightning-input-field field-name='Type__c' onchange={handleTypeChange}></lightning-input-field>
+                    <template if:true={showCancellationInputs}>
+                        <div>
+                            <div class={cancellationReason1Missing}>
+                                <lightning-input-field field-name='CancellationReason1__c' onchange={handleCancellationReason1Change} required="true"></lightning-input-field>
+                            </div>
+                            <span class="helptext-icon pos3">
+                                <lightning-icon icon-name="utility:info"></lightning-icon>
+                            </span>
+                            <template if:true={fieldsInfo}>
+                                <p class="helptext">{fieldsInfo.CancellationReason2__c.inlineHelpText}</p>
+                            </template>
+                            <div class={cancellationReason2Missing}>
+                                <lightning-input-field field-name='CancellationReason2__c' onchange={handleCancellationReason2Change} required="true"></lightning-input-field>                        
+                            </div>
+                        </div>
+                    </template> 
+                    <template if:true={showInvoiceInputs}>
+                        <div class={creditNoteReason1Missing}>
+                            <lightning-input-field field-name='CreditNoteReason1__c' onchange={handleCreditNoteReason1Change} required="true"></lightning-input-field>
+                        </div>
+                        <div class={creditNoteReason2Missing}>
+                            <lightning-input-field field-name='CreditNoteReason2__c' onchange={handleCreditNoteReason2Change} required="true"></lightning-input-field>
+                        </div>
+                        <span class="helptext-icon pos2">
+                            <lightning-icon icon-name="utility:info"></lightning-icon>
+                        </span>
+                        <template if:true={fieldsInfo}>
+                            <p class="helptext">{fieldsInfo.CreditNoteReason3__c.inlineHelpText}</p>
+                        </template> 
+                        <div class={creditNoteReason3Missing}>
+                            <lightning-input-field field-name='CreditNoteReason3__c' onchange={handleCreditNoteReason3Change} required="true"></lightning-input-field>
+                        </div> 
+                    </template>
+                    <div class={origineMissing}>
+                        <lightning-input-field field-name='Origin__c' onchange={handleOrigineChange} required="true"></lightning-input-field>                
+                    </div>
+                    <div class={agencyMissing}>
+                        <lightning-input-field field-name='Agency__c' onchange={handleAgencyChange} required="true"></lightning-input-field>
+                    </div>
+                    <span class="helptext-icon pos1">
+                        <lightning-icon icon-name="utility:info"></lightning-icon>
+                    </span>
+                    <template if:true={fieldsInfo}>
+                        <p class="helptext">{fieldsInfo.BusinessUnit__c.inlineHelpText}</p>
+                    </template>
+                </div>
+                <div class="inputs-side">
+                    <span class="helptext-icon pos4">
+                        <lightning-icon icon-name="utility:info"></lightning-icon>
+                    </span>
+                    <template if:true={fieldsInfo}>
+                        <p class="helptext">{fieldsInfo.Account__c.inlineHelpText}</p>
+                    </template>
+                    <div style="display: none;">
+                        <lightning-input-field field-name='Account__c' value={accountId}></lightning-input-field>
+                    </div>
+
+                    <c-customer-requests-custom-Lookup
+                        label={CustomerRequestFormInputAccount}
+                        placeholder="Search Accounts..."
+                        onselectoption={handleAccountChange}
+                        classes="slds-m-bottom_small"
+                    >
+                    </c-customer-requests-custom-Lookup>
+
+                    <div class={erpNumberMissing}>
+                        <lightning-input label="Erp Number" value={erpNumber} disabled="true" required="true"></lightning-input>
+                    </div>
+                    <lightning-input-field field-name='CurrencyIsoCode' onchange={handleCurrencyIsoCodeChange} required="true"></lightning-input-field>
+                    <lightning-input-field field-name='SnTicketNumber__c'></lightning-input-field>
+                    <template if:true={showInvoiceInputs}>
+                        <!--<div style="display: none;">
+                            <lightning-input-field field-name='Domain__c' value={domain} hidden></lightning-input-field>
+                        </div>-->
+                        <div class={domainMissing}>
+                            <lightning-input-field field-name='StructureLevel1__c' onchange={handleDomainChange} required="true"></lightning-input-field>
+                        </div>
+                    </template>
+                    <lightning-input-field field-name='Subsidiary__c' onchange={handleSubsidiaryChange} required="true"></lightning-input-field>
+                </div>
+                <div class="input-full">
+                    <div class={commentMissing}>
+                        <lightning-input-field field-name='Comment__c' onchange={handleCommentChange} required="true"></lightning-input-field>
+                    </div>
+                </div>
+                <lightning-button class="hiddenbtn" type="submit"></lightning-button>
+                <template if:true={showSubscriptionInputs}>
+                    <div class="buttons-container">
+                        <lightning-button class="slds-m-top_small" variant="brand-outline" label="Rechercher" onclick={handleRefreshResults}></lightning-button>
+                    </div> 
+                </template>
+            </div>
+            <div style="display: none;">
+                <lightning-input-field field-name='tech_IsMultiBu__c' value={buOfferMultiple}></lightning-input-field>
+            </div>
+            <lightning-input-field field-name='BusinessUnit2__c' value={businessUnit2} style="display: none;"></lightning-input-field>
+            <lightning-input-field field-name='BusinessUnit3__c' value={businessUnit3} style="display: none;"></lightning-input-field>
+            <lightning-input-field field-name='BusinessUnit4__c' value={businessUnit4} style="display: none;"></lightning-input-field>
+            <lightning-input-field field-name='BusinessUnit5__c' value={businessUnit5} style="display: none;"></lightning-input-field>
+            <template if:true={showInvoiceInputs}>
+                <p class="bloc-title">Critères de recherche des factures ou contrats</p>
+                <div class="inputs-container">
+                    <div class="inputs-side">
+                        <lightning-input-field field-name='BusinessUnit__c' onchange={handleBusinessUnitChange} value={businessUnit1}></lightning-input-field>
+                    </div>
+                    <div class="inputs-side"></div>
+                    <div class="inputs-side">
+                        <lightning-input type="text" label="N° Facture" onblur={handleInvoiceNumber}></lightning-input>
+                        <lightning-input type="number" label="Montant Min" onblur={handleAmountMinChange}></lightning-input>
+                        <lightning-input type="date" label="Date Min" onchange={handleDateMinChange}></lightning-input>
+                    </div>
+                    <div class="inputs-side">
+                        <lightning-input type="text" label="Tiers" onblur={handleTierslivreChange}></lightning-input>
+                        <lightning-input type="number" label="Montant Max" onblur={handleAmountMaxChange}></lightning-input>
+                        <lightning-input type="date" label="Date Max" onchange={handleDateMaxChange}></lightning-input>                   
+                        <template if:true={showSubscriptionsWithInvoices}>
+                            <lightning-input type="text" label="N° Contrat" onblur={handleContractNumber}></lightning-input>
+                        </template>
+                    </div>
+                    <div class="buttons-container">
+                        <lightning-button class="slds-m-top_small" variant="brand-outline" label="Rechercher" onclick={handleRefreshResults}></lightning-button>
+                    </div>  
+                </div>
+            </template>
+
+
+            <template if:true={showSubscriptionInputs}>
+                <lightning-input-field field-name='BusinessUnit__c' value={businessUnit1} style="display: none;"></lightning-input-field>
+            </template>
+
+
+
+        </lightning-record-edit-form>
+        <p class="bloc-title">Résultats de la recherche</p>
+        <div class="table-invoice-lines grid-tree">
+            <table class="slds-table">
+                <thead>
+                    <tr>
+                        <th style="width: 50px;"></th>
+                        <th style="width: 230px;">
+                            {CustomerRequestFormColumnInvoiceLineNum}
+                        </th>
+                        <th>
+                            {CustomerRequestFormColumnProduct}
+                        </th>
+                        <th>
+                            {CustomerRequestFormColumnAmount}
+                        </th>
+                        <template if:true={showInvoicesLines}>
+                            <th>
+                                {CustomerRequestFormColumnDate}
+                            </th>
+                        </template>
+                        <template if:true={showCancellationInputs}>
+                            <th>
+                                {CustomerRequestFormColumnStartDate}
+                            </th>
+                            <th>
+                                {CustomerRequestFormColumnEndDate}
+                            </th>
+                            <th>
+                                {CustomerRequestFormColumnNextDateRenewal}
+                            </th>
+                        </template>
+                        <th>
+                            {CustomerRequestFormColumnThirdParty}
+                        </th>
+                        <th>
+                            {CustomerRequestFormColumnCalculatedBU}
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={invoiceLines} for:item="invoiceline">
+                        <template if:false={invoiceline.amount}>
+                            <tr key={invoiceline.lineNumber} data-linename={invoiceline.name}>
+                                <td style="width: 50px;">
+                                    <input type="checkbox" class="parentcheckbox" data-checkboxname={invoiceline.name} data-totallines={invoiceline.totalLines} onchange={handleParentCheckboxChange}/>
+                                    <div></div>
+                                </td>
+                                <td style="width: 230px;">
+                                    <button data-togglename={invoiceline.name} data-collapse="true" onclick={handleToggle}>
+                                        <img src={arrowdown} width="12px">
+                                    </button>
+                                    {invoiceline.name}
+                                </td>
+                                <td></td>
+                                <td>
+                                    <lightning-formatted-number value={invoiceline.totalAmount} format-style="currency" currency-code="EUR"></lightning-formatted-number>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <template if:true={showInvoicesLines}>
+                                    <td></td>
+                                </template>
+                                <template if:true={showCancellationInputs}>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </template>
+                            </tr>
+                        </template>
+                        <template if:true={invoiceline.amount}>
+                            <tr key={invoiceline.lineNumber} data-parent={invoiceline.lineNumber} data-linename={invoiceline.name} style="display: none;">
+                                <td style="width: 50px;">
+                                    <input type="checkbox" class="linecheckbox" data-checkboxname={invoiceline.lineName} data-checkboxparentname={invoiceline.lineNumber} onchange={handleChildCheckboxChange}/>
+                                </td>
+                                <td style="color: transparent;width: 230px;">
+                                    {invoiceline.name}
+                                </td>
+                                <td>
+                                    {invoiceline.loadName}
+                                </td>
+                                <td>                                   
+                                    <lightning-formatted-number value={invoiceline.amount} format-style="currency" currency-code="EUR"></lightning-formatted-number>
+                                </td>
+                                <template if:true={showInvoicesLines}>
+                                    <td>
+                                        {invoiceline.lineDate}
+                                    </td>
+                                </template>
+                                <template if:true={showCancellationInputs}>
+                                    <td>
+                                        {invoiceline.startDate}
+                                    </td>
+                                    <td>
+                                        {invoiceline.lineDate}
+                                    </td>
+                                    <td>
+                                        {invoiceline.nextDateRenewal}
+                                    </td>
+                                </template>
+                                <td>
+                                    {invoiceline.tierslivre}
+                                </td>
+                                <td>
+                                    {invoiceline.calculatedBu}
+                                </td>
+                            </tr>
+                        </template>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pagination-container">
+            <div class="next">
+                <img src={arrowPagination} onclick={next} data-id="nextimg" style="display: none;">
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+            <lightning-button class="slds-m-top_small" variant="Neutral" label="Annuler" onclick={cancel}></lightning-button>
+            <lightning-button class="slds-m-top_small" variant="brand" label="Suivant" onclick={saveStep1}></lightning-button>
+        </div>
+    </div>
+
+    <template if:true={showStep2}>
+        <c-customer-requests-step2-form erp-number={erpNumber} domain={domain} origin={origine} business-unit-external-id={businessUnitExternalId} currency-iso-code={currencyIsoCode} contract-number={contractNumber} invoice-number={invoiceNumber} min-amount={amountMin} max-amount={amountMax} min-date={dateMin} max-date={dateMax} ongetcheckedlinesstep2={handleGetCheckedLinesStep2} oncancel={handleCancelStep2}></c-customer-requests-step2-form>
+    </template>
+
+    <template if:true={isModalOpen}>
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                    <lightning-formatted-rich-text value={CustomerRequestFormPopup}></lightning-formatted-rich-text>
+                </div>
+                <footer class="slds-modal__footer">
+                    <button class="slds-button slds-button_neutral" onclick={closeModal} title="Cancel">Annuler</button>
+                    <button class="slds-button slds-button_brand" onclick={clickSave} title="Save">Suivant</button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

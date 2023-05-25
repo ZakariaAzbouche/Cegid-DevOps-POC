@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <assignments>
+        <name>Flag_Oppy</name>
+        <label>Flag Oppy</label>
+        <locationX>650</locationX>
+        <locationY>473</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.TECH_Has_a_decision_maker__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Unflag_Oppy</name>
+        <label>Unflag Oppy</label>
+        <locationX>650</locationX>
+        <locationY>597</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.TECH_Has_a_decision_maker__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Update_Primary_Contact</name>
+        <label>Update Primary Contact</label>
+        <locationX>414</locationX>
+        <locationY>413</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Primary_Contact__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.ContactId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Oppy_Needs_To_Be_Updated</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>By_Pass</name>
+        <label>By Pass ?</label>
+        <locationX>167</locationX>
+        <locationY>253</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>No_By_Pass</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ByPass</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Needs_to_update_Primary_Contact</targetReference>
+            </connector>
+            <label>No By Pass</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Decision_Maker_Found</name>
+        <label>Decision Maker Found ?</label>
+        <locationX>501</locationX>
+        <locationY>548</locationY>
+        <defaultConnector>
+            <targetReference>Unflag_Oppy</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Contact_Role</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Flag_Oppy</targetReference>
+            </connector>
+            <label>Found</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Needs_to_update_Primary_Contact</name>
+        <label>Needs to update Primary Contact ?</label>
+        <locationX>170</locationX>
+        <locationY>408</locationY>
+        <defaultConnector>
+            <targetReference>Oppy_Needs_To_Be_Updated</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Field_to_update</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ContactId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.SBQQ__PrimaryQuote__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Primary_Contact</targetReference>
+            </connector>
+            <label>Field to update</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Oppy_Needs_To_Be_Updated</name>
+        <label>Oppy Needs To Be Updated ?</label>
+        <locationX>168</locationX>
+        <locationY>540</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Open_Oppy</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.IsClosed</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Contact_Role</targetReference>
+            </connector>
+            <label>Open Oppy</label>
+        </rules>
+    </decisions>
+    <description>Before Update Flow to check if Opportunity has a decision maker and calculate Primary Contact (custom field for Quote)</description>
+    <formulas>
+        <name>ByPass</name>
+        <dataType>Boolean</dataType>
+        <expression>{!$User.BypassPB__c}</expression>
+    </formulas>
+    <interviewLabel>Opportunity Before Update to check Decision Maker {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity Before Update to manage Contact roles</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Contact_Role</name>
+        <label>Get Contact Role</label>
+        <locationX>354</locationX>
+        <locationY>546</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Decision_Maker_Found</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>OpportunityId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Role</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Decision Maker</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>OpportunityContactRole</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>By_Pass</targetReference>
+        </connector>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

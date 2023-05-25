@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Groupe de Droits Active Directory --></help>
+        <label><!-- Rights Group --></label>
+        <name>Rights_Group__c</name>
+    </CustomFieldTranslation>

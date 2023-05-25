@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additionnal_Discount__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Quote_Line__r.SBQQ__Discount__c),TEXT(Quote_Line__r.SBQQ__AdditionalDiscountAmount__c)&amp;' '&amp;TEXT(Quote_Line__r.CurrencyIsoCode) , TEXT(Quote_Line__r.SBQQ__Discount__c*100) &amp;' %')</formula>
+    <label>Additionnal Discount</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

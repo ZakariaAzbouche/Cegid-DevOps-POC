@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Customer Of --></label>
+        <name>Customer_Of__c</name>
+        <picklistValues>
+            <masterLabel>ACA</masterLabel>
+            <translation><!-- ACA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEDRICOM</masterLabel>
+            <translation><!-- CEDRICOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLUB DEL ASESOR</masterLabel>
+            <translation><!-- CLUB DEL ASESOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CYLANDE</masterLabel>
+            <translation><!-- CYLANDE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHATIM</masterLabel>
+            <translation><!-- DHATIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIESE</masterLabel>
+            <translation><!-- DIESE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIEZ</masterLabel>
+            <translation><!-- DIEZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DigitalRecruiters</masterLabel>
+            <translation><!-- DigitalRecruiters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GERER MA BOITE</masterLabel>
+            <translation><!-- GERER MA BOITE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GRUPO PRIMAVERA</masterLabel>
+            <translation><!-- GRUPO PRIMAVERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSE</masterLabel>
+            <translation><!-- GSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOALABOOX</masterLabel>
+            <translation><!-- KOALABOOX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOOP</masterLabel>
+            <translation><!-- LOOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>META4</masterLabel>
+            <translation><!-- META4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOTILUS</masterLabel>
+            <translation><!-- NOTILUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OPTITAXES</masterLabel>
+            <translation><!-- OPTITAXES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROFITURE</masterLabel>
+            <translation><!-- PROFITURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROSOFT</masterLabel>
+            <translation><!-- PROSOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUALIAC</masterLabel>
+            <translation><!-- QUALIAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RD LIBERAL</masterLabel>
+            <translation><!-- RD LIBERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STORIQ</masterLabel>
+            <translation><!-- STORIQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TALENTSOFT</masterLabel>
+            <translation><!-- TALENTSOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VISUALTIME</masterLabel>
+            <translation><!-- VISUALTIME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WITTYFIT</masterLabel>
+            <translation><!-- WITTYFIT --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

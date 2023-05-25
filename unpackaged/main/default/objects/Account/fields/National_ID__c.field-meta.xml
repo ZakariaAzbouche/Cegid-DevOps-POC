@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>National_ID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>National ID of the account. For France it's the SIRET</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Registration number of the company with the authorities of the country where it is located. For example, for France, this is the Siret and for Spain the CIF.</inlineHelpText>
+    <label>National ID</label>
+    <length>40</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

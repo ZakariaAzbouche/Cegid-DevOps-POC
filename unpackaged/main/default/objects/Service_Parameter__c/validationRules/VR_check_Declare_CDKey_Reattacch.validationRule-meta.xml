@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_check_Declare_CDKey_Reattacch</fullName>
+    <active>true</active>
+    <description>Un service avec Déclaration CD Key ne peut pas être Rattaché</description>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c ),
+
+NOT(ISBLANK( Reattach__c )),
+Declare_Key__c= true
+)</errorConditionFormula>
+    <errorMessage>Un service avec Déclaration CD Key ne peut pas être Rattaché</errorMessage>
+</ValidationRule>

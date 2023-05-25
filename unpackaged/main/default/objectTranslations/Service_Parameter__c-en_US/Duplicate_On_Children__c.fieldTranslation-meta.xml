@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Répliquer le service sur les comptes fils --></help>
+        <label><!-- Duplicate On Children --></label>
+        <name>Duplicate_On_Children__c</name>
+    </CustomFieldTranslation>

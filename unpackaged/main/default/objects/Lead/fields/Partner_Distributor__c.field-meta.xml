@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Distributor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Identifie le nom du Partner qui va créer un Lead via le portail PRM, ou à qui on va affecter le Lead, si Account Type = Partner</description>
+    <externalId>false</externalId>
+    <label>Partner Distributor</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>You must select a Partner Account</errorMessage>
+        <filterItems>
+            <field>Account.Type__c</field>
+            <operation>equals</operation>
+            <value>Partner</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Leads (Partner Distributor)</relationshipLabel>
+    <relationshipName>Leads3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

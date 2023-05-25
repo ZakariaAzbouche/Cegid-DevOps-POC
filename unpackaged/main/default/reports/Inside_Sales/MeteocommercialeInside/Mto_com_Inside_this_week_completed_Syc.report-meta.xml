@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>RowCount</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>rowCount</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>User.TECH_Power_of_1__c:SUM</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA2</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Sum Pow 1</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>Activity.TECH_Power_1__c:SUM/User.TECH_Power_of_1__c:SUM</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA3</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Average</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_83539372</developerName>
+        <masterLabel>Equipe</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>User$Name</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Salima Rezig</sourceValue>
+            </sourceValues>
+            <value>VI SB</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Guillaume Flochon</sourceValue>
+            </sourceValues>
+            <value>VI ERP</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Audrey Sartori</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jean-Edouard Pascal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Victoria Pichon</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Thomas Bernier</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Coralie Blanchard</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Dorian Poulet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Anne Gaelle Miretti Lou</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sofia Boumaza</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Melissa Salvador</sourceValue>
+            </sourceValues>
+            <value>Relation</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Kevin Giammatteo</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Andrea Lenarduzzi</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Khaled Mokrani</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Amar Guessabi</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lucas Segaud</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Auriane Gusi</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Joëlle KOMJANC</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pierre ZIMMERMANN</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lila Ghiou</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Abderrahmen Benali</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Aurelie COUSTIER</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Camelia Mebarki</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Hotaniel-Dombele MANUEL CAMPOS SILVA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cogna Diouf</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Valentin GUYENNOT</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sylvain Ortega</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lucas Delort</sourceValue>
+            </sourceValues>
+            <value>SB Mig</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Arnaud Mathieu</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Estelle Drevet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Mylene Marebe</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pauline ALVAREZ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Quentin Guilhot</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Maximin TESTU DE BALINCOURT</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Dylan Alva</sourceValue>
+            </sourceValues>
+            <value>SB NCA</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Imene Bennour</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Ismahan Tobal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Thomas Betoliere</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Timea Tschug</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Nelson Blanc</sourceValue>
+            </sourceValues>
+            <value>TAX/HCM</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>FORMULA3</column>
+        </chartSummaries>
+        <chartType>HorizontalBar</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>User$Name</groupingColumn>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>true</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <colorRanges>
+        <columnName>FORMULA3</columnName>
+        <highBreakpoint>10.0</highBreakpoint>
+        <highColor>#006714</highColor>
+        <lowBreakpoint>5.0</lowBreakpoint>
+        <lowColor>#B50E03</lowColor>
+        <midColor>#B56200</midColor>
+    </colorRanges>
+    <columns>
+        <field>User.Activity$OwnerId$ActivityDate</field>
+    </columns>
+    <columns>
+        <field>BucketField_83539372</field>
+    </columns>
+    <columns>
+        <field>User.Activity$OwnerId$Assigned_to_BU__c</field>
+    </columns>
+    <columns>
+        <field>User.Activity$OwnerId$Subject</field>
+    </columns>
+    <columns>
+        <field>User.Activity$OwnerId$Account</field>
+    </columns>
+    <columns>
+        <field>User.Activity$OwnerId$Meeting_minutes__c</field>
+    </columns>
+    <columns>
+        <field>User.Activity$OwnerId$Description</field>
+    </columns>
+    <columns>
+        <field>User.Activity$OwnerId$Priority</field>
+    </columns>
+    <columns>
+        <field>User.Activity$OwnerId$Type__c</field>
+    </columns>
+    <columns>
+        <field>User.Activity$OwnerId$TaskSubtype</field>
+    </columns>
+    <columns>
+        <field>User.Activity$OwnerId$Status</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>User.Activity$OwnerId$WhoCount</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>User.Activity$OwnerId$Assigned_to_Agency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User*User$Agency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>803,804,808,831,855,856</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User$IsActive</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.Activity$OwnerId$Account.Nature__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.Activity$OwnerId$ActivityDate</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>THIS_WEEK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.Activity$OwnerId$Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Call,Meeting</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.Activity$OwnerId$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Antoine Fouillade,Kevin Lacrampe,Marie Wavresky,Pierre Chacon,Rayane Sahraoui,Romain Boursier,Amel Zeffane,Begnez</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <formattingRules>
+        <columnName>FORMULA3</columnName>
+        <values>
+            <backgroundColor>#B50E03</backgroundColor>
+            <rangeUpperBound>5.0</rangeUpperBound>
+        </values>
+        <values>
+            <backgroundColor>#B56200</backgroundColor>
+            <rangeUpperBound>10.0</rangeUpperBound>
+        </values>
+        <values>
+            <backgroundColor>#006714</backgroundColor>
+        </values>
+    </formattingRules>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>User*User$Agency__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>User$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>User.Activity$OwnerId$SubType__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>DMC-Météo com Inside this week completed</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Users_and_Activities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>User$ChatterAdoptionStageModifiedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

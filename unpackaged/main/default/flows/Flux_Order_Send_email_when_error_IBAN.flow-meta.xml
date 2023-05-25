@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Flux_Order_Error_on_IBAN</name>
+        <label>Flux Order - Error on IBAN</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailBody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>EmailRecipients</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <elementReference>EmailSubject</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <constants>
+        <name>EmailRecipients</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>ctarlet@cegid.com,rgamba@cegid.com</stringValue>
+        </value>
+    </constants>
+    <description>Send an email when an error occurs on Flux Order due to IBAN</description>
+    <environments>Default</environments>
+    <interviewLabel>Flux Order - Send email when error IBAN {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Flux Order - Send email when error IBAN</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Flux_Order_Error_on_IBAN</targetReference>
+        </connector>
+        <filterLogic>(1 OR 4) AND 2 AND 3</filterLogic>
+        <filters>
+            <field>Error_Message__c</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>SVTCG310</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Current_Statut__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Error</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Target__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>XRP</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Error_Message__c</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>The Bank Domiciliation not found in XRP</stringValue>
+            </value>
+        </filters>
+        <object>FluxOrder__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>EmailBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>La commande CPQ {!$Record.Order_Number__r.OrderNumber} a été rejeté en production à l&apos;intégration dans XRP.
+Erreur: {!$Record.Error_Message__c}
+Client SF: {!$Record.Order_Number__r.Account.Name} 
+ERP Number: {!$Record.Order_Number__r.Account.ERP_Number__c}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailSubject</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>PROD : XRP : commande CPQ KO</text>
+    </textTemplates>
+</Flow>

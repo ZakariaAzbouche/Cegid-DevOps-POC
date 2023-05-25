@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>C.A.T.</masterLabel>
+        <translation><!-- C.A.T. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consultants</masterLabel>
+        <translation><!-- Consultants --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Direct Sales Force</masterLabel>
+        <translation>Force Commerciale Directe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Education</masterLabel>
+        <translation><!-- Education --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Indirect Sales Force</masterLabel>
+        <translation>Force Commerciale Indirecte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inside Sales</masterLabel>
+        <translation><!-- Inside Sales --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Interactive sales</masterLabel>
+        <translation>Ventes interactives</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Intra-group sales</masterLabel>
+        <translation>Ventes intra-groupe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Non-activity sales</masterLabel>
+        <translation>Ventes hors activité</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

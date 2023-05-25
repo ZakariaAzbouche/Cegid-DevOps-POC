@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>PS Request</name>
+    <style>none</style>
+    <subject>Demande d&apos;assistance PS - équipe [infra/Système-fonctionnel/applicatif]</subject>
+    <textOnly>Bonjour,
+
+Un devis nécessite une intervention de votre part ; pour accéder à la demande {!Case.CaseNumber} , connectez-vous à CPQ ou accédez directement au case
+
+Cordialement,</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

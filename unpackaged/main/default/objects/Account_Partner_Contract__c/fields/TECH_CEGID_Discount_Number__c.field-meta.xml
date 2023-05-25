@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_CEGID_Discount_Number__c</fullName>
+    <externalId>false</externalId>
+    <label>CEGID Discount #</label>
+    <summaryForeignKey>CEGID_Discount__c.Account_Partner_Contract__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

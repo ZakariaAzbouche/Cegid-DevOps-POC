@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountExpertise__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Expertise</label>
+    <referenceTo>Account_Expertise__c</referenceTo>
+    <relationshipLabel>Account Core Business</relationshipLabel>
+    <relationshipName>Account_Core_Business</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

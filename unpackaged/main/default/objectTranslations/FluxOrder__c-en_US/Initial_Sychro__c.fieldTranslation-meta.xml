@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Initial Sychro --></label>
+        <name>Initial_Sychro__c</name>
+        <picklistValues>
+            <masterLabel>ERROR</masterLabel>
+            <translation><!-- ERROR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUCCESS</masterLabel>
+            <translation><!-- SUCCESS --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

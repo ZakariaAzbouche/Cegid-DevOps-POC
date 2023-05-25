@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commercial_Launch__c</fullName>
+    <description>Commercial Launch</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please note, the only event captured by the automation to modify the marketing status of the product in the future is the change from an empty value to a non-empty value.</inlineHelpText>
+    <label>Commercial Launch</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

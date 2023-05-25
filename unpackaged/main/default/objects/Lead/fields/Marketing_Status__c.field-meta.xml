@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Status__c</fullName>
+    <defaultValue>IF($Permission.Lead_field_modify_for_telemark, $Label.Default_Marketing_Status_For_Telemark,
+				IF($User.LastName = 'Impartner',   $Label.Default_Marketing_Status_For_PRM, null)
+		)</defaultValue>
+    <externalId>false</externalId>
+    <label>Marketing Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Marketing_Status</valueSetName>
+    </valueSet>
+</CustomField>

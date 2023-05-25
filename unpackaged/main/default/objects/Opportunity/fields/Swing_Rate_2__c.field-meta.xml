@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Swing_Rate_2__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL( Sales_Purpose__c , '611'),
+
+(SaaS_Booking_Amount__c / 12) / Old_MRR__c ,
+
+IF( AND(ISPICKVAL( Sales_Purpose__c , '612'), Old_SaaS_Booking_BuyMe__c &lt;&gt; 0),
+(SaaS_Booking_Amount__c + Old_SaaS_Booking_BuyMe__c ) / Old_SaaS_Booking_BuyMe__c ,
+
+
+IF( AND(ISPICKVAL( Sales_Purpose__c , '612'), Old_SaaS_Booking_BuyMe__c = 0,
+Contract_Duration__c &lt; 12) ,
+((SaaS_Booking_Amount__c + ( Contract_Duration__c * Old_MRR__c)) / Contract_Duration__c ) / Old_MRR__c ,
+
+IF(AND (ISPICKVAL( Sales_Purpose__c , '612'), Old_SaaS_Booking_BuyMe__c = 0,
+Contract_Duration__c &gt;= 12) ,
+((SaaS_Booking_Amount__c + (12 * Old_MRR__c )) / 12) / Old_MRR__c ,
+
+0
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Swing Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

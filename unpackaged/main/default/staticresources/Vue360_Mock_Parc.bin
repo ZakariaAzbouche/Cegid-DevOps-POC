@@ -1,0 +1,177 @@
+[
+    {
+        "Code_Article_SIC": "P500569903",
+        "Nom_du_produit": "Quadra ETEBAC",
+        "Sous_contrat": "true",
+        "Niveau_de_service": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/sn_customerservice_level_agreement/c1377e91dbd94f006968f9c41d961968",
+            "value": "c1377e91dbd94f006968f9c41d961968"
+        },
+        "code_seria": null,
+        "Version_en_cours": "",
+        "Quantite": "",
+        "Numero_de_serie": "",
+        "etat": "true",
+        "etat_en_service": "",
+        "statut": "",
+        "numero_de_souscription": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/ast_contract/0818857edb5d2f442d092dcb0b96196b",
+            "value": "0818857edb5d2f442d092dcb0b96196b"
+        },
+        "activitee_niveau_1": "",
+        "Hebergee": "false",
+        "Entitee_Cegid_qui_a_souscrit_le_contrat": null,
+        "Date_debut_de_contrat": "2010-01-01",
+        "Date_fin_de_contrat": "2099-12-31"
+    },
+    {
+        "Code_Article_SIC": "P50272",
+        "Nom_du_produit": "Service Devis/Fact",
+        "Sous_contrat": "true",
+        "Niveau_de_service": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/sn_customerservice_level_agreement/abc08e2bdb0a6340fd4af1541d961908",
+            "value": "abc08e2bdb0a6340fd4af1541d961908"
+        },
+        "code_seria": null,
+        "Version_en_cours": "",
+        "Quantite": "",
+        "Numero_de_serie": "",
+        "etat": "true",
+        "etat_en_service": "",
+        "statut": "",
+        "numero_de_souscription": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/ast_contract/30ec915bdba657c8718df3361d9619b1",
+            "value": "30ec915bdba657c8718df3361d9619b1"
+        },
+        "activitee_niveau_1": "",
+        "Hebergee": "true",
+        "Entitee_Cegid_qui_a_souscrit_le_contrat": null,
+        "Date_debut_de_contrat": "2017-01-01",
+        "Date_fin_de_contrat": "2099-12-31"
+    },
+    {
+        "Code_Article_SIC": "P502189903",
+        "Nom_du_produit": "Quadra PAIE - Alertes dossier et employé",
+        "Sous_contrat": "true",
+        "Niveau_de_service": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/sn_customerservice_level_agreement/27708a6bdb0a6340fd4af1541d961910",
+            "value": "27708a6bdb0a6340fd4af1541d961910"
+        },
+        "code_seria": null,
+        "Version_en_cours": "",
+        "Quantite": "",
+        "Numero_de_serie": "",
+        "etat": "true",
+        "etat_en_service": "",
+        "statut": "",
+        "numero_de_souscription": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/ast_contract/45d3c535db832b04505a24b3ca9619a8",
+            "value": "45d3c535db832b04505a24b3ca9619a8"
+        },
+        "activitee_niveau_1": "",
+        "Hebergee": "false",
+        "Entitee_Cegid_qui_a_souscrit_le_contrat": null,
+        "Date_debut_de_contrat": "2009-01-01",
+        "Date_fin_de_contrat": "2099-12-31"
+    },
+    {
+        "Code_Article_SIC": "P500549903",
+        "Nom_du_produit": "QUADRA Bureau - Gest. mess. centralisée",
+        "Sous_contrat": "true",
+        "Niveau_de_service": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/sn_customerservice_level_agreement/c1377e91dbd94f006968f9c41d961968",
+            "value": "c1377e91dbd94f006968f9c41d961968"
+        },
+        "code_seria": null,
+        "Version_en_cours": "",
+        "Quantite": "",
+        "Numero_de_serie": "",
+        "etat": "true",
+        "etat_en_service": "",
+        "statut": "",
+        "numero_de_souscription": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/ast_contract/5418497edb5d2f442d092dcb0b9619e7",
+            "value": "5418497edb5d2f442d092dcb0b9619e7"
+        },
+        "activitee_niveau_1": "",
+        "Hebergee": "false",
+        "Entitee_Cegid_qui_a_souscrit_le_contrat": null,
+        "Date_debut_de_contrat": "2014-01-01",
+        "Date_fin_de_contrat": "2099-12-31"
+    },
+    {
+        "Code_Article_SIC": "P500569903",
+        "Nom_du_produit": "Quadra ETEBAC",
+        "Sous_contrat": "true",
+        "Niveau_de_service": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/sn_customerservice_level_agreement/27708a6bdb0a6340fd4af1541d961910",
+            "value": "27708a6bdb0a6340fd4af1541d961910"
+        },
+        "code_seria": null,
+        "Version_en_cours": "",
+        "Quantite": "",
+        "Numero_de_serie": "",
+        "etat": "true",
+        "etat_en_service": "",
+        "statut": "",
+        "numero_de_souscription": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/ast_contract/65d3cd71db8b2f0415db7cde3b96197f",
+            "value": "65d3cd71db8b2f0415db7cde3b96197f"
+        },
+        "activitee_niveau_1": "",
+        "Hebergee": "false",
+        "Entitee_Cegid_qui_a_souscrit_le_contrat": null,
+        "Date_debut_de_contrat": "2010-01-01",
+        "Date_fin_de_contrat": "2099-12-31"
+    },
+    {
+        "Code_Article_SIC": "WQ019",
+        "Nom_du_produit": "QUADRA - Portail Expert Services",
+        "Sous_contrat": "true",
+        "Niveau_de_service": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/sn_customerservice_level_agreement/c1377e91dbd94f006968f9c41d961968",
+            "value": "c1377e91dbd94f006968f9c41d961968"
+        },
+        "code_seria": null,
+        "Version_en_cours": "",
+        "Quantite": "",
+        "Numero_de_serie": "",
+        "etat": "true",
+        "etat_en_service": "",
+        "statut": "",
+        "numero_de_souscription": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/ast_contract/a554e766dbee4f405aea384c7c9619e4",
+            "value": "a554e766dbee4f405aea384c7c9619e4"
+        },
+        "activitee_niveau_1": "",
+        "Hebergee": "true",
+        "Entitee_Cegid_qui_a_souscrit_le_contrat": null,
+        "Date_debut_de_contrat": "2006-06-22",
+        "Date_fin_de_contrat": "2099-12-31"
+    },
+    {
+        "Code_Article_SIC": "P005170204",
+        "Nom_du_produit": "Cegid Expert Juridique",
+        "Sous_contrat": "true",
+        "Niveau_de_service": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/sn_customerservice_level_agreement/27708a6bdb0a6340fd4af1541d961910",
+            "value": "27708a6bdb0a6340fd4af1541d961910"
+        },
+        "code_seria": null,
+        "Version_en_cours": "",
+        "Quantite": "",
+        "Numero_de_serie": "",
+        "etat": "true",
+        "etat_en_service": "",
+        "statut": "",
+        "numero_de_souscription": {
+            "link": "https://cegiddev.service-now.com:443/api/now/table/ast_contract/b4d30179db4beb04a27454904b96194b",
+            "value": "b4d30179db4beb04a27454904b96194b"
+        },
+        "activitee_niveau_1": "",
+        "Hebergee": "false",
+        "Entitee_Cegid_qui_a_souscrit_le_contrat": null,
+        "Date_debut_de_contrat": "2009-07-01",
+        "Date_fin_de_contrat": "2099-12-31"
+    }
+]

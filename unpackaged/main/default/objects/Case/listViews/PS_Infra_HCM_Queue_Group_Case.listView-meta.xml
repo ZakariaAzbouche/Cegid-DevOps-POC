@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PS_Infra_HCM_Queue_Group_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>PS - Infra HCM Queue Group</label>
+    <queue>PS_Infra_HCM_Queue_Group</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

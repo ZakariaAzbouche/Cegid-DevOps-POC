@@ -1,0 +1,149 @@
+<html>
+<!--[if gte mso 9]><xml>
+	<o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+	</o:OfficeDocumentSettings>
+</xml><![endif]--> <!--[if mso]>
+  <style> body,table tr,table td,a, span,table.MsoNormalTable {  font-family:Arial, Helvetica, sans-serif !important;  }</style>
+<![endif]--><!-- Outer table START -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0; border-collapse: collapse; margin: 0 auto;">
+<tbody>
+<tr>
+<td style="background-color: #ffffff;" bgcolor="#FFFFFF;">
+<table class="mktoContainer main" id="template-wrapper" align="center" border="0" cellpadding="0" cellspacing="0" style="border: 0 !important; padding: 0 !important; margin: 0 auto; border-collapse: collapse !important; width: 600px;" width="600">
+<tbody>
+<tr class="mktoModule" id="MOD-ONE-LOGO0632abc1-308f-477d-92d9-fd69c1a39f1e" mktoname="Logo" style="padding: 0 !important; margin: 0 !important;">
+<td bgcolor="#FFFFFF;" style="padding: 0 !important; margin: 0 !important; background-color: #ffffff;">
+<table width="550" class="inner_table" border="0" align="center" cellpadding="0" cellspacing="0" style="width: 550px; margin: 0 auto;">
+<tbody>
+<tr height="15px" style="height: 15px;">
+<td style="height: 15px; font-size: 10px; line-height: 10px;" height="15px">&nbsp;</td>
+</tr>
+<tr>
+<td class="center" style="text-align: left; vertical-align: top;">
+<div class="mktoImg" id="MOD-HDR-4878541-eed4-4408-8c75-4a49553740e70632abc1-308f-477d-92d9-fd69c1a39f1e" mktoname="logo left" mktolockimgsize="false" mktolockimgstyle="true"><img src="https://go.cegid.com/rs/818-MJH-876/images/CEGID_Logo_Bleu-100.png" border="0" width="127" /></div>
+</td>
+</tr>
+<tr height="15px" style="height: 15px;">
+<td style="height: 15px; font-size: 12px; line-height: 12px;" height="15px">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="mktoModule" id="MOD-BNR7-IMG288088bc-3c18-4e6b-8233-08530c61e971" mktoname="Banner 600x200" style="padding: 0 !important; margin: 0 !important;">
+<td bgcolor="#ffffff" style="padding: 0 !important; margin: 0 !important; background-color: #ffffff;">
+<table width="100%" align="center" style="width: 100%; margin: 0 auto;" cellpadding="0" cellspacing="0" border="0" class="main">
+<tbody>
+<tr>
+<td valign="top" style="vertical-align: top; line-height: 1px;" class="full-width1">
+<div class="mktoImg" id="MOD-BNR-image288088bc-3c18-4e6b-8233-08530c61e971" mktoname="image banner 600x200" mktolockimgsize="false" mktolockimgstyle="true"><a href="#" target="_blank"> <img align="absbottom" src="https://go.cegid.com/rs/818-MJH-876/images/EM_Header_482766045_600x200_0620.png" width="600" style="border: none; outline: none; text-decoration: none;" height="200" /> </a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="mktoModule" id="MOD-1CO-TXT" mktoname="1 Col-Text block" style="padding: 0 !important; margin: 0 !important;">
+<td bgcolor="#ffffff" style="padding: 0 !important; margin: 0 !important; background-color: #ffffff;">
+<table class="inner_table" width="550" align="center" cellpadding="0" cellspacing="0" style="width: 550px; margin: 0 auto; background-color: #ffffff;">
+<tbody>
+<tr height="15px" style="height: 15pxpx;">
+<td style="height: 15px; font-size: 12px; line-height: 15px;" height="15px">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top" style="text-align: left; font-family: 'SegoeUI',Arial; font-size: 13px; line-height: 22px; font-weight: normal; color: #002c52;">
+<div class="mktoText" id="MOD-1C2" mktoname="Text"><p>Bonjour {!User.Name}</p>
+    <p>Nous avons le plaisir de vous confirmer l'enregistrement de votre commande n° {!Order.OrderNumber} du {!Order.TECH_CreatedDateFrench__c} au nom de la société {!Order.TECH_AccountName__c} incluant les produits suivants :</p>
+    <p>
+        <ul>
+			<OrderProductInfo>
+				<li>Produit Commandé : <productNameFromApex>. <noPublicLink>Le programme de la Formation associé est disponible <a style="color: #FF5C35" href="ProgrammeDeFormationLinkFromApex" target="_blank">ici</a>.</noPublicLink>
+				</li>
+			</OrderProductInfo>
+		</ul>  
+    </p>
+    <p>
+        Nous vous rappelons que vous pouvez suivre l'évolution de votre commande, visualiser l'historique de vos commandes et les informations relatives à votre profil en vous connectant directement <a style="color: #FF5C35" href="StoreLoginURL__c" target="_blank">sur votre compte</a>.
+    </p>
+    <p>
+        Merci pour votre confiance et à bientôt sur <span style="color: #FF5C35">le store de Cegid</span>.
+    </p></div>
+</td>
+</tr>
+<tr height="15px" style="height: 15px;">
+<td style="height: 15px; font-size: 12px; line-height: 12px;" height="15px">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="mktoModule" id="MOD-FTR-1CO" mktoname="Centered Footer" style="padding: 0 !important; margin: 0 !important;">
+<td bgcolor="#002c52" style="padding: 0 !important; margin: 0 !important; background-color: #002c52;">
+<table cellpadding="0" cellspacing="0" style="width: 100%; font-size: 0; background-color: #002c52;" align="center">
+<tbody>
+<tr height="15px" style="height: 15px;">
+<td style="height: 15px; font-size: 12px; line-height: 12px;" height="15px">&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: top; font-size: 0; padding: 0;"><!--[if mso]>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:600px;">
+<![endif]-->
+<div style="vertical-align: top; font-size: 13px; text-align: center; width: 100%;" class="mj-column-per-100" aria-labelledby="mj-column-per-100">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="font-size: 0; padding: 0 25px;" align="center">
+<div class="mj-content mktoSnippet" id="MOD-FTR-12" style="cursor: auto; color: #ffffff; font-family: 'SegoeUI',Arial,Helvetica; font-size: 12px; line-height: 18px; margin: 0 auto;" mktoname="Centered Menu Snippet">
+<table style="width: 100%; font-size: 0;" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td colspan="2" style="" class="block2" width="250">
+<div class="mj-content" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #ffffff;  font-weight: normal; line-height: 18px; font-size: 13px; margin: 0; padding: 0; width: 100%;">
+<p style="margin: 0;"><span style="font-size: 16px; color: #ffffff; line-height: 20px;"><span style="font-size: 12px;">Ceci est un e-mail automatique, veuillez ne pas y répondre.<br />
+Si vous avez des questions sur votre compte, merci de nous contacter <a style="color: #FF5C35;" href="https://www.cegid.com/fr/repenser-la-relation-client/" target="_blank">ici</a>.<br /></span></span></p>
+</div>
+</td>
+<td style="" class="block3 " width="80" align="right">
+<table>
+<tbody>
+<tr>
+<td>
+<div class="mj-content" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #ffffff; font-family: 'SegoeUI',Arial,Helvetica; font-weight: normal; line-height: 18px; font-size: 12px; margin: 0; padding: 0; width: 100%;"><a href="https://twitter.com/CegidGroup" target="_blank" style="text-decoration: none; color: #ffffff;"><img src="https://go.cegid.com/rs/818-MJH-876/images/Picto_TwitterBlanc_28x28_0120.png" width="20" height="20" valign="top" />&nbsp;</a> <a href="https://www.linkedin.com/company/cegid" target="_blank" style="text-decoration: none; color: #ffffff;"><img src="https://go.cegid.com/rs/818-MJH-876/images/Picto_LinkedInBlanc_28x28_0120.png" width="20" height="20" valign="top" /></a> <a href="https://www.facebook.com/CegidGroup" target="_blank" style="text-decoration: none;"><img src="https://go.cegid.com/rs/818-MJH-876/images/Picto_FacebookBlanc_21x28_012020.png" width="15" height="20" valign="top" /></a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]--></td>
+</tr>
+<tr height="15px" style="height: 15px;">
+<td style="height: 15px; font-size: 12px; line-height: 12px;" height="15px">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</html>

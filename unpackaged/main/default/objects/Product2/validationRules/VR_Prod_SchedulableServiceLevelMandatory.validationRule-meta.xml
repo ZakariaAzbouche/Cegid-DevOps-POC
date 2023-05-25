@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Prod_SchedulableServiceLevelMandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(  $User.BypassVR__c = FALSE,
+ RecordType.DeveloperName = 'Article',
+Schedulable__c , 
+OR(ISPICKVAL(Service_Term__c ,'Flat Fee'),
+ISBLANK(TEXT(Service_Term__c )))
+)</errorConditionFormula>
+    <errorDisplayField>Service_Term__c</errorDisplayField>
+    <errorMessage>For a Schedulable Article, Service Term is mandatory and can't be "Flat Fee".</errorMessage>
+</ValidationRule>

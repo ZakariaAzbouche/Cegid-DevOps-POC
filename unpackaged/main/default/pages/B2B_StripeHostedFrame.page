@@ -1,0 +1,102 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 2021-11-17
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<apex:page id="paymentPage" applyBodyTag="false" controller="B2B_HostedPaymentController" showHeader="false" lightningStylesheets="false" sideBar="false">
+    <apex:includeScript value="https://js.stripe.com/v3/"/>
+    
+    <apex:slds /> 
+    <div class="slds-scope">
+        <div class="slds-grid slds-wrap">
+            <div class="slds-col slds-size_12-of-12">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label">
+                        Information de la carte
+                    </label>
+                    <div class="slds-form-element__control">
+                        <div id="card-element" class="form-control slds-input" style="height: 32px;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-col slds-size_6-of-12">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label">
+                        CVC
+                    </label>
+                    <div class="slds-form-element__control">
+                        <div id="cvv-element" class="form-control slds-input" style="height: 32px;"></div>
+                    </div>
+                </div> 
+            </div>
+            <div class="slds-col slds-size_6-of-12">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label">
+                        Mois/Année
+                    </label>
+                    <div class="slds-form-element__control">
+                        <div id="expiry-element" class="form-control slds-input" style="height: 32px;"></div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        //Add Listener to detect message from Parent LWC to request Token from iFrame
+        window.addEventListener("message", function(event) {
+            //console.log('StripeHostedFrame listener ' + event.origin);
+            //Validate the message is coming from the LWC and is a request for a Token
+            if(event.origin == '{!lexOrigin}') {
+                if(event.data && event.data.requestToken) {
+                    requestToken();
+                }
+            }
+        }, false);
+    
+        const stripe = Stripe('{!stripeId}', {locale : 'fr'});
+        var elements = stripe.elements();
+        
+        const style = {             
+            base: {
+                color: "#2b2826",
+                fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
+                fontSmoothing: "antialiased",
+                fontSize: "16px", "::placeholder": {
+                  color: "#706e6b"
+                }
+            },
+            invalid: {
+                color: "#fa755a",
+                iconColor: "#fa755a"
+            }
+        };
+        
+        // Create an instance of the card UI component
+        var cardNumber = elements.create('cardNumber', {style: style});
+        cardNumber.mount('#card-element');
+
+        var cardCvc = elements.create('cardCvc', {style: style});
+        cardCvc.mount('#cvv-element');
+
+        var cardExpiry = elements.create('cardExpiry', {style: style});
+        cardExpiry.mount('#expiry-element');
+    
+        function requestToken() {
+            stripe.createToken(cardNumber).then(function(result) {
+                if (result.error) {
+                    //TODO - pass message back to Parent LWC to indicate an error
+                    //console.log(result.error.message);
+                    window.parent.postMessage(result, '{!lexOrigin}');
+                } else {
+                    //console.log(result);
+                    //Send the Token back to the Parent LWC
+                    window.parent.postMessage(result, '{!lexOrigin}');
+                    //window.parent.postMessage(result, '*');
+                }
+            });
+        }
+    </script>
+</apex:page>

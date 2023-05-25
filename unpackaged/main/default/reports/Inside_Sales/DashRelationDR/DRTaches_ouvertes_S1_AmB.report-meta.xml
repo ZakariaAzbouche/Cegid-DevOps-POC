@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>Account.ERP_Number__c:UNIQUE</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Nbre tiers</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>ASSIGNED:UNIQUE</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA2</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Nbre User</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>Account.ERP_Number__c:UNIQUE/ASSIGNED:UNIQUE</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA3</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Moyenne</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_49853709</developerName>
+        <masterLabel>Team Leader</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>CREATED_BY</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Anne Gaelle Miretti Lou</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Thomas Bernier</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Coralie Blanchard</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Victoria Pichon</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Dorian Poulet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Melissa Salvador</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jean-Edouard Pascal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sofia Boumaza</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cyrielle GIROUSSE</sourceValue>
+            </sourceValues>
+            <value>Relation</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>HorizontalBarGrouped</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>DUE_DATE</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <secondaryGroupingColumn>CREATED_BY</secondaryGroupingColumn>
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>true</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>Account.ERP_Number__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Assigned_to_Agency__c</field>
+    </columns>
+    <columns>
+        <field>ASSIGNED</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>TASK_SUBTYPE</field>
+    </columns>
+    <columns>
+        <field>Activity.SubType__c</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>DESCRIPTION</field>
+    </columns>
+    <columns>
+        <field>PRIORITY</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>WHO_COUNT</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>R-001 IS</description>
+    <filter>
+        <criteriaItems>
+            <column>CREATED_BY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>bernier,miretti,pascal,pichon,boumaza,dorian poulet,blanchard,girousse,salvador</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Assigned_to_Agency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Relation</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <field>DUE_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CREATED_BY</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>DR-Taches ouvertes S+1</name>
+    <params>
+        <name>closed</name>
+        <value>open</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountActivity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>START_DATE_TIME</dateColumn>
+        <interval>INTERVAL_NEXTWEEK</interval>
+    </timeFrameFilter>
+</Report>

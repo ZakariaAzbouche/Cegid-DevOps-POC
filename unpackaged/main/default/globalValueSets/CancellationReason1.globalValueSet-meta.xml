@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>01</fullName>
+        <default>false</default>
+        <label>Administratif</label>
+    </customValue>
+    <customValue>
+        <fullName>02</fullName>
+        <default>false</default>
+        <label>Churn</label>
+    </customValue>
+    <customValue>
+        <fullName>03</fullName>
+        <default>false</default>
+        <label>Downsell</label>
+    </customValue>
+    <customValue>
+        <fullName>04</fullName>
+        <default>false</default>
+        <label>Externalisation Cegid</label>
+    </customValue>
+    <customValue>
+        <fullName>05</fullName>
+        <default>false</default>
+        <label>Externalisation Concurrence</label>
+    </customValue>
+    <customValue>
+        <fullName>06</fullName>
+        <default>false</default>
+        <label>Migration</label>
+    </customValue>
+    <masterLabel>CancellationReason1</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

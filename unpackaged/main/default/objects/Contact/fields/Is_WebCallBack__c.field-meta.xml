@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_WebCallBack__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>True si le contact à rempli un formulaire MKTO de webCallBack</description>
+    <externalId>false</externalId>
+    <label>Is WebCallBack</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

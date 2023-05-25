@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Calculated field to check whether the oppy was lost while in MQL stage --></help>
+        <label><!-- Lost MQL --></label>
+        <name>Lost_MQL__c</name>
+    </CustomFieldTranslation>

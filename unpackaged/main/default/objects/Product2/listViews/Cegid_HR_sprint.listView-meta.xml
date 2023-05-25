@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cegid_HR_sprint</fullName>
+    <columns>Reference_Number__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Asset_Code__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Excess_Pricing_Method__c</columns>
+    <columns>Consommation_Code__c</columns>
+    <columns>First_Subscription_Term__c</columns>
+    <columns>id_buyme__c</columns>
+    <columns>Synchronization_Date_Zuora__c</columns>
+    <columns>Metric__c</columns>
+    <columns>Possible_Billing_Modes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>contains</operation>
+        <value>hr sprint</value>
+    </filters>
+    <label>Cegid HR sprint</label>
+</ListView>

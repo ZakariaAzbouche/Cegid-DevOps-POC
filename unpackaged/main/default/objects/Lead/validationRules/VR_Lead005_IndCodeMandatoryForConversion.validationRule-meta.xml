@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Lead005_IndCodeMandatoryForConversion</fullName>
+    <active>true</active>
+    <description>IndustryCode Mandatory when converting</description>
+    <errorConditionFormula>AND (
+				NOT( $User.BypassVR__c ),
+				NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Lead005_IndCodeMandatoryForConversion")),
+				RecordType.DeveloperName = "Lead",
+				ISPICKVAL( Status , "Closed - Converted Lead"),
+				NOT( TECH_Autoconvert_Lead__c ),
+				ISBLANK( Industry_Code__c )
+				)</errorConditionFormula>
+    <errorMessage>You can't convert a lead if the industry code has not been defined. Please fulfill it and try the conversion again.</errorMessage>
+</ValidationRule>

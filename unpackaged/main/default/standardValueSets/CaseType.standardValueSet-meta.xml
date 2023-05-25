@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Bid Project</fullName>
+        <default>false</default>
+        <label>Bid Project</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Costing</fullName>
+        <default>false</default>
+        <label>Costing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demonstration</fullName>
+        <default>false</default>
+        <label>Deep dive demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discovery call</fullName>
+        <default>false</default>
+        <label>Discovery call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feature Request</fullName>
+        <default>false</default>
+        <label>Feature Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualification</fullName>
+        <default>false</default>
+        <label>Overview demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>POC</fullName>
+        <default>false</default>
+        <label>POC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Presentation</fullName>
+        <default>false</default>
+        <label>Presentation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Problem</fullName>
+        <default>false</default>
+        <label>Problem</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RFI</fullName>
+        <default>false</default>
+        <label>RFI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RFP</fullName>
+        <default>false</default>
+        <label>RFP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical</fullName>
+        <default>false</default>
+        <label>Technical</label>
+    </standardValue>
+</StandardValueSet>

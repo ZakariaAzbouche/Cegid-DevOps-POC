@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_PAC_Accounts</fullName>
+    <columns>NAME</columns>
+    <columns>Targeting_Plan__c</columns>
+    <columns>Account__c</columns>
+    <columns>Status__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <label>My PAC Accounts</label>
+</ListView>

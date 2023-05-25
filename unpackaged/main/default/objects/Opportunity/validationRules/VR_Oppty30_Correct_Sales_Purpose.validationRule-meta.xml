@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty30_Correct_Sales_Purpose</fullName>
+    <active>true</active>
+    <description>User must select a sales purpose.</description>
+    <errorConditionFormula>AND ( NOT( $User.BypassVR__c )
+	, NOT(TECH_By_Pass_VR__c)
+	, ISBLANK(TEXT(Sales_Purpose__c))
+	, NOT(ISPICKVAL(StageName, 'G - MQL'))
+	, NOT(ISPICKVAL(StageName, 'Closed Lost'))
+	, NOT(ISPICKVAL(StageName, 'No Go Client'))
+	, NOT(ISPICKVAL(StageName, 'No Go CEGID'))	
+	)</errorConditionFormula>
+    <errorDisplayField>Sales_Purpose__c</errorDisplayField>
+    <errorMessage>Please select a Sales Purpose.</errorMessage>
+</ValidationRule>

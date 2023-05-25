@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>018</fullName>
+        <default>false</default>
+        <label>Offre DSN</label>
+    </customValue>
+    <customValue>
+        <fullName>033</fullName>
+        <default>false</default>
+        <label>Opération CHORUS PRO</label>
+    </customValue>
+    <customValue>
+        <fullName>034</fullName>
+        <default>false</default>
+        <label>Loi Anti Fraude BOI-TVA</label>
+    </customValue>
+    <customValue>
+        <fullName>055</fullName>
+        <default>false</default>
+        <label>Opération PCA</label>
+    </customValue>
+    <customValue>
+        <fullName>002</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opération N4DS</label>
+    </customValue>
+    <customValue>
+        <fullName>003</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portail eWS</label>
+    </customValue>
+    <customValue>
+        <fullName>004</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portail Yes</label>
+    </customValue>
+    <customValue>
+        <fullName>005</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CloudPro</label>
+    </customValue>
+    <customValue>
+        <fullName>006</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opération CATRHP</label>
+    </customValue>
+    <customValue>
+        <fullName>007</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opération AED</label>
+    </customValue>
+    <customValue>
+        <fullName>008</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opération CATRHPI</label>
+    </customValue>
+    <customValue>
+        <fullName>009</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opération CATFRH</label>
+    </customValue>
+    <customValue>
+        <fullName>010</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opération PAIE V9</label>
+    </customValue>
+    <customValue>
+        <fullName>011</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CAMPAGNE FISCALE 2013</label>
+    </customValue>
+    <customValue>
+        <fullName>012</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opération IFC</label>
+    </customValue>
+    <customValue>
+        <fullName>013</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opération TDA - TDAEPSAL</label>
+    </customValue>
+    <customValue>
+        <fullName>014</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opération TDA - TDAVIFI13</label>
+    </customValue>
+    <customValue>
+        <fullName>015</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opération SEPA 2013</label>
+    </customValue>
+    <customValue>
+        <fullName>016</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opération PESV2</label>
+    </customValue>
+    <customValue>
+        <fullName>017</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Offre Y2</label>
+    </customValue>
+    <customValue>
+        <fullName>019</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Déclaration des Loyers</label>
+    </customValue>
+    <customValue>
+        <fullName>020</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Macron</label>
+    </customValue>
+    <customValue>
+        <fullName>021</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Simplification du Bulletin de paie</label>
+    </customValue>
+    <customValue>
+        <fullName>022</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Core HR</label>
+    </customValue>
+    <customValue>
+        <fullName>023</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Recrutement &amp; Onboarding</label>
+    </customValue>
+    <customValue>
+        <fullName>024</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Performance &amp; Compétences</label>
+    </customValue>
+    <customValue>
+        <fullName>025</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>People Review &amp; Plan de Succession</label>
+    </customValue>
+    <customValue>
+        <fullName>026</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Formation</label>
+    </customValue>
+    <customValue>
+        <fullName>027</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LCMS</label>
+    </customValue>
+    <customValue>
+        <fullName>028</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rémunération</label>
+    </customValue>
+    <customValue>
+        <fullName>029</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cockpit RH</label>
+    </customValue>
+    <customValue>
+        <fullName>030</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Gestion administrative</label>
+    </customValue>
+    <customValue>
+        <fullName>031</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pass Social CegidExpert</label>
+    </customValue>
+    <customValue>
+        <fullName>032</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pass Social QuadraExpert</label>
+    </customValue>
+    <customValue>
+        <fullName>035</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MIGYCEQUADRA</label>
+    </customValue>
+    <customValue>
+        <fullName>036</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CONQENTRY</label>
+    </customValue>
+    <customValue>
+        <fullName>037</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>QENTOD ENTRY</label>
+    </customValue>
+    <customValue>
+        <fullName>038</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>QENTOD START</label>
+    </customValue>
+    <customValue>
+        <fullName>039</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>QENTOD MASTER</label>
+    </customValue>
+    <customValue>
+        <fullName>040</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PEOPLEDOC</label>
+    </customValue>
+    <customValue>
+        <fullName>041</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DOCLINK</label>
+    </customValue>
+    <customValue>
+        <fullName>042</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TDA ENTREPRISE</label>
+    </customValue>
+    <customValue>
+        <fullName>043</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TDA PCL</label>
+    </customValue>
+    <customValue>
+        <fullName>044</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cegid-contrat de location</label>
+    </customValue>
+    <customValue>
+        <fullName>045</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PaieSérénité</label>
+    </customValue>
+    <customValue>
+        <fullName>046</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Période Fiscale 2019</label>
+    </customValue>
+    <customValue>
+        <fullName>047</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Les fondamentaux</label>
+    </customValue>
+    <customValue>
+        <fullName>048</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Approfondissement</label>
+    </customValue>
+    <customValue>
+        <fullName>049</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fillon</label>
+    </customValue>
+    <customValue>
+        <fullName>001</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opération SEPA</label>
+    </customValue>
+    <customValue>
+        <fullName>050</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cahier de vacances</label>
+    </customValue>
+    <customValue>
+        <fullName>Thématique B</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Thématique B</label>
+    </customValue>
+    <customValue>
+        <fullName>Prélèvement à la source</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prélèvement à la source</label>
+    </customValue>
+    <customValue>
+        <fullName>Thématique A</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Thématique A</label>
+    </customValue>
+    <description>Used in Product, to fill in the theme fields</description>
+    <masterLabel>Transversal Theme</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

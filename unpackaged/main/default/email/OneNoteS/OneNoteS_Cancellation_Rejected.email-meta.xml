@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>CEGID_LH</letterhead>
+    <name>OneNoteS_Cancellation_Rejected</name>
+    <style>newsletter</style>
+    <subject>Refus Demande de résiliation : {!CustomerRequest__c.CustomerRequestNumber__c} -  {!CustomerRequest__c.ErpNumber__c} {!CustomerRequest__c.Account__c}</subject>
+    <textOnly>Votre demande a été refusé.
+
+Vous trouverez le motif de refus en commentaire ci-dessous.
+
+Filiale : {!CustomerRequest__c.Subsidiary__c}
+
+ERP Number : {!CustomerRequest__c.ErpNumber__c}
+Nom du client : {!CustomerRequest__c.Account__c}
+
+N° de la demande : {!CustomerRequest__c.CustomerRequestNumber__c}
+Nature de la demande : {!CustomerRequest__c.Type__c}
+
+MRR Annulé : {!CustomerRequest__c.MRR_Cancelled__c}
+
+Justificatif de la demande :
+
+{!CustomerRequest__c.Comment__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

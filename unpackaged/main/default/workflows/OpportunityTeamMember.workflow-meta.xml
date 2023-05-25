@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Notify_New_member_Opportunity_team</fullName>
+        <description>Notify New member Opportunity team</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Customer Success Manager</recipient>
+            <type>opportunityTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>IC HCM</recipient>
+            <type>opportunityTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>IC Tax</recipient>
+            <type>opportunityTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Opportunity Owner</recipient>
+            <type>opportunityTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Pre-Sales</recipient>
+            <type>opportunityTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Prof Services</recipient>
+            <type>opportunityTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Sales Manager</recipient>
+            <type>opportunityTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Sales Ops</recipient>
+            <type>opportunityTeam</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Opportunity_New_assignment_notification</template>
+    </alerts>
+</Workflow>

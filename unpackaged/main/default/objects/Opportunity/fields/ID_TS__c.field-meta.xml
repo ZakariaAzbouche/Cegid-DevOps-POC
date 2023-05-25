@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ID_TS__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>Ce champ permet une synchronisation des données avec l'environnement SF de talensoft,</description>
+    <externalId>true</externalId>
+    <label>ID TS</label>
+    <length>18</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

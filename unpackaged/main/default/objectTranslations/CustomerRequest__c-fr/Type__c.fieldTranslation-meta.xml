@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Type</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Cancellation</masterLabel>
+            <translation>Résiliation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation with Credit Note</masterLabel>
+            <translation>Résiliation avec Avoir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Note</masterLabel>
+            <translation>Avoir simple</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

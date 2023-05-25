@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gérer les champs pour contrôler l'affichage de quote template dans l'objet "Quote" et "Quote line"</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Quote Template Fields Permission</label>
+</PermissionSet>

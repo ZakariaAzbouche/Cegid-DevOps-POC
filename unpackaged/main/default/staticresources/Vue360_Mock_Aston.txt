@@ -1,0 +1,153 @@
+{
+
+  "success": true,
+
+  "recoveryStatus": {
+
+    "Client reference": "T90507577-A001",
+
+    "Subsidiary ref": "1004",
+
+    "Social reason": "SARL PINTO",
+
+    "SIREN": "830327730",
+
+    "NIC": "00016",
+
+    "VAT Code": null,
+
+    "Address 1": "296 AVENUE JOSEPH LACOSTE",
+
+    "Address 2": "",
+
+    "Postal code": "40990",
+
+    "City": "HERM",
+
+    "Country code": "FR",
+
+    "NAF Code": "      ",
+
+    "Buyer comments": "90507577",
+
+    "Extradata 1": "LIQUIDATION JUDICIAIRE-021",
+
+    "Extradata 2": "3417 BOUCHET ANTHONY",
+
+    "Extradata 3": "HORS DV-099",
+
+    "Extradata 4": "IS - ENTREPRISE-025",
+
+    "Extradata 5": "CPA - SMB-110",
+
+    "Extradata 6": "",
+
+    "Extradata 7": "   -",
+
+    "Extradata 8": "BTP-014",
+
+    "Extradata 9": "",
+
+    "Extradata 10": "90507577",
+
+    "Year of reference (Y)": "2020",
+
+    "Month of reference (M)": "7",
+
+    "Turnover of the month M": "0.0",
+
+    "Turnover of the year Y": "0.0",
+
+    "Turnover Y-1": "1411.2",
+
+    "Credit limit": null,
+
+    "Real outstanding with VAT": "-155033.19",
+
+    "DSO": ".00",
+
+    "Funded outstanding": ".00",
+
+    "Covered outstanding": ".00",
+
+    "Outstanding with Dispute": ".00",
+
+    "Amount of delay": "-155033.19",
+
+    "Amount of delay<30 days": ".00",
+
+    "Amount of delay 31-60 days": ".00",
+
+    "Amount of delay 61-90 days": "-9476.56",
+
+    "Amount of delay 91-120 days": ".00",
+
+    "Amount of delay 121-150 days": "-113546.39",
+
+    "Amount of delay >150 days": "-32010.24",
+
+    "Number of delay": "2.00",
+
+    "Number of delay <30 days": ".00",
+
+    "Number of delay 31-60 days": ".00",
+
+    "Number of delay 61-90 days": ".00",
+
+    "Number of delay 91-120 days": ".00",
+
+    "Number of delay 121-150 days": ".00",
+
+    "Number of delay >150 days": "2.00",
+
+    "Non charged credits": "-155743.16",
+
+    "Dropped to 30 days": ".00",
+
+    "Unpaid number": "0",
+
+    "Unpaid amount": ".00",
+
+    "Invoices number": ".00",
+
+    "Infoice amount": ".00",
+
+    "Credit notes number": "0",
+
+    "Credit notes amount": ".00",
+
+    "Payment number": "0",
+
+    "Payment amount": ".00",
+
+    "Adjustments number": "0",
+
+    "Adjustments amount": ".00",
+
+    "Non covered outstanding": "709.97",
+
+    "Non expired outstanding number": "0",
+
+    "Non expired outstanding amont": ".00",
+
+    "Standard follow-up amount": "-155033.19",
+
+    "Litigation amount": ".00",
+
+    "Expected payment amount": ".00",
+
+    "Payment promise amount": ".00",
+
+    "Management outstanding (currency)": ".00",
+
+    "Outstanding (currency)": ".00",
+
+    "Expired management outstanding (currency)": ".00",
+
+    "Scoring (Aston)": "11.36",
+
+    "colorcode": "blue"
+
+  }
+
+}

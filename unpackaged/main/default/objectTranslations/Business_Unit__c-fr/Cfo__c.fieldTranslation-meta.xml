@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>CFO</label>
+        <name>Cfo__c</name>
+        <relationshipLabel><!-- Business Units (CFO) --></relationshipLabel>
+    </CustomFieldTranslation>

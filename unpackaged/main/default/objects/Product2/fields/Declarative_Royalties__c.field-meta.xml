@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Declarative_Royalties__c</fullName>
+    <externalId>false</externalId>
+    <label>Declarative Royalties</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>146</fullName>
+                <default>false</default>
+                <label>146-CARLABELLA RECURRENT</label>
+            </value>
+            <value>
+                <fullName>178</fullName>
+                <default>false</default>
+                <label>ABBYY</label>
+            </value>
+            <value>
+                <fullName>160</fullName>
+                <default>false</default>
+                <label>ACL Optim’Fec</label>
+            </value>
+            <value>
+                <fullName>186</fullName>
+                <default>false</default>
+                <label>ACUMATICA</label>
+            </value>
+            <value>
+                <fullName>129</fullName>
+                <default>false</default>
+                <label>ALTARES</label>
+            </value>
+            <value>
+                <fullName>119</fullName>
+                <default>false</default>
+                <label>ALTAVEN RECURRENT</label>
+            </value>
+            <value>
+                <fullName>224</fullName>
+                <default>false</default>
+                <label>AMADEUS</label>
+            </value>
+            <value>
+                <fullName>219</fullName>
+                <default>false</default>
+                <label>ARKHINEO</label>
+            </value>
+            <value>
+                <fullName>141</fullName>
+                <default>false</default>
+                <label>ARKOON RECURRENT</label>
+            </value>
+            <value>
+                <fullName>147</fullName>
+                <default>false</default>
+                <label>ARROW ECS (EX OPENWAY BO)</label>
+            </value>
+            <value>
+                <fullName>177</fullName>
+                <default>false</default>
+                <label>BANKIN</label>
+            </value>
+            <value>
+                <fullName>205</fullName>
+                <default>false</default>
+                <label>Bridge - DSP2</label>
+            </value>
+            <value>
+                <fullName>210</fullName>
+                <default>false</default>
+                <label>BROADBEAN</label>
+            </value>
+            <value>
+                <fullName>127</fullName>
+                <default>false</default>
+                <label>C3S Info - Baccara</label>
+            </value>
+            <value>
+                <fullName>110</fullName>
+                <default>false</default>
+                <label>CARLABELLA DI/DP RECURRENT</label>
+            </value>
+            <value>
+                <fullName>109</fullName>
+                <default>false</default>
+                <label>CARLABELLA RECURRENT</label>
+            </value>
+            <value>
+                <fullName>145</fullName>
+                <default>false</default>
+                <label>CARLABELLA SAAS</label>
+            </value>
+            <value>
+                <fullName>174</fullName>
+                <default>false</default>
+                <label>CAWEB</label>
+            </value>
+            <value>
+                <fullName>154</fullName>
+                <default>false</default>
+                <label>CDC FAST</label>
+            </value>
+            <value>
+                <fullName>209</fullName>
+                <default>false</default>
+                <label>Cecurity XRP Ultimate</label>
+            </value>
+            <value>
+                <fullName>180</fullName>
+                <default>false</default>
+                <label>CHORUS EDOC</label>
+            </value>
+            <value>
+                <fullName>188</fullName>
+                <default>false</default>
+                <label>CLEARNOX</label>
+            </value>
+            <value>
+                <fullName>122</fullName>
+                <default>false</default>
+                <label>COMPTANOO</label>
+            </value>
+            <value>
+                <fullName>113</fullName>
+                <default>false</default>
+                <label>COMPUTER ASSOCIATES RECURRENT</label>
+            </value>
+            <value>
+                <fullName>215</fullName>
+                <default>false</default>
+                <label>CONNECTIVE</label>
+            </value>
+            <value>
+                <fullName>118</fullName>
+                <default>false</default>
+                <label>CRIS / GOTO RECURRENT</label>
+            </value>
+            <value>
+                <fullName>214</fullName>
+                <default>false</default>
+                <label>CRONOFY</label>
+            </value>
+            <value>
+                <fullName>161</fullName>
+                <default>false</default>
+                <label>DOCLINK</label>
+            </value>
+            <value>
+                <fullName>217</fullName>
+                <default>false</default>
+                <label>DYNAMSOFT</label>
+            </value>
+            <value>
+                <fullName>173</fullName>
+                <default>false</default>
+                <label>EDECLARATION</label>
+            </value>
+            <value>
+                <fullName>200</fullName>
+                <default>false</default>
+                <label>EDOC COFFRE FORT SMB</label>
+            </value>
+            <value>
+                <fullName>183</fullName>
+                <default>false</default>
+                <label>EDOC COLLECTEUR</label>
+            </value>
+            <value>
+                <fullName>169</fullName>
+                <default>false</default>
+                <label>EFL JURIDIQUE</label>
+            </value>
+            <value>
+                <fullName>134</fullName>
+                <default>false</default>
+                <label>EFL RECURRENT</label>
+            </value>
+            <value>
+                <fullName>106</fullName>
+                <default>false</default>
+                <label>EIC RECURRENT</label>
+            </value>
+            <value>
+                <fullName>136</fullName>
+                <default>false</default>
+                <label>ENVIRONNEMENT TECHNIQUE</label>
+            </value>
+            <value>
+                <fullName>191</fullName>
+                <default>false</default>
+                <label>ESKER FLEX</label>
+            </value>
+            <value>
+                <fullName>208</fullName>
+                <default>false</default>
+                <label>ESKER – XRP Ultimate</label>
+            </value>
+            <value>
+                <fullName>190</fullName>
+                <default>false</default>
+                <label>EXPENSYA</label>
+            </value>
+            <value>
+                <fullName>203</fullName>
+                <default>false</default>
+                <label>FINALGO</label>
+            </value>
+            <value>
+                <fullName>162</fullName>
+                <default>false</default>
+                <label>GED-EDOC</label>
+            </value>
+            <value>
+                <fullName>124</fullName>
+                <default>false</default>
+                <label>GROUPAMA</label>
+            </value>
+            <value>
+                <fullName>216</fullName>
+                <default>false</default>
+                <label>HUNTERZ</label>
+            </value>
+            <value>
+                <fullName>102</fullName>
+                <default>false</default>
+                <label>ISIALIS RECURENT</label>
+            </value>
+            <value>
+                <fullName>105</fullName>
+                <default>false</default>
+                <label>ISSENDIS RECURRENT</label>
+            </value>
+            <value>
+                <fullName>121</fullName>
+                <default>false</default>
+                <label>ITOOL RECURRENT</label>
+            </value>
+            <value>
+                <fullName>101</fullName>
+                <default>false</default>
+                <label>IVELEM RECURRENT</label>
+            </value>
+            <value>
+                <fullName>128</fullName>
+                <default>false</default>
+                <label>KYRIBA RECURRENT</label>
+            </value>
+            <value>
+                <fullName>156</fullName>
+                <default>false</default>
+                <label>MGDIS RECURRENT</label>
+            </value>
+            <value>
+                <fullName>149</fullName>
+                <default>false</default>
+                <label>Microsoft 365 CSP</label>
+            </value>
+            <value>
+                <fullName>221</fullName>
+                <default>false</default>
+                <label>MICROSOFT SQL</label>
+            </value>
+            <value>
+                <fullName>111</fullName>
+                <default>false</default>
+                <label>MORGENSTERN RECURRENT</label>
+            </value>
+            <value>
+                <fullName>115</fullName>
+                <default>false</default>
+                <label>MTAE RECURRENT</label>
+            </value>
+            <value>
+                <fullName>211</fullName>
+                <default>false</default>
+                <label>NEOCASE SOFTWARE</label>
+            </value>
+            <value>
+                <fullName>155</fullName>
+                <default>false</default>
+                <label>NOVANCES</label>
+            </value>
+            <value>
+                <fullName>125</fullName>
+                <default>false</default>
+                <label>NOVAPOST-DEMAT RH en Déclaratifs</label>
+            </value>
+            <value>
+                <fullName>151</fullName>
+                <default>false</default>
+                <label>ONEACCESS RECURRENT</label>
+            </value>
+            <value>
+                <fullName>112</fullName>
+                <default>false</default>
+                <label>OPENWAY (BO) RECURRENT</label>
+            </value>
+            <value>
+                <fullName>222</fullName>
+                <default>false</default>
+                <label>ORACLE ARROW</label>
+            </value>
+            <value>
+                <fullName>223</fullName>
+                <default>false</default>
+                <label>ORACLE ESL</label>
+            </value>
+            <value>
+                <fullName>163</fullName>
+                <default>false</default>
+                <label>ORACLE ORLIWEB LIC</label>
+            </value>
+            <value>
+                <fullName>132</fullName>
+                <default>false</default>
+                <label>ORACLE - RECURRENT</label>
+            </value>
+            <value>
+                <fullName>167</fullName>
+                <default>false</default>
+                <label>People DOC</label>
+            </value>
+            <value>
+                <fullName>185</fullName>
+                <default>false</default>
+                <label>PEOPLE DOC CPA</label>
+            </value>
+            <value>
+                <fullName>184</fullName>
+                <default>false</default>
+                <label>PEOPLE DOC V3</label>
+            </value>
+            <value>
+                <fullName>159</fullName>
+                <default>false</default>
+                <label>PILOT ASSO</label>
+            </value>
+            <value>
+                <fullName>114</fullName>
+                <default>false</default>
+                <label>PROLOGUE (ALP) RECURRENT</label>
+            </value>
+            <value>
+                <fullName>138</fullName>
+                <default>false</default>
+                <label>PROLOGUE ETEBAC - EBICS</label>
+            </value>
+            <value>
+                <fullName>120</fullName>
+                <default>false</default>
+                <label>PROLOGUE ETEBAC III RECURRENT</label>
+            </value>
+            <value>
+                <fullName>131</fullName>
+                <default>false</default>
+                <label>QEOD</label>
+            </value>
+            <value>
+                <fullName>179</fullName>
+                <default>false</default>
+                <label>QlikSENSE</label>
+            </value>
+            <value>
+                <fullName>139</fullName>
+                <default>false</default>
+                <label>QLIKTECH + 12 mois</label>
+            </value>
+            <value>
+                <fullName>133</fullName>
+                <default>false</default>
+                <label>QLIKTECH DASHBOARD</label>
+            </value>
+            <value>
+                <fullName>158</fullName>
+                <default>false</default>
+                <label>Qliktech Dashboard CEGID PUBLIC</label>
+            </value>
+            <value>
+                <fullName>148</fullName>
+                <default>false</default>
+                <label>QLIKTECH SAAS</label>
+            </value>
+            <value>
+                <fullName>157</fullName>
+                <default>false</default>
+                <label>Qliktech Saas CEGID PUBLIC</label>
+            </value>
+            <value>
+                <fullName>181</fullName>
+                <default>false</default>
+                <label>QLIKVIEW- HR SPRINT</label>
+            </value>
+            <value>
+                <fullName>182</fullName>
+                <default>false</default>
+                <label>QLIKVIEW- HR SPRINT - START</label>
+            </value>
+            <value>
+                <fullName>140</fullName>
+                <default>false</default>
+                <label>QuadraConventionnel</label>
+            </value>
+            <value>
+                <fullName>137</fullName>
+                <default>false</default>
+                <label>QUALITELIS RECURRENT</label>
+            </value>
+            <value>
+                <fullName>103</fullName>
+                <default>false</default>
+                <label>RCA RECURRENT</label>
+            </value>
+            <value>
+                <fullName>117</fullName>
+                <default>false</default>
+                <label>REDTITAN RECURRENT 40 %</label>
+            </value>
+            <value>
+                <fullName>116</fullName>
+                <default>false</default>
+                <label>REDTITAN RECURRENT 50 %</label>
+            </value>
+            <value>
+                <fullName>204</fullName>
+                <default>false</default>
+                <label>Retail Int.</label>
+            </value>
+            <value>
+                <fullName>123</fullName>
+                <default>false</default>
+                <label>REVUE FIDUCIAIRE RECURRENT</label>
+            </value>
+            <value>
+                <fullName>108</fullName>
+                <default>false</default>
+                <label>SAGE / XPERTS RECURRENT</label>
+            </value>
+            <value>
+                <fullName>107</fullName>
+                <default>false</default>
+                <label>SAGE / XRT RECURRENT</label>
+            </value>
+            <value>
+                <fullName>150</fullName>
+                <default>false</default>
+                <label>salvia</label>
+            </value>
+            <value>
+                <fullName>143</fullName>
+                <default>false</default>
+                <label>SAP BO RECURRENT</label>
+            </value>
+            <value>
+                <fullName>144</fullName>
+                <default>false</default>
+                <label>SAP BO SAAS</label>
+            </value>
+            <value>
+                <fullName>189</fullName>
+                <default>false</default>
+                <label>SHOP APPLICATION</label>
+            </value>
+            <value>
+                <fullName>135</fullName>
+                <default>false</default>
+                <label>SIDETRADE RECURRENT</label>
+            </value>
+            <value>
+                <fullName>207</fullName>
+                <default>false</default>
+                <label>SIS-ID Stand Alone</label>
+            </value>
+            <value>
+                <fullName>206</fullName>
+                <default>false</default>
+                <label>SIS-ID XRP Ultimate</label>
+            </value>
+            <value>
+                <fullName>153</fullName>
+                <default>false</default>
+                <label>SOPHOS RECURRENT</label>
+            </value>
+            <value>
+                <fullName>142</fullName>
+                <default>false</default>
+                <label>STAR B</label>
+            </value>
+            <value>
+                <fullName>212</fullName>
+                <default>false</default>
+                <label>TALENTPLUG</label>
+            </value>
+            <value>
+                <fullName>218</fullName>
+                <default>false</default>
+                <label>TEXTKERNEL</label>
+            </value>
+            <value>
+                <fullName>130</fullName>
+                <default>false</default>
+                <label>TREND MICRO Récurrent</label>
+            </value>
+            <value>
+                <fullName>104</fullName>
+                <default>false</default>
+                <label>TX2 RECURRENT</label>
+            </value>
+            <value>
+                <fullName>126</fullName>
+                <default>false</default>
+                <label>UGAL</label>
+            </value>
+            <value>
+                <fullName>220</fullName>
+                <default>false</default>
+                <label>UNIVERSIGN</label>
+            </value>
+            <value>
+                <fullName>194</fullName>
+                <default>false</default>
+                <label>VELIXO</label>
+            </value>
+            <value>
+                <fullName>202</fullName>
+                <default>false</default>
+                <label>VISIER - HR Insights</label>
+            </value>
+            <value>
+                <fullName>152</fullName>
+                <default>false</default>
+                <label>WEB XY</label>
+            </value>
+            <value>
+                <fullName>171</fullName>
+                <default>false</default>
+                <label>YOOZ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

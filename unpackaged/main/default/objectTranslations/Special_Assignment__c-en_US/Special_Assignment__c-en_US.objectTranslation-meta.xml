@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Special Assignment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Special Assignments</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>RCC Assignment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Expertise Assigment --></label>
+        <name>Expertise_Assigment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RCC Assigment --></label>
+        <name>RCC_Assigment</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the agency for RCC Special Assignment. Please remove it and create new one. --></errorMessage>
+        <name>VR_SpecialAssignment_AgencyNotEditable</name>
+    </validationRules>
+</CustomObjectTranslation>

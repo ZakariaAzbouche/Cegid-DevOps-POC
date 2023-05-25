@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table bgcolor="white" cellpadding="0" cellspacing="0" width="640">
+	
+		<tr>
+			<td><br />
+<span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;"><span style="color:#002c52;">Bonjour&nbsp;{{{Recipient.Salutation}}} {{{Recipient.LastName}}},<br />
+<br />
+J’ai tenté de vous joindre concernant votre projet.<br />
+<br />
+Afin que je vous oriente vers la solution Cegid qui vous conviendra le mieux, je vous propose au choix&nbsp;:</span></span>
+<ul>
+	<li><span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;"><span style="color:#002c52;">De me contacter directement par téléphone au&nbsp;<strong>{{{Sender.Phone}}}</strong></span></span></li>
+	<li><span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;"><span style="color:#002c52;">De me retourner par mail le questionnaire ci-dessous complété à l’adresse&nbsp;<strong>{{{Sender.Email}}}</strong></span></span></li>
+</ul>
+<span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;"> <span style="color:#002c52;"> <b><u>Quelques informations concernant votre société </u></b><br />
+Raison sociale<br />
+Numéro de Siret<br />
+<i>(Si votre société est en cours de création, merci d'indiquer la ville où elle sera implantée)</i><br />
+Secteur d’activité<br />
+Effectif total<br />
+Coordonnées et fonction de l’interlocuteur principal<br />
+Chiffre d’affaires<br />
+<br />
+<b><u>Quelques informations sur votre projet</u></b><br />
+Type de logiciel recherché<br />
+Système d’exploitation utilisé (Windows ? Mac ?)<br />
+Fonctions souhaitées<br />
+Nombre d’utilisateurs<br />
+Nom de la solution existante, raisons de ce changement<br />
+<br />
+<span style="vertical-align:baseline">Combien d’entité sont concernées </span><br />
+<span style="vertical-align:baseline"><span style="user-select:text"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="touch-action:pan-x pan-y"><span style="overflow-wrap:break-word">Si projet paie, combien de bulletins sont concernés&nbsp;</span></span></span></span></span></span><br />
+<span style="vertical-align:baseline"><span style="user-select:text"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="touch-action:pan-x pan-y"><span style="overflow-wrap:break-word">Combien de collaborateurs sont concernés dans l’outil SIRH&nbsp;</span></span></span></span></span></span><br />
+<span style="vertical-align:baseline"><span style="user-select:text"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="touch-action:pan-x pan-y"><span style="overflow-wrap:break-word">Dans quel pays se trouvent les autres structures concernées dans le projet </span></span></span></span></span></span><br />
+<br />
+Autres spécificités de votre projet&nbsp;<br />
+Échéance envisagée&nbsp;<br />
+<br />
+Êtes-vous recommandé par un cabinet d’expertise comptable, si oui lequel&nbsp;?<br />
+<br />
+Dès réception de ces informations, votre demande sera transmise à l’un de nos experts qui reprendra contact avec vous dans les plus brefs délais.<br />
+Dans cet objectif, pourriez-vous d’ores et déjà m’indiquer quelques disponibilités ?<br />
+<br />
+Je vous remercie par avance et reste à votre écoute.<br />
+<br />
+Bien cordialement,<br />
+<br />
+<strong>{{{Sender.Name}}}</strong><br />
+Service Projet</span></span>
+</td></tr></table></body></html>

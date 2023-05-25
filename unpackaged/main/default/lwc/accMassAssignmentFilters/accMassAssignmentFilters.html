@@ -1,0 +1,299 @@
+<template>
+    <div>
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_1-of-6 field-title">
+                <lightning-record-edit-form object-api-name={childObjectApiName}>
+                    <label class="slds-form-element__label field-title" for="fieldTargetPlanId">
+                        <strong> {fieldTargetingPlanLabel} </strong>
+                    </label>
+                    <lightning-input-field id="fieldTargetPlanId"
+                                           variant="label-hidden"
+                                           field-name={fieldTargetingPlan}
+                                           value={tarAccValue}
+                                           onchange={handleChangeTargetingPlan}
+                                           disabled={disabled}
+                                           class="lookup-input"
+                                           required>
+                    </lightning-input-field>
+                </lightning-record-edit-form>
+            </div>
+
+            <div class="slds-col slds-size_1-of-6">
+                <lightning-record-edit-form object-api-name={childObjectApiName}>
+                    <label class="slds-form-element__label field-title" for="fieldAccOwnerId">
+                        <strong> {fieldPacAccOwnerLabel} </strong>
+                    </label>
+                    <lightning-input-field id="fieldAccOwnerId"
+                                           variant="label-hidden"
+                                           field-name={fieldPacAccOwner}
+                                           value={pacAccOwnerValue}
+                                           onchange={handleChangePacAccOwner}
+                                           disabled={disabled}
+                                           required>
+                    </lightning-input-field>
+                </lightning-record-edit-form>
+            </div>
+
+            <div class="slds-col slds-size_4-of-6">
+                <!-- Button Add selected accounts to Targeting Plan -->
+                <lightning-button variant="brand"
+                                  label="Add selected accounts to Targeting Plan"
+                                  onclick={handleCreatePacAccount}
+                                  class="slds-m-left_x-small btn">
+                </lightning-button>
+
+                <!-- Button Search -->
+                <lightning-button variant="brand"
+                                  label="Search"
+                                  onclick={handleSearch}
+                                  class="slds-m-left_x-small btnSearch">
+                </lightning-button>
+
+                <!-- Button Reset filters -->
+                <lightning-button variant="neutral"
+                                  label="Reset filters"
+                                  onclick={handleResetFilters}
+                                  class="slds-m-left_x-small btnSearch">
+                </lightning-button>
+            </div>
+
+        </div>
+        <lightning-card>
+            <lightning-card title="Account filters">
+                <div class="slds-grid slds-wrap slds-gutters">
+                    <div class="slds-col slds-size_1-of-6 field-title">
+                        <span>
+                            <label class="slds-form-element__label field-title">
+                                <strong> ERP Number </strong>
+                            </label>
+                            <lightning-input type="text"
+                                            name="erpNum"
+                                            label="ERP Number"
+                                            variant="label-hidden"
+                                            onchange={handleOnChangeErpNum}>
+                            </lightning-input>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="slds-grid slds-wrap slds-gutters">
+                    <div class="slds-col slds-size_1-of-6 field-title">
+                        <span>
+                            <template if:true={natureList}>
+                                <c-acc-mass-assignment-multi-picklist 
+                                    label="Nature" 
+                                    options={nature} 
+                                    onitemselected={handleOnItemSelectedNature}>
+                                </c-acc-mass-assignment-multi-picklist>
+                            </template>
+                        </span>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-6">
+                        <span>
+                            <label class="slds-form-element__label field-title">
+                                <strong> Billing Zip/Postal Code </strong>
+                            </label>
+                            <lightning-input type="text"
+                                             name="pCode"
+                                             label="Billing Zip/Postal Code"
+                                             variant="label-hidden"
+                                             onchange={handleOnChangePostalCode}>
+                            </lightning-input>
+                        </span>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-6">
+                        <span>
+                            <label class="slds-form-element__label field-title">
+                                <strong> Annual Revenue min </strong>
+                            </label>
+                            <lightning-input type="number"
+                                            name="AnnualRevenueMin"
+                                            label="Annual Revenue min"
+                                            variant="label-hidden"
+                                            onchange={handleOnChangeAnnualRevMin}>
+                            </lightning-input>
+                        </span>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-6">
+                        <span>
+                            <label class="slds-form-element__label field-title">
+                                <strong> Annual Revenue max </strong>
+                            </label>
+                            <lightning-input type="number"
+                                            name="AnnualRevenueMax"
+                                            label="Annual Revenue max"
+                                            variant="label-hidden"
+                                            onchange={handleOnChangeAnnualRevMax}>
+                            </lightning-input>
+                        </span>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-6">
+                        <span>
+                            <template if:true={retailSegList}>
+                                <c-acc-mass-assignment-multi-picklist 
+                                    label="Retail Segmentation" 
+                                    options={retailSeg} 
+                                    onitemselected={handleOnItemSelectedRetailSeg}>
+                                </c-acc-mass-assignment-multi-picklist>
+                            </template>
+                        </span>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-10">
+                        <span>
+                            <lightning-checkbox-group name="CollaborativePortal"
+                                                    label="Collaborative Portal"
+                                                    options={optionsColPortal}
+                                                    value={valueColPortal}
+                                                    onchange={handleChangeColPortal}>
+                            </lightning-checkbox-group>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="slds-grid slds-wrap slds-gutters">
+
+                    <div class="slds-col slds-size_1-of-6 field-title">
+                        <label class="slds-form-element__label field-title">
+                            <strong> No. of Stores min </strong>
+                        </label>
+                        <lightning-input type="number"
+                                        name="NumStoresMin"
+                                        label="No. of Stores min"
+                                        variant="label-hidden"
+                                        onchange={handleOnChangeNumStoresMin}>
+                        </lightning-input>
+                    </div>
+        
+                    <div class="slds-col slds-size_1-of-6">
+                        <label class="slds-form-element__label field-title">
+                            <strong> No. of Stores max </strong>
+                        </label>
+                        <lightning-input type="number"
+                                        name="NumStoresMax"
+                                        label="No. of Stores max"
+                                        variant="label-hidden"
+                                        onchange={handleOnChangeNumStoresMax}>
+                        </lightning-input>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-6">
+                        <span>
+                            <label class="slds-form-element__label field-title">
+                                <strong> Employees num. min </strong>
+                            </label>
+                            <lightning-input type="number"
+                                            name="EmployeesNumMin"
+                                            label="Employees num. min"
+                                            variant="label-hidden"
+                                            onchange={handleOnChangeEmployeesNumMin}>
+                            </lightning-input>
+                        </span>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-6">
+                        <span>
+                            <label class="slds-form-element__label field-title">
+                                <strong> Employees num. max </strong>
+                            </label>
+                            <lightning-input type="number"
+                                            name="EmployeesNumMax"
+                                            label="Employees num. max"
+                                            variant="label-hidden"
+                                            onchange={handleOnChangeEmployeesNumMax}>
+                            </lightning-input>
+                        </span>
+                    </div>
+                </div>
+            </lightning-card>
+        </lightning-card>
+
+        <lightning-card>
+            <div class="slds-grid slds-wrap">
+                <lightning-card title="Account Expertise & Core Business filters" class="slds-size_4-of-6">
+                    <div class="slds-grid slds-wrap slds-gutters paddingAccExp">
+                        <div class="slds-col slds-size_1-of-4">
+                            <span>
+                                <template if:true={expertiseList}>
+                                    <c-acc-mass-assignment-multi-picklist 
+                                        label="Expertise" 
+                                        options={expertise} 
+                                        onitemselected={handleOnItemSelectedExpertise}>
+                                    </c-acc-mass-assignment-multi-picklist>
+                                </template>
+                            </span>
+                        </div>
+
+                        <div class="slds-col slds-size_1-of-4">
+                            <span>
+                                <template if:true={accCoBusCoreBusinessList}>
+                                    <c-acc-mass-assignment-multi-picklist 
+                                        label="Core Business" 
+                                        options={accCoBusCoreBusiness} 
+                                        onitemselected={handleOnItemSelectedAccCoBusCoreBusiness}>
+                                    </c-acc-mass-assignment-multi-picklist>
+                                </template>
+                            </span>
+                        </div>
+
+                        <div class="slds-col slds-size_1-of-4">
+                            <span>
+                                <template if:true={modeList}>
+                                    <c-acc-mass-assignment-multi-picklist 
+                                        label="Mode" 
+                                        options={mode} 
+                                        onitemselected={handleOnItemSelectedMode}>
+                                    </c-acc-mass-assignment-multi-picklist>
+                                </template>
+                            </span>
+                        </div>
+
+                        <div class="slds-col slds-size_1-of-4">
+                            <span>
+                                <template if:true={productLineList}>
+                                    <c-acc-mass-assignment-multi-picklist 
+                                        label="Product Line" 
+                                        options={productLine} 
+                                        onitemselected={handleOnItemSelectedProductLine}>
+                                    </c-acc-mass-assignment-multi-picklist>
+                                </template>
+                            </span>
+                        </div>
+                    </div>
+                </lightning-card>
+
+                <lightning-card title="Account Competitor filters" class="slds-size_2-of-6">
+                    <div class="slds-grid slds-wrap slds-gutters paddingAccCom">
+                        <div class="slds-col slds-size_1-of-2">
+                            <span>
+                                <template if:true={accComBusinessList}>
+                                    <c-acc-mass-assignment-multi-picklist 
+                                        label="Core Business" 
+                                        options={accComCoreBusiness} 
+                                        onitemselected={handleOnItemSelectedAccComCoreBusiness}>
+                                    </c-acc-mass-assignment-multi-picklist>
+                                </template>
+                            </span>
+                        </div>
+
+                        <div class="slds-col slds-size_1-of-2">
+                            <span>
+                                <template if:true={competitorList}>
+                                    <c-acc-mass-assignment-multi-picklist 
+                                        label="Competitor" 
+                                        options={competitor} 
+                                        onitemselected={handleOnItemSelectedCompetitor}>
+                                    </c-acc-mass-assignment-multi-picklist>
+                                </template>
+                            </span>
+                        </div>
+                    </div>
+                </lightning-card>
+            </div>
+        </lightning-card>
+    </div>
+</template>

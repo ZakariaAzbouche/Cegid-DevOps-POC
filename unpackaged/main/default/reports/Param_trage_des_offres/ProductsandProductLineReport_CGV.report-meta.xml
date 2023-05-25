@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FAMILY</field>
+    </columns>
+    <columns>
+        <field>NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Product2.Tech_CPQ_Id__c</field>
+    </columns>
+    <columns>
+        <field>Product2.Reference_Number__c</field>
+    </columns>
+    <columns>
+        <field>ACTIVE</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>Product2.General_Terms_And_Conditions__c</field>
+    </columns>
+    <columns>
+        <field>Product2.Service_Book__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>Products and Product Line Report - CGV et  SERVICE BOOK</description>
+    <format>Tabular</format>
+    <name>Products and Product Line Report - CGV</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ProductList@Product2.Product_Line__c</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

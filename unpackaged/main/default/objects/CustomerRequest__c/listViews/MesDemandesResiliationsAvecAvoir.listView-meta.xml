@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MesDemandesResiliationsAvecAvoir</fullName>
+    <columns>NAME</columns>
+    <columns>CurrentApprover__c</columns>
+    <columns>Account__c</columns>
+    <columns>ErpNumber__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Cancellation with Credit Note</value>
+    </filters>
+    <filters>
+        <field>IsOwner__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Mes Demandes de résiliations avec avoirs</label>
+</ListView>

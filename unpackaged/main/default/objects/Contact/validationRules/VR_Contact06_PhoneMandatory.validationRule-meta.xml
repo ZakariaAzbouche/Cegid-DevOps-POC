@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Contact06_PhoneMandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND ( 
+    NOT( $User.BypassVR__c ),
+				NOT( RecordType.DeveloperName = 'Customer_User'),
+  		NOT( INCLUDES($User.List_of_VR_to_By_Pass__c,"VR_Contact06_PhoneMandatory")), 
+				$Profile.Name &lt;&gt; "System Administrator",
+				NOT (ISPICKVAL( LeadSource,"LinkedIn")),
+				ISBLANK( Direct_Phone__c ),
+				ISBLANK( Phone ),
+				ISBLANK( MobilePhone )
+				)</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>At least one phone number is mandatory</errorMessage>
+</ValidationRule>

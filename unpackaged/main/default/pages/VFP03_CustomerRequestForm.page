@@ -1,0 +1,16 @@
+<apex:page lightningStyleSheets="true"
+           standardController="CustomerRequest__c"
+           recordSetVar="customerRequests"
+           title="Customer Request Form">
+
+    <apex:includeLightning />
+   
+    <div id="lightning" style="width: 100%;
+    margin-left: auto;
+    margin-right: auto;"/>
+    <script>
+    $Lightning.use("c:CustomerRequestsFormApp", function() {
+        $Lightning.createComponent("c:customerRequestsForm", null,"lightning",function(cmp) {});
+    });
+    </script>  
+</apex:page>

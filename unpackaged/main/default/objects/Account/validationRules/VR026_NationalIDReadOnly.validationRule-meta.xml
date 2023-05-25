@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR026_NationalIDReadOnly</fullName>
+    <active>true</active>
+    <description>Les profils Cegid Sales, Cegid Sales Assistant et Sales Télémarketing ne doivent pas modifier le National ID quand il est rempli.</description>
+    <errorConditionFormula>AND(NOT($User.BypassVR__c),OR( $Profile.Name = 'Cegid Sales', $Profile.Name = 'Cegid Sales Assistant', $Profile.Name = 'Cegid Telemarketing'), NOT( ISBLANK( PRIORVALUE( National_ID__c ))), NOT(ISNEW()),  ISCHANGED(National_ID__c))</errorConditionFormula>
+    <errorDisplayField>National_ID__c</errorDisplayField>
+    <errorMessage>You don't have the necessary access rights on this field. Please, see your administrator for help.</errorMessage>
+</ValidationRule>

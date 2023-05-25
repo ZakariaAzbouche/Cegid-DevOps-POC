@@ -1,0 +1,382 @@
+{
+    "success": true,
+    "subscriptions": [
+        {
+            "entity": "Groupe CEGID",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ90-00001050",
+            "status": "Cancelled",
+            "purchaseOrder": null,
+            "usage": "",
+            "customerInternalReference": "Test Ref Client 001",
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": null,
+            "plannedDeliveryDate": null,
+            "subscriptionActivationDate": "2018-10-01",
+            "serviceActivationDate": "2018-10-01",
+            "subscriptionEndDate": "2018-09-11",
+            "initialTerm": null,
+            "autoRenew": false,
+            "renewalDate": "2018-09-11",
+            "currentTerm": null,
+            "currentTermEndDate": "2018-09-11",
+            "meanRecurringRevenue": 0,
+            "totalCustomerValue": null
+        },
+        {
+            "entity": "Groupe CEGID",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ90-00001081",
+            "status": "Pending Activation",
+            "purchaseOrder": "2020-04-30",
+            "usage": "",
+            "customerInternalReference": null,
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": "2020-04-30",
+            "plannedDeliveryDate": "2020-04-29",
+            "subscriptionActivationDate": "2020-04-30",
+            "serviceActivationDate": null,
+            "subscriptionEndDate": "2023-04-30",
+            "initialTerm": 36,
+            "autoRenew": true,
+            "renewalDate": null,
+            "currentTerm": 36,
+            "currentTermEndDate": "2023-04-30",
+            "meanRecurringRevenue": 0,
+            "totalCustomerValue": null
+        },
+        {
+            "entity": "Groupe CEGID",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ90-00001057",
+            "status": "Active",
+            "purchaseOrder": null,
+            "usage": "",
+            "customerInternalReference": null,
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": null,
+            "plannedDeliveryDate": null,
+            "subscriptionActivationDate": "2019-05-26",
+            "serviceActivationDate": "2019-05-26",
+            "subscriptionEndDate": "2022-05-26",
+            "initialTerm": 36,
+            "autoRenew": true,
+            "renewalDate": null,
+            "currentTerm": 36,
+            "currentTermEndDate": "2022-05-26",
+            "meanRecurringRevenue": 1833,
+            "totalCustomerValue": null
+        },
+        {
+            "entity": "Groupe CEGID",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ90-00001056",
+            "status": "Active",
+            "purchaseOrder": null,
+            "usage": "",
+            "customerInternalReference": null,
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": null,
+            "plannedDeliveryDate": null,
+            "subscriptionActivationDate": "2018-09-10",
+            "serviceActivationDate": "2018-09-10",
+            "subscriptionEndDate": null,
+            "initialTerm": null,
+            "autoRenew": false,
+            "renewalDate": null,
+            "currentTerm": null,
+            "currentTermEndDate": null,
+            "meanRecurringRevenue": 34.95,
+            "totalCustomerValue": null
+        },
+        {
+            "entity": "Groupe CEGID",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ90-00001055",
+            "status": "Active",
+            "purchaseOrder": null,
+            "usage": "",
+            "customerInternalReference": null,
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": null,
+            "plannedDeliveryDate": null,
+            "subscriptionActivationDate": "2018-09-10",
+            "serviceActivationDate": "2018-09-10",
+            "subscriptionEndDate": null,
+            "initialTerm": null,
+            "autoRenew": false,
+            "renewalDate": null,
+            "currentTerm": null,
+            "currentTermEndDate": null,
+            "meanRecurringRevenue": 0,
+            "totalCustomerValue": null
+        },
+        {
+            "entity": "Groupe CEGID",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ90-00001054",
+            "status": "Active",
+            "purchaseOrder": null,
+            "usage": "",
+            "customerInternalReference": null,
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": null,
+            "plannedDeliveryDate": null,
+            "subscriptionActivationDate": "2018-09-10",
+            "serviceActivationDate": "2018-09-10",
+            "subscriptionEndDate": null,
+            "initialTerm": null,
+            "autoRenew": false,
+            "renewalDate": null,
+            "currentTerm": null,
+            "currentTermEndDate": null,
+            "meanRecurringRevenue": 0,
+            "totalCustomerValue": null
+        },
+        {
+            "entity": "Groupe CEGID",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ90-00001053",
+            "status": "Active",
+            "purchaseOrder": null,
+            "usage": "",
+            "customerInternalReference": null,
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": null,
+            "plannedDeliveryDate": null,
+            "subscriptionActivationDate": "2018-10-01",
+            "serviceActivationDate": "2018-10-01",
+            "subscriptionEndDate": null,
+            "initialTerm": null,
+            "autoRenew": false,
+            "renewalDate": null,
+            "currentTerm": null,
+            "currentTermEndDate": null,
+            "meanRecurringRevenue": 0,
+            "totalCustomerValue": null
+        },
+        {
+            "entity": "Groupe CEGID",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ90-00001051",
+            "status": "Active",
+            "purchaseOrder": null,
+            "usage": "",
+            "customerInternalReference": null,
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": null,
+            "plannedDeliveryDate": null,
+            "subscriptionActivationDate": "2018-10-01",
+            "serviceActivationDate": "2018-10-01",
+            "subscriptionEndDate": null,
+            "initialTerm": null,
+            "autoRenew": false,
+            "renewalDate": null,
+            "currentTerm": null,
+            "currentTermEndDate": null,
+            "meanRecurringRevenue": 0,
+            "totalCustomerValue": null
+        },
+        {
+            "entity": "Groupe CEGID",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ90-00001049",
+            "status": "Active",
+            "purchaseOrder": null,
+            "usage": "",
+            "customerInternalReference": null,
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": null,
+            "plannedDeliveryDate": null,
+            "subscriptionActivationDate": "2018-09-30",
+            "serviceActivationDate": "2018-09-30",
+            "subscriptionEndDate": null,
+            "initialTerm": null,
+            "autoRenew": false,
+            "renewalDate": null,
+            "currentTerm": null,
+            "currentTermEndDate": null,
+            "meanRecurringRevenue": 0,
+            "totalCustomerValue": null
+        },
+        {
+            "entity": "Groupe CEGID",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ90-00001048",
+            "status": "Active",
+            "purchaseOrder": null,
+            "usage": "",
+            "customerInternalReference": null,
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": null,
+            "plannedDeliveryDate": null,
+            "subscriptionActivationDate": "2018-09-29",
+            "serviceActivationDate": "2018-09-29",
+            "subscriptionEndDate": null,
+            "initialTerm": null,
+            "autoRenew": false,
+            "renewalDate": null,
+            "currentTerm": null,
+            "currentTermEndDate": null,
+            "meanRecurringRevenue": 0,
+            "totalCustomerValue": null
+        },
+        {
+            "entity": "Groupe CEGID",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ90-00001046",
+            "status": "Draft",
+            "purchaseOrder": null,
+            "usage": "",
+            "customerInternalReference": null,
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": null,
+            "plannedDeliveryDate": null,
+            "subscriptionActivationDate": null,
+            "serviceActivationDate": null,
+            "subscriptionEndDate": null,
+            "initialTerm": 6,
+            "autoRenew": false,
+            "renewalDate": null,
+            "currentTerm": null,
+            "currentTermEndDate": null,
+            "meanRecurringRevenue": null,
+            "totalCustomerValue": null
+        },
+        {
+            "entity": "_CEGID Tests",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ91-00000003",
+            "status": "Active",
+            "purchaseOrder": null,
+            "usage": "",
+            "customerInternalReference": null,
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": null,
+            "plannedDeliveryDate": null,
+            "subscriptionActivationDate": "2017-10-11",
+            "serviceActivationDate": "2017-10-11",
+            "subscriptionEndDate": "2020-10-11",
+            "initialTerm": 36,
+            "autoRenew": true,
+            "renewalDate": null,
+            "currentTerm": 36,
+            "currentTermEndDate": "2020-10-11",
+            "meanRecurringRevenue": 99,
+            "totalCustomerValue": null
+        },
+        {
+            "entity": "_CEGID Tests",
+            "customer": {
+                "Id": "98671965-056-00",
+                "name": "JOALINE COQUILLAGES",
+                "currency": "EUR"
+            },
+            "subscriptionId": "ASZ91-00000004",
+            "status": "Active",
+            "purchaseOrder": null,
+            "usage": "",
+            "customerInternalReference": null,
+            "invoicedAccount": {
+                "Id": "98671965-056-00",
+                "name": null
+            },
+            "targetDeliveryDate": null,
+            "plannedDeliveryDate": null,
+            "subscriptionActivationDate": "2017-10-11",
+            "serviceActivationDate": "2017-10-11",
+            "subscriptionEndDate": "2020-10-11",
+            "initialTerm": 36,
+            "autoRenew": true,
+            "renewalDate": null,
+            "currentTerm": 36,
+            "currentTermEndDate": "2020-10-11",
+            "meanRecurringRevenue": 8170,
+            "totalCustomerValue": null
+        }
+    ]
+}

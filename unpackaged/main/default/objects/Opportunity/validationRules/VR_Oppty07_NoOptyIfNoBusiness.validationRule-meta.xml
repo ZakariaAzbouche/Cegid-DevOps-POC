@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty07_NoOptyIfNoBusiness</fullName>
+    <active>true</active>
+    <description>No possible creation of opportunity on a "no business" account</description>
+    <errorConditionFormula>AND (
+NOT( $User.BypassVR__c ),
+				ISNEW(), 
+				 Account.No_Business__c 
+				)</errorConditionFormula>
+    <errorMessage>You can't create an opportunity on this "no business" account.</errorMessage>
+</ValidationRule>

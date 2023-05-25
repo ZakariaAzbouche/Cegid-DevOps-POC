@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBT__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Self Booking Tool</inlineHelpText>
+    <label>SBT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CONCUR</fullName>
+                <default>false</default>
+                <label>CONCUR</label>
+            </value>
+            <value>
+                <fullName>Cytric</fullName>
+                <default>false</default>
+                <label>Cytric</label>
+            </value>
+            <value>
+                <fullName>Egencia</fullName>
+                <default>false</default>
+                <label>Egencia</label>
+            </value>
+            <value>
+                <fullName>GETHERE</fullName>
+                <default>false</default>
+                <label>GETHERE</label>
+            </value>
+            <value>
+                <fullName>Goelett</fullName>
+                <default>false</default>
+                <label>Goelett</label>
+            </value>
+            <value>
+                <fullName>KDS Neo</fullName>
+                <default>false</default>
+                <label>KDS Neo</label>
+            </value>
+            <value>
+                <fullName>Navan</fullName>
+                <default>false</default>
+                <label>Navan</label>
+            </value>
+            <value>
+                <fullName>Notilus Booking Tool</fullName>
+                <default>false</default>
+                <label>Notilus Booking Tool</label>
+            </value>
+            <value>
+                <fullName>Supertripper</fullName>
+                <default>false</default>
+                <label>Supertripper</label>
+            </value>
+            <value>
+                <fullName>TRAVELDOO</fullName>
+                <default>false</default>
+                <label>TRAVELDOO</label>
+            </value>
+            <value>
+                <fullName>TravelPerk</fullName>
+                <default>false</default>
+                <label>TravelPerk</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

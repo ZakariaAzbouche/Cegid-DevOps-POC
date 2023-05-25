@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table bgcolor="white" cellpadding="0" cellspacing="0" width="640">
+	
+		<tr>
+			<td><br />
+<span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;"><span style="color:#002c52;">Bonjour {{{Recipient.Salutation}}} {{{Recipient.LastName}}},<br />
+<br />
+Nous avons bien reçu votre demande et vous remercions de l’intérêt que vous portez à Cegid.<br />
+<br />
+Vous vous invitons à consulter toutes les informations utiles mises à disposition du public sur le site </span><a href="http://www.cegid.com"><span style="color:#002c52;"><b>www.cegid.com</b></span></a><span style="color:#002c52;">.<br />
+<br />
+<br />
+Très cordialement,<br />
+<br />
+Les équipes Cegid</span></span>
+</td></tr></table></body></html>

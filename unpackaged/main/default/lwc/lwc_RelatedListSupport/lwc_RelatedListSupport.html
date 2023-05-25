@@ -1,0 +1,109 @@
+<!-- sldsValidatorIgnore -->
+<!-- sldsValidatorIgnore -->
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 05-15-2023
+  @last modified by  : MAIT - @moidriss
+-->
+<template>
+
+    <template if:true={displayPopup}>
+        <!-- Modal/Popup Box LWC starts here -->
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <!-- Modal/Popup Box LWC header here -->
+                <header class="slds-modal__header">
+                    <button onclick={closePopup} class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse">
+                        <lightning-icon icon-name="utility:close"
+                            alternative-text="close"
+                            variant="inverse"
+                            size="small" ></lightning-icon>
+                        <span class="slds-assistive-text">Close</span>
+                    </button>
+                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">{title}</h2>
+                </header>
+                <!-- Modal/Popup Box LWC body starts here -->
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                    <div if:true={sending}>
+                        <div class="demo-only demo-only_viewport" style="height:6rem;position:relative">
+                            <div role="status" class="slds-spinner slds-spinner_medium">
+                              <span class="slds-assistive-text">Loading</span>
+                              <div class="slds-spinner__dot-a"></div>
+                              <div class="slds-spinner__dot-b"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div if:true={error}>
+                        <div style="display: flex; align-items: center; gap: 10px; padding: 10px; border: 1px solid rgb(244, 67, 54); border-radius: 10px;">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24" height="24"><path fill="#f44336" d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"/><path fill="#fff" d="M29.656,15.516l2.828,2.828l-14.14,14.14l-2.828-2.828L29.656,15.516z"/><path fill="#fff" d="M32.484,29.656l-2.828,2.828l-14.14-14.14l2.828-2.828L32.484,29.656z"/></svg>                            </div>
+                            <div style="color: rgb(244, 67, 54);
+                            font-weight: 500;
+                            font-size: 14px;">
+                                {errorMsgRaise}
+                            </div>
+                        </div>
+                    </div>
+                    <div if:true={displayInput}>
+                        <div>
+                            <lightning-textarea name="reason" label="Reason" required="true" placeholder="Reason..." onchange={handleTextArea}></lightning-textarea>
+                        </div>
+                    </div>
+                    <div if:true={success}>
+                        <div style="display: flex; align-items: center; gap: 10px; justify-content: center">
+                            <div class="success">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48px" height="48px"><path style="fill: #1DBC60" d="M 12 2 C 6.5 2 2 6.5 2 12 C 2 17.5 6.5 22 12 22 C 17.5 22 22 17.5 22 12 C 22 10.9 21.8 9.8007812 21.5 8.8007812 L 19.800781 10.400391 C 19.900781 10.900391 20 11.4 20 12 C 20 16.4 16.4 20 12 20 C 7.6 20 4 16.4 4 12 C 4 7.6 7.6 4 12 4 C 13.6 4 15.100391 4.5007812 16.400391 5.3007812 L 17.800781 3.9003906 C 16.200781 2.7003906 14.2 2 12 2 z M 21.300781 3.3007812 L 11 13.599609 L 7.6992188 10.300781 L 6.3007812 11.699219 L 11 16.400391 L 22.699219 4.6992188 L 21.300781 3.3007812 z"/></svg>                            </div>
+                            <div style="font-weight: 700; color: #1DBC60; font-size: 18px;">
+                                Raise successfuly sent for Case {currentCaseNumber}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal/Popup Box LWC footer starts here -->
+                <footer if:true={displayInput} class="slds-modal__footer">
+                    <lightning-button label="Cancel" name="cancel" title="cancel" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+                    <lightning-button variant="brand" name="send" label="Send" title="send" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+    
+    <lightning-card
+            variant="narrow"
+            icon-name="action:new_opportunity">
+        <div style="display: flex; align-items: center;" slot="title">
+            <span>Cases ({totalRows})</span>
+            <div style="display: flex; gap: 5px;">
+                <lightning-button label="Show Details" title="Show Details" onclick={showDetails} class="slds-m-left_medium"></lightning-button>
+                <button class="slds-button slds-button--brand" onclick={downloadCsv}>Download As CSV</button>
+            </div>
+        </div>
+        <template if:true={wait}>
+            <lightning-spinner variant="brand" size="medium"></lightning-spinner>
+        </template>
+        <template if:true={canDisplay}>
+            <div class="slds-m-around_small">
+                <template if:true={data}>
+                    <lightning-datatable data={data}
+                                         columns={columns}
+                                         key-field="id"
+                                         hide-checkbox-column="true"
+                                         onsort={handleSorting}
+                                         onrowaction={handleRowAction}
+                                         sorted-by={sortByField}  
+                                         sorted-direction={sortedDirection}>
+                    </lightning-datatable>
+                </template>
+            </div>
+            <template if:true={errorMsg}>
+                <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert">
+                    <h2>{errorMsg}</h2>
+                </div>
+            </template>
+        </template>
+    </lightning-card>
+
+</template>

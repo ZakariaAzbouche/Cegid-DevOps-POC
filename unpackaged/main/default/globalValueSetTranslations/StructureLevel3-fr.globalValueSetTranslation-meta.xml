@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Certification</masterLabel>
+        <translation><!-- Certification --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consumables</masterLabel>
+        <translation><!-- Consumables --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Content delivery</masterLabel>
+        <translation><!-- Content delivery --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Custom software development (embedded in standard)</masterLabel>
+        <translation><!-- Custom software development (embedded in standard) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Custom software development ©</masterLabel>
+        <translation><!-- Custom software development © --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Data transfer &amp; software interface</masterLabel>
+        <translation><!-- Data transfer &amp; software interface --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Entry fee</masterLabel>
+        <translation><!-- Entry fee --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Funding</masterLabel>
+        <translation><!-- Funding --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hardware</masterLabel>
+        <translation><!-- Hardware --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hardware maintenance</masterLabel>
+        <translation><!-- Hardware maintenance --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Infrastructure support contract</masterLabel>
+        <translation><!-- Infrastructure support contract --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inhouse Licenses</masterLabel>
+        <translation><!-- Inhouse Licenses --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Licence - Third Party Application Maintenance</masterLabel>
+        <translation><!-- Licence - Third Party Application Maintenance --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Off contract support</masterLabel>
+        <translation><!-- Off contract support --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>On Cegid Center in-class courses</masterLabel>
+        <translation>Session sur site CEGID</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>On-site training</masterLabel>
+        <translation><!-- On-site training --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>One-off SaaS operation</masterLabel>
+        <translation><!-- One-off SaaS operation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partner Agreement</masterLabel>
+        <translation><!-- Partner Agreement --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Portal</masterLabel>
+        <translation><!-- Portal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Preparation and shipment</masterLabel>
+        <translation><!-- Preparation and shipment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Project Management (provided by Cegid)</masterLabel>
+        <translation><!-- Project Management (provided by Cegid) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Project Management (provided by partner)</masterLabel>
+        <translation><!-- Project Management (provided by partner) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Publishing</masterLabel>
+        <translation><!-- Publishing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Remote services</masterLabel>
+        <translation><!-- Remote services --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Remote training</masterLabel>
+        <translation>Formation à distance</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rental</masterLabel>
+        <translation><!-- Rental --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SaaS (provided by Cegid)</masterLabel>
+        <translation><!-- SaaS (provided by Cegid) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SaaS (provided by partner)</masterLabel>
+        <translation><!-- SaaS (provided by partner) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SaaS - Third Party Application Maintenance</masterLabel>
+        <translation><!-- SaaS - Third Party Application Maintenance --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Set-up</masterLabel>
+        <translation><!-- Set-up --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Software set-up &amp; configuration</masterLabel>
+        <translation><!-- Software set-up &amp; configuration --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Subcontracting</masterLabel>
+        <translation><!-- Subcontracting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Subscription</masterLabel>
+        <translation><!-- Subscription --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Support contract</masterLabel>
+        <translation><!-- Support contract --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>System</masterLabel>
+        <translation><!-- System --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>System &amp; Database</masterLabel>
+        <translation><!-- System &amp; Database --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>System support contract  (provided by Cegid)</masterLabel>
+        <translation><!-- System support contract  (provided by Cegid) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Travel expenses (provided by Cegid)</masterLabel>
+        <translation><!-- Travel expenses (provided by Cegid) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>eLearning</masterLabel>
+        <translation><!-- eLearning --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

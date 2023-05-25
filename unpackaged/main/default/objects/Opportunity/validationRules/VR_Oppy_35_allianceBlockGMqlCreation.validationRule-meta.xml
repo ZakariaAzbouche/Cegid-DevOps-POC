@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppy_35_allianceBlockGMqlCreation</fullName>
+    <active>true</active>
+    <description>Cette VR a pour but de blocker la création d'opportunité en stage G - MQL par un utilisateur Sales Alliance, PAM et SDR</description>
+    <errorConditionFormula>AND(
+				NOT($User.BypassVR__c),
+NOT(CONTAINS( Name , "Amendment for contract")) ,
+				OR(
+								$Permission.Alliance_permission,
+				    $Permission.PRMSalesUsers,
+				    $Permission.SDR_Lead_treatment
+				), 
+				Oppy_converted_from_Lead__c == false,
+				ISNEW(),
+				ISPICKVAL(StageName, "G - MQL")
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>You can't use the G - MQL stage.</errorMessage>
+</ValidationRule>

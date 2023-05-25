@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Academy__c</fullName>
+    <externalId>false</externalId>
+    <label>Academy</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Academy of Polynésie française</fullName>
+                <default>false</default>
+                <label>Academy of Polynésie française</label>
+            </value>
+            <value>
+                <fullName>Academy of Aix-Marseille</fullName>
+                <default>false</default>
+                <label>Academy of Aix-Marseille</label>
+            </value>
+            <value>
+                <fullName>Academy of Amiens</fullName>
+                <default>false</default>
+                <label>Academy of Amiens</label>
+            </value>
+            <value>
+                <fullName>Academy of Orléans-Tours</fullName>
+                <default>false</default>
+                <label>Academy of Orléans-Tours</label>
+            </value>
+            <value>
+                <fullName>Academy of Besançon</fullName>
+                <default>false</default>
+                <label>Academy of Besançon</label>
+            </value>
+            <value>
+                <fullName>Academy of Bordeaux</fullName>
+                <default>false</default>
+                <label>Academy of Bordeaux</label>
+            </value>
+            <value>
+                <fullName>Academy of Caen</fullName>
+                <default>false</default>
+                <label>Academy of Caen</label>
+            </value>
+            <value>
+                <fullName>Academy of Clermont-Ferrand</fullName>
+                <default>false</default>
+                <label>Academy of Clermont-Ferrand</label>
+            </value>
+            <value>
+                <fullName>Academy of Corse</fullName>
+                <default>false</default>
+                <label>Academy of Corse</label>
+            </value>
+            <value>
+                <fullName>Academy of Créteil</fullName>
+                <default>false</default>
+                <label>Academy of Créteil</label>
+            </value>
+            <value>
+                <fullName>Academy of Dijon</fullName>
+                <default>false</default>
+                <label>Academy of Dijon</label>
+            </value>
+            <value>
+                <fullName>Academy of Grenoble</fullName>
+                <default>false</default>
+                <label>Academy of Grenoble</label>
+            </value>
+            <value>
+                <fullName>Academy of Guadeloupe</fullName>
+                <default>false</default>
+                <label>Academy of Guadeloupe</label>
+            </value>
+            <value>
+                <fullName>Academy of Guyane</fullName>
+                <default>false</default>
+                <label>Academy of Guyane</label>
+            </value>
+            <value>
+                <fullName>Academy of Lille</fullName>
+                <default>false</default>
+                <label>Academy of Lille</label>
+            </value>
+            <value>
+                <fullName>Academy of Limoges</fullName>
+                <default>false</default>
+                <label>Academy of Limoges</label>
+            </value>
+            <value>
+                <fullName>Academy of Lyon</fullName>
+                <default>false</default>
+                <label>Academy of Lyon</label>
+            </value>
+            <value>
+                <fullName>Academy of Martinique</fullName>
+                <default>false</default>
+                <label>Academy of Martinique</label>
+            </value>
+            <value>
+                <fullName>Academy of Mayotte</fullName>
+                <default>false</default>
+                <label>Academy of Mayotte</label>
+            </value>
+            <value>
+                <fullName>Academy of Montpellier</fullName>
+                <default>false</default>
+                <label>Academy of Montpellier</label>
+            </value>
+            <value>
+                <fullName>Academy of Nancy-Metz</fullName>
+                <default>false</default>
+                <label>Academy of Nancy-Metz</label>
+            </value>
+            <value>
+                <fullName>Academy of Nantes</fullName>
+                <default>false</default>
+                <label>Academy of Nantes</label>
+            </value>
+            <value>
+                <fullName>Academy of Nice</fullName>
+                <default>false</default>
+                <label>Academy of Nice</label>
+            </value>
+            <value>
+                <fullName>Academy of Nouvelle-Calédonie</fullName>
+                <default>false</default>
+                <label>Academy of Nouvelle-Calédonie</label>
+            </value>
+            <value>
+                <fullName>Academy of Paris</fullName>
+                <default>false</default>
+                <label>Academy of Paris</label>
+            </value>
+            <value>
+                <fullName>Academy of Poitiers</fullName>
+                <default>false</default>
+                <label>Academy of Poitiers</label>
+            </value>
+            <value>
+                <fullName>Academy of Reims</fullName>
+                <default>false</default>
+                <label>Academy of Reims</label>
+            </value>
+            <value>
+                <fullName>Academy of Rennes</fullName>
+                <default>false</default>
+                <label>Academy of Rennes</label>
+            </value>
+            <value>
+                <fullName>Academy of Rouen</fullName>
+                <default>false</default>
+                <label>Academy of Rouen</label>
+            </value>
+            <value>
+                <fullName>Academy of Strasbourg</fullName>
+                <default>false</default>
+                <label>Academy of Strasbourg</label>
+            </value>
+            <value>
+                <fullName>Academy of Toulouse</fullName>
+                <default>false</default>
+                <label>Academy of Toulouse</label>
+            </value>
+            <value>
+                <fullName>Academy of Versailles</fullName>
+                <default>false</default>
+                <label>Academy of Versailles</label>
+            </value>
+            <value>
+                <fullName>Academy of La Réunion</fullName>
+                <default>false</default>
+                <label>Academy of La Réunion</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>School_Level__c</fullName>
+    <externalId>false</externalId>
+    <label>School Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BAC PRO</fullName>
+                <default>false</default>
+                <label>BAC PRO</label>
+            </value>
+            <value>
+                <fullName>BAC PRO services</fullName>
+                <default>false</default>
+                <label>BAC PRO services</label>
+            </value>
+            <value>
+                <fullName>BEP</fullName>
+                <default>false</default>
+                <label>BEP</label>
+            </value>
+            <value>
+                <fullName>BTS</fullName>
+                <default>false</default>
+                <label>BTS</label>
+            </value>
+            <value>
+                <fullName>BTS CG</fullName>
+                <default>false</default>
+                <label>BTS CG</label>
+            </value>
+            <value>
+                <fullName>BTS GPME</fullName>
+                <default>false</default>
+                <label>BTS GPME</label>
+            </value>
+            <value>
+                <fullName>BTS Industriels</fullName>
+                <default>false</default>
+                <label>BTS Industriels</label>
+            </value>
+            <value>
+                <fullName>BTS NDRC</fullName>
+                <default>false</default>
+                <label>BTS NDRC</label>
+            </value>
+            <value>
+                <fullName>BTS SAM</fullName>
+                <default>false</default>
+                <label>BTS SAM</label>
+            </value>
+            <value>
+                <fullName>BTS Tertiaires</fullName>
+                <default>false</default>
+                <label>BTS Tertiaires</label>
+            </value>
+            <value>
+                <fullName>BTS commerce international</fullName>
+                <default>false</default>
+                <label>BTS commerce international</label>
+            </value>
+            <value>
+                <fullName>BTS hotellerie-restauration</fullName>
+                <default>false</default>
+                <label>BTS hotellerie-restauration</label>
+            </value>
+            <value>
+                <fullName>BTSMCO</fullName>
+                <default>false</default>
+                <label>BTSMCO</label>
+            </value>
+            <value>
+                <fullName>Bac</fullName>
+                <default>false</default>
+                <label>Bac</label>
+            </value>
+            <value>
+                <fullName>Bac + 2</fullName>
+                <default>false</default>
+                <label>Bac + 2</label>
+            </value>
+            <value>
+                <fullName>Bac + 3</fullName>
+                <default>false</default>
+                <label>Bac + 3</label>
+            </value>
+            <value>
+                <fullName>Bac + 4</fullName>
+                <default>false</default>
+                <label>Bac + 4</label>
+            </value>
+            <value>
+                <fullName>Bac + 5 et +</fullName>
+                <default>false</default>
+                <label>Bac + 5 et +</label>
+            </value>
+            <value>
+                <fullName>Bac Hôtellerie Restauration</fullName>
+                <default>false</default>
+                <label>Bac Hôtellerie Restauration</label>
+            </value>
+            <value>
+                <fullName>Bac STMG</fullName>
+                <default>false</default>
+                <label>Bac STMG</label>
+            </value>
+            <value>
+                <fullName>Bac pro ARCU</fullName>
+                <default>false</default>
+                <label>Bac pro ARCU</label>
+            </value>
+            <value>
+                <fullName>Bac pro GA</fullName>
+                <default>false</default>
+                <label>Bac pro GA</label>
+            </value>
+            <value>
+                <fullName>CAP</fullName>
+                <default>false</default>
+                <label>CAP</label>
+            </value>
+            <value>
+                <fullName>DCG</fullName>
+                <default>false</default>
+                <label>DCG</label>
+            </value>
+            <value>
+                <fullName>DSCG</fullName>
+                <default>false</default>
+                <label>DSCG</label>
+            </value>
+            <value>
+                <fullName>DUT</fullName>
+                <default>false</default>
+                <label>DUT</label>
+            </value>
+            <value>
+                <fullName>DUT GEA</fullName>
+                <default>false</default>
+                <label>DUT GEA</label>
+            </value>
+            <value>
+                <fullName>DUT GLT</fullName>
+                <default>false</default>
+                <label>DUT GLT</label>
+            </value>
+            <value>
+                <fullName>DUT QUO</fullName>
+                <default>false</default>
+                <label>DUT QUO</label>
+            </value>
+            <value>
+                <fullName>Dut QLIO</fullName>
+                <default>false</default>
+                <label>Dut QLIO</label>
+            </value>
+            <value>
+                <fullName>Licence PRO</fullName>
+                <default>false</default>
+                <label>Licence PRO</label>
+            </value>
+            <value>
+                <fullName>Licence Pro PAIE / RH</fullName>
+                <default>false</default>
+                <label>Licence Pro PAIE / RH</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Function__c</columns>
+    <columns>FunctionId__c</columns>
+    <columns>service__c</columns>
+    <columns>BuyerPersonaCPA__c</columns>
+    <columns>BuyerPersonaEducation__c</columns>
+    <columns>BuyerPersonaERPHigh__c</columns>
+    <columns>BuyerPersonaERPMiddle__c</columns>
+    <columns>BuyerPersonaHCM__c</columns>
+    <columns>BuyerPersonaPortailTPE__c</columns>
+    <columns>BuyerPersonaRetail__c</columns>
+    <columns>BuyerPersonaSMB__c</columns>
+    <columns>BuyerPersonaTAX__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

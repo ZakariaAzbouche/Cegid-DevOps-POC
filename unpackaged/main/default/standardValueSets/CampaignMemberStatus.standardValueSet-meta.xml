@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Abandoned project</fullName>
+        <default>false</default>
+        <label>Abandoned project</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Add to nurturing</fullName>
+        <default>false</default>
+        <label>Add to nurturing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Already a client</fullName>
+        <default>false</default>
+        <label>Already a client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Already created opportunity</fullName>
+        <default>false</default>
+        <label>Already created opportunity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Asked for a demo</fullName>
+        <default>false</default>
+        <label>Asked for a demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>A téléchargé Ebook-baromètre IDC</fullName>
+        <default>false</default>
+        <label>A téléchargé Ebook-baromètre IDC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended</fullName>
+        <default>false</default>
+        <label>Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended Co-Event</fullName>
+        <default>false</default>
+        <label>Attended Co-Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>attended live private webdemos</fullName>
+        <default>false</default>
+        <label>attended live private webdemos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended On-demand</fullName>
+        <default>false</default>
+        <label>Attended On-demand</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended Workshop</fullName>
+        <default>false</default>
+        <label>Attended Workshop</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attending</fullName>
+        <default>false</default>
+        <label>Attending</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BANT reject - authority</fullName>
+        <default>false</default>
+        <label>BANT reject - authority</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BANT reject - budget</fullName>
+        <default>false</default>
+        <label>BANT reject - budget</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BANT reject - need (funct. perimeter)</fullName>
+        <default>false</default>
+        <label>BANT reject - need (funct. perimeter)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BANT reject - need (intern. perimeter)</fullName>
+        <default>false</default>
+        <label>BANT reject - need (intern. perimeter)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BANT reject - need (technology)</fullName>
+        <default>false</default>
+        <label>BANT reject - need (technology)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BANT reject - timing</fullName>
+        <default>false</default>
+        <label>BANT reject - timing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bounced</fullName>
+        <default>false</default>
+        <label>Bounced</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bounces</fullName>
+        <default>false</default>
+        <label>Bounces</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Checklist-6 raisons ERP dépassé</fullName>
+        <default>false</default>
+        <label>Checklist-6 raisons ERP dépassé</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clciked</fullName>
+        <default>false</default>
+        <label>Clciked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked</fullName>
+        <default>false</default>
+        <label>Clicked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked Multiple Times</fullName>
+        <default>false</default>
+        <label>Clicked Multiple Times</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked on multiple links</fullName>
+        <default>false</default>
+        <label>Clicked on multiple links</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competition</fullName>
+        <default>false</default>
+        <label>Competition</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contact-Account manager</fullName>
+        <default>false</default>
+        <label>Contact-Account manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Content Syndication Downloaded</fullName>
+        <default>false</default>
+        <label>Content Syndication Downloaded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Converted</fullName>
+        <default>false</default>
+        <label>Converted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Converted - Has viewed entire video</fullName>
+        <default>false</default>
+        <label>Converted - Has viewed entire video</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Croissance externe</fullName>
+        <default>false</default>
+        <label>Croissance externe</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Delivered</fullName>
+        <default>false</default>
+        <label>Delivered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Delivred</fullName>
+        <default>false</default>
+        <label>Delivred</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Démo flash thématique stand</fullName>
+        <default>false</default>
+        <label>Démo flash thématique stand</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Développement de l&apos;activité</fullName>
+        <default>false</default>
+        <label>Développement de l&apos;activité</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dossier Télétravail et SaaS</fullName>
+        <default>false</default>
+        <label>Dossier Télétravail et SaaS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Downloaded</fullName>
+        <default>false</default>
+        <label>Downloaded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+        <label>Duplicate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ebook-Intrapreneur a succes</fullName>
+        <default>false</default>
+        <label>Ebook-Intrapreneur a succes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engaged</fullName>
+        <default>false</default>
+        <label>Engaged</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engaged - 25</fullName>
+        <default>false</default>
+        <label>Engaged - 25</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engaged - 50</fullName>
+        <default>false</default>
+        <label>Engaged - 50</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engaged - 75</fullName>
+        <default>false</default>
+        <label>Engaged - 75</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engaged - Has viewed 25 percent of video</fullName>
+        <default>false</default>
+        <label>Engaged - Has viewed 25 percent of video</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engaged - Has viewed 50 percent of video</fullName>
+        <default>false</default>
+        <label>Engaged - Has viewed 50 percent of video</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engaged - Has viewed 75 percent of video</fullName>
+        <default>false</default>
+        <label>Engaged - Has viewed 75 percent of video</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engaged - Start</fullName>
+        <default>false</default>
+        <label>Engaged - Start</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Envoyé</fullName>
+        <default>false</default>
+        <label>Envoyé</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Filled out form</fullName>
+        <default>false</default>
+        <label>Filled out form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Filled out form (Asked to be contacted)</fullName>
+        <default>false</default>
+        <label>Filled out form (Asked to be contacted)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Free trial</fullName>
+        <default>false</default>
+        <label>Free trial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Free trial and Contact Account manager</fullName>
+        <default>false</default>
+        <label>Free trial and Contact Account manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Goal missed</fullName>
+        <default>false</default>
+        <label>Goal missed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Goal reached</fullName>
+        <default>false</default>
+        <label>Goal reached</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Guide de la conformité</fullName>
+        <default>false</default>
+        <label>Guide de la conformité</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IBM - Opportunity to be generated</fullName>
+        <default>false</default>
+        <label>IBM - Opportunity to be generated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IBM – Opportunity to be generated</fullName>
+        <default>false</default>
+        <label>IBM – Opportunity to be generated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Incomplete data</fullName>
+        <default>false</default>
+        <label>Incomplete data</label>
+    </standardValue>
+    <standardValue>
+        <fullName>In progress</fullName>
+        <default>false</default>
+        <label>In progress</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invitation gratuite pour le salon</fullName>
+        <default>false</default>
+        <label>Invitation gratuite pour le salon</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited</fullName>
+        <default>false</default>
+        <label>Invited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited by Sales</fullName>
+        <default>false</default>
+        <label>Invited by Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead qualified</fullName>
+        <default>false</default>
+        <label>Lead qualified</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Leads added</fullName>
+        <default>false</default>
+        <label>Leads added</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Leads SFDC</fullName>
+        <default>false</default>
+        <label>Leads SFDC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Levée de fonds</fullName>
+        <default>false</default>
+        <label>Levée de fonds</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Livre blanc-plateforme ERP Cloud-Crise</fullName>
+        <default>false</default>
+        <label>Livre blanc-plateforme ERP Cloud-Crise</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Livre blanc- transformation digitale</fullName>
+        <default>false</default>
+        <label>Livre blanc- transformation digitale</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LP visited</fullName>
+        <default>false</default>
+        <label>LP visited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting generated</fullName>
+        <default>false</default>
+        <label>Meeting generated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>meeting SFDC</fullName>
+        <default>false</default>
+        <label>meeting SFDC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting with Sales</fullName>
+        <default>false</default>
+        <label>Meeting with Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member</fullName>
+        <default>false</default>
+        <label>Member</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member 1</fullName>
+        <default>false</default>
+        <label>Member 1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ne vient pas a SRH, mais recontact</fullName>
+        <default>false</default>
+        <label>Ne vient pas a SRH, mais recontact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nomination</fullName>
+        <default>false</default>
+        <label>Nomination</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Non commercial request</fullName>
+        <default>false</default>
+        <label>Non commercial request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show</fullName>
+        <default>false</default>
+        <label>No Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not interested</fullName>
+        <default>false</default>
+        <label>Not interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not the good lead owner</fullName>
+        <default>false</default>
+        <label>Not the good lead owner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nouveau site</fullName>
+        <default>false</default>
+        <label>Nouveau site</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Off target</fullName>
+        <default>false</default>
+        <label>Off target</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened</fullName>
+        <default>false</default>
+        <label>Opened</label>
+    </standardValue>
+    <standardValue>
+        <fullName>participated live webdemos</fullName>
+        <default>false</default>
+        <label>participated live webdemos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending</fullName>
+        <default>false</default>
+        <label>Pending</label>
+    </standardValue>
+    <standardValue>
+        <fullName>project detection</fullName>
+        <default>false</default>
+        <label>project detection</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RDV avec un expert sur place</fullName>
+        <default>false</default>
+        <label>RDV avec un expert sur place</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Received</fullName>
+        <default>false</default>
+        <label>Received</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered On-demand</fullName>
+        <default>false</default>
+        <label>Registered On-demand</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registration Error</fullName>
+        <default>false</default>
+        <label>Registration Error</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>Rejected</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected / Send to nurturing</fullName>
+        <default>false</default>
+        <label>Rejected / Send to nurturing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Répondu</fullName>
+        <default>false</default>
+        <label>Répondu</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded SMS</fullName>
+        <default>false</default>
+        <label>Responded SMS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scan badge / appli salon</fullName>
+        <default>false</default>
+        <label>Scan badge / appli salon</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Signed for the competition</fullName>
+        <default>false</default>
+        <label>Signed for the competition</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SMB interested</fullName>
+        <default>false</default>
+        <label>SMB interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Software Partner</fullName>
+        <default>false</default>
+        <label>Software Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Stakeholder</fullName>
+        <default>false</default>
+        <label>Stakeholder</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Student</fullName>
+        <default>false</default>
+        <label>Student</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Targeted</fullName>
+        <default>false</default>
+        <label>Targeted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TPE Interested</fullName>
+        <default>false</default>
+        <label>TPE Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unreachable</fullName>
+        <default>false</default>
+        <label>Unreachable</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unsubscribed</fullName>
+        <default>false</default>
+        <label>Unsubscribed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visited</fullName>
+        <default>false</default>
+        <label>Visited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visited Booth</fullName>
+        <default>false</default>
+        <label>Visited Booth</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visited  Booth</fullName>
+        <default>false</default>
+        <label>Visited  Booth</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visited page</fullName>
+        <default>false</default>
+        <label>Visited page</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Waitlisted</fullName>
+        <default>false</default>
+        <label>Waitlisted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wanted Callback</fullName>
+        <default>false</default>
+        <label>Wanted Callback</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Watched  - 50</fullName>
+        <default>false</default>
+        <label>Watched  - 50</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Watched full Video</fullName>
+        <default>false</default>
+        <label>Watched full Video</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Watched - Start</fullName>
+        <default>false</default>
+        <label>Watched - Start</label>
+    </standardValue>
+    <standardValue>
+        <fullName>watching replays</fullName>
+        <default>false</default>
+        <label>watching replays</label>
+    </standardValue>
+</StandardValueSet>

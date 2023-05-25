@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Déclaratif Royalties</label>
+        <name>Declarative_Royalties__c</name>
+        <picklistValues>
+            <masterLabel>146-CARLABELLA RECURRENT</masterLabel>
+            <translation><!-- 146-CARLABELLA RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ABBYY</masterLabel>
+            <translation><!-- ABBYY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACL Optim’Fec</masterLabel>
+            <translation><!-- ACL Optim’Fec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACUMATICA</masterLabel>
+            <translation><!-- ACUMATICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALTARES</masterLabel>
+            <translation><!-- ALTARES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALTAVEN RECURRENT</masterLabel>
+            <translation><!-- ALTAVEN RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMADEUS</masterLabel>
+            <translation><!-- AMADEUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARKHINEO</masterLabel>
+            <translation><!-- ARKHINEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARKOON RECURRENT</masterLabel>
+            <translation><!-- ARKOON RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARROW ECS (EX OPENWAY BO)</masterLabel>
+            <translation><!-- ARROW ECS (EX OPENWAY BO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANKIN</masterLabel>
+            <translation><!-- BANKIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BROADBEAN</masterLabel>
+            <translation><!-- BROADBEAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bridge - DSP2</masterLabel>
+            <translation><!-- Bridge - DSP2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C3S Info - Baccara</masterLabel>
+            <translation><!-- C3S Info - Baccara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CARLABELLA DI/DP RECURRENT</masterLabel>
+            <translation><!-- CARLABELLA DI/DP RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CARLABELLA RECURRENT</masterLabel>
+            <translation><!-- CARLABELLA RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CARLABELLA SAAS</masterLabel>
+            <translation><!-- CARLABELLA SAAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAWEB</masterLabel>
+            <translation><!-- CAWEB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDC FAST</masterLabel>
+            <translation><!-- CDC FAST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHORUS EDOC</masterLabel>
+            <translation><!-- CHORUS EDOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLEARNOX</masterLabel>
+            <translation><!-- CLEARNOX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMPTANOO</masterLabel>
+            <translation><!-- COMPTANOO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMPUTER ASSOCIATES RECURRENT</masterLabel>
+            <translation><!-- COMPUTER ASSOCIATES RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONNECTIVE</masterLabel>
+            <translation><!-- CONNECTIVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRIS / GOTO RECURRENT</masterLabel>
+            <translation><!-- CRIS / GOTO RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRONOFY</masterLabel>
+            <translation><!-- CRONOFY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cecurity XRP Ultimate</masterLabel>
+            <translation><!-- Cecurity XRP Ultimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DOCLINK</masterLabel>
+            <translation><!-- DOCLINK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DYNAMSOFT</masterLabel>
+            <translation><!-- DYNAMSOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDECLARATION</masterLabel>
+            <translation><!-- EDECLARATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDOC COFFRE FORT SMB</masterLabel>
+            <translation><!-- EDOC COFFRE FORT SMB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDOC COLLECTEUR</masterLabel>
+            <translation><!-- EDOC COLLECTEUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFL JURIDIQUE</masterLabel>
+            <translation><!-- EFL JURIDIQUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFL RECURRENT</masterLabel>
+            <translation><!-- EFL RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EIC RECURRENT</masterLabel>
+            <translation><!-- EIC RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENVIRONNEMENT TECHNIQUE</masterLabel>
+            <translation><!-- ENVIRONNEMENT TECHNIQUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESKER FLEX</masterLabel>
+            <translation><!-- ESKER FLEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESKER – XRP Ultimate</masterLabel>
+            <translation><!-- ESKER – XRP Ultimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXPENSYA</masterLabel>
+            <translation><!-- EXPENSYA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FINALGO</masterLabel>
+            <translation><!-- FINALGO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GED-EDOC</masterLabel>
+            <translation><!-- GED-EDOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GROUPAMA</masterLabel>
+            <translation><!-- GROUPAMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HUNTERZ</masterLabel>
+            <translation><!-- HUNTERZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISIALIS RECURENT</masterLabel>
+            <translation><!-- ISIALIS RECURENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISSENDIS RECURRENT</masterLabel>
+            <translation><!-- ISSENDIS RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITOOL RECURRENT</masterLabel>
+            <translation><!-- ITOOL RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVELEM RECURRENT</masterLabel>
+            <translation><!-- IVELEM RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KYRIBA RECURRENT</masterLabel>
+            <translation><!-- KYRIBA RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MGDIS RECURRENT</masterLabel>
+            <translation><!-- MGDIS RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MICROSOFT SQL</masterLabel>
+            <translation><!-- MICROSOFT SQL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MORGENSTERN RECURRENT</masterLabel>
+            <translation><!-- MORGENSTERN RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTAE RECURRENT</masterLabel>
+            <translation><!-- MTAE RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft 365 CSP</masterLabel>
+            <translation><!-- Microsoft 365 CSP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEOCASE SOFTWARE</masterLabel>
+            <translation><!-- NEOCASE SOFTWARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOVANCES</masterLabel>
+            <translation><!-- NOVANCES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOVAPOST-DEMAT RH en Déclaratifs</masterLabel>
+            <translation><!-- NOVAPOST-DEMAT RH en Déclaratifs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ONEACCESS RECURRENT</masterLabel>
+            <translation><!-- ONEACCESS RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OPENWAY (BO) RECURRENT</masterLabel>
+            <translation><!-- OPENWAY (BO) RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORACLE - RECURRENT</masterLabel>
+            <translation><!-- ORACLE - RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORACLE ARROW</masterLabel>
+            <translation><!-- ORACLE ARROW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORACLE ESL</masterLabel>
+            <translation><!-- ORACLE ESL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORACLE ORLIWEB LIC</masterLabel>
+            <translation><!-- ORACLE ORLIWEB LIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEOPLE DOC CPA</masterLabel>
+            <translation><!-- PEOPLE DOC CPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEOPLE DOC V3</masterLabel>
+            <translation><!-- PEOPLE DOC V3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PILOT ASSO</masterLabel>
+            <translation><!-- PILOT ASSO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROLOGUE (ALP) RECURRENT</masterLabel>
+            <translation><!-- PROLOGUE (ALP) RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROLOGUE ETEBAC - EBICS</masterLabel>
+            <translation><!-- PROLOGUE ETEBAC - EBICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROLOGUE ETEBAC III RECURRENT</masterLabel>
+            <translation><!-- PROLOGUE ETEBAC III RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>People DOC</masterLabel>
+            <translation><!-- People DOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QEOD</masterLabel>
+            <translation><!-- QEOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLIKTECH + 12 mois</masterLabel>
+            <translation><!-- QLIKTECH + 12 mois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLIKTECH DASHBOARD</masterLabel>
+            <translation><!-- QLIKTECH DASHBOARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLIKTECH SAAS</masterLabel>
+            <translation><!-- QLIKTECH SAAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLIKVIEW- HR SPRINT</masterLabel>
+            <translation><!-- QLIKVIEW- HR SPRINT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLIKVIEW- HR SPRINT - START</masterLabel>
+            <translation><!-- QLIKVIEW- HR SPRINT - START --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUALITELIS RECURRENT</masterLabel>
+            <translation><!-- QUALITELIS RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QlikSENSE</masterLabel>
+            <translation><!-- QlikSENSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qliktech Dashboard CEGID PUBLIC</masterLabel>
+            <translation><!-- Qliktech Dashboard CEGID PUBLIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qliktech Saas CEGID PUBLIC</masterLabel>
+            <translation><!-- Qliktech Saas CEGID PUBLIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QuadraConventionnel</masterLabel>
+            <translation><!-- QuadraConventionnel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RCA RECURRENT</masterLabel>
+            <translation><!-- RCA RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REDTITAN RECURRENT 40 %</masterLabel>
+            <translation><!-- REDTITAN RECURRENT 40 % --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REDTITAN RECURRENT 50 %</masterLabel>
+            <translation><!-- REDTITAN RECURRENT 50 % --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REVUE FIDUCIAIRE RECURRENT</masterLabel>
+            <translation><!-- REVUE FIDUCIAIRE RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Int.</masterLabel>
+            <translation><!-- Retail Int. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAGE / XPERTS RECURRENT</masterLabel>
+            <translation><!-- SAGE / XPERTS RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAGE / XRT RECURRENT</masterLabel>
+            <translation><!-- SAGE / XRT RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP BO RECURRENT</masterLabel>
+            <translation><!-- SAP BO RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP BO SAAS</masterLabel>
+            <translation><!-- SAP BO SAAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHOP APPLICATION</masterLabel>
+            <translation><!-- SHOP APPLICATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIDETRADE RECURRENT</masterLabel>
+            <translation><!-- SIDETRADE RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIS-ID Stand Alone</masterLabel>
+            <translation><!-- SIS-ID Stand Alone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIS-ID XRP Ultimate</masterLabel>
+            <translation><!-- SIS-ID XRP Ultimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOPHOS RECURRENT</masterLabel>
+            <translation><!-- SOPHOS RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STAR B</masterLabel>
+            <translation><!-- STAR B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TALENTPLUG</masterLabel>
+            <translation><!-- TALENTPLUG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEXTKERNEL</masterLabel>
+            <translation><!-- TEXTKERNEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TREND MICRO Récurrent</masterLabel>
+            <translation><!-- TREND MICRO Récurrent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX2 RECURRENT</masterLabel>
+            <translation><!-- TX2 RECURRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UGAL</masterLabel>
+            <translation><!-- UGAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNIVERSIGN</masterLabel>
+            <translation><!-- UNIVERSIGN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VELIXO</masterLabel>
+            <translation><!-- VELIXO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VISIER - HR Insights</masterLabel>
+            <translation><!-- VISIER - HR Insights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WEB XY</masterLabel>
+            <translation><!-- WEB XY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YOOZ</masterLabel>
+            <translation><!-- YOOZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>salvia</masterLabel>
+            <translation><!-- salvia --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

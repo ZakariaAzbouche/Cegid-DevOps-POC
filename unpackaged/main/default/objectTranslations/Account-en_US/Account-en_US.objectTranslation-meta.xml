@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- Marketo Field set Account --></label>
+        <name>Marketo_Field_set_Account</name>
+    </fieldSets>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- Account Relationships --></label>
+            <section>Account Relationships</section>
+        </sections>
+        <sections>
+            <label><!-- CPA Specific information --></label>
+            <section>CPA Specific information</section>
+        </sections>
+        <sections>
+            <label><!-- CSM --></label>
+            <section>CSM</section>
+        </sections>
+        <sections>
+            <label><!-- Collaborative Portal Specific Information --></label>
+            <section>Collaborative Portal Specific Information</section>
+        </sections>
+        <sections>
+            <label><!-- Education Specific Information --></label>
+            <section>Education Specific Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo&apos;s fields --></label>
+            <section>Marketo's fields</section>
+        </sections>
+        <sections>
+            <label><!-- Postal address for invoices --></label>
+            <section>Postal address for invoices</section>
+        </sections>
+        <sections>
+            <label><!-- Reason for closing --></label>
+            <section>Reason for closing</section>
+        </sections>
+        <sections>
+            <label><!-- Retail Specific Information --></label>
+            <section>Retail Specific Information</section>
+        </sections>
+        <sections>
+            <label><!-- Talensoft --></label>
+            <section>Talensoft</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Pocs Layout</layout>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CPQ Account Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Renewal/Co-Term Information --></label>
+            <section>Renewal/Co-Term Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Update Account --></label>
+        <name>Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>Create_New_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Target Accounts --></label>
+        <name>Create_Target_Accounts</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_Opportunity</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Date of litigation must be filled if Account is in Dispute --></errorMessage>
+        <name>VR0005_Account_Litigation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- le n° de TVA Intra n&apos;est pas conforme par rapport au pays du compte. --></errorMessage>
+        <name>VR001_TVACheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Year of registration is required when Registered with the Order of Chartered Accountants is true --></errorMessage>
+        <name>VR002_CPA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Select reason --></errorMessage>
+        <name>VR003_ClosingReason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Admin or Business Support can edit this Field --></errorMessage>
+        <name>VR003_Email_Privilege_Edition</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This email does not have the good format, please review it. --></errorMessage>
+        <name>VR003_Email_format_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- States/Provinces is required for United States and Canada. --></errorMessage>
+        <name>VR004_StateProvince</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The partnership field is mandatory for partners. --></errorMessage>
+        <name>VR006_Account_Partner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- National ID Exception must be empty if a National Id has been defined. --></errorMessage>
+        <name>VR007_NationalId_Exception</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the national ID. --></errorMessage>
+        <name>VR008_NoChangeOnNationalIdForSales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Postal Code, City and Country are mandatory --></errorMessage>
+        <name>VR009_PostalCode_City_Country_OnCreation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account nature must be set to &quot;Prospect&quot; on creation. --></errorMessage>
+        <name>VR010_Nature_Prospect</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fulfill National Id and/or TVA number or choose a National Id Exception --></errorMessage>
+        <name>VR011_NationalExcMandIfNoNationalId</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When VAT number or National ID is fulfilled, Number of Employees and Annual Revenue are mandatory on the account file. --></errorMessage>
+        <name>VR012_AnnualRevAndEmployeesNum_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- In this country, National Id must be 14 characters long and be made of numbers. --></errorMessage>
+        <name>VR013_NationalIdForFrance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only the last 5 characters of the National ID can be changed. --></errorMessage>
+        <name>VR014_NationalIdFrance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The reason is not in line with the modification of the National id. --></errorMessage>
+        <name>VR015_ReasonUpdateNationalIdFrance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill the reason to update the National Id --></errorMessage>
+        <name>VR016_ReasonToUpdateNationalId</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Unable to create an account with an inactive National ID --></errorMessage>
+        <name>VR017_NationalIdStatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- In this country, the national id cannot end with &quot;00000&quot; --></errorMessage>
+        <name>VR018_NationalIdFrance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cegid Sales profile can&apos;t edit Account Name and Billing Adresse if account nature is customer --></errorMessage>
+        <name>VR019_blockChangeAdressCustomer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only an administrator or Sales Ops can transfer owner. --></errorMessage>
+        <name>VR020_NoTransferOwner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For this country, National ID and VAT number are required --></errorMessage>
+        <name>VR021_NationalIdAndVatRequiredForFrance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For this country, National ID or VAT number are required --></errorMessage>
+        <name>VR022_VatOrNationaIdRequiredForMonaco</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For this country, VAT number is required --></errorMessage>
+        <name>VR023_VatRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For this country, National ID is required --></errorMessage>
+        <name>VR024_NationalIdRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Vous ne disposez pas des droits pour modifier ce champ --></errorMessage>
+        <name>VR025_AccountNameLockMarketing</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You don&apos;t have the necessary access rights on this field. Please, see your administrator for help. --></errorMessage>
+        <name>VR026_NationalIDReadOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Email e Billing is mandatory --></errorMessage>
+        <name>VR_027EmaileBilling</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Calculate_codes_followed_by_sedentary_and_referent --></label>
+        <name>Calculate_codes_followed_by_sedentary_and_referent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

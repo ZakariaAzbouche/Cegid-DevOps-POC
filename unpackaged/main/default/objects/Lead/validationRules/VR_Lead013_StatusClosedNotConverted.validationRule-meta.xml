@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Lead013_StatusClosedNotConverted</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+NOT( $User.BypassVR__c),
+NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Lead013_StatusClosedNotConverted")),
+ISCHANGED(Status) ,
+ISPICKVAL(Status, "Closed - Not Converted"),
+BEGINS( OwnerId , "00G") 
+)</errorConditionFormula>
+    <errorMessage>You cannot close the lead since the owner is a queue.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_74995174</developerName>
+        <masterLabel>EuroCRM</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>CREATED_BY</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Djemila BELAMRI</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Laura CAPELA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Maryne CHAMBRY</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jocya CUILLIER</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marine DARDENNE</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Camille DELALANDE</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>François DESMONT</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Vanessa RIDEL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Nadège SIMON</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Océane HEURTAUX</sourceValue>
+            </sourceValues>
+            <value>CPA</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Tiphaine FOUET</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Fabrice DE PAOLI</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Delphine RESTOUT</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lucas PICHENOT</sourceValue>
+            </sourceValues>
+            <value>Finance</value>
+        </values>
+        <values>
+            <value>Former</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>HorizontalBar</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>STATUS</groupingColumn>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>CREATED_BY</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>DESCRIPTION</field>
+    </columns>
+    <columns>
+        <field>Activity.Assigned_to_Agency__c</field>
+    </columns>
+    <columns>
+        <field>BucketField_74995174</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <column>CREATED_BY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Esmeralda CHAUVIN,Maryne CHAMBRY,Amélie ROCTON FECOM,Djemila BELAMRI,Jocya CUILLIER,François DESMONT,Lucas PICHENOT,Mélanie GAY,Kimberley LECHAT,Océane HEURTAUX,Nadège SIMON,Thomas DEMONIE,Isabelle,Capela Laura,Dardenne Marine,De Paoli Fabrice,Fouet Tiphaine,Lassi Galloni Sarah,Restout Delphine,Ridel Vanessa,Delalande Camille</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>BucketField_74995174</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CPA,Finance,Former</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CREATED_DATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>LAST_WEEK</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>STATUS</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ASSIGNED</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <field>CREATED_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>EUROCRM Tasks Last week</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>t</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Activity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

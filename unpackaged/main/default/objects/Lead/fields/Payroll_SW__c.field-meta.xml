@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payroll_SW__c</fullName>
+    <externalId>false</externalId>
+    <label>Payroll SW</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non-défini</fullName>
+                <default>false</default>
+                <label>Non-défini</label>
+            </value>
+            <value>
+                <fullName>ADP</fullName>
+                <default>false</default>
+                <label>ADP</label>
+            </value>
+            <value>
+                <fullName>Cador dorac</fullName>
+                <default>false</default>
+                <label>Cador dorac</label>
+            </value>
+            <value>
+                <fullName>Ciel</fullName>
+                <default>false</default>
+                <label>Ciel</label>
+            </value>
+            <value>
+                <fullName>EBP</fullName>
+                <default>false</default>
+                <label>EBP</label>
+            </value>
+            <value>
+                <fullName>Sage</fullName>
+                <default>false</default>
+                <label>Sage</label>
+            </value>
+            <value>
+                <fullName>SAP</fullName>
+                <default>false</default>
+                <label>SAP</label>
+            </value>
+            <value>
+                <fullName>Silae</fullName>
+                <default>false</default>
+                <label>Silae</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

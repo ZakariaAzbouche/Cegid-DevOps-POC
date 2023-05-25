@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty29_NoTransferOwner</fullName>
+    <active>true</active>
+    <description>Only an administrator or Sales Ops or Opp's owner can transfer owner.</description>
+    <errorConditionFormula>AND (
+NOT( $User.BypassVR__c ),
+NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Oppty29_NoTransferOwner")),
+$Profile.Name &lt;&gt; "System Administrator",
+$Profile.Name &lt;&gt; "Cegid Telemarketing",
+NOT(TECH_By_Pass_VR__c),
+ISCHANGED(OwnerId),
+NOT ($Permission.Can_modify_Sales_Purpose),
+PRIORVALUE(OwnerId) &lt;&gt; $User.Id,
+
+Owner.ManagerId &lt;&gt; $User.Id,
+Owner.Manager.ManagerId &lt;&gt; $User.Id,
+Owner.Manager.Manager.ManagerId &lt;&gt; $User.Id,
+Owner.Manager.Manager.Manager.ManagerId &lt;&gt; $User.Id,
+Owner.Manager.Manager.Manager.Manager.ManagerId &lt;&gt; $User.Id,
+Owner.Manager.Manager.Manager.Manager.Manager.ManagerId &lt;&gt; $User.Id,
+Owner.Manager.Manager.Manager.Manager.Manager.Manager.ManagerId &lt;&gt; $User.Id
+)</errorConditionFormula>
+    <errorMessage>Only an administrator or Sales Ops or Opp's owner can transfer owner.</errorMessage>
+</ValidationRule>

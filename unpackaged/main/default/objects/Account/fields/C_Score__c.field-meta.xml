@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_Score__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Cegid relative strength in this market segment based on overall market fit, penetration and growth (5=very strong)</inlineHelpText>
+    <label>C-Score</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1/5</fullName>
+                <default>false</default>
+                <label>1/5</label>
+            </value>
+            <value>
+                <fullName>2/5</fullName>
+                <default>false</default>
+                <label>2/5</label>
+            </value>
+            <value>
+                <fullName>3/5</fullName>
+                <default>false</default>
+                <label>3/5</label>
+            </value>
+            <value>
+                <fullName>4/5</fullName>
+                <default>false</default>
+                <label>4/5</label>
+            </value>
+            <value>
+                <fullName>5/5</fullName>
+                <default>false</default>
+                <label>5/5</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

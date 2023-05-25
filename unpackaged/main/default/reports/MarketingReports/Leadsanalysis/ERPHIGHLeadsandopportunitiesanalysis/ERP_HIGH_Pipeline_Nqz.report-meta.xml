@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_11516188</developerName>
+        <masterLabel>Marketing purpose</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.Sales_Purpose__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>121</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>111</sourceValue>
+            </sourceValues>
+            <value>NCA</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>613</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>611</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>612</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>511</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>411</sourceValue>
+            </sourceValues>
+            <value>IBM</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_38868401</developerName>
+        <masterLabel>Marketing stage</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>STAGE_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>G - MQL</sourceValue>
+            </sourceValues>
+            <value>1 - MQL</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed Won</sourceValue>
+            </sourceValues>
+            <value>4 - WON</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>No Go Client</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>No Go CEGID</sourceValue>
+            </sourceValues>
+            <value>5 - LOST/BACK TO NURTURING</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>B - Negotiate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>D - Draw up the solution</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>C - Validate the solution</sourceValue>
+            </sourceValues>
+            <value>3 - SQL</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>F - Identify the needs</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>E - Analyze the needs</sourceValue>
+            </sourceValues>
+            <value>2 - SAL</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>BucketField_38868401</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Sales_Purpose__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.SaaS_Booking_Amount__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Licences_Booking_Amount__c</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Core_Business__c</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>LEAD_SOURCE</field>
+    </columns>
+    <columns>
+        <field>CAMPAIGN_SOURCE</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Oppy_converted_from_Lead__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Oppy_AutoCreated__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <customDetailFormulas>
+        <calculatedFormula>CASE(Opportunity.Sales_Purpose__c,
+
+&quot;111&quot;,&quot;NCA&quot;,
+
+&quot;121&quot;,&quot;NCA&quot;,
+
+&quot;IBM&quot;)</calculatedFormula>
+        <dataType>Text</dataType>
+        <developerName>CDF1</developerName>
+        <label>Marketing Purpose</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <description>Marketing opportunities in progress</description>
+    <filter>
+        <booleanFilter>(1 OR 2 OR 3) AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <column>Opportunity.Oppy_converted_from_Lead__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>LEAD_SOURCE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Sales Prospecting,Partner</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Oppy_AutoCreated__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Expertise__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>350</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>G - MQL,F - Identify the needs,E - Analyze the needs,D - Draw up the solution,C - Validate the solution,B - Negotiate,A - Sign</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Expertise__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CDF1</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>ERP HIGH Pipeline</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>CLOSE_DATE</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

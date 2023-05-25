@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nbr_of_Product_Lines__c</fullName>
+    <description>Used to count the number of Product Lines in the Opportunity</description>
+    <externalId>false</externalId>
+    <label>Nbr of Product Lines</label>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

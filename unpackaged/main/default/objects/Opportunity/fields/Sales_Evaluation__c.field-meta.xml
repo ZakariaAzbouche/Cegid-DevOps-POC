@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Evaluation__c</fullName>
+    <description>Sales Evaluation</description>
+    <externalId>false</externalId>
+    <label>Sales Evaluation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Forecast_Category_EDIT__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+                <label>Best Case</label>
+            </value>
+            <value>
+                <fullName>Commit</fullName>
+                <default>false</default>
+                <label>Commit</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Upside</controllingFieldValue>
+            <controllingFieldValue>Probable</controllingFieldValue>
+            <valueName>Best Case</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Probable</controllingFieldValue>
+            <controllingFieldValue>Firm</controllingFieldValue>
+            <controllingFieldValue>Signed</controllingFieldValue>
+            <valueName>Commit</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

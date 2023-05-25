@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty41_Owner_control_on_GSales_Ready</fullName>
+    <active>false</active>
+    <description>Contrôle sur les Oppy afin d'empêcher utilisateur d'une Oppy de passer de G-Sales Ready à Stage F-Identify si Oppy Owner = Oppy Creator. Si la source du Lead est SDR ou Partner et Oppy Owner = Creator Oppy Bloquée.</description>
+    <errorConditionFormula>AND(
+
+
+
+OR (
+
+
+AND(
+
+CreatedBy.Id = OwnerId,
+
+OR(
+ISPICKVAL( PRIORVALUE(StageName), 'G - Sales Ready'),
+ISPICKVAL( PRIORVALUE(StageName), 'F - Identify the needs'),
+ISPICKVAL( PRIORVALUE(StageName), 'E - Analyze the needs'),
+ISPICKVAL( PRIORVALUE(StageName), 'D - Draw up the solution'),
+ISPICKVAL( PRIORVALUE(StageName), 'C - Validate the solution'),
+ISPICKVAL( PRIORVALUE(StageName), 'B - Negotiate'),
+ISPICKVAL( PRIORVALUE(StageName), 'A - Sign'),
+ISPICKVAL( PRIORVALUE(StageName), 'Closed Won'),
+ISPICKVAL( PRIORVALUE(StageName), 'Closed Lost'),
+ISPICKVAL( PRIORVALUE(StageName), 'No Go Client'),
+ISPICKVAL( PRIORVALUE(StageName), 'No Go CEGID')
+),
+
+ISCHANGED(StageName),
+
+OR(
+ISPICKVAL(StageName, 'G - Sales Ready'),
+ISPICKVAL(StageName, 'F - Identify the needs'),
+ISPICKVAL(StageName, 'E - Analyze the needs'),
+ISPICKVAL(StageName, 'D - Draw up the solution'),
+ISPICKVAL(StageName, 'C - Validate the solution'),
+ISPICKVAL(StageName, 'B - Negotiate'),
+ISPICKVAL(StageName, 'A - Sign')
+)
+
+),
+
+
+
+AND(
+
+ISCHANGED(OwnerId),
+
+CreatedBy.Id = OwnerId,
+
+OR(
+NOT(ISPICKVAL(StageName, 'G - Sales Ready')),
+ISPICKVAL(StageName, 'F - Identify the needs'),
+ISPICKVAL(StageName, 'E - Analyze the needs'),
+ISPICKVAL(StageName, 'D - Draw up the solution '),
+ISPICKVAL(StageName, 'C - Validate the solution'),
+ISPICKVAL(StageName, 'B - Negotiate'),
+ISPICKVAL(StageName, 'A - Sign')
+)
+
+)
+
+
+),
+
+
+
+
+
+
+OR(
+
+ISPICKVAL(LeadSource, 'SDR'),
+
+ISPICKVAL(LeadSource, 'Partner')
+
+)
+
+
+
+)</errorConditionFormula>
+    <errorMessage>This opportunity is a G-Sales Ready intended to a colleague. You cannot treat it by your own. Please, create an opportunity F-Identify the needs if you sell this opportunity.</errorMessage>
+</ValidationRule>

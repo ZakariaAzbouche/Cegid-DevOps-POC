@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Famille de service --></help>
+        <label><!-- Service Family --></label>
+        <name>Service_Family__c</name>
+        <picklistValues>
+            <masterLabel>Administratif</masterLabel>
+            <translation><!-- Administratif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communautaire</masterLabel>
+            <translation><!-- Communautaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flux d'informations</masterLabel>
+            <translation><!-- Flux d&apos;informations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gestion</masterLabel>
+            <translation><!-- Gestion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gestion Back Office</masterLabel>
+            <translation><!-- Gestion Back Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infos produits</masterLabel>
+            <translation><!-- Infos produits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification</masterLabel>
+            <translation><!-- Notification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Préférence</masterLabel>
+            <translation><!-- Préférence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services de contribution (WCM)</masterLabel>
+            <translation><!-- Services de contribution (WCM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services en ligne</masterLabel>
+            <translation><!-- Services en ligne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services internes Cegid</masterLabel>
+            <translation><!-- Services internes Cegid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vente</masterLabel>
+            <translation><!-- Vente --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

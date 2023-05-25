@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>To Be Deleted</fullName>
+        <default>false</default>
+        <label>To Be Deleted</label>
+    </customValue>
+    <customValue>
+        <fullName>Incomplete data</fullName>
+        <default>false</default>
+        <label>Incomplete data</label>
+    </customValue>
+    <customValue>
+        <fullName>Off target</fullName>
+        <default>false</default>
+        <label>Off target</label>
+    </customValue>
+    <customValue>
+        <fullName>BANT reject - budget</fullName>
+        <default>false</default>
+        <label>BANT reject - budget</label>
+    </customValue>
+    <customValue>
+        <fullName>BANT reject - authority</fullName>
+        <default>false</default>
+        <label>BANT reject - authority</label>
+    </customValue>
+    <customValue>
+        <fullName>BANT reject - need (functional perimeter)</fullName>
+        <default>false</default>
+        <label>BANT reject - need (functional perimeter)</label>
+    </customValue>
+    <customValue>
+        <fullName>BANT reject - need (technology)</fullName>
+        <default>false</default>
+        <label>BANT reject - need (technology)</label>
+    </customValue>
+    <customValue>
+        <fullName>BANT reject - need (international perimeter)</fullName>
+        <default>false</default>
+        <label>BANT reject - need (international perimeter)</label>
+    </customValue>
+    <customValue>
+        <fullName>BANT reject - timing</fullName>
+        <default>false</default>
+        <label>BANT reject - timing</label>
+    </customValue>
+    <customValue>
+        <fullName>Unreachable</fullName>
+        <default>false</default>
+        <label>Unreachable</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+        <label>Duplicate</label>
+    </customValue>
+    <customValue>
+        <fullName>Non commercial request</fullName>
+        <default>false</default>
+        <label>Non commercial request</label>
+    </customValue>
+    <customValue>
+        <fullName>Signed for the competition</fullName>
+        <default>false</default>
+        <label>Signed for the competition</label>
+    </customValue>
+    <customValue>
+        <fullName>Already a client</fullName>
+        <default>false</default>
+        <label>Already a client</label>
+    </customValue>
+    <customValue>
+        <fullName>Abandoned project</fullName>
+        <default>false</default>
+        <label>Abandoned project</label>
+    </customValue>
+    <customValue>
+        <fullName>Not the good lead owner</fullName>
+        <default>false</default>
+        <label>Not the good lead owner</label>
+    </customValue>
+    <customValue>
+        <fullName>Already created opportunity</fullName>
+        <default>false</default>
+        <label>Already created opportunity</label>
+    </customValue>
+    <customValue>
+        <fullName>Competition</fullName>
+        <default>false</default>
+        <label>Competition</label>
+    </customValue>
+    <customValue>
+        <fullName>Stakeholder</fullName>
+        <default>false</default>
+        <label>Stakeholder</label>
+    </customValue>
+    <customValue>
+        <fullName>Student</fullName>
+        <default>false</default>
+        <label>Student</label>
+    </customValue>
+    <customValue>
+        <fullName>Software Partner</fullName>
+        <default>false</default>
+        <label>Software Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Spam</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Spam</label>
+    </customValue>
+    <masterLabel>Reject Cause</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

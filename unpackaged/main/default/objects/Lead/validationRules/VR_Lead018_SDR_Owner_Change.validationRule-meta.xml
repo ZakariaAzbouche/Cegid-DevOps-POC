@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Lead018_SDR_Owner_Change</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+	NOT( $User.BypassVR__c),
+	NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Lead018_SDR_Owner_Change")),
+	Owner:User.Profile.Name &lt;&gt; 'System Administrator',
+	Owner:User.Profile.Name &lt;&gt; 'Cegid Telemarketing',
+	ISCHANGED(OwnerId),
+
+	OR(
+		AND(
+				NOT(ISPICKVAL(Owner:User.Sale_Type__c, 'SDR')),
+				NOT(Owner:User.SalesPRM__c)
+			),
+		AND(
+			ISPICKVAL(Owner:User.Sale_Type__c, 'SDR'),
+			NOT(ISPICKVAL(LeadSource, 'SDR-Marketing Prospecting')),
+			NOT(ISPICKVAL(LeadSource, 'SDR Lead Purchase'))
+		)
+	)
+)</errorConditionFormula>
+    <errorMessage>You can't affect the lead to this user</errorMessage>
+</ValidationRule>

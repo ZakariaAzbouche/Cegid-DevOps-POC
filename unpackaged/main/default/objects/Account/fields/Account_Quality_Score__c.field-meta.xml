@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Quality_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OR(ISBLANK(BillingStreet),
+							ISBLANK(BillingCity),
+							ISBLANK(BillingPostalCode), 
+							ISBLANK(Industry_Code_Text__c), 
+							ISBLANK(Phone),
+							AND(ISBLANK(TECH_NumberOfEmployees__c), ISBLANK(TECH_AnnualRevenue__c)),
+							AND(ISBLANK(National_ID__c), ISBLANK(IntercommunityVATnumber__c)),
+			    Tech_Nb_Contact__c &lt; 1),
+			0, 1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Quality Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

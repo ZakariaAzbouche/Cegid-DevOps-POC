@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SolutionRange__c</fullName>
+    <externalId>false</externalId>
+    <label>Solution Range</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1010</fullName>
+                <default>false</default>
+                <label>Cegid Expert</label>
+            </value>
+            <value>
+                <fullName>1020</fullName>
+                <default>false</default>
+                <label>Quadra Expert</label>
+            </value>
+            <value>
+                <fullName>1030</fullName>
+                <default>false</default>
+                <label>Jedeclare.com</label>
+            </value>
+            <value>
+                <fullName>1035</fullName>
+                <default>false</default>
+                <label>Cegid Formalités</label>
+            </value>
+            <value>
+                <fullName>1040</fullName>
+                <default>false</default>
+                <label>EWS</label>
+            </value>
+            <value>
+                <fullName>1041</fullName>
+                <default>false</default>
+                <label>CWE</label>
+            </value>
+            <value>
+                <fullName>1050</fullName>
+                <default>false</default>
+                <label>Wexperandyou</label>
+            </value>
+            <value>
+                <fullName>1055</fullName>
+                <default>false</default>
+                <label>TDA</label>
+            </value>
+            <value>
+                <fullName>1070</fullName>
+                <default>false</default>
+                <label>Ccmx Expert</label>
+            </value>
+            <value>
+                <fullName>1075</fullName>
+                <default>false</default>
+                <label>Ccmx Winner Cabinet</label>
+            </value>
+            <value>
+                <fullName>1080</fullName>
+                <default>false</default>
+                <label>Ccmx Expert 400</label>
+            </value>
+            <value>
+                <fullName>1090</fullName>
+                <default>false</default>
+                <label>Cegid Gamme II PCL</label>
+            </value>
+            <value>
+                <fullName>1095</fullName>
+                <default>false</default>
+                <label>Logam</label>
+            </value>
+            <value>
+                <fullName>1100</fullName>
+                <default>false</default>
+                <label>Ccmx DialBank</label>
+            </value>
+            <value>
+                <fullName>1110</fullName>
+                <default>false</default>
+                <label>Lion Dialogue</label>
+            </value>
+            <value>
+                <fullName>1210</fullName>
+                <default>false</default>
+                <label>Cegid Agrément</label>
+            </value>
+            <value>
+                <fullName>1220</fullName>
+                <default>false</default>
+                <label>Cegid Gamme II OGA</label>
+            </value>
+            <value>
+                <fullName>2010</fullName>
+                <default>false</default>
+                <label>Yourcegid CB</label>
+            </value>
+            <value>
+                <fullName>2011</fullName>
+                <default>false</default>
+                <label>Yourcegid CB Place</label>
+            </value>
+            <value>
+                <fullName>2012</fullName>
+                <default>false</default>
+                <label>Yourcegid CB Suite</label>
+            </value>
+            <value>
+                <fullName>2020</fullName>
+                <default>false</default>
+                <label>Quadra Entreprise</label>
+            </value>
+            <value>
+                <fullName>2021</fullName>
+                <default>false</default>
+                <label>Quadra Propreté</label>
+            </value>
+            <value>
+                <fullName>2025</fullName>
+                <default>false</default>
+                <label>Syges</label>
+            </value>
+            <value>
+                <fullName>2030</fullName>
+                <default>false</default>
+                <label>Ccmx Win Winner</label>
+            </value>
+            <value>
+                <fullName>2040</fullName>
+                <default>false</default>
+                <label>Servant</label>
+            </value>
+            <value>
+                <fullName>2050</fullName>
+                <default>false</default>
+                <label>Ccmx Entreprise</label>
+            </value>
+            <value>
+                <fullName>2060</fullName>
+                <default>false</default>
+                <label>Ccmx Finance</label>
+            </value>
+            <value>
+                <fullName>2070</fullName>
+                <default>false</default>
+                <label>Ccmx Winner PME</label>
+            </value>
+            <value>
+                <fullName>2080</fullName>
+                <default>false</default>
+                <label>Cegid Gamme II ENT</label>
+            </value>
+            <value>
+                <fullName>3015</fullName>
+                <default>false</default>
+                <label>Yourcegid Solos</label>
+            </value>
+            <value>
+                <fullName>3017</fullName>
+                <default>false</default>
+                <label>Yourcegid Entrepreneurs &amp; TPE</label>
+            </value>
+            <value>
+                <fullName>3025</fullName>
+                <default>false</default>
+                <label>Cegid Yes</label>
+            </value>
+            <value>
+                <fullName>3041</fullName>
+                <default>false</default>
+                <label>Cegid Viticole</label>
+            </value>
+            <value>
+                <fullName>3050</fullName>
+                <default>false</default>
+                <label>Ccmx Twin</label>
+            </value>
+            <value>
+                <fullName>4010</fullName>
+                <default>false</default>
+                <label>Yourcegid Consolidation</label>
+            </value>
+            <value>
+                <fullName>4020</fullName>
+                <default>false</default>
+                <label>Cegid Etafi Conso</label>
+            </value>
+            <value>
+                <fullName>4030</fullName>
+                <default>false</default>
+                <label>Yourcegid RHP</label>
+            </value>
+            <value>
+                <fullName>4031</fullName>
+                <default>false</default>
+                <label>Yourcegid CBRH</label>
+            </value>
+            <value>
+                <fullName>4032</fullName>
+                <default>false</default>
+                <label>Yourcegid STARTRH</label>
+            </value>
+            <value>
+                <fullName>4034</fullName>
+                <default>false</default>
+                <label>Yourcegid RHPI</label>
+            </value>
+            <value>
+                <fullName>4036</fullName>
+                <default>false</default>
+                <label>Cegid Front RH G1</label>
+            </value>
+            <value>
+                <fullName>4037</fullName>
+                <default>false</default>
+                <label>Yourcegid FRH</label>
+            </value>
+            <value>
+                <fullName>4038</fullName>
+                <default>false</default>
+                <label>Yourcegid RH Intelligence</label>
+            </value>
+            <value>
+                <fullName>4039</fullName>
+                <default>false</default>
+                <label>Dématérialisation Gammes RH</label>
+            </value>
+            <value>
+                <fullName>4041</fullName>
+                <default>false</default>
+                <label>Start</label>
+            </value>
+            <value>
+                <fullName>4042</fullName>
+                <default>false</default>
+                <label>Advance</label>
+            </value>
+            <value>
+                <fullName>4043</fullName>
+                <default>false</default>
+                <label>CV Manager</label>
+            </value>
+            <value>
+                <fullName>4044</fullName>
+                <default>false</default>
+                <label>RITA Sourcer</label>
+            </value>
+            <value>
+                <fullName>4045</fullName>
+                <default>false</default>
+                <label>RITA Carrière</label>
+            </value>
+            <value>
+                <fullName>4050</fullName>
+                <default>false</default>
+                <label>Yourcegid BI</label>
+            </value>
+            <value>
+                <fullName>4060</fullName>
+                <default>false</default>
+                <label>Yourcegid FCRS</label>
+            </value>
+            <value>
+                <fullName>4070</fullName>
+                <default>false</default>
+                <label>Cegid Finance Fiscalite</label>
+            </value>
+            <value>
+                <fullName>4073</fullName>
+                <default>false</default>
+                <label>Yourcegid Fiscalite</label>
+            </value>
+            <value>
+                <fullName>4074</fullName>
+                <default>false</default>
+                <label>Yourcegid Etafi Start</label>
+            </value>
+            <value>
+                <fullName>4075</fullName>
+                <default>false</default>
+                <label>Optim’Is</label>
+            </value>
+            <value>
+                <fullName>4076</fullName>
+                <default>false</default>
+                <label>DataFinance</label>
+            </value>
+            <value>
+                <fullName>4077</fullName>
+                <default>false</default>
+                <label>Cegid Tax Ultimate España</label>
+            </value>
+            <value>
+                <fullName>4078</fullName>
+                <default>false</default>
+                <label>ETAFI IF groupe</label>
+            </value>
+            <value>
+                <fullName>4079</fullName>
+                <default>false</default>
+                <label>Cegid Tax Ultimate</label>
+            </value>
+            <value>
+                <fullName>5010</fullName>
+                <default>false</default>
+                <label>Yourcegid Retail CBR Place</label>
+            </value>
+            <value>
+                <fullName>5011</fullName>
+                <default>false</default>
+                <label>Yourcegid Retail CBR Suite</label>
+            </value>
+            <value>
+                <fullName>5012</fullName>
+                <default>false</default>
+                <label>Yourcegid Retail Y2</label>
+            </value>
+            <value>
+                <fullName>5020</fullName>
+                <default>false</default>
+                <label>Yourcegid Retail Colombus</label>
+            </value>
+            <value>
+                <fullName>5030</fullName>
+                <default>false</default>
+                <label>Yourcegid Retail .next</label>
+            </value>
+            <value>
+                <fullName>5040</fullName>
+                <default>false</default>
+                <label>Yourcegid Retail Orli</label>
+            </value>
+            <value>
+                <fullName>5050</fullName>
+                <default>false</default>
+                <label>Yourcegid Retail Winshop</label>
+            </value>
+            <value>
+                <fullName>5065</fullName>
+                <default>false</default>
+                <label>Winretail</label>
+            </value>
+            <value>
+                <fullName>6010</fullName>
+                <default>false</default>
+                <label>Yourcegid Manufacturing CBM</label>
+            </value>
+            <value>
+                <fullName>6020</fullName>
+                <default>false</default>
+                <label>Yourcegid Manufacturing PMI</label>
+            </value>
+            <value>
+                <fullName>6030</fullName>
+                <default>false</default>
+                <label>Yourcegid Manufacturing PACK</label>
+            </value>
+            <value>
+                <fullName>6050</fullName>
+                <default>false</default>
+                <label>Produflex</label>
+            </value>
+            <value>
+                <fullName>7010</fullName>
+                <default>false</default>
+                <label>Yourcegid Hotel Restaurant CB Place</label>
+            </value>
+            <value>
+                <fullName>7011</fullName>
+                <default>false</default>
+                <label>Yourcegid Hotel Restaurant CB Suite</label>
+            </value>
+            <value>
+                <fullName>7012</fullName>
+                <default>false</default>
+                <label>Yourcegid Hotel Restaurant WIN</label>
+            </value>
+            <value>
+                <fullName>7020</fullName>
+                <default>false</default>
+                <label>Cegid Alphabla</label>
+            </value>
+            <value>
+                <fullName>8110</fullName>
+                <default>false</default>
+                <label>.-BO Civitas</label>
+            </value>
+            <value>
+                <fullName>8120</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Finances</label>
+            </value>
+            <value>
+                <fullName>8131</fullName>
+                <default>false</default>
+                <label>Yourcegid SP SIRH - Civi</label>
+            </value>
+            <value>
+                <fullName>8132</fullName>
+                <default>false</default>
+                <label>Yourcegid SP SIRH</label>
+            </value>
+            <value>
+                <fullName>8150</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Civi Citoyens</label>
+            </value>
+            <value>
+                <fullName>8160</fullName>
+                <default>false</default>
+                <label>Civi Env. Technique</label>
+            </value>
+            <value>
+                <fullName>8171</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Finances EPA</label>
+            </value>
+            <value>
+                <fullName>8210</fullName>
+                <default>false</default>
+                <label>Yourcegid SP RH - Carrus</label>
+            </value>
+            <value>
+                <fullName>8211</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Citoyens</label>
+            </value>
+            <value>
+                <fullName>8212</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Paie</label>
+            </value>
+            <value>
+                <fullName>8213</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Comptabilité</label>
+            </value>
+            <value>
+                <fullName>8215</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Facturation</label>
+            </value>
+            <value>
+                <fullName>8217</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Channel Gestion Interne</label>
+            </value>
+            <value>
+                <fullName>8218</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Channel Citoyens</label>
+            </value>
+            <value>
+                <fullName>8219</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Channel Facturation</label>
+            </value>
+            <value>
+                <fullName>8220</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Finances Y2 EP</label>
+            </value>
+            <value>
+                <fullName>8221</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Finances Y2 Collectivités</label>
+            </value>
+            <value>
+                <fullName>8222</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Stratégie Financière</label>
+            </value>
+            <value>
+                <fullName>8223</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Patrimoine</label>
+            </value>
+            <value>
+                <fullName>8224</fullName>
+                <default>false</default>
+                <label>Yourcegid SP SIRH Y2</label>
+            </value>
+            <value>
+                <fullName>8225</fullName>
+                <default>false</default>
+                <label>Yourcegid SP Y2 intelligence</label>
+            </value>
+            <value>
+                <fullName>9010</fullName>
+                <default>false</default>
+                <label>Cegid Authentification</label>
+            </value>
+            <value>
+                <fullName>9020</fullName>
+                <default>false</default>
+                <label>Cegid Prevent Care</label>
+            </value>
+            <value>
+                <fullName>9030</fullName>
+                <default>false</default>
+                <label>Cegid System</label>
+            </value>
+            <value>
+                <fullName>999</fullName>
+                <default>false</default>
+                <label>Non concerné</label>
+            </value>
+            <value>
+                <fullName>Z - Non Affecté (Code: )</fullName>
+                <default>false</default>
+                <label>Z - Non Affecté (Code: )</label>
+            </value>
+            <value>
+                <fullName>1045</fullName>
+                <default>false</default>
+                <label>Cegid Loop</label>
+            </value>
+            <value>
+                <fullName>1046</fullName>
+                <default>false</default>
+                <label>Cegid Loop Entreprise</label>
+            </value>
+            <value>
+                <fullName>1060</fullName>
+                <default>false</default>
+                <label>Expert Sourcing</label>
+            </value>
+            <value>
+                <fullName>2041</fullName>
+                <default>false</default>
+                <label>Qualiac</label>
+            </value>
+            <value>
+                <fullName>3010</fullName>
+                <default>false</default>
+                <label>.-Cegid Business Line</label>
+            </value>
+            <value>
+                <fullName>3011</fullName>
+                <default>false</default>
+                <label>Atalante</label>
+            </value>
+            <value>
+                <fullName>3012</fullName>
+                <default>false</default>
+                <label>Ugal</label>
+            </value>
+            <value>
+                <fullName>3016</fullName>
+                <default>false</default>
+                <label>Yourecegid Associations</label>
+            </value>
+            <value>
+                <fullName>3018</fullName>
+                <default>false</default>
+                <label>Yourcegid Syndicats</label>
+            </value>
+            <value>
+                <fullName>3020</fullName>
+                <default>false</default>
+                <label>Comptanoo</label>
+            </value>
+            <value>
+                <fullName>3040</fullName>
+                <default>false</default>
+                <label>Amphora</label>
+            </value>
+            <value>
+                <fullName>4040</fullName>
+                <default>false</default>
+                <label>RH Sourcing</label>
+            </value>
+            <value>
+                <fullName>4046</fullName>
+                <default>false</default>
+                <label>Cegid XRP Flex</label>
+            </value>
+            <value>
+                <fullName>4047</fullName>
+                <default>false</default>
+                <label>Cegid HR Ultimate</label>
+            </value>
+            <value>
+                <fullName>5060</fullName>
+                <default>false</default>
+                <label>CGO</label>
+            </value>
+            <value>
+                <fullName>5070</fullName>
+                <default>false</default>
+                <label>Magestel</label>
+            </value>
+            <value>
+                <fullName>6034</fullName>
+                <default>false</default>
+                <label>Yourcegid Manufacturing ISO</label>
+            </value>
+            <value>
+                <fullName>6036</fullName>
+                <default>false</default>
+                <label>Yourcegid Manufacturing SCM</label>
+            </value>
+            <value>
+                <fullName>6040</fullName>
+                <default>false</default>
+                <label>PMICS</label>
+            </value>
+            <value>
+                <fullName>8010</fullName>
+                <default>false</default>
+                <label>.-Cegid Business BTP Place</label>
+            </value>
+            <value>
+                <fullName>8011</fullName>
+                <default>false</default>
+                <label>.-Cegid Business BTP Suite</label>
+            </value>
+            <value>
+                <fullName>8012</fullName>
+                <default>false</default>
+                <label>.-Cegid Business BTP Line</label>
+            </value>
+            <value>
+                <fullName>8020</fullName>
+                <default>false</default>
+                <label>.-Ccmx Batiment</label>
+            </value>
+            <value>
+                <fullName>8121</fullName>
+                <default>false</default>
+                <label>.-eCIVI - GF</label>
+            </value>
+            <value>
+                <fullName>8130</fullName>
+                <default>false</default>
+                <label>.-Yourcegid SP RH - Civi</label>
+            </value>
+            <value>
+                <fullName>8140</fullName>
+                <default>false</default>
+                <label>.-Civi - Rapports</label>
+            </value>
+            <value>
+                <fullName>8170</fullName>
+                <default>false</default>
+                <label>.-Yourcegid SP Finances Eric's C/S</label>
+            </value>
+            <value>
+                <fullName>8180</fullName>
+                <default>false</default>
+                <label>.-Civi Etat civil</label>
+            </value>
+            <value>
+                <fullName>8181</fullName>
+                <default>false</default>
+                <label>.-eETAT-CIVIL</label>
+            </value>
+            <value>
+                <fullName>8190</fullName>
+                <default>false</default>
+                <label>.-CIVI GIBSI</label>
+            </value>
+            <value>
+                <fullName>8200</fullName>
+                <default>false</default>
+                <label>.-CIVI MUST</label>
+            </value>
+            <value>
+                <fullName>8201</fullName>
+                <default>false</default>
+                <label>.-eCIVI MUST</label>
+            </value>
+            <value>
+                <fullName>8214</fullName>
+                <default>false</default>
+                <label>.-Visa Autre</label>
+            </value>
+            <value>
+                <fullName>8216</fullName>
+                <default>false</default>
+                <label>.-Yourcegid SP Finances GC</label>
+            </value>
+            <value>
+                <fullName>300</fullName>
+                <default>false</default>
+                <label>.-Divers</label>
+            </value>
+            <value>
+                <fullName>1010 - Cegid Expert</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1010 - Cegid Expert</label>
+            </value>
+            <value>
+                <fullName>1020 - Quadra Expert</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1020 - Quadra Expert</label>
+            </value>
+            <value>
+                <fullName>1030 - Jedeclare.com</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1030 - Jedeclare.com</label>
+            </value>
+            <value>
+                <fullName>1035 - Cegid Formalités</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1035 - Cegid Formalités</label>
+            </value>
+            <value>
+                <fullName>1040 - EWS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1040 - EWS</label>
+            </value>
+            <value>
+                <fullName>1041 - CWE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1041 - CWE</label>
+            </value>
+            <value>
+                <fullName>1050 - Wexperandyou</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1050 - Wexperandyou</label>
+            </value>
+            <value>
+                <fullName>1055 - TDA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1055 - TDA</label>
+            </value>
+            <value>
+                <fullName>1070 - Ccmx Expert</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1070 - Ccmx Expert</label>
+            </value>
+            <value>
+                <fullName>1075 - Ccmx Winner Cabinet</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1075 - Ccmx Winner Cabinet</label>
+            </value>
+            <value>
+                <fullName>1080 - Ccmx Expert 400</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1080 - Ccmx Expert 400</label>
+            </value>
+            <value>
+                <fullName>1090 - Cegid Gamme II PCL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1090 - Cegid Gamme II PCL</label>
+            </value>
+            <value>
+                <fullName>1095 - Logam</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1095 - Logam</label>
+            </value>
+            <value>
+                <fullName>1100 - Ccmx DialBank</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1100 - Ccmx DialBank</label>
+            </value>
+            <value>
+                <fullName>1110 - Lion Dialogue</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1110 - Lion Dialogue</label>
+            </value>
+            <value>
+                <fullName>1210 - Cegid Agrément</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1210 - Cegid Agrément</label>
+            </value>
+            <value>
+                <fullName>1220 - Cegid Gamme II OGA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1220 - Cegid Gamme II OGA</label>
+            </value>
+            <value>
+                <fullName>2010 - Yourcegid CB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2010 - Yourcegid CB</label>
+            </value>
+            <value>
+                <fullName>2011 - Yourcegid CB Place</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2011 - Yourcegid CB Place</label>
+            </value>
+            <value>
+                <fullName>2012 - Yourcegid CB Suite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2012 - Yourcegid CB Suite</label>
+            </value>
+            <value>
+                <fullName>2020 - Quadra Entreprise</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2020 - Quadra Entreprise</label>
+            </value>
+            <value>
+                <fullName>2021 - Quadra Propreté</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2021 - Quadra Propreté</label>
+            </value>
+            <value>
+                <fullName>2025 - Syges</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2025 - Syges</label>
+            </value>
+            <value>
+                <fullName>2030 - Ccmx Win Winner</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2030 - Ccmx Win Winner</label>
+            </value>
+            <value>
+                <fullName>2040 - Servant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2040 - Servant</label>
+            </value>
+            <value>
+                <fullName>2050 - Ccmx Entreprise</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2050 - Ccmx Entreprise</label>
+            </value>
+            <value>
+                <fullName>2060 - Ccmx Finance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2060 - Ccmx Finance</label>
+            </value>
+            <value>
+                <fullName>2070 - Ccmx Winner PME</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2070 - Ccmx Winner PME</label>
+            </value>
+            <value>
+                <fullName>2080 - Cegid Gamme II ENT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2080 - Cegid Gamme II ENT</label>
+            </value>
+            <value>
+                <fullName>3015 - Yourcegid Solos</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3015 - Yourcegid Solos</label>
+            </value>
+            <value>
+                <fullName>3017 - Yourcegid Entrepreneurs &amp; TPE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3017 - Yourcegid Entrepreneurs &amp; TPE</label>
+            </value>
+            <value>
+                <fullName>3025 - Cegid Yes</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3025 - Cegid Yes</label>
+            </value>
+            <value>
+                <fullName>3041 - Cegid Viticole</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3041 - Cegid Viticole</label>
+            </value>
+            <value>
+                <fullName>3050 - Ccmx Twin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3050 - Ccmx Twin</label>
+            </value>
+            <value>
+                <fullName>3060 - .-Ne plus utiliser</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3060 - .-Ne plus utiliser</label>
+            </value>
+            <value>
+                <fullName>4010 - Yourcegid Consolidation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4010 - Yourcegid Consolidation</label>
+            </value>
+            <value>
+                <fullName>4020 - Cegid Etafi Conso</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4020 - Cegid Etafi Conso</label>
+            </value>
+            <value>
+                <fullName>4030 - Yourcegid RHP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4030 - Yourcegid RHP</label>
+            </value>
+            <value>
+                <fullName>4031 - Yourcegid CBRH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4031 - Yourcegid CBRH</label>
+            </value>
+            <value>
+                <fullName>4032 - Yourcegid STARTRH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4032 - Yourcegid STARTRH</label>
+            </value>
+            <value>
+                <fullName>4034 - Yourcegid RHPI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4034 - Yourcegid RHPI</label>
+            </value>
+            <value>
+                <fullName>4036 - Cegid Front RH G1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4036 - Cegid Front RH G1</label>
+            </value>
+            <value>
+                <fullName>4037 - Yourcegid FRH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4037 - Yourcegid FRH</label>
+            </value>
+            <value>
+                <fullName>4038 - Yourcegid RH Intelligence</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4038 - Yourcegid RH Intelligence</label>
+            </value>
+            <value>
+                <fullName>4039 - Dématérialisation Gammes RH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4039 - Dématérialisation Gammes RH</label>
+            </value>
+            <value>
+                <fullName>4041 - Start</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4041 - Start</label>
+            </value>
+            <value>
+                <fullName>4042 - Advance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4042 - Advance</label>
+            </value>
+            <value>
+                <fullName>4043 - CV Manager</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4043 - CV Manager</label>
+            </value>
+            <value>
+                <fullName>4044 - RITA Sourcer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4044 - RITA Sourcer</label>
+            </value>
+            <value>
+                <fullName>4045 - RITA Carrière</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4045 - RITA Carrière</label>
+            </value>
+            <value>
+                <fullName>4050 - Yourcegid BI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4050 - Yourcegid BI</label>
+            </value>
+            <value>
+                <fullName>4060 - Yourcegid FCRS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4060 - Yourcegid FCRS</label>
+            </value>
+            <value>
+                <fullName>4070 - Cegid Finance Fiscalite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4070 - Cegid Finance Fiscalite</label>
+            </value>
+            <value>
+                <fullName>4073 - Yourcegid Fiscalite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4073 - Yourcegid Fiscalite</label>
+            </value>
+            <value>
+                <fullName>4074 - Yourcegid Etafi Start</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4074 - Yourcegid Etafi Start</label>
+            </value>
+            <value>
+                <fullName>4075 - Optim’Is</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4075 - Optim’Is</label>
+            </value>
+            <value>
+                <fullName>4076 - DataFinance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4076 - DataFinance</label>
+            </value>
+            <value>
+                <fullName>4077 - MyOptim'is España</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4077 - MyOptim'is España</label>
+            </value>
+            <value>
+                <fullName>4078 - ETAFI IF groupe</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4078 - ETAFI IF groupe</label>
+            </value>
+            <value>
+                <fullName>4079 - MyOptim'is</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4079 - MyOptim'is</label>
+            </value>
+            <value>
+                <fullName>5010 - Yourcegid Retail CBR Place</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5010 - Yourcegid Retail CBR Place</label>
+            </value>
+            <value>
+                <fullName>5011 - Yourcegid Retail CBR Suite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5011 - Yourcegid Retail CBR Suite</label>
+            </value>
+            <value>
+                <fullName>5012 - Yourcegid Retail Y2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5012 - Yourcegid Retail Y2</label>
+            </value>
+            <value>
+                <fullName>5020 - Yourcegid Retail Colombus</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5020 - Yourcegid Retail Colombus</label>
+            </value>
+            <value>
+                <fullName>5030 - Yourcegid Retail .next</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5030 - Yourcegid Retail .next</label>
+            </value>
+            <value>
+                <fullName>5040 - Yourcegid Retail Orli</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5040 - Yourcegid Retail Orli</label>
+            </value>
+            <value>
+                <fullName>5050 - Yourcegid Retail Winshop</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5050 - Yourcegid Retail Winshop</label>
+            </value>
+            <value>
+                <fullName>5065 - Winretail</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5065 - Winretail</label>
+            </value>
+            <value>
+                <fullName>6010 - Yourcegid Manufacturing CBM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>6010 - Yourcegid Manufacturing CBM</label>
+            </value>
+            <value>
+                <fullName>6020 - Yourcegid Manufacturing PMI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>6020 - Yourcegid Manufacturing PMI</label>
+            </value>
+            <value>
+                <fullName>6030 - Yourcegid Manufacturing PACK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>6030 - Yourcegid Manufacturing PACK</label>
+            </value>
+            <value>
+                <fullName>6050 - Produflex</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>6050 - Produflex</label>
+            </value>
+            <value>
+                <fullName>7010 - Yourcegid Hotel Restaurant CB Place</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>7010 - Yourcegid Hotel Restaurant CB Place</label>
+            </value>
+            <value>
+                <fullName>7011 - Yourcegid Hotel Restaurant CB Suite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>7011 - Yourcegid Hotel Restaurant CB Suite</label>
+            </value>
+            <value>
+                <fullName>7012 - Yourcegid Hotel Restaurant WIN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>7012 - Yourcegid Hotel Restaurant WIN</label>
+            </value>
+            <value>
+                <fullName>7020 - Cegid Alphabla</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>7020 - Cegid Alphabla</label>
+            </value>
+            <value>
+                <fullName>8110 - .-BO Civitas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8110 - .-BO Civitas</label>
+            </value>
+            <value>
+                <fullName>8120 - Yourcegid SP Finances</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8120 - Yourcegid SP Finances</label>
+            </value>
+            <value>
+                <fullName>8131 - Yourcegid SP SIRH - Civi</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8131 - Yourcegid SP SIRH - Civi</label>
+            </value>
+            <value>
+                <fullName>8132 - Yourcegid SP SIRH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8132 - Yourcegid SP SIRH</label>
+            </value>
+            <value>
+                <fullName>8150 - Yourcegid SP Civi Citoyens</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8150 - Yourcegid SP Civi Citoyens</label>
+            </value>
+            <value>
+                <fullName>8160 - Civi Env. Technique</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8160 - Civi Env. Technique</label>
+            </value>
+            <value>
+                <fullName>8171 - Yourcegid SP Finances EPA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8171 - Yourcegid SP Finances EPA</label>
+            </value>
+            <value>
+                <fullName>8210 - Yourcegid SP RH - Carrus</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8210 - Yourcegid SP RH - Carrus</label>
+            </value>
+            <value>
+                <fullName>8211 - Yourcegid SP Citoyens</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8211 - Yourcegid SP Citoyens</label>
+            </value>
+            <value>
+                <fullName>8212 - Yourcegid SP Paie</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8212 - Yourcegid SP Paie</label>
+            </value>
+            <value>
+                <fullName>8213 - Yourcegid SP Comptabilité</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8213 - Yourcegid SP Comptabilité</label>
+            </value>
+            <value>
+                <fullName>8215 - Yourcegid SP Facturation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8215 - Yourcegid SP Facturation</label>
+            </value>
+            <value>
+                <fullName>8217 - Yourcegid SP Channel Gestion Interne</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8217 - Yourcegid SP Channel Gestion Interne</label>
+            </value>
+            <value>
+                <fullName>8218 - Yourcegid SP Channel Citoyens</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8218 - Yourcegid SP Channel Citoyens</label>
+            </value>
+            <value>
+                <fullName>8219 - Yourcegid SP Channel Facturation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8219 - Yourcegid SP Channel Facturation</label>
+            </value>
+            <value>
+                <fullName>8220 - Yourcegid SP Finances Y2 EP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8220 - Yourcegid SP Finances Y2 EP</label>
+            </value>
+            <value>
+                <fullName>8221 - Yourcegid SP Finances Y2 Collectivités</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8221 - Yourcegid SP Finances Y2 Collectivités</label>
+            </value>
+            <value>
+                <fullName>8222 - Yourcegid SP Stratégie Financière</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8222 - Yourcegid SP Stratégie Financière</label>
+            </value>
+            <value>
+                <fullName>8223 - Yourcegid SP Patrimoine</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8223 - Yourcegid SP Patrimoine</label>
+            </value>
+            <value>
+                <fullName>8224 - Yourcegid SP SIRH Y2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8224 - Yourcegid SP SIRH Y2</label>
+            </value>
+            <value>
+                <fullName>8225 - Yourcegid SP Y2 intelligence</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8225 - Yourcegid SP Y2 intelligence</label>
+            </value>
+            <value>
+                <fullName>9010 - Cegid Authentification</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>9010 - Cegid Authentification</label>
+            </value>
+            <value>
+                <fullName>9020 - Cegid Prevent Care</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>9020 - Cegid Prevent Care</label>
+            </value>
+            <value>
+                <fullName>9030 - Cegid System</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>9030 - Cegid System</label>
+            </value>
+            <value>
+                <fullName>999 - Non concerné</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>999 - Non concerné</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

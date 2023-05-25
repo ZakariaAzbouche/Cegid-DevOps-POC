@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Faible: Concurrence non identifiée ou concurrent sérieux en place|M: Pas ou peu de concurrence.La stratégie est en place pour répondre à la problématique du client.|F: CEGID a un avantage compétitif lié au prix,au produit,au relationnel et/ou à la marque</help>
+        <label>Concurrence</label>
+        <name>Competition__c</name>
+    </CustomFieldTranslation>

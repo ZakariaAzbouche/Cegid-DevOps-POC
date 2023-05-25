@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1010</fullName>
+        <default>false</default>
+        <label>Cegid Expert</label>
+    </customValue>
+    <customValue>
+        <fullName>4047</fullName>
+        <default>false</default>
+        <label>HR Ultimate</label>
+    </customValue>
+    <customValue>
+        <fullName>2020</fullName>
+        <default>false</default>
+        <label>Quadra Entreprise 2020</label>
+    </customValue>
+    <customValue>
+        <fullName>4046</fullName>
+        <default>false</default>
+        <label>Cegid XRP Flex</label>
+    </customValue>
+    <customValue>
+        <fullName>4010</fullName>
+        <default>false</default>
+        <label>Cegid Conso</label>
+    </customValue>
+    <customValue>
+        <fullName>4050</fullName>
+        <default>false</default>
+        <label>YC BI</label>
+    </customValue>
+    <customValue>
+        <fullName>4060</fullName>
+        <default>false</default>
+        <label>YC FCRS</label>
+    </customValue>
+    <customValue>
+        <fullName>4070</fullName>
+        <default>false</default>
+        <label>Cegid Finance Fiscalité</label>
+    </customValue>
+    <customValue>
+        <fullName>4073</fullName>
+        <default>false</default>
+        <label>YC Fiscalité</label>
+    </customValue>
+    <customValue>
+        <fullName>4074</fullName>
+        <default>false</default>
+        <label>YC ETAFI START</label>
+    </customValue>
+    <customValue>
+        <fullName>4075</fullName>
+        <default>false</default>
+        <label>Optim’Is</label>
+    </customValue>
+    <customValue>
+        <fullName>4076</fullName>
+        <default>false</default>
+        <label>Data finance</label>
+    </customValue>
+    <customValue>
+        <fullName>4077</fullName>
+        <default>false</default>
+        <label>Cegid Tax Ultimate Spain</label>
+    </customValue>
+    <customValue>
+        <fullName>4079</fullName>
+        <default>false</default>
+        <label>Cegid Tax Ultimate</label>
+    </customValue>
+    <customValue>
+        <fullName>4080</fullName>
+        <default>false</default>
+        <label>OPTITAXE</label>
+    </customValue>
+    <customValue>
+        <fullName>2041</fullName>
+        <default>false</default>
+        <label>Cegid XRP Ultimate</label>
+    </customValue>
+    <customValue>
+        <fullName>1045</fullName>
+        <default>false</default>
+        <label>Cegid Loop</label>
+    </customValue>
+    <customValue>
+        <fullName>7070</fullName>
+        <default>false</default>
+        <label>Cegid Conciliator</label>
+    </customValue>
+    <customValue>
+        <fullName>1020</fullName>
+        <default>false</default>
+        <label>Quadra Expert</label>
+    </customValue>
+    <customValue>
+        <fullName>7060</fullName>
+        <default>false</default>
+        <label>Cegid Relations Bancaires</label>
+    </customValue>
+    <customValue>
+        <fullName>7080</fullName>
+        <default>false</default>
+        <label>Cegid Professions Libérales</label>
+    </customValue>
+    <customValue>
+        <fullName>2010</fullName>
+        <default>false</default>
+        <label>Cegid XRP Sprint</label>
+    </customValue>
+    <customValue>
+        <fullName>7100</fullName>
+        <default>false</default>
+        <label>Cegid Talentsoft</label>
+    </customValue>
+    <customValue>
+        <fullName>7110</fullName>
+        <default>false</default>
+        <label>Talentsoft PXS</label>
+    </customValue>
+    <customValue>
+        <fullName>autre</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>autre</label>
+    </customValue>
+    <customValue>
+        <fullName>Demat RH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Demat RH</label>
+    </customValue>
+    <customValue>
+        <fullName>Cegid Talent</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cegid Talent</label>
+    </customValue>
+    <customValue>
+        <fullName>YourCegid RHP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>YourCegid RHP</label>
+    </customValue>
+    <customValue>
+        <fullName>YourCegid FRH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>YourCegid FRH</label>
+    </customValue>
+    <customValue>
+        <fullName>Intelligence RH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Intelligence RH</label>
+    </customValue>
+    <customValue>
+        <fullName>Quadra Entreprise</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Quadra Entreprise</label>
+    </customValue>
+    <customValue>
+        <fullName>Meta4</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Meta4</label>
+    </customValue>
+    <customValue>
+        <fullName>2011</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>2011</label>
+    </customValue>
+    <customValue>
+        <fullName>2012</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>2012</label>
+    </customValue>
+    <customValue>
+        <fullName>YourCegid RHPI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>YourCegid RHPI</label>
+    </customValue>
+    <masterLabel>Offer</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

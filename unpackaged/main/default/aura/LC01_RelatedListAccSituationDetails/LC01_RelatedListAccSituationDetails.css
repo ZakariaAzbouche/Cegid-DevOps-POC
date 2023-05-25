@@ -1,0 +1,52 @@
+.THIS .align {
+    text-align: right;
+}
+
+.THIS .scorring{
+    margin-left: 15px;
+}
+
+.THIS .dotBlue {
+    height: 15px;
+    width: 15px;
+    background-color :blue;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .THIS .dotRed {
+    height: 15px;
+    width: 15px;
+    background-color :red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .THIS .dotYellow{
+    height: 15px;
+    width: 15px;
+    background-color :yellow;
+    border-radius: 50%;
+    display: inline-block;  
+    margin-left: 10px;   
+  }
+
+  .THIS .dotGreen{
+    height: 15px;
+    width: 15px;
+    background-color :green;
+    border-radius: 50%;
+    display: inline-block;   
+    margin-left: 10px;  
+  }
+
+  .THIS .dotBlack{
+    height: 15px;
+    width: 15px;
+    background-color :black;
+    border-radius: 50%;
+    display: inline-block;    
+    margin-left: 10px; 
+  }

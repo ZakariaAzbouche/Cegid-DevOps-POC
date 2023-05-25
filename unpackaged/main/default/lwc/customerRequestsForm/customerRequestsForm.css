@@ -1,0 +1,140 @@
+.hidden {
+    display: none;
+}
+.slds-notify__content{
+    width: 100%;
+    text-align: center;
+}
+.toast-container {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.main-spinner {
+    position: fixed !important;
+    width: 100%;
+    top: 50%;
+    z-index: 10;
+}
+.main-container{
+    margin-bottom: 30px;
+}
+.inputs-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 3px solid #9e9e9e;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.bloc-title{
+    font-size: 13px;
+    margin-left: 24px;
+    padding: 0 6px;
+    transform: translateY(8px);
+    background: white;
+    width: fit-content;
+}
+.inputs-side{
+    width: 48%;
+}
+.input-full{
+    width: 100%;
+}
+lightning-input, lightning-combobox{
+    padding: 0 5px;
+    margin-bottom: 8px;
+}
+.slds-list_dotted{
+    margin-top: 8px;
+}
+.table-invoice-lines{
+    border: 3px solid #9e9e9e;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-height: 800px;
+    overflow-y: scroll;
+}
+.grid-tree table{
+    border-collapse: collapse;
+}
+.grid-tree th, .grid-tree td{
+    border-bottom: 1px solid #c8c8c8
+}
+.grid-tree th{
+    border-right: 1px solid #c8c8c8
+}
+.grid-tree button{
+    background: no-repeat;
+    border: none;
+    padding: 0 12px;
+}
+.buttons-container{
+    width: 100%;
+    text-align: end;
+    margin: 20px 0 10px;
+}
+lightning-button{
+    margin-left: 5px;
+}
+.pagination-container{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next{
+    width: 80px;
+}
+
+.next img{
+    opacity: 0.7;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+.next img:hover{
+    width: 28px;
+    opacity: 0.9;
+}
+.childchecked + div{
+    width: 7px;
+    height: 2px;
+    background: rgba(1, 118, 211, 1);
+    transform: translate(5px, -8px);
+}
+.helptext-cotainer{
+    height: 0;
+    text-align: end;
+    padding-right: 10px;
+}
+.helptext{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    height: 21px;
+    background: white;
+    transform: translate(30px, -18px);
+}
+.helptext-icon{
+    position: absolute;
+    z-index: 999;
+}
+.helptext-icon:hover + .helptext{
+    display: block;
+}
+.pos1{
+    transform: translate(90px, -2px); 
+}
+.pos2{
+    transform: translate(131px, -2px); 
+}
+.pos3{
+    transform: translate(136px, -2px); 
+}
+.pos4{
+    transform: translate(62px, -2px); 
+}

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motifs__c</fullName>
+    <externalId>false</externalId>
+    <label>Motifs</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Waiting for notification stopping phone support</fullName>
+                <default>false</default>
+                <label>Waiting for notification stopping phone support</label>
+            </value>
+            <value>
+                <fullName>Away to the competitor</fullName>
+                <default>false</default>
+                <label>Away to the competitor</label>
+            </value>
+            <value>
+                <fullName>Already signed</fullName>
+                <default>false</default>
+                <label>Already signed</label>
+            </value>
+            <value>
+                <fullName>In-house development</fullName>
+                <default>false</default>
+                <label>In-house development</label>
+            </value>
+            <value>
+                <fullName>Out of scope</fullName>
+                <default>false</default>
+                <label>Out of scope</label>
+            </value>
+            <value>
+                <fullName>Interlocutor can’t be reached</fullName>
+                <default>false</default>
+                <label>Interlocutor can’t be reached</label>
+            </value>
+            <value>
+                <fullName>Unsatisfied</fullName>
+                <default>false</default>
+                <label>Unsatisfied</label>
+            </value>
+            <value>
+                <fullName>No budget / No project</fullName>
+                <default>false</default>
+                <label>No budget / No project</label>
+            </value>
+            <value>
+                <fullName>International</fullName>
+                <default>false</default>
+                <label>International</label>
+            </value>
+            <value>
+                <fullName>Advice from its accountant</fullName>
+                <default>false</default>
+                <label>Advice from its accountant</label>
+            </value>
+            <value>
+                <fullName>Cost</fullName>
+                <default>false</default>
+                <label>Cost</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Financial situation</fullName>
+                <default>false</default>
+                <label>Financial situation</label>
+            </value>
+            <value>
+                <fullName>Postponed</fullName>
+                <default>false</default>
+                <label>Postponed</label>
+            </value>
+            <value>
+                <fullName>Other channel</fullName>
+                <default>false</default>
+                <label>Other channel</label>
+            </value>
+            <value>
+                <fullName>Interlocutor reached</fullName>
+                <default>false</default>
+                <label>Interlocutor reached</label>
+            </value>
+            <value>
+                <fullName>Proposal in progress</fullName>
+                <default>false</default>
+                <label>Proposal in progress</label>
+            </value>
+            <value>
+                <fullName>Interlocutor not reached</fullName>
+                <default>false</default>
+                <label>Interlocutor not reached</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Sales cycle in progress</controllingFieldValue>
+            <valueName>Interlocutor reached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales cycle in progress</controllingFieldValue>
+            <valueName>Proposal in progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales cycle in progress</controllingFieldValue>
+            <valueName>Interlocutor not reached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Waiting for notification stopping phone support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Away to the competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Already signed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>In-house development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Out of scope</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Interlocutor can’t be reached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Unsatisfied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>No budget / No project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>International</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Advice from its accountant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Cost</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Financial situation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Postponed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Other channel</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

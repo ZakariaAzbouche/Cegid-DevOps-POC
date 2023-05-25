@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Origin__c</fullName>
+    <businessStatus>Hidden</businessStatus>
+    <complianceGroup>GDPR</complianceGroup>
+    <defaultValue>"Sales"</defaultValue>
+    <description>To identify the data source: "Marketing" if it cames from Lead's standard conversion; "Sales" if it cames from a Sales Rep; and Others values inserted through Data import files (this field must be fulfilled in the loading file BEFORE insert)</description>
+    <externalId>false</externalId>
+    <label>Contact Origin</label>
+    <length>40</length>
+    <required>false</required>
+    <securityClassification>Internal</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Target Service --></label>
+        <name>Target_Service__c</name>
+        <picklistValues>
+            <masterLabel>CegidLife.com</masterLabel>
+            <translation><!-- CegidLife.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gestion des utilisateurs</masterLabel>
+            <translation><!-- Gestion des utilisateurs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITSM</masterLabel>
+            <translation><!-- ITSM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User plateforme Saas</masterLabel>
+            <translation><!-- User plateforme Saas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webfi</masterLabel>
+            <translation><!-- Webfi --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

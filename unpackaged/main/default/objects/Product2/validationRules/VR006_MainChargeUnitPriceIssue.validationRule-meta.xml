@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR006_MainChargeUnitPriceIssue</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c ),
+OR(ISBLANK(Main_Charge_Product__r.Excess_Unit_Price_Coeff__c),Main_Charge_Product__r.Excess_Unit_Price_Coeff__c == 0),
+ ISPICKVAL(Excess_Pricing_Method__c ,'Main Charge Unit Price'))</errorConditionFormula>
+    <errorMessage>You can't register a Charge with Excess Pricing Method equals to Main Charge Unit Price if the Main Charge Product has a null Excess Unit Price Coeff.</errorMessage>
+</ValidationRule>

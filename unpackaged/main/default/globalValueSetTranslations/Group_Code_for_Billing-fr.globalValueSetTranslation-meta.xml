@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>FUL</masterLabel>
+        <translation><!-- FUL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JD1</masterLabel>
+        <translation>JD2</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

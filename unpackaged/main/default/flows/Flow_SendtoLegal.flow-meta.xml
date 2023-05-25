@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apiVersion>51.0</apiVersion>
+    <assignments>
+        <name>Update_Field_SendToLegal</name>
+        <label>Update Field SendToLegal</label>
+        <locationX>545</locationX>
+        <locationY>1646</locationY>
+        <assignmentItems>
+            <assignToReference>Get_Current_Record_info.Tech_SendToLegal_Case__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Current_Record_info.Tech_Legal_Case_Approved__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Quote</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Ask_for_Particular_Conditions</name>
+        <label>Ask for Particular Conditions</label>
+        <locationX>864</locationX>
+        <locationY>638</locationY>
+        <defaultConnector>
+            <targetReference>Nothing</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Particular_Conditions</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Apply_Particular_Conditions</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Screen3000_0</targetReference>
+            </connector>
+            <label>Particular Conditions</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Ask_for_Particular_Conditions_0</name>
+        <label>Ask for Particular Conditions</label>
+        <locationX>50</locationX>
+        <locationY>878</locationY>
+        <defaultConnector>
+            <targetReference>Screen2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Particular_Conditions_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Apply_Particular_Conditions</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_Contracted_Prices_Request</targetReference>
+            </connector>
+            <label>Particular Conditions</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>COntracted_Price_Request_Found</name>
+        <label>COntracted Price Request Found</label>
+        <locationX>226</locationX>
+        <locationY>758</locationY>
+        <defaultConnector>
+            <targetReference>Create_Contracted_Prices_Request</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>request_found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Open_Contracted_Price_Request</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Ask_for_Particular_Conditions_0</targetReference>
+            </connector>
+            <label>request found</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>ContractedPrices</name>
+        <label>ContractedPrices</label>
+        <locationX>545</locationX>
+        <locationY>518</locationY>
+        <defaultConnector>
+            <targetReference>Ask_for_Particular_Conditions</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Ask_for_Contracted_Prices</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Create_Contracted_Prices</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Apply_Particular_Conditions</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Screen1</targetReference>
+            </connector>
+            <label>Ask for Contracted Prices</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>ContractedPrices_0</name>
+        <label>ContractedPrices</label>
+        <locationX>710</locationX>
+        <locationY>878</locationY>
+        <defaultConnector>
+            <targetReference>Create_Contracted_Prices_Request</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Ask_for_Contracted_Prices_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Create_Contracted_Prices</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Screen1</targetReference>
+            </connector>
+            <label>Ask for Contracted Prices</label>
+        </rules>
+    </decisions>
+    <description>Update : How to run the Flow  = System Context with Sharing-Enforces Record-Level Access</description>
+    <dynamicChoiceSets>
+        <name>GLOBAL_Billing_Frequency</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Billing_Frequency__c</picklistField>
+        <picklistObject>SBQQ__Quote__c</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>GLOBAL_Extension_mode</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Extension_Mode__c</picklistField>
+        <picklistObject>SBQQ__Quote__c</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>GLOBAL_Increase_Mode</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Increase_Mode__c</picklistField>
+        <picklistObject>SBQQ__Quote__c</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>GLOBAL_Increase_Type</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Increase_Type__c</picklistField>
+        <picklistObject>SBQQ__Quote__c</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>GLOBAL_Payment_Date</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Payment_Date__c</picklistField>
+        <picklistObject>SBQQ__Quote__c</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>GLOBAL_Payment_date_calculation</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Payment_Date_Calculation_Method__c</picklistField>
+        <picklistObject>SBQQ__Quote__c</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>GLOBAL_Payment_Method</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Payment_Method__c</picklistField>
+        <picklistObject>SBQQ__Quote__c</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>GLOBAL_Payment_Term</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Payment_Term__c</picklistField>
+        <picklistObject>SBQQ__Quote__c</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>GLOBAL_Renewal_Mode</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Renewal_Mode__c</picklistField>
+        <picklistObject>SBQQ__Quote__c</picklistObject>
+    </dynamicChoiceSets>
+    <environments>Default</environments>
+    <formulas>
+        <name>Title_FR</name>
+        <dataType>String</dataType>
+        <expression>IF(AND({!Apply_Particular_Conditions},{!Create_Contracted_Prices}),&apos;Demande de conditions particulières et prix pour contrat cadre&apos;,IF({!Apply_Particular_Conditions},&apos;Demande de conditions particulières&apos;,&apos;Demande de prix contrat cadre&apos;))</expression>
+    </formulas>
+    <interviewLabel>Flow-SendtoLegal {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Flow-SendtoLegal</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Create_Contracted_Prices_Request</name>
+        <label>Create Contracted Prices Request</label>
+        <locationX>545</locationX>
+        <locationY>1526</locationY>
+        <connector>
+            <targetReference>Update_Field_SendToLegal</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>AccountId</field>
+            <value>
+                <elementReference>Get_Current_Record_info.SBQQ__Account__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Billing_Frequency__c</field>
+            <value>
+                <elementReference>Billing_Frequency_0</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Description</field>
+            <value>
+                <elementReference>Comment</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Increase_Mode__c</field>
+            <value>
+                <elementReference>Increase_Mode_0</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Increase_Type__c</field>
+            <value>
+                <elementReference>Increase_Type_0</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>New_Increase_Type__c</field>
+            <value>
+                <elementReference>New_Increase_Type</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Notice_Period__c</field>
+            <value>
+                <elementReference>Notice_Period_0</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Origin</field>
+            <value>
+                <stringValue>Internal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Label.Legal_Validators_Queue_ID</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Payment_Date_Calculation_Method__c</field>
+            <value>
+                <elementReference>Payment_Date_Method_0</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Payment_Date__c</field>
+            <value>
+                <elementReference>Payment_Date_0</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Payment_Method__c</field>
+            <value>
+                <elementReference>Payment_Method_0</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Payment_Term__c</field>
+            <value>
+                <elementReference>Payment_Term_0</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Medium</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Quote__c</field>
+            <value>
+                <elementReference>Get_Current_Record_info.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <elementReference>$Label.Particular_Conditions_Request_Record_Type_ID</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Renewal_Mode__c</field>
+            <value>
+                <elementReference>Renewal_Mode_0</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Renewal_Term__c</field>
+            <value>
+                <elementReference>Renewal_Term_0</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Requested_End_Date__c</field>
+            <value>
+                <elementReference>End_Date</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Requested_Start_Date__c</field>
+            <value>
+                <elementReference>Start_Date</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Sales_Purpose__c</field>
+            <value>
+                <elementReference>Get_Current_Record_info.Sale_Purpose__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Service_Level__c</field>
+            <value>
+                <elementReference>Get_Current_Record_info.Service_Level__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>In progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>Title_FR</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subscription_Term__c</field>
+            <value>
+                <elementReference>Subscription_Term_0</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Current_Record_info</name>
+        <label>Get Current Record info</label>
+        <locationX>545</locationX>
+        <locationY>278</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Open_Contracted_Price_Request</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>SBQQ__Quote__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Open_Contracted_Price_Request</name>
+        <label>Get Open Contracted Price Request</label>
+        <locationX>545</locationX>
+        <locationY>398</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>ContractedPrices</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Quote__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Current_Record_info.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Subject</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Contracted Prices Request</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Quote</name>
+        <label>Update Quote</label>
+        <locationX>545</locationX>
+        <locationY>1766</locationY>
+        <connector>
+            <targetReference>ThankYouScreen</targetReference>
+        </connector>
+        <inputReference>Get_Current_Record_info</inputReference>
+    </recordUpdates>
+    <runInMode>SystemModeWithSharing</runInMode>
+    <screens>
+        <name>Nothing</name>
+        <label>Nothing</label>
+        <locationX>1018</locationX>
+        <locationY>758</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>textNothing</name>
+            <fieldText>&lt;p&gt;&lt;i&gt;Ok, nothing. Have a nice day!&lt;/i&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Screen0</name>
+        <label>Screen0</label>
+        <locationX>545</locationX>
+        <locationY>158</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Get_Current_Record_info</targetReference>
+        </connector>
+        <fields>
+            <name>What</name>
+            <fieldText>&lt;p&gt;&lt;i&gt;What do you want to do?&lt;/i&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Apply_Particular_Conditions</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Apply Particular Conditions</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Create_Contracted_Prices</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Create Contracted Prices</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Screen1</name>
+        <label>Screen1</label>
+        <locationX>226</locationX>
+        <locationY>638</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>COntracted_Price_Request_Found</targetReference>
+        </connector>
+        <fields>
+            <name>WelcomeMessage</name>
+            <fieldText>&lt;p&gt;&lt;i&gt;Please, specify what do you want to be validated by Contracted Prices Validators :&lt;/i&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Comment</name>
+            <fieldText>Comment</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Start_Date</name>
+            <dataType>DateTime</dataType>
+            <fieldText>Start Date</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>End_Date</name>
+            <dataType>DateTime</dataType>
+            <fieldText>End Date</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Screen2</name>
+        <label>Screen2</label>
+        <locationX>138</locationX>
+        <locationY>998</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Error1</name>
+            <fieldText>&lt;p&gt;&lt;i style=&quot;color: rgb(255, 0, 0);&quot;&gt;You already sent a Contracted Prices Request. Please, contact your validator.&lt;/i&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Screen3000_0</name>
+        <label>Screen3000</label>
+        <locationX>710</locationX>
+        <locationY>758</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>ContractedPrices_0</targetReference>
+        </connector>
+        <fields>
+            <name>ParticularConditionstobevalidated</name>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;u&gt;Particular Conditions to be validated&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Subscription_Term_0</name>
+            <dataType>Number</dataType>
+            <fieldText>Subscription Term</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+            <validationRule>
+                <errorMessage>&lt;p&gt;&lt;i style=&quot;color: rgb(255, 0, 0);&quot;&gt;This context is impossible. Please modify fields.&lt;/i&gt;&lt;/p&gt;</errorMessage>
+                <formulaExpression>NOT(OR(
+AND({!Payment_Term_0}=&quot;30&quot;, {!Payment_Date_0}=&quot;FDM&quot;, {!Payment_Method_0}=&quot;Debit&quot;),
+AND({!Payment_Term_0}=&quot;30&quot;, {!Payment_Date_0}=&quot;FDM10&quot;, {!Payment_Method_0}=&quot;Debit&quot;),
+AND({!Payment_Term_0}=&quot;45&quot;, {!Payment_Date_0}=&quot;FDM&quot;, {!Payment_Method_0}=&quot;Debit&quot;),
+AND({!Payment_Term_0}=&quot;45&quot;, {!Payment_Date_0}=&quot;FDM10&quot;, {!Payment_Method_0}=&quot;Debit&quot;),
+AND({!Payment_Term_0}=&quot;45&quot;, {!Payment_Date_0}=&quot;FDM10&quot;, {!Payment_Method_0}=&quot;Bank Transfert&quot;),
+AND({!Payment_Term_0}=&quot;60&quot;, {!Payment_Date_0}=&quot;FDM&quot;, {!Payment_Method_0}=&quot;Debit&quot;),
+AND({!Payment_Term_0}=&quot;60&quot;, {!Payment_Date_0}=&quot;FDM10&quot;, {!Payment_Method_0}=&quot;Debit&quot;),
+AND({!Payment_Term_0}=&quot;60&quot;, {!Payment_Date_0}=&quot;FDM&quot;, {!Payment_Method_0}=&quot;Bank Transfert&quot;),
+AND({!Payment_Term_0}=&quot;60&quot;, {!Payment_Date_0}=&quot;FDM10&quot;, {!Payment_Method_0}=&quot;Bank Transfert&quot;),
+AND({!Payment_Term_0}=&quot;45&quot;, {!Payment_Date_0}=&quot;FDM10&quot;, {!Payment_Method_0}=&quot;Mandate&quot;),
+AND({!Payment_Term_0}=&quot;60&quot;, {!Payment_Date_0}=&quot;FDM&quot;, {!Payment_Method_0}=&quot;Mandate&quot;),
+AND({!Payment_Term_0}=&quot;60&quot;, {!Payment_Date_0}=&quot;FDM10&quot;, {!Payment_Method_0}=&quot;Mandate&quot;)
+))</formulaExpression>
+            </validationRule>
+        </fields>
+        <fields>
+            <name>Renewal_Term_0</name>
+            <dataType>Number</dataType>
+            <fieldText>Renewal Term</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+        </fields>
+        <fields>
+            <name>Renewal_Mode_0</name>
+            <choiceReferences>GLOBAL_Renewal_Mode</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Renewal Mode</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Payment_Date_Method_0</name>
+            <choiceReferences>GLOBAL_Payment_date_calculation</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Payment Date Method</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Increase_Mode_0</name>
+            <choiceReferences>GLOBAL_Increase_Mode</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Increase Mode</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Increase_Type_0</name>
+            <choiceReferences>GLOBAL_Increase_Type</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Increase Type</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>New_Increase_Type</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <stringValue>Insert Value</stringValue>
+            </defaultValue>
+            <fieldText>Increase Type to be created</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <validationRule>
+                <errorMessage>&lt;p&gt;&lt;em style=&quot;color: rgb(255, 0, 0);&quot;&gt;A new value in &quot;Increase Type to be created&quot; is mandatory if you selected &quot;A CREER&quot; for the Increase Type Field.&lt;/em&gt;&lt;/p&gt;</errorMessage>
+                <formulaExpression>{!New_Increase_Type}&lt;&gt;&apos;Insert Value&apos;</formulaExpression>
+            </validationRule>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Increase_Type_0</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <stringValue>A CRÉER</stringValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Notice_Period_0</name>
+            <dataType>Number</dataType>
+            <fieldText>Notice Period</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+        </fields>
+        <fields>
+            <name>Payment_Method_0</name>
+            <choiceReferences>GLOBAL_Payment_Method</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Payment Method</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Payment_Term_0</name>
+            <choiceReferences>GLOBAL_Payment_Term</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Payment Term</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Payment_Date_0</name>
+            <choiceReferences>GLOBAL_Payment_Date</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Payment Date</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Billing_Frequency_0</name>
+            <choiceReferences>GLOBAL_Billing_Frequency</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Billing Frequency</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>ThankYouScreen</name>
+        <label>ThankYouScreen</label>
+        <locationX>545</locationX>
+        <locationY>1886</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>ThankYou</name>
+            <fieldText>&lt;p&gt;&lt;i&gt;Thank you {!$User.FirstName},&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;your request has been sent to Legal.&lt;/i&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>419</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Screen0</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

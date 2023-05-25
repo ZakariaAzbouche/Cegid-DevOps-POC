@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>XRP</fullName>
+        <default>false</default>
+        <label>XRP</label>
+    </customValue>
+    <customValue>
+        <fullName>XRP_ZUORA</fullName>
+        <default>false</default>
+        <label>XRP_ZUORA</label>
+    </customValue>
+    <customValue>
+        <fullName>XRP_BUYME</fullName>
+        <default>false</default>
+        <label>XRP_BUYME</label>
+    </customValue>
+    <masterLabel>Flux SI</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

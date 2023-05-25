@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- To obtain the &apos;ERP Number, the following fields must be filled in :
+- Account Name
+- Account Type
+- National ID (Siret for accounts in France)
+- Industry code
+- Billing Address
+- Phone
+- Annual Revenue
+- No. of Employees --></help>
+        <label>Numéro de compte ERP</label>
+        <name>ERP_Number__c</name>
+    </CustomFieldTranslation>

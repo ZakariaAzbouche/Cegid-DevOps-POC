@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Territory_ZIP_codeTwo__c</fullName>
+    <description>SMBIS19
+SMBIS22
+SMBTLIS4</description>
+    <externalId>false</externalId>
+    <formula>IF(
+AND (
+OR(BEGINS(BillingPostalCode, '01'),
+BEGINS(BillingPostalCode, '05'),
+BEGINS(BillingPostalCode, '09'),
+BEGINS(BillingPostalCode, '27'),
+BEGINS(BillingPostalCode, '37'),
+BEGINS(BillingPostalCode, '42'),
+BEGINS(BillingPostalCode, '46'),
+BEGINS(BillingPostalCode, '71'),
+BEGINS(BillingPostalCode, '92'),
+BEGINS(BillingPostalCode, '93'),
+BEGINS(BillingPostalCode, '95'),
+BEGINS(BillingPostalCode, '97')),
+(ISPICKVAL( BillingCountryCode,  'FR') ))
+,'SMBIS19', IF(
+AND (
+OR
+(
+BEGINS(BillingPostalCode, '20'),
+BEGINS(BillingPostalCode, '24'),
+BEGINS(BillingPostalCode, '31'),
+BEGINS(BillingPostalCode, '34'),
+BEGINS(BillingPostalCode, '49'),
+BEGINS(BillingPostalCode, '62'),
+BEGINS(BillingPostalCode, '66'),
+BEGINS(BillingPostalCode, '68'),
+BEGINS(BillingPostalCode, '76'),
+BEGINS(BillingPostalCode, '78'),
+BEGINS(BillingPostalCode, '79'),
+BEGINS(BillingPostalCode, '94')),
+
+(ISPICKVAL( BillingCountryCode,  'FR') ))
+,'SMBIS22', IF(
+AND (
+OR
+(
+BEGINS(BillingPostalCode, '33'),
+BEGINS(BillingPostalCode, '35'),
+BEGINS(BillingPostalCode, '48'),
+BEGINS(BillingPostalCode, '91')
+
+),
+
+(ISPICKVAL( BillingCountryCode,  'FR') ))
+,'SMBTLIS4', null)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tech Territory ZIP codeTwo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

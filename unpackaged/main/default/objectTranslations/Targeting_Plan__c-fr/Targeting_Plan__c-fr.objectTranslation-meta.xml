@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PAC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PAC</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Plan Commercial Layout</layout>
+        <sections>
+            <label>Informations complémentaires</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom du PAC</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

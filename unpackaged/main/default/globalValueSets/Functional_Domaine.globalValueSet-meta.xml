@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Back office retail</fullName>
+        <default>false</default>
+        <label>Back office retail</label>
+    </customValue>
+    <customValue>
+        <fullName>BI</fullName>
+        <default>false</default>
+        <label>BI</label>
+    </customValue>
+    <customValue>
+        <fullName>Cegid shop</fullName>
+        <default>false</default>
+        <label>Cegid shop</label>
+    </customValue>
+    <customValue>
+        <fullName>Clienteling</fullName>
+        <default>false</default>
+        <label>Clienteling</label>
+    </customValue>
+    <customValue>
+        <fullName>Comptabilité</fullName>
+        <default>false</default>
+        <label>Comptabilité</label>
+    </customValue>
+    <customValue>
+        <fullName>Consolidation</fullName>
+        <default>false</default>
+        <label>Consolidation</label>
+    </customValue>
+    <customValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </customValue>
+    <customValue>
+        <fullName>ERP</fullName>
+        <default>false</default>
+        <label>ERP</label>
+    </customValue>
+    <customValue>
+        <fullName>Formation</fullName>
+        <default>false</default>
+        <label>Formation</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion commerciale</fullName>
+        <default>false</default>
+        <label>Gestion commerciale</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion d&apos;affaires</fullName>
+        <default>false</default>
+        <label>Gestion d&apos;affaires</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion des temps</fullName>
+        <default>false</default>
+        <label>Gestion des temps</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion de production</fullName>
+        <default>false</default>
+        <label>Gestion de production</label>
+    </customValue>
+    <customValue>
+        <fullName>Immobilisations</fullName>
+        <default>false</default>
+        <label>Immobilisations</label>
+    </customValue>
+    <customValue>
+        <fullName>Juridique</fullName>
+        <default>false</default>
+        <label>Juridique</label>
+    </customValue>
+    <customValue>
+        <fullName>Liasses fiscales</fullName>
+        <default>false</default>
+        <label>Liasses fiscales</label>
+    </customValue>
+    <customValue>
+        <fullName>Note de frais</fullName>
+        <default>false</default>
+        <label>Note de frais</label>
+    </customValue>
+    <customValue>
+        <fullName>Omni Channel</fullName>
+        <default>false</default>
+        <label>Omni Channel</label>
+    </customValue>
+    <customValue>
+        <fullName>Partenariat</fullName>
+        <default>false</default>
+        <label>Partenariat</label>
+    </customValue>
+    <customValue>
+        <fullName>Paie</fullName>
+        <default>false</default>
+        <label>Paie</label>
+    </customValue>
+    <customValue>
+        <fullName>Portail collaboratif</fullName>
+        <default>false</default>
+        <label>Portail collaboratif</label>
+    </customValue>
+    <customValue>
+        <fullName>POS/Encaissement</fullName>
+        <default>false</default>
+        <label>POS/Encaissement</label>
+    </customValue>
+    <customValue>
+        <fullName>RH</fullName>
+        <default>false</default>
+        <label>RH</label>
+    </customValue>
+    <customValue>
+        <fullName>Solution globale CPA</fullName>
+        <default>false</default>
+        <label>Solution globale CPA</label>
+    </customValue>
+    <customValue>
+        <fullName>Sourcing et distribution</fullName>
+        <default>false</default>
+        <label>Sourcing et distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>Talents</fullName>
+        <default>false</default>
+        <label>Talents</label>
+    </customValue>
+    <customValue>
+        <fullName>Taxes</fullName>
+        <default>false</default>
+        <label>Taxes</label>
+    </customValue>
+    <customValue>
+        <fullName>TDA</fullName>
+        <default>false</default>
+        <label>TDA</label>
+    </customValue>
+    <customValue>
+        <fullName>Trésorerie</fullName>
+        <default>false</default>
+        <label>Trésorerie</label>
+    </customValue>
+    <masterLabel>Functional Domaine</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIApplicationConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aiApplicationDeveloperName>TESTCCO_app_mig</aiApplicationDeveloperName>
+    <applicationId>0Pp3Y0000004CFp</applicationId>
+    <developerName>TESTCCO_appConfig_mig</developerName>
+    <insightReasonEnabled>false</insightReasonEnabled>
+    <masterLabel>TESTCCO_appConfig_mig</masterLabel>
+    <rank>1</rank>
+    <scoringMode>Batch</scoringMode>
+</AIApplicationConfig>

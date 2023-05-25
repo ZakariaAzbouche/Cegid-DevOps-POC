@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Commercial gesture</masterLabel>
+        <translation>Geste Commercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Competitive alignment</masterLabel>
+        <translation>Alignement concurrentiel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Framework Contract</masterLabel>
+        <translation>Contrat Cadre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Litigation balance</masterLabel>
+        <translation>Solde litige</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Migration</masterLabel>
+        <translation>Migration</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Multi-site</masterLabel>
+        <translation>Multi-sites</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partner Sale</masterLabel>
+        <translation>Vente Partenaire</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retention</masterLabel>
+        <translation>Rétention</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Underestimation of customer needs</masterLabel>
+        <translation>Sous-estimation besoin client</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

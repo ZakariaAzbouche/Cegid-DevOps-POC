@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason update National ID or Tax Number --></label>
+        <name>Reason_Update_National_Id_VAT__c</name>
+        <picklistValues>
+            <masterLabel>Change of address</masterLabel>
+            <translation><!-- Change of address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Input Error</masterLabel>
+            <translation><!-- Input Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal merge</masterLabel>
+            <translation><!-- Legal merge --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

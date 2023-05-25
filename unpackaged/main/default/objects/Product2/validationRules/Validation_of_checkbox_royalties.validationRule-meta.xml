@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_of_checkbox_royalties</fullName>
+    <active>true</active>
+    <errorConditionFormula>( percentage_of_turnover__c = TRUE||countermark__c = TRUE||Prepaid__c = TRUE||Quantity_Declarative__c = TRUE) &amp;&amp; ISBLANK(TEXT(Brand__c))</errorConditionFormula>
+    <errorDisplayField>IsActive</errorDisplayField>
+    <errorMessage>Supplier is required</errorMessage>
+</ValidationRule>

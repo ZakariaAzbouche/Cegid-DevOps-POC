@@ -1,0 +1,235 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 10-28-2021
+  @last modified by  : keshav Matabadul
+-->
+<template>
+        <!-- Cart Items already in process -->
+        <template if:true={cartLocked}>
+            <div class="slds-notify slds-notify_alert slds-alert_error" role="alert">
+                <span class="slds-assistive-text">error</span>
+                <span class="slds-icon_container slds-icon-utility-error slds-m-right_x-small" title="Description of icon when needed">
+                  <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                    <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#error"></use>
+                  </svg>
+                </span>
+                <h2>{label.paymentPart1}
+                  <a href="#" onclick={cancelPayment}>{label.paymentPart2}</a>
+                </h2>
+                <!--div class="slds-notify__close">
+                  <button class="slds-button slds-button_icon slds-button_icon-small slds-button_icon-inverse" title="Close">
+                    <svg class="slds-button__icon" aria-hidden="true">
+                      <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                    </svg>
+                    <span class="slds-assistive-text">Close</span>
+                  </button>
+                </div-->
+              </div>
+        </template>
+    <lightning-breadcrumbs class="slds-p-bottom_large pdp--breadcrumbs">
+        <template for:each={_resolvedCategoryPath} for:item="level">
+            <lightning-breadcrumb
+                key={level.name}
+                label={level.name}
+                href={level.url}
+            >
+            </lightning-breadcrumb>
+        </template>
+    </lightning-breadcrumbs>
+
+    <div class="plp--product-grid slds-grid slds-wrap">
+        <div class="slds-col slds-size_1-of-1 slds-large-size_7-of-12">
+            <div class="product-information">
+                <!-- <div class="image slds-m-right_small">
+                    <figure
+                        class="slds-p-around_xx-small slds-border_top slds-border_right slds-border_bottom slds-border_left"
+                    >
+                        <img src={image.url} alt={image.alternativeText} />
+                    </figure>
+                </div> -->
+                <div class="details-area">
+                    <div class="heading">
+                        <h2 class="slds-text-heading_medium slds-m-bottom--medium">
+                          <lightning-formatted-rich-text
+                            value={name}
+                          ></lightning-formatted-rich-text>
+                        </h2>
+        
+                        <div class="product-description slds-m-bottom--large">
+                          <lightning-formatted-rich-text
+                            value={description}
+                          ></lightning-formatted-rich-text>
+                        </div>
+        
+                        <div style="display: none;">
+                            <template for:each={_displayableFields} for:item="field">
+                                <div
+                                    key={field.id}
+                                    if:true={field.value}
+                                    class="slds-grid"
+                                >
+                                    <p class="slds-m-right_xx-small">{field.name}:</p>
+                                    <lightning-formatted-rich-text
+                                        value={field.value}
+                                    ></lightning-formatted-rich-text>
+                                </div>
+                            </template>
+                        </div>
+                        <div class="product-info">
+                            <div if:true={categoryLabel} class="product-info--details slds-m-right_large slds-m-bottom_small">{categoryLabel}</div><!-- VMO 20211008: Changed from _category to categoryLabel -->
+                            <div if:true={_duration} class="product-info--details slds-m-right_large slds-m-bottom_small">Durée: {_duration} {_serviceTerm}</div>
+                            <div if:true={_realizationCondition} class="product-info--details slds-m-right_large slds-m-bottom_small">{_realizationCondition}</div>
+                            <!-- <div if:true={inStock} class="product-info--details slds-m-right_large slds-m-left_small slds-m-bottom_small">
+                            <lightning-icon
+                                icon-name="utility:check"
+                                variant="success"
+                                size="small"
+                            ></lightning-icon>
+                            <span class="slds-p-horizontal_small">In stock</span>
+                            </div> -->
+                            <div if:false={inStock} class="product-info--details slds-m-bottom_small">
+                                <lightning-icon
+                                    icon-name="utility:ban"
+                                    variant="error"
+                                    size="small"
+                                ></lightning-icon>
+                                <span class="slds-p-horizontal_small">{label.outOfStock}</span>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="price slds-m-top--medium slds-m-bottom--x-large">
+                      <span if:false={hasPrice}>{label.priceUnvailable}</span>
+                      <div class="priceGroup">
+                        <div>
+                          <lightning-formatted-number
+                          if:true={hasPrice}
+                          currency-code={price.currency}
+                          format-style="currency"
+                          class="price-info"
+                          value={price.negotiated}
+                          >
+                          </lightning-formatted-number>
+                          <sup class="superScript">HT</sup>
+                          <p class="parperson">par personne</p>
+                        </div>
+                    </div>
+                  </div>
+                  <!---->
+                  <template if:true={displaySession}>
+                    <c-b2b-product-calender record-id={recordId} in-stock={inStock} title={b2bProductCalenderTitle} session-result={WSSessionResult} b2b-product-calender-no-sessions={b2bProductCalenderNoSessions} onsendsession={handleEventPopulateSession}></c-b2b-product-calender>
+                  </template>
+                    <div class="slds-p-vertical_small">
+                        <lightning-layout vertical-align="">
+                            <lightning-layout-item size="2" style="padding-bottom: 1%;" class={quantityClassName}>
+                                <!-- <lightning-input
+                                    type="number"
+                                    name="quantity"
+                                    label="Quantité"
+                                    value="1"
+                                    min="1"
+                                    max={sessionAvailability}
+                                    step="1"
+                                    data-id="quantityInput"
+                                    message-when-step-mismatch="Enter a whole number."
+                                    message-when-range-overflow="Quantity exceeds stock"
+                                    oncommit={handleQuantityChange}
+                                    onchange={updateTotalvalue}>
+                                </lightning-input> -->
+                                <!-- VMO 20211012: Removed max and message-when-range-overflow attributes -->
+                                <lightning-input
+                                    type="number"
+                                    name="quantity"
+                                    label="Quantité"
+                                    value={quantityValue}
+                                    min="1"
+                                    step="1"
+                                    class={quantityInputClass}
+                                    data-id="quantityInput"
+                                    message-when-step-mismatch="Entrez un nombre entier"
+                                    onchange={updateTotalvalue}
+                                    required>
+                                </lightning-input>
+                                <div if:true={quantityExceedsAvailability} class="slds-has-error slds-form-element__help slds-text-color_error">
+                                    {label.quantityExceeded}
+                                </div>
+                                <!-- <div if:true={quantityNotWholeNumber} class="slds-has-error slds-form-element__help slds-text-color_error">
+                                    Entrez un nombre entier
+                                </div> -->
+                            </lightning-layout-item>
+                            <lightning-layout-item size="2" class="total-price-info">
+                                <span if:false={hasPrice}>{label.totalPriceUnvailable}</span>
+                                <lightning-formatted-number
+                                    if:true={hasPrice}
+                                    currency-code={price.currency}
+                                    format-style="currency"
+                                    class="totalvalue"
+                                    value={totalPrice}>
+                                </lightning-formatted-number>
+                            <sup class="htbold">HT</sup>
+                            </lightning-layout-item>
+                            <lightning-layout-item size="8" class="add-to-cart">
+                                <lightning-button
+                                    label="AJOUTER AU PANIER"
+                                    variant="brand"
+                                    class="slds-m-left_x-small product-addToCart slds-is-relative"
+                                    disabled={_isAddToCartDisabled}
+                                    onclick={notifyAddToCart}>
+                                    <lightning-spinner alternative-text="Loading" variant="brand" style="" class={spinnerClassName}></lightning-spinner>
+                              </lightning-button>
+                            </lightning-layout-item>
+                            <!-- <lightning-layout-item>
+                                <lightning-button
+                                    label="Add to List"
+                                    variant="brand"
+                                    class="slds-m-left_x-small"
+                                    onclick={notifyCreateAndAddToList}
+                                >
+                                </lightning-button>
+                            </lightning-layout-item> -->
+                        </lightning-layout>
+                    </div>
+                    <!-- <lightning-accordion
+                        active-section-name="description"
+                        allow-multiple-sections-open
+                    >
+                        <lightning-accordion-section
+                            name="description"
+                            label="Description"
+                        >
+                            <lightning-formatted-rich-text
+                                value={description}
+                            ></lightning-formatted-rich-text>
+                        </lightning-accordion-section>
+                    </lightning-accordion> -->
+        
+                    <!--div class="icons slds-m-top_x-large">
+                        <div class="icon slds-m-right_x-small slds-p-around_medium">
+                            <img src={icons.messaging} alt="Messaging icon">
+                        </div>
+        
+                        <div class="icon slds-m-right_x-small slds-p-around_medium">
+                            <img src={icons.print} alt="Print icon">
+                        </div>
+        
+                        <div class="icon slds-m-right_x-small slds-p-around_medium">
+                            <img src={icons.plane} alt="Plane icon">
+                        </div>
+        
+                        <div class="icon slds-m-right_x-small slds-p-around_medium">
+                            <img src={icons.add} alt="Add icon">
+                        </div>
+                    </div-->
+            </div>
+        </div>
+
+        <div class="col--product-description slds-col slds-size_1-of-1 slds-large-size_5-of-12" style={getDescriptionBackgroundImage}>
+            <!--c-b2b-product-description product-detail-fields={storePreRequisite}></c-b2b-product-description-->
+            <c-b2b-product-objectifpedagogique product-detail-fields={storeEducationalObjetive} button-link={storeButtonLink}></c-b2b-product-objectifpedagogique>
+        </div>
+    </div>
+
+ 
+</template>

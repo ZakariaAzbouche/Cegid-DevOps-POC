@@ -1,0 +1,10 @@
+<template>
+    <span style="display: none;">{type}</span>
+    <template if:true={showSubscriptionLines}>
+        <c-customer-request-subscription-lines record-id={recordId}></c-customer-request-subscription-lines>
+    </template>
+    <br>
+    <template if:true={showInvoiceLines}>
+        <c-customer-request-invoice-lines record-id={recordId}></c-customer-request-invoice-lines>
+    </template>
+</template>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Segment 360 --></label>
+        <name>Segment_360__c</name>
+        <picklistValues>
+            <masterLabel>1 Gold</masterLabel>
+            <translation><!-- 1 Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Silver</masterLabel>
+            <translation><!-- 2 Silver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Bronze</masterLabel>
+            <translation><!-- 3 Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 New Customer</masterLabel>
+            <translation><!-- 4 New Customer --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

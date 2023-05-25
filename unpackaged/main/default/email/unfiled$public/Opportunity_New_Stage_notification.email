@@ -1,0 +1,7 @@
+Hello Team,
+
+The Opportunity Stage has been updated. 
+The New Stage is {!Opportunity.StageName}
+
+Opportunity Name : {!Opportunity.Name}
+Opportunity link : {!Opportunity.Link}

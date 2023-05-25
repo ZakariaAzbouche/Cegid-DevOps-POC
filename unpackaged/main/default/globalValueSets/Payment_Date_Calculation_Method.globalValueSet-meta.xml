@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AN</fullName>
+        <default>false</default>
+        <label>AN</label>
+    </customValue>
+    <customValue>
+        <fullName>CIV</fullName>
+        <default>false</default>
+        <label>CIV</label>
+    </customValue>
+    <masterLabel>Payment Date Calculation Method</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

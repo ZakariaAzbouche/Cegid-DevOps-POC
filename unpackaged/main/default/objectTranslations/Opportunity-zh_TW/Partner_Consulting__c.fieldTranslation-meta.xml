@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Partner Consulting --></label>
+        <name>Partner_Consulting__c</name>
+        <relationshipLabel><!-- Opportunities as Partner Consulting --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Letter</fullName>
+        <default>false</default>
+        <label>Send Letter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Quote</fullName>
+        <default>false</default>
+        <label>Send Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recommendation survey – call back</fullName>
+        <default>false</default>
+        <label>Recommendation survey – call back</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Plan a Meeting</fullName>
+        <default>false</default>
+        <label>Plan a Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Upcoming Event</fullName>
+        <default>false</default>
+        <label>Upcoming Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Make a Call</fullName>
+        <default>false</default>
+        <label>Make a Call</label>
+    </standardValue>
+</StandardValueSet>

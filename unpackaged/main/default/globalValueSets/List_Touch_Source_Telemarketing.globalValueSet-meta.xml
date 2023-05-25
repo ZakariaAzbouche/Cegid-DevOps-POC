@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>BBCM</fullName>
+        <default>false</default>
+        <label>BBCM</label>
+    </customValue>
+    <customValue>
+        <fullName>Call-out</fullName>
+        <default>false</default>
+        <label>Call-out</label>
+    </customValue>
+    <customValue>
+        <fullName>CCM Performance</fullName>
+        <default>false</default>
+        <label>CCM Performance</label>
+    </customValue>
+    <customValue>
+        <fullName>Celge</fullName>
+        <default>false</default>
+        <label>Celge</label>
+    </customValue>
+    <customValue>
+        <fullName>Croissance V</fullName>
+        <default>false</default>
+        <label>Croissance V</label>
+    </customValue>
+    <customValue>
+        <fullName>Fb Performance</fullName>
+        <default>false</default>
+        <label>Fb Performance</label>
+    </customValue>
+    <customValue>
+        <fullName>IBD</fullName>
+        <default>false</default>
+        <label>IBD</label>
+    </customValue>
+    <customValue>
+        <fullName>Infolegale</fullName>
+        <default>false</default>
+        <label>Infolegale</label>
+    </customValue>
+    <customValue>
+        <fullName>ITFacto</fullName>
+        <default>false</default>
+        <label>ITFacto</label>
+    </customValue>
+    <customValue>
+        <fullName>Leadeo</fullName>
+        <default>false</default>
+        <label>Leadeo</label>
+    </customValue>
+    <customValue>
+        <fullName>Markess</fullName>
+        <default>false</default>
+        <label>Markess</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketo</fullName>
+        <default>false</default>
+        <label>Marketo</label>
+    </customValue>
+    <customValue>
+        <fullName>Nomination</fullName>
+        <default>false</default>
+        <label>Nomination</label>
+    </customValue>
+    <customValue>
+        <fullName>Percy Miller</fullName>
+        <default>false</default>
+        <label>Percy Miller</label>
+    </customValue>
+    <customValue>
+        <fullName>Poivre &amp; Sell</fullName>
+        <default>false</default>
+        <label>Poivre &amp; Sell</label>
+    </customValue>
+    <customValue>
+        <fullName>Rafale</fullName>
+        <default>false</default>
+        <label>Rafale</label>
+    </customValue>
+    <customValue>
+        <fullName>SDR</fullName>
+        <default>false</default>
+        <label>SDR</label>
+    </customValue>
+    <customValue>
+        <fullName>Sparklane</fullName>
+        <default>false</default>
+        <label>Sparklane</label>
+    </customValue>
+    <customValue>
+        <fullName>SQL Partner</fullName>
+        <default>false</default>
+        <label>SQL Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>SRC</fullName>
+        <default>false</default>
+        <label>SRC</label>
+    </customValue>
+    <customValue>
+        <fullName>Telemarketing</fullName>
+        <default>false</default>
+        <label>Telemarketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Uniprospects</fullName>
+        <default>false</default>
+        <label>Uniprospects</label>
+    </customValue>
+    <customValue>
+        <fullName>Visiblee</fullName>
+        <default>false</default>
+        <label>Visiblee</label>
+    </customValue>
+    <customValue>
+        <fullName>Linkli</fullName>
+        <default>false</default>
+        <label>Linkli</label>
+    </customValue>
+    <customValue>
+        <fullName>Europhone</fullName>
+        <default>false</default>
+        <label>Europhone</label>
+    </customValue>
+    <masterLabel>List Touch Source Telemarketing</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

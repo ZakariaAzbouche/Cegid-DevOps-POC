@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Old MRR should be set to 0 for Newbiz, Newcli or Upsell --></help>
+        <label><!-- Old MRR --></label>
+        <name>Old_MRR__c</name>
+    </CustomFieldTranslation>

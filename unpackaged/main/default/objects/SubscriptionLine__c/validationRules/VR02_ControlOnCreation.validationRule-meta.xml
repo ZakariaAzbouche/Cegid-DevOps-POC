@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR02_ControlOnCreation</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+    ISBLANK(CancellationDate__c),
+    ISBLANK(QuantityCancelled__c)
+)</errorConditionFormula>
+    <errorMessage>You can't save the line without a cancellation date or a quantity</errorMessage>
+</ValidationRule>

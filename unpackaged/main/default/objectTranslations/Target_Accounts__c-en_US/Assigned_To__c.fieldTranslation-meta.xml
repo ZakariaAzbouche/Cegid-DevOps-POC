@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- TO BE DELETED Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- PAC / Accounts (TO BE DELETED Assigned To) --></relationshipLabel>
+    </CustomFieldTranslation>

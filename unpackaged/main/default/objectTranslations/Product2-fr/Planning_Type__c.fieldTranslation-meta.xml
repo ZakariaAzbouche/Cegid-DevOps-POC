@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- School value means you have grouped session of several clients, Flat Rate means that 
+the client does not know the duration. --></help>
+        <label>Type de plannification</label>
+        <name>Planning_Type__c</name>
+        <picklistValues>
+            <masterLabel>Flat Rate</masterLabel>
+            <translation>Forfait</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Planning</masterLabel>
+            <translation>aucune planification</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>School</masterLabel>
+            <translation>École</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unitary</masterLabel>
+            <translation>Unitaire</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,1 @@
+Quote {![sbaa__Approval__c].Quote__r.Name} requires your approbation, click this link to see more details : {![sbaa__Approval__c].Approval_Link__c}

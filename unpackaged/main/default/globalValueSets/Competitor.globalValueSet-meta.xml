@@ -1,0 +1,1767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>15FIVE</fullName>
+        <default>false</default>
+        <label>15FIVE</label>
+    </customValue>
+    <customValue>
+        <fullName>360L</fullName>
+        <default>false</default>
+        <label>360L</label>
+    </customValue>
+    <customValue>
+        <fullName>365 TALENTS</fullName>
+        <default>false</default>
+        <label>365 TALENTS</label>
+    </customValue>
+    <customValue>
+        <fullName>AAREON</fullName>
+        <default>false</default>
+        <label>AAREON</label>
+    </customValue>
+    <customValue>
+        <fullName>ACCOUNTIFY</fullName>
+        <default>false</default>
+        <label>ACCOUNTIFY</label>
+    </customValue>
+    <customValue>
+        <fullName>ACCOUNTOR</fullName>
+        <default>false</default>
+        <label>ACCOUNTOR</label>
+    </customValue>
+    <customValue>
+        <fullName>ACD GROUPE</fullName>
+        <default>false</default>
+        <label>ACD GROUPE</label>
+    </customValue>
+    <customValue>
+        <fullName>ADEQUASYS</fullName>
+        <default>false</default>
+        <label>ADEQUASYS</label>
+    </customValue>
+    <customValue>
+        <fullName>ADP</fullName>
+        <default>false</default>
+        <label>ADP</label>
+    </customValue>
+    <customValue>
+        <fullName>AGIRIS</fullName>
+        <default>false</default>
+        <label>AGIRIS</label>
+    </customValue>
+    <customValue>
+        <fullName>ALPHA3I</fullName>
+        <default>false</default>
+        <label>ALPHA3I</label>
+    </customValue>
+    <customValue>
+        <fullName>ALTAYS</fullName>
+        <default>false</default>
+        <label>ALTAYS</label>
+    </customValue>
+    <customValue>
+        <fullName>AMELKIS</fullName>
+        <default>false</default>
+        <label>AMELKIS</label>
+    </customValue>
+    <customValue>
+        <fullName>Apisoft</fullName>
+        <default>false</default>
+        <label>Apisoft</label>
+    </customValue>
+    <customValue>
+        <fullName>Apologic</fullName>
+        <default>false</default>
+        <label>Apologic</label>
+    </customValue>
+    <customValue>
+        <fullName>APTOS</fullName>
+        <default>false</default>
+        <label>APTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>ARAGON</fullName>
+        <default>false</default>
+        <label>ARAGON</label>
+    </customValue>
+    <customValue>
+        <fullName>ARC LOGICIELS</fullName>
+        <default>false</default>
+        <label>ARC LOGICIELS</label>
+    </customValue>
+    <customValue>
+        <fullName>ARTICULATE</fullName>
+        <default>false</default>
+        <label>ARTICULATE</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTEL/BEST STORE</fullName>
+        <default>false</default>
+        <label>AUTEL/BEST STORE</label>
+    </customValue>
+    <customValue>
+        <fullName>AVATURE</fullName>
+        <default>false</default>
+        <label>AVATURE</label>
+    </customValue>
+    <customValue>
+        <fullName>AVELON RMS</fullName>
+        <default>false</default>
+        <label>AVELON RMS</label>
+    </customValue>
+    <customValue>
+        <fullName>AXWAY</fullName>
+        <default>false</default>
+        <label>AXWAY</label>
+    </customValue>
+    <customValue>
+        <fullName>BAISON</fullName>
+        <default>false</default>
+        <label>BAISON</label>
+    </customValue>
+    <customValue>
+        <fullName>BAMBOO HR</fullName>
+        <default>false</default>
+        <label>BAMBOO HR</label>
+    </customValue>
+    <customValue>
+        <fullName>BANQUE POPULAIRE</fullName>
+        <default>false</default>
+        <label>BANQUE POPULAIRE</label>
+    </customValue>
+    <customValue>
+        <fullName>BEARINGPOINT</fullName>
+        <default>false</default>
+        <label>BEARINGPOINT</label>
+    </customValue>
+    <customValue>
+        <fullName>BEEBOLE</fullName>
+        <default>false</default>
+        <label>BEEBOLE</label>
+    </customValue>
+    <customValue>
+        <fullName>BERGER LEVRAULT</fullName>
+        <default>false</default>
+        <label>BERGER LEVRAULT</label>
+    </customValue>
+    <customValue>
+        <fullName>BIZNEO</fullName>
+        <default>false</default>
+        <label>BIZNEO</label>
+    </customValue>
+    <customValue>
+        <fullName>BLEEXO</fullName>
+        <default>false</default>
+        <label>BLEEXO</label>
+    </customValue>
+    <customValue>
+        <fullName>BREEZY</fullName>
+        <default>false</default>
+        <label>BREEZY</label>
+    </customValue>
+    <customValue>
+        <fullName>BRZ</fullName>
+        <default>false</default>
+        <label>BRZ</label>
+    </customValue>
+    <customValue>
+        <fullName>BURGEON</fullName>
+        <default>false</default>
+        <label>BURGEON</label>
+    </customValue>
+    <customValue>
+        <fullName>BY THE CERTIFIED ACCOUNTANT</fullName>
+        <default>false</default>
+        <label>BY THE CERTIFIED ACCOUNTANT</label>
+    </customValue>
+    <customValue>
+        <fullName>CA2I</fullName>
+        <default>false</default>
+        <label>CA2I</label>
+    </customValue>
+    <customValue>
+        <fullName>CADOR</fullName>
+        <default>false</default>
+        <label>CADOR</label>
+    </customValue>
+    <customValue>
+        <fullName>CAPTIO</fullName>
+        <default>false</default>
+        <label>CAPTIO</label>
+    </customValue>
+    <customValue>
+        <fullName>CARLABELLA</fullName>
+        <default>false</default>
+        <label>CARLABELLA</label>
+    </customValue>
+    <customValue>
+        <fullName>CASHFORCE</fullName>
+        <default>false</default>
+        <label>CASHFORCE</label>
+    </customValue>
+    <customValue>
+        <fullName>CASHLAB</fullName>
+        <default>false</default>
+        <label>CASHLAB</label>
+    </customValue>
+    <customValue>
+        <fullName>CATALYSTONE</fullName>
+        <default>false</default>
+        <label>CATALYSTONE</label>
+    </customValue>
+    <customValue>
+        <fullName>CEGAPE</fullName>
+        <default>false</default>
+        <label>CEGAPE</label>
+    </customValue>
+    <customValue>
+        <fullName>CEGAR</fullName>
+        <default>false</default>
+        <label>CEGAR</label>
+    </customValue>
+    <customValue>
+        <fullName>CEGEDIM SRH</fullName>
+        <default>false</default>
+        <label>CEGEDIM SRH</label>
+    </customValue>
+    <customValue>
+        <fullName>CEGI</fullName>
+        <default>false</default>
+        <label>CEGI</label>
+    </customValue>
+    <customValue>
+        <fullName>CEGI ALFA</fullName>
+        <default>false</default>
+        <label>CEGI ALFA</label>
+    </customValue>
+    <customValue>
+        <fullName>CELERANT</fullName>
+        <default>false</default>
+        <label>CELERANT</label>
+    </customValue>
+    <customValue>
+        <fullName>CERFRANCE</fullName>
+        <default>false</default>
+        <label>CERFRANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>CERIDAN</fullName>
+        <default>false</default>
+        <label>CERIDAN</label>
+    </customValue>
+    <customValue>
+        <fullName>CEZANNE</fullName>
+        <default>false</default>
+        <label>CEZANNE</label>
+    </customValue>
+    <customValue>
+        <fullName>CGI</fullName>
+        <default>false</default>
+        <label>CGI</label>
+    </customValue>
+    <customValue>
+        <fullName>Chain trust</fullName>
+        <default>false</default>
+        <label>Chain trust</label>
+    </customValue>
+    <customValue>
+        <fullName>CHORUS</fullName>
+        <default>false</default>
+        <label>CHORUS</label>
+    </customValue>
+    <customValue>
+        <fullName>Ciel</fullName>
+        <default>false</default>
+        <label>Ciel</label>
+    </customValue>
+    <customValue>
+        <fullName>CIRIL</fullName>
+        <default>false</default>
+        <label>CIRIL</label>
+    </customValue>
+    <customValue>
+        <fullName>CIVADIS</fullName>
+        <default>false</default>
+        <label>CIVADIS</label>
+    </customValue>
+    <customValue>
+        <fullName>CLIP INDUSTRIE</fullName>
+        <default>false</default>
+        <label>CLIP INDUSTRIE</label>
+    </customValue>
+    <customValue>
+        <fullName>CODINFO</fullName>
+        <default>false</default>
+        <label>CODINFO</label>
+    </customValue>
+    <customValue>
+        <fullName>COFILOG</fullName>
+        <default>false</default>
+        <label>COFILOG</label>
+    </customValue>
+    <customValue>
+        <fullName>COGESER</fullName>
+        <default>false</default>
+        <label>COGESER</label>
+    </customValue>
+    <customValue>
+        <fullName>COGILOG</fullName>
+        <default>false</default>
+        <label>COGILOG</label>
+    </customValue>
+    <customValue>
+        <fullName>COGIS</fullName>
+        <default>false</default>
+        <label>COGIS</label>
+    </customValue>
+    <customValue>
+        <fullName>COMARCH</fullName>
+        <default>false</default>
+        <label>COMARCH</label>
+    </customValue>
+    <customValue>
+        <fullName>COMERZZIA</fullName>
+        <default>false</default>
+        <label>COMERZZIA</label>
+    </customValue>
+    <customValue>
+        <fullName>CONCRETE</fullName>
+        <default>false</default>
+        <label>CONCRETE</label>
+    </customValue>
+    <customValue>
+        <fullName>CONCUR</fullName>
+        <default>false</default>
+        <label>CONCUR</label>
+    </customValue>
+    <customValue>
+        <fullName>COORPACADEMY</fullName>
+        <default>false</default>
+        <label>COORPACADEMY</label>
+    </customValue>
+    <customValue>
+        <fullName>CORNERSTONE ON DEMAND</fullName>
+        <default>false</default>
+        <label>CORNERSTONE ON DEMAND</label>
+    </customValue>
+    <customValue>
+        <fullName>COSOLUCE</fullName>
+        <default>false</default>
+        <label>COSOLUCE</label>
+    </customValue>
+    <customValue>
+        <fullName>COTE OUEST</fullName>
+        <default>false</default>
+        <label>COTE OUEST</label>
+    </customValue>
+    <customValue>
+        <fullName>COURSERA</fullName>
+        <default>false</default>
+        <label>COURSERA</label>
+    </customValue>
+    <customValue>
+        <fullName>CPI SOLUCIONES</fullName>
+        <default>false</default>
+        <label>CPI SOLUCIONES</label>
+    </customValue>
+    <customValue>
+        <fullName>CROSSKNOWLEDGE</fullName>
+        <default>false</default>
+        <label>CROSSKNOWLEDGE</label>
+    </customValue>
+    <customValue>
+        <fullName>CROSSTALENTS</fullName>
+        <default>false</default>
+        <label>CROSSTALENTS</label>
+    </customValue>
+    <customValue>
+        <fullName>CULTURE AMP</fullName>
+        <default>false</default>
+        <label>CULTURE AMP</label>
+    </customValue>
+    <customValue>
+        <fullName>CYBERTILL</fullName>
+        <default>false</default>
+        <label>CYBERTILL</label>
+    </customValue>
+    <customValue>
+        <fullName>DATALOG</fullName>
+        <default>false</default>
+        <label>DATALOG</label>
+    </customValue>
+    <customValue>
+        <fullName>DEAL INFORMATIQUE</fullName>
+        <default>false</default>
+        <label>DEAL INFORMATIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>DEGREED</fullName>
+        <default>false</default>
+        <label>DEGREED</label>
+    </customValue>
+    <customValue>
+        <fullName>DELEGATION CABINET AVOCAT</fullName>
+        <default>false</default>
+        <label>DELEGATION CABINET AVOCAT</label>
+    </customValue>
+    <customValue>
+        <fullName>DELTEK</fullName>
+        <default>false</default>
+        <label>DELTEK</label>
+    </customValue>
+    <customValue>
+        <fullName>DIAPASON</fullName>
+        <default>false</default>
+        <label>DIAPASON</label>
+    </customValue>
+    <customValue>
+        <fullName>DIDACTE</fullName>
+        <default>false</default>
+        <label>DIDACTE</label>
+    </customValue>
+    <customValue>
+        <fullName>DIGITAL RECRUITERS</fullName>
+        <default>false</default>
+        <label>DIGITAL RECRUITERS</label>
+    </customValue>
+    <customValue>
+        <fullName>DIMOSOFTWARE</fullName>
+        <default>false</default>
+        <label>DIMOSOFTWARE</label>
+    </customValue>
+    <customValue>
+        <fullName>DIVALTO</fullName>
+        <default>false</default>
+        <label>DIVALTO</label>
+    </customValue>
+    <customValue>
+        <fullName>DOCEBO</fullName>
+        <default>false</default>
+        <label>DOCEBO</label>
+    </customValue>
+    <customValue>
+        <fullName>DOTSOFT</fullName>
+        <default>false</default>
+        <label>DOTSOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>EBC</fullName>
+        <default>false</default>
+        <label>EBC</label>
+    </customValue>
+    <customValue>
+        <fullName>EBP</fullName>
+        <default>false</default>
+        <label>EBP</label>
+    </customValue>
+    <customValue>
+        <fullName>EFL</fullName>
+        <default>false</default>
+        <label>EFL</label>
+    </customValue>
+    <customValue>
+        <fullName>EIC</fullName>
+        <default>false</default>
+        <label>EIC</label>
+    </customValue>
+    <customValue>
+        <fullName>EIG</fullName>
+        <default>false</default>
+        <label>EIG</label>
+    </customValue>
+    <customValue>
+        <fullName>EKSAE</fullName>
+        <default>false</default>
+        <label>EKSAE</label>
+    </customValue>
+    <customValue>
+        <fullName>ELAMP</fullName>
+        <default>false</default>
+        <label>ELAMP</label>
+    </customValue>
+    <customValue>
+        <fullName>ELEVO</fullName>
+        <default>false</default>
+        <label>ELEVO</label>
+    </customValue>
+    <customValue>
+        <fullName>ELOOMI</fullName>
+        <default>false</default>
+        <label>ELOOMI</label>
+    </customValue>
+    <customValue>
+        <fullName>ENACTOR</fullName>
+        <default>false</default>
+        <label>ENACTOR</label>
+    </customValue>
+    <customValue>
+        <fullName>EOLIA SOFTWARE</fullName>
+        <default>false</default>
+        <label>EOLIA SOFTWARE</label>
+    </customValue>
+    <customValue>
+        <fullName>E PAYE</fullName>
+        <default>false</default>
+        <label>E PAYE</label>
+    </customValue>
+    <customValue>
+        <fullName>EPICOR</fullName>
+        <default>false</default>
+        <label>EPICOR</label>
+    </customValue>
+    <customValue>
+        <fullName>EURECIA</fullName>
+        <default>false</default>
+        <label>EURECIA</label>
+    </customValue>
+    <customValue>
+        <fullName>EUREKA</fullName>
+        <default>false</default>
+        <label>EUREKA</label>
+    </customValue>
+    <customValue>
+        <fullName>EUROSTOP</fullName>
+        <default>false</default>
+        <label>EUROSTOP</label>
+    </customValue>
+    <customValue>
+        <fullName>EVANGEL SOFT</fullName>
+        <default>false</default>
+        <label>EVANGEL SOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>EVERWIN</fullName>
+        <default>false</default>
+        <label>EVERWIN</label>
+    </customValue>
+    <customValue>
+        <fullName>EXALOG</fullName>
+        <default>false</default>
+        <label>EXALOG</label>
+    </customValue>
+    <customValue>
+        <fullName>EXCEL</fullName>
+        <default>false</default>
+        <label>EXCEL</label>
+    </customValue>
+    <customValue>
+        <fullName>EXPENSIFY</fullName>
+        <default>false</default>
+        <label>EXPENSIFY</label>
+    </customValue>
+    <customValue>
+        <fullName>EXPENSYA</fullName>
+        <default>false</default>
+        <label>EXPENSYA</label>
+    </customValue>
+    <customValue>
+        <fullName>FAB MANAGER</fullName>
+        <default>false</default>
+        <label>FAB MANAGER</label>
+    </customValue>
+    <customValue>
+        <fullName>FACTORIAL</fullName>
+        <default>false</default>
+        <label>FACTORIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>FASTMAG</fullName>
+        <default>false</default>
+        <label>FASTMAG</label>
+    </customValue>
+    <customValue>
+        <fullName>FICHORGA</fullName>
+        <default>false</default>
+        <label>FICHORGA</label>
+    </customValue>
+    <customValue>
+        <fullName>FIDGI</fullName>
+        <default>false</default>
+        <label>FIDGI</label>
+    </customValue>
+    <customValue>
+        <fullName>FIDUCIAL</fullName>
+        <default>false</default>
+        <label>FIDUCIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>FIS</fullName>
+        <default>false</default>
+        <label>FIS</label>
+    </customValue>
+    <customValue>
+        <fullName>FOEDERIS</fullName>
+        <default>false</default>
+        <label>FOEDERIS</label>
+    </customValue>
+    <customValue>
+        <fullName>FOKO</fullName>
+        <default>false</default>
+        <label>FOKO</label>
+    </customValue>
+    <customValue>
+        <fullName>FOLKS</fullName>
+        <default>false</default>
+        <label>FOLKS</label>
+    </customValue>
+    <customValue>
+        <fullName>FUJITSU</fullName>
+        <default>false</default>
+        <label>FUJITSU</label>
+    </customValue>
+    <customValue>
+        <fullName>FULLL</fullName>
+        <default>false</default>
+        <label>FULLL</label>
+    </customValue>
+    <customValue>
+        <fullName>FUTURA</fullName>
+        <default>false</default>
+        <label>FUTURA</label>
+    </customValue>
+    <customValue>
+        <fullName>GENERIX</fullName>
+        <default>false</default>
+        <label>GENERIX</label>
+    </customValue>
+    <customValue>
+        <fullName>GESTIMUM</fullName>
+        <default>false</default>
+        <label>GESTIMUM</label>
+    </customValue>
+    <customValue>
+        <fullName>GFI</fullName>
+        <default>false</default>
+        <label>GFI</label>
+    </customValue>
+    <customValue>
+        <fullName>GI</fullName>
+        <default>false</default>
+        <label>GI</label>
+    </customValue>
+    <customValue>
+        <fullName>GIC</fullName>
+        <default>false</default>
+        <label>GIC</label>
+    </customValue>
+    <customValue>
+        <fullName>GK SOFTWARE</fullName>
+        <default>false</default>
+        <label>GK SOFTWARE</label>
+    </customValue>
+    <customValue>
+        <fullName>GLINT</fullName>
+        <default>false</default>
+        <label>GLINT</label>
+    </customValue>
+    <customValue>
+        <fullName>GOODHABITZ</fullName>
+        <default>false</default>
+        <label>GOODHABITZ</label>
+    </customValue>
+    <customValue>
+        <fullName>GREENHOUSE</fullName>
+        <default>false</default>
+        <label>GREENHOUSE</label>
+    </customValue>
+    <customValue>
+        <fullName>GRUPO SPEC</fullName>
+        <default>false</default>
+        <label>GRUPO SPEC</label>
+    </customValue>
+    <customValue>
+        <fullName>HARDIS</fullName>
+        <default>false</default>
+        <label>HARDIS</label>
+    </customValue>
+    <customValue>
+        <fullName>HARVARD GESTION</fullName>
+        <default>false</default>
+        <label>HARVARD GESTION</label>
+    </customValue>
+    <customValue>
+        <fullName>HEARTPACE</fullName>
+        <default>false</default>
+        <label>HEARTPACE</label>
+    </customValue>
+    <customValue>
+        <fullName>HIBOB</fullName>
+        <default>false</default>
+        <label>HIBOB</label>
+    </customValue>
+    <customValue>
+        <fullName>HOROQUARTZ</fullName>
+        <default>false</default>
+        <label>HOROQUARTZ</label>
+    </customValue>
+    <customValue>
+        <fullName>HOST ANALYTICS</fullName>
+        <default>false</default>
+        <label>HOST ANALYTICS</label>
+    </customValue>
+    <customValue>
+        <fullName>iAUDITOR</fullName>
+        <default>false</default>
+        <label>iAUDITOR</label>
+    </customValue>
+    <customValue>
+        <fullName>IBIZA</fullName>
+        <default>false</default>
+        <label>IBIZA</label>
+    </customValue>
+    <customValue>
+        <fullName>IBM</fullName>
+        <default>false</default>
+        <label>IBM</label>
+    </customValue>
+    <customValue>
+        <fullName>IFS</fullName>
+        <default>false</default>
+        <label>IFS</label>
+    </customValue>
+    <customValue>
+        <fullName>IGOP</fullName>
+        <default>false</default>
+        <label>IGOP</label>
+    </customValue>
+    <customValue>
+        <fullName>INEDEE</fullName>
+        <default>false</default>
+        <label>INEDEE</label>
+    </customValue>
+    <customValue>
+        <fullName>INETUM</fullName>
+        <default>false</default>
+        <label>INETUM</label>
+    </customValue>
+    <customValue>
+        <fullName>IN EXTENSO</fullName>
+        <default>false</default>
+        <label>IN EXTENSO</label>
+    </customValue>
+    <customValue>
+        <fullName>INFOR</fullName>
+        <default>false</default>
+        <label>INFOR</label>
+    </customValue>
+    <customValue>
+        <fullName>INFORCE</fullName>
+        <default>false</default>
+        <label>INFORCE</label>
+    </customValue>
+    <customValue>
+        <fullName>INSER</fullName>
+        <default>false</default>
+        <label>INSER</label>
+    </customValue>
+    <customValue>
+        <fullName>INTERNAL DEVELOPMENT</fullName>
+        <default>false</default>
+        <label>INTERNAL DEVELOPMENT</label>
+    </customValue>
+    <customValue>
+        <fullName>INVOKE</fullName>
+        <default>false</default>
+        <label>INVOKE</label>
+    </customValue>
+    <customValue>
+        <fullName>IPAIDTHAT</fullName>
+        <default>false</default>
+        <label>IPAIDTHAT</label>
+    </customValue>
+    <customValue>
+        <fullName>ISAGRI</fullName>
+        <default>false</default>
+        <label>ISAGRI</label>
+    </customValue>
+    <customValue>
+        <fullName>JAZZ HR</fullName>
+        <default>false</default>
+        <label>JAZZ HR</label>
+    </customValue>
+    <customValue>
+        <fullName>JDA</fullName>
+        <default>false</default>
+        <label>JDA</label>
+    </customValue>
+    <customValue>
+        <fullName>JD EDWARDS ERP</fullName>
+        <default>false</default>
+        <label>JD EDWARDS ERP</label>
+    </customValue>
+    <customValue>
+        <fullName>JENJI</fullName>
+        <default>false</default>
+        <label>JENJI</label>
+    </customValue>
+    <customValue>
+        <fullName>JESTA</fullName>
+        <default>false</default>
+        <label>JESTA</label>
+    </customValue>
+    <customValue>
+        <fullName>JOBVITE</fullName>
+        <default>false</default>
+        <label>JOBVITE</label>
+    </customValue>
+    <customValue>
+        <fullName>JVS</fullName>
+        <default>false</default>
+        <label>JVS</label>
+    </customValue>
+    <customValue>
+        <fullName>K3</fullName>
+        <default>false</default>
+        <label>K3</label>
+    </customValue>
+    <customValue>
+        <fullName>KABIR PROFILE SOLUTIONS</fullName>
+        <default>false</default>
+        <label>KABIR PROFILE SOLUTIONS</label>
+    </customValue>
+    <customValue>
+        <fullName>KDS</fullName>
+        <default>false</default>
+        <label>KDS</label>
+    </customValue>
+    <customValue>
+        <fullName>KINGDEE</fullName>
+        <default>false</default>
+        <label>KINGDEE</label>
+    </customValue>
+    <customValue>
+        <fullName>KPMG</fullName>
+        <default>false</default>
+        <label>KPMG</label>
+    </customValue>
+    <customValue>
+        <fullName>KWI</fullName>
+        <default>false</default>
+        <label>KWI</label>
+    </customValue>
+    <customValue>
+        <fullName>KYRIBA</fullName>
+        <default>false</default>
+        <label>KYRIBA</label>
+    </customValue>
+    <customValue>
+        <fullName>LASER - SYMAG</fullName>
+        <default>false</default>
+        <label>LASER - SYMAG</label>
+    </customValue>
+    <customValue>
+        <fullName>LCA CONSEILS</fullName>
+        <default>false</default>
+        <label>LCA CONSEILS</label>
+    </customValue>
+    <customValue>
+        <fullName>LD SYSTEM</fullName>
+        <default>false</default>
+        <label>LD SYSTEM</label>
+    </customValue>
+    <customValue>
+        <fullName>LD SYSTÈME</fullName>
+        <default>false</default>
+        <label>LD SYSTÈME</label>
+    </customValue>
+    <customValue>
+        <fullName>LEARNINGBANK</fullName>
+        <default>false</default>
+        <label>LEARNINGBANK</label>
+    </customValue>
+    <customValue>
+        <fullName>LEARNSTER</fullName>
+        <default>false</default>
+        <label>LEARNSTER</label>
+    </customValue>
+    <customValue>
+        <fullName>LEFEBVRE SOFTWARE</fullName>
+        <default>false</default>
+        <label>LEFEBVRE SOFTWARE</label>
+    </customValue>
+    <customValue>
+        <fullName>LEGALPLACE</fullName>
+        <default>false</default>
+        <label>LEGALPLACE</label>
+    </customValue>
+    <customValue>
+        <fullName>LEVER</fullName>
+        <default>false</default>
+        <label>LEVER</label>
+    </customValue>
+    <customValue>
+        <fullName>LEXISNEXIS</fullName>
+        <default>false</default>
+        <label>LEXISNEXIS</label>
+    </customValue>
+    <customValue>
+        <fullName>LIGHTSPEED</fullName>
+        <default>false</default>
+        <label>LIGHTSPEED</label>
+    </customValue>
+    <customValue>
+        <fullName>LINKEDIN</fullName>
+        <default>false</default>
+        <label>LINKEDIN</label>
+    </customValue>
+    <customValue>
+        <fullName>LINX</fullName>
+        <default>false</default>
+        <label>LINX</label>
+    </customValue>
+    <customValue>
+        <fullName>LMS365</fullName>
+        <default>false</default>
+        <label>LMS365</label>
+    </customValue>
+    <customValue>
+        <fullName>LS RETAIL</fullName>
+        <default>false</default>
+        <label>LS RETAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>LUCCA</fullName>
+        <default>false</default>
+        <label>LUCCA</label>
+    </customValue>
+    <customValue>
+        <fullName>LUMESSE</fullName>
+        <default>false</default>
+        <label>LUMESSE</label>
+    </customValue>
+    <customValue>
+        <fullName>MANITOU SOLUTION</fullName>
+        <default>false</default>
+        <label>MANITOU SOLUTION</label>
+    </customValue>
+    <customValue>
+        <fullName>MAPAP</fullName>
+        <default>false</default>
+        <label>MAPAP</label>
+    </customValue>
+    <customValue>
+        <fullName>MEMSOFT</fullName>
+        <default>false</default>
+        <label>MEMSOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>META COMPLIANCE</fullName>
+        <default>false</default>
+        <label>META COMPLIANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>METROFY</fullName>
+        <default>false</default>
+        <label>METROFY</label>
+    </customValue>
+    <customValue>
+        <fullName>MICROSOFT</fullName>
+        <default>false</default>
+        <label>MICROSOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>MISTRAL INFORMATIQUE</fullName>
+        <default>false</default>
+        <label>MISTRAL INFORMATIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>MOBARO</fullName>
+        <default>false</default>
+        <label>MOBARO</label>
+    </customValue>
+    <customValue>
+        <fullName>MOBILE EXPENSE</fullName>
+        <default>false</default>
+        <label>MOBILE EXPENSE</label>
+    </customValue>
+    <customValue>
+        <fullName>MODDO</fullName>
+        <default>false</default>
+        <label>MODDO</label>
+    </customValue>
+    <customValue>
+        <fullName>MODDWORK</fullName>
+        <default>false</default>
+        <label>MODDWORK</label>
+    </customValue>
+    <customValue>
+        <fullName>MOONCARD</fullName>
+        <default>false</default>
+        <label>MOONCARD</label>
+    </customValue>
+    <customValue>
+        <fullName>MTAE</fullName>
+        <default>false</default>
+        <label>MTAE</label>
+    </customValue>
+    <customValue>
+        <fullName>MYUNITSOFT</fullName>
+        <default>false</default>
+        <label>MYUNITSOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>N2FSOFT</fullName>
+        <default>false</default>
+        <label>N2FSOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>NCR COUNTERPOINT</fullName>
+        <default>false</default>
+        <label>NCR COUNTERPOINT</label>
+    </customValue>
+    <customValue>
+        <fullName>NEEVA</fullName>
+        <default>false</default>
+        <label>NEEVA</label>
+    </customValue>
+    <customValue>
+        <fullName>NETEXCOM</fullName>
+        <default>false</default>
+        <label>NETEXCOM</label>
+    </customValue>
+    <customValue>
+        <fullName>NETSUITE</fullName>
+        <default>false</default>
+        <label>NETSUITE</label>
+    </customValue>
+    <customValue>
+        <fullName>NIBELIS(ex MEILLEURE GESTION)</fullName>
+        <default>false</default>
+        <label>NIBELIS(ex MEILLEURE GESTION)</label>
+    </customValue>
+    <customValue>
+        <fullName>NO LEGAL SECRETARY</fullName>
+        <default>false</default>
+        <label>NO LEGAL SECRETARY</label>
+    </customValue>
+    <customValue>
+        <fullName>NO SOCIAL</fullName>
+        <default>false</default>
+        <label>NO SOCIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>NO TALENT MANAGEMENT</fullName>
+        <default>false</default>
+        <label>NO TALENT MANAGEMENT</label>
+    </customValue>
+    <customValue>
+        <fullName>Objectif-PI</fullName>
+        <default>false</default>
+        <label>Objectif-PI</label>
+    </customValue>
+    <customValue>
+        <fullName>OC2i</fullName>
+        <default>false</default>
+        <label>OC2i</label>
+    </customValue>
+    <customValue>
+        <fullName>OCTOMINE</fullName>
+        <default>false</default>
+        <label>OCTOMINE</label>
+    </customValue>
+    <customValue>
+        <fullName>ODOO</fullName>
+        <default>false</default>
+        <label>ODOO</label>
+    </customValue>
+    <customValue>
+        <fullName>OFFICEVIBE</fullName>
+        <default>false</default>
+        <label>OFFICEVIBE</label>
+    </customValue>
+    <customValue>
+        <fullName>ONAYA</fullName>
+        <default>false</default>
+        <label>ONAYA</label>
+    </customValue>
+    <customValue>
+        <fullName>OPENBRAVO</fullName>
+        <default>false</default>
+        <label>OPENBRAVO</label>
+    </customValue>
+    <customValue>
+        <fullName>OPEN HR</fullName>
+        <default>false</default>
+        <label>OPEN HR</label>
+    </customValue>
+    <customValue>
+        <fullName>OPTIMMO</fullName>
+        <default>false</default>
+        <label>OPTIMMO</label>
+    </customValue>
+    <customValue>
+        <fullName>ORACLE</fullName>
+        <default>false</default>
+        <label>ORACLE</label>
+    </customValue>
+    <customValue>
+        <fullName>ORACLE/MICROS</fullName>
+        <default>false</default>
+        <label>ORACLE/MICROS</label>
+    </customValue>
+    <customValue>
+        <fullName>ORACULUS</fullName>
+        <default>false</default>
+        <label>ORACULUS</label>
+    </customValue>
+    <customValue>
+        <fullName>ORCHESTRA</fullName>
+        <default>false</default>
+        <label>ORCHESTRA</label>
+    </customValue>
+    <customValue>
+        <fullName>PAIE EXTERNALISEE (hors EXC)</fullName>
+        <default>false</default>
+        <label>PAIE EXTERNALISEE (hors EXC)</label>
+    </customValue>
+    <customValue>
+        <fullName>PAYFIT</fullName>
+        <default>false</default>
+        <label>PAYFIT</label>
+    </customValue>
+    <customValue>
+        <fullName>PCMS</fullName>
+        <default>false</default>
+        <label>PCMS</label>
+    </customValue>
+    <customValue>
+        <fullName>PENNYLANE</fullName>
+        <default>false</default>
+        <label>PENNYLANE</label>
+    </customValue>
+    <customValue>
+        <fullName>PEOPLEDOC</fullName>
+        <default>false</default>
+        <label>PEOPLEDOC</label>
+    </customValue>
+    <customValue>
+        <fullName>PEOPLE SPHERES</fullName>
+        <default>false</default>
+        <label>PEOPLE SPHERES</label>
+    </customValue>
+    <customValue>
+        <fullName>PERSONIO</fullName>
+        <default>false</default>
+        <label>PERSONIO</label>
+    </customValue>
+    <customValue>
+        <fullName>PLAIN TALKING HR</fullName>
+        <default>false</default>
+        <label>PLAIN TALKING HR</label>
+    </customValue>
+    <customValue>
+        <fullName>POINTEX</fullName>
+        <default>false</default>
+        <label>POINTEX</label>
+    </customValue>
+    <customValue>
+        <fullName>POINT SOFT</fullName>
+        <default>false</default>
+        <label>POINT SOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>POWERSHOP</fullName>
+        <default>false</default>
+        <label>POWERSHOP</label>
+    </customValue>
+    <customValue>
+        <fullName>PREMERGENCY</fullName>
+        <default>false</default>
+        <label>PREMERGENCY</label>
+    </customValue>
+    <customValue>
+        <fullName>PRESTASHOP</fullName>
+        <default>false</default>
+        <label>PRESTASHOP</label>
+    </customValue>
+    <customValue>
+        <fullName>PRIOS</fullName>
+        <default>false</default>
+        <label>PRIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>PRIOS GROUPE</fullName>
+        <default>false</default>
+        <label>PRIOS GROUPE</label>
+    </customValue>
+    <customValue>
+        <fullName>PROGEMA</fullName>
+        <default>false</default>
+        <label>PROGEMA</label>
+    </customValue>
+    <customValue>
+        <fullName>PROGINOV</fullName>
+        <default>false</default>
+        <label>PROGINOV</label>
+    </customValue>
+    <customValue>
+        <fullName>QAD</fullName>
+        <default>false</default>
+        <label>QAD</label>
+    </customValue>
+    <customValue>
+        <fullName>QUALINTRA</fullName>
+        <default>false</default>
+        <label>QUALINTRA</label>
+    </customValue>
+    <customValue>
+        <fullName>QUALTRICS</fullName>
+        <default>false</default>
+        <label>QUALTRICS</label>
+    </customValue>
+    <customValue>
+        <fullName>QUICKBOOKS</fullName>
+        <default>false</default>
+        <label>QUICKBOOKS</label>
+    </customValue>
+    <customValue>
+        <fullName>QUINYX</fullName>
+        <default>false</default>
+        <label>QUINYX</label>
+    </customValue>
+    <customValue>
+        <fullName>RAYMARK</fullName>
+        <default>false</default>
+        <label>RAYMARK</label>
+    </customValue>
+    <customValue>
+        <fullName>Receipt bank</fullName>
+        <default>false</default>
+        <label>Receipt bank</label>
+    </customValue>
+    <customValue>
+        <fullName>RECRUITEE</fullName>
+        <default>false</default>
+        <label>RECRUITEE</label>
+    </customValue>
+    <customValue>
+        <fullName>REFLEXIS</fullName>
+        <default>false</default>
+        <label>REFLEXIS</label>
+    </customValue>
+    <customValue>
+        <fullName>REPORT ONE</fullName>
+        <default>false</default>
+        <label>REPORT ONE</label>
+    </customValue>
+    <customValue>
+        <fullName>RETAIL PRO</fullName>
+        <default>false</default>
+        <label>RETAIL PRO</label>
+    </customValue>
+    <customValue>
+        <fullName>RETAIL ZIPLINE</fullName>
+        <default>false</default>
+        <label>RETAIL ZIPLINE</label>
+    </customValue>
+    <customValue>
+        <fullName>RICS SOFTWARE</fullName>
+        <default>false</default>
+        <label>RICS SOFTWARE</label>
+    </customValue>
+    <customValue>
+        <fullName>RUE DE LA PAYE (CEGEDIM)</fullName>
+        <default>false</default>
+        <label>RUE DE LA PAYE (CEGEDIM)</label>
+    </customValue>
+    <customValue>
+        <fullName>RUNIT</fullName>
+        <default>false</default>
+        <label>RUNIT</label>
+    </customValue>
+    <customValue>
+        <fullName>RYDOO</fullName>
+        <default>false</default>
+        <label>RYDOO</label>
+    </customValue>
+    <customValue>
+        <fullName>SAFETYCULTURE</fullName>
+        <default>false</default>
+        <label>SAFETYCULTURE</label>
+    </customValue>
+    <customValue>
+        <fullName>Sage</fullName>
+        <default>false</default>
+        <label>Sage</label>
+    </customValue>
+    <customValue>
+        <fullName>SAGES SOFTWARE</fullName>
+        <default>false</default>
+        <label>SAGES SOFTWARE</label>
+    </customValue>
+    <customValue>
+        <fullName>SANDERSON</fullName>
+        <default>false</default>
+        <label>SANDERSON</label>
+    </customValue>
+    <customValue>
+        <fullName>SAP</fullName>
+        <default>false</default>
+        <label>SAP</label>
+    </customValue>
+    <customValue>
+        <fullName>SD WORX</fullName>
+        <default>false</default>
+        <label>SD WORX</label>
+    </customValue>
+    <customValue>
+        <fullName>SEGILOG</fullName>
+        <default>false</default>
+        <label>SEGILOG</label>
+    </customValue>
+    <customValue>
+        <fullName>SELLSY</fullName>
+        <default>false</default>
+        <label>SELLSY</label>
+    </customValue>
+    <customValue>
+        <fullName>SEPTEO</fullName>
+        <default>false</default>
+        <label>SEPTEO</label>
+    </customValue>
+    <customValue>
+        <fullName>SESAME INFORMATIQUE</fullName>
+        <default>false</default>
+        <label>SESAME INFORMATIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>SIGAL</fullName>
+        <default>false</default>
+        <label>SIGAL</label>
+    </customValue>
+    <customValue>
+        <fullName>SIGMA</fullName>
+        <default>false</default>
+        <label>SIGMA</label>
+    </customValue>
+    <customValue>
+        <fullName>SIGMA CONSO</fullName>
+        <default>false</default>
+        <label>SIGMA CONSO</label>
+    </customValue>
+    <customValue>
+        <fullName>Silae</fullName>
+        <default>false</default>
+        <label>Silae</label>
+    </customValue>
+    <customValue>
+        <fullName>SILKROAD</fullName>
+        <default>false</default>
+        <label>SILKROAD</label>
+    </customValue>
+    <customValue>
+        <fullName>SILOG</fullName>
+        <default>false</default>
+        <label>SILOG</label>
+    </customValue>
+    <customValue>
+        <fullName>SIMPLIFIELD</fullName>
+        <default>false</default>
+        <label>SIMPLIFIELD</label>
+    </customValue>
+    <customValue>
+        <fullName>SISQUAL</fullName>
+        <default>false</default>
+        <label>SISQUAL</label>
+    </customValue>
+    <customValue>
+        <fullName>SKILLSOFT</fullName>
+        <default>false</default>
+        <label>SKILLSOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART RECRUITERS</fullName>
+        <default>false</default>
+        <label>SMART RECRUITERS</label>
+    </customValue>
+    <customValue>
+        <fullName>SNEG</fullName>
+        <default>false</default>
+        <label>SNEG</label>
+    </customValue>
+    <customValue>
+        <fullName>SOFTMACHINE</fullName>
+        <default>false</default>
+        <label>SOFTMACHINE</label>
+    </customValue>
+    <customValue>
+        <fullName>SOPRA</fullName>
+        <default>false</default>
+        <label>SOPRA</label>
+    </customValue>
+    <customValue>
+        <fullName>SPEED SERVICE</fullName>
+        <default>false</default>
+        <label>SPEED SERVICE</label>
+    </customValue>
+    <customValue>
+        <fullName>SPENDESK</fullName>
+        <default>false</default>
+        <label>SPENDESK</label>
+    </customValue>
+    <customValue>
+        <fullName>SPIRAL GROUP/AUREA</fullName>
+        <default>false</default>
+        <label>SPIRAL GROUP/AUREA</label>
+    </customValue>
+    <customValue>
+        <fullName>STATUS2</fullName>
+        <default>false</default>
+        <label>STATUS2</label>
+    </customValue>
+    <customValue>
+        <fullName>STOREFORCE</fullName>
+        <default>false</default>
+        <label>STOREFORCE</label>
+    </customValue>
+    <customValue>
+        <fullName>SUM TOTAL</fullName>
+        <default>false</default>
+        <label>SUM TOTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>SUPERMOOD</fullName>
+        <default>false</default>
+        <label>SUPERMOOD</label>
+    </customValue>
+    <customValue>
+        <fullName>SUREACT</fullName>
+        <default>false</default>
+        <label>SUREACT</label>
+    </customValue>
+    <customValue>
+        <fullName>SYFADIS</fullName>
+        <default>false</default>
+        <label>SYFADIS</label>
+    </customValue>
+    <customValue>
+        <fullName>SYLOB</fullName>
+        <default>false</default>
+        <label>SYLOB</label>
+    </customValue>
+    <customValue>
+        <fullName>TAGETIK</fullName>
+        <default>false</default>
+        <label>TAGETIK</label>
+    </customValue>
+    <customValue>
+        <fullName>TAIGA</fullName>
+        <default>false</default>
+        <label>TAIGA</label>
+    </customValue>
+    <customValue>
+        <fullName>TALENTIA</fullName>
+        <default>false</default>
+        <label>TALENTIA</label>
+    </customValue>
+    <customValue>
+        <fullName>TALENTSOFT</fullName>
+        <default>false</default>
+        <label>TALENTSOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>TALENTSTECH</fullName>
+        <default>false</default>
+        <label>TALENTSTECH</label>
+    </customValue>
+    <customValue>
+        <fullName>TAX-EXEMPT COMPANY</fullName>
+        <default>false</default>
+        <label>TAX-EXEMPT COMPANY</label>
+    </customValue>
+    <customValue>
+        <fullName>TEACH ON MARS</fullName>
+        <default>false</default>
+        <label>TEACH ON MARS</label>
+    </customValue>
+    <customValue>
+        <fullName>TEAMTAILOR</fullName>
+        <default>false</default>
+        <label>TEAMTAILOR</label>
+    </customValue>
+    <customValue>
+        <fullName>TEAMWORK</fullName>
+        <default>false</default>
+        <label>TEAMWORK</label>
+    </customValue>
+    <customValue>
+        <fullName>TEOGEST</fullName>
+        <default>false</default>
+        <label>TEOGEST</label>
+    </customValue>
+    <customValue>
+        <fullName>TIMENET</fullName>
+        <default>false</default>
+        <label>TIMENET</label>
+    </customValue>
+    <customValue>
+        <fullName>TRAINING ORCHESTRA</fullName>
+        <default>false</default>
+        <label>TRAINING ORCHESTRA</label>
+    </customValue>
+    <customValue>
+        <fullName>TRAMITAPP</fullName>
+        <default>false</default>
+        <label>TRAMITAPP</label>
+    </customValue>
+    <customValue>
+        <fullName>UDEMY</fullName>
+        <default>false</default>
+        <label>UDEMY</label>
+    </customValue>
+    <customValue>
+        <fullName>UFIDA</fullName>
+        <default>false</default>
+        <label>UFIDA</label>
+    </customValue>
+    <customValue>
+        <fullName>UKG</fullName>
+        <default>false</default>
+        <label>UKG</label>
+    </customValue>
+    <customValue>
+        <fullName>UNIT 4</fullName>
+        <default>false</default>
+        <label>UNIT 4</label>
+    </customValue>
+    <customValue>
+        <fullName>VEGA INFO</fullName>
+        <default>false</default>
+        <label>VEGA INFO</label>
+    </customValue>
+    <customValue>
+        <fullName>VIAREPORT</fullName>
+        <default>false</default>
+        <label>VIAREPORT</label>
+    </customValue>
+    <customValue>
+        <fullName>VIRTUALIA</fullName>
+        <default>false</default>
+        <label>VIRTUALIA</label>
+    </customValue>
+    <customValue>
+        <fullName>VISMA</fullName>
+        <default>false</default>
+        <label>VISMA</label>
+    </customValue>
+    <customValue>
+        <fullName>WAASBROS</fullName>
+        <default>false</default>
+        <label>WAASBROS</label>
+    </customValue>
+    <customValue>
+        <fullName>WAVESOFT</fullName>
+        <default>false</default>
+        <label>WAVESOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>WINCOR</fullName>
+        <default>false</default>
+        <label>WINCOR</label>
+    </customValue>
+    <customValue>
+        <fullName>WINDOO</fullName>
+        <default>false</default>
+        <label>WINDOO</label>
+    </customValue>
+    <customValue>
+        <fullName>WITHOUT ACCOUNTING PRODUCTION</fullName>
+        <default>false</default>
+        <label>WITHOUT ACCOUNTING PRODUCTION</label>
+    </customValue>
+    <customValue>
+        <fullName>WOFFU</fullName>
+        <default>false</default>
+        <label>WOFFU</label>
+    </customValue>
+    <customValue>
+        <fullName>WOLTERS KLUWER</fullName>
+        <default>false</default>
+        <label>WOLTERS KLUWER</label>
+    </customValue>
+    <customValue>
+        <fullName>WOOQER</fullName>
+        <default>false</default>
+        <label>WOOQER</label>
+    </customValue>
+    <customValue>
+        <fullName>WORDPRESS</fullName>
+        <default>false</default>
+        <label>WORDPRESS</label>
+    </customValue>
+    <customValue>
+        <fullName>WORD - Specific models</fullName>
+        <default>false</default>
+        <label>WORD - Specific models</label>
+    </customValue>
+    <customValue>
+        <fullName>WORKABLE</fullName>
+        <default>false</default>
+        <label>WORKABLE</label>
+    </customValue>
+    <customValue>
+        <fullName>WORKDAY</fullName>
+        <default>false</default>
+        <label>WORKDAY</label>
+    </customValue>
+    <customValue>
+        <fullName>WORKLAND</fullName>
+        <default>false</default>
+        <label>WORKLAND</label>
+    </customValue>
+    <customValue>
+        <fullName>XL SOFT</fullName>
+        <default>false</default>
+        <label>XL SOFT</label>
+    </customValue>
+    <customValue>
+        <fullName>YOLAW</fullName>
+        <default>false</default>
+        <label>YOLAW</label>
+    </customValue>
+    <customValue>
+        <fullName>YOOBIC</fullName>
+        <default>false</default>
+        <label>YOOBIC</label>
+    </customValue>
+    <customValue>
+        <fullName>YOOZ</fullName>
+        <default>false</default>
+        <label>YOOZ</label>
+    </customValue>
+    <customValue>
+        <fullName>ZEBRA</fullName>
+        <default>false</default>
+        <label>ZEBRA</label>
+    </customValue>
+    <customValue>
+        <fullName>ZEDONK</fullName>
+        <default>false</default>
+        <label>ZEDONK</label>
+    </customValue>
+    <customValue>
+        <fullName>ZESTMEUP</fullName>
+        <default>false</default>
+        <label>ZESTMEUP</label>
+    </customValue>
+    <customValue>
+        <fullName>ZIPLINE</fullName>
+        <default>false</default>
+        <label>ZIPLINE</label>
+    </customValue>
+    <customValue>
+        <fullName>ZOHO</fullName>
+        <default>false</default>
+        <label>ZOHO</label>
+    </customValue>
+    <customValue>
+        <fullName>ZUCCHETTI</fullName>
+        <default>false</default>
+        <label>ZUCCHETTI</label>
+    </customValue>
+    <customValue>
+        <fullName>UNIT4</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UNIT4</label>
+    </customValue>
+    <customValue>
+        <fullName>PAS DE SOCIAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PAS DE SOCIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>PAS DE SECRETARIAT JURIDIQUE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PAS DE SECRETARIAT JURIDIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>PAS DE GESTION DES TALENTS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PAS DE GESTION DES TALENTS</label>
+    </customValue>
+    <customValue>
+        <fullName>PAR L EXPERT COMPTABLE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PAR L EXPERT COMPTABLE</label>
+    </customValue>
+    <customValue>
+        <fullName>MISTRAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MISTRAL</label>
+    </customValue>
+    <customValue>
+        <fullName>DEAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DEAL</label>
+    </customValue>
+    <customValue>
+        <fullName>By the head office</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>By the head office</label>
+    </customValue>
+    <customValue>
+        <fullName>By chartered accountant</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>By chartered accountant</label>
+    </customValue>
+    <customValue>
+        <fullName>Cegid</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cegid</label>
+    </customValue>
+    <customValue>
+        <fullName>Cador dorac</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cador dorac</label>
+    </customValue>
+    <customValue>
+        <fullName>WORD - Modeles specifiques</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WORD - Modeles specifiques</label>
+    </customValue>
+    <customValue>
+        <fullName>Not disclosed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Not disclosed</label>
+    </customValue>
+    <customValue>
+        <fullName>INTERNAL DEVELOPPEMENT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>INTERNAL DEVELOPPEMENT</label>
+    </customValue>
+    <customValue>
+        <fullName>BLOOM AT WORK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BLOOM AT WORK</label>
+    </customValue>
+    <customValue>
+        <fullName>Amphora</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Amphora</label>
+    </customValue>
+    <customValue>
+        <fullName>UNIT 5</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UNIT 5</label>
+    </customValue>
+    <masterLabel>Competitor</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

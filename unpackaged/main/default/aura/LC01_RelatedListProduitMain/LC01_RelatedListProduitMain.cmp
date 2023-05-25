@@ -1,0 +1,17 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId">
+    <aura:attribute name="product" type="object"/>
+    <aura:attribute name="chargeList" type="list"/>
+    <aura:attribute name="index" type="integer"/>
+    <aura:attribute name="containCharges" type="boolean" default="false" access="global"/>
+    
+    <aura:if isTrue="{!v.containCharges}">
+        <lightning:card iconName="action:new_opportunity"> 
+            <c:LC01_RelatedListProduitDetail rateplanList="{!v.chargeList}" index="{!v.index}" product="{!v.product}"/>
+        </lightning:card>
+    </aura:if> 
+    <div class="slds-m-around_small">
+        <c:LC01_RelatedListProduitData chargeList="{!v.chargeList}" index="{!v.index}" containCharges="{!v.containCharges}"/>
+    </div>
+    
+    
+</aura:component>

@@ -1,0 +1,66 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 2021-11-17
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <!-- Credit Card Error Message -->
+    <div
+        if:true={creditCardErrorMessage}
+        class="card-auth-error slds-scoped-notification slds-media slds-media_center slds-theme_error"
+        role="alert"
+    >
+        <div class="slds-media__figure">
+            <lightning-icon
+                icon-name="utility:error"
+                variant="error"
+                size="small"
+            ></lightning-icon>
+        </div>
+        <div class="slds-media__body">
+            <p>{creditCardErrorMessage}</p>
+        </div>
+    </div>
+
+    <div if:false={hideCardHolderName} class="slds-form-element">
+        <lightning-input
+            data-validate
+            data-cardholder-name
+            class="cardHolderName"
+            onblur={handleCardHolderNameChange}
+            name="cardHolderName"
+            value={cardHolderName}
+            label={labels.CardHolderNameLabel}
+            placeholder={labels.CardHolderNamePlaceholder}
+            max-length="26"
+            required={cardHolderNameRequired}
+            onkeyup={preventSensitiveInformationPropagation}
+            onkeydown={preventSensitiveInformationPropagation}
+            onkeypress={preventSensitiveInformationPropagation}
+            onchange={preventSensitiveInformationPropagation}
+        >
+        </lightning-input>
+    </div>
+
+    <div if:false={hideCardType} class="slds-form-element">
+        <lightning-combobox
+            data-validate
+            data-card-type
+            class="cardType"
+            onchange={handleCardTypeChange}
+            name="cardType"
+            value={cardType}
+            label={labels.CardTypeLabel}
+            placeholder={labels.CardTypePlaceholder}
+            options={cardTypes}
+            required={cardTypeRequired}
+        >
+        </lightning-combobox>
+    </div>
+
+    <!-- JD (Custom) - iFrame to embed the Stripe form -->
+    <iframe id="paymentForm" src="/B2B_StripeHostedFrame" style="border: 0px; height: 120px; width: 100%;"></iframe>
+
+</template>

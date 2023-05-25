@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty26_CheckSalesPurpose</fullName>
+    <active>false</active>
+    <description>Blocage modification Sales Purpose</description>
+    <errorConditionFormula>AND(
+NOT($User.BypassVR__c),
+NOT(INCLUDES($User.List_of_VR_to_By_Pass__c, "VR_Oppty26_CheckSalesPurpose")),
+NOT($Permission.Can_modify_Sales_Purpose),
+$Profile.Name &lt;&gt; "System Administrator",
+( AND (ISCHANGED(Sales_Purpose__c),NOT( ISBLANK(TEXT(PRIORVALUE(Sales_Purpose__c))) ))),
+($Profile.Name = "Cegid Sales" || $Profile.Name = "Cegid Telemarketing")
+)</errorConditionFormula>
+    <errorDisplayField>Sales_Purpose__c</errorDisplayField>
+    <errorMessage>You cannot modify the sales purpose</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivery_Contact_Phone__c</fullName>
+    <description>W-001933 Renommer le libellé du  champ à Service Delivery Contact Phone</description>
+    <externalId>false</externalId>
+    <label>Service Delivery Contact Phone</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Phone</type>
+</CustomField>

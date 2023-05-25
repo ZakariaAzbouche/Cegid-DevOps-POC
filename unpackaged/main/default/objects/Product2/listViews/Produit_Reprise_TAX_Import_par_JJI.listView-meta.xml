@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Produit_Reprise_TAX_Import_par_JJI</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Asset_Code__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Reference_Number__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Service_Book__c</columns>
+    <columns>Consommation_Code__c</columns>
+    <columns>Metric__c</columns>
+    <columns>Service_Levels__c</columns>
+    <columns>SaaS_production_code__c</columns>
+    <columns>Declarative_Royalties__c</columns>
+    <columns>DirectIndirect_Product__c</columns>
+    <columns>id_buyme__c</columns>
+    <columns>Tech_CPQ_Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Reference_Number__c</field>
+        <operation>startsWith</operation>
+        <value>P</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER.ALIAS</field>
+        <operation>contains</operation>
+        <value>Jian</value>
+    </filters>
+    <label>Zuora Reprise TAX - Produit</label>
+</ListView>

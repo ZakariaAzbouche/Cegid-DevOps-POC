@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Check_Parc_CC_with_Specific_Rules</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+ISPICKVAL(Specific_Rules__c,'UN_FONCTIONNEL'),
+ISBLANK(TEXT( Core_Business__c )),
+
+NOT($User.BypassVR__c )
+)</errorConditionFormula>
+    <errorMessage>Une Specific rule  avecAu moins un article parc en service avec Core Business doit avoir un Core Business</errorMessage>
+</ValidationRule>

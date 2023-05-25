@@ -1,0 +1,11 @@
+<template>
+    <lightning-card>
+        <lightning-record-form
+        object-api-name={objectApiName}
+        record-id={recordId}
+        fields={fields}
+        columns="2"></lightning-record-form>
+
+        <iframe id="mktoframe" src={fullVFUrl} height="600"  width="100%" scrolling=true></iframe>
+    </lightning-card>
+</template>

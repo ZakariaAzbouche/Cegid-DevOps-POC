@@ -1,0 +1,118 @@
+<aura:component description="MondatSepa" 
+implements="force:hasRecordId,flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"
+            controller="QuoteGetMandatSepa"
+            access="global"  >
+    <aura:attribute name="headerText" type="String" default="Select Mondat" />
+    <aura:attribute name="errorMsg" type="String"/>
+    <aura:attribute name="mySpinner" type="Boolean"/>
+    <aura:attribute name="ListtoAttach" type="QuoteGetMandatSepa_wrapper.cls_mandates[]" /> 
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}" access="global" />
+
+    <aura:if isTrue="{!v.mySpinner}">
+      <lightning:spinner variant="brand" size="medium" alternativeText="..." />
+  </aura:if>
+
+   <div class="slds-m-around_xx-large">              
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01"
+                 aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+
+                 <div class="slds-modal__container">               
+                  <header class="slds-modal__header">
+                     <lightning:buttonIcon iconName="utility:close" class="slds-modal__close" size="large" 
+                        variant="bare" alternativeText="Close" onclick="{!c.CloseModal }"/>
+
+                        <aura:if isTrue="{!v.errorMsg != null}">
+                           <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert">
+                               <h2>{!v.errorMsg}</h2>
+                           </div>
+                       </aura:if>
+                       <aura:if isTrue="{!v.mySpinner ==false}" >
+                              <aura:if  isTrue="{!and(v.ListtoAttach.length==0, v.errorMsg == null)}" >
+                                 <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">                              
+                                    No Mandate is available
+                                 </h2>
+                              </aura:if> 
+                              <aura:if  isTrue="{!v.ListtoAttach.length >0 }" > 
+                                 <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">                                             
+                                    Please choose an item from the list                    
+                                 </h2>
+                              </aura:if> 
+                     </aura:if>
+                  </header>
+                  <!-- Main Body of Modal -->  
+                  
+               <aura:if  isTrue="{!v.ListtoAttach.length  >0 }" >     
+                  <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">                     
+                        <table class="slds-table slds-table--bordered slds-table--cell-buffer">
+                              <thead>
+                                 <tr class="slds-text-title--caps">
+                                    <th>
+                                       <span class="slds-truncate" title="Name"></span>
+                                    </th>
+                                    <th>
+                                       <span class="slds-truncate" title="IBAN">IBAN</span>
+                                    </th>
+                                    <th>
+                                       <span class="slds-truncate" title="BIC">BIC</span>
+                                    </th>
+                                    <th>
+                                       <span class="slds-truncate" title="RUM">RUM</span>
+                                    </th>       
+                                    <th>
+                                       <span class="slds-truncate" title="bankCity">bankCity</span>
+                                    </th>
+                                    <th>
+                                       <span class="slds-truncate" title="bankName">bankName</span>
+                                    </th>                            
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <aura:iteration items="{!v.ListtoAttach}" var="Item">
+                                    <tr>
+                                       <td scope="row" class="slds-text-align--right" style="width:3.25rem;">
+                                          <div class="slds-form-element">
+                                             <div class="slds-form-element__control">
+                                                <label class="slds-checkbox">
+                                                   <ui:inputCheckbox text="{!Item.IBAN +'-'+Item.BIC+'-'+Item.RUM+'-'+
+                                                     Item.bankCity+'-'+Item.bankName}"
+                                                      aura:id="cboxRow"  name='box'  change="{!c.selectOne}"/>                                                  
+                                                   <span class="slds-checkbox--faux"></span>
+                                                   <span class="slds-form-element__label text"></span>
+                                                </label>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td scope="row">
+                                          <div class="slds-truncate" title="{!Item.IBAN}"><a>{!Item.IBAN}</a></div>
+                                       </td>
+                                       <td scope="row">                                         
+                                          <div class="slds-truncate" title="{!Item.BIC}"><a>{!Item.BIC}</a></div>
+                                       </td>
+                                       <td scope="row">                                         
+                                          <div class="slds-truncate" title="{!Item.RUM}"><a>{!Item.RUM}</a></div>
+                                       </td>                                 
+                                       <td scope="row">                                         
+                                          <div class="slds-truncate" title="{!Item.bankCity}"><a>{!Item.bankCity}</a></div>
+                                       </td>
+                                       <td scope="row">                                         
+                                          <div class="slds-truncate" title="{!Item.bankName}"><a>{!Item.bankName}</a></div>
+                                       </td>
+                                    </tr>
+                                 </aura:iteration>
+                              </tbody>
+                           </table>
+                     </div>
+               </aura:if>                   
+               <aura:if isTrue="{!v.mySpinner ==false}" >
+                  <footer class="slds-modal__footer">
+                     <aura:if  isTrue="{!v.ListtoAttach.length  >0 }" >    
+                         <lightning:button variant="brand" label="Save" title="Save" onclick="{! c.SaveMandat }" />     
+                     </aura:if>                    
+                     <lightning:button variant="brand" label="Cancel" title="Cancel" onclick="{! c.CloseModal }" />   
+                  </footer>
+               </aura:if>
+            </div>
+         </section>
+         <div class="slds-backdrop slds-backdrop_open"></div>       
+   </div>
+</aura:component>

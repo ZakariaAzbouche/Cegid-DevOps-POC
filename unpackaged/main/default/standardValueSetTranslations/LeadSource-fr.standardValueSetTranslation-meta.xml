@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Customer Care</masterLabel>
+        <translation><!-- Customer Care --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EuroCRM</masterLabel>
+        <translation><!-- EuroCRM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LinkedIn</masterLabel>
+        <translation><!-- LinkedIn --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partner</masterLabel>
+        <translation>Partenaire</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SDR</masterLabel>
+        <translation><!-- SDR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SDR Lead Purchase</masterLabel>
+        <translation><!-- SDR Lead Purchase --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SDR-Marketing Prospecting</masterLabel>
+        <translation><!-- SDR-Marketing Prospecting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Prospecting</masterLabel>
+        <translation><!-- Sales Prospecting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>affiliates</masterLabel>
+        <translation><!-- affiliates --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>call-in_FR</masterLabel>
+        <translation><!-- call-in_FR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>call-in_INT</masterLabel>
+        <translation><!-- call-in_INT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>call-out_FR</masterLabel>
+        <translation><!-- call-out_FR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>call-out_INT</masterLabel>
+        <translation><!-- call-out_INT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>databasepurchase</masterLabel>
+        <translation><!-- databasepurchase --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>display</masterLabel>
+        <translation><!-- display --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>email</masterLabel>
+        <translation><!-- email --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>event</masterLabel>
+        <translation><!-- event --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>influencer</masterLabel>
+        <translation><!-- influencer --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>leadpurchase</masterLabel>
+        <translation><!-- leadpurchase --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>others-web</masterLabel>
+        <translation><!-- others-web --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>paid-search</masterLabel>
+        <translation><!-- paid-search --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>referral</masterLabel>
+        <translation><!-- referral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>sales-enablement</masterLabel>
+        <translation><!-- sales-enablement --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>scoring</masterLabel>
+        <translation><!-- scoring --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>social</masterLabel>
+        <translation><!-- social --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>social-ads</masterLabel>
+        <translation><!-- social-ads --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>sponsored-email</masterLabel>
+        <translation><!-- sponsored-email --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>survey</masterLabel>
+        <translation><!-- survey --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>var</masterLabel>
+        <translation><!-- var --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

@@ -1,0 +1,53 @@
+<aura:component description="LC01_RelatedListContrat" implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="AP01_RelatedListContrat">
+    <lightning:overlayLibrary aura:id="overlayLib" />
+    <aura:attribute name="objectType" type="String"/>
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="parentFieldName" type="String"/>
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="columns2" type="List"/>
+    <aura:attribute name="tableSize" type="integer"/>
+    <aura:attribute name="data" type="List" access="global"/>
+    <aura:attribute name="statusActive" type="List" access="global"/>
+    <aura:attribute name="statusPending" type="List" access="global"/>
+    <aura:attribute name="statusCancelled" type="List" access="global"/>
+    <aura:attribute name="page" type="integer"/>
+    <aura:attribute name="pages" type="integer"/>
+    <aura:attribute name="total" type="integer"/>
+    <aura:attribute name="totalRows" type="integer" default="0"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="force:showToast" action="{!c.handleApplicationEvent}"/>
+    <aura:attribute name="mySpinner" type="Boolean"/>
+    <aura:attribute name="errorMsg" type="String"/>
+    <aura:attribute name="canDisplay" type="Boolean" default="false"/>
+    
+    <lightning:card iconName="action:new_opportunity">
+        <aura:set attribute="title">
+            <div>
+                <span>Souscriptions ({!v.totalRows})</span>
+                <lightning:button label="Show Details" title="Show Details" onclick="{!c.showDetails}" class="slds-m-left_medium"/>
+                <aura:if isTrue="{!v.mySpinner}">
+                    <lightning:spinner variant="brand" size="medium" alternativeText="..." />
+                </aura:if>
+            </div>
+        </aura:set>
+    </lightning:card>
+    <aura:if isTrue="{!v.canDisplay}">
+        <aura:if isTrue="{!v.statusActive.length > 0}">
+            <c:LC01_RelatedListContratTable data="{!v.statusActive}" totalrows="{!v.totalRows}" tableType="active" recordId="{!v.recordId}"/>
+        </aura:if>
+        
+        <aura:if isTrue="{!v.statusPending.length > 0}">
+            <c:LC01_RelatedListContratTable data="{!v.statusPending}" totalrows="{!v.totalRows}" tableType="pending" recordId="{!v.recordId}"/>
+        </aura:if>
+        
+        <aura:if isTrue="{!v.statusCancelled.length > 0}">
+            <c:LC01_RelatedListContratTable data="{!v.statusCancelled}" totalrows="{!v.totalRows}" tableType="cancel" recordId="{!v.recordId}"/>
+        </aura:if>
+        
+        <aura:if isTrue="{!v.errorMsg != null}">
+            <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert">
+                <h2>{!v.errorMsg}</h2>
+            </div>
+        </aura:if>
+    </aura:if>
+</aura:component>

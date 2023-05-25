@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_CaMember001_BlockEdit</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+NOT($User.BypassVR__c),
+NOT($Profile.Name = 'System Administrator'),
+NOT($Profile.Name = 'Administrateur Système'),
+NOT($Profile.Name = 'Cegid Telemarketing'),
+NOT($Profile.Name = 'Cegid Marketing'),
+NOT($Profile.Name = 'Marketo')		
+)</errorConditionFormula>
+    <errorMessage>You can't edit campaign members</errorMessage>
+</ValidationRule>

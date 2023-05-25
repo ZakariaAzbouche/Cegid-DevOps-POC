@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Activated</masterLabel>
+            <translation><!-- Activated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation><!-- Disabled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Be Activated</masterLabel>
+            <translation><!-- To Be Activated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ToActivate</masterLabel>
+            <translation><!-- ToActivate --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

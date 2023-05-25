@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Decision_Process__c</fullName>
+    <description>Decision Process</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Weak = You don't know the client decision processes | Moderate = You know the technical or the business or the legal decision process, but not all 3 | Strong = You know the technical, business &amp; legal decision processes. You based your close plan on them</inlineHelpText>
+    <label>Decision Process</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>MEDDIC_Values</valueSetName>
+    </valueSet>
+</CustomField>

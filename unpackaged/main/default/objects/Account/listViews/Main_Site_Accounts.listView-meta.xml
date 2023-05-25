@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Main_Site_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ERP_Number__c</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>No_Business__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>To Be Deleted</value>
+    </filters>
+    <label>Sites principaux (Comptes)</label>
+</ListView>

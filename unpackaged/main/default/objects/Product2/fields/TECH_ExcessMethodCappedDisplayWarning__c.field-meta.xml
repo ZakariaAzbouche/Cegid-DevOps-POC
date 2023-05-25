@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_ExcessMethodCappedDisplayWarning__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND( ISPICKVAL( Excess_Pricing_Method__c, 'Capped Unit Price' ), 
+     Main_Charge_Product__r.Maximum_Quantity__c == 0, 
+     TECH_SLPwithAMaximumPriceRecorded__c = 0 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TECH_ExcessMethodCappedDisplayWarning</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

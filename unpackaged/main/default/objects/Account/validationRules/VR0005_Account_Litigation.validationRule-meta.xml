@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR0005_Account_Litigation</fullName>
+    <active>true</active>
+    <description>Verify if date of litigation is filled for accounts in dispute.</description>
+    <errorConditionFormula>AND(
+ Account_in_Dispute__c,
+ ISBLANK( Date_of_litigation__c)
+)</errorConditionFormula>
+    <errorDisplayField>Date_of_litigation__c</errorDisplayField>
+    <errorMessage>Date of litigation must be filled if Account is in Dispute</errorMessage>
+</ValidationRule>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tech Code NAF Finance large &amp; Mid 2_6 --></label>
+        <name>Tech_Code_NAF_Finance_large_Mid_2_6__c</name>
+    </CustomFieldTranslation>

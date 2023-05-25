@@ -1,0 +1,82 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="AP02_RelatedListProduit">
+    <lightning:overlayLibrary aura:id="overlayLib" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="data" type="list" access="global"/>
+    <aura:attribute name="customer" type="object" access="global"/>
+    <aura:attribute name="product" type="object" access="global"/>
+    <aura:attribute name="ratePlans" type="object" access="global"/>
+    <aura:attribute name="plannedCancellation" type="string" access="global"/>
+    <aura:attribute name="rateplanList" type="list" access="global"/>
+    <aura:attribute name="chargeList" type="list" access="global"/>
+    <aura:attribute name="index" type="list"  access="global"/>
+    <aura:attribute name="prductDetail" type="Boolean" default="false"/>
+
+    <a onclick="{!c.openProductInfo}">Produit: {!v.product.name}</a>
+    
+    <aura:if isTrue="{!v.prductDetail}">
+    <section aura:id="pop" aria-label="Dialog title" aria-describedby="popover-body-id" class="slds-popover slds-nubbin_bottom-left slds-show " role="dialog">
+        <button class="slds-button slds-button_icon slds-button_icon-small slds-float_right slds-popover__close " title="Close dialog" onclick="{!c.closePop}">
+            X 
+            <span class="slds-assistive-text">Close</span>
+        </button>
+        <lightning:card title="{!v.product.name}" iconName="action:new_opportunity">
+            <div id="popover-body-id" class="slds-popover__body">
+                <div class="slds-grid slds-gutters bottom_large">
+                    <div class="slds-col">
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Niveau de service</span><br/>
+                            <aura:if isTrue="{!v.ratePlans.levelservice}">
+                                <ui:outputText class="slds-text-title" value="{!v.ratePlans.levelservice}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Date réalisation prévue</span><br/>
+                            <aura:if isTrue="{!v.ratePlans.expertise!=null}">
+                                <ui:outputText class="slds-text-title" value="{!v.ratePlans.expertise}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                    </div>
+                    <div class="slds-col">
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Expertise</span><br/>
+                            <aura:if isTrue="{!v.ratePlans.expertise}">
+                                <ui:outputText class="slds-text-title" value="{!v.ratePlans.expertise}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Motif fermeture</span><br/>
+                            <aura:if isTrue="{!v.ratePlans.reasonCancelation}">
+                                <ui:outputText class="slds-text-title" value="{!v.ratePlans.reasonCancelation}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                    </div>
+                    <div class="slds-col">
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Fonctionnel</span><br/>
+                            <aura:if isTrue="{!v.ratePlans.coreBusiness}">
+                                <ui:outputText class="slds-text-title" value="{!v.ratePlans.coreBusiness}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </lightning:card>
+    </section>
+    </aura:if>
+</aura:component>

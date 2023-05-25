@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Amount Discount</masterLabel>
+        <translation><!-- Amount Discount --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Capped Unit Price</masterLabel>
+        <translation>Prix unitaire plafonné</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Decreasing Unit Price</masterLabel>
+        <translation>Prix unitaire dégressif</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fixed Unit Price</masterLabel>
+        <translation>Prix unitaire fixe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Main Charge Unit Price</masterLabel>
+        <translation>Prix unitaire Charge Principale</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Percentage Discount</masterLabel>
+        <translation><!-- Percentage Discount --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

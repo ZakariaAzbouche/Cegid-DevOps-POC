@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Forecast Category --></label>
+        <name>Forecast_Category_EDIT__c</name>
+        <picklistValues>
+            <masterLabel>Firm</masterLabel>
+            <translation><!-- Firm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omitted</masterLabel>
+            <translation><!-- Omitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Probable</masterLabel>
+            <translation><!-- Probable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signed</masterLabel>
+            <translation><!-- Signed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upside</masterLabel>
+            <translation><!-- Upside --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

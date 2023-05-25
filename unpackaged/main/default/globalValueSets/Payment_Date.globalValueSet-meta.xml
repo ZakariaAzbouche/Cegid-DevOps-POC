@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>FA</fullName>
+        <default>false</default>
+        <label>FA</label>
+    </customValue>
+    <customValue>
+        <fullName>FDM</fullName>
+        <default>false</default>
+        <label>FDM</label>
+    </customValue>
+    <customValue>
+        <fullName>FDM10</fullName>
+        <default>false</default>
+        <label>FDM10</label>
+    </customValue>
+    <masterLabel>Payment Date</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

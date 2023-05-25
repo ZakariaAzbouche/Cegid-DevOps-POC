@@ -1,0 +1,23 @@
+Bonjour,
+
+Une Oppy Lead (MQL) est en souffrance dans le CRM : {!Opportunity.Link}
+
+Pour rappel, le délai de traitement maximum est de 48h.
+
+Merci de le traiter ce jour.
+
+Cordialement,
+L’équipe marketing
+
+--------------------------------------------------------------------------------------------------
+
+Hello,
+
+An Oppy Lead (MQL) has not been converted by you on Salesforce : {!Opportunity.Link}
+
+As a reminder, a lead (MQL) needs to be handled within 48h.
+
+Thank you for dealing with it asap.
+
+Kind regards,
+The marketing team

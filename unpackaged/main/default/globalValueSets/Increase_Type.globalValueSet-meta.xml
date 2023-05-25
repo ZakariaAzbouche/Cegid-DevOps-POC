@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>SY2</fullName>
+        <default>false</default>
+        <label>2/3 SYNTEC, MAXI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>2SY</fullName>
+        <default>false</default>
+        <label>2 FOIS SYNTEC, MAXI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>2SC</fullName>
+        <default>false</default>
+        <label>2 FOIS SYNTEC, MAXI 6%</label>
+    </customValue>
+    <customValue>
+        <fullName>S20</fullName>
+        <default>false</default>
+        <label>2 FOIS SYNTEC, MINI 2% MAXI 4%</label>
+    </customValue>
+    <customValue>
+        <fullName>2SZ</fullName>
+        <default>false</default>
+        <label>2 FOIS SYNTEC, MINI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYY</fullName>
+        <default>false</default>
+        <label>2 FOIS SYNTEC (MOYENNE 01/02/03), MINI 1%, MAXI 4%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYT</fullName>
+        <default>false</default>
+        <label>2 FOIS SYNTEC (MOYENNE 01/02/03) , MINI 2%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYZ</fullName>
+        <default>false</default>
+        <label>2 FOIS SYNTEC (MOYENNE 01/02/03), MINI 2%, MAXI 5%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYU</fullName>
+        <default>false</default>
+        <label>2 FOIS SYNTEC (MOYENNE 01/02/03) , MINI 2% MAXI 4%</label>
+    </customValue>
+    <customValue>
+        <fullName>SI8</fullName>
+        <default>false</default>
+        <label>2XSYNTEC(MOYENNE 01/02/03 N-1 VS MOYENNE 01/02/03 N-2) MINI2% MAX3%</label>
+    </customValue>
+    <customValue>
+        <fullName>S19</fullName>
+        <default>false</default>
+        <label>2 X SYNTEC moyenne (01-02-03) MINI 1%</label>
+    </customValue>
+    <customValue>
+        <fullName>AG0</fullName>
+        <default>false</default>
+        <label>AG0</label>
+    </customValue>
+    <customValue>
+        <fullName>AG3</fullName>
+        <default>false</default>
+        <label>AGORA, MINI 3% (syntec belge)</label>
+    </customValue>
+    <customValue>
+        <fullName>AW3</fullName>
+        <default>false</default>
+        <label>AW3</label>
+    </customValue>
+    <customValue>
+        <fullName>AWE</fullName>
+        <default>false</default>
+        <label>AWE</label>
+    </customValue>
+    <customValue>
+        <fullName>BEI</fullName>
+        <default>false</default>
+        <label>BEI</label>
+    </customValue>
+    <customValue>
+        <fullName>C11</fullName>
+        <default>false</default>
+        <label>C11</label>
+    </customValue>
+    <customValue>
+        <fullName>CBS</fullName>
+        <default>false</default>
+        <label>CBS</label>
+    </customValue>
+    <customValue>
+        <fullName>CP0</fullName>
+        <default>false</default>
+        <label>CP0</label>
+    </customValue>
+    <customValue>
+        <fullName>CP1</fullName>
+        <default>false</default>
+        <label>CP1</label>
+    </customValue>
+    <customValue>
+        <fullName>CPI</fullName>
+        <default>false</default>
+        <label>CPI</label>
+    </customValue>
+    <customValue>
+        <fullName>DAI</fullName>
+        <default>false</default>
+        <label>DAI</label>
+    </customValue>
+    <customValue>
+        <fullName>110</fullName>
+        <default>false</default>
+        <label>DEBUT &gt;= 01/10</label>
+    </customValue>
+    <customValue>
+        <fullName>DUI</fullName>
+        <default>false</default>
+        <label>DUI</label>
+    </customValue>
+    <customValue>
+        <fullName>FD0</fullName>
+        <default>false</default>
+        <label>FD0</label>
+    </customValue>
+    <customValue>
+        <fullName>FUL</fullName>
+        <default>false</default>
+        <label>FULL SERVICE</label>
+    </customValue>
+    <customValue>
+        <fullName>GE2</fullName>
+        <default>false</default>
+        <label>GE2</label>
+    </customValue>
+    <customValue>
+        <fullName>GEI</fullName>
+        <default>false</default>
+        <label>GEI</label>
+    </customValue>
+    <customValue>
+        <fullName>IPE</fullName>
+        <default>false</default>
+        <label>IPE</label>
+    </customValue>
+    <customValue>
+        <fullName>IST</fullName>
+        <default>false</default>
+        <label>ISTAT</label>
+    </customValue>
+    <customValue>
+        <fullName>M05</fullName>
+        <default>false</default>
+        <label>M05</label>
+    </customValue>
+    <customValue>
+        <fullName>MA6</fullName>
+        <default>false</default>
+        <label>MA6</label>
+    </customValue>
+    <customValue>
+        <fullName>C10</fullName>
+        <default>false</default>
+        <label>MAXI 0,5%</label>
+    </customValue>
+    <customValue>
+        <fullName>C09</fullName>
+        <default>false</default>
+        <label>MAXI 1,5%</label>
+    </customValue>
+    <customValue>
+        <fullName>D00</fullName>
+        <default>false</default>
+        <label>MAXI 2,5 X SYNTEC</label>
+    </customValue>
+    <customValue>
+        <fullName>SYG</fullName>
+        <default>false</default>
+        <label>MAXI 2 FOIS SYNTEC (MOYENNE 01/02/03) , MINI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYR</fullName>
+        <default>false</default>
+        <label>MAXI 2 FOIS SYNTEC (MOYENNE 01/02/03) , MINI 3% MAXI 5%</label>
+    </customValue>
+    <customValue>
+        <fullName>C04</fullName>
+        <default>false</default>
+        <label>MAXI 2 X SYNTEC</label>
+    </customValue>
+    <customValue>
+        <fullName>SYB</fullName>
+        <default>false</default>
+        <label>MAXI 2 X SYNTEC, MAXI 4%</label>
+    </customValue>
+    <customValue>
+        <fullName>SY0</fullName>
+        <default>false</default>
+        <label>MAXI 2 X SYNTEC, MINI 1%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYC</fullName>
+        <default>false</default>
+        <label>MAXI 2 X SYNTEC, MINI 2%</label>
+    </customValue>
+    <customValue>
+        <fullName>M03</fullName>
+        <default>false</default>
+        <label>MAXI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>SY7</fullName>
+        <default>false</default>
+        <label>MAXI 3 X SYNTEC, MINI 1%</label>
+    </customValue>
+    <customValue>
+        <fullName>M04</fullName>
+        <default>false</default>
+        <label>MAXI 4%</label>
+    </customValue>
+    <customValue>
+        <fullName>C06</fullName>
+        <default>false</default>
+        <label>MAXI 6%</label>
+    </customValue>
+    <customValue>
+        <fullName>GPO</fullName>
+        <default>false</default>
+        <label>MODE GLO CLIENTS PO</label>
+    </customValue>
+    <customValue>
+        <fullName>MSY</fullName>
+        <default>false</default>
+        <label>MSY</label>
+    </customValue>
+    <customValue>
+        <fullName>ASI</fullName>
+        <default>false</default>
+        <label>ORIGINE AS INFOR ( = syntec )</label>
+    </customValue>
+    <customValue>
+        <fullName>AXE</fullName>
+        <default>false</default>
+        <label>ORIGINE AXETEAM ( = syntec )</label>
+    </customValue>
+    <customValue>
+        <fullName>CCM</fullName>
+        <default>false</default>
+        <label>ORIGINE CCMX (2 x Syntec)</label>
+    </customValue>
+    <customValue>
+        <fullName>GLC</fullName>
+        <default>false</default>
+        <label>ORIGINE CYLANDE</label>
+    </customValue>
+    <customValue>
+        <fullName>ILL</fullName>
+        <default>false</default>
+        <label>ORIGINE ILLICO ( 0% )</label>
+    </customValue>
+    <customValue>
+        <fullName>LAT</fullName>
+        <default>false</default>
+        <label>ORIGINE LATAM</label>
+    </customValue>
+    <customValue>
+        <fullName>PMI</fullName>
+        <default>false</default>
+        <label>ORIGINE PMI SOFT ( = syntec )</label>
+    </customValue>
+    <customValue>
+        <fullName>TMC</fullName>
+        <default>false</default>
+        <label>ORIGINE TECHNOMEDIA CANADA ( 0% )</label>
+    </customValue>
+    <customValue>
+        <fullName>TUS</fullName>
+        <default>false</default>
+        <label>ORIGINE TECHNOMEDIA USA ( 0% )</label>
+    </customValue>
+    <customValue>
+        <fullName>VCS</fullName>
+        <default>false</default>
+        <label>ORIGINE VCS ( = syntec )</label>
+    </customValue>
+    <customValue>
+        <fullName>VED</fullName>
+        <default>false</default>
+        <label>ORIGINE VEDIOR ( = syntec )</label>
+    </customValue>
+    <customValue>
+        <fullName>R01</fullName>
+        <default>false</default>
+        <label>R01</label>
+    </customValue>
+    <customValue>
+        <fullName>S01</fullName>
+        <default>false</default>
+        <label>S01</label>
+    </customValue>
+    <customValue>
+        <fullName>S22</fullName>
+        <default>false</default>
+        <label>S22</label>
+    </customValue>
+    <customValue>
+        <fullName>S23</fullName>
+        <default>false</default>
+        <label>S23</label>
+    </customValue>
+    <customValue>
+        <fullName>S80</fullName>
+        <default>false</default>
+        <label>S80</label>
+    </customValue>
+    <customValue>
+        <fullName>SCB</fullName>
+        <default>false</default>
+        <label>SCB</label>
+    </customValue>
+    <customValue>
+        <fullName>C00</fullName>
+        <default>false</default>
+        <label>SPECIF 0 %</label>
+    </customValue>
+    <customValue>
+        <fullName>C01</fullName>
+        <default>false</default>
+        <label>SPECIF 1%</label>
+    </customValue>
+    <customValue>
+        <fullName>C02</fullName>
+        <default>false</default>
+        <label>SPECIF 2%</label>
+    </customValue>
+    <customValue>
+        <fullName>C03</fullName>
+        <default>false</default>
+        <label>SPECIF 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>C07</fullName>
+        <default>false</default>
+        <label>SPECIF 4%</label>
+    </customValue>
+    <customValue>
+        <fullName>B05</fullName>
+        <default>false</default>
+        <label>SPECIF 5%</label>
+    </customValue>
+    <customValue>
+        <fullName>C08</fullName>
+        <default>false</default>
+        <label>SPECIF 6%</label>
+    </customValue>
+    <customValue>
+        <fullName>ST0</fullName>
+        <default>false</default>
+        <label>ST0</label>
+    </customValue>
+    <customValue>
+        <fullName>ST1</fullName>
+        <default>false</default>
+        <label>ST1</label>
+    </customValue>
+    <customValue>
+        <fullName>ST2</fullName>
+        <default>false</default>
+        <label>ST2</label>
+    </customValue>
+    <customValue>
+        <fullName>ST3</fullName>
+        <default>false</default>
+        <label>ST3</label>
+    </customValue>
+    <customValue>
+        <fullName>ST4</fullName>
+        <default>false</default>
+        <label>ST4</label>
+    </customValue>
+    <customValue>
+        <fullName>SVX</fullName>
+        <default>false</default>
+        <label>SVX</label>
+    </customValue>
+    <customValue>
+        <fullName>SWI</fullName>
+        <default>false</default>
+        <label>SWI</label>
+    </customValue>
+    <customValue>
+        <fullName>SYN</fullName>
+        <default>false</default>
+        <label>SYNTEC</label>
+    </customValue>
+    <customValue>
+        <fullName>SYD</fullName>
+        <default>false</default>
+        <label>SYNTEC, MAXI 1,5%</label>
+    </customValue>
+    <customValue>
+        <fullName>SI3</fullName>
+        <default>false</default>
+        <label>SYNTEC, MAXI 1%</label>
+    </customValue>
+    <customValue>
+        <fullName>SY6</fullName>
+        <default>false</default>
+        <label>SYNTEC, MAXI 2,5 %</label>
+    </customValue>
+    <customValue>
+        <fullName>SY5</fullName>
+        <default>false</default>
+        <label>SYNTEC, MAXI 2%</label>
+    </customValue>
+    <customValue>
+        <fullName>SY3</fullName>
+        <default>false</default>
+        <label>SYNTEC, MAXI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>SY4</fullName>
+        <default>false</default>
+        <label>SYNTEC, MAXI 4%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYA</fullName>
+        <default>false</default>
+        <label>SYNTEC, MAXI 5%</label>
+    </customValue>
+    <customValue>
+        <fullName>S21</fullName>
+        <default>false</default>
+        <label>SYNTEC, MAXI 6%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYP</fullName>
+        <default>false</default>
+        <label>SYNTEC, MINI 1,5% MAXI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>SY9</fullName>
+        <default>false</default>
+        <label>SYNTEC, MINI 1%</label>
+    </customValue>
+    <customValue>
+        <fullName>SI5</fullName>
+        <default>false</default>
+        <label>SYNTEC, MINI 1% MAXI 2%</label>
+    </customValue>
+    <customValue>
+        <fullName>SI2</fullName>
+        <default>false</default>
+        <label>SYNTEC, MINI 1% MAXI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYF</fullName>
+        <default>false</default>
+        <label>SYNTEC, MINI 2,5%</label>
+    </customValue>
+    <customValue>
+        <fullName>SI1</fullName>
+        <default>false</default>
+        <label>SYNTEC, MINI 2%</label>
+    </customValue>
+    <customValue>
+        <fullName>SI4</fullName>
+        <default>false</default>
+        <label>SYNTEC, MINI 2% MAXI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>ALT</fullName>
+        <default>false</default>
+        <label>SYNTEC, MINI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>SI7</fullName>
+        <default>false</default>
+        <label>SYNTEC, MINI 3% MAXI 5%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYI</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03)</label>
+    </customValue>
+    <customValue>
+        <fullName>SYW</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03), MAXI 2%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYV</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03), MAXI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>S05</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03), MINI 0,5%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYX</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03), MINI 1,5%, MAXI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYJ</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03), MINI 1%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYM</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03), MINI 1% MAXI 2,5%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYK</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03), MINI 1% MAXI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYL</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03), MINI 2%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYH</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03), MINI 2% MAXI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYQ</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03), MINI 2% MAXI 4%</label>
+    </customValue>
+    <customValue>
+        <fullName>SI6</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03), MINI 2% MAXI 5%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYO</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03), MINI 3%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYS</fullName>
+        <default>false</default>
+        <label>SYNTEC (MOYENNE 01/02/03) MAJOREE DE 4%</label>
+    </customValue>
+    <customValue>
+        <fullName>SYE</fullName>
+        <default>false</default>
+        <label>SYNTEC + 1% , MINI 1%</label>
+    </customValue>
+    <customValue>
+        <fullName>S02</fullName>
+        <default>false</default>
+        <label>SYNTEC SI SUP 2%</label>
+    </customValue>
+    <customValue>
+        <fullName>S60</fullName>
+        <default>false</default>
+        <label>SYNTEC x 0,6 , MAXI 2,5%</label>
+    </customValue>
+    <customValue>
+        <fullName>S85</fullName>
+        <default>false</default>
+        <label>SYNTEC x 0,85 avec indice de reference</label>
+    </customValue>
+    <customValue>
+        <fullName>A CRÉER</fullName>
+        <default>false</default>
+        <label>A CRÉER</label>
+    </customValue>
+    <customValue>
+        <fullName>AT1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Attente MAXI 2 X SYNTEC</label>
+    </customValue>
+    <customValue>
+        <fullName>AT3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Attente MAXI 6 %</label>
+    </customValue>
+    <customValue>
+        <fullName>AT4</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Attente Augmentation Libre</label>
+    </customValue>
+    <customValue>
+        <fullName>AT2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Attente MAXI 2 X SYNTEC MINI 1%</label>
+    </customValue>
+    <masterLabel>Increase Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

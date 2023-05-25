@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Code_NAF_Finance_large_Mid_3_2__c</fullName>
+    <description>Code NAF finance for territory assignment</description>
+    <externalId>false</externalId>
+    <formula>OR( 
+BEGINS( Industry_Code__r.Name  ,"4614Z"),
+BEGINS( Industry_Code__r.Name  ,"4615Z"),
+BEGINS( Industry_Code__r.Name  ,"4616Z"),
+BEGINS( Industry_Code__r.Name  ,"4618Z"),
+BEGINS( Industry_Code__r.Name  ,"4619A"),
+BEGINS( Industry_Code__r.Name  ,"4619B"),
+BEGINS( Industry_Code__r.Name  ,"4641Z"),
+BEGINS( Industry_Code__r.Name  ,"4642Z"),
+BEGINS( Industry_Code__r.Name  ,"4643Z"),
+BEGINS( Industry_Code__r.Name  ,"4644Z"),
+BEGINS( Industry_Code__r.Name  ,"4647Z"),
+BEGINS( Industry_Code__r.Name  ,"4648Z"),
+BEGINS( Industry_Code__r.Name  ,"4649Z"),
+BEGINS( Industry_Code__r.Name  ,"4651Z"),
+BEGINS( Industry_Code__r.Name  ,"4652Z"),
+BEGINS( Industry_Code__r.Name  ,"4662Z"),
+BEGINS( Industry_Code__r.Name  ,"4664Z"),
+BEGINS( Industry_Code__r.Name  ,"4665Z"),
+BEGINS( Industry_Code__r.Name  ,"4666Z"),
+BEGINS( Industry_Code__r.Name  ,"4669A"),
+BEGINS( Industry_Code__r.Name  ,"4669B"),
+BEGINS( Industry_Code__r.Name  ,"4669C"),
+BEGINS( Industry_Code__r.Name  ,"4673A"),
+BEGINS( Industry_Code__r.Name  ,"4673B"),
+BEGINS( Industry_Code__r.Name  ,"4674A"),
+BEGINS( Industry_Code__r.Name  ,"4674B"),
+BEGINS( Industry_Code__r.Name  ,"4676Z"),
+BEGINS( Industry_Code__r.Name  ,"4690Z"))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tech Code NAF Finance large &amp; Mid 3_2</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

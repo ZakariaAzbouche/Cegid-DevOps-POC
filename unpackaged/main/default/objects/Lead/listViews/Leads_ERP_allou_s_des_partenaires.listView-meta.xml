@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leads_ERP_allou_s_des_partenaires</fullName>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>Nature__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>LEAD.COUNTRY_CODE</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>ImpartnerPRM__DateAssignedToPartner__c</columns>
+    <columns>ImpartnerPRM__PartnerAccount__c</columns>
+    <columns>ImpartnerPRM__PartnerLeadAcceptance__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>In Buffer,Assigned,In Progress,Qualified</value>
+    </filters>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>notEqual</operation>
+        <value>Partner</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>LEGRAND,AVAT,FREUND,MARTEL,GHILARDI,POULET,COISNE,REZIG,DE RAMBUTEAU,GUICI,ANDUZE,POGGI</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Leads ERP Indirects non convertis</label>
+</ListView>

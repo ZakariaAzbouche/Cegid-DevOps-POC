@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Site Type --></label>
+        <name>Site_Type__c</name>
+        <picklistValues>
+            <masterLabel>Delivery site</masterLabel>
+            <translation><!-- Delivery site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main site</masterLabel>
+            <translation><!-- Main site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote site</masterLabel>
+            <translation><!-- Remote site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary site</masterLabel>
+            <translation><!-- Secondary site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store</masterLabel>
+            <translation><!-- Store --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

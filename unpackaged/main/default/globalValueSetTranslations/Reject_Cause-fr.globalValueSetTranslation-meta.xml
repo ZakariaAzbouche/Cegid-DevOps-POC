@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Abandoned project</masterLabel>
+        <translation>Projet abandonné</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Already a client</masterLabel>
+        <translation>Déjà un client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Already created opportunity</masterLabel>
+        <translation>Opportunité déjà créée</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BANT reject - authority</masterLabel>
+        <translation>Rejet BANT - autorité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BANT reject - budget</masterLabel>
+        <translation>Rejet BANT - budget</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BANT reject - need (functional perimeter)</masterLabel>
+        <translation>Rejet BANT - besoin (périmètre fonctionnel)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BANT reject - need (international perimeter)</masterLabel>
+        <translation>Rejet BANT - besoin (périmètre international)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BANT reject - need (technology)</masterLabel>
+        <translation>Rejet BANT - besoin (technologie)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BANT reject - timing</masterLabel>
+        <translation>Rejet BANT - timing</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Competition</masterLabel>
+        <translation><!-- Competition --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Duplicate</masterLabel>
+        <translation>Doublon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Incomplete data</masterLabel>
+        <translation>Données incomplètes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Non commercial request</masterLabel>
+        <translation>Demande non commerciale</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Not the good lead owner</masterLabel>
+        <translation>Pas le bon lead owner</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Off target</masterLabel>
+        <translation>Hors cible</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Signed for the competition</masterLabel>
+        <translation>Signé à la concurrence</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Software Partner</masterLabel>
+        <translation><!-- Software Partner --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Stakeholder</masterLabel>
+        <translation><!-- Stakeholder --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Student</masterLabel>
+        <translation><!-- Student --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>To Be Deleted</masterLabel>
+        <translation><!-- To Be Deleted --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unreachable</masterLabel>
+        <translation>Injoignable</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

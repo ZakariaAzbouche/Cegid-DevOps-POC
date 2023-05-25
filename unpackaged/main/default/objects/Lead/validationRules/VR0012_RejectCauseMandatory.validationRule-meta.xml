@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR0012_RejectCauseMandatory</fullName>
+    <active>true</active>
+    <description>Cette VR permet d'obliger le remplissage du champ Reject Cause quand le lead est passé en statut Closed - Not converted</description>
+    <errorConditionFormula>AND(
+				NOT( $User.BypassVR__c ),
+				ISBLANK(TEXT(Reject_Cause__c)),
+				ISCHANGED(Status), 
+				ISPICKVAL(Status, 'Closed - Not Converted')		
+)</errorConditionFormula>
+    <errorDisplayField>Reject_Cause__c</errorDisplayField>
+    <errorMessage>Reject Cause is mandatory</errorMessage>
+</ValidationRule>

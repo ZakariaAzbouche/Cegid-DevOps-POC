@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Payroll SW --></label>
+        <name>Payroll_SW__c</name>
+        <picklistValues>
+            <masterLabel>ADP</masterLabel>
+            <translation><!-- ADP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cador dorac</masterLabel>
+            <translation><!-- Cador dorac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ciel</masterLabel>
+            <translation><!-- Ciel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EBP</masterLabel>
+            <translation><!-- EBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-défini</masterLabel>
+            <translation><!-- Non-défini --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP</masterLabel>
+            <translation><!-- SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sage</masterLabel>
+            <translation><!-- Sage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silae</masterLabel>
+            <translation><!-- Silae --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

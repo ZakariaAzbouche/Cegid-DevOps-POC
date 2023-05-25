@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cegid Role --></label>
+        <name>CegidRole__c</name>
+        <picklistValues>
+            <masterLabel>Contact for payment business</masterLabel>
+            <translation><!-- Contact for payment business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoices contact</masterLabel>
+            <translation><!-- Invoices contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO Contact</masterLabel>
+            <translation><!-- PO Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment contact</masterLabel>
+            <translation><!-- Payment contact --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

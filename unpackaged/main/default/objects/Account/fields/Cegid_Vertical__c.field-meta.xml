@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cegid_Vertical__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>source : INSEE / D&amp;B. Might be different from the data available on the account</inlineHelpText>
+    <label>Cegid Vertical</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>11 - Government</fullName>
+                <default>false</default>
+                <label>11 - Government</label>
+            </value>
+            <value>
+                <fullName>12 - Education</fullName>
+                <default>false</default>
+                <label>12 - Education</label>
+            </value>
+            <value>
+                <fullName>13 - Healthcare &amp; Social Services</fullName>
+                <default>false</default>
+                <label>13 - Healthcare &amp; Social Services</label>
+            </value>
+            <value>
+                <fullName>21 - Agriculture &amp; Natural Resources</fullName>
+                <default>false</default>
+                <label>21 - Agriculture &amp; Natural Resources</label>
+            </value>
+            <value>
+                <fullName>22 - Construction</fullName>
+                <default>false</default>
+                <label>22 - Construction</label>
+            </value>
+            <value>
+                <fullName>23 - Manufacturing</fullName>
+                <default>false</default>
+                <label>23 - Manufacturing</label>
+            </value>
+            <value>
+                <fullName>24 - Process Manufacturing</fullName>
+                <default>false</default>
+                <label>24 - Process Manufacturing</label>
+            </value>
+            <value>
+                <fullName>31 - Wholesale Trade</fullName>
+                <default>false</default>
+                <label>31 - Wholesale Trade</label>
+            </value>
+            <value>
+                <fullName>32 - Specialty Retail</fullName>
+                <default>false</default>
+                <label>32 - Specialty Retail</label>
+            </value>
+            <value>
+                <fullName>33 - Other Retail</fullName>
+                <default>false</default>
+                <label>33 - Other Retail</label>
+            </value>
+            <value>
+                <fullName>41 - CPA</fullName>
+                <default>false</default>
+                <label>41 - CPA</label>
+            </value>
+            <value>
+                <fullName>42 - Financial Services (except CPA)</fullName>
+                <default>false</default>
+                <label>42 - Financial Services (except CPA)</label>
+            </value>
+            <value>
+                <fullName>43 - Business Services</fullName>
+                <default>false</default>
+                <label>43 - Business Services</label>
+            </value>
+            <value>
+                <fullName>44 - Consumer Services</fullName>
+                <default>false</default>
+                <label>44 - Consumer Services</label>
+            </value>
+            <value>
+                <fullName>45 - Telecommunications</fullName>
+                <default>false</default>
+                <label>45 - Telecommunications</label>
+            </value>
+            <value>
+                <fullName>51 - Transportation</fullName>
+                <default>false</default>
+                <label>51 - Transportation</label>
+            </value>
+            <value>
+                <fullName>52 - Energy &amp; Public Utilities</fullName>
+                <default>false</default>
+                <label>52 - Energy &amp; Public Utilities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Not Disclosed</fullName>
+        <default>false</default>
+        <label>Not Disclosed</label>
+    </customValue>
+    <customValue>
+        <fullName>Compactibility with EC</fullName>
+        <default>false</default>
+        <label>Compactibility with EC</label>
+    </customValue>
+    <customValue>
+        <fullName>Partnership Contract</fullName>
+        <default>false</default>
+        <label>Partnership Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>Enterprise creation</fullName>
+        <default>false</default>
+        <label>Enterprise creation</label>
+    </customValue>
+    <customValue>
+        <fullName>Enterprise growth</fullName>
+        <default>false</default>
+        <label>Enterprise growth</label>
+    </customValue>
+    <customValue>
+        <fullName>End of contract of Actual solution</fullName>
+        <default>false</default>
+        <label>End of contract of Actual solution</label>
+    </customValue>
+    <customValue>
+        <fullName>Efficacity Gain</fullName>
+        <default>false</default>
+        <label>Efficacity Gain</label>
+    </customValue>
+    <customValue>
+        <fullName>Equipment harmonisation</fullName>
+        <default>false</default>
+        <label>Equipment harmonisation</label>
+    </customValue>
+    <customValue>
+        <fullName>Product dissatisfaction</fullName>
+        <default>false</default>
+        <label>Product dissatisfaction</label>
+    </customValue>
+    <customValue>
+        <fullName>Comertial relashionship dissatisfaction</fullName>
+        <default>false</default>
+        <label>Comertial relashionship dissatisfaction</label>
+    </customValue>
+    <customValue>
+        <fullName>Service dissatisfaction</fullName>
+        <default>false</default>
+        <label>Service dissatisfaction</label>
+    </customValue>
+    <customValue>
+        <fullName>Internalization</fullName>
+        <default>false</default>
+        <label>Internalization</label>
+    </customValue>
+    <customValue>
+        <fullName>Obsolete solution</fullName>
+        <default>false</default>
+        <label>Obsolete solution</label>
+    </customValue>
+    <masterLabel>Project&apos;s context and trigger</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

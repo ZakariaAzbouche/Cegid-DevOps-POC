@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$ERP_Number__c</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Contacts$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Contacts$Function__c</field>
+    </columns>
+    <columns>
+        <field>Account.Contacts$Email</field>
+    </columns>
+    <columns>
+        <field>Account.Contacts$Phone</field>
+    </columns>
+    <columns>
+        <field>Account.Contacts$Direct_Phone__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>Account.Contacts$Function__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Accounting Dir.,Accounting Mgr.,Admin. &amp; Financial Dir.,Admin. &amp; Financial Mgr.,Administrative Dir.,Administrative Mgr.,Chief Accounting Officer,Financial Dir.,Financial Mgr.,Treasury Mgr.</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Contacts$Active__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>comptes et contacts associés_SDR</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Contacts__c</reportType>
+    <scope>tmteam</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$Box_Program_For_All_Activation_date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

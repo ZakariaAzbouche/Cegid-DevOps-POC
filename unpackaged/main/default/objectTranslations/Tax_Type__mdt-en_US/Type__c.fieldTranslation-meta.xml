@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Dom</masterLabel>
+            <translation><!-- Dom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduced</masterLabel>
+            <translation><!-- Reduced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tom</masterLabel>
+            <translation><!-- Tom --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

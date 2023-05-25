@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assure_Theme_Uniqueness_by_Product__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Field used to make sure that a Theme is added only once to a Product</description>
+    <externalId>false</externalId>
+    <label>Assure Theme Uniqueness by Product</label>
+    <length>100</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

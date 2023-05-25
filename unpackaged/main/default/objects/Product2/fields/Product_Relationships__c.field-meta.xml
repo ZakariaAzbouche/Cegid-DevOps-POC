@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Relationships__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( RecordType.DeveloperName,'Article',
+HYPERLINK("/lightning/cmp/c__LC003_DashBoardContainer?c__getProductId="+Id+"&amp;c__getRecordTypeDevName=" + RecordType.DeveloperName+"&amp;c__getIds="+'00O3Y00000AZZ2eUAH'+"&amp;c__displayCustom="+'Yes' , "Product relationship overview", "_blank")&amp; BR() &amp; BR() &amp;
+HYPERLINK("/lightning/cmp/c__LC003_DashBoardContainer?c__getProductId="+Id+"&amp;c__getRecordTypeDevName=" + RecordType.DeveloperName+"&amp;c__displayCustom="+'Yes' , "Parent Packages", "_blank") &amp; BR() &amp; BR() &amp;
+HYPERLINK("/lightning/r/00O3Y00000AZZ2eUAH/view?fv0="+Id , "Parent Products"),
+'Charge',
+HYPERLINK("/lightning/cmp/c__LC003_DashBoardContainer?c__getProductId="+Id+"&amp;c__getRecordTypeDevName=" + RecordType.DeveloperName+"&amp;c__getIds="+'00O3Y00000AZZ2dUAH;00O3Y00000AZZ2eUAH'+"&amp;c__displayCustom="+'No' , "Product relationship overview", "_blank")&amp; BR() &amp; BR() &amp;
+HYPERLINK("/lightning/r/00O3Y00000AZZ2dUAH/view?fv0="+Id , "Parent Packages") &amp; BR() &amp; BR() &amp;
+HYPERLINK("/lightning/r/00O3Y00000AZZ2eUAH/view?fv0="+Id , "Parent Products"),
+'Product',
+HYPERLINK("/lightning/cmp/c__LC003_DashBoardContainer?c__getProductId="+Id+"&amp;c__getRecordTypeDevName=" + RecordType.DeveloperName+"&amp;c__getIds="+'00O3Y00000AZZ2dUAH;00O3Y00000AZZ2bUAH;00O3Y00000AZZ2aUAH'+"&amp;c__displayCustom="+'No' , "Product relationship overview", "_blank")&amp; BR() &amp; BR() &amp;
+HYPERLINK("/lightning/r/00O3Y00000AZZ2dUAH/view?fv0="+Id , "Parent Packages") &amp; BR() &amp; BR() &amp;
+HYPERLINK("/lightning/r/00O3Y00000AZZ2bUAH/view?fv0="+Id , "Child Charges") &amp; BR() &amp; BR() &amp;
+HYPERLINK("/lightning/r/00O3Y00000AZZ2aUAH/view?fv0="+Id , "Child Articles"),
+'Package',
+HYPERLINK("/lightning/cmp/c__LC003_DashBoardContainer?c__getProductId="+Id+"&amp;c__getRecordTypeDevName=" + RecordType.DeveloperName+"&amp;c__getIds="+'00O3Y00000AZZ2cUAH;00O3Y00000AZZ2bUAH'+"&amp;c__displayCustom="+'Yes' , "Product relationship overview", "_blank")&amp; BR() &amp; BR() &amp;
+HYPERLINK("/lightning/r/00O3Y00000AZZ2cUAH/view?fv0="+Id , "Child Products") &amp; BR() &amp; BR() &amp;
+HYPERLINK("/lightning/r/00O3Y00000AZZ2bUAH/view?fv0="+Id , "Child Charges") &amp; BR() &amp; BR() &amp;
+HYPERLINK("/lightning/cmp/c__LC003_DashBoardContainer?c__getProductId="+Id+"&amp;c__getRecordTypeDevName=" + RecordType.DeveloperName+"&amp;c__displayCustom="+'Yes' , "Child Articles", "_blank"),
+'No Relationship')</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Product Relationships</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

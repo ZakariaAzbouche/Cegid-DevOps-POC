@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Event Faible Pas de Compelling Event / On ne sait pas| Moyen: Le compelling event existe, mais avec un impact et/ou un retard peu ou pas significatif pour le client| Fort Le compelling event existe et l'impact et/ou le retard est important pour le client</help>
+        <label><!-- Identify Pain --></label>
+        <name>Identify_Pain__c</name>
+    </CustomFieldTranslation>

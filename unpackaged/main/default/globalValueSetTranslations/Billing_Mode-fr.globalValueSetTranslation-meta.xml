@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Consumption</masterLabel>
+        <translation>Consommation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Flat Rate</masterLabel>
+        <translation>Forfait</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Flat Rate and Excess Consumption</masterLabel>
+        <translation>Conso et dépassement de forfait</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>One Shot</masterLabel>
+        <translation>Ponctuel</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

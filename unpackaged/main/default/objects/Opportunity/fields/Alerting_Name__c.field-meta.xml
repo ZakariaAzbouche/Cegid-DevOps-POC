@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alerting_Name__c</fullName>
+    <description>ce champ correspond au nom du type de l'alerte remontée sur une opportunité 
+exemple :  'Close Date Exceeded'</description>
+    <externalId>false</externalId>
+    <formula>IF(CloseDate  &lt; TODAY(), 'Close Date Exceeded',  IF(AND(CloseDate  - TODAY() &lt;= 30, ISPICKVAL(StageName , 'F - Identify the needs') ), 'Closed Date non-coherent', IF(AND(ISBLANK(SBQQ__PrimaryQuote__c) , ISPICKVAL(StageName , 'B - Negotiate') ), 'Missing Quote','Opportunities Without errors' )) )</formula>
+    <label>Alerting Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

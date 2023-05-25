@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tech_CustomerRequestUrl__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(LEFT($Api.Enterprise_Server_URL_510, FIND( '/services', $Api.Enterprise_Server_URL_510)) + "lightning/r/CustomerRequest__c/" + CASESAFEID(Id) + "/view", "Cliquez ICI")</formula>
+    <label>tech_CustomerRequestUrl</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

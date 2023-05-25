@@ -1,0 +1,14 @@
+Bonjour,
+
+Suite à la validation par l'équipe juridique du devis :
+
+- Numéro : {!Case.Quote__c}
+- Ordering Account {!Case.Tech_OrderingAccountNumber__c}, {!Case.Tech_OrderingAccountName__c}
+- Billing Account {!Case.Tech_BillingAccountNumber__c}, {!Case.Tech_BillingAccountName__c}
+
+Une nouvelle valeur d'Increase Type est à créer dans les systèmes.
+La nouvelle valeur a pour nom : {!Case.New_Increase_Type__c}
+
+Une fois cette valeur créée dans Salesforce, merci de modifier manuellement la valeur dans le champ du devis.
+
+Bonne journée,

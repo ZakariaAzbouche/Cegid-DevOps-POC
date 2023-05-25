@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Whether setting is active</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Whether setting is active</inlineHelpText>
+    <label>Active</label>
+    <type>Checkbox</type>
+</CustomField>

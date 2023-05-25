@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Weak = no internal sponsor identified | Moderate = You have identified the champion and you&apos;re convincing him/her of the value of the solution | Strong = You&apos;re in frequent contact with the champion. He/she advocates the solution internally on your behalf --></help>
+        <label><!-- Champion --></label>
+        <name>Champion__c</name>
+    </CustomFieldTranslation>

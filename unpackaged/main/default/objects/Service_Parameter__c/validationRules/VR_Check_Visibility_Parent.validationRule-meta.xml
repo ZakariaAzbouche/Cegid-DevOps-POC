@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Check_Visibility_Parent</fullName>
+    <active>true</active>
+    <description>Un service Chapeau ne peut pas avoir aucune visibilité</description>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c ),
+ISBLANK(Visibility__c),
+NOT(ISBLANK( Parent__c))
+)</errorConditionFormula>
+    <errorMessage>Un service Chapeau ne peut pas avoir aucune visibilité</errorMessage>
+</ValidationRule>

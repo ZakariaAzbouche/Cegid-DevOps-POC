@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- List of VR to By Pass --></label>
+        <name>List_of_VR_to_By_Pass__c</name>
+        <picklistValues>
+            <masterLabel>CustomProductLayoutFieldsNotEditable</masterLabel>
+            <translation><!-- CustomProductLayoutFieldsNotEditable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR003_Email_format_Validation</masterLabel>
+            <translation><!-- VR003_Email_format_Validation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR007_NationalId_Exception</masterLabel>
+            <translation><!-- VR007_NationalId_Exception --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR00Q_Email_format_Validation</masterLabel>
+            <translation><!-- VR00Q_Email_format_Validation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR010_Nature_Prospect</masterLabel>
+            <translation><!-- VR010_Nature_Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR011_NationalExcMandIfNoNationalId</masterLabel>
+            <translation><!-- VR011_NationalExcMandIfNoNationalId --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR012_AnnualRevAndEmployeesNum_Mandatory</masterLabel>
+            <translation><!-- VR012_AnnualRevAndEmployeesNum_Mandatory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR013_NationalIdForFrance</masterLabel>
+            <translation><!-- VR013_NationalIdForFrance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_024_User_cant_edit_Custom_Name</masterLabel>
+            <translation><!-- VR_024_User_cant_edit_Custom_Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_025_User_cant_add_Special_Comment</masterLabel>
+            <translation><!-- VR_025_User_cant_add_Special_Comment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Contact004_Email_format_Validation</masterLabel>
+            <translation><!-- VR_Contact004_Email_format_Validation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Contact05_Name</masterLabel>
+            <translation><!-- VR_Contact05_Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Contact06_PhoneMandatory</masterLabel>
+            <translation><!-- VR_Contact06_PhoneMandatory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Contact07_NoNameEmptying</masterLabel>
+            <translation><!-- VR_Contact07_NoNameEmptying --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Contact_Invalid_Email_Rules</masterLabel>
+            <translation><!-- VR_Contact_Invalid_Email_Rules --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Lead007_NoAssignmentToSales</masterLabel>
+            <translation><!-- VR_Lead007_NoAssignmentToSales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Lead010_NoAssignmentUsersWithPS</masterLabel>
+            <translation><!-- VR_Lead010_NoAssignmentUsersWithPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Lead011_PRM_Owner_Change</masterLabel>
+            <translation><!-- VR_Lead011_PRM_Owner_Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Lead012_NonPRMSalesCantChangeOwner</masterLabel>
+            <translation><!-- VR_Lead012_NonPRMSalesCantChangeOwner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Oppty01_LeadSource</masterLabel>
+            <translation><!-- VR_Oppty01_LeadSource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Oppty09_NoGStageForSales</masterLabel>
+            <translation><!-- VR_Oppty09_NoGStageForSales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Oppty11_NoChangeOnClosed</masterLabel>
+            <translation><!-- VR_Oppty11_NoChangeOnClosed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Oppty17_DecisionMakerMandatOnStageD</masterLabel>
+            <translation><!-- VR_Oppty17_DecisionMakerMandatOnStageD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Oppty18_ForbiddenChangesOnClosed</masterLabel>
+            <translation><!-- VR_Oppty18_ForbiddenChangesOnClosed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Oppty19_NoInactivePACOnChange</masterLabel>
+            <translation><!-- VR_Oppty19_NoInactivePACOnChange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Oppty20_LeadSourceValuesForSales</masterLabel>
+            <translation><!-- VR_Oppty20_LeadSourceValuesForSales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Oppty21_NoChangeLeadSourceForSales</masterLabel>
+            <translation><!-- VR_Oppty21_NoChangeLeadSourceForSales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Oppty22_NoNewOppyForMarketing</masterLabel>
+            <translation><!-- VR_Oppty22_NoNewOppyForMarketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Oppty23_CheckMQL_Open</masterLabel>
+            <translation><!-- VR_Oppty23_CheckMQL_Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Oppty28_Contact_Compliance</masterLabel>
+            <translation><!-- VR_Oppty28_Contact_Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR_Quote_016_Contact_Compliance</masterLabel>
+            <translation><!-- VR_Quote_016_Contact_Compliance --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

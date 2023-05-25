@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR022_VatOrNationaIdRequiredForMonaco</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT ( $User.BypassVR__c ),
+				 ISPICKVAL(National_ID_Exception__c, ""),
+				 ISPICKVAL(BillingCountryCode, 'MC'),
+				 ISBLANK(National_ID__c),   
+				 ISBLANK(IntercommunityVATnumber__c)
+				
+)</errorConditionFormula>
+    <errorMessage>For this country, National ID or VAT number are required</errorMessage>
+</ValidationRule>

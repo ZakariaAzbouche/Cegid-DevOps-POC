@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Synchro_Date_Zuora</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT ISBLANK(Synchronization_Date_Zuora__c),OR(ISCHANGED(Metric__c),ISCHANGED(SBQQ__ChargeType__c )))</errorConditionFormula>
+    <errorMessage>Non-modifiable data following Synchro with Zuora.</errorMessage>
+</ValidationRule>

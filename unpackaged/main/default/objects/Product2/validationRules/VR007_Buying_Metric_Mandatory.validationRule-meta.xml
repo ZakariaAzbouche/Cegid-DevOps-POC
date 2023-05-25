@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR007_Buying_Metric_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( RecordType.DeveloperName == 'Article', 
+     Quantity_Declarative__c,
+     OR( IsPickval(Buying_Metric__c ,''),
+         ISBLANK(Purchased_Quantity__c),
+         ISBLANK(Purchasing_Price__c),
+         ISPICKVAL(Declarative_Royalties__c, '')))</errorConditionFormula>
+    <errorMessage>You are saving an Article with Quantity Declarative as Royalties Type. Buying Metric, Purchasing Price, Purchased Quantity and Declarative Royalties are mandatory.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubSalesPurpose__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Sales Purpose</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sales_Purpose__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>SubSalesPurpose</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>411</controllingFieldValue>
+            <valueName>Upsell Only - More of the same</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>411</controllingFieldValue>
+            <valueName>Upsell Only - New Product</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

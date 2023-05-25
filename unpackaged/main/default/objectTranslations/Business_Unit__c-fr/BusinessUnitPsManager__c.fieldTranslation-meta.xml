@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Directeur PS de BU</label>
+        <name>BusinessUnitPsManager__c</name>
+        <relationshipLabel>BU (Directeur PS)</relationshipLabel>
+    </CustomFieldTranslation>

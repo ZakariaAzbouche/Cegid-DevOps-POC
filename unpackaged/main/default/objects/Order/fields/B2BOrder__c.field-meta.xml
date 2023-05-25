@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2BOrder__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is used to differentiate between an Order created from the Store VS one created from CPQ.
+US W-001599 - BtoB_US28_mail de confirmation de commande</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set to TRUE if the Order is created from the Store.</inlineHelpText>
+    <label>B2B Order</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

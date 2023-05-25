@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_contract_with_competitor__c</fullName>
+    <description>Last contract with competitor</description>
+    <externalId>false</externalId>
+    <label>Last contract with competitor</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

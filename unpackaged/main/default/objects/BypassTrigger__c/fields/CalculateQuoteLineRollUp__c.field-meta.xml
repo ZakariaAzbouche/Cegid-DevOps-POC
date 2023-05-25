@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalculateQuoteLineRollUp__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Disable custom rollup calculation by trigger (US W-001320)</description>
+    <externalId>false</externalId>
+    <label>Calculate Quote Line RollUp</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

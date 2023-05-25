@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Lead Qualification Email</name>
+    <style>none</style>
+    <subject>Votre intérêt pour Cegid / Your interest in Cegid</subject>
+    <textOnly>Email Lead Cegid
+
+
+
+
+
+FR 
+Votre intérêt pour Cegid
+
+Bonjour {!Lead.Salutation} {!Lead.Name},
+
+Il me semble que vous ayez manifesté un intérêt pour les services proposés par Cegid.
+
+N’ayant pas plus de détail, je souhaiterais m’entretenir avec vous. Pouvez-vous m’indiquer vos disponibilités afin que l’on puisse convenir d’un rendez-vous ?
+
+Merci d’avance pour votre retour.
+
+Cordialement,
+
+{!User.Name}
+
+EN
+Your interest in Cegid
+
+Dear {!Lead.Salutation} {!Lead.Name},
+
+First of all we would like to thank you for the interest shown in Cegid’s products.
+
+In order to get a better understanding of your needs, we recommend to schedule a phone call with one of our consultants.
+
+At your convenience, could you please let us know when you might be available?
+
+Thank you in advance.
+
+Best Regards,
+
+{!User.Name}
+
+www.cegid.com
+
+Suivez ce lien pour vous désinscrire : https://go.cegid.com/UnsubscribePage</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specific_Rules__c</fullName>
+    <description>Quel type de règle particulière le service possède</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Précise quel type de règle particulière le service possède</inlineHelpText>
+    <label>Specific Rules</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TOUT_TIERS</fullName>
+                <default>false</default>
+                <label>Tout Tiers</label>
+            </value>
+            <value>
+                <fullName>TIERS_PARTENAIRE</fullName>
+                <default>false</default>
+                <label>Tiers partenaire</label>
+            </value>
+            <value>
+                <fullName>AVEC_GAMMESOLUTION</fullName>
+                <default>false</default>
+                <label>Au moins un article parc en service avec Offer</label>
+            </value>
+            <value>
+                <fullName>UN_FONCTIONNEL</fullName>
+                <default>false</default>
+                <label>Au moins un article parc en service avec Core Business</label>
+            </value>
+            <value>
+                <fullName>TIERS_HEBERGE</fullName>
+                <default>false</default>
+                <label>Hébergé</label>
+            </value>
+            <value>
+                <fullName>UN_TIERS</fullName>
+                <default>false</default>
+                <label>Spécifique Tiers</label>
+            </value>
+            <value>
+                <fullName>UN_CODESERVICE</fullName>
+                <default>false</default>
+                <label>Activity</label>
+            </value>
+            <value>
+                <fullName>UNE_AGENCE</fullName>
+                <default>false</default>
+                <label>Agency</label>
+            </value>
+            <value>
+                <fullName>UNE_AGENCE_GAMMESOLUTION</fullName>
+                <default>false</default>
+                <label>Agency - Offer</label>
+            </value>
+            <value>
+                <fullName>NIVEAUX_SERVICE</fullName>
+                <default>false</default>
+                <label>Core Business - Offer - Niveau de service</label>
+            </value>
+            <value>
+                <fullName>UNE_EXPERTISE</fullName>
+                <default>false</default>
+                <label>Tiers Expertise</label>
+            </value>
+            <value>
+                <fullName>SPECIF_CEGIDLIFE</fullName>
+                <default>false</default>
+                <label>Spécifique CegidLife</label>
+            </value>
+            <value>
+                <fullName>AUCUNE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aucune</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

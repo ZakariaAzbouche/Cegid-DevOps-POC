@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+        <picklistValues>
+            <masterLabel>FA</masterLabel>
+            <translation><!-- FA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FDM</masterLabel>
+            <translation><!-- FDM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FDM10</masterLabel>
+            <translation><!-- FDM10 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

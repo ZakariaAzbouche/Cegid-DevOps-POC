@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Match_Product_Levels_of_Services</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(AND(ISPICKVAL(Service_Level_todel__c,'1. Connect'),NOT(INCLUDES(Product__r.Service_Levels__c, 'C30'))),
+AND(ISPICKVAL(Service_Level_todel__c,'2. Open'),NOT(INCLUDES(Product__r.Service_Levels__c, 'G30'))),
+AND(ISPICKVAL(Service_Level_todel__c,'3. Private'),NOT(INCLUDES(Product__r.Service_Levels__c, 'I30'))))</errorConditionFormula>
+    <errorMessage>You can't save Price for a Service Level which does not exist on the Product Details. Please, select a appropriate Service Level.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table bgcolor="white" cellpadding="0" cellspacing="0" width="640">
+	
+		<tr>
+			<td><br />
+<span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;"><span style="color:#002c52;">Bonjour {{{Recipient.Salutation}}}&nbsp;{{{Recipient.LastName}}},<br />
+&nbsp; &nbsp;<br />
+<br />
+Nous avons bien réceptionné votre demande.<br />
+Afin que nous puissions y donner suite dans les meilleurs délais, nous vous invitons à sélectionner le canal correspondant au <b>produit Cegid concerné</b> puis à <b>votre besoin</b>&nbsp;(questions administratives, incident applicatif, …) depuis le site Cegid.<br />
+<br />
+Pour cela, il vous suffit de cliquer sur la page </span><a href="https://www.cegid.com/fr/assistance-clients/"><span style="color:#002c52;">https://www.cegid.com/fr/assistance-clients/</span></a><span style="color:#002c52;">&nbsp;&nbsp;<br />
+<br />
+<br />
+Très cordialement,<br />
+<br />
+Les équipes Cegid</span></span>
+<table bgcolor="white" cellpadding="0" cellspacing="0" width="640">
+</table>
+
+</td></tr></table></body></html>

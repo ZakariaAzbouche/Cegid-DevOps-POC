@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_zip_code_territory_8__c</fullName>
+    <description>Zip code territory assignment rule</description>
+    <externalId>false</externalId>
+    <formula>OR(
+BEGINS(BillingPostalCode, '14' ),
+BEGINS(BillingPostalCode, '18' ),
+BEGINS(BillingPostalCode, '22' ),
+BEGINS(BillingPostalCode, '28' ),
+BEGINS(BillingPostalCode, '29' ),
+BEGINS(BillingPostalCode, '35' ),
+BEGINS(BillingPostalCode, '36' ),
+BEGINS(BillingPostalCode, '37' ),
+BEGINS(BillingPostalCode, '41' ),
+BEGINS(BillingPostalCode, '44' ),
+BEGINS(BillingPostalCode, '45' ),
+BEGINS(BillingPostalCode, '49' ),
+BEGINS(BillingPostalCode, '50' ),
+BEGINS(BillingPostalCode, '53' ),
+BEGINS(BillingPostalCode, '56' ),
+BEGINS(BillingPostalCode, '61' ),
+BEGINS(BillingPostalCode, '72' ),
+BEGINS(BillingPostalCode, '79' ),
+BEGINS(BillingPostalCode, '85' ),
+BEGINS(BillingPostalCode, '86' ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tech zip code territory 8</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

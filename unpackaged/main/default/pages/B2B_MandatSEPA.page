@@ -1,0 +1,394 @@
+<apex:page standardController="Order" renderAs="PDF" showHeader="false" applyHtmlTag="false" applyBodyTag="false" standardStylesheets="false" lightningStyleSheets="true" sidebar="false" extensions="B2B_MandatSEPA">
+    <html>
+        <head>
+            <style>
+                @page {
+                    size: letter;
+                    margin: 20mm;
+                    /* @top-center {
+                        content: "Sample";
+                    }
+                    @bottom-center {
+                        content: "Page " counter(page) " of " counter(pages);
+                    } */
+                }
+                /* .page-break {
+                    display:block;
+                    page-break-after:always;
+                } */
+                .title{
+                    color: #424084;
+                    font-style: italic;
+                    margin-left: 35mm;
+                    margin-right: 35mm;
+                    text-align: center;
+                }
+                .textAlignCenter{
+                    text-align: center;
+                }
+                .bold{
+                    font-weight: bold;
+                    font-family: sans-serif;
+                }
+                .italic{
+                    font-style: italic;
+                    font-family: sans-serif;
+                }
+                .purpleBorder{
+                    border: 1px solid #424084;
+                }
+                .purpleFont{
+                    color: #424084;
+                }
+                .tab {
+                    tab-size: 2;
+                }
+                .fontSize7{
+                    font-size: 7pt;
+                }
+                .fontSize12{
+                    font-size: 12pt;
+                }
+                body {
+                    font-family: Arial Unicode MS;
+                    font-size: 9pt;
+
+                }
+            </style>
+        </head>
+        <body>
+            <!-- <div class="content">
+                <p>
+                    Mandat à retourner <span class="bold">avec un RIB du compte à débiter</span> par courrier postal à:
+                </p>
+                <p align="right">
+                    CEGID<br/>Service Administration des Ventes<br/>52 Quai Paul Sédaillian<br/>69279 LYON Cedex 09
+                </p>
+                <p class="title purpleBorder bold italic" style="padding: 10px;">
+                    Mandat de prélèvement SEPA
+                </p>
+                <p>
+                    En signant ce mandat, vous autorisez CEGID à envoyer des instructions à votre banque pour débiter votre compte conformément aux instructions de CEGID.<br/>
+                    Vous bénéficiez du droit d'être remboursé par votre banque selon les conditions décrites dans la convention que vous avez passée avec elle. Une demande de remboursement doit être présentée:<br/>
+                    - dans les 9 semaines suivant la date de débit de votre compte, pour un prélèvement autorisé<br/>
+                    - sans tarder et au plus tard dans les 13 mois en case de prélèvement que vous estimez non autorisé ou mal exécuté.<br/>
+                    <span class="bold">Les mentions marquées d'un astérisque (*) sont obligatoires.</span>
+                </p>
+        
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 40%;" class="purpleBorder textAlignCenter italic purpleFont">Référence unique de mandat<br/>(RUM)</td>
+                        <td style="width: 60%;" class="purpleBorder textAlignCenter">00RC0000019046106100002B00</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 40%;" class="purpleBorder textAlignCenter italic purpleFont">Concernant votre contract No Description</td>
+                        <td style="width: 60%;" class="purpleBorder textAlignCenter">200050909<br/>Commande Cegidstore du 20/11/20</td>	
+                    </tr>
+                </table>
+        
+                <div style="margin-top: 10px;">
+                    <table border="1" style="width: 45%; display:inline-table;">
+                        <tr>
+                            <td class="textAlignCenter bold" style="background-color: #BBBBBB">
+                                Coordonnées du débiteur
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Code Client : 90461061
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                SAINT LAURENT PVC ALU<br/>
+                                20 CHEMIN DE SOUS LES CLOS<br/>
+                                30250 AUBAIS<br/>
+                                France<br/>
+                                T: +33 46680965
+                            </td>
+                        </tr>
+                    </table>
+        
+                    <table border="1" style="width: 45%; display:inline-table; margin-left: 9%;">
+                        <tr>
+                            <td class="textAlignCenter bold" style="background-color: #BBBBBB">
+                                Coordonnées du créancier
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ICS : FR14ZZZ497659
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                CEGID<br/>
+                                Service Administration des Ventes<br/>
+                                52 quai Paul Sédaillian<br/>
+                                69009 Lyon<br/>
+                                FRANCE
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+        
+                <h3 style="text-align: center;" class="bold">COMPTE A DEBITER</h3>
+        
+                <table border="1" style="width: 100%;">
+                    <tr>
+                        <td class="textAlignCenter">
+                            <span class="bold">BIC</span> (Band Identifier Code) (*)
+                        </td>
+                        <td class="textAlignCenter">
+                            Numéero d'identification international du compte bancaire - <span class="bold">IBAN</span><br/>(International Bank Account Number) (*)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="1" style="width: 100%;">
+                                <tr>
+                                    <td class="textAlignCenter">A</td>
+                                    <td>B</td>
+                                    <td>C</td>
+                                    <td>D</td>
+                                    <td>E</td>
+                                    <td>F</td>
+                                    <td>G</td>
+                                    <td>H</td>
+                                    <td>I</td>
+                                    <td>J</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table border="1" style="width: 100%;">
+                                <tr>
+                                    <td>A</td>
+                                    <td>B</td>
+                                    <td>C</td>
+                                    <td>D</td>
+                                    <td>E</td>
+                                    <td>F</td>
+                                    <td>G</td>
+                                    <td>H</td>
+                                    <td>I</td>
+                                    <td>J</td>
+                                    <td>A</td>
+                                    <td>B</td>
+                                    <td>C</td>
+                                    <td>D</td>
+                                    <td>E</td>
+                                    <td>F</td>
+                                    <td>G</td>
+                                    <td>H</td>
+                                    <td>I</td>
+                                    <td>J</td>
+                                    <td>A</td>
+                                    <td>B</td>
+                                    <td>C</td>
+                                    <td>D</td>
+                                    <td>E</td>
+                                    <td>F</td>
+                                    <td>G</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+        
+                <table border="1" style="width: 60%; margin-top: 10px;">
+                    <tr>
+                        <td style="padding-left: 2px;">
+                            Paiement récurrent/répétitif <span class="fontSize12">☒</span>&emsp;&emsp;&emsp;&emsp;Paiement ponctuel <span class="fontSize12">☐</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 2px; padding-right: 2px;">
+                            <div style="padding-bottom: 50px;">
+                                <span class="bold">Signature du titulaire du compte à débiter (*)</span><br/>
+                                <span class="bold">A (*):</span> AUBAIS&emsp;&emsp;&emsp;&emsp;<span class="bold">Date (*):</span> 20/11/20
+                            </div>
+                            <div class="fontSize7 bold" style="">
+                                Vos droits concernant le présent mandat sont expliqués dans un document que vous pouvez obtenir auprès de votre banque.
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+        
+                <div class="fontSize7" style="margin-top: 10px; border: 1px solid black;">
+                    <div style="padding: 2px;">
+                        Les informations contenues dans le présent mandat, qui doit être complété, sont destinées à n'être utilisées par CEGID, en sa qualité de responsable du traitement, que pour la gestion de sa relation avec son client. Les informations collectées sont indispensables à cette gestion. Elles pourront donner lieu à l'exercise par le client de ses droits d'opposition pour des motifs légitimes, d'interrogation, d'accès et de rectification relativement à l'ensemble des données qui le concernent et qui s'exercent auprès de CEGID par courrier électronique à l'adresse cnilsepa@cegid.fr, accompagné d'une copie d'un titre d'identité.
+                    </div>
+                </div>
+            </div> -->
+            <div class="content">
+                <p>
+                    Mandat à retourner <span class="bold">avec un RIB du compte à débiter</span> par courrier postal à:
+                </p>
+                <p align="right">
+                    CEGID<br/>Service Administration des Ventes<br/>52 Quai Paul Sédaillian<br/>69279 LYON Cedex 09
+                </p>
+                <p class="title purpleBorder bold italic" style="padding: 10px;">
+                    Mandat de prélèvement SEPA
+                </p>
+                <p>
+                    En signant ce mandat, vous autorisez CEGID à envoyer des instructions à votre banque pour débiter votre compte conformément aux instructions de CEGID.<br/>
+                    Vous bénéficiez du droit d'être remboursé par votre banque selon les conditions décrites dans la convention que vous avez passée avec elle. Une demande de remboursement doit être présentée:<br/>
+                    - dans les 9 semaines suivant la date de débit de votre compte, pour un prélèvement autorisé<br/>
+                    - sans tarder et au plus tard dans les 13 mois en case de prélèvement que vous estimez non autorisé ou mal exécuté.<br/>
+                    <span class="bold">Les mentions marquées d'un astérisque (*) sont obligatoires.</span>
+                </p>
+        
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 40%;" class="purpleBorder textAlignCenter italic purpleFont">Référence unique de mandat<br/>(RUM)</td>
+                        <td style="width: 60%;" class="purpleBorder textAlignCenter">{!IF((ISBLANK(Order.UMR__c)), Order.New_UMR__c, Order.UMR__c)}</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 40%;" class="purpleBorder textAlignCenter italic purpleFont">Concernant votre contract No Description</td>
+                        <td style="width: 60%;" class="purpleBorder textAlignCenter">{!Order.OrderNumber}</td>	
+                    </tr>
+                </table>
+        
+                <div style="margin-top: 10px;">
+                    <table border="1" style="width: 45%; display:inline-table;">
+                        <tr>
+                            <td class="textAlignCenter bold" style="background-color: #BBBBBB">
+                                Coordonnées du débiteur
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Code Client : {!Order.ERP_number__c}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                {!Order.Payer_Name__c}<br/>
+                                {!Order.Payer_Street__c}<br/>
+                                {!Order.Payer_Postal_Code__c}<br/>
+                                {!Order.Payer_City__c}<br/>
+                                T: {!Order.Primary_Contact_Phone__c}
+                            </td>
+                        </tr>
+                    </table>
+        
+                    <table border="1" style="width: 45%; display:inline-table; margin-left: 9%;">
+                        <tr>
+                            <td class="textAlignCenter bold" style="background-color: #BBBBBB">
+                                Coordonnées du créancier
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ICS : FR14ZZZ497659
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                CEGID<br/>
+                                Service Administration des Ventes<br/>
+                                52 quai Paul Sédaillian<br/>
+                                69009 Lyon<br/>
+                                FRANCE
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+        
+                <h3 style="text-align: center;" class="bold">COMPTE A DEBITER</h3>
+        
+                <table border="1" style="width: 100%;">
+                    <tr>
+                        <td class="textAlignCenter">
+                            <span class="bold">BIC</span> (Band Identifier Code) (*)
+                        </td>
+                        <td class="textAlignCenter">
+                            Numéro d'identification international du compte bancaire - <span class="bold">IBAN</span><br/>(International Bank Account Number) (*)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="1" style="width: 100%;">
+                                <tr>
+                                    <!-- <td class="textAlignCenter">{!IF((ISBLANK(Order.BIC__c)), Order.New_BIC__c, Order.BIC__c)}</td> -->
+                                    <td class="textAlignCenter">{!IF((ISBLANK(strBIC)), strNewBIC, strBIC)}</td>
+                                    <!-- <td>B</td>
+                                    <td>C</td>
+                                    <td>D</td>
+                                    <td>E</td>
+                                    <td>F</td>
+                                    <td>G</td>
+                                    <td>H</td>
+                                    <td>I</td>
+                                    <td>J</td> -->
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table border="1" style="width: 100%;">
+                                <tr>
+                                    <!-- <td class="textAlignCenter">{!IF((ISBLANK(Order.IBAN__c)), Order.New_IBAN__c, Order.IBAN__c)}</td> -->
+                                    <td class="textAlignCenter">{!IF((ISBLANK(strIBAN)), strNewIBAN, strIBAN)}</td>
+                                    <!-- <td>B</td>
+                                    <td>C</td>
+                                    <td>D</td>
+                                    <td>E</td>
+                                    <td>F</td>
+                                    <td>G</td>
+                                    <td>H</td>
+                                    <td>I</td>
+                                    <td>J</td>
+                                    <td>A</td>
+                                    <td>B</td>
+                                    <td>C</td>
+                                    <td>D</td>
+                                    <td>E</td>
+                                    <td>F</td>
+                                    <td>G</td>
+                                    <td>H</td>
+                                    <td>I</td>
+                                    <td>J</td>
+                                    <td>A</td>
+                                    <td>B</td>
+                                    <td>C</td>
+                                    <td>D</td>
+                                    <td>E</td>
+                                    <td>F</td>
+                                    <td>G</td> -->
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+        
+                <table border="1" style="width: 60%; margin-top: 10px;">
+                    <tr>
+                        <td style="padding-left: 2px;">
+                            Paiement récurrent/répétitif <span class="fontSize12">☒</span>&emsp;&emsp;&emsp;&emsp;Paiement ponctuel <span class="fontSize12">☐</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 2px; padding-right: 2px;">
+                            <div style="padding-bottom: 50px;">
+                                <span class="bold">Signature du titulaire du compte à débiter (*)</span><br/>
+                                <span class="bold">A (*):</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span class="bold">Date (*):</span>
+                            </div>
+                            <div class="fontSize7 bold" style="">
+                                Vos droits concernant le présent mandat sont expliqués dans un document que vous pouvez obtenir auprès de votre banque.
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+        
+                <div class="fontSize7" style="margin-top: 10px; border: 1px solid black;">
+                    <div style="padding: 2px;">
+                        Les informations contenues dans le présent mandat, qui doit être complété, sont destinées à n'être utilisées par CEGID, en sa qualité de responsable du traitement, que pour la gestion de sa relation avec son client. Les informations collectées sont indispensables à cette gestion. Elles pourront donner lieu à l'exercise par le client de ses droits d'opposition pour des motifs légitimes, d'interrogation, d'accès et de rectification relativement à l'ensemble des données qui le concernent et qui s'exercent auprès de CEGID par courrier électronique à l'adresse cnilsepa@cegid.fr, accompagné d'une copie d'un titre d'identité.
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
+</apex:page>

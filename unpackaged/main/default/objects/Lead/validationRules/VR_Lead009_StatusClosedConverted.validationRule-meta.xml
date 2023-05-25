@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Lead009_StatusClosedConverted</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+NOT( $User.BypassVR__c),
+NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c,"VR_Lead009_StatusClosedConverted")),
+ISPICKVAL( Status , "Closed - Converted Lead") ,
+ IsConverted =false 
+)</errorConditionFormula>
+    <errorMessage>To convert the lead you must click the button convert</errorMessage>
+</ValidationRule>

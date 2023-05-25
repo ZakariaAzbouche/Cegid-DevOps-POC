@@ -1,0 +1,361 @@
+/*
+* — Cart Items —
+*/
+
+.lineparticipant{
+    color: black;
+    display: inline !important;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 9px;
+    padding-top:5px;
+}
+.checkbox{
+    padding: 42px;
+    padding-top: 19px;
+}
+hr{
+    background: #0046FE;
+    border:0.5px solid #B5BCC6;
+}
+/*.container{
+    height:100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px 14px rgb(0 0 0 / 10%);
+    border-radius: 30px;
+    padding-bottom: 100px;
+}*/
+label.validate{
+    align-items: center;
+    color: #FF5C35;
+    display: inline-block;
+    font-family: 'gelion';
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    line-height: 18px;
+    margin-left: auto;
+    margin-top: var(--lwc-spacingXSmall);
+    text-align: center;
+    text-decoration-line: underline;
+}
+label.terms{
+    color: #0D2C4F;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
+.terms a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+   
+
+}
+
+.DiscountCode{
+background: #FFFFFF;
+border: 1px solid #B5BCC6;
+border-radius: 33px;
+}
+
+.Discount{
+    align-items: center;
+    color: #0046FE;
+    display: flex;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 26px;
+}
+.EstimatedTaxValue.Total{
+    align-items: center;
+    color: #0046FE;
+    display: flex;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 26px;
+}
+.subtotalbox{
+    border: none !important;
+    padding: 0;
+    text-align: right;
+}
+.Subtotal{
+    color: #0D2C4F;
+    font-size:19px;
+    font-weight: bold;
+    line-height: 23px;
+}
+.SubtotalValue{
+    color: #0D2C4F;
+    font-size:19px;
+    font-weight: bold;
+    line-height: 23px;
+}
+.EstimatedTax{
+    color: #0D2C4F;
+    font-size:19px;
+    font-weight: bold;
+    line-height: 23px;
+}
+.EstimatedTaxValue{
+    color: #0D2C4F;
+    font-size:19px;
+    font-weight: bold;
+    line-height: 23px;
+}
+.Dicount{
+    color: #0D2C4F;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 17px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    /*color: #111111;*/
+    color: #0046FE;
+    font-size: 23px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+
+figure {
+    border:1px solid blue;
+    cursor: pointer;
+    height: 130px;
+    width: 130px;
+}
+
+figure a {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+img {
+    flex: 0 0 auto; /* IE11 sizing quirk that is resolved by flexbox */
+    max-height: 100%;
+    max-width: 100%;
+}
+
+figure + .details {
+    padding-left: var(--lwc-spacingSmall);
+}
+
+.quantity-price-remove {
+    display: flex;
+    flex-grow: 1;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.original-price {
+    color: #979797;
+    text-decoration: line-through;
+}
+
+.negotiated-price {
+    color: #FF5C35;
+    font-family: 'gelion';
+    font-weight: 900;
+}
+
+.error-container {
+    color: var(--lwc-colorTextError);
+    padding-top: 1rem;
+}
+
+.quantity-price-remove {
+    text-align: right;
+}
+
+/* Tablet sized screens or smaller (smaller than the SLDS mqLarge responsive threshold) */
+@media only screen and (max-width: 64em) {
+    .item-name {
+        font-size: 0.875rem;
+    }
+
+    figure {
+        height: 100px;
+        width: 100px;
+    }
+
+    .quantity-price-remove {
+        padding-top: var(--lwc-spacingMedium);
+    }
+
+    .original-price {
+        font-size: 0.625rem;
+    }
+
+    .negotiated-price {
+        font-size: 1rem;
+        font-weight: var(--lwc-fontWeightBold);
+    }
+
+    .price {
+        align-self: center;
+    }
+
+    .remove {
+        align-self: center;
+    }
+}
+
+/* Small form factor: devices smaller than tablet (i.e. the SLDS mqSmall responsive threshold)*/
+@media only screen and (max-width: 47.9375em) {
+    .quantity-selector {
+        /*
+            A tiny correction when the quantity control shows its "Qty" label so that we stay centered along the box.
+            Fortunately, this actually is a fixed height and we have plenty of padding above us.
+        */
+        margin-top: -0.5rem;
+    }
+
+    figure {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+/*
+* — Quantity Selector Input —
+*/
+.quantity-selector {
+    align-items: center;
+}
+
+.selector-input {
+    border: var(--lwc-borderWidthThin) solid #bbb;
+    height: 2.5rem;
+    max-width: 5.5rem;
+    outline: 0;
+    text-align: center;
+}
+
+.selector-input:focus {
+    border-color: var(--lwc-colorBorderBrand);
+    box-shadow: 0 0 3px #0070d2;
+}
+
+.selector-input:invalid:not(:focus) {
+    border: var(--lwc-borderWidthThick) solid #c23934;
+    box-shadow: none;
+}
+
+.error-msg {
+    margin-left: 2.2rem;
+    position: absolute;
+}
+
+.disabled {
+    color: var(--lwc-brandDisabled);
+}
+
+@media only screen and (max-width: 48em) {
+    /* SLDS token: mqMedium */
+    .quantity-selector {
+        flex-direction: column;
+    }
+    .error-msg {
+        margin-left: 0;
+        position: static;
+    }
+    .selector-label {
+        font-size: 0.5rem;
+    }
+}
+
+.product-fields {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-fields li {
+    color: #FF5C35;
+    font-family:
+    'gelion';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    margin-right: var(--lwc-spacingLarge);
+    position: relative;
+}
+
+.product-fields li:not(:last-of-type):after {
+    background: #ff5c35;
+    content: '';
+    display: block;
+    height: 70%;
+    position: absolute;
+    right: calc(-1 * var(--lwc-spacingLarge)/2);
+    top: 50%;
+    transform: translateY(calc(-50% + 2px));
+    width: 1px;
+}
+
+.participant {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.summary-label {
+    font-family: 'gelion';
+    font-size: 16px;
+}
+
+.summary-amount {
+    color: #ff5c35;
+    font-family: 'gelion';
+    font-size: 16px;
+}
+
+.summary-label--total,
+.summary-amount--total {
+    font-size: 28px;
+}
+
+.promo--col {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.terms--col {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.terms--col .slds-form-element {
+    position: unset;
+}
+
+.terms--col .slds-has-error .slds-form-element__help {
+    position: absolute;
+    width: 100%;
+}
+
+.next-btn--col {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* TODO
+ * add background image to checkout
+ * style checkbox error message positioning
+*/

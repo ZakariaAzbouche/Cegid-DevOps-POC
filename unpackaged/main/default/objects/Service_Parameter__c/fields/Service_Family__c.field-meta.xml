@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Family__c</fullName>
+    <description>Famille de service</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Famille de service</inlineHelpText>
+    <label>Service Family</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>001</fullName>
+                <default>false</default>
+                <label>Gestion Back Office</label>
+            </value>
+            <value>
+                <fullName>002</fullName>
+                <default>false</default>
+                <label>Administratif</label>
+            </value>
+            <value>
+                <fullName>003</fullName>
+                <default>false</default>
+                <label>Communautaire</label>
+            </value>
+            <value>
+                <fullName>004</fullName>
+                <default>false</default>
+                <label>Infos produits</label>
+            </value>
+            <value>
+                <fullName>005</fullName>
+                <default>false</default>
+                <label>Préférence</label>
+            </value>
+            <value>
+                <fullName>006</fullName>
+                <default>false</default>
+                <label>Services en ligne</label>
+            </value>
+            <value>
+                <fullName>007</fullName>
+                <default>false</default>
+                <label>Support</label>
+            </value>
+            <value>
+                <fullName>008</fullName>
+                <default>false</default>
+                <label>Vente</label>
+            </value>
+            <value>
+                <fullName>009</fullName>
+                <default>false</default>
+                <label>Flux d'informations</label>
+            </value>
+            <value>
+                <fullName>010</fullName>
+                <default>false</default>
+                <label>Gestion</label>
+            </value>
+            <value>
+                <fullName>011</fullName>
+                <default>false</default>
+                <label>Services de contribution (WCM)</label>
+            </value>
+            <value>
+                <fullName>012</fullName>
+                <default>false</default>
+                <label>Services internes Cegid</label>
+            </value>
+            <value>
+                <fullName>013</fullName>
+                <default>false</default>
+                <label>Notification</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

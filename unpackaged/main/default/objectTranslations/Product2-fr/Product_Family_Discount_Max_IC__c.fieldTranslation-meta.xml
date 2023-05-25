@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Ligne de produits Remise Max - Niveau 2</label>
+        <name>Product_Family_Discount_Max_IC__c</name>
+    </CustomFieldTranslation>

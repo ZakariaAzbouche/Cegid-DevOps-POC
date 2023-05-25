@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canUsersGrantLoginAccess>true</canUsersGrantLoginAccess>
+    <enableAdminLoginAsAnyUser>true</enableAdminLoginAsAnyUser>
+    <enableAuditFieldsInactiveOwner>true</enableAuditFieldsInactiveOwner>
+    <enableAuraSecureEvalPref>true</enableAuraSecureEvalPref>
+    <enableCoepHeader>false</enableCoepHeader>
+    <enableCoopHeader>false</enableCoopHeader>
+    <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
+    <networkAccess>
+        <ipRanges>
+            <description>DocuSign Production NA and Demo</description>
+            <end>209.112.104.254</end>
+            <start>209.112.104.1</start>
+        </ipRanges>
+        <ipRanges>
+            <end>197.227.25.184</end>
+            <start>197.227.25.184</start>
+        </ipRanges>
+        <ipRanges>
+            <description>DocuSign Production EU</description>
+            <end>192.103.123.254</end>
+            <start>192.103.120.1</start>
+        </ipRanges>
+        <ipRanges>
+            <description>DocuSign Production EU</description>
+            <end>185.81.103.254</end>
+            <start>185.81.100.1</start>
+        </ipRanges>
+        <ipRanges>
+            <description>DocuSign Production NA and Demo</description>
+            <end>162.248.187.254</end>
+            <start>162.248.184.1</start>
+        </ipRanges>
+        <ipRanges>
+            <description>DocuSign Production NA and Demo</description>
+            <end>64.207.219.254</end>
+            <start>64.207.216.1</start>
+        </ipRanges>
+        <ipRanges>
+            <description>Docusign production NA and demo</description>
+            <end>54.244.242.214</end>
+            <start>54.244.242.214</start>
+        </ipRanges>
+        <ipRanges>
+            <description>Docusign Production NA and Demo</description>
+            <end>54.244.242.190</end>
+            <start>54.244.242.190</start>
+        </ipRanges>
+        <ipRanges>
+            <description>DocuSign Production NA and demo</description>
+            <end>54.244.242.186</end>
+            <start>54.244.242.186</start>
+        </ipRanges>
+        <ipRanges>
+            <description>Docusign Production NA and demo</description>
+            <end>54.244.242.160</end>
+            <start>54.244.242.160</start>
+        </ipRanges>
+        <ipRanges>
+            <description>DocuSign EU</description>
+            <end>54.93.137.237</end>
+            <start>54.93.137.237</start>
+        </ipRanges>
+        <ipRanges>
+            <description>Docusign Production NA and demo</description>
+            <end>52.25.139.174</end>
+            <start>52.25.139.174</start>
+        </ipRanges>
+        <ipRanges>
+            <description>IP server data backup</description>
+            <end>20.40.134.53</end>
+            <start>20.40.134.53</start>
+        </ipRanges>
+        <ipRanges>
+            <description>DocuSign Production AU</description>
+            <end>13.72.249.142</end>
+            <start>13.72.249.142</start>
+        </ipRanges>
+        <ipRanges>
+            <description>DocuSign Production AU</description>
+            <end>13.72.248.93</end>
+            <start>13.72.248.93</start>
+        </ipRanges>
+        <ipRanges>
+            <description>DocuSign Production AU</description>
+            <end>13.70.141.103</end>
+            <start>13.70.141.103</start>
+        </ipRanges>
+        <ipRanges>
+            <description>DocuSign Production AU</description>
+            <end>13.70.136.159</end>
+            <start>13.70.136.159</start>
+        </ipRanges>
+    </networkAccess>
+    <passwordPolicies>
+        <complexity>AlphaNumeric</complexity>
+        <expiration>NinetyDays</expiration>
+        <historyRestriction>3</historyRestriction>
+        <lockoutInterval>ThirtyMinutes</lockoutInterval>
+        <maxLoginAttempts>ThreeAttempts</maxLoginAttempts>
+        <minimumPasswordLength>8</minimumPasswordLength>
+        <minimumPasswordLifetime>true</minimumPasswordLifetime>
+        <obscureSecretAnswer>true</obscureSecretAnswer>
+        <questionRestriction>DoesNotContainPassword</questionRestriction>
+    </passwordPolicies>
+    <redirectBlockModeEnabled>false</redirectBlockModeEnabled>
+    <sessionSettings>
+        <allowUserAuthenticationByCertificate>false</allowUserAuthenticationByCertificate>
+        <canConfirmEmailChangeInLightningCommunities>true</canConfirmEmailChangeInLightningCommunities>
+        <canConfirmIdentityBySmsOnly>true</canConfirmIdentityBySmsOnly>
+        <disableTimeoutWarning>false</disableTimeoutWarning>
+        <enableBuiltInAuthenticator>false</enableBuiltInAuthenticator>
+        <enableCSPOnEmail>true</enableCSPOnEmail>
+        <enableCSRFOnGet>true</enableCSRFOnGet>
+        <enableCSRFOnPost>true</enableCSRFOnPost>
+        <enableCacheAndAutocomplete>true</enableCacheAndAutocomplete>
+        <enableClickjackNonsetupSFDC>true</enableClickjackNonsetupSFDC>
+        <enableClickjackNonsetupUser>true</enableClickjackNonsetupUser>
+        <enableClickjackNonsetupUserHeaderless>true</enableClickjackNonsetupUserHeaderless>
+        <enableClickjackSetup>true</enableClickjackSetup>
+        <enableCoepHeader>false</enableCoepHeader>
+        <enableContentSniffingProtection>true</enableContentSniffingProtection>
+        <enableCoopHeader>false</enableCoopHeader>
+        <enableLightningLogin>true</enableLightningLogin>
+        <enableLightningLoginOnlyWithUserPerm>false</enableLightningLoginOnlyWithUserPerm>
+        <enableMFADirectUILoginOptIn>false</enableMFADirectUILoginOptIn>
+        <enableOauthCorsPolicy>false</enableOauthCorsPolicy>
+        <enablePostForSessions>false</enablePostForSessions>
+        <enableSMSIdentity>true</enableSMSIdentity>
+        <enableU2F>false</enableU2F>
+        <enableXssProtection>true</enableXssProtection>
+        <enforceIpRangesEveryRequest>true</enforceIpRangesEveryRequest>
+        <enforceUserDeviceRevoked>false</enforceUserDeviceRevoked>
+        <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
+        <forceRelogin>true</forceRelogin>
+        <hasRetainedLoginHints>false</hasRetainedLoginHints>
+        <hasUserSwitching>true</hasUserSwitching>
+        <identityConfirmationOnEmailChange>true</identityConfirmationOnEmailChange>
+        <identityConfirmationOnTwoFactorRegistrationEnabled>false</identityConfirmationOnTwoFactorRegistrationEnabled>
+        <lockSessionsToDomain>true</lockSessionsToDomain>
+        <lockSessionsToIp>false</lockSessionsToIp>
+        <lockerServiceCSP>false</lockerServiceCSP>
+        <lockerServiceNext>false</lockerServiceNext>
+        <lockerServiceNextControl>false</lockerServiceNextControl>
+        <redirectBlockModeEnabled>false</redirectBlockModeEnabled>
+        <redirectionWarning>true</redirectionWarning>
+        <referrerPolicy>true</referrerPolicy>
+        <requireHttpOnly>true</requireHttpOnly>
+        <sessionTimeout>TwoHours</sessionTimeout>
+        <sidToken3rdPartyAuraApp>false</sidToken3rdPartyAuraApp>
+        <useLocalStorageForLogoutUrl>false</useLocalStorageForLogoutUrl>
+    </sessionSettings>
+    <singleSignOnSettings>
+        <enableCaseInsensitiveFederationID>true</enableCaseInsensitiveFederationID>
+        <enableForceDelegatedCallout>false</enableForceDelegatedCallout>
+        <enableMultipleSamlConfigs>true</enableMultipleSamlConfigs>
+        <enableSamlJitProvisioning>false</enableSamlJitProvisioning>
+        <enableSamlLogin>true</enableSamlLogin>
+        <isLoginWithSalesforceCredentialsDisabled>true</isLoginWithSalesforceCredentialsDisabled>
+    </singleSignOnSettings>
+</SecuritySettings>

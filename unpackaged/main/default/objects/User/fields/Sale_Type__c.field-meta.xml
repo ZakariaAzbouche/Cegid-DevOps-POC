@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sale_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Sale Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inside Sales</fullName>
+                <default>false</default>
+                <label>Inside Sales</label>
+            </value>
+            <value>
+                <fullName>Field</fullName>
+                <default>false</default>
+                <label>Field</label>
+            </value>
+            <value>
+                <fullName>SDR</fullName>
+                <default>false</default>
+                <label>SDR</label>
+            </value>
+            <value>
+                <fullName>CSM</fullName>
+                <default>false</default>
+                <label>CSM</label>
+            </value>
+            <value>
+                <fullName>EuroCRM</fullName>
+                <default>false</default>
+                <label>EuroCRM</label>
+            </value>
+            <value>
+                <fullName>Presales</fullName>
+                <default>false</default>
+                <label>Presales</label>
+            </value>
+            <value>
+                <fullName>Alliances</fullName>
+                <default>false</default>
+                <label>Alliances</label>
+            </value>
+            <value>
+                <fullName>Transversal</fullName>
+                <default>false</default>
+                <label>Transversal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

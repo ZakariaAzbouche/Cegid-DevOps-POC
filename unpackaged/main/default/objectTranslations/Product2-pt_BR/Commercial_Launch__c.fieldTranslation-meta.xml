@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please note, the only event captured by the automation to modify the marketing status of the product in the future is the change from an empty value to a non-empty value. --></help>
+        <label><!-- Commercial Launch --></label>
+        <name>Commercial_Launch__c</name>
+    </CustomFieldTranslation>

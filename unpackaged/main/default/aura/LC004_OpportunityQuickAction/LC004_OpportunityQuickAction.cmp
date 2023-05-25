@@ -1,0 +1,44 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId" access="global" controller="WS002_FindContrat">
+
+<!-- call doInit method on component load -->
+<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+<!-- aura attributes to store data/values --> 
+<aura:attribute name="ReponseFromWebService" type="list"/> 
+<aura:attribute name="options" type="List" access="PRIVATE"/>
+<aura:attribute name="selectedValue" type="String" access="PRIVATE"/>
+<aura:attribute name="listToWeb" type="List"/>
+<aura:attribute name="subscriptionId" type="String"/>
+<aura:attribute name="customerId" type="String"/>
+<aura:attribute name="zuraEntity" type="String"/>
+<aura:attribute name="disableButton" type="Boolean" default="false" />
+
+<!--Handle Tabs Info-->
+<aura:handler event="c:LC005_AddToList" action="{!c.buildList}"/>
+
+<lightning:spinner aura:id="mySpinner" class="" variant="brand" size="medium" alternativeText="Recherche en cours..."/>
+
+<div aura:id="thecontainer" class="thecontainer" id="thecontainer">
+    <div role="dialog" tabindex="-1" aria-labelledby="headermodal" class="slds-modal slds-fade-in-open slds-modal--large" style="right:none;">
+      <div class="slds-modal__container">
+        <div class="slds-modal__header">
+          <h2 id="headermodal" class="slds-text-heading--medium">Récupération des contrats </h2>
+        </div>
+        <div class="slds-modal__content slds-p-top--x-large slds-p-around--medium" aura:id="modalbody" id="modalbody">
+
+            <aura:iteration items="{!v.ReponseFromWebService}" var="obj">
+                <c:LC005_OpportunityQuickActionRows lineDetails="{!obj}"  subscriptionId = "{!v.subscriptionId}"/>
+            </aura:iteration>
+
+        </div><!-- modal -->
+        <div class="slds-modal__footer">
+            <ui:button class="slds-button slds-button_neutral" label="Cancel" press="{!c.cancel}" /> 
+            <ui:button class="slds-button slds-button-brand" label="Save" press="{!c.save}"/>
+        </div>
+      </div>
+    </div>
+    <div class="slds-backdrop slds-backdrop--open"></div>
+</div> 
+
+
+</aura:component>

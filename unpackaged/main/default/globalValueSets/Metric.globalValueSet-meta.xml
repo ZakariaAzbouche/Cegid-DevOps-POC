@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>443</fullName>
+        <default>false</default>
+        <label>50 Documents PIA</label>
+    </customValue>
+    <customValue>
+        <fullName>400</fullName>
+        <default>false</default>
+        <label>Active Company</label>
+    </customValue>
+    <customValue>
+        <fullName>438</fullName>
+        <default>false</default>
+        <label>Asset</label>
+    </customValue>
+    <customValue>
+        <fullName>120</fullName>
+        <default>false</default>
+        <label>Bank Account Identity</label>
+    </customValue>
+    <customValue>
+        <fullName>453</fullName>
+        <default>false</default>
+        <label>Bank statement</label>
+    </customValue>
+    <customValue>
+        <fullName>320</fullName>
+        <default>false</default>
+        <label>Base</label>
+    </customValue>
+    <customValue>
+        <fullName>433</fullName>
+        <default>false</default>
+        <label>Big Folder</label>
+    </customValue>
+    <customValue>
+        <fullName>452</fullName>
+        <default>false</default>
+        <label>CA (turnover)</label>
+    </customValue>
+    <customValue>
+        <fullName>050</fullName>
+        <default>false</default>
+        <label>Concurrent Users</label>
+    </customValue>
+    <customValue>
+        <fullName>900</fullName>
+        <default>false</default>
+        <label>Consumption</label>
+    </customValue>
+    <customValue>
+        <fullName>459</fullName>
+        <default>false</default>
+        <label>Credits</label>
+    </customValue>
+    <customValue>
+        <fullName>300</fullName>
+        <default>false</default>
+        <label>Customer Environment</label>
+    </customValue>
+    <customValue>
+        <fullName>449</fullName>
+        <default>false</default>
+        <label>Device</label>
+    </customValue>
+    <customValue>
+        <fullName>435</fullName>
+        <default>false</default>
+        <label>Digital Safe</label>
+    </customValue>
+    <customValue>
+        <fullName>437</fullName>
+        <default>false</default>
+        <label>DL folder</label>
+    </customValue>
+    <customValue>
+        <fullName>451</fullName>
+        <default>false</default>
+        <label>Documents</label>
+    </customValue>
+    <customValue>
+        <fullName>448</fullName>
+        <default>false</default>
+        <label>Effective employee</label>
+    </customValue>
+    <customValue>
+        <fullName>105</fullName>
+        <default>false</default>
+        <label>Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>461</fullName>
+        <default>false</default>
+        <label>EO - Operational Events</label>
+    </customValue>
+    <customValue>
+        <fullName>420</fullName>
+        <default>false</default>
+        <label>Establishment</label>
+    </customValue>
+    <customValue>
+        <fullName>460</fullName>
+        <default>false</default>
+        <label>Expense reports</label>
+    </customValue>
+    <customValue>
+        <fullName>445</fullName>
+        <default>false</default>
+        <label>Flat Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>200</fullName>
+        <default>false</default>
+        <label>Folder</label>
+    </customValue>
+    <customValue>
+        <fullName>350</fullName>
+        <default>false</default>
+        <label>Gigabyte</label>
+    </customValue>
+    <customValue>
+        <fullName>441</fullName>
+        <default>false</default>
+        <label>Housing</label>
+    </customValue>
+    <customValue>
+        <fullName>410</fullName>
+        <default>false</default>
+        <label>Inactive Company</label>
+    </customValue>
+    <customValue>
+        <fullName>421</fullName>
+        <default>false</default>
+        <label>Inactive establishment</label>
+    </customValue>
+    <customValue>
+        <fullName>430</fullName>
+        <default>false</default>
+        <label>Invoice</label>
+    </customValue>
+    <customValue>
+        <fullName>456</fullName>
+        <default>false</default>
+        <label>Learners</label>
+    </customValue>
+    <customValue>
+        <fullName>458</fullName>
+        <default>false</default>
+        <label>Mans - Days</label>
+    </customValue>
+    <customValue>
+        <fullName>432</fullName>
+        <default>false</default>
+        <label>Medium Folder</label>
+    </customValue>
+    <customValue>
+        <fullName>444</fullName>
+        <default>false</default>
+        <label>Member</label>
+    </customValue>
+    <customValue>
+        <fullName>060</fullName>
+        <default>false</default>
+        <label>Named User</label>
+    </customValue>
+    <customValue>
+        <fullName>436</fullName>
+        <default>false</default>
+        <label>National ID</label>
+    </customValue>
+    <customValue>
+        <fullName>439</fullName>
+        <default>false</default>
+        <label>Non-SCI folder</label>
+    </customValue>
+    <customValue>
+        <fullName>462</fullName>
+        <default>false</default>
+        <label>Packs</label>
+    </customValue>
+    <customValue>
+        <fullName>110</fullName>
+        <default>false</default>
+        <label>Page</label>
+    </customValue>
+    <customValue>
+        <fullName>100</fullName>
+        <default>false</default>
+        <label>Payslip</label>
+    </customValue>
+    <customValue>
+        <fullName>442</fullName>
+        <default>false</default>
+        <label>PIA file</label>
+    </customValue>
+    <customValue>
+        <fullName>457</fullName>
+        <default>false</default>
+        <label>Recruiters</label>
+    </customValue>
+    <customValue>
+        <fullName>440</fullName>
+        <default>false</default>
+        <label>SCI folder</label>
+    </customValue>
+    <customValue>
+        <fullName>455</fullName>
+        <default>false</default>
+        <label>Signature</label>
+    </customValue>
+    <customValue>
+        <fullName>431</fullName>
+        <default>false</default>
+        <label>Small Folder</label>
+    </customValue>
+    <customValue>
+        <fullName>454</fullName>
+        <default>false</default>
+        <label>Unit of use</label>
+    </customValue>
+    <customValue>
+        <fullName>150</fullName>
+        <default>false</default>
+        <label>POS</label>
+    </customValue>
+    <customValue>
+        <fullName>151</fullName>
+        <default>false</default>
+        <label>Stores</label>
+    </customValue>
+    <customValue>
+        <fullName>463</fullName>
+        <default>false</default>
+        <label>Active Users</label>
+    </customValue>
+    <customValue>
+        <fullName>464</fullName>
+        <default>false</default>
+        <label>Vehicules</label>
+    </customValue>
+    <customValue>
+        <fullName>465</fullName>
+        <default>false</default>
+        <label>CV</label>
+    </customValue>
+    <customValue>
+        <fullName>466</fullName>
+        <default>false</default>
+        <label>Hiring Authorisations</label>
+    </customValue>
+    <customValue>
+        <fullName>467</fullName>
+        <default>false</default>
+        <label>Text Messages</label>
+    </customValue>
+    <customValue>
+        <fullName>Statement</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Statement</label>
+    </customValue>
+    <customValue>
+        <fullName>French Company</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>French Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Store</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Store</label>
+    </customValue>
+    <customValue>
+        <fullName>Foreign Company</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Foreign Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Address</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Property Address</label>
+    </customValue>
+    <customValue>
+        <fullName>University</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>University</label>
+    </customValue>
+    <customValue>
+        <fullName>File</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>File</label>
+    </customValue>
+    <customValue>
+        <fullName>Inactive File</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Inactive File</label>
+    </customValue>
+    <customValue>
+        <fullName>Administrator</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Administrator</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilisateur nommé</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Utilisateur nommé</label>
+    </customValue>
+    <customValue>
+        <fullName>SIRET</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SIRET</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilisateur BI Contribution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Utilisateur BI Contribution</label>
+    </customValue>
+    <customValue>
+        <fullName>SIREN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SIREN</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilisateur BI Consultatio</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Utilisateur BI Consultatio</label>
+    </customValue>
+    <masterLabel>Metric</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

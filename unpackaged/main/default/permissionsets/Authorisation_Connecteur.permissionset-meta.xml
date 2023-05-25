@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission "Le mot de passe n'expire jamais"</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Authorisation Connecteur</label>
+    <license>Salesforce</license>
+</PermissionSet>

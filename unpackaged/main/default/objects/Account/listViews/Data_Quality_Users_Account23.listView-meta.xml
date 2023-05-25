@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Quality_Users_Account23</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ERP_Number__c</columns>
+    <columns>Decision_center__c</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>ACCOUNT.EMPLOYEES</columns>
+    <columns>No_of_Employees_Group__c</columns>
+    <columns>No_of_Folders__c</columns>
+    <columns>CPA_Number_of_users__c</columns>
+    <columns>CPA_Sector__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>No_Business__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>To Be Deleted</value>
+    </filters>
+    <label>Data Quality Users Account</label>
+</ListView>

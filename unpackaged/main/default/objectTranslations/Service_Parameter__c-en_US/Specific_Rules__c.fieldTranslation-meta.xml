@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Précise quel type de règle particulière le service possède --></help>
+        <label><!-- Specific Rules --></label>
+        <name>Specific_Rules__c</name>
+        <picklistValues>
+            <masterLabel>Activity</masterLabel>
+            <translation><!-- Activity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency</masterLabel>
+            <translation><!-- Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency - Offer</masterLabel>
+            <translation><!-- Agency - Offer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Au moins un article parc en service avec Core Business</masterLabel>
+            <translation><!-- Au moins un article parc en service avec Core Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Au moins un article parc en service avec Offer</masterLabel>
+            <translation><!-- Au moins un article parc en service avec Offer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Business - Offer - Niveau de service</masterLabel>
+            <translation><!-- Core Business - Offer - Niveau de service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hébergé</masterLabel>
+            <translation><!-- Hébergé --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spécifique CegidLife</masterLabel>
+            <translation><!-- Spécifique CegidLife --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spécifique Tiers</masterLabel>
+            <translation><!-- Spécifique Tiers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiers Expertise</masterLabel>
+            <translation><!-- Tiers Expertise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiers partenaire</masterLabel>
+            <translation><!-- Tiers partenaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tout Tiers</masterLabel>
+            <translation><!-- Tout Tiers --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

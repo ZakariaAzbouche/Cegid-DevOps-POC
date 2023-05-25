@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>FR - Lead Injoignable avec projet exprimé</name>
+    <style>none</style>
+    <subject>Cegid - Prise de contact {!Lead.Company}</subject>
+    <textOnly>Email Lead Cegid
+
+
+
+
+
+Cegid - Prise de contact {!Lead.Company}
+
+Bonjour {!Lead.Salutation} {!Lead.Name},
+
+J’ai cherché à vous joindre à plusieurs reprises concernant le projet que vous avez exprimé auprès de nos services.
+Vous pouvez me joindre par téléphone ou par e-mail pour que l’on puisse préciser votre besoin,  vous trouverez mes coordonnées dans la signature.
+Vous avez aussi la possibilité de répondre au questionnaire ci-dessous, adresse e-mail que vous retrouvez dans ma  signature.
+
+Concernant votre société :
+-	La raison sociale
+-	Le numéro de Siret
+(Si votre société est en cours de création, merci d&apos;indiquer la ville où elle sera située)
+-	Le secteur d’activité
+-	L’effectif total
+-	Les coordonnées et la fonction de l’interlocuteur principal
+Important : Si Cegid vous a été recommandé par votre Expert-Comptable, merci d’indiquer le nom du cabinet, son code postal et sa ville.
+
+Concernant votre projet :
+-	Le type de logiciel recherché
+-	Le système d’exploitation utilisé (Windows ? Mac ?)
+-	Les fonctions souhaitées
+-	Le nombre d’utilisateurs
+-	Le nom de la solution existante, les raisons de ce changement ou de cette mise en place
+-	L’échéance envisagée
+-	Toutes spécificités liées à votre projet
+
+
+Dès réception de ces informations, votre demande sera transmise à un expert. Il reprendra contact avec vous prochainement. Pour cela, merci d’indiquer vos disponibilités.
+
+Merci d’avance pour votre retour.
+
+Bien cordialement,
+
+{!User.Name}
+{!User.Email}
+{!User.Phone}
+
+www.cegid.com
+
+Suivez ce lien pour vous désinscrire</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

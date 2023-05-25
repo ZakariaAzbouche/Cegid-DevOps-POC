@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualification_Sheet_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Product_Line__c</fields>
+    <label>Qualification Sheet Compact Layout</label>
+</CompactLayout>

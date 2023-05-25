@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty01_LeadSource</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT (INCLUDES ($User.List_of_VR_to_By_Pass__c,"VR_Oppty01_LeadSource")),
+	NOT($User.BypassVR__c),
+	NOT(ISNEW()),
+	ISCHANGED(  LeadSource ),
+	NOT(ISCHANGED( TECH_By_Pass_VR__c )),
+	NOT(TECH_By_Pass_VR__c),
+	Oppy_converted_from_Lead__c
+	)</errorConditionFormula>
+    <errorMessage>The source of the opportunity can not be changed.</errorMessage>
+</ValidationRule>

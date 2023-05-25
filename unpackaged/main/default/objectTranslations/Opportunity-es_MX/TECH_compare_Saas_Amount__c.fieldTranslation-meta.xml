@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- TECH compare Saas &amp;&amp; Amount --></label>
+        <name>TECH_compare_Saas_Amount__c</name>
+    </CustomFieldTranslation>

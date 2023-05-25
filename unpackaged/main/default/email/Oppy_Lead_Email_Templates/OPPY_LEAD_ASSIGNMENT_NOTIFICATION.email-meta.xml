@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification to the owner when a new Oppy Lead is assigned.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>OPPY LEAD ASSIGNMENT NOTIFICATION</name>
+    <style>none</style>
+    <subject>*** Oppy Lead assigment notification ***</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

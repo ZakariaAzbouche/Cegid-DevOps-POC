@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR024_NationalIdRequired</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT ( $User.BypassVR__c ),
+				ISPICKVAL(National_ID_Exception__c, ""),
+				NOT(OR(
+								ISPICKVAL(BillingCountryCode, ''),
+								ISPICKVAL(BillingCountryCode, 'MC'),
+								ISPICKVAL(BillingCountryCode, 'BE'),
+				    ISPICKVAL(BillingCountryCode, 'ES'),
+				    ISPICKVAL(BillingCountryCode, 'PT'),
+				    ISPICKVAL(BillingCountryCode, 'IT'),
+				    ISPICKVAL(BillingCountryCode, 'DE'),
+				    ISPICKVAL(BillingCountryCode, 'GB'),
+				    ISPICKVAL(BillingCountryCode, 'AT'),
+				    ISPICKVAL(BillingCountryCode, 'BG'),
+				    ISPICKVAL(BillingCountryCode, 'CY'),
+				    ISPICKVAL(BillingCountryCode, 'HR'),
+				    ISPICKVAL(BillingCountryCode, 'DK'),
+								ISPICKVAL(BillingCountryCode, 'EE'),
+								ISPICKVAL(BillingCountryCode, 'FI'),
+								ISPICKVAL(BillingCountryCode, 'GR'),
+								ISPICKVAL(BillingCountryCode, 'HU'),
+								ISPICKVAL(BillingCountryCode, 'IE'),
+								ISPICKVAL(BillingCountryCode, 'LV'),
+								ISPICKVAL(BillingCountryCode, 'LT'),
+								ISPICKVAL(BillingCountryCode, 'LU'),
+								ISPICKVAL(BillingCountryCode, 'MT'),
+								ISPICKVAL(BillingCountryCode, 'NL'),
+								ISPICKVAL(BillingCountryCode, 'PL'),
+								ISPICKVAL(BillingCountryCode, 'CZ'),
+								ISPICKVAL(BillingCountryCode, 'RO'),
+								ISPICKVAL(BillingCountryCode, 'SK'),
+								ISPICKVAL(BillingCountryCode, 'SI'),
+								ISPICKVAL(BillingCountryCode, 'SE')
+						)), 
+					ISBLANK(National_ID__c)
+)</errorConditionFormula>
+    <errorDisplayField>National_ID__c</errorDisplayField>
+    <errorMessage>For this country, National ID is required</errorMessage>
+</ValidationRule>

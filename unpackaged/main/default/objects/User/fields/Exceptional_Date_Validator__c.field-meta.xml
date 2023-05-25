@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exceptional_Date_Validator__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Validation_Group_Level__c , '4 - BU Director','No Validation Needed',
+'3 - Sales Director and Regional Director',IF(ISBLANK(Discount_Validator__c),$Label.Default_Exceptional_Date_Validator, Discount_Validator__c),
+
+
+'2 - Sales Manager and Branch Manager',IF(ISPICKVAL(Discount_Validator__r.Validation_Group_Level__c,'4 - BU Director'),Discount_Validator__c,IF(ISBLANK(Discount_Validator__r.Discount_Validator__c),$Label.Default_Exceptional_Date_Validator,  Discount_Validator__r.Discount_Validator__c )),
+
+
+
+
+'1 - IC',IF(ISPICKVAL(Discount_Validator__r.Validation_Group_Level__c,'4 - BU Director'),Discount_Validator__c,
+	IF(ISPICKVAL(Discount_Validator__r.Validation_Group_Level__c,'3 - Sales Director and Regional Director'),
+		IF(ISBLANK(Discount_Validator__r.Discount_Validator__c),$Label.Default_Exceptional_Date_Validator,  Discount_Validator__r.Discount_Validator__c ),
+		
+		IF(ISPICKVAL(Discount_Validator__r.Validation_Group_Level__c,'2 - Sales Manager and Branch Manager'),
+			IF(ISPICKVAL(Discount_Validator__r.Discount_Validator__r.Validation_Group_Level__c,'3 - Sales Director and Regional Director'),
+				IF(ISBLANK(Discount_Validator__r.Discount_Validator__r.Discount_Validator__c),$Label.Default_Exceptional_Date_Validator,Discount_Validator__r.Discount_Validator__r.Discount_Validator__c),
+				IF(ISBLANK(Discount_Validator__r.Discount_Validator__c),$Label.Default_Exceptional_Date_Validator, Discount_Validator__r.Discount_Validator__c)),
+				$Label.Default_Exceptional_Date_Validator))),$Label.Default_Exceptional_Date_Validator)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Exceptional Date Validator</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

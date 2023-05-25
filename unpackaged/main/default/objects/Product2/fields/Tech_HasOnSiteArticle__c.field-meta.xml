@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_HasOnSiteArticle__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>W-001172 - if true, replicate Tech_HasOnSiteArticle__c from SBQQ__ProductOption__c  onto product2</description>
+    <externalId>false</externalId>
+    <label>Tech_HasOnSiteArticle</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

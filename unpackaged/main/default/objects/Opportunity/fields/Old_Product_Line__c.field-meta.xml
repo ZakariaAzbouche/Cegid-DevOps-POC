@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Old_Product_Line__c</fullName>
+    <description>Previous product line (mandatory for Migrations)</description>
+    <externalId>false</externalId>
+    <label>Old Offer (Product Line)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Product_Line</valueSetName>
+    </valueSet>
+</CustomField>

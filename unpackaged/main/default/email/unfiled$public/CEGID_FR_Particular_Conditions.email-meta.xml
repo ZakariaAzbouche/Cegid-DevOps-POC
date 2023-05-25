@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CEGID FR - Particular Conditions</name>
+    <style>none</style>
+    <subject>Demande de conditions particulières</subject>
+    <textOnly>Bonjour,
+
+Des conditions particulières pour le client {!Case.AccountName__c} sont soumises à votre validation. Pour accéder à la demande {!Case.CaseNumber}, connectez-vous à CPQ ou accédez directement au case ici.
+
+Cordialement,</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

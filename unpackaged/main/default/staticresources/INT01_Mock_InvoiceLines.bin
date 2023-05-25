@@ -1,0 +1,53 @@
+{
+    "totalLines": 2,
+    "lines": [
+        {
+            "erpNumber": "1111111",
+            "name": "MPI AUTO",
+            "invoiceNumber": "FA002-00222222",
+            "invoiceLineName": 1,
+            "buOffer": "100",
+            "origin": "ZUORA",
+            "contractNumber": "AS001-BM66666Z66",
+            "company": 2,
+            "date": "2021-08-05T00:00:00",
+            "amount": 27.0000,
+            "pieceType": "FAC",
+            "chargeName": "Cegid Quadra Entreprise Comptabilité - Standard",
+            "quantity": 1.0000,
+            "installedAndBilled3Part": "MPI AUTO",
+            "domain": "Saas",
+            "currency": "EUR",
+            "icAndIc2": "3702",
+            "calculatedBu": "100",
+            "sectorAgency3Part": "831",
+            "tierslivre": "MPI AUTO",
+            "serviceStartDate": "2021-08-01T00:00:00",
+            "serviceEndDate": "2021-08-31T00:00:00"
+        },
+        {
+            "erpNumber": "1111111",
+            "name": "MPI AUTO",
+            "invoiceNumber": "FA002-00222222",
+            "invoiceLineName": 2,
+            "buOffer": "100",
+            "origin": "ZUORA",
+            "contractNumber": "AS001-BM66666Z66",
+            "company": 2,
+            "date": "2021-08-05T00:00:00",
+            "amount": 22.0000,
+            "pieceType": "FAC",
+            "chargeName": "Cegid Quadra Entreprise Comptabilité - Standard",
+            "quantity": 2.0000,
+            "installedAndBilled3Part": "MPI AUTO",
+            "domain": "Saas",
+            "currency": "EUR",
+            "icAndIc2": "3702",
+            "calculatedBu": "100",
+            "sectorAgency3Part": "831",
+            "tierslivre": "MPI AUTO",
+            "serviceStartDate": "2021-08-01T00:00:00",
+            "serviceEndDate": "2021-08-31T00:00:00"
+        }
+    ]
+}

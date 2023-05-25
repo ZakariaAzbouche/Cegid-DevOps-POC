@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>217</fullName>
+        <default>false</default>
+        <label>RETAIL T2</label>
+    </customValue>
+    <customValue>
+        <fullName>290</fullName>
+        <default>false</default>
+        <label>RETAIL T3</label>
+    </customValue>
+    <customValue>
+        <fullName>320</fullName>
+        <default>false</default>
+        <label>CPA CENTRE EST</label>
+    </customValue>
+    <customValue>
+        <fullName>410</fullName>
+        <default>false</default>
+        <label>CPA SUD</label>
+    </customValue>
+    <customValue>
+        <fullName>470</fullName>
+        <default>false</default>
+        <label>CPA OUEST</label>
+    </customValue>
+    <customValue>
+        <fullName>530</fullName>
+        <default>false</default>
+        <label>EXCEPT COMMERCIAL AGENCY</label>
+    </customValue>
+    <customValue>
+        <fullName>549</fullName>
+        <default>false</default>
+        <label>Retail North Africa</label>
+    </customValue>
+    <customValue>
+        <fullName>550</fullName>
+        <default>false</default>
+        <label>Retail North Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>551</fullName>
+        <default>false</default>
+        <label>EX SPAIN</label>
+    </customValue>
+    <customValue>
+        <fullName>552</fullName>
+        <default>false</default>
+        <label>Retail South Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>553</fullName>
+        <default>false</default>
+        <label>EX PORTUGAL</label>
+    </customValue>
+    <customValue>
+        <fullName>556</fullName>
+        <default>false</default>
+        <label>Retail Middle East</label>
+    </customValue>
+    <customValue>
+        <fullName>557</fullName>
+        <default>false</default>
+        <label>Retail APAC</label>
+    </customValue>
+    <customValue>
+        <fullName>563</fullName>
+        <default>false</default>
+        <label>HCM Canada - Talentsoft</label>
+    </customValue>
+    <customValue>
+        <fullName>584</fullName>
+        <default>false</default>
+        <label>Retail DOM TOM</label>
+    </customValue>
+    <customValue>
+        <fullName>585</fullName>
+        <default>false</default>
+        <label>HCM LATAM - Mixte</label>
+    </customValue>
+    <customValue>
+        <fullName>652</fullName>
+        <default>false</default>
+        <label>EXCEPT REVENUE</label>
+    </customValue>
+    <customValue>
+        <fullName>699</fullName>
+        <default>false</default>
+        <label>GROUP COMPANIES</label>
+    </customValue>
+    <customValue>
+        <fullName>714</fullName>
+        <default>false</default>
+        <label>HCM France - New Cli</label>
+    </customValue>
+    <customValue>
+        <fullName>715</fullName>
+        <default>false</default>
+        <label>HCM France - Installed Base</label>
+    </customValue>
+    <customValue>
+        <fullName>802</fullName>
+        <default>false</default>
+        <label>EX IS CPA</label>
+    </customValue>
+    <customValue>
+        <fullName>803</fullName>
+        <default>false</default>
+        <label>IS SB MIG</label>
+    </customValue>
+    <customValue>
+        <fullName>804</fullName>
+        <default>false</default>
+        <label>IS SB Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>807</fullName>
+        <default>false</default>
+        <label>EX IS TAX &amp; HCM</label>
+    </customValue>
+    <customValue>
+        <fullName>808</fullName>
+        <default>false</default>
+        <label>IS ERP Mid Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>809</fullName>
+        <default>false</default>
+        <label>RETAIL Customer Success</label>
+    </customValue>
+    <customValue>
+        <fullName>340</fullName>
+        <default>false</default>
+        <label>CPA GRANDS COMPTES OGA</label>
+    </customValue>
+    <customValue>
+        <fullName>555</fullName>
+        <default>false</default>
+        <label>Retail China</label>
+    </customValue>
+    <customValue>
+        <fullName>560</fullName>
+        <default>false</default>
+        <label>Retail USA</label>
+    </customValue>
+    <customValue>
+        <fullName>583</fullName>
+        <default>false</default>
+        <label>Retail France Indirect</label>
+    </customValue>
+    <customValue>
+        <fullName>811</fullName>
+        <default>false</default>
+        <label>Finance Spain</label>
+    </customValue>
+    <customValue>
+        <fullName>812</fullName>
+        <default>false</default>
+        <label>HCM Iberia - Installed Base</label>
+    </customValue>
+    <customValue>
+        <fullName>813</fullName>
+        <default>false</default>
+        <label>HCM Iberia - New Cli</label>
+    </customValue>
+    <customValue>
+        <fullName>112</fullName>
+        <default>false</default>
+        <label>CPA CHASSE</label>
+    </customValue>
+    <customValue>
+        <fullName>115</fullName>
+        <default>false</default>
+        <label>CPA CSM</label>
+    </customValue>
+    <customValue>
+        <fullName>395</fullName>
+        <default>false</default>
+        <label>Finance Flex</label>
+    </customValue>
+    <customValue>
+        <fullName>818</fullName>
+        <default>false</default>
+        <label>CPA Paris NORD</label>
+    </customValue>
+    <customValue>
+        <fullName>819</fullName>
+        <default>false</default>
+        <label>Finance - Strategic Accounts</label>
+    </customValue>
+    <customValue>
+        <fullName>820</fullName>
+        <default>false</default>
+        <label>EX Finance - Large &amp; Mid</label>
+    </customValue>
+    <customValue>
+        <fullName>821</fullName>
+        <default>false</default>
+        <label>EX Finance - SB</label>
+    </customValue>
+    <customValue>
+        <fullName>822</fullName>
+        <default>false</default>
+        <label>Finance - CSM</label>
+    </customValue>
+    <customValue>
+        <fullName>823</fullName>
+        <default>false</default>
+        <label>HCM LATAM - Talentsoft</label>
+    </customValue>
+    <customValue>
+        <fullName>824</fullName>
+        <default>false</default>
+        <label>HCM Iberia - Talentsoft</label>
+    </customValue>
+    <customValue>
+        <fullName>825</fullName>
+        <default>false</default>
+        <label>HCM Iberia - Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>826</fullName>
+        <default>false</default>
+        <label>HCM France - CSM</label>
+    </customValue>
+    <customValue>
+        <fullName>827</fullName>
+        <default>false</default>
+        <label>EX Finance - Quadra to Flex</label>
+    </customValue>
+    <customValue>
+        <fullName>828</fullName>
+        <default>false</default>
+        <label>EX Finance - PMI &amp; CBM</label>
+    </customValue>
+    <customValue>
+        <fullName>829</fullName>
+        <default>false</default>
+        <label>CPA Specialist</label>
+    </customValue>
+    <customValue>
+        <fullName>830</fullName>
+        <default>false</default>
+        <label>CPA Installed Base Sedentary</label>
+    </customValue>
+    <customValue>
+        <fullName>831</fullName>
+        <default>false</default>
+        <label>IS Relation</label>
+    </customValue>
+    <customValue>
+        <fullName>840</fullName>
+        <default>false</default>
+        <label>HCM Iberia - VisualTime</label>
+    </customValue>
+    <customValue>
+        <fullName>832</fullName>
+        <default>false</default>
+        <label>Talentsoft Fr – MidMarket</label>
+    </customValue>
+    <customValue>
+        <fullName>833</fullName>
+        <default>false</default>
+        <label>EX Talentsoft Fr - Middle Market</label>
+    </customValue>
+    <customValue>
+        <fullName>834</fullName>
+        <default>false</default>
+        <label>Talentsoft Fr – Public &amp; LA</label>
+    </customValue>
+    <customValue>
+        <fullName>835</fullName>
+        <default>false</default>
+        <label>Talentsoft Int - DACH</label>
+    </customValue>
+    <customValue>
+        <fullName>836</fullName>
+        <default>false</default>
+        <label>Talentsoft Int - Nordics</label>
+    </customValue>
+    <customValue>
+        <fullName>837</fullName>
+        <default>false</default>
+        <label>Talentsoft Int - Benelux</label>
+    </customValue>
+    <customValue>
+        <fullName>838</fullName>
+        <default>false</default>
+        <label>Talentsoft Int - Partners</label>
+    </customValue>
+    <customValue>
+        <fullName>839</fullName>
+        <default>false</default>
+        <label>Talentsoft Int - ROW</label>
+    </customValue>
+    <customValue>
+        <fullName>841</fullName>
+        <default>false</default>
+        <label>Talentsoft - CSM</label>
+    </customValue>
+    <customValue>
+        <fullName>842</fullName>
+        <default>false</default>
+        <label>HCM - Wittyfit</label>
+    </customValue>
+    <customValue>
+        <fullName>843</fullName>
+        <default>false</default>
+        <label>Alliances</label>
+    </customValue>
+    <customValue>
+        <fullName>844</fullName>
+        <default>false</default>
+        <label>Retail Store Excellence UK</label>
+    </customValue>
+    <customValue>
+        <fullName>845</fullName>
+        <default>false</default>
+        <label>Finance Large 1</label>
+    </customValue>
+    <customValue>
+        <fullName>846</fullName>
+        <default>false</default>
+        <label>Finance Large 2</label>
+    </customValue>
+    <customValue>
+        <fullName>847</fullName>
+        <default>false</default>
+        <label>Finance Large 3</label>
+    </customValue>
+    <customValue>
+        <fullName>849</fullName>
+        <default>false</default>
+        <label>Finance Mid 1</label>
+    </customValue>
+    <customValue>
+        <fullName>850</fullName>
+        <default>false</default>
+        <label>Finance Mid 2</label>
+    </customValue>
+    <customValue>
+        <fullName>852</fullName>
+        <default>false</default>
+        <label>Finance Notilus InOne</label>
+    </customValue>
+    <customValue>
+        <fullName>853</fullName>
+        <default>false</default>
+        <label>Finance Notilus YourWay</label>
+    </customValue>
+    <customValue>
+        <fullName>854</fullName>
+        <default>false</default>
+        <label>Finance Notilus T&amp;E</label>
+    </customValue>
+    <customValue>
+        <fullName>855</fullName>
+        <default>false</default>
+        <label>IS HCM</label>
+    </customValue>
+    <customValue>
+        <fullName>856</fullName>
+        <default>false</default>
+        <label>IS SB NCA</label>
+    </customValue>
+    <customValue>
+        <fullName>857</fullName>
+        <default>false</default>
+        <label>Digital Recruiters</label>
+    </customValue>
+    <customValue>
+        <fullName>858</fullName>
+        <default>false</default>
+        <label>HCM Portugal</label>
+    </customValue>
+    <customValue>
+        <fullName>110</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX CPA NORD EST</label>
+    </customValue>
+    <customValue>
+        <fullName>220</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX CPA PARIS CENTRE</label>
+    </customValue>
+    <customValue>
+        <fullName>230</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX QUADRATUS</label>
+    </customValue>
+    <customValue>
+        <fullName>360</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX ENTREPRISE OUEST</label>
+    </customValue>
+    <customValue>
+        <fullName>390</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX ENTREPRISE EST</label>
+    </customValue>
+    <customValue>
+        <fullName>391</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX XRP Flex</label>
+    </customValue>
+    <customValue>
+        <fullName>562</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX HCM US</label>
+    </customValue>
+    <customValue>
+        <fullName>716</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX QUALIAC New Business</label>
+    </customValue>
+    <customValue>
+        <fullName>720</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX CYLANDE GD</label>
+    </customValue>
+    <customValue>
+        <fullName>721</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX LOOP</label>
+    </customValue>
+    <customValue>
+        <fullName>801</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX TAX International</label>
+    </customValue>
+    <customValue>
+        <fullName>806</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX IS PMI</label>
+    </customValue>
+    <customValue>
+        <fullName>113</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX CPA MODERNISATION NORD</label>
+    </customValue>
+    <customValue>
+        <fullName>114</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX CPA TRANSFORMATION NORD</label>
+    </customValue>
+    <customValue>
+        <fullName>120</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX--PCL - ROUEN CAEN</label>
+    </customValue>
+    <customValue>
+        <fullName>140</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX MT&amp;S Mid Size</label>
+    </customValue>
+    <customValue>
+        <fullName>150</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX CHR - Télévente</label>
+    </customValue>
+    <customValue>
+        <fullName>160</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-MM - FRANCE EST</label>
+    </customValue>
+    <customValue>
+        <fullName>212</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX CHR - FRANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>213</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX FISCALITE</label>
+    </customValue>
+    <customValue>
+        <fullName>214</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RETAIL Custumer Success</label>
+    </customValue>
+    <customValue>
+        <fullName>215</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-MM - PARIS SUD</label>
+    </customValue>
+    <customValue>
+        <fullName>216</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX - BTP</label>
+    </customValue>
+    <customValue>
+        <fullName>221</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX PCL -  ROUEN CAEN</label>
+    </customValue>
+    <customValue>
+        <fullName>222</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX MT&amp;S Grands Comptes</label>
+    </customValue>
+    <customValue>
+        <fullName>223</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX PCL - PARIS 2</label>
+    </customValue>
+    <customValue>
+        <fullName>224</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX - ERP - MGE</label>
+    </customValue>
+    <customValue>
+        <fullName>225</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX OGA</label>
+    </customValue>
+    <customValue>
+        <fullName>227</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-MM - FRANCE OUEST</label>
+    </customValue>
+    <customValue>
+        <fullName>231</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX PCL - EST</label>
+    </customValue>
+    <customValue>
+        <fullName>232</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX FINANCE - TELEVENTE</label>
+    </customValue>
+    <customValue>
+        <fullName>233</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AGENCE TLV Y2</label>
+    </customValue>
+    <customValue>
+        <fullName>234</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX CPM - TELEVENTE</label>
+    </customValue>
+    <customValue>
+        <fullName>270</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX PCL - NANTES RENNES</label>
+    </customValue>
+    <customValue>
+        <fullName>280</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ENTREPRISE INTERNATIONAL</label>
+    </customValue>
+    <customValue>
+        <fullName>313</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX RH Base Installée</label>
+    </customValue>
+    <customValue>
+        <fullName>314</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX RH CONQUETE</label>
+    </customValue>
+    <customValue>
+        <fullName>315</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-RH MIXTE et CHASSE</label>
+    </customValue>
+    <customValue>
+        <fullName>316</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-MM - RHONE ALPES</label>
+    </customValue>
+    <customValue>
+        <fullName>317</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AGENCE TLV PMI</label>
+    </customValue>
+    <customValue>
+        <fullName>325</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RETAIL T5</label>
+    </customValue>
+    <customValue>
+        <fullName>330</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX PCL - ANNECY DIJON</label>
+    </customValue>
+    <customValue>
+        <fullName>350</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX MGE - Base installée</label>
+    </customValue>
+    <customValue>
+        <fullName>355</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX MGE - Conquête</label>
+    </customValue>
+    <customValue>
+        <fullName>356</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX MGE - MIXTE</label>
+    </customValue>
+    <customValue>
+        <fullName>361</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX PME-GRAND OUEST 2</label>
+    </customValue>
+    <customValue>
+        <fullName>370</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX PME - IDF</label>
+    </customValue>
+    <customValue>
+        <fullName>380</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX PME - NORD EST</label>
+    </customValue>
+    <customValue>
+        <fullName>430</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX FINANCE SUD</label>
+    </customValue>
+    <customValue>
+        <fullName>450</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX PCL - TOULOUSE MONTPELLIER</label>
+    </customValue>
+    <customValue>
+        <fullName>471</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-PCL- PROFESSION COMPTABLE AGRICOLE</label>
+    </customValue>
+    <customValue>
+        <fullName>505</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX FINANCE NORD</label>
+    </customValue>
+    <customValue>
+        <fullName>510</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-FINANCE PARIS OUEST</label>
+    </customValue>
+    <customValue>
+        <fullName>515</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX MT&amp;S - TLV</label>
+    </customValue>
+    <customValue>
+        <fullName>520</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX CHR VI</label>
+    </customValue>
+    <customValue>
+        <fullName>524</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PARTENAIRES FINANCIERS</label>
+    </customValue>
+    <customValue>
+        <fullName>525</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OPCA</label>
+    </customValue>
+    <customValue>
+        <fullName>526</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LOUEURS EXTERNES</label>
+    </customValue>
+    <customValue>
+        <fullName>527</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EXPORT</label>
+    </customValue>
+    <customValue>
+        <fullName>540</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX VENTES INDIRECTES</label>
+    </customValue>
+    <customValue>
+        <fullName>548</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WEST AFRICA</label>
+    </customValue>
+    <customValue>
+        <fullName>554</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BRAZIL</label>
+    </customValue>
+    <customValue>
+        <fullName>558</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-VI INTERNATIONAL</label>
+    </customValue>
+    <customValue>
+        <fullName>559</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RUSSIA</label>
+    </customValue>
+    <customValue>
+        <fullName>580</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TLV ICS</label>
+    </customValue>
+    <customValue>
+        <fullName>581</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TLV FORMATION</label>
+    </customValue>
+    <customValue>
+        <fullName>582</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CEGID EDUCATION</label>
+    </customValue>
+    <customValue>
+        <fullName>701</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CEGID PUBLIC P&amp;MC B</label>
+    </customValue>
+    <customValue>
+        <fullName>702</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CEGID PUBLIC GC</label>
+    </customValue>
+    <customValue>
+        <fullName>710</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX TDA - PCL</label>
+    </customValue>
+    <customValue>
+        <fullName>711</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX TDA New Business</label>
+    </customValue>
+    <customValue>
+        <fullName>712</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX TDA Base Installée</label>
+    </customValue>
+    <customValue>
+        <fullName>713</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX TDA Partenaires</label>
+    </customValue>
+    <customValue>
+        <fullName>718</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CYLANDE Business Developpement</label>
+    </customValue>
+    <customValue>
+        <fullName>719</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CYLANDE CS</label>
+    </customValue>
+    <customValue>
+        <fullName>397</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX ERP-GC New Cli</label>
+    </customValue>
+    <customValue>
+        <fullName>717</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX QUALIAC Installed base</label>
+    </customValue>
+    <customValue>
+        <fullName>800</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX Tax FR Base&amp;Optitaxe</label>
+    </customValue>
+    <customValue>
+        <fullName>805</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX IS ERP &amp; HCM</label>
+    </customValue>
+    <customValue>
+        <fullName>814</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX ACA Assurance BF</label>
+    </customValue>
+    <customValue>
+        <fullName>815</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX ACA Industries Services</label>
+    </customValue>
+    <customValue>
+        <fullName>816</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX Cedricom</label>
+    </customValue>
+    <customValue>
+        <fullName>810</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX Tax FR Conquête</label>
+    </customValue>
+    <customValue>
+        <fullName>411</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX CPA MODERNISATION SUD</label>
+    </customValue>
+    <customValue>
+        <fullName>412</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX CPA TRANSFORMATION SUD</label>
+    </customValue>
+    <customValue>
+        <fullName>392</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX ERP-Entreprise Terrain direct</label>
+    </customValue>
+    <customValue>
+        <fullName>393</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX ERP-Entreprise CSM</label>
+    </customValue>
+    <customValue>
+        <fullName>394</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX ERP-Entreprise Terrain indirect</label>
+    </customValue>
+    <customValue>
+        <fullName>396</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX ERP-GC Base</label>
+    </customValue>
+    <customValue>
+        <fullName>817</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>817</label>
+    </customValue>
+    <masterLabel>Agency</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppy_35_CheckLeadSource</fullName>
+    <active>true</active>
+    <description>Cette VR empêche la possibilité de modifier le sales purpose quand le lead source est cross sell</description>
+    <errorConditionFormula>AND(NOT($User.BypassVR__c),
+				ISPICKVAL( LeadSource , "Sales Cross Sell"),
+				ISCHANGED(Sales_Purpose__c)
+			)</errorConditionFormula>
+    <errorDisplayField>Sales_Purpose__c</errorDisplayField>
+    <errorMessage>The Sales Purpose cannot be modified for Sales Cross Sell opportunities. Please, create a standard opportunity (Stage F).</errorMessage>
+</ValidationRule>

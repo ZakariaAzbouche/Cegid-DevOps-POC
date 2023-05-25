@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CegidRole__c</fullName>
+    <externalId>false</externalId>
+    <label>Cegid Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Invoices contact</fullName>
+                <default>false</default>
+                <label>Invoices contact</label>
+            </value>
+            <value>
+                <fullName>Payment contact</fullName>
+                <default>false</default>
+                <label>Payment contact</label>
+            </value>
+            <value>
+                <fullName>Contact for payment business</fullName>
+                <default>false</default>
+                <label>Contact for payment business</label>
+            </value>
+            <value>
+                <fullName>PO Contact</fullName>
+                <default>false</default>
+                <label>PO Contact</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

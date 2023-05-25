@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Lead Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Company</fieldNames>
+        <fieldNames>External_Comment__c</fieldNames>
+        <fieldNames>Reject_Cause__c</fieldNames>
+        <picklistValueName>In Buffer</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Lead</recordTypeName>
+</PathAssistant>

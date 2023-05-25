@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Motifs --></label>
+        <name>Motifs__c</name>
+        <picklistValues>
+            <masterLabel>Advice from its accountant</masterLabel>
+            <translation><!-- Advice from its accountant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Already signed</masterLabel>
+            <translation><!-- Already signed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Away to the competitor</masterLabel>
+            <translation><!-- Away to the competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial situation</masterLabel>
+            <translation><!-- Financial situation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-house development</masterLabel>
+            <translation><!-- In-house development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interlocutor can’t be reached</masterLabel>
+            <translation><!-- Interlocutor can’t be reached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interlocutor not reached</masterLabel>
+            <translation><!-- Interlocutor not reached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interlocutor reached</masterLabel>
+            <translation><!-- Interlocutor reached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No budget / No project</masterLabel>
+            <translation><!-- No budget / No project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other channel</masterLabel>
+            <translation><!-- Other channel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of scope</masterLabel>
+            <translation><!-- Out of scope --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postponed</masterLabel>
+            <translation><!-- Postponed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal in progress</masterLabel>
+            <translation><!-- Proposal in progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation><!-- Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsatisfied</masterLabel>
+            <translation><!-- Unsatisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for notification stopping phone support</masterLabel>
+            <translation><!-- Waiting for notification stopping phone support --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

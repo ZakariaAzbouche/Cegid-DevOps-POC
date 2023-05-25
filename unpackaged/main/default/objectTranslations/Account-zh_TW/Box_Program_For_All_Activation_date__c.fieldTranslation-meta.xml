@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Box Program For All Activation date --></label>
+        <name>Box_Program_For_All_Activation_date__c</name>
+    </CustomFieldTranslation>

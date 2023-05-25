@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR009_PostalCode_City_Country_OnCreation</fullName>
+    <active>true</active>
+    <description>Postal Code, City and Country are mandatory on creation</description>
+    <errorConditionFormula>AND (
+				NOT( $User.BypassVR__c ), 
+				ISNEW(),
+			 OR (
+								ISBLANK( TEXT(BillingCountryCode)), 
+								ISBLANK( BillingPostalCode ), 
+								ISBLANK( BillingCity )
+								)
+				)</errorConditionFormula>
+    <errorMessage>Postal Code, City and Country are mandatory</errorMessage>
+</ValidationRule>

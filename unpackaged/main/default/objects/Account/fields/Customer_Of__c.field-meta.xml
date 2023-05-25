@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Of__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer Of</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CYLANDE</fullName>
+                <default>false</default>
+                <label>CYLANDE</label>
+            </value>
+            <value>
+                <fullName>OPTITAXES</fullName>
+                <default>false</default>
+                <label>OPTITAXES</label>
+            </value>
+            <value>
+                <fullName>QUALIAC</fullName>
+                <default>false</default>
+                <label>QUALIAC</label>
+            </value>
+            <value>
+                <fullName>META4</fullName>
+                <default>false</default>
+                <label>META4</label>
+            </value>
+            <value>
+                <fullName>LOOP</fullName>
+                <default>false</default>
+                <label>LOOP</label>
+            </value>
+            <value>
+                <fullName>DIESE</fullName>
+                <default>false</default>
+                <label>DIESE</label>
+            </value>
+            <value>
+                <fullName>GERER MA BOITE</fullName>
+                <default>false</default>
+                <label>GERER MA BOITE</label>
+            </value>
+            <value>
+                <fullName>DHATIM</fullName>
+                <default>false</default>
+                <label>DHATIM</label>
+            </value>
+            <value>
+                <fullName>CEDRICOM</fullName>
+                <default>false</default>
+                <label>CEDRICOM</label>
+            </value>
+            <value>
+                <fullName>ACA</fullName>
+                <default>false</default>
+                <label>ACA</label>
+            </value>
+            <value>
+                <fullName>KOALABOOX</fullName>
+                <default>false</default>
+                <label>KOALABOOX</label>
+            </value>
+            <value>
+                <fullName>TALENTSOFT</fullName>
+                <default>false</default>
+                <label>TALENTSOFT</label>
+            </value>
+            <value>
+                <fullName>RD LIBERAL</fullName>
+                <default>false</default>
+                <label>RD LIBERAL</label>
+            </value>
+            <value>
+                <fullName>VISUALTIME</fullName>
+                <default>false</default>
+                <label>VISUALTIME</label>
+            </value>
+            <value>
+                <fullName>WITTYFIT</fullName>
+                <default>false</default>
+                <label>WITTYFIT</label>
+            </value>
+            <value>
+                <fullName>NOTILUS</fullName>
+                <default>false</default>
+                <label>NOTILUS</label>
+            </value>
+            <value>
+                <fullName>STORIQ</fullName>
+                <default>false</default>
+                <label>STORIQ</label>
+            </value>
+            <value>
+                <fullName>DIGITAL RECRUITERS</fullName>
+                <default>false</default>
+                <label>DigitalRecruiters</label>
+            </value>
+            <value>
+                <fullName>GRUPO PRIMAVERA</fullName>
+                <default>false</default>
+                <label>GRUPO PRIMAVERA</label>
+            </value>
+            <value>
+                <fullName>DIEZ</fullName>
+                <default>false</default>
+                <label>DIEZ</label>
+            </value>
+            <value>
+                <fullName>PROSOFT</fullName>
+                <default>false</default>
+                <label>PROSOFT</label>
+            </value>
+            <value>
+                <fullName>PROFITURE</fullName>
+                <default>false</default>
+                <label>PROFITURE</label>
+            </value>
+            <value>
+                <fullName>GSE</fullName>
+                <default>false</default>
+                <label>GSE</label>
+            </value>
+            <value>
+                <fullName>CLUB DEL ASESOR</fullName>
+                <default>false</default>
+                <label>CLUB DEL ASESOR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

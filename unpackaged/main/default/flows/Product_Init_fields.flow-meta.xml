@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <description>Used to init product fields on creation/update</description>
+    <environments>Default</environments>
+    <interviewLabel>Product - Init fields {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Product - Init fields</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Initialization and update of fields on Product</description>
+        <name>Fields_init_and_update</name>
+        <label>Fields init and update</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <inputAssignments>
+            <field>ProductID__c</field>
+            <value>
+                <elementReference>$Record.Reference_Number__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Fields_init_and_update</targetReference>
+        </connector>
+        <filterFormula>AND(
+NOT({!$User.BypassPB__c}), 
+OR(ISNEW(), ISBLANK({!$Record.ProductID__c}), ISCHANGED({!$Record.RecordTypeId}))
+)</filterFormula>
+        <object>Product2</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

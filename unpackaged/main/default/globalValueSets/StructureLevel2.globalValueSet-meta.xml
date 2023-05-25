@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>141</fullName>
+        <default>false</default>
+        <label>Delivery services (flat rate)</label>
+    </customValue>
+    <customValue>
+        <fullName>225</fullName>
+        <default>false</default>
+        <label>Distribution project monitoring</label>
+    </customValue>
+    <customValue>
+        <fullName>121</fullName>
+        <default>false</default>
+        <label>Hardware</label>
+    </customValue>
+    <customValue>
+        <fullName>341</fullName>
+        <default>false</default>
+        <label>Hardware Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>226</fullName>
+        <default>false</default>
+        <label>Maintenance without contract</label>
+    </customValue>
+    <customValue>
+        <fullName>231</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>224</fullName>
+        <default>false</default>
+        <label>System installation</label>
+    </customValue>
+    <customValue>
+        <fullName>222</fullName>
+        <default>false</default>
+        <label>Application installation</label>
+    </customValue>
+    <customValue>
+        <fullName>211</fullName>
+        <default>false</default>
+        <label>Consulting &amp; training - Digital &amp; Collective</label>
+    </customValue>
+    <customValue>
+        <fullName>213</fullName>
+        <default>false</default>
+        <label>Consulting &amp; training - Other</label>
+    </customValue>
+    <customValue>
+        <fullName>214</fullName>
+        <default>false</default>
+        <label>Costs invoiced</label>
+    </customValue>
+    <customValue>
+        <fullName>112</fullName>
+        <default>false</default>
+        <label>Specifics and data conversions</label>
+    </customValue>
+    <customValue>
+        <fullName>111</fullName>
+        <default>false</default>
+        <label>Inhouse Licenses</label>
+    </customValue>
+    <customValue>
+        <fullName>131</fullName>
+        <default>false</default>
+        <label>Third Party Licenses</label>
+    </customValue>
+    <customValue>
+        <fullName>351</fullName>
+        <default>false</default>
+        <label>Other Rentals</label>
+    </customValue>
+    <customValue>
+        <fullName>311</fullName>
+        <default>false</default>
+        <label>Software Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>321</fullName>
+        <default>false</default>
+        <label>Saas - On demand</label>
+    </customValue>
+    <customValue>
+        <fullName>331</fullName>
+        <default>false</default>
+        <label>Saas - Portal and Web</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>502</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Abonnement Legal</label>
+    </customValue>
+    <customValue>
+        <fullName>548</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>948</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Divers</label>
+    </customValue>
+    <customValue>
+        <fullName>248</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Logiciel</label>
+    </customValue>
+    <customValue>
+        <fullName>048</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Matériel</label>
+    </customValue>
+    <customValue>
+        <fullName>348</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Prestation Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>148</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoir Progiciel</label>
+    </customValue>
+    <customValue>
+        <fullName>648</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avoirs Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>201</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Base de données</label>
+    </customValue>
+    <customValue>
+        <fullName>202</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bureautique Messagerie Internet</label>
+    </customValue>
+    <customValue>
+        <fullName>400</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cablage</label>
+    </customValue>
+    <customValue>
+        <fullName>302</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Certification</label>
+    </customValue>
+    <customValue>
+        <fullName>M08</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Channel Marketing Rés Indirect</label>
+    </customValue>
+    <customValue>
+        <fullName>947</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Commentaire</label>
+    </customValue>
+    <customValue>
+        <fullName>M04</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Communication Externe &amp; Interne</label>
+    </customValue>
+    <customValue>
+        <fullName>700</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consommable</label>
+    </customValue>
+    <customValue>
+        <fullName>500</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Contrat Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>600</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Contrat Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>551</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Contrat Système Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>550</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Contrat Système Infra.</label>
+    </customValue>
+    <customValue>
+        <fullName>800</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Création / Hébergement de Sites</label>
+    </customValue>
+    <customValue>
+        <fullName>M11</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers</label>
+    </customValue>
+    <customValue>
+        <fullName>549</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>949</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Divers</label>
+    </customValue>
+    <customValue>
+        <fullName>249</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Logiciel</label>
+    </customValue>
+    <customValue>
+        <fullName>649</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>049</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Matériel</label>
+    </customValue>
+    <customValue>
+        <fullName>449</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Prestation</label>
+    </customValue>
+    <customValue>
+        <fullName>349</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Prestation Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>149</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Progiciel</label>
+    </customValue>
+    <customValue>
+        <fullName>849</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Divers Saas</label>
+    </customValue>
+    <customValue>
+        <fullName>823</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Editique</label>
+    </customValue>
+    <customValue>
+        <fullName>M01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Etudes &amp; Market Intelligence</label>
+    </customValue>
+    <customValue>
+        <fullName>M06</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Evènements</label>
+    </customValue>
+    <customValue>
+        <fullName>899</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Facturation pour le compte de</label>
+    </customValue>
+    <customValue>
+        <fullName>900</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Financement</label>
+    </customValue>
+    <customValue>
+        <fullName>409</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Formation Distributeur</label>
+    </customValue>
+    <customValue>
+        <fullName>301</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Formation en centre</label>
+    </customValue>
+    <customValue>
+        <fullName>300</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Formation sur site</label>
+    </customValue>
+    <customValue>
+        <fullName>826</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fourniture de contenus</label>
+    </customValue>
+    <customValue>
+        <fullName>420</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Frais de déplacement - Distributeur</label>
+    </customValue>
+    <customValue>
+        <fullName>320</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Frais de déplacement - Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>402</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Frais d&apos;expédition</label>
+    </customValue>
+    <customValue>
+        <fullName>503</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hors Contrat Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>604</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hors Contrat Ligne de Crédit</label>
+    </customValue>
+    <customValue>
+        <fullName>601</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hors Contrat Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>403</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>103</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence Démonstration</label>
+    </customValue>
+    <customValue>
+        <fullName>106</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence Extension</label>
+    </customValue>
+    <customValue>
+        <fullName>102</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence mise à jour</label>
+    </customValue>
+    <customValue>
+        <fullName>100</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence principale</label>
+    </customValue>
+    <customValue>
+        <fullName>101</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence secondaire / fidelité</label>
+    </customValue>
+    <customValue>
+        <fullName>104</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Licence Transfert</label>
+    </customValue>
+    <customValue>
+        <fullName>750</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Location</label>
+    </customValue>
+    <customValue>
+        <fullName>110</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Manuel d&apos;utilisation</label>
+    </customValue>
+    <customValue>
+        <fullName>M07</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Marketing Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>040</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Matériel d&apos;occasion</label>
+    </customValue>
+    <customValue>
+        <fullName>030</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Matériel Neuf</label>
+    </customValue>
+    <customValue>
+        <fullName>M10</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MMS Marketing Management Système</label>
+    </customValue>
+    <customValue>
+        <fullName>M02</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Outils promotionnels/Contenus</label>
+    </customValue>
+    <customValue>
+        <fullName>821</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Outsourcing</label>
+    </customValue>
+    <customValue>
+        <fullName>304</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Paramétrage et Installation Progic</label>
+    </customValue>
+    <customValue>
+        <fullName>820</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portail</label>
+    </customValue>
+    <customValue>
+        <fullName>401</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Préparation</label>
+    </customValue>
+    <customValue>
+        <fullName>316</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prestation Ponctuelle Sourcing</label>
+    </customValue>
+    <customValue>
+        <fullName>310</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prestation WEB</label>
+    </customValue>
+    <customValue>
+        <fullName>M09</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Programmes Partenaires</label>
+    </customValue>
+    <customValue>
+        <fullName>M03</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Référencement clients</label>
+    </customValue>
+    <customValue>
+        <fullName>404</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Régie / Déploiement</label>
+    </customValue>
+    <customValue>
+        <fullName>305</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reprise et Interface</label>
+    </customValue>
+    <customValue>
+        <fullName>603</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Retrocession</label>
+    </customValue>
+    <customValue>
+        <fullName>831</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAAS - TMA</label>
+    </customValue>
+    <customValue>
+        <fullName>824</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SaaS Partenaire</label>
+    </customValue>
+    <customValue>
+        <fullName>M05</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sites &amp; Portails</label>
+    </customValue>
+    <customValue>
+        <fullName>602</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sous Traitance - Négoce</label>
+    </customValue>
+    <customValue>
+        <fullName>605</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sous Traitance ECONOCOM</label>
+    </customValue>
+    <customValue>
+        <fullName>306</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Spécifique (c)</label>
+    </customValue>
+    <customValue>
+        <fullName>307</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Spécifique (intégré STD)</label>
+    </customValue>
+    <customValue>
+        <fullName>308</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Suivi de Projet - Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>408</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Suivi de projet Distributeur</label>
+    </customValue>
+    <customValue>
+        <fullName>501</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Support Version</label>
+    </customValue>
+    <customValue>
+        <fullName>407</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Système</label>
+    </customValue>
+    <customValue>
+        <fullName>200</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Système d&apos;exploitation</label>
+    </customValue>
+    <customValue>
+        <fullName>315</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Télé Prestation Editeur</label>
+    </customValue>
+    <customValue>
+        <fullName>531</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TMA</label>
+    </customValue>
+    <customValue>
+        <fullName>Other services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other services</label>
+    </customValue>
+    <customValue>
+        <fullName>Third Party Maintenance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Third Party Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>314</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>eLearning</label>
+    </customValue>
+    <masterLabel>StructureLevel2</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sales relationship --></label>
+        <name>Sales_relationship__c</name>
+        <picklistValues>
+            <masterLabel>Installed base</masterLabel>
+            <translation><!-- Installed base --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newlogo</masterLabel>
+            <translation><!-- Newlogo --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

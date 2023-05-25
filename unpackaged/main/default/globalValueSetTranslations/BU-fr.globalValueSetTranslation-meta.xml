@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>CPA</masterLabel>
+        <translation><!-- CPA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cedricom</masterLabel>
+        <translation><!-- Cedricom --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DHATIM</masterLabel>
+        <translation><!-- DHATIM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Digital Recruiters</masterLabel>
+        <translation><!-- Digital Recruiters --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ERP Enterprises</masterLabel>
+        <translation><!-- ERP Enterprises --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ERP Large Accounts</masterLabel>
+        <translation><!-- ERP Large Accounts --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FINANCE (ACA)</masterLabel>
+        <translation><!-- FINANCE (ACA) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM Meta4</masterLabel>
+        <translation>HCM Meta5</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM Payroll</masterLabel>
+        <translation><!-- HCM Payroll --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCM TALENT</masterLabel>
+        <translation><!-- HCM TALENT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KOALABOOX</masterLabel>
+        <translation><!-- KOALABOOX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NOTILUS</masterLabel>
+        <translation><!-- NOTILUS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OTHER</masterLabel>
+        <translation>AUTRE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RETAIL</masterLabel>
+        <translation><!-- RETAIL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SB</masterLabel>
+        <translation><!-- SB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>STORIQ</masterLabel>
+        <translation><!-- STORIQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TAX</masterLabel>
+        <translation><!-- TAX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Talentsoft</masterLabel>
+        <translation><!-- Talentsoft --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VisualTime</masterLabel>
+        <translation><!-- VisualTime --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wittyfit</masterLabel>
+        <translation><!-- Wittyfit --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

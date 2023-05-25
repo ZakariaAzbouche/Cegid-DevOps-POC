@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Post_to_Oppy_Owner</name>
+        <label>Post to Oppy Owner</label>
+        <locationX>424</locationX>
+        <locationY>879</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <connector>
+            <targetReference>Update_Oppy</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <elementReference>ChatterPost</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>Get_Opportunity.Id</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>49.0</apiVersion>
+    <assignments>
+        <name>Assign_Description_New_Opp</name>
+        <label>Assign Description New Opp</label>
+        <locationX>1153</locationX>
+        <locationY>274</locationY>
+        <assignmentItems>
+            <assignToReference>Get_Opportunity.Description</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>OpportunityDescription</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Opportunity.TECH_New_oppy_From_Lead__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Oppy</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Values_Opp_Existed_Not_From_Lead</name>
+        <label>Assign Values - Opp Existed Not From Lead</label>
+        <locationX>976</locationX>
+        <locationY>696</locationY>
+        <assignmentItems>
+            <assignToReference>Get_Opportunity.TECH_Lead_Id__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Opportunity.Oppy_converted_from_Lead__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Opportunity.Is_Converted_From_Lead_Origin_Value__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_Owner</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Existed_Oppy_AutoCreated</name>
+        <label>Existed Oppy - AutoCreated</label>
+        <locationX>424</locationX>
+        <locationY>285</locationY>
+        <assignmentItems>
+            <assignToReference>Get_Opportunity.TECH_Lead_Id__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Opportunity.Oppy_converted_from_Lead__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Opportunity.Oppy_AutoCreated__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_Owner</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Check_Description</name>
+        <label>Check Description</label>
+        <locationX>779</locationX>
+        <locationY>461</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Description_Is_Empty</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Opportunity.TECH_New_oppy_From_Lead__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Description_New_Opp</targetReference>
+            </connector>
+            <label>New Oppy</label>
+        </rules>
+        <rules>
+            <name>Description_Not_Empty_Opp_Created_From_Lead</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Opportunity.Origin_Lead_Id__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Owner</targetReference>
+            </connector>
+            <label>Existed Oppy - Opp Created From Lead</label>
+        </rules>
+        <rules>
+            <name>Existed_Oppy_Not_Not_Issue_Lead_And_Not_Auto_Created_Oppy</name>
+            <conditionLogic>1 AND 2 AND (3 OR 4 OR 5 OR 6)</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Opportunity.Origin_Lead_Id__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Opportunity.Oppy_AutoCreated__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Min_CreatedDate</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>Min_CurrentDateTime</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Hour_CreatedDate</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>Hour_CurrentDateTime</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>AM_PM_CreatedDate</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>AM_PM_CurrentDateTime</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Date_CreatedDate</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>Date_CurrentDateTime</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Values_Opp_Existed_Not_From_Lead</targetReference>
+            </connector>
+            <label>Existed Oppy - Not Not Issue Lead And Not Auto Created Oppy</label>
+        </rules>
+        <rules>
+            <name>Existed_Oppy_AutoCreated_Oppy</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Opportunity.Oppy_AutoCreated__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Existed_Oppy_AutoCreated</targetReference>
+            </connector>
+            <label>Existed Oppy - AutoCreated Oppy</label>
+        </rules>
+    </decisions>
+    <description>Last Version of W-001691 V6
+New version for B-1306</description>
+    <formulas>
+        <name>AM_PM_CreatedDate</name>
+        <dataType>String</dataType>
+        <expression>IF( VALUE( MID( TEXT( {!Get_Opportunity.CreatedDate} ), 12, 2 ) ) &lt; 12, &quot;AM&quot;, &quot;PM&quot; )</expression>
+    </formulas>
+    <formulas>
+        <name>AM_PM_CurrentDateTime</name>
+        <dataType>String</dataType>
+        <expression>IF( VALUE( MID( TEXT( {!$Flow.CurrentDateTime} ), 12, 2 ) ) &lt; 12, &quot;AM&quot;, &quot;PM&quot; )</expression>
+    </formulas>
+    <formulas>
+        <name>ChatterPost</name>
+        <dataType>String</dataType>
+        <expression>&quot;@[&quot;+{!Get_Owner.Id}+&quot;]&quot; + &quot;The lead &quot; + {!Get_Lead.FirstName} + &quot; &quot; + {!Get_Lead.LastName}  + &quot; has been  merged with your opportunity.&quot; + BR () + 
+&quot;The Lead&apos;s  Budget is: &quot; + TEXT( {!Get_Lead.Amount__c}) + BR() +BR() +
+
+&quot;Project Description (Lead&apos;s internal comment from the Telemarketing) : &quot; + HTMLENCODE({!Get_Lead.Internal_Comment__c})  + BR()+
+
+IF(NOT(ISBLANK({!Get_Lead.Project_s_associated_contact_1__c} )),&quot; Associated contacts: &quot;+ BR() + &quot; 1 - &quot; + {!Get_Lead.Project_s_associated_contact_1__c}  + &quot;, who is the &quot;+TEXT( {!Get_Lead.Role_in_decision_1__c} ) + &quot;available &quot; + {!Get_Lead.Availability1__c}  + &quot;.&quot;, {!Get_Lead.Project_s_associated_contact_1__c} ) + BR() +
+
+IF(NOT(ISBLANK({!Get_Lead.Project_s_associated_contact_2__c} )),&quot; Associated contacts: &quot;+ BR() + &quot; 2 - &quot; + {!Get_Lead.Project_s_associated_contact_2__c}  + &quot;, who is the &quot;+TEXT( {!Get_Lead.Role_in_decision_2__c} ) + &quot;available &quot; + {!Get_Lead.Availability2__c}  + &quot;.&quot;, {!Get_Lead.Project_s_associated_contact_2__c} ) + BR()</expression>
+    </formulas>
+    <formulas>
+        <name>Date_CreatedDate</name>
+        <dataType>String</dataType>
+        <expression>TEXT( DAY( DATEVALUE({!Get_Opportunity.CreatedDate} )) ) +&quot;-&quot;+TEXT( MONTH( DATEVALUE({!Get_Opportunity.CreatedDate}) ) ) +&quot;-&quot; +TEXT( YEAR( DATEVALUE({!Get_Opportunity.CreatedDate}) ) )</expression>
+    </formulas>
+    <formulas>
+        <name>Date_CurrentDateTime</name>
+        <dataType>String</dataType>
+        <expression>TEXT( DAY( {!$Flow.CurrentDate} ) ) +&quot;-&quot;+TEXT( MONTH( {!$Flow.CurrentDate} ) ) +&quot;-&quot; +TEXT( YEAR( {!$Flow.CurrentDate} ) )</expression>
+    </formulas>
+    <formulas>
+        <name>Hour_CreatedDate</name>
+        <dataType>Number</dataType>
+        <expression>IF( OR( VALUE( MID( TEXT( {!Get_Opportunity.CreatedDate} ), 12, 2 ) ) = 0, VALUE( MID( TEXT( {!Get_Opportunity.CreatedDate}), 12, 2 ) ) = 12 ), 12, VALUE( MID( TEXT( {!Get_Opportunity.CreatedDate}), 12, 2 ) ) - IF( VALUE( MID( TEXT( {!Get_Opportunity.CreatedDate} ), 12, 2 ) ) &lt; 12, 0, 12 ) )</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>Hour_CurrentDateTime</name>
+        <dataType>Number</dataType>
+        <expression>IF( OR( VALUE( MID( TEXT( {!$Flow.CurrentDateTime} ), 12, 2 ) ) = 0, VALUE( MID( TEXT( {!$Flow.CurrentDateTime}), 12, 2 ) ) = 12 ), 12, VALUE( MID( TEXT( {!$Flow.CurrentDateTime}), 12, 2 ) ) - IF( VALUE( MID( TEXT( {!$Flow.CurrentDateTime} ), 12, 2 ) ) &lt; 12, 0, 12 ) )</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>IsContactLead</name>
+        <dataType>Boolean</dataType>
+        <expression>{!Get_Lead.RecordTypeId} = {!$Label.Contact_Lead_Record_Type_Id}</expression>
+    </formulas>
+    <formulas>
+        <name>IsOpportunityCreatedFromLead</name>
+        <dataType>Boolean</dataType>
+        <expression>NOW() - {!Get_Opportunity.CreatedDate} &lt; 0.003</expression>
+    </formulas>
+    <formulas>
+        <name>Min_CreatedDate</name>
+        <dataType>Number</dataType>
+        <expression>VALUE( MID( TEXT( {!Get_Opportunity.CreatedDate} ), 15, 2 ) )</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>Min_CurrentDateTime</name>
+        <dataType>Number</dataType>
+        <expression>VALUE( MID( TEXT( {!$Flow.CurrentDateTime} ), 15, 2 ) )</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>oldDescritption</name>
+        <dataType>String</dataType>
+        <expression>{!Get_Opportunity.Description}</expression>
+    </formulas>
+    <formulas>
+        <name>OpportunityDescription</name>
+        <dataType>String</dataType>
+        <expression>&quot;Created from Lead  &quot; + {!Get_Lead.FirstName}  + &quot; &quot; + {!Get_Lead.LastName} + &quot; : &quot;  + BR() +BR() +
+
+&quot;The Lead&apos;s  Budget is: &quot; + TEXT( {!Get_Lead.Amount__c}) + BR() +BR() +
+
+&quot;Project Description (Lead&apos;s internal comment from the Telemarketing) : &quot; + {!Get_Lead.Internal_Comment__c}  + BR()+
+
+IF(NOT(ISBLANK({!Get_Lead.Project_s_associated_contact_1__c} )),&quot; Associated contacts: &quot;+ BR() + &quot; 1 - &quot; + {!Get_Lead.Project_s_associated_contact_1__c}  + &quot;, who is the &quot;+TEXT( {!Get_Lead.Role_in_decision_1__c} ) + &quot;available &quot; + {!Get_Lead.Availability1__c}  + &quot;.&quot;, {!Get_Lead.Project_s_associated_contact_1__c} ) + BR() +
+
+IF(NOT(ISBLANK({!Get_Lead.Project_s_associated_contact_2__c} )),&quot; Associated contacts: &quot;+ BR() + &quot; 2 - &quot; + {!Get_Lead.Project_s_associated_contact_2__c}  + &quot;, who is the &quot;+TEXT( {!Get_Lead.Role_in_decision_2__c} ) + &quot;available &quot; + {!Get_Lead.Availability2__c}  + &quot;.&quot;, {!Get_Lead.Project_s_associated_contact_2__c} ) + BR()</expression>
+    </formulas>
+    <interviewLabel>Lead Opportunity Merge Treatment {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Lead Opportunity Merge Treatment</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Lead</name>
+        <label>Get Lead</label>
+        <locationX>501</locationX>
+        <locationY>51</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Opportunity</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Lead</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Opportunity</name>
+        <label>Get Opportunity</label>
+        <locationX>786</locationX>
+        <locationY>50</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_Description</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Lead.ConvertedOpportunityId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Opportunity</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Owner</name>
+        <label>Get Owner</label>
+        <locationX>426</locationX>
+        <locationY>688</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Post_to_Oppy_Owner</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Opportunity.OwnerId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Oppy</name>
+        <label>Update Oppy</label>
+        <locationX>1151</locationX>
+        <locationY>879</locationY>
+        <inputReference>Get_Opportunity</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>90</locationX>
+        <locationY>32</locationY>
+        <connector>
+            <targetReference>Get_Lead</targetReference>
+        </connector>
+    </start>
+    <status>Obsolete</status>
+    <variables>
+        <name>LeadId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

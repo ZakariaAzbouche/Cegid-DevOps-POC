@@ -1,0 +1,10 @@
+.THIS .slds-modal__container{
+   width: 70vw;
+   position: absolute;
+    margin-left: 15vw;
+    transform: none;
+}
+.THIS .slds-modal{
+    left: -33vw !important;
+    
+}

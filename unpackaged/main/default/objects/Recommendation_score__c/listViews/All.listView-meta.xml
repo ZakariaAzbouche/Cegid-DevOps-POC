@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Contact__c</columns>
+    <columns>Date_of_answer__c</columns>
+    <columns>Recommendation_comment__c</columns>
+    <columns>Recommendation_score__c</columns>
+    <columns>Survey_Wave__c</columns>
+    <columns>Team_in_charge_of_contacting_back__c</columns>
+    <columns>Asked_to_be_contacted_back__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

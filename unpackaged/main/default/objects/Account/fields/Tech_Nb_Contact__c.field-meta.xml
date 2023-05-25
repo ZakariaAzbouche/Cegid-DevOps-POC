@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Nb_Contact__c</fullName>
+    <description>Nombre de contacts (directs ou indirects) à la fois actifs et compliants.
+Champ mis à jour dans la classe TH_Contact et dans les Flows ACR_OnCreate et ACR_OnDelete.</description>
+    <externalId>false</externalId>
+    <label>Tech Nb Contact</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

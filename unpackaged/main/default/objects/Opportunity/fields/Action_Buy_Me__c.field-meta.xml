@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action_Buy_Me__c</fullName>
+    <description>Displays : 
+- "Not available" if a CPQ quote is linked to the oppy or if stage &lt; D or Account Status not validated
+- URL for BuyMe proposal creation in BuyMe if no BuyMe Quote Id
+- URL to display BuyMe proposals linked to SFDC Opty if BuyMe Quote Id is filled</description>
+    <externalId>false</externalId>
+    <formula>IF (
+				OR(
+								CASE(StageName,   
+													"D - Draw up the solution",1,
+													"C - Validate the solution",1,
+													"B - Negotiate",1,
+													"A - Sign",1,
+													"Closed Won",1,
+													"Closed Lost",1,
+													"No Go Client",1,
+													"No Go CEGID",1,
+													0)=0, 
+								TECH_Has_a_CPQ_quote__c,
+								Oppy_TS__c, 
+								ISPICKVAL(Account.Status__c, "To Be Validated"),
+								ISPICKVAL(Account.Status__c, "To Be Deleted"),
+								ISPICKVAL(Account.Status__c, "In Progress Validation")
+				) ,
+				"Not available.",
+				IF (
+								ISBLANK( Buy_Me_Quote_Id__c),
+								IF (
+									IsClosed,
+									"Not available" ,
+									HYPERLINK($Label.BuyMeURL&amp;"?idClient="&amp; Account.ERP_Number__c &amp; "&amp;idOppy=" &amp; Id &amp; "&amp;suiviPar="&amp; Owner.EmployeeNumber&amp;"&amp;Origine=SFA&amp;type=proposition&amp;action=CreaFromOppy","Click to create a Buy Me Quote")
+								),
+								IF (
+									IsClosed,
+									HYPERLINK($Label.BuyMeURL&amp;"?idOppy="&amp; Id &amp; "&amp;type=rechProp&amp;mode=oppy&amp;Origine=SFA&amp;idClient="&amp; Account.ERP_Number__c,"See Buy Me Quotes") ,
+									HYPERLINK($Label.BuyMeURL&amp;"?idOppy="&amp; Id &amp; "&amp;type=rechProp&amp;mode=oppy&amp;Origine=SFA&amp;idClient="&amp; Account.ERP_Number__c,"See Buy Me Quotes")&amp;" Or "&amp; HYPERLINK($Label.BuyMeURL&amp;"?idClient="&amp; Account.ERP_Number__c &amp; "&amp;idOppy=" &amp; Id &amp; "&amp;suiviPar="&amp; Owner.EmployeeNumber&amp;"&amp;Origine=SFA&amp;type=proposition&amp;action=CreaFromOppy","Click to create a Buy Me Quote")
+								)	
+				)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Action Buy Me</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

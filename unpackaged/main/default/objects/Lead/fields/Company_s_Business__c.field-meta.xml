@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_s_Business__c</fullName>
+    <externalId>false</externalId>
+    <label>TO BE DELETED Company's Business</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administration publique</fullName>
+                <default>false</default>
+                <label>Administration publique</label>
+            </value>
+            <value>
+                <fullName>Agences de voyage</fullName>
+                <default>false</default>
+                <label>Agences de voyage</label>
+            </value>
+            <value>
+                <fullName>Agriculture peche et foret</fullName>
+                <default>false</default>
+                <label>Agriculture peche et foret</label>
+            </value>
+            <value>
+                <fullName>Assurances et mutuelles</fullName>
+                <default>false</default>
+                <label>Assurances et mutuelles</label>
+            </value>
+            <value>
+                <fullName>Banques et services financiers</fullName>
+                <default>false</default>
+                <label>Banques et services financiers</label>
+            </value>
+            <value>
+                <fullName>Bibliothèques et tourisme</fullName>
+                <default>false</default>
+                <label>Bibliothèques et tourisme</label>
+            </value>
+            <value>
+                <fullName>Btp</fullName>
+                <default>false</default>
+                <label>Btp</label>
+            </value>
+            <value>
+                <fullName>Cabinets de conseils</fullName>
+                <default>false</default>
+                <label>Cabinets de conseils</label>
+            </value>
+            <value>
+                <fullName>Caisses de retraite</fullName>
+                <default>false</default>
+                <label>Caisses de retraite</label>
+            </value>
+            <value>
+                <fullName>Casinos et jeux de hasard</fullName>
+                <default>false</default>
+                <label>Casinos et jeux de hasard</label>
+            </value>
+            <value>
+                <fullName>CCI</fullName>
+                <default>false</default>
+                <label>CCI</label>
+            </value>
+            <value>
+                <fullName>Coiffeur</fullName>
+                <default>false</default>
+                <label>Coiffeur</label>
+            </value>
+            <value>
+                <fullName>Commerce de détail alimentaire</fullName>
+                <default>false</default>
+                <label>Commerce de détail alimentaire</label>
+            </value>
+            <value>
+                <fullName>Commerce de détail divers</fullName>
+                <default>false</default>
+                <label>Commerce de détail divers</label>
+            </value>
+            <value>
+                <fullName>Commerce de détail spécialisé</fullName>
+                <default>false</default>
+                <label>Commerce de détail spécialisé</label>
+            </value>
+            <value>
+                <fullName>Divers associations</fullName>
+                <default>false</default>
+                <label>Divers associations</label>
+            </value>
+            <value>
+                <fullName>E Commerce et VPC</fullName>
+                <default>false</default>
+                <label>E Commerce et VPC</label>
+            </value>
+            <value>
+                <fullName>Edition de logiciels</fullName>
+                <default>false</default>
+                <label>Edition de logiciels</label>
+            </value>
+            <value>
+                <fullName>Emploi</fullName>
+                <default>false</default>
+                <label>Emploi</label>
+            </value>
+            <value>
+                <fullName>Enquete et sécurité</fullName>
+                <default>false</default>
+                <label>Enquete et sécurité</label>
+            </value>
+            <value>
+                <fullName>Enseignement</fullName>
+                <default>false</default>
+                <label>Enseignement</label>
+            </value>
+            <value>
+                <fullName>Environnement</fullName>
+                <default>false</default>
+                <label>Environnement</label>
+            </value>
+            <value>
+                <fullName>Expertise comptable</fullName>
+                <default>false</default>
+                <label>Expertise comptable</label>
+            </value>
+            <value>
+                <fullName>Grande ou moyenne surface</fullName>
+                <default>false</default>
+                <label>Grande ou moyenne surface</label>
+            </value>
+            <value>
+                <fullName>Holding</fullName>
+                <default>false</default>
+                <label>Holding</label>
+            </value>
+            <value>
+                <fullName>Hotellerie restauration</fullName>
+                <default>false</default>
+                <label>Hotellerie restauration</label>
+            </value>
+            <value>
+                <fullName>Immobilier</fullName>
+                <default>false</default>
+                <label>Immobilier</label>
+            </value>
+            <value>
+                <fullName>Ind alimentaire et boissons</fullName>
+                <default>false</default>
+                <label>Ind alimentaire et boissons</label>
+            </value>
+            <value>
+                <fullName>Ind chimie cosmétique pharma</fullName>
+                <default>false</default>
+                <label>Ind chimie cosmétique pharma</label>
+            </value>
+            <value>
+                <fullName>Ind équipement électrique</fullName>
+                <default>false</default>
+                <label>Ind équipement électrique</label>
+            </value>
+            <value>
+                <fullName>Ind info electro optique</fullName>
+                <default>false</default>
+                <label>Ind info electro optique</label>
+            </value>
+            <value>
+                <fullName>Ind machines et équipements</fullName>
+                <default>false</default>
+                <label>Ind machines et équipements</label>
+            </value>
+            <value>
+                <fullName>Ind metallurgique et prod</fullName>
+                <default>false</default>
+                <label>Ind metallurgique et prod</label>
+            </value>
+            <value>
+                <fullName>Ind petrolière et plastique</fullName>
+                <default>false</default>
+                <label>Ind petrolière et plastique</label>
+            </value>
+            <value>
+                <fullName>Ind verre céramique beton</fullName>
+                <default>false</default>
+                <label>Ind verre céramique beton</label>
+            </value>
+            <value>
+                <fullName>Industrie aéronautique</fullName>
+                <default>false</default>
+                <label>Industrie aéronautique</label>
+            </value>
+            <value>
+                <fullName>Industrie automobile</fullName>
+                <default>false</default>
+                <label>Industrie automobile</label>
+            </value>
+            <value>
+                <fullName>Industrie bois papier carton</fullName>
+                <default>false</default>
+                <label>Industrie bois papier carton</label>
+            </value>
+            <value>
+                <fullName>Industrie de la bijouterie</fullName>
+                <default>false</default>
+                <label>Industrie de la bijouterie</label>
+            </value>
+            <value>
+                <fullName>Industrie de la musique</fullName>
+                <default>false</default>
+                <label>Industrie de la musique</label>
+            </value>
+            <value>
+                <fullName>Industrie de l'habillement</fullName>
+                <default>false</default>
+                <label>Industrie de l'habillement</label>
+            </value>
+            <value>
+                <fullName>Industrie du jouet</fullName>
+                <default>false</default>
+                <label>Industrie du jouet</label>
+            </value>
+            <value>
+                <fullName>Industrie du meuble</fullName>
+                <default>false</default>
+                <label>Industrie du meuble</label>
+            </value>
+            <value>
+                <fullName>Industrie du sport</fullName>
+                <default>false</default>
+                <label>Industrie du sport</label>
+            </value>
+            <value>
+                <fullName>Industrie du transport</fullName>
+                <default>false</default>
+                <label>Industrie du transport</label>
+            </value>
+            <value>
+                <fullName>Industrie équipement médical</fullName>
+                <default>false</default>
+                <label>Industrie équipement médical</label>
+            </value>
+            <value>
+                <fullName>Industries diverses</fullName>
+                <default>false</default>
+                <label>Industries diverses</label>
+            </value>
+            <value>
+                <fullName>Industries extractives</fullName>
+                <default>false</default>
+                <label>Industries extractives</label>
+            </value>
+            <value>
+                <fullName>Ingénierie</fullName>
+                <default>false</default>
+                <label>Ingénierie</label>
+            </value>
+            <value>
+                <fullName>Instal maintenance machines</fullName>
+                <default>false</default>
+                <label>Instal maintenance machines</label>
+            </value>
+            <value>
+                <fullName>Juridique</fullName>
+                <default>false</default>
+                <label>Juridique</label>
+            </value>
+            <value>
+                <fullName>Location</fullName>
+                <default>false</default>
+                <label>Location</label>
+            </value>
+            <value>
+                <fullName>Mairie</fullName>
+                <default>false</default>
+                <label>Mairie</label>
+            </value>
+            <value>
+                <fullName>Medias et divertissements</fullName>
+                <default>false</default>
+                <label>Medias et divertissements</label>
+            </value>
+            <value>
+                <fullName>Negoce</fullName>
+                <default>false</default>
+                <label>Negoce</label>
+            </value>
+            <value>
+                <fullName>Nettoyage</fullName>
+                <default>false</default>
+                <label>Nettoyage</label>
+            </value>
+            <value>
+                <fullName>OGA AGC</fullName>
+                <default>false</default>
+                <label>OGA AGC</label>
+            </value>
+            <value>
+                <fullName>Orga extra territoriales</fullName>
+                <default>false</default>
+                <label>Orga extra territoriales</label>
+            </value>
+            <value>
+                <fullName>Organisation politique</fullName>
+                <default>false</default>
+                <label>Organisation politique</label>
+            </value>
+            <value>
+                <fullName>Organisation professionnelle</fullName>
+                <default>false</default>
+                <label>Organisation professionnelle</label>
+            </value>
+            <value>
+                <fullName>Organisation religieuse</fullName>
+                <default>false</default>
+                <label>Organisation religieuse</label>
+            </value>
+            <value>
+                <fullName>Prod et distribution d'énergie</fullName>
+                <default>false</default>
+                <label>Prod et distribution d'énergie</label>
+            </value>
+            <value>
+                <fullName>Publicité et études de marché</fullName>
+                <default>false</default>
+                <label>Publicité et études de marché</label>
+            </value>
+            <value>
+                <fullName>Recherche et développement</fullName>
+                <default>false</default>
+                <label>Recherche et développement</label>
+            </value>
+            <value>
+                <fullName>Sanitaire et social</fullName>
+                <default>false</default>
+                <label>Sanitaire et social</label>
+            </value>
+            <value>
+                <fullName>Santé</fullName>
+                <default>false</default>
+                <label>Santé</label>
+            </value>
+            <value>
+                <fullName>SDIS</fullName>
+                <default>false</default>
+                <label>SDIS</label>
+            </value>
+            <value>
+                <fullName>Services aux personnes</fullName>
+                <default>false</default>
+                <label>Services aux personnes</label>
+            </value>
+            <value>
+                <fullName>Services divers</fullName>
+                <default>false</default>
+                <label>Services divers</label>
+            </value>
+            <value>
+                <fullName>Services financiers divers</fullName>
+                <default>false</default>
+                <label>Services financiers divers</label>
+            </value>
+            <value>
+                <fullName>Services informatiques</fullName>
+                <default>false</default>
+                <label>Services informatiques</label>
+            </value>
+            <value>
+                <fullName>Sous-traitant comptable</fullName>
+                <default>false</default>
+                <label>Sous-traitant comptable</label>
+            </value>
+            <value>
+                <fullName>Sport et culture</fullName>
+                <default>false</default>
+                <label>Sport et culture</label>
+            </value>
+            <value>
+                <fullName>Télécommunication</fullName>
+                <default>false</default>
+                <label>Télécommunication</label>
+            </value>
+            <value>
+                <fullName>Traitement des dechets</fullName>
+                <default>false</default>
+                <label>Traitement des dechets</label>
+            </value>
+            <value>
+                <fullName>Transport</fullName>
+                <default>false</default>
+                <label>Transport</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

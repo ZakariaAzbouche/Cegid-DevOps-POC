@@ -1,0 +1,113 @@
+.cardstyle{
+    background: #ffffff;
+    border: thin solid blue;
+    border-radius: 18px;
+    box-shadow: 0px 4px 12px 7px rgb(0 0 0 / 10%);
+    height: auto;
+    width: 36vw;
+    /* padding: 2% 2% 2% 1%; */
+    /*margin: auto;*/
+}
+
+.titleSessions{
+    color: #0046FE;
+    font-size: 23px;
+    font-weight: 900;
+    text-decoration: none;
+    margin-bottom: 4%;
+}
+
+.titleNoSessions{
+    color: #0046FE;
+    font-size: 23px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.description{
+    font-family: 'gelion';
+    font-size: 16px;
+}
+
+.datecontainer p {
+    font-family: var(--lwc-fontFamily,);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    list-style-type: disc;
+    margin-left: 18px;
+}
+
+.dateSection .date{
+    font-family: 'gelion';
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.dateSection:hover .date{
+    color: #0046FE;
+    font-weight: bold;
+}
+
+.otherInfo {
+    font-family: 'gelion medium';
+    font-size: 14px;
+}
+
+.dateSection:hover .otherInfo{
+    font-weight: bold;
+}
+
+.availability{
+    margin-left: 2rem;
+}
+
+input[type='radio']:checked:before {
+    background-color: #0046FE;
+}
+
+label > input[type="radio"] {
+    display: none;
+}
+
+label > input[type="radio"] + *::before {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    width: 1rem;
+    height: 1rem;
+    margin-right: /* 0.3rem; */ 1rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: gray;
+    margin-bottom: -0.5rem;/* Added by VMO */
+}
+
+label > input[type="radio"]:checked + *::before {
+    background: radial-gradient(#0046FE 0%, #0046FE 40%, transparent 50%, transparent);
+    border-color: #0046FE;
+}
+
+label > input[type="radio"]:checked + * {
+    color: #0046FE;
+}
+
+/* .radio {
+    line-height:20px;
+    height:40px;
+    width:15px;
+    float:left;
+}
+.radio input {
+    vertical-align:middle;
+}
+.label {
+    height:40px;
+    width:150px;
+    font-size:12px;
+    font-weight:bold;
+    font-family:Arial, sans-serif;
+    float:left;
+} */

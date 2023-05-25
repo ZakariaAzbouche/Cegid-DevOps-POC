@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used to allow an Admin the right to create a Quote even if they are not the Opportunity Owner</description>
+    <isLicensed>false</isLicensed>
+    <label>Allowed to create Quote</label>
+</CustomPermission>

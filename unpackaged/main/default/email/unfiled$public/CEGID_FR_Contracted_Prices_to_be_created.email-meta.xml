@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CEGID FR - Contracted Prices to be created</name>
+    <style>none</style>
+    <subject>Demande de création de prix contrat cadre</subject>
+    <textOnly>Bonjour,
+
+Suite à validation par le service juridique, des prix contrat cadre pour le client {!Case.AccountName__c} sont à créer. Pour accéder à la demande validée {!Case.CaseNumber}, connectez-vous à CPQ ou accédez directement au case ici.
+
+Cordialement,</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

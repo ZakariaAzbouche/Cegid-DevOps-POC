@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Contact_the_LEAD_when_the_phone_numbers_are_wrong</fullName>
+        <description>Contact the LEAD when the phone numbers are wrong</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Lead_Email_Templates/Lead_Qualification_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Qualification_Template_2</fullName>
+        <description>Lead Qualification - Template 2</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Lead_Email_Templates/Lead_Qualification_Template_2</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Qualification_Template_3</fullName>
+        <description>Lead Qualification - Template 3</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Lead_Email_Templates/Lead_Qualification_Template_3</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Qualification_Template_4</fullName>
+        <description>Lead Qualification - Template 4</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Lead_Email_Templates/Lead_Qualification_Template_4</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Qualification_Template_5</fullName>
+        <description>Lead Qualification - Template 5</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Lead_Email_Templates/Lead_Qualification_Template_5</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_lead_owner_of_delay</fullName>
+        <description>Notify lead owner of delay</description>
+        <protected>false</protected>
+        <recipients>
+            <type>campaignMemberDerivedOwner</type>
+        </recipients>
+        <recipients>
+            <recipient>arnaud.colas@comforth.eu.cegid</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Oppy_Lead_Email_Templates/Delay_Lead_Time</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_the_new_Lead_Owner</fullName>
+        <description>Notify the new Lead Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Lead_Email_Templates/LeadNewassignmentnotification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Assigned_to_Partner_Modified</fullName>
+        <field>ImpartnerPRM__PartnerLastModifiedDate__c</field>
+        <name>Assigned to Partner Modified</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assigned_to_Partner_Pending</fullName>
+        <field>ImpartnerPRM__PartnerLeadAcceptance__c</field>
+        <literalValue>Pending</literalValue>
+        <name>Assigned to Partner Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assigned_to_Partner_Timestamp</fullName>
+        <field>ImpartnerPRM__DateAssignedToPartner__c</field>
+        <formula>NOW()</formula>
+        <name>Assigned to Partner Timestamp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>NotifyPartnerUncheck</fullName>
+        <field>ImpartnerPRM__NotifyPartner__c</field>
+        <literalValue>0</literalValue>
+        <name>Notify Partner Uncheck</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>Deal_Registration_Denied</fullName>
+        <apiVersion>45.0</apiVersion>
+        <endpointUrl>https://partners.cegid.com/services/sfdc/DealRegistrationDenied.ashx</endpointUrl>
+        <fields>Id</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>supportclient@comforth.eu.cegid</integrationUser>
+        <name>Deal Registration Denied</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <outboundMessages>
+        <fullName>NotifyPartnerOutbound</fullName>
+        <apiVersion>42.0</apiVersion>
+        <endpointUrl>https://partners.cegid.com/services/sfdc/LeadNotifyPartner.ashx</endpointUrl>
+        <fields>Id</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>supportclient@comforth.eu.cegid</integrationUser>
+        <name>Notify Partner Outbound</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <rules>
+        <fullName>Assigned to Partner</fullName>
+        <actions>
+            <name>Assigned_to_Partner_Modified</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Assigned_to_Partner_Pending</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Assigned_to_Partner_Timestamp</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>(ImpartnerPRM__IsDealRegistration__c == false) &amp;&amp; (ISNEW() || ISCHANGED(ImpartnerPRM__PartnerContact__c)) &amp;&amp; (ImpartnerPRM__PartnerContact__c != null)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Deal Registration Denied</fullName>
+        <actions>
+            <name>Deal_Registration_Denied</name>
+            <type>OutboundMessage</type>
+        </actions>
+        <active>true</active>
+        <formula>(ImpartnerPRM__IsDealRegistration__c == true) &amp;&amp;  (ImpartnerPRM__DealRegistrationDenied__c == true)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify Partner</fullName>
+        <actions>
+            <name>NotifyPartnerUncheck</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>NotifyPartnerOutbound</name>
+            <type>OutboundMessage</type>
+        </actions>
+        <active>true</active>
+        <formula>(ImpartnerPRM__NotifyPartner__c == true)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

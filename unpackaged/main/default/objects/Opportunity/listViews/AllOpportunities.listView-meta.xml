@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllOpportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ERP_Number__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Buy_Me_Quote_Id__c</columns>
+    <columns>Old_MRR__c</columns>
+    <columns>Old_SaaS_Booking_BuyMe__c</columns>
+    <columns>New_SaaS_Booking_BuyMe__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>Toutes les opportunités</label>
+</ListView>

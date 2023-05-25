@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Invoice Sending Mode --></label>
+        <name>Invoice_Sending_Mode__c</name>
+        <picklistValues>
+            <masterLabel>ADV Print</masterLabel>
+            <translation><!-- ADV Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chorus</masterLabel>
+            <translation><!-- Chorus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paper (router)</masterLabel>
+            <translation><!-- Paper (router) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

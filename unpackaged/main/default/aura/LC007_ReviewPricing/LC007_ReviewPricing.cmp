@@ -1,0 +1,31 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId" access="global">
+    
+    
+    <lightning:spinner aura:id="mySpinner" class="slds-hide" variant="brand" size="medium" alternativeText="..." />
+    <lightning:navigation aura:id="navService"/>
+    <!--Component Start-->
+    
+
+    <div class="slds-m-around_xx-large">
+        <div class="slds-text-heading_medium slds-m-bottom_x-large slds-align_absolute-center">What are your Price Targets?</div>
+        <lightning:recordEditForm objectApiName="SBQQ__Quote__c"
+                                  recordId="{!v.recordId}"
+                                  aura:id="quoteForm"
+                                  onload="{!c.handleOnLoad}"
+                                  onsubmit="{!c.handleOnSubmit}"
+                                  onsuccess="{!c.handleOnSuccess}"
+                                  onerror="{!c.handleOnError}">
+            <!--<lightning:messages />-->
+            <lightning:inputField aura:id="AdditionalDiscountReason" fieldName="Additional_discount_reason__c" />
+            <lightning:inputField aura:id="TargetedPriceForGlobal" fieldName="TargetedPriceForGlobal__c" />
+            <lightning:inputField aura:id="TargetedPriceForSaas" fieldName="TargetedPriceForSaas__c" />
+            <lightning:inputField aura:id="TargetedPriceForProfessionalServices" fieldName="TargetedPriceForProfessional_Services__c" />
+            <lightning:inputField aura:id="TargetedPriceForLicense" fieldName="TargetedPriceForLicense__c"/>
+            <lightning:inputField aura:id="TargetedPriceForMaintenance" fieldName="TargetedPriceForMaintenance__c"/>
+            <lightning:inputField aura:id="TargetedPriceForHardware" fieldName="TargetedPriceForHardware__c"/>
+            
+            <lightning:button variant="brand" type="submit" name="save" label="Save" class="slds-m-top_x-large slds-align_absolute-center"/>
+        </lightning:recordEditForm>
+    </div>
+    <!--Component End-->
+</aura:component>

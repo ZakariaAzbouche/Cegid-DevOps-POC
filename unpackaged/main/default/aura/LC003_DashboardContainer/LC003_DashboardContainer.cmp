@@ -1,0 +1,33 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable,lightning:isUrlAddressable">
+    <!-- call doInit method on component load -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    
+    <aura:attribute name="getProductId" type="String" description="Get Id from product via URL"/>
+    <aura:attribute name="getIds" type="String" description="Get Id from product via URL"/>
+    <aura:attribute name="colSize" type="String" description="Set Size depending on number of Report"/>
+    <aura:attribute name="getRecordTypeDevName" type="String" description="Get Id from product via URL"/>
+    <aura:attribute name="displayCustom" type="String" description="Get Value from product via URL"/>
+    <aura:attribute name="reportIds" type="List" description="List Id's of report that need to be rendered"/>
+    <aura:attribute name="pageReference" type="Object"/>
+    <aura:handler name="change" value="{!v.pageReference}" action="{!c.Reload}"/>
+    
+   
+    
+    <div class="slds-grid slds-gutters slds-wrap">
+        <aura:if isTrue="{!v.reportIds.length > 0}">
+            <aura:iteration items="{!v.reportIds}" var="rep">
+                <div class="{!v.colSize}" style="Padding:30px;">
+                    <c:LC003_ReportContainer reportIdAttribute="{!rep}"  recordId="{!v.getProductId}"/>
+                </div>
+            </aura:iteration>
+        </aura:if>
+        <aura:if isTrue="{!v.displayCustom eq 'Yes'}">
+            <div class="{!v.colSize}" style="Padding:30px;">
+                <c:LC002_ProductReport getRecordTypeDevName="{!v.getRecordTypeDevName}" getProductId="{!v.getProductId}"/>
+            </div>
+        </aura:if>
+        
+    </div>
+    
+</aura:component>

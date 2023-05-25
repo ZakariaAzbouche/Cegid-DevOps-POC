@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>099</fullName>
+        <default>false</default>
+        <label>IA</label>
+    </customValue>
+    <customValue>
+        <fullName>100</fullName>
+        <default>false</default>
+        <label>IC</label>
+    </customValue>
+    <customValue>
+        <fullName>101</fullName>
+        <default>false</default>
+        <label>DA</label>
+    </customValue>
+    <customValue>
+        <fullName>102</fullName>
+        <default>false</default>
+        <label>DV</label>
+    </customValue>
+    <customValue>
+        <fullName>103</fullName>
+        <default>false</default>
+        <label>BUSINESS DEVELOPPER</label>
+    </customValue>
+    <customValue>
+        <fullName>105</fullName>
+        <default>false</default>
+        <label>-- Generic Sales Engineer</label>
+    </customValue>
+    <customValue>
+        <fullName>107</fullName>
+        <default>false</default>
+        <label>INSIDES SALES</label>
+    </customValue>
+    <customValue>
+        <fullName>108</fullName>
+        <default>false</default>
+        <label>Head of Telesales Group</label>
+    </customValue>
+    <customValue>
+        <fullName>109</fullName>
+        <default>false</default>
+        <label>CONSULTANT</label>
+    </customValue>
+    <customValue>
+        <fullName>110</fullName>
+        <default>false</default>
+        <label>Customer Service</label>
+    </customValue>
+    <customValue>
+        <fullName>111</fullName>
+        <default>false</default>
+        <label>Sedentary Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>113</fullName>
+        <default>false</default>
+        <label>Sales Engineer Hunting</label>
+    </customValue>
+    <customValue>
+        <fullName>114</fullName>
+        <default>false</default>
+        <label>Sales Engineer Installed base</label>
+    </customValue>
+    <customValue>
+        <fullName>115</fullName>
+        <default>false</default>
+        <label>Mixed Sales Engineer</label>
+    </customValue>
+    <customValue>
+        <fullName>116</fullName>
+        <default>false</default>
+        <label>Sales Engineer CPA-Collaborative &amp; Presc</label>
+    </customValue>
+    <customValue>
+        <fullName>117</fullName>
+        <default>false</default>
+        <label>Sales Engineer CPA Migration SAAS</label>
+    </customValue>
+    <customValue>
+        <fullName>118</fullName>
+        <default>false</default>
+        <label>IS CPA Collaboratif &amp; Presc</label>
+    </customValue>
+    <customValue>
+        <fullName>119</fullName>
+        <default>false</default>
+        <label>IS CPA Migration SAAS</label>
+    </customValue>
+    <customValue>
+        <fullName>120</fullName>
+        <default>false</default>
+        <label>Customer Sucess</label>
+    </customValue>
+    <customValue>
+        <fullName>999</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>121</fullName>
+        <default>false</default>
+        <label>Digital CSM</label>
+    </customValue>
+    <customValue>
+        <fullName>122</fullName>
+        <default>false</default>
+        <label>SDR</label>
+    </customValue>
+    <customValue>
+        <fullName>123</fullName>
+        <default>false</default>
+        <label>ICS</label>
+    </customValue>
+    <masterLabel>Job</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

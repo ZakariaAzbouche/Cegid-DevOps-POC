@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Validator__c</fullName>
+    <description>User who is liable for the validation of Quote Discounts for the current User</description>
+    <externalId>false</externalId>
+    <label>Discount Validator</label>
+    <relationshipName>Quote_Discount_Validator_User</relationshipName>
+    <restrictedAdminField>false</restrictedAdminField>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Hierarchy</type>
+</CustomField>

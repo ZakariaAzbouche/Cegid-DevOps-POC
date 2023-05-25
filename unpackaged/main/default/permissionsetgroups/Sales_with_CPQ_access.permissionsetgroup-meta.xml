@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Sales with CPQ access</label>
+    <permissionSets>Advanced_Approvals_User_Completed_Version</permissionSets>
+    <permissionSets>CPQ_User_Addon</permissionSets>
+    <permissionSets>SBQQ__SteelBrickCPQUser</permissionSets>
+    <permissionSets>dsfs__DocuSign_Sender</permissionSets>
+    <permissionSets>sbaa__AdvancedApprovalsUser</permissionSets>
+    <permissionSets>sortablegrid__View_Sortable_Data_Grids</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Team in charge of contacting back --></label>
+        <name>Team_in_charge_of_contacting_back__c</name>
+        <picklistValues>
+            <masterLabel>CSM</masterLabel>
+            <translation><!-- CSM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Care</masterLabel>
+            <translation><!-- Customer Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No call back required</masterLabel>
+            <translation><!-- No call back required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

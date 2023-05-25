@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Finance and accounting</fullName>
+        <default>false</default>
+        <label>Finance and accounting</label>
+    </customValue>
+    <customValue>
+        <fullName>HR</fullName>
+        <default>false</default>
+        <label>HR</label>
+    </customValue>
+    <customValue>
+        <fullName>IT</fullName>
+        <default>false</default>
+        <label>IT</label>
+    </customValue>
+    <customValue>
+        <fullName>Legal Affairs</fullName>
+        <default>false</default>
+        <label>Legal Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Management</fullName>
+        <default>false</default>
+        <label>Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing and communication</fullName>
+        <default>false</default>
+        <label>Marketing and communication</label>
+    </customValue>
+    <customValue>
+        <fullName>Production</fullName>
+        <default>false</default>
+        <label>Production</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchasing</fullName>
+        <default>false</default>
+        <label>Purchasing</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Representative</fullName>
+        <default>false</default>
+        <label>Sales Representative</label>
+    </customValue>
+    <customValue>
+        <fullName>Transversal</fullName>
+        <default>false</default>
+        <label>Transversal</label>
+    </customValue>
+    <customValue>
+        <fullName>NR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NR</label>
+    </customValue>
+    <masterLabel>Service</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

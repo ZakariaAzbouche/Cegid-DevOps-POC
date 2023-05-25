@@ -1,0 +1,45 @@
+<template>
+    <lightning-record-edit-form object-api-name={partObject} record-id={getParticipants} onsuccess={handleParticipantSuccess} onerror={handleError} onload={handleOnLoad}>
+      
+        <!--lightning-messages></lightning-messages-->
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col adjust_col">
+                <lightning-input type="checkbox" name="checkbox" onchange={handleChecked} class="checkbox"></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-6">
+                <div class="picklist">
+                    <lightning-input-field placeholder="Civilité" value={_salutation} name="salutation" required="true" variant="label-stacked"  field-name={salutation} onchange={onChangeHandler} disabled={disabled}></lightning-input-field>
+                </div>
+            </div>
+            <div class="slds-col slds-size_1-of-4">
+                <lightning-input-field placeholder="Nom" name="name" required="true" variant="label-stacked"  field-name={partName} onchange={onChangeHandler} disabled={disabled}></lightning-input-field>
+            </div>
+            <div class="slds-col slds-size_1-of-4">
+                <lightning-input-field placeholder="Prénom"  name="lastName" required="true" variant="label-stacked"  field-name={partPrenom} onchange={onChangeHandler} disabled={disabled}></lightning-input-field>
+            </div>
+            <div class="slds-col slds-size_1-of-4">
+                <lightning-input-field placeholder="Email address" name="email" required="true" variant="label-stacked"  field-name={emailAdd} class="slds-float_left" onchange={onChangeHandler} disabled={disabled}></lightning-input-field>
+                <div if:true={showError} class="slds-has-error slds-form-element__help slds-text-color_error">
+                    {showError}
+                </div>
+            </div>
+           
+            <div class="slds-size_9-of-9 slds-m-top_medium">
+                    <lightning-spinner
+                        if:true={isSpinning}
+                        class="slds-is-relative slds-align_absolute-center slds-m-around_large"
+                        alternative-text="Chargement du produit en cours..."
+                        size="small"
+                        variant="brand"
+                    >
+                    </lightning-spinner>
+            </div>
+            
+            
+            <div class="slds-col slds-size_1-of-5 slds-hidden">
+                <lightning-input-field variant="label-stacked"  field-name={cartItemsId} value={getCartItemsIds}></lightning-input-field>
+            </div>
+         </div>
+    </lightning-record-edit-form> 
+    
+</template>

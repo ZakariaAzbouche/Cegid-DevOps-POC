@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FlagBankInfoChanged__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Disable trigger that enables IsChangedIBANBIC__c on SBQQ__Quote__c when IBAN or BIC is updated by client when signing quote from DocuSign</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Disable trigger that enables IsChangedIBANBIC__c on SBQQ__Quote__c when IBAN or BIC is updated by client when signing quote from DocuSign</inlineHelpText>
+    <label>Flag Bank Info Changed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

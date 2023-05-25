@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>HR Manager</masterLabel>
+        <translation>DRH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT Management</masterLabel>
+        <translation>DSI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Managing Director</masterLabel>
+        <translation>DG</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Payroll Manager</masterLabel>
+        <translation>Responsable Paie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Talent Manager</masterLabel>
+        <translation>Responsable Talent</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

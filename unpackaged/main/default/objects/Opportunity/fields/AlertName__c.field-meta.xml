@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AlertName__c</fullName>
+    <externalId>false</externalId>
+    <label>Alert Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Close Date Exceeded</fullName>
+                <default>false</default>
+                <label>Close Date Exceeded</label>
+            </value>
+            <value>
+                <fullName>Closed Date non-coherent</fullName>
+                <default>false</default>
+                <label>Closed Date non-coherent</label>
+            </value>
+            <value>
+                <fullName>Missing Meddic</fullName>
+                <default>false</default>
+                <label>Missing Meddic</label>
+            </value>
+            <value>
+                <fullName>Missing Next Step</fullName>
+                <default>false</default>
+                <label>Missing Next Step</label>
+            </value>
+            <value>
+                <fullName>Opportunities Without errors</fullName>
+                <default>true</default>
+                <label>Opportunities Without errors</label>
+            </value>
+            <value>
+                <fullName>Missing Quote</fullName>
+                <default>false</default>
+                <label>Missing Quote</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

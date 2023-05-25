@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segment_360__c</fullName>
+    <externalId>false</externalId>
+    <label>Segment 360</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 Gold</fullName>
+                <default>false</default>
+                <label>1 Gold</label>
+            </value>
+            <value>
+                <fullName>2 Silver</fullName>
+                <default>false</default>
+                <label>2 Silver</label>
+            </value>
+            <value>
+                <fullName>3 Bronze</fullName>
+                <default>false</default>
+                <label>3 Bronze</label>
+            </value>
+            <value>
+                <fullName>4 New Customer</fullName>
+                <default>false</default>
+                <label>4 New Customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

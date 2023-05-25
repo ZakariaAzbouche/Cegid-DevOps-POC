@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reject_Cause__c</fullName>
+    <description>Motif de rejet</description>
+    <externalId>false</externalId>
+    <label>Reject Cause</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Spam</fullName>
+                <default>false</default>
+                <label>Spam</label>
+            </value>
+            <value>
+                <fullName>Incomplete data</fullName>
+                <default>false</default>
+                <label>Incomplete data</label>
+            </value>
+            <value>
+                <fullName>Off target</fullName>
+                <default>false</default>
+                <label>Off target</label>
+            </value>
+            <value>
+                <fullName>BANT reject - budget</fullName>
+                <default>false</default>
+                <label>BANT reject - budget</label>
+            </value>
+            <value>
+                <fullName>BANT reject - authority</fullName>
+                <default>false</default>
+                <label>BANT reject - authority</label>
+            </value>
+            <value>
+                <fullName>BANT reject - need (functional perimeter)</fullName>
+                <default>false</default>
+                <label>BANT reject - need (functional perimeter)</label>
+            </value>
+            <value>
+                <fullName>BANT reject - need (technology)</fullName>
+                <default>false</default>
+                <label>BANT reject - need (technology)</label>
+            </value>
+            <value>
+                <fullName>BANT reject - need (international perimeter)</fullName>
+                <default>false</default>
+                <label>BANT reject - need (international perimeter)</label>
+            </value>
+            <value>
+                <fullName>BANT reject - timing</fullName>
+                <default>false</default>
+                <label>BANT reject - timing</label>
+            </value>
+            <value>
+                <fullName>Unreachable</fullName>
+                <default>false</default>
+                <label>Unreachable</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Non commercial request</fullName>
+                <default>false</default>
+                <label>Non commercial request</label>
+            </value>
+            <value>
+                <fullName>Signed for the competition</fullName>
+                <default>false</default>
+                <label>Signed for the competition</label>
+            </value>
+            <value>
+                <fullName>Already a client</fullName>
+                <default>false</default>
+                <label>Already a client</label>
+            </value>
+            <value>
+                <fullName>Abandoned project</fullName>
+                <default>false</default>
+                <label>Abandoned project</label>
+            </value>
+            <value>
+                <fullName>Not the good lead owner</fullName>
+                <default>false</default>
+                <label>Not the good lead owner</label>
+            </value>
+            <value>
+                <fullName>Already created opportunity</fullName>
+                <default>false</default>
+                <label>Already created opportunity</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>MQL</controllingFieldValue>
+            <valueName>Not the good lead owner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MQL</controllingFieldValue>
+            <valueName>Already created opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAL</controllingFieldValue>
+            <valueName>BANT reject - budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAL</controllingFieldValue>
+            <valueName>BANT reject - authority</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAL</controllingFieldValue>
+            <valueName>BANT reject - need (functional perimeter)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAL</controllingFieldValue>
+            <valueName>BANT reject - need (technology)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAL</controllingFieldValue>
+            <valueName>BANT reject - need (international perimeter)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAL</controllingFieldValue>
+            <valueName>BANT reject - timing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAL</controllingFieldValue>
+            <valueName>Unreachable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAL</controllingFieldValue>
+            <valueName>Duplicate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAL</controllingFieldValue>
+            <controllingFieldValue>No Go CEGID</controllingFieldValue>
+            <valueName>Non commercial request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAL</controllingFieldValue>
+            <valueName>Signed for the competition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAL</controllingFieldValue>
+            <valueName>Already a client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAL</controllingFieldValue>
+            <valueName>Abandoned project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AQL</controllingFieldValue>
+            <valueName>Spam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AQL</controllingFieldValue>
+            <valueName>Incomplete data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AQL</controllingFieldValue>
+            <valueName>Off target</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

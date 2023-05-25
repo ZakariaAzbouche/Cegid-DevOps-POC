@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>A01</fullName>
+        <default>false</default>
+        <label>Arrêt de contrat</label>
+    </customValue>
+    <customValue>
+        <fullName>A02</fullName>
+        <default>false</default>
+        <label>Avoirs pour refacturation</label>
+    </customValue>
+    <customValue>
+        <fullName>A03</fullName>
+        <default>false</default>
+        <label>Erreur administrative</label>
+    </customValue>
+    <customValue>
+        <fullName>A04</fullName>
+        <default>false</default>
+        <label>Erreur technique</label>
+    </customValue>
+    <customValue>
+        <fullName>A05</fullName>
+        <default>false</default>
+        <label>Manque pièce(s) justificative(s)</label>
+    </customValue>
+    <customValue>
+        <fullName>A06</fullName>
+        <default>false</default>
+        <label>Pricing</label>
+    </customValue>
+    <customValue>
+        <fullName>A07</fullName>
+        <default>false</default>
+        <label>Solde client irrécouvrable</label>
+    </customValue>
+    <customValue>
+        <fullName>C01</fullName>
+        <default>false</default>
+        <label>Acte commercial erroné</label>
+    </customValue>
+    <customValue>
+        <fullName>C02</fullName>
+        <default>false</default>
+        <label>Avoir SRC</label>
+    </customValue>
+    <customValue>
+        <fullName>C03</fullName>
+        <default>false</default>
+        <label>Geste commercial</label>
+    </customValue>
+    <masterLabel>CreditNoteReason2</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

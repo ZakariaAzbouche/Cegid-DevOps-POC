@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>GLO</fullName>
+        <default>false</default>
+        <label>GLO</label>
+    </customValue>
+    <customValue>
+        <fullName>LIG</fullName>
+        <default>false</default>
+        <label>LIG</label>
+    </customValue>
+    <customValue>
+        <fullName>REV</fullName>
+        <default>false</default>
+        <label>REV</label>
+    </customValue>
+    <masterLabel>Increase Mode</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

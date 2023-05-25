@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Customer Success Contact --></label>
+        <name>Customer_Success_Contact__c</name>
+        <relationshipLabel><!-- Customer Success Contact --></relationshipLabel>
+    </CustomFieldTranslation>

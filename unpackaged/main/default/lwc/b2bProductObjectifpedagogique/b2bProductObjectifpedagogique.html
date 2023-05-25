@@ -1,0 +1,24 @@
+<!--
+  @description       : 
+  @author            : keshav Matabadul
+  @group             : 
+  @last modified on  : 12-03-2021
+  @last modified by  : Keshav Matabadul
+-->
+<template>
+    <div class="product-description--container slds-p-around_xx-large">
+        <lightning-formatted-rich-text
+            value={productDetail}
+        ></lightning-formatted-rich-text>
+
+        <div class="slds-col slds-size_1-of-1 product-detail_intro-section--cta slds-align_absolute-center slds-p-top_x-large">
+            <!--a href="javascript:handleURL()"  
+            target="_blank" 
+            class="slds-p-vertical_small slds-p-horizontal_large slds-m-right_small">VOIR UN EXTRAIT DE LA FORMATION</a-->
+            <p onclick={handleURL} class="slds-p-vertical_small slds-p-horizontal_large slds-m-right_small"> Téléchargez le plan de cours</p>
+        </div>
+
+    </div>
+
+    
+</template>

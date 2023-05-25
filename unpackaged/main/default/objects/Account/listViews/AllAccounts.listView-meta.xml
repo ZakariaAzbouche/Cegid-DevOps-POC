@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Update_error_in_IS__c</columns>
+    <columns>Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Nature__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>National_ID__c</columns>
+    <columns>ERP_Number__c</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>Tous les comptes</label>
+</ListView>

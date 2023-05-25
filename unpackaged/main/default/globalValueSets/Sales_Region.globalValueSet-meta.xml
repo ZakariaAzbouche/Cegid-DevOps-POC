@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>015</fullName>
+        <default>false</default>
+        <label>CPA</label>
+    </customValue>
+    <customValue>
+        <fullName>084</fullName>
+        <default>false</default>
+        <label>DV RETAIL INTERNATIONAL</label>
+    </customValue>
+    <customValue>
+        <fullName>033</fullName>
+        <default>false</default>
+        <label>ENTREPRISE EST</label>
+    </customValue>
+    <customValue>
+        <fullName>030</fullName>
+        <default>false</default>
+        <label>ENTREPRISE OUEST</label>
+    </customValue>
+    <customValue>
+        <fullName>050</fullName>
+        <default>false</default>
+        <label>HCM</label>
+    </customValue>
+    <customValue>
+        <fullName>087</fullName>
+        <default>false</default>
+        <label>HCM INTERNATIONAL</label>
+    </customValue>
+    <customValue>
+        <fullName>099</fullName>
+        <default>false</default>
+        <label>HORS DV</label>
+    </customValue>
+    <customValue>
+        <fullName>043</fullName>
+        <default>false</default>
+        <label>QUALIAC</label>
+    </customValue>
+    <customValue>
+        <fullName>080</fullName>
+        <default>false</default>
+        <label>RETAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>055</fullName>
+        <default>false</default>
+        <label>TAX</label>
+    </customValue>
+    <customValue>
+        <fullName>031</fullName>
+        <default>false</default>
+        <label>CHANNEL ENTERPRISE</label>
+    </customValue>
+    <customValue>
+        <fullName>056</fullName>
+        <default>false</default>
+        <label>FINANCE (ACA)</label>
+    </customValue>
+    <customValue>
+        <fullName>057</fullName>
+        <default>false</default>
+        <label>Cedricom</label>
+    </customValue>
+    <customValue>
+        <fullName>067</fullName>
+        <default>false</default>
+        <label>SB</label>
+    </customValue>
+    <customValue>
+        <fullName>063</fullName>
+        <default>false</default>
+        <label>HCM - France</label>
+    </customValue>
+    <customValue>
+        <fullName>064</fullName>
+        <default>false</default>
+        <label>HCM - LATAM</label>
+    </customValue>
+    <customValue>
+        <fullName>065</fullName>
+        <default>false</default>
+        <label>HCM - IBERIA</label>
+    </customValue>
+    <customValue>
+        <fullName>061</fullName>
+        <default>false</default>
+        <label>Finance - France</label>
+    </customValue>
+    <customValue>
+        <fullName>062</fullName>
+        <default>false</default>
+        <label>Finance - IBERIA</label>
+    </customValue>
+    <customValue>
+        <fullName>066</fullName>
+        <default>false</default>
+        <label>HCM - Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>EX INANCE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX INANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>EX MGE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX MGE</label>
+    </customValue>
+    <customValue>
+        <fullName>PUBLIC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PUBLIC</label>
+    </customValue>
+    <customValue>
+        <fullName>EX VENTES INDIRECTES</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX VENTES INDIRECTES</label>
+    </customValue>
+    <customValue>
+        <fullName>EX TDA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX TDA</label>
+    </customValue>
+    <customValue>
+        <fullName>EX QUADRATUS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX QUADRATUS</label>
+    </customValue>
+    <customValue>
+        <fullName>EX PCL GRANDS COMPTES ET AGRICOLE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX PCL GRANDS COMPTES ET AGRICOLE</label>
+    </customValue>
+    <customValue>
+        <fullName>EX NORD IDF</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX NORD IDF</label>
+    </customValue>
+    <customValue>
+        <fullName>EX NORD EST</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX NORD EST</label>
+    </customValue>
+    <customValue>
+        <fullName>EX MT&amp;S</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX MT&amp;S</label>
+    </customValue>
+    <customValue>
+        <fullName>EX IDF</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX IDF</label>
+    </customValue>
+    <customValue>
+        <fullName>EX DIRECTION MARKETING</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX DIRECTION MARKETING</label>
+    </customValue>
+    <customValue>
+        <fullName>CYLANDE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CYLANDE</label>
+    </customValue>
+    <customValue>
+        <fullName>EX-DV AFRICA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-DV AFRICA</label>
+    </customValue>
+    <customValue>
+        <fullName>EX-DV ASIE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-DV ASIE</label>
+    </customValue>
+    <customValue>
+        <fullName>EX-DV IBERICA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-DV IBERICA</label>
+    </customValue>
+    <customValue>
+        <fullName>EX FISCALITE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX FISCALITE</label>
+    </customValue>
+    <customValue>
+        <fullName>EX-FINANCE SUD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-FINANCE SUD</label>
+    </customValue>
+    <customValue>
+        <fullName>EX-ERP FRANCE MGE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EX-ERP FRANCE MGE</label>
+    </customValue>
+    <description>Direction Vente/Région</description>
+    <masterLabel>Sales Region</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

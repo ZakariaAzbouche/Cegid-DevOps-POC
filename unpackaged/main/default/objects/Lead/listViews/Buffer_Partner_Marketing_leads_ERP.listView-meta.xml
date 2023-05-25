@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buffer_Partner_Marketing_leads_ERP</fullName>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>Nature__c</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COUNTRY_CODE</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Partner_Distributor__c</columns>
+    <columns>ImpartnerPRM__PartnerAccount__c</columns>
+    <columns>ImpartnerPRM__PartnerContact__c</columns>
+    <columns>ImpartnerPRM__PartnerLeadAcceptance__c</columns>
+    <columns>ImpartnerPRM__DateAssignedToPartner__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Buffer_Name__c</field>
+        <operation>equals</operation>
+        <value>Partner Marketing leads - ERP</value>
+    </filters>
+    <label>Buffer Partner Marketing leads - ERP</label>
+    <queue>Telemarketing_Leads</queue>
+</ListView>

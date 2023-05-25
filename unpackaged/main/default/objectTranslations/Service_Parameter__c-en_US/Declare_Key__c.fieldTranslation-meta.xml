@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Utilisé par passeport pour indiquer si des API peuvent consommer ce service --></help>
+        <label><!-- Declare Key --></label>
+        <name>Declare_Key__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Comertial relashionship dissatisfaction</masterLabel>
+        <translation>Insatisfaction relation commerciale</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Compactibility with EC</masterLabel>
+        <translation>Compatilbilité avec EC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Efficacity Gain</masterLabel>
+        <translation>Gagner en efficacité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>End of contract of Actual solution</masterLabel>
+        <translation>Fin de contrat de la solution existante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Enterprise creation</masterLabel>
+        <translation>Création d&apos;entreprise</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Enterprise growth</masterLabel>
+        <translation>Croissance d&apos;entreprise</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Equipment harmonisation</masterLabel>
+        <translation>Harmoniser l&apos;équipement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Internalization</masterLabel>
+        <translation>Internalisation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Not Disclosed</masterLabel>
+        <translation>Non communiqué</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Obsolete solution</masterLabel>
+        <translation>Solution obsolète</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partnership Contract</masterLabel>
+        <translation>Contrat de partenariat</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product dissatisfaction</masterLabel>
+        <translation>Insatisfaction Produit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Service dissatisfaction</masterLabel>
+        <translation>Insatisfaction service</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

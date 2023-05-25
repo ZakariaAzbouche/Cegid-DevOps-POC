@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>EMAIL Template AA for Groups</name>
+    <style>none</style>
+    <subject>A Quote requires your approbation</subject>
+    <textOnly>Quote {![sbaa__Approval__c].Quote__r.Name} requires your approbation, click this link to see more details : {![sbaa__Approval__c].Approval_Link__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

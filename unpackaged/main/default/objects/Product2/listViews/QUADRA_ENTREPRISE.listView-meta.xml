@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QUADRA_ENTREPRISE</fullName>
+    <columns>Product_Line__c</columns>
+    <columns>id_buyme__c</columns>
+    <columns>Reference_Number__c</columns>
+    <columns>Offer_Lookup__c</columns>
+    <columns>BU_Offer__c</columns>
+    <columns>Expertise__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Asset_Code__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>StructureLevel2__c</columns>
+    <columns>Category__c</columns>
+    <columns>SaaS_production_code__c</columns>
+    <columns>Metric__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>QuadraEntreprise</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>QUADRA ENTREPRISE</label>
+</ListView>

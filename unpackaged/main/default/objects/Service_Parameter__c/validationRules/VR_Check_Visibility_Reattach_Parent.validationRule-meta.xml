@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Check_Visibility_Reattach_Parent</fullName>
+    <active>true</active>
+    <description>Ce service doit être rattaché à un service Chapeau.</description>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c ),
+ISBLANK(Visibility__c),
+ISBLANK( Reattach__c ),
+ISBLANK( Parent__c)
+)</errorConditionFormula>
+    <errorMessage>Ce service doit être rattaché à un service Chapeau.</errorMessage>
+</ValidationRule>

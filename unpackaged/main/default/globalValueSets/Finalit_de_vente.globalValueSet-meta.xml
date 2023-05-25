@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Upsell</fullName>
+        <default>false</default>
+        <label>Upsell</label>
+    </customValue>
+    <customValue>
+        <fullName>Migration</fullName>
+        <default>false</default>
+        <label>Migration</label>
+    </customValue>
+    <customValue>
+        <fullName>Conquête</fullName>
+        <default>false</default>
+        <label>Conquête</label>
+    </customValue>
+    <customValue>
+        <fullName>New cli</fullName>
+        <default>false</default>
+        <label>New cli</label>
+    </customValue>
+    <customValue>
+        <fullName>Renew</fullName>
+        <default>false</default>
+        <label>Renew</label>
+    </customValue>
+    <masterLabel>Finalité de vente</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

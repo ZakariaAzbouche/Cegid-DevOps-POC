@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cart__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>VMO 20211007: Created LOOKUP on Cart to get CartItem Information in apex to create the Training Session records using the fields Session Date and Session Code that are saved on the CartItem when user adds a Product to his Cart.</description>
+    <externalId>false</externalId>
+    <label>Cart</label>
+    <referenceTo>WebCart</referenceTo>
+    <relationshipLabel>Orders</relationshipLabel>
+    <relationshipName>Orders</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

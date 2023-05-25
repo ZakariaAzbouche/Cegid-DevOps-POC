@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Les_flux_success</fullName>
+    <columns>Order_Number__c</columns>
+    <columns>Acknowlegement__c</columns>
+    <columns>NAME</columns>
+    <columns>Target__c</columns>
+    <columns>Attempts__c</columns>
+    <columns>Initial_Sychro__c</columns>
+    <columns>Current_Statut__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Initial_Sychro__c</field>
+        <operation>equals</operation>
+        <value>Success</value>
+    </filters>
+    <label>Les flux success</label>
+</ListView>

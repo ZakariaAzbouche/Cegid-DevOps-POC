@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubscriptionLength__c</fullName>
+    <externalId>false</externalId>
+    <label>Subscription Length</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>PricingModel__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 month</fullName>
+                <default>false</default>
+                <label>1 month</label>
+            </value>
+            <value>
+                <fullName>3 months</fullName>
+                <default>false</default>
+                <label>3 months</label>
+            </value>
+            <value>
+                <fullName>6 months</fullName>
+                <default>false</default>
+                <label>6 months</label>
+            </value>
+            <value>
+                <fullName>1 year</fullName>
+                <default>false</default>
+                <label>1 year</label>
+            </value>
+            <value>
+                <fullName>2 years</fullName>
+                <default>false</default>
+                <label>2 years</label>
+            </value>
+            <value>
+                <fullName>3 years</fullName>
+                <default>false</default>
+                <label>3 years</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Flat Rate</controllingFieldValue>
+            <controllingFieldValue>Flat Rate + Overage</controllingFieldValue>
+            <valueName>1 month</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flat Rate</controllingFieldValue>
+            <controllingFieldValue>Flat Rate + Overage</controllingFieldValue>
+            <valueName>3 months</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flat Rate</controllingFieldValue>
+            <controllingFieldValue>Flat Rate + Overage</controllingFieldValue>
+            <valueName>6 months</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flat Rate</controllingFieldValue>
+            <controllingFieldValue>Flat Rate + Overage</controllingFieldValue>
+            <valueName>1 year</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flat Rate</controllingFieldValue>
+            <controllingFieldValue>Flat Rate + Overage</controllingFieldValue>
+            <valueName>2 years</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flat Rate</controllingFieldValue>
+            <controllingFieldValue>Flat Rate + Overage</controllingFieldValue>
+            <valueName>3 years</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

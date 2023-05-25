@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_sign__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Devis signé</description>
+    <externalId>false</externalId>
+    <label>Devis signé</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Waterfall_Gross_Total__c</fullName>
+        <default>false</default>
+        <label>Gross</label>
+    </customValue>
+    <customValue>
+        <fullName>NetTotal_Display__c</fullName>
+        <default>false</default>
+        <label>Net</label>
+    </customValue>
+    <masterLabel>Percent of Total Field</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

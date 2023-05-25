@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subscription_Term_Editable_in_Quotes__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>W-1357</description>
+    <externalId>false</externalId>
+    <label>Subscription Term Editable in Quotes</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table bgcolor="white" cellpadding="0" cellspacing="0" width="640">
+	
+		<tr>
+			<td><br />
+			<span style="color:#002c52;"><span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;">Bonjour&nbsp;{{{Recipient.Salutation}}}&nbsp;{{{Recipient.LastName}}},<br />
+			<br />
+			Nous avons bien reçu votre proposition de partenariat et vous remercions de l’intérêt porté à Cegid.<br />
+			<br />
+			Cependant, nous sommes au regret de décliner celle-ci, n’ayant à ce jour aucun projet correspondant à vos services.<br />
+			<br />
+			Nous restons à votre écoute.<br />
+			<br />
+			<br />
+			Très cordialement,<br />
+			<br />
+			<strong>{{{Sender.Name}}}</strong><br />
+			Service Projet<br />
+			{{{Sender.Email}}}<br />
+			{{{Sender.Phone}}}</span></span><br />
+			&nbsp;</td>
+		</tr>
+	
+</table>
+
+</body></html>

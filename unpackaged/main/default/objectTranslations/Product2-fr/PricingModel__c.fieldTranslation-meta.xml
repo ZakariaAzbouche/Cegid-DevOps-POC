@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Type de modèle économique</label>
+        <name>PricingModel__c</name>
+        <picklistValues>
+            <masterLabel>Flat Rate</masterLabel>
+            <translation>Abonnement au forfait</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Rate + Overage</masterLabel>
+            <translation>Abonnement forfait + consommation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription + Use</masterLabel>
+            <translation>Abonnement à la consommation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront</masterLabel>
+            <translation>Comptant</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

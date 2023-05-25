@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Faible: Vous n'avez pas encore identifié l'Economic Buyer ultime| Moyen: Vous savez qui est l'Economic Buyer, mais pas encore eu son approbation| Fort Vous êtes directement en contact avec l'Economic Buyer et vous êtes en phase sur les critères</help>
+        <label><!-- Economic Buyer --></label>
+        <name>Economic_Buyer__c</name>
+    </CustomFieldTranslation>

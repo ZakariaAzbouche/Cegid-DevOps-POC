@@ -1,0 +1,35 @@
+.slds-scope .slds-has-error .slds-form-element__help {
+    display: none !important;
+}
+.slds-scope .slds-has-error .slds-input {
+    --slds-c-input-color-border: 1px solid rgb(201, 201, 201);
+    --slds-c-input-shadow: none;
+}
+.toastMessage{
+    white-space : pre-line !important;
+}
+lightning-helptext{
+    display: none;
+}
+.inputs-side svg{
+    width: 15px !important;
+}
+
+.slds-scope .slds-m-bottom_small, .slds-scope .slds-m-bottom--small {
+    margin-bottom: 8px !important;
+    padding: 0 5px !important;
+}
+#auraErrorMessage{
+    display: none;
+}
+
+.requiredfield.missing button,
+.requiredfield.missing input[type="text"][disabled], .requiredfield.missing .slds-vf-scope input[type="text"][disabled],
+.requiredfield.missing lightning-lookup input,
+.requiredfield.missing textarea{
+    border: 2px solid red !important;
+}
+
+.requiredfield.missing .slds-has-error {
+    --slds-c-input-shadow: none !important;
+}

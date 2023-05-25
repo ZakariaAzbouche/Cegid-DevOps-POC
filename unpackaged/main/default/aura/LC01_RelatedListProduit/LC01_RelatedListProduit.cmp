@@ -1,0 +1,44 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="AP02_RelatedListProduit">
+    <lightning:overlayLibrary aura:id="overlayLib" />
+    <aura:attribute name="objectType" type="String"/>
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="parentFieldName" type="String"/>
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="tableSize" type="integer"/>
+    <aura:attribute name="data" type="sObject[]" access="global"/>
+    <aura:attribute name="dataRatePlans" type="list" access="global"/>
+    <aura:attribute name="tableType" type="string"/>
+    <aura:attribute name="page" type="integer"/>
+    <aura:attribute name="pages" type="integer"/>
+    <aura:attribute name="total" type="integer"/>
+    <aura:attribute name="totalRows" type="integer" />
+    <aura:attribute name="lightningIcon" type="string" />
+    <aura:attribute name="lightningTitle" type="string" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="subscriptionName" type="string" />
+    <aura:handler event="force:showToast" action="{!c.handleApplicationEvent}"/>
+    <aura:attribute name="mySpinner" type="Boolean"/>
+    <aura:attribute name="productName" type="list"/>
+    <aura:attribute name="productList" type="list"/>
+    <aura:attribute name="chargeList" type="list"/>
+    <aura:attribute name="chargeDetailsList" type="list"/>
+    <aura:attribute name="prductDetail" type="Boolean" default="false"/>
+    <aura:attribute name="errorMsg" type="String"/>
+    
+    
+    <aura:if isTrue="{!v.mySpinner}">
+        <lightning:spinner variant="brand" size="medium" alternativeText="..." />
+    </aura:if>
+    
+    <aura:iteration items="{!v.productList}" var="product" indexVar="index">
+        
+        <c:LC01_RelatedListProduitMain chargeList="{!v.chargeList}" index="{!index}" product="{!product}"/>
+        
+    </aura:iteration>
+    
+    <aura:if isTrue="{!v.errorMsg != null}">
+        <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert">
+            <h2>{!v.errorMsg}</h2>
+        </div>
+    </aura:if>
+</aura:component>

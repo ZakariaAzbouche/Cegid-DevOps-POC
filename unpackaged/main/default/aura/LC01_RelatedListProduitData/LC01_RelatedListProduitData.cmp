@@ -1,0 +1,18 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="AP02_RelatedListProduit">
+    <lightning:overlayLibrary aura:id="overlayLib" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="chargeList" type="list" access="global"/>
+    <aura:attribute name="index" type="list"  access="global"/>
+    <aura:attribute name="data" type="list"/>
+    <aura:attribute name="containCharges" type="boolean" access="global"/>
+    <aura:attribute name="columns" type="List"/>
+
+    <aura:if isTrue="{!v.containCharges}">
+    <lightning:datatable data="{!v.data}"
+                                     columns="{!v.columns }"
+                                     keyField="id"
+                                     hideCheckboxColumn="true"
+                                     onrowaction="{!c.handleRowAction}"/>
+    </aura:if>
+    
+</aura:component>

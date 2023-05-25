@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR010_Nature_Prospect</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+				NOT($User.BypassVR__c),
+				NOT (INCLUDES( $User.List_of_VR_to_By_Pass__c,"VR010_Nature_Prospect")),
+				ISNEW(), 
+				NOT(ISPICKVAL( Nature__c , "PRO"))
+				)</errorConditionFormula>
+    <errorDisplayField>Nature__c</errorDisplayField>
+    <errorMessage>Account nature must be set to "Prospect" on creation.</errorMessage>
+</ValidationRule>

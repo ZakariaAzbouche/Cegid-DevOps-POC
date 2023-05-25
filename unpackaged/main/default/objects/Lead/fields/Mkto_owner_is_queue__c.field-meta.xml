@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mkto_owner_is_queue__c</fullName>
+    <externalId>false</externalId>
+    <formula>not(isblank(Owner:Queue.QueueName))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Owner is queue</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

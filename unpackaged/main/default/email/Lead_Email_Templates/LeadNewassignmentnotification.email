@@ -1,0 +1,42 @@
+Bonjour,
+
+Un nouveau lead (MQL) vous a été attribué dans le CRM :
+{!Lead.Link}
+
+Voici des informations issues de la qualification :
+•	Lead owner : {!Lead.OwnerFullName}
+•	Lead name : {!Lead.Name}
+•	Fonction : {!Lead.Title}
+•	Niveau d'interlocuteur : {!Lead.00N1j000000e4FP}
+•	Besoin fonctionnel : {!Lead.00N1j000000e4FK}
+•	Echéance du projet : {!Lead.00N1j000000e4FF}
+•	Budget défini : {!Lead.00N1j000000e4F5}
+
+L’ensemble des informations est consultable sur le lien ci-dessus dans le CRM.
+Merci de traiter le lead dans les 48h.
+
+Cordialement,
+L’équipe marketing
+
+______________________________
+
+
+Hello,
+
+A new lead (MQL) has been assigned to you in Salesforce:
+{!Lead.Link}
+
+Here is an extract from the qualification :
+•	Lead owner : {!Lead.OwnerFullName}
+•	Lead name : {!Lead.Name}
+•	Function : {!Lead.Title}
+•	Hierarchy : {!Lead.00N1j000000e4FP}
+•	Need : {!Lead.00N1j000000e4FK}
+•	Timing : {!Lead.00N1j000000e4FF}
+•	Budget : {!Lead.00N1j000000e4F5}
+
+Please click on the link above to get all the info of the qualification on the CRM.
+Thank you for dealing with it within 48h.
+
+Kind regards,
+The marketing team

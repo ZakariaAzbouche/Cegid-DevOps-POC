@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>45.0</apiVersion>
+    <available>true</available>
+    <description>Used in Advanced Approval processes</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Request Template</name>
+    <packageVersions>
+        <majorNumber>3</majorNumber>
+        <minorNumber>15</minorNumber>
+        <namespace>sbaa</namespace>
+    </packageVersions>
+    <style>none</style>
+    <subject>A quote requires your approbation</subject>
+    <type>visualforce</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

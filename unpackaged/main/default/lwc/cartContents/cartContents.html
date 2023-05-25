@@ -1,0 +1,103 @@
+<template>
+    <!-- Cart Header-->
+    <header class="slds-p-bottom_large">
+        <h1>{cartHeader}</h1>
+        <lightning-combobox
+            if:false={isCartEmpty}
+            class="sort-menu"
+            label={labels.sortBy}
+            value={sortParam}
+            options={sortOptions}
+            onchange={handleChangeSortSelection}
+        >
+        </lightning-combobox>
+    </header>
+
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_2-of-3">
+            </div>
+            <div class="slds-col slds-size_1-of-3">
+                <lightning-button variant="brand" label={label.deleteParticipantsButtonLabel}
+                title={label.deleteParticipantsButtonLabel} disabled={emptyList} 
+                onclick={deleteParticipants} 
+                class="slds-m-left_x-small slds-float_right">
+                </lightning-button>
+            </div>
+        </div>
+
+
+    
+    <!-- Cart Items already in process -->
+    <template if:true={isCartDisabled}>
+        <div class="slds-notify slds-notify_alert slds-alert_error" role="alert">
+            <span class="slds-assistive-text">error</span>
+            <span class="slds-icon_container slds-icon-utility-error slds-m-right_x-small" title="Description of icon when needed">
+              <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#error"></use>
+              </svg>
+            </span>
+            <h2>{label.paymentPart1}
+              <a href="#" onclick={cancelPayment}>{label.paymentPart2}</a>
+            </h2>
+            <!--div class="slds-notify__close">
+              <button class="slds-button slds-button_icon slds-button_icon-small slds-button_icon-inverse" title="Close">
+                <svg class="slds-button__icon" aria-hidden="true">
+                  <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                </svg>
+                <span class="slds-assistive-text">Close</span>
+              </button>
+            </div-->
+          </div>
+    </template>
+
+     <!-- Active Cart with Cart Items -->
+    <template if:false={isCartClosed}>
+            <c-cart-items
+            cart-items={cartItems}
+            currency-code={currencyCode}
+            onquantitychanged={handleQuantityChanged}
+            onsinglecartitemdelete={handleCartItemDelete}
+            is-cart-disabled={isCartDisabled}
+            onreloadlogic={getCreatedParticipantList}
+            onsendtoparent={deleteParticipantIds}
+        >
+        </c-cart-items>
+        <lightning-spinner
+            if:true={isCartItemListIndeterminate}
+            alternative-text={labels.loadingCartItems}
+            class="slds-is-relative slds-align_absolute-center slds-m-around_large"
+            variant="brand"
+        >
+        </lightning-spinner>
+        <div
+            if:true={isCartEmpty}
+            class="slds-text-align_center slds-text-color_weak slds-p-top_xx-large"
+        >
+            <h3 class="slds-text-heading_medium">
+                {labels.emptyCartHeaderLabel}
+            </h3>
+            <p class="slds-text-body_regular slds-p-top_small">
+                {labels.emptyCartBodyLabel}
+            </p>
+        </div>
+        <footer class="slds-p-around_small">
+            <lightning-button
+                if:false={isCartEmpty}
+                class="footer-action"
+                variant="base"
+                label={labels.clearCartButton}
+                onclick={handleClearCartButtonClicked}
+            >
+            </lightning-button>
+        </footer>
+    </template>
+
+    <!-- Closed/Deleted Cart -->
+    <template if:true={isCartClosed}>
+        <div
+            class="slds-text-align_center slds-text-color_weak slds-p-top_xx-large"
+        >
+            <h3 class="slds-text-heading_medium">{labels.closedCartLabel}</h3>
+        </div>
+    </template>
+</template>

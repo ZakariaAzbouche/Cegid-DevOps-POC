@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ligne de l'abonnement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Lignes de l'abonnement</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Subscription Line Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>N° de ligne d'abonnement</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- La date de fin ne peut pas être antérieure à la date de renouvellement. --></errorMessage>
+        <name>VR01_EndDateBeforeNextRenewalDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vous ne pouvez pas sauvegarder sans avoir renseigné de date de résiliation et/ou de quantité à résilier</errorMessage>
+        <name>VR02_ControlOnCreation</name>
+    </validationRules>
+</CustomObjectTranslation>

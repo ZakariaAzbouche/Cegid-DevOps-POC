@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- TECH Administrative Compliance --></label>
+        <name>TECH_Administrative_Compliance__c</name>
+    </CustomFieldTranslation>

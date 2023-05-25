@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Assigned to BU --></label>
+        <name>Assigned_to_BU__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_1710367</developerName>
+        <masterLabel>Agence</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>OWNER_MANAGER</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Nada El Heit</sourceValue>
+            </sourceValues>
+            <value>IS Nada</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Jean-Sebastien Lantz</sourceValue>
+            </sourceValues>
+            <value>IS Jean-Seb</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Christophe Souvras</sourceValue>
+            </sourceValues>
+            <value>IS Chris</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_61749549</developerName>
+        <masterLabel>Team Leader</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>FULL_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Marina Abboud</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Carine Bujalance</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Damien Villaret</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Quentin Girod</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Quentin Le Fouest</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Benedicte Cerisier</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Florian Cellier</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Justine Amen</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Katib Ensaad</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Victoria Pichon</sourceValue>
+            </sourceValues>
+            <value>Benedicte</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Rana Daraoucheh</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jonathan Gardel</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Ariane Thiers</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Vincent Bequet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Fatih Yildiz</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Coralie Blanchard</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Dan Lahyani</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Morgan Masdieu</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lea Tetang</sourceValue>
+            </sourceValues>
+            <value>Jonathan</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Kevin Lacrampe</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Guillaume Flochon</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Ismahan Tobal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Salima Rezig</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Timea Tschug</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Imene Bennour</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Thomas Betoliere</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Nelson Blanc</sourceValue>
+            </sourceValues>
+            <value>Kevin</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Michele Vaillant</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Théo Latour</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Denis Baboin</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Dorian Poulet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Alexandre Attar Morey</sourceValue>
+            </sourceValues>
+            <value>Michele</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>HorizontalBarGrouped</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>STAGE_NAME</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <secondaryGroupingColumn>FULL_NAME</secondaryGroupingColumn>
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>true</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>User.Agency__c</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Sales_Evaluation__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Agency__c</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Expertise__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.TerritoryCode__c</field>
+    </columns>
+    <columns>
+        <field>TERR2_NAME</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>ALIAS</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_ID</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Product_Line__c</field>
+    </columns>
+    <columns>
+        <field>LAST_STAGE_CHANGE_DATE</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Licences_Booking_Amount__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.SaaS_Booking_Amount__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Prof_Services_Booking_Amount__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Amount_Saas_and_Licences__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Amount_Saas_Licences_Prof__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Old_MRR__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Old_SaaS_Booking_BuyMe__c</field>
+    </columns>
+    <columns>
+        <field>ROLLUP_DESCRIPTION</field>
+    </columns>
+    <columns>
+        <field>Account.ERP_Number__c</field>
+    </columns>
+    <columns>
+        <field>PARENT_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Sales_Purpose__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Other_Amount__c</field>
+    </columns>
+    <columns>
+        <field>Account.Nature__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales_relationship__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Partner_Distributor__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Partner_Integrator__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Prescriber__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Core_Business__c</field>
+    </columns>
+    <columns>
+        <field>OWNER_MANAGER</field>
+    </columns>
+    <columns>
+        <field>LEAD_SOURCE</field>
+    </columns>
+    <columns>
+        <field>LAST_UPDATE</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Contract_Duration__c</field>
+    </columns>
+    <columns>
+        <field>CAMPAIGN_SOURCE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Score_MED__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Status_Quote_BuyMe__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Buy_Me_Quote_Id__c</field>
+    </columns>
+    <columns>
+        <field>NEXT_STEP</field>
+    </columns>
+    <columns>
+        <field>Opportunity.ID_Oppy_18__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity.Forecast_Category_EDIT__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Omitted</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Sales_Purpose__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>511</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.Agency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>856</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Amount_Saas_Licences_Prof__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>lessOrEqual</operator>
+            <value>EUR 100</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Buy_Me_Quote_Id__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.SBQQ__PrimaryQuote__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FULL_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Forecast_Category_EDIT__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>DNCA- Abs Valorisation</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CURNEXTY</interval>
+    </timeFrameFilter>
+</Report>

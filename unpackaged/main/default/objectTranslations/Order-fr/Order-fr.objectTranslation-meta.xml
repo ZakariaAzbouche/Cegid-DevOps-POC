@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>CPQ Order Layout</layout>
+        <sections>
+            <label>Info contrat</label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- OrderContracting --></label>
+            <section>OrderContracting</section>
+        </sections>
+        <sections>
+            <label><!-- Quote and Opportunity --></label>
+            <section>Quote and Opportunity</section>
+        </sections>
+        <sections>
+            <label>Information de livraison et de facturation</label>
+            <section>Shipping and Billing Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order Layout</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Booking Summary --></label>
+            <section>Booking Summary</section>
+        </sections>
+        <sections>
+            <label>Info contact</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label>Type de contrat</label>
+            <section>Contract Type</section>
+        </sections>
+        <sections>
+            <label><!-- Discount Information --></label>
+            <section>Discount Information</section>
+        </sections>
+        <sections>
+            <label><!-- New SEPA Debit Mandate for Debit --></label>
+            <section>New SEPA Debit Mandate for Debit</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Information --></label>
+            <section>Quote Information</section>
+        </sections>
+        <sections>
+            <label><!-- SEPA Debit Mandate for Debit --></label>
+            <section>SEPA Debit Mandate for Debit</section>
+        </sections>
+        <sections>
+            <label><!-- Term --></label>
+            <section>Term</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Purchase Order is required --></errorMessage>
+        <name>Purchase_Order_is_mandatory</name>
+    </validationRules>
+</CustomObjectTranslation>

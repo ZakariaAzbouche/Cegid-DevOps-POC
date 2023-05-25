@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StripePublishableKey__c</fullName>
+    <defaultValue>"pk_test_51J3G9THyPvQW0JfV0OddzUOOkYQM50uC8wzPfzckGqqCNVKVo4vJssOcNTZIRnksbloJZBHc4AIv2m1nEKU7TAeA00xLWtdquz"</defaultValue>
+    <description>Populate with the value of the publishable key in the Stripe Dashboard</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Populate with the value of the publishable key in the Stripe Dashboard</inlineHelpText>
+    <label>Stripe Publishable Key</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,40 @@
+<!--
+    Author: Akshi Boojhawon - Comforth
+    Date: 2020-07-17
+    Name: LC01_RelatedListAccountingSituation.cmp
+    Description: Component for getting financial information via WS Aston
+-->
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="AP05_RelatedListAccSituation">
+    <lightning:overlayLibrary aura:id="overlayLib" />
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="data" type="sObject[]" access="global"/>
+    <aura:attribute name="totalRows" type="integer" default="0"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="mySpinner" type="Boolean"/>
+    <aura:attribute name="errorMsg" type="String"/>
+    
+    <aura:if isTrue="{!v.mySpinner}">
+        <lightning:spinner variant="brand" size="medium" alternativeText="..." />
+    </aura:if>
+    
+    <lightning:card iconName="action:new_opportunity">
+        <aura:set attribute="title">
+            <div>
+                <span>{!$Label.c.AccountingSituation} ({!v.totalRows})</span>
+                <!--Fire event popup only if data exists-->
+                <aura:if isTrue="{!v.totalRows > 0}">
+                    <lightning:button label="Show Details" title="Show Details" onclick="{!c.openPopUp}" class="slds-m-left_medium"/>
+                <aura:set attribute="else">
+                    <lightning:button label="Show Details" title="Show Details" onclick="{!c.showInfo}" class="slds-m-left_medium"/>
+                </aura:set>
+                </aura:if> 
+            </div>
+        </aura:set>
+        <!--
+        <aura:if isTrue="{!v.errorMsg != null}">
+            <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert">
+                <h2>{!v.errorMsg}</h2>
+            </div>
+        </aura:if>-->
+    </lightning:card>	
+</aura:component>

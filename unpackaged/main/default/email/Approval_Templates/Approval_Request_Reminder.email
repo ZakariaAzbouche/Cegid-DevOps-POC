@@ -1,0 +1,8 @@
+Hello,
+
+A Quote approval you need to take care of is still pending, please take a moment to address it : {!sbaa__Approval__c.Link}
+
+Here are some information about the Quote :
+- Quote Comment : {!sbaa__Approval__c.00N1j000000f0qO}
+- Account : {!sbaa__Approval__c.Quote_Account__c}
+- Approval request reason : {!sbaa__Approval__c.Approval_Rule_Name__c}

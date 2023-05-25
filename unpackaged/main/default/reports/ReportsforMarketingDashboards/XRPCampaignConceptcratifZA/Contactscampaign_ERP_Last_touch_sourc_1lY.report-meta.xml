@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <columns>
+        <field>Contact.Expertise__c</field>
+    </columns>
+    <columns>
+        <field>CAMPAIGN_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>CONTACT_OWNER</field>
+    </columns>
+    <columns>
+        <field>Contact.Marketing_Status__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Reject_Cause__c</field>
+    </columns>
+    <columns>
+        <field>Contact.ATTRILTmedium__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Marketo_Info__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>Campaign: ERPmiddle_2010_FR_Contact_pageconceptcréatif</description>
+    <filter>
+        <criteriaItems>
+            <column>CAMPAIGN_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ERP-2020-Page Concept créatif,ERP.2021.Page 10-50 salariés,ERP.2021.Page 50-500 salariés,ERPM.Cegid_XRP_Flex_Fasttrack.LP manufacturing.2110</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact.ATTRILTSource__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Contacts/campaign ERP - Last touch sourc</name>
+    <params>
+        <name>scopeid</name>
+        <value></value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CampaignContact</reportType>
+    <scope>orgAll</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+</Report>

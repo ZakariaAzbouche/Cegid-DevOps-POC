@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Statut</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Done</masterLabel>
+            <translation>Réalisé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation>Cycle de vente en cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not started</masterLabel>
+            <translation>Pas démarré</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeté</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

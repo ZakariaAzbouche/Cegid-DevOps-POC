@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FlagHasOnSiteArticle__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Disable trigger update of Tech_HasOnSiteArticle__c on product2 (US W-001172)</description>
+    <externalId>false</externalId>
+    <label>Flag Has OnSite Article</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

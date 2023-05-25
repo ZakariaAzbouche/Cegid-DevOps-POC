@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR018_Cant_Sync_if_missing_info</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(ISPICKVAL( Family,'' ),
+ISBLANK( Product_Line__c ),
+ISPICKVAL( Core_Business__c,'' ),
+ISPICKVAL( Category__c,'' ),
+ISPICKVAL( StructureLevel2__c,'' ),
+ISPICKVAL( SBQQ__BillingType__c,'' )),
+NOT(RecordType.DeveloperName = 'Article'),
+NOT(RecordType.DeveloperName = 'Package'),
+Synchronisation_Zuora__c
+)</errorConditionFormula>
+    <errorMessage>You can't synchronize a product if it does not have a Structure Level 1, 2 and 3, a Product Line, a Core Business and a Billing Type. Please, review the Product.</errorMessage>
+</ValidationRule>

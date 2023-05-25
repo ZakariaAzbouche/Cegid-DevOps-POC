@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>ANALYST</masterLabel>
+        <translation>ANALYSTE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BPO</masterLabel>
+        <translation><!-- BPO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CONSULTING FIRM</masterLabel>
+        <translation>CABINET DE CONSEIL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CONSULTING FIRM &amp; INTEGRATOR</masterLabel>
+        <translation><!-- CONSULTING FIRM &amp; INTEGRATOR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GROUP</masterLabel>
+        <translation><!-- GROUP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HARDWARE VENDOR</masterLabel>
+        <translation>CONSTRUCTEUR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>INDEPENDENT CONSULTANT</masterLabel>
+        <translation>CONSULTANT INDEPENDANT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>INDEPENDENT SOFTWARE VENDOR</masterLabel>
+        <translation>PARTENAIRE SOLUTION</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>INSTANCE</masterLabel>
+        <translation><!-- INSTANCE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NETWORK</masterLabel>
+        <translation><!-- NETWORK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RESELLER</masterLabel>
+        <translation>DISTRIBUTEUR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SYSTEM INTEGRATOR</masterLabel>
+        <translation><!-- SYSTEM INTEGRATOR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TECHNICAL ASSOCIATION</masterLabel>
+        <translation><!-- TECHNICAL ASSOCIATION --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TECHNOLOGY PARTNER</masterLabel>
+        <translation>PARTENAIRE TECHNOLOGIQUE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UNION</masterLabel>
+        <translation><!-- UNION --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

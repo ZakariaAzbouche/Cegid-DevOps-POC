@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Accommodation / Restauration food</fullName>
+        <default>false</default>
+        <label>Accommodation / Restauration food</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Accounting / Legal / Operation</fullName>
+        <default>false</default>
+        <label>Accounting / Legal / Operation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Agriculture / Aquaculture and Fishing</fullName>
+        <default>false</default>
+        <label>Agriculture / Aquaculture and Fishing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Art / Show / Culture</fullName>
+        <default>false</default>
+        <label>Art / Show / Culture</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Association</fullName>
+        <default>false</default>
+        <label>Association</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Automobile / Motorcycle</fullName>
+        <default>false</default>
+        <label>Automobile / Motorcycle</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Banking / Finance</fullName>
+        <default>false</default>
+        <label>Banking / Finance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Beverage industry</fullName>
+        <default>false</default>
+        <label>Beverage industry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chemistry industry</fullName>
+        <default>false</default>
+        <label>Chemistry industry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clothing / Textile industry</fullName>
+        <default>false</default>
+        <label>Clothing / Textile industry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Editing / Media / Communication</fullName>
+        <default>false</default>
+        <label>Editing / Media / Communication</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Electricity / Gas / Water</fullName>
+        <default>false</default>
+        <label>Electricity / Gas / Water</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Electronic industry</fullName>
+        <default>false</default>
+        <label>Electronic industry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employment</fullName>
+        <default>false</default>
+        <label>Employment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Environment / Waste</fullName>
+        <default>false</default>
+        <label>Environment / Waste</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Food industry</fullName>
+        <default>false</default>
+        <label>Food industry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Furniture manufacturing</fullName>
+        <default>false</default>
+        <label>Furniture manufacturing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Health / social</fullName>
+        <default>false</default>
+        <label>Health / social</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Industry</fullName>
+        <default>false</default>
+        <label>Industry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Information services</fullName>
+        <default>false</default>
+        <label>Information services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <label>Insurance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IT activities</fullName>
+        <default>false</default>
+        <label>IT activities</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Leisure / Sport</fullName>
+        <default>false</default>
+        <label>Leisure / Sport</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Machinery and equipment</fullName>
+        <default>false</default>
+        <label>Machinery and equipment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Metallurgy</fullName>
+        <default>false</default>
+        <label>Metallurgy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <label>Others</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paper and Carton industry</fullName>
+        <default>false</default>
+        <label>Paper and Carton industry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pharmaceutical industry</fullName>
+        <default>false</default>
+        <label>Pharmaceutical industry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Plastic product</fullName>
+        <default>false</default>
+        <label>Plastic product</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Printing / Recorded media</fullName>
+        <default>false</default>
+        <label>Printing / Recorded media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Public services</fullName>
+        <default>false</default>
+        <label>Public services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Public works / Buildings / Works</fullName>
+        <default>false</default>
+        <label>Public works / Buildings / Works</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Real estate activity</fullName>
+        <default>false</default>
+        <label>Real estate activity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rental and Leasing</fullName>
+        <default>false</default>
+        <label>Rental and Leasing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail trade</fullName>
+        <default>false</default>
+        <label>Retail trade</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scientific / Technical activity</fullName>
+        <default>false</default>
+        <label>Scientific / Technical activity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Services</fullName>
+        <default>false</default>
+        <label>Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Telecommunication</fullName>
+        <default>false</default>
+        <label>Telecommunication</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tourism</fullName>
+        <default>false</default>
+        <label>Tourism</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <label>Transportation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wholesale trade</fullName>
+        <default>false</default>
+        <label>Wholesale trade</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wood industry</fullName>
+        <default>false</default>
+        <label>Wood industry</label>
+    </standardValue>
+</StandardValueSet>

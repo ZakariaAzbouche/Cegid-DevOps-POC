@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Lead007_NoAssignmentToSales</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+NOT( $User.BypassVR__c),
+NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Lead007_NoAssignmentToSales")),
+NOT(ISBLANK(Owner:User.Profile.Name)),
+NOT(Owner:User.SalesPRM__c),
+NOT(ISPICKVAL(Owner:User.Sale_Type__c, 'SDR')),
+ 
+Owner:User.Profile.Name &lt;&gt; "Cegid Telemarketing",
+Owner:User.Profile.Name &lt;&gt; "Marketo",
+Owner:User.Profile.Name &lt;&gt; "IM Partner",
+Owner:User.Profile.Name &lt;&gt; "System Administrator"
+)</errorConditionFormula>
+    <errorMessage>A lead can only be assigned to a user whose profile is either "Cegid Telemarketing" or "System Administrator".</errorMessage>
+</ValidationRule>

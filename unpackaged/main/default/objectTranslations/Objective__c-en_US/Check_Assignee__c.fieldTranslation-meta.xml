@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is the assignee the current user ? --></help>
+        <label><!-- Check Assignee --></label>
+        <name>Check_Assignee__c</name>
+    </CustomFieldTranslation>

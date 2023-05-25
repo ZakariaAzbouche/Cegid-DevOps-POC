@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tech_IsCancellationApprovalShort__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF
+(
+    tech_BusinessUnitName__c &lt;&gt; "RETAIL" &amp;&amp;
+    (ISPICKVAL(Type__c, "Cancellation") || ISPICKVAL(Type__c, "Cancellation with Credit Note")) &amp;&amp;
+    (ISPICKVAL(CancellationReason1__c, "06") ||
+    ISPICKVAL(CancellationReason2__c, "A00") ||
+    ISPICKVAL(CancellationReason2__c, "B09") ||
+    ISPICKVAL(CancellationReason2__c, "D04") ||
+    ISPICKVAL(CancellationReason2__c, "D02") ||
+    ISPICKVAL(CancellationReason2__c,"E01") ||
+    ISPICKVAL(CancellationReason2__c,"E02")) &amp;&amp;
+    tech_IsMultiBu__c = False,
+    True,
+    False
+)</formula>
+    <label>tech_IsCancellationApprovalShort</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

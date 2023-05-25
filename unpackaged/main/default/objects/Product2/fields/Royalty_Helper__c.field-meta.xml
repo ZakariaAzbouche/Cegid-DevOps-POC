@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Royalty_Helper__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISPICKVAL(Brand__c, '839')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '836')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '860')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '873')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '871')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '872')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '837')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '864')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '870')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '833')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '861')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '838')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '824')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '829')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '884')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '885')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '844')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '834')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '874')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '830')) &amp;&amp; NOT(ISBLANK(TEXT(Brand__c))) &amp;&amp; NOT(NoRoyalty__c) &amp;&amp; NOT(percentage_of_turnover__c) &amp;&amp; NOT(countermark__c)&amp;&amp; NOT(Prepaid__c) &amp;&amp; NOT(Quantity_Declarative__c),'Fournisseur sans type de royalty','')</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>_</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

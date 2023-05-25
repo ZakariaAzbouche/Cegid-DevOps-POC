@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty24_CheckMQL_Closed_CPA_SMB</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+				NOT ( $User.BypassVR__c ), 
+				NOT (INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Oppty24_CheckMQL_Closed_CPA_SMB")), 
+				ISPICKVAL(TECH_MQL_Check__c,"Closed CPA/SMB"),
+NOT(ISPICKVAL(Sales_Purpose__c,"411"))
+				)</errorConditionFormula>
+    <errorMessage>You can't create a new opportunity since the closing date of the opportunity (same account and same expertise/core business.sales purpose) is less than 30 days.</errorMessage>
+</ValidationRule>

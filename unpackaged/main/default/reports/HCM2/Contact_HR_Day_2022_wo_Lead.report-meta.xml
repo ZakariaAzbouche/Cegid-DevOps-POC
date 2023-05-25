@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_32603613</developerName>
+        <masterLabel>Ville</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Campaign$Name</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>WJ2022.HCM.Cegid HR days Bordeaux 220920</sourceValue>
+            </sourceValues>
+            <value>Bordeaux</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>WJ2022.HCM.Cegid HR days Lille 220712</sourceValue>
+            </sourceValues>
+            <value>Lille</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>WJ2022.HCM.Cegid HR days Lyon 220705</sourceValue>
+            </sourceValues>
+            <value>Lyon</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>WJ2022.HCM.Cegid HR days Nantes 220913</sourceValue>
+            </sourceValues>
+            <value>Nantes</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>WJ2022.HCM.Cegid HR days Paris 220915</sourceValue>
+            </sourceValues>
+            <value>Paris</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>WJ2022.HCM.Cegid HR days Strasbourg 220708</sourceValue>
+            </sourceValues>
+            <value>Strasbourg</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Campaign$Name</field>
+    </columns>
+    <columns>
+        <field>Campaign.ContactCampaignMembers$Name</field>
+    </columns>
+    <columns>
+        <field>Campaign.ContactCampaignMembers.AccountContactRelations$Name</field>
+    </columns>
+    <columns>
+        <field>Campaign.ContactCampaignMembers.AccountContactRelations.AccountTerritory2Associations$Name</field>
+    </columns>
+    <columns>
+        <field>CDF1</field>
+    </columns>
+    <columns>
+        <field>BucketField_32603613</field>
+    </columns>
+    <currency>EUR</currency>
+    <customDetailFormulas>
+        <calculatedFormula>CASE(ObjectTerritory2Association_Territory2.Name,&apos;HCM France - New Cli 5&apos;,&apos;Arnaud Lecomte&apos;,&apos;HCM France - New Cli 3&apos;,&apos;Willy Bocquet&apos;,&apos;HCM France - New Cli 4&apos;,&apos;Franck Baudouin&apos;,&apos;HCM France - Installed Base 3&apos;,&apos;Benedicte Cerisier&apos;,&apos;HCM France&apos;,&apos;Julien Delignon&apos;,&apos;HCM France - New Cli 1&apos;,&apos;Fabrice Barrere&apos;,&apos;HCM France - Installed Base&apos;,&apos;Romain Brach&apos;,&apos;HCM France - New Cli 2&apos;,&apos;Arzu Dag&apos;,&apos;HCM France - Installed Base 9&apos;,&apos;Aurelien Foras&apos;,&apos;HCM France - Installed Base 8&apos;,&apos;Florence Georges&apos;,&apos;HCM France - CSM 1&apos;,&apos;Daniel Guichard&apos;,&apos;HCM France - Installed Base 7&apos;,&apos;Pierre Michel&apos;,&apos;HCM France - Installed Base 4&apos;,&apos;Antoine Arickx&apos;,&apos;HCM France - Installed Base 5&apos;,&apos;Emeline Regnier&apos;,&apos;HCM France - Installed Base 2&apos;,&apos;Benoit Fauvet&apos;,&apos;HCM France - Installed Base 1&apos;,&apos;Xavier BOOSZ&apos;,
+&apos;No Value&apos;)</calculatedFormula>
+        <dataType>Text</dataType>
+        <developerName>CDF1</developerName>
+        <label>Sales</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <filter>
+        <criteriaItems>
+            <column>Campaign$Parent</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>EVT.2205.IB.FR.HCM-fr-2-upsell_payroll.Event.Cegid HR Days</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Campaign.ContactCampaignMembers.AccountContactRelations.AccountTerritory2Associations$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>HCM France -</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Contact HR Day 2022 wo Lead</name>
+    <params>
+        <name>scopeid</name>
+        <value></value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Campaigns_with_Account_Territories_of_Contacts__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Campaign$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

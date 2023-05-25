@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>National_ID_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(National_ID_Active__c, IMAGE("/servlet/servlet.FileDownload?file=" &amp; $Label.IMG_Green,"Green",20,20), 
+IMAGE("/servlet/servlet.FileDownload?file=" &amp; $Label.IMG_Red,"Red",20,20))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>National ID Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

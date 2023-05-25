@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Decision_Criteria__c</fullName>
+    <description>Decision Criteria</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Weak = decision criteria is not clearly defined and undestood  | Moderate = decision criteria is defined but our business case is not yet approved by the customer | Strong = decision criteria is defined and our business case is approved by the Customer</inlineHelpText>
+    <label>Decision Criteria</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>MEDDIC_Values</valueSetName>
+    </valueSet>
+</CustomField>

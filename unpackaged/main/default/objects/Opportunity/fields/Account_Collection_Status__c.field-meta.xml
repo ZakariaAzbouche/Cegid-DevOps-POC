@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Collection_Status__c</fullName>
+    <description>Flag vert , orange, rouge, black qui reprend l'état de santé de recouvrement du compte du champ collection status.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+ISPICKVAL(Account.Collection_Status__c, "Black"), IMAGE("/servlet/servlet.FileDownload?file=" &amp; $Label.IMG_Black ,"Black",20,20),
+IF(
+ISPICKVAL(Account.Collection_Status__c, "Red"), IMAGE("/servlet/servlet.FileDownload?file=" &amp; $Label.IMG_Red,"Red",20,20),
+IF(
+ISPICKVAL(Account.Collection_Status__c, "Orange"), IMAGE("/servlet/servlet.FileDownload?file=" &amp; $Label.IMG_Orange,"Orange",20,20),
+IF(
+ISPICKVAL(Account.Collection_Status__c, "Green"), IMAGE("/servlet/servlet.FileDownload?file=" &amp; $Label.IMG_Green,"Green",20,20), "N/A"
+)
+)
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Collection Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

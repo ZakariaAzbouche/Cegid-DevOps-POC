@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty17_DecisionMakerMandatOnStageD</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+					NOT($User.BypassVR__c),
+				 NOT (INCLUDES ($User.List_of_VR_to_By_Pass__c,"VR_Oppty17_DecisionMakerMandatOnStageD")),
+     CASE(StageName,
+            "D - Draw up the solution",1,
+            "C - Validate the solution",1,
+            "B - Negotiate",1,
+            "A - Sign",1,
+            "Closed Won",1,
+            0)= 1, 
+					 NOT(TECH_Has_a_decision_maker__c)
+					)</errorConditionFormula>
+    <errorMessage>A contact with the "decision maker" role is mandatory on opportunity from stage D.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Mr.</fullName>
+        <default>false</default>
+        <label>Mr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Ms.</fullName>
+        <default>false</default>
+        <label>Ms.</label>
+    </customValue>
+    <customValue>
+        <fullName>M.</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>M.</label>
+    </customValue>
+    <customValue>
+        <fullName>MME</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MME</label>
+    </customValue>
+    <masterLabel>Salutation</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

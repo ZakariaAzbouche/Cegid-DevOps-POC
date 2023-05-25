@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason__c</fullName>
+    <description>la raison de la perte de l'opportunité</description>
+    <externalId>false</externalId>
+    <label>Loss Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Competition choosen</fullName>
+                <default>false</default>
+                <label>Competition choosen</label>
+            </value>
+            <value>
+                <fullName>Project postponed</fullName>
+                <default>false</default>
+                <label>Project postponed</label>
+            </value>
+            <value>
+                <fullName>Legal Terms</fullName>
+                <default>false</default>
+                <label>Legal Terms</label>
+            </value>
+            <value>
+                <fullName>Financial Terms</fullName>
+                <default>false</default>
+                <label>Financial Terms</label>
+            </value>
+            <value>
+                <fullName>Features</fullName>
+                <default>false</default>
+                <label>Features</label>
+            </value>
+            <value>
+                <fullName>Lost of project</fullName>
+                <default>false</default>
+                <label>Lost of project</label>
+            </value>
+            <value>
+                <fullName>Group Centralisation</fullName>
+                <default>false</default>
+                <label>Group Centralisation</label>
+            </value>
+            <value>
+                <fullName>Change of governance</fullName>
+                <default>false</default>
+                <label>Change of governance</label>
+            </value>
+            <value>
+                <fullName>Economic context</fullName>
+                <default>false</default>
+                <label>Economic context</label>
+            </value>
+            <value>
+                <fullName>No budget</fullName>
+                <default>false</default>
+                <label>No budget</label>
+            </value>
+            <value>
+                <fullName>Client budget not adapted</fullName>
+                <default>false</default>
+                <label>Client budget not adapted</label>
+            </value>
+            <value>
+                <fullName>Product features</fullName>
+                <default>false</default>
+                <label>Product features</label>
+            </value>
+            <value>
+                <fullName>Duplicate opportunity</fullName>
+                <default>false</default>
+                <label>Duplicate opportunity</label>
+            </value>
+            <value>
+                <fullName>International scope</fullName>
+                <default>false</default>
+                <label>International scope</label>
+            </value>
+            <value>
+                <fullName>Customer financial situation</fullName>
+                <default>false</default>
+                <label>Customer financial situation</label>
+            </value>
+            <value>
+                <fullName>Other provider choosen</fullName>
+                <default>false</default>
+                <label>Other provider choosen</label>
+            </value>
+            <value>
+                <fullName>Deployment time</fullName>
+                <default>false</default>
+                <label>Deployment time</label>
+            </value>
+            <value>
+                <fullName>UX product ergonomic</fullName>
+                <default>false</default>
+                <label>UX product ergonomic</label>
+            </value>
+            <value>
+                <fullName>Price too high</fullName>
+                <default>false</default>
+                <label>Price too high</label>
+            </value>
+            <value>
+                <fullName>Reputation</fullName>
+                <default>false</default>
+                <label>Reputation</label>
+            </value>
+            <value>
+                <fullName>Services offered</fullName>
+                <default>false</default>
+                <label>Services offered</label>
+            </value>
+            <value>
+                <fullName>Incomplete data</fullName>
+                <default>false</default>
+                <label>Incomplete data</label>
+            </value>
+            <value>
+                <fullName>Cannot be reached</fullName>
+                <default>false</default>
+                <label>Cannot be reached</label>
+            </value>
+            <value>
+                <fullName>Wrong coordinates</fullName>
+                <default>false</default>
+                <label>Wrong coordinates</label>
+            </value>
+            <value>
+                <fullName>Non commercial opportunity</fullName>
+                <default>false</default>
+                <label>Non commercial opportunity</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>No Go Client</controllingFieldValue>
+            <valueName>Lost of project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Go Client</controllingFieldValue>
+            <valueName>Group Centralisation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Go Client</controllingFieldValue>
+            <valueName>Change of governance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Go Client</controllingFieldValue>
+            <valueName>Economic context</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Go Client</controllingFieldValue>
+            <valueName>No budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Go CEGID</controllingFieldValue>
+            <valueName>Client budget not adapted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Go CEGID</controllingFieldValue>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Product features</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Go CEGID</controllingFieldValue>
+            <valueName>Duplicate opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Go CEGID</controllingFieldValue>
+            <valueName>International scope</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Go CEGID</controllingFieldValue>
+            <valueName>Customer financial situation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Go CEGID</controllingFieldValue>
+            <valueName>Non commercial opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Competition choosen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Deployment time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>UX product ergonomic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Price too high</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Reputation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Services offered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Incomplete data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Cannot be reached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Wrong coordinates</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Creation In progress</fullName>
+        <default>false</default>
+        <label>Creation In progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Empty on loading</fullName>
+        <default>false</default>
+        <label>Empty on loading</label>
+    </customValue>
+    <customValue>
+        <fullName>COM (New Caledonia or French Polynesia)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COM (New Caledonia or French Polynesia)</label>
+    </customValue>
+    <customValue>
+        <fullName>Association</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Association</label>
+    </customValue>
+    <masterLabel>National ID Exception</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

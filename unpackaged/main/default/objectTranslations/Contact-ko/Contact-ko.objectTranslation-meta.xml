@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- Marketo Field set CONTACT --></label>
+        <name>Marketo_Field_set_CONTACT</name>
+    </fieldSets>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Communication Information --></label>
+            <section>Communication Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Info - External Comment --></label>
+            <section>Marketing Info - External Comment</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Information --></label>
+            <section>Marketing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Preference Center --></label>
+            <section>Preference Center</section>
+        </sections>
+        <sections>
+            <label><!-- Talentsoft --></label>
+            <section>Talentsoft</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Clone Contact --></label>
+        <name>Clone_Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>Create_New_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Outreach --></label>
+        <name>Outreach</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Customer User --></label>
+        <name>Customer_User</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales contact --></label>
+        <name>Sales_contact</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- This email does nto have the good format, please review it. --></errorMessage>
+        <name>VR003_Email_format_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Name and Last Name are mandatory fields. --></errorMessage>
+        <name>VR004_MandatoryFieldForCustomerUser</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Decision Maker Core Business - 2 should be different to Decision Maker Core Business - 1 --></errorMessage>
+        <name>VR_Check_Decision_M_C_B1_SAME_D_M_C_B2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This email does not have the good format, please review it. --></errorMessage>
+        <name>VR_Contact004_Email_format_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Salutation, First Name and Last Name are mandatory. --></errorMessage>
+        <name>VR_Contact05_Name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- At least one phone number is mandatory --></errorMessage>
+        <name>VR_Contact06_PhoneMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Salutation and First Name are mandatory fields. --></errorMessage>
+        <name>VR_Contact07_NoNameEmptying</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Email field has been marked invalid by Marketo --></errorMessage>
+        <name>VR_Contact_Invalid_Email_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Email field can&apos;t be empty --></errorMessage>
+        <name>VR_Contact_Marketo_Synch_Email_Rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Owner of this record is not Active, so You can&apos;t synch this record.  Think to update the ownership. --></errorMessage>
+        <name>VR_Contact_Marketo_Synch_User_Inactive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only the Marketo User can uncheck this field --></errorMessage>
+        <name>VR_Contact_Marketo_User_only</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

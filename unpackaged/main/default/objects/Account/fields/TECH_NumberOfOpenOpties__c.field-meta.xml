@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_NumberOfOpenOpties__c</fullName>
+    <description>Counts the number of open opportunities to check whether the account should be synchronized with Infolegale</description>
+    <externalId>false</externalId>
+    <label>TECH NumberOfOpenOpties</label>
+    <summaryFilterItems>
+        <field>Opportunity.StageName</field>
+        <operation>equals</operation>
+        <value>G - MQL, F - Identify the needs, E - Analyze the needs, D - Draw up the solution, C - Validate the solution, B - Negotiate, A - Sign</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

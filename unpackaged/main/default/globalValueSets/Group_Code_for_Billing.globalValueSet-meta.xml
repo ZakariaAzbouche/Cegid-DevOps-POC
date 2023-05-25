@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>FUL</fullName>
+        <default>false</default>
+        <label>FUL</label>
+    </customValue>
+    <customValue>
+        <fullName>JD1</fullName>
+        <default>false</default>
+        <label>JD1</label>
+    </customValue>
+    <masterLabel>Group Code for Billing</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

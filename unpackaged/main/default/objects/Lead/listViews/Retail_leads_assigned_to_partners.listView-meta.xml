@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retail_leads_assigned_to_partners</fullName>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>Nature__c</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Expertise__c</columns>
+    <columns>LEAD.COUNTRY_CODE</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>ImpartnerPRM__PartnerAccount__c</columns>
+    <columns>Mkto_owner_full_name__c</columns>
+    <columns>ImpartnerPRM__PartnerLeadAcceptance__c</columns>
+    <columns>ImpartnerPRM__DateAssignedToPartner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>New,In Buffer,Assigned,In Progress,Qualified</value>
+    </filters>
+    <filters>
+        <field>Expertise__c</field>
+        <operation>equals</operation>
+        <value>200</value>
+    </filters>
+    <filters>
+        <field>ImpartnerPRM__PartnerAccount__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>notEqual</operation>
+        <value>Partner</value>
+    </filters>
+    <label>Retail leads assigned to partners</label>
+</ListView>

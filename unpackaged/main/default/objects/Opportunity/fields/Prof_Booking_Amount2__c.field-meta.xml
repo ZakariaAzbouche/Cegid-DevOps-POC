@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prof_Booking_Amount2__c</fullName>
+    <description>la somme de produits de type Prof Booking</description>
+    <externalId>false</externalId>
+    <label>Prof Booking Amount</label>
+    <summarizedField>OpportunityLineItem.TotalPrice</summarizedField>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.StructureLevel1__c</field>
+        <operation>equals</operation>
+        <value>Professional services</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

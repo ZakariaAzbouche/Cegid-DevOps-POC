@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Cegid relative strength in this market segment based on overall market fit, penetration and growth (5=very strong) --></help>
+        <label><!-- C-Score --></label>
+        <name>C_Score__c</name>
+        <picklistValues>
+            <masterLabel>1/5</masterLabel>
+            <translation><!-- 1/5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2/5</masterLabel>
+            <translation><!-- 2/5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3/5</masterLabel>
+            <translation><!-- 3/5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4/5</masterLabel>
+            <translation><!-- 4/5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5/5</masterLabel>
+            <translation><!-- 5/5 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

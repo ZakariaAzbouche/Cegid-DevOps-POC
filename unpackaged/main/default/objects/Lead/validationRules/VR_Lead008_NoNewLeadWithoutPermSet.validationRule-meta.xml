@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Lead008_NoNewLeadWithoutPermSet</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+NOT( $User.BypassVR__c),
+NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c,"VR_Lead008_NoNewLeadWithoutPermSet")),
+OR ($Profile.Name = "Cegid Marketing", $Profile.Name = "Cegid Telemarketing", $Permission.PRMSalesUsers),
+NOT( $Permission.Opportunity_without_lead_creation),
+ISNEW()
+				)</errorConditionFormula>
+    <errorMessage>You can't' create a lead with your profile.</errorMessage>
+</ValidationRule>

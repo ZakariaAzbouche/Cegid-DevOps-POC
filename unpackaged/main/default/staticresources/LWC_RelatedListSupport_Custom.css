@@ -1,0 +1,9 @@
+tr > th:first-of-type > lightning-primitive-cell-factory > span > div > lightning-primitive-cell-button > lightning-button > button {
+    border: unset;
+    background: transparent;
+}
+
+tr > th:first-of-type > lightning-primitive-cell-factory > span > div > lightning-primitive-cell-button > lightning-button > button:hover {
+    text-decoration-line: underline;
+    background: transparent !important;
+}

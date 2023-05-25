@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- source : INSEE / D&amp;B. Might be different from the data available on the account --></help>
+        <label><!-- Cegid Vertical --></label>
+        <name>Cegid_Vertical__c</name>
+        <picklistValues>
+            <masterLabel>11 - Government</masterLabel>
+            <translation><!-- 11 - Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 - Education</masterLabel>
+            <translation><!-- 12 - Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 - Healthcare &amp; Social Services</masterLabel>
+            <translation><!-- 13 - Healthcare &amp; Social Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21 - Agriculture &amp; Natural Resources</masterLabel>
+            <translation><!-- 21 - Agriculture &amp; Natural Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22 - Construction</masterLabel>
+            <translation><!-- 22 - Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23 - Manufacturing</masterLabel>
+            <translation><!-- 23 - Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24 - Process Manufacturing</masterLabel>
+            <translation><!-- 24 - Process Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31 - Wholesale Trade</masterLabel>
+            <translation><!-- 31 - Wholesale Trade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32 - Specialty Retail</masterLabel>
+            <translation><!-- 32 - Specialty Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>33 - Other Retail</masterLabel>
+            <translation><!-- 33 - Other Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>41 - CPA</masterLabel>
+            <translation><!-- 41 - CPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>42 - Financial Services (except CPA)</masterLabel>
+            <translation><!-- 42 - Financial Services (except CPA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>43 - Business Services</masterLabel>
+            <translation><!-- 43 - Business Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>44 - Consumer Services</masterLabel>
+            <translation><!-- 44 - Consumer Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45 - Telecommunications</masterLabel>
+            <translation><!-- 45 - Telecommunications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>51 - Transportation</masterLabel>
+            <translation><!-- 51 - Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>52 - Energy &amp; Public Utilities</masterLabel>
+            <translation><!-- 52 - Energy &amp; Public Utilities --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

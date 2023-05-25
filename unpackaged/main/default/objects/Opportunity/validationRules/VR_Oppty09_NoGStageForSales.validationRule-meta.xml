@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty09_NoGStageForSales</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+NOT(INCLUDES($User.List_of_VR_to_By_Pass__c,"VR_Oppty09_NoGStageForSales")),
+    NOT( $User.BypassVR__c ),
+				NOT(ISCHANGED( OwnerId )),
+				NOT(TECH_By_Pass_VR__c),
+    NOT(ISCHANGED( TECH_By_Pass_VR__c )),
+				NOT(ISCHANGED( Product_Line__c)),
+				NOT(ISCHANGED( Sales_Purpose__c)),  
+				NOT(ISCHANGED( Forecast_Category_EDIT__c)),    
+    NOT(ISCHANGED( ForecastCategoryName)),      
+				NOT(ISCHANGED(TECH_Territory_To_Be_Calculated__c)),
+				NOT(ISCHANGED(TECH_Territory_Id__c)),
+				NOT(ISCHANGED( CloseDate)),  
+				$Profile.Name = "Cegid Sales",
+				NOT(CONTAINS( Name , "Amendment for contract")),
+				NOT($Permission.Create_MQL_Opties),
+				ISPICKVAL( StageName ,"G - MQL"), 
+				NOT(TECH_By_Pass_VR__c)
+				)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>This opportunity stage is not valid for your profile.</errorMessage>
+</ValidationRule>

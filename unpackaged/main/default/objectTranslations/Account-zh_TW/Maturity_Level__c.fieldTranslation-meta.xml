@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Maturity Level --></label>
+        <name>Maturity_Level__c</name>
+        <picklistValues>
+            <masterLabel>Avant-garde</masterLabel>
+            <translation><!-- Avant-garde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modern / Ex modern</masterLabel>
+            <translation><!-- Modern / Ex modern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional</masterLabel>
+            <translation><!-- Traditional --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

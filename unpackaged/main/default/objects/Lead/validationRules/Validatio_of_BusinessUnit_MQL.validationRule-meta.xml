@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validatio_of_BusinessUnit_MQL</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(ISPICKVAL(Business_Unit__c, ""),ISPICKVAL(Status ,"MQL"))</errorConditionFormula>
+    <errorDisplayField>Business_Unit__c</errorDisplayField>
+    <errorMessage>Business Unit is Required</errorMessage>
+</ValidationRule>

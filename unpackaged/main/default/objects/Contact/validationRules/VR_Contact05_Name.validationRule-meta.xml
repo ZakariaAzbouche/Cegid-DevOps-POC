@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Contact05_Name</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+				NOT($User.BypassVR__c),
+				NOT( RecordType.DeveloperName = 'Customer_User'),
+	 		NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Contact05_Name")),
+				NOT (ISPICKVAL( LeadSource,"LinkedIn")),
+				OR (ISBLANK( TEXT(Salutation) ), 
+									ISBLANK( FirstName )
+								)
+				)</errorConditionFormula>
+    <errorDisplayField>Salutation</errorDisplayField>
+    <errorMessage>Salutation, First Name and Last Name are mandatory.</errorMessage>
+</ValidationRule>

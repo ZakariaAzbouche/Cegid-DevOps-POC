@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>AQL</masterLabel>
+        <translation><!-- AQL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cold</masterLabel>
+        <translation>Froid</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Competition</masterLabel>
+        <translation>Concurrent</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MQL</masterLabel>
+        <translation><!-- MQL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Onboarding</masterLabel>
+        <translation>Embarquement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Recycled</masterLabel>
+        <translation>Recyclé</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SAL</masterLabel>
+        <translation><!-- SAL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SQL</masterLabel>
+        <translation><!-- SQL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Software Partner</masterLabel>
+        <translation>Partenaire</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Stakeholder</masterLabel>
+        <translation>Ecosystem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Student</masterLabel>
+        <translation>Etudiant</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TAL</masterLabel>
+        <translation><!-- TAL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>To Be Deleted</masterLabel>
+        <translation>A supprimer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Warm</masterLabel>
+        <translation>Chaud</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

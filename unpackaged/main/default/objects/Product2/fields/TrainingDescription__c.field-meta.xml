@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrainingDescription__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF
+(
+    ISBLANK(Max_Trainee__c),
+    Description,
+    Description + BR() + $Label.CPQ_TrainingDescription + " " + TEXT(Max_Trainee__c)
+)</formula>
+    <label>Training Description</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

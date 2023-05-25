@@ -1,0 +1,5 @@
+*** NEW MEMBER ASSIGNMENT NOTIFICATION *** 
+
+A new member is part of the team of the opportunity {!Opportunity.Name} as {!OpportunityTeamMember.TeamMemberRole}
+
+Click on the link to check the new team member : {!OpportunityTeamMember.Link}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Monthly</fullName>
+        <default>true</default>
+        <label>Monthly</label>
+    </customValue>
+    <customValue>
+        <fullName>Yearly</fullName>
+        <default>false</default>
+        <label>Yearly</label>
+    </customValue>
+    <masterLabel>Price Smoothing Method</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

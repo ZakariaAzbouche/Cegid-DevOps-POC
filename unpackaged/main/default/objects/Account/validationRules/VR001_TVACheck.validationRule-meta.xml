@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR001_TVACheck</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+OR(
+ AND(
+   CONTAINS(BillingCountry , "Germany"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[DE]{3}[0-9]{9}'))
+ ),
+
+ AND(
+   CONTAINS(BillingCountry , "Austria"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[ATU]{3}[0-9]{8}'))
+ ),
+
+ AND(
+   CONTAINS(BillingCountry , "Bulgaria"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[BG]{2}[0-9]{9}'))
+ ),
+ AND(
+   CONTAINS(BillingCountry , "Croatia"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[HR]{2}[0-9]{11}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Denmark"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[DK]{2}[0-9]{8}'))
+ ),
+
+
+  AND(
+   CONTAINS(BillingCountry , "Estonia"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[EE]{2}[0-9]{9}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Finland"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[FI]{2}[0-9]{8}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Greece"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[EL]{2}[0-9]{9}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Hungary"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[HU]{2}[0-9]{8}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Italy"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[IT]{2}[0-9]{11}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Latvia"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[LV]{2}[0-9]{11}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Luxembourg"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[LU]{2}[0-9]{11}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Malta"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[MT]{2}[0-9]{8}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Poland"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[PL]{2}[0-9]{10}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Portugal"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[PT]{2}[0-9]{9}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Slovakia"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[SK]{2}[0-9]{10}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Slovenia"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[SI]{2}[0-9]{8}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Sweden"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[SE]{2}[0-9]{12}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Romania"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[RO]{2}[0-9]{2,10}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Czech Republic"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[CZ]{2}[0-9]{8,10}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Lithuania"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[LT]{2}[0-9]{9,12}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Belgium"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[BE0]{3}[0-9]{9,10}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Ireland"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[IE]{2}[a-zA-Z0-9]{8}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Spain"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[ES]{2}[a-zA-Z0-9]{9}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Cyprus"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[CY]{2}[0-9]{8}[a-zA-Z]{1}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "Netherlands"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[NL]{2}[a-zA-Z0-9]{12}'))
+ ),
+
+  AND(
+   CONTAINS(BillingCountry , "United Kingdom"),
+   NOT(REGEX( IntercommunityVATnumber__c , '[B]{1}[a-zA-Z0-9]{5,12}'))
+ )
+
+
+
+), 
+NOT(ISBLANK(IntercommunityVATnumber__c))
+)</errorConditionFormula>
+    <errorDisplayField>IntercommunityVATnumber__c</errorDisplayField>
+    <errorMessage>le n° de TVA Intra n'est pas conforme par rapport au pays du compte.</errorMessage>
+</ValidationRule>

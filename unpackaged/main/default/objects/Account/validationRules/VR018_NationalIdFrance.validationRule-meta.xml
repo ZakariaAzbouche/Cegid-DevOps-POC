@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR018_NationalIdFrance</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+NOT ( $User.BypassVR__c ), 
+NOT(INCLUDES($User.List_of_VR_to_By_Pass__c,"VR013_NationalIdForFrance")), 
+CASE( BillingCountryCode,"FR",1,
+"GP",1,
+"YT",1,
+"RE",1,
+"BL",1,
+"MF",1,
+0)=1,
+NOT(ISBLANK( National_ID__c )),
+CONTAINS("00000", RIGHT(National_ID__c ,5))
+)</errorConditionFormula>
+    <errorDisplayField>National_ID__c</errorDisplayField>
+    <errorMessage>In this country, the national id cannot end with "00000"</errorMessage>
+</ValidationRule>

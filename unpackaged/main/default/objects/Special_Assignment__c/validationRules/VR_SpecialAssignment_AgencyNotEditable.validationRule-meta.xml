@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_SpecialAssignment_AgencyNotEditable</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT($User.BypassVR__c ),
+NOT(ISNEW()),
+ISCHANGED( Agency__c )
+)</errorConditionFormula>
+    <errorDisplayField>Agency__c</errorDisplayField>
+    <errorMessage>You can't change the agency for RCC Special Assignment. Please remove it and create new one.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Call__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Define if all call attempts to reach the lead were done</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if all attempts to reach the lead were done (Number of call attemps = 3)</inlineHelpText>
+    <label>Last Call?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

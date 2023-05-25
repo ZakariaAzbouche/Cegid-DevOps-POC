@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Royalty_No_Royalty</fullName>
+    <active>true</active>
+    <description>Prevent user from ckecking "No Royalty" and another type of Royalty at the same time</description>
+    <errorConditionFormula>AND(
+ NOT($User.BypassVR__c), 
+ NoRoyalty__c , OR( percentage_of_turnover__c , Prepaid__c , countermark__c, Quantity_Declarative__c ) )</errorConditionFormula>
+    <errorMessage>You cannot check "No Royalty" and another type of Royalty at the same time.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,1767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_contact</fullName>
+    <active>true</active>
+    <label>Sales contact</label>
+    <picklistValues>
+        <picklist>Affinity_to_CEGID__c</picklist>
+        <values>
+            <fullName>Neutral</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Convinced</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BU__c</picklist>
+        <values>
+            <fullName>100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>111</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>201</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>302</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>305</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>314</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>315</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>316</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>317</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>318</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>319</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>320</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>321</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>322</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>323</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>801</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>802</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>999</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CegidRole__c</picklist>
+        <values>
+            <fullName>Contact for payment business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoices contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment contact</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Decision_Maker_Core_Business_1__c</picklist>
+        <values>
+            <fullName>110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>112</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>120</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>123</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>124</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>126</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>128</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>130</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>140</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>152</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>155</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>156</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>157</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>158</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>160</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>165</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>170</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>171</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>173</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>201</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>202</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>205</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>206</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>210</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>220</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>230</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>235</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>238</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>239</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>240</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>251</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>260</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>270</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>280</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>290</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>295</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>310</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>340</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>350</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Decision_Maker_Core_Business_2__c</picklist>
+        <values>
+            <fullName>110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>112</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>120</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>123</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>124</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>126</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>128</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>130</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>140</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>152</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>155</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>156</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>157</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>158</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>160</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>165</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>170</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>171</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>173</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>201</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>202</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>205</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>206</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>210</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>220</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>230</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>235</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>238</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>239</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>240</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>251</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>260</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>270</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>280</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>290</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>295</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>310</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>340</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>350</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Decision_Maker__c</picklist>
+        <values>
+            <fullName>100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>310</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>320</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>340</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>350</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>360</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>370</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>380</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>999</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Department__c</picklist>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing and Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transverse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Expertise__c</picklist>
+        <values>
+            <fullName>100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>310</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>320</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>340</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>350</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>360</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>370</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>380</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>999</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Function__c</picklist>
+        <values>
+            <fullName>Accountant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accounting Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accounting Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accounting recoverings contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admin%2E %26%C2%A0Financial Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admin%2E %26%C2%A0Financial Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administrative Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administrative Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>After-Sales Service Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Associate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auditor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Board Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Branch Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business app Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business%C2%A0Development Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Career Planning Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chairman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chairman Board Directors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chairman Board Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chairman Supervisory Board</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chartered accountant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chief Digital Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chief Executive Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chief Information Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chief Learning Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chief Legal Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chief Marketing Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chief Operating Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chief Strategy Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chief%C2%A0Accounting Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communication Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comp%2E %26 benefits Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comp%2E %26 benefits Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Secretary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Computer System Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Computer scientist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consolidation Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Care Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Department Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deputy General Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-commerce Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educational Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elected Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executive Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executive assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Export Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Export Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Factory Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Factory Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiscal integration Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fleet Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Founder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franchise Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Services Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HRIS Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HRIS Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Headmaster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intern Chartered accountant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inventory Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lawyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Tax Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management Audit Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayor Secretary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchandising Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchandising Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operating Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organization Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnerships Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personnel Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personnel Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Leader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public accounting officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recruitment Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Development Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research and Dev Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Administration Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sign of store Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sign of store Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplies Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplies Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply%C2%A0Chain Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply%C2%A0Chain Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Task Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Dir%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Arranger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Treasury Mgr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vice Chairman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Works Foreman</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interlocutor_level__c</picklist>
+        <values>
+            <fullName>Decision-maker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operational</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LID__Level__c</picklist>
+        <values>
+            <fullName>Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secondary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tertiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LID__No_longer_at_Company__c</picklist>
+        <values>
+            <fullName>Ignore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not at Company</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Language_in_the_Community__c</picklist>
+        <values>
+            <fullName>English</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>French</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Customer Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SDR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SDR Lead Purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SDR-Marketing Prospecting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Prospecting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>affiliates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>call-in_FR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>call-in_INT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>call-out_FR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>call-out_INT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>databasepurchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>influencer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>leadpurchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>others-web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>paid-search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sales-enablement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>scoring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>social-ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sponsored-email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>survey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>var</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lead_s_Chosen_Solution__c</picklist>
+        <values>
+            <fullName>CPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing Industry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TPE %26 Association</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Manual_Sync_TS__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marketing_Status__c</picklist>
+        <values>
+            <fullName>AQL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MQL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recycled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SQL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stakeholder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Deleted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Preferred_Language__c</picklist>
+        <values>
+            <fullName>Armenian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chinese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Croatian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Danish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dutch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>English</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finnish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>French</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>German</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hebrew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hungarian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Icelandic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Irish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Japanese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Korean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norwegian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Polish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portuguese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Russian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spanish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swedish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ukrainian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vietnamese</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reject_Cause__c</picklist>
+        <values>
+            <fullName>Abandoned project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Already a client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Already created opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANT reject - authority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANT reject - budget</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANT reject - need %28functional perimeter%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANT reject - need %28international perimeter%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANT reject - need %28technology%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANT reject - timing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non commercial request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not the good lead owner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off target</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signed for the competition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stakeholder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Deleted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unreachable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service__c</picklist>
+        <values>
+            <fullName>Finance and accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing and communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transversal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Usergroupe__c</picklist>
+        <values>
+            <fullName>CPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cercle RH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ERP High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ERP Middle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HCM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Visibility_on_tickets__c</picklist>
+        <values>
+            <fullName>On my organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restricted to my tickets</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,47 @@
+<template>
+    <!-- CREATED BY: VARUN MOLLA -->
+
+    <div class="container cardstyle slds-p-around_large slds-is-relative">
+        <!-- <div class="title">{data.Name}</div> -->
+        <!-- <div class="description slds-m-top_medium slds-m-bottom_medium">{data.Description}</div> -->
+        <lightning-spinner alternative-text="Loading" variant="brand" style="border-radius: 18px;" class={spinnerClassName}></lightning-spinner>
+        <!-- <div class="title">{title}</div> -->
+        <div class={titleClassName}>{title}</div>
+        <div class="datecontainer">
+            <template for:each={data.sessions} for:item="session">
+                <div  key={session.sessionCode} id={session.sessionCode} class="slds-p-bottom_medium dateSection" onclick={handleClick}>
+                    <div class="slds-float_left slds-m-top_small slds-m-right_small">
+                        <input type="radio" name="radiobutton" data-id={session.sessionDate} data-availability={session.availability} value={session.sessionCode} onchange={handleChecked}>
+                    </div>
+                    <div>
+                        <p><span class="date">{session.startDate} </span> | <span class="otherInfo">{session.startTimeEndTime}</span></p>
+                        <p class="otherInfo">{session.availability} place(s) disponibles</p>
+                    </div>
+                    <!-- <label>
+                        <input type="radio" name="radiobuttonsession" data-id={session.sessionDate} data-availability={session.availability} value={session.sessionCode} onchange={handleChecked} />
+                        <span>
+                            <span class="date">{session.startDate} </span> | <span class="otherInfo">{session.startTimeEndTime}</span>
+                            </br>
+                            <span class="otherInfo availability">{session.availability} place(s) disponibles</span>
+                        </span>
+                    </label> -->
+                </div>
+            </template>
+        </div>      
+
+        <!-- <div class="datecontainer">
+            <template for:each={data.sessions} for:item="session">
+                <div  key={session.sessionCode} id={session.sessionCode} class="slds-p-bottom_medium dateSection" onclick={handleClick}>
+                    <label>
+                        <input type="radio" name="radiobuttonsession" data-id={session.sessionDate} data-availability={session.availability} value={session.sessionCode} onchange={handleChecked} />
+                        <span>
+                            <span class="date">{session.startDate} </span> | <span class="otherInfo">{session.startTimeEndTime}</span>
+                            </br>
+                            <span class="otherInfo availability">{session.availability} place(s) disponibles</span>
+                        </span>
+                    </label>
+                </div>
+            </template>
+        </div>       -->
+    </div>
+</template>

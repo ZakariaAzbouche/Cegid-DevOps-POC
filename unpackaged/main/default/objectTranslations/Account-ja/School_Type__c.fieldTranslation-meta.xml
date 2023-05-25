@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- School Type --></label>
+        <name>School_Type__c</name>
+        <picklistValues>
+            <masterLabel>Academie/ rectorat</masterLabel>
+            <translation><!-- Academie/ rectorat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Association étudiante</masterLabel>
+            <translation><!-- Association étudiante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CFA</masterLabel>
+            <translation><!-- CFA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centre de formation</masterLabel>
+            <translation><!-- Centre de formation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chambre commerce industrie</masterLabel>
+            <translation><!-- Chambre commerce industrie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chambre des métiers</masterLabel>
+            <translation><!-- Chambre des métiers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecole BTP</masterLabel>
+            <translation><!-- Ecole BTP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecole d' Ingénieurs</masterLabel>
+            <translation><!-- Ecole d&apos; Ingénieurs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecole de commerce</masterLabel>
+            <translation><!-- Ecole de commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecole hotelière</masterLabel>
+            <translation><!-- Ecole hotelière --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecole mode</masterLabel>
+            <translation><!-- Ecole mode --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecole sup informatique</masterLabel>
+            <translation><!-- Ecole sup informatique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formation continue</masterLabel>
+            <translation><!-- Formation continue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greta</masterLabel>
+            <translation><!-- Greta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IAE</masterLabel>
+            <translation><!-- IAE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IUT</masterLabel>
+            <translation><!-- IUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Junior entreprise</masterLabel>
+            <translation><!-- Junior entreprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lycee général</masterLabel>
+            <translation><!-- Lycee général --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lycee hotelier</masterLabel>
+            <translation><!-- Lycee hotelier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lycee polyvalent</masterLabel>
+            <translation><!-- Lycee polyvalent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lycee privé</masterLabel>
+            <translation><!-- Lycee privé --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lycee professionnel</masterLabel>
+            <translation><!-- Lycee professionnel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lycee technique</masterLabel>
+            <translation><!-- Lycee technique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lycee technologique</masterLabel>
+            <translation><!-- Lycee technologique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lycée</masterLabel>
+            <translation><!-- Lycée --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lycée public</masterLabel>
+            <translation><!-- Lycée public --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Université</masterLabel>
+            <translation><!-- Université --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

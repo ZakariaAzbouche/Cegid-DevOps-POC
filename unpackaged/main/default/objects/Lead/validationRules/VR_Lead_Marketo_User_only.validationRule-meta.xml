@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Lead_Marketo_User_only</fullName>
+    <active>true</active>
+    <description>Ensure that only the Marketo User can uncheck this field</description>
+    <errorConditionFormula>AND( 
+
+     AND(NOT(ISNEW()),ISCHANGED(Mkto_marketo_sync__c)) , 
+     Mkto_marketo_sync__c = FALSE,
+     NOT($Profile.Name = "Marketo") 
+    )</errorConditionFormula>
+    <errorDisplayField>Mkto_marketo_sync__c</errorDisplayField>
+    <errorMessage>Only the Marketo User can uncheck this field</errorMessage>
+</ValidationRule>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>10000</fullName>
+        <default>false</default>
+        <label>TS Performance</label>
+    </customValue>
+    <customValue>
+        <fullName>10001</fullName>
+        <default>false</default>
+        <label>TS Recruitment</label>
+    </customValue>
+    <customValue>
+        <fullName>10002</fullName>
+        <default>false</default>
+        <label>TS Hello Talent</label>
+    </customValue>
+    <customValue>
+        <fullName>10003</fullName>
+        <default>false</default>
+        <label>TS Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>10004</fullName>
+        <default>false</default>
+        <label>TS Compensation</label>
+    </customValue>
+    <customValue>
+        <fullName>10005</fullName>
+        <default>false</default>
+        <label>TS Internal Mobility</label>
+    </customValue>
+    <customValue>
+        <fullName>10006</fullName>
+        <default>false</default>
+        <label>TS Talent Review</label>
+    </customValue>
+    <customValue>
+        <fullName>09001</fullName>
+        <default>false</default>
+        <label>Retail Core ERP</label>
+    </customValue>
+    <customValue>
+        <fullName>09002</fullName>
+        <default>false</default>
+        <label>Retail Core Tools</label>
+    </customValue>
+    <customValue>
+        <fullName>09003</fullName>
+        <default>false</default>
+        <label>Retail Country Pack</label>
+    </customValue>
+    <customValue>
+        <fullName>09004</fullName>
+        <default>false</default>
+        <label>Retail Omni</label>
+    </customValue>
+    <customValue>
+        <fullName>09005</fullName>
+        <default>false</default>
+        <label>Retail Connectors</label>
+    </customValue>
+    <customValue>
+        <fullName>09006</fullName>
+        <default>false</default>
+        <label>Retail BO Users</label>
+    </customValue>
+    <customValue>
+        <fullName>09007</fullName>
+        <default>false</default>
+        <label>Retail Y2 Front Office</label>
+    </customValue>
+    <customValue>
+        <fullName>09008</fullName>
+        <default>false</default>
+        <label>Retail Shopping</label>
+    </customValue>
+    <customValue>
+        <fullName>09009</fullName>
+        <default>false</default>
+        <label>Retail mPOS</label>
+    </customValue>
+    <customValue>
+        <fullName>09010</fullName>
+        <default>false</default>
+        <label>Retail Inventory</label>
+    </customValue>
+    <customValue>
+        <fullName>09011</fullName>
+        <default>false</default>
+        <label>Retail Live Store</label>
+    </customValue>
+    <customValue>
+        <fullName>09012</fullName>
+        <default>false</default>
+        <label>Retail Intelligence</label>
+    </customValue>
+    <customValue>
+        <fullName>CD001</fullName>
+        <default>false</default>
+        <label>Cegid Data</label>
+    </customValue>
+    <customValue>
+        <fullName>27501</fullName>
+        <default>false</default>
+        <label>LOOP CPA</label>
+    </customValue>
+    <customValue>
+        <fullName>27502</fullName>
+        <default>false</default>
+        <label>LOOP Collaboratif</label>
+    </customValue>
+    <customValue>
+        <fullName>27503</fullName>
+        <default>false</default>
+        <label>LOOP TPE</label>
+    </customValue>
+    <customValue>
+        <fullName>13101</fullName>
+        <default>false</default>
+        <label>CTU Reporting</label>
+    </customValue>
+    <customValue>
+        <fullName>13102</fullName>
+        <default>false</default>
+        <label>CTU ISAE 3402</label>
+    </customValue>
+    <customValue>
+        <fullName>13701</fullName>
+        <default>false</default>
+        <label>XRP Flex Gestion Production</label>
+    </customValue>
+    <customValue>
+        <fullName>13702</fullName>
+        <default>false</default>
+        <label>XRP Flex Gestion Interventions</label>
+    </customValue>
+    <customValue>
+        <fullName>29801</fullName>
+        <default>false</default>
+        <label>Treasury Cash Forecasting</label>
+    </customValue>
+    <customValue>
+        <fullName>DSP02</fullName>
+        <default>false</default>
+        <label>DSP2</label>
+    </customValue>
+    <customValue>
+        <fullName>SB001</fullName>
+        <default>false</default>
+        <label>SB Devis Fact</label>
+    </customValue>
+    <customValue>
+        <fullName>SB002</fullName>
+        <default>false</default>
+        <label>SB Gescom</label>
+    </customValue>
+    <customValue>
+        <fullName>SB003</fullName>
+        <default>false</default>
+        <label>SB Others</label>
+    </customValue>
+    <customValue>
+        <fullName>23201</fullName>
+        <default>false</default>
+        <label>Portail Abonnement CPA</label>
+    </customValue>
+    <customValue>
+        <fullName>23202</fullName>
+        <default>false</default>
+        <label>Portail Box</label>
+    </customValue>
+    <customValue>
+        <fullName>23203</fullName>
+        <default>false</default>
+        <label>Portail Compta</label>
+    </customValue>
+    <customValue>
+        <fullName>23204</fullName>
+        <default>false</default>
+        <label>Portail Devis Fact</label>
+    </customValue>
+    <customValue>
+        <fullName>23205</fullName>
+        <default>false</default>
+        <label>Portail Gescom</label>
+    </customValue>
+    <customValue>
+        <fullName>23206</fullName>
+        <default>false</default>
+        <label>Portail Paie</label>
+    </customValue>
+    <customValue>
+        <fullName>23207</fullName>
+        <default>false</default>
+        <label>Portail Divers</label>
+    </customValue>
+    <customValue>
+        <fullName>HRI01</fullName>
+        <default>false</default>
+        <label>Cegid HR_Insights</label>
+    </customValue>
+    <customValue>
+        <fullName>13703</fullName>
+        <default>false</default>
+        <label>XRP Flex Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>13704</fullName>
+        <default>false</default>
+        <label>XRP Flex Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>31101</fullName>
+        <default>false</default>
+        <label>Digitalrecruiters - Manage</label>
+    </customValue>
+    <customValue>
+        <fullName>31102</fullName>
+        <default>false</default>
+        <label>Digitalrecruiters - Check</label>
+    </customValue>
+    <customValue>
+        <fullName>31103</fullName>
+        <default>false</default>
+        <label>Digitalrecruiters - Collect</label>
+    </customValue>
+    <customValue>
+        <fullName>31104</fullName>
+        <default>false</default>
+        <label>Digitalrecruiters - Engage</label>
+    </customValue>
+    <customValue>
+        <fullName>31105</fullName>
+        <default>false</default>
+        <label>Digitalrecruiters – Connect</label>
+    </customValue>
+    <customValue>
+        <fullName>Portail_box</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portail_box</label>
+    </customValue>
+    <customValue>
+        <fullName>Portail_cegidshop</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portail_cegidshop</label>
+    </customValue>
+    <customValue>
+        <fullName>Portail_abont_exp</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portail_abonnement_exp</label>
+    </customValue>
+    <customValue>
+        <fullName>HR_Insight</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cegid HR Insights</label>
+    </customValue>
+    <customValue>
+        <fullName>Portail_gescom</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portail_gescom</label>
+    </customValue>
+    <customValue>
+        <fullName>Portail_compta</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portail_compta</label>
+    </customValue>
+    <customValue>
+        <fullName>Portail_devis_fact</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portail_devis_fact</label>
+    </customValue>
+    <customValue>
+        <fullName>Portail_paie</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portail_paie</label>
+    </customValue>
+    <customValue>
+        <fullName>Portail_divers</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Portail_divers</label>
+    </customValue>
+    <masterLabel>Grouping Code</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

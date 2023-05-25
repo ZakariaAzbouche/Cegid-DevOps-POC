@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>001</fullName>
+        <default>false</default>
+        <label>CPA</label>
+    </customValue>
+    <customValue>
+        <fullName>003</fullName>
+        <default>false</default>
+        <label>RETAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>005</fullName>
+        <default>false</default>
+        <label>HCM</label>
+    </customValue>
+    <customValue>
+        <fullName>008</fullName>
+        <default>false</default>
+        <label>QUADRATUS</label>
+    </customValue>
+    <customValue>
+        <fullName>010</fullName>
+        <default>false</default>
+        <label>TELESALES OPERATIONS</label>
+    </customValue>
+    <customValue>
+        <fullName>014</fullName>
+        <default>false</default>
+        <label>INDIRECTE SALE</label>
+    </customValue>
+    <customValue>
+        <fullName>016</fullName>
+        <default>false</default>
+        <label>EDUCATION</label>
+    </customValue>
+    <customValue>
+        <fullName>018</fullName>
+        <default>false</default>
+        <label>RETAIL INTERNATIONAL</label>
+    </customValue>
+    <customValue>
+        <fullName>019</fullName>
+        <default>false</default>
+        <label>TAX</label>
+    </customValue>
+    <customValue>
+        <fullName>021</fullName>
+        <default>false</default>
+        <label>QUALIAC</label>
+    </customValue>
+    <customValue>
+        <fullName>022</fullName>
+        <default>false</default>
+        <label>CYLANDE</label>
+    </customValue>
+    <customValue>
+        <fullName>023</fullName>
+        <default>false</default>
+        <label>CHANNEL ENTREPRISE</label>
+    </customValue>
+    <customValue>
+        <fullName>024</fullName>
+        <default>false</default>
+        <label>IS - CPA SMB VI</label>
+    </customValue>
+    <customValue>
+        <fullName>025</fullName>
+        <default>false</default>
+        <label>IS - ERP TAX HCM</label>
+    </customValue>
+    <customValue>
+        <fullName>026</fullName>
+        <default>false</default>
+        <label>IS - QUICK SALES</label>
+    </customValue>
+    <customValue>
+        <fullName>027</fullName>
+        <default>false</default>
+        <label>ALLIANCES</label>
+    </customValue>
+    <customValue>
+        <fullName>999</fullName>
+        <default>false</default>
+        <label>EXCEPT ORGA COMM</label>
+    </customValue>
+    <customValue>
+        <fullName>028</fullName>
+        <default>false</default>
+        <label>PORTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>029</fullName>
+        <default>false</default>
+        <label>FINANCE (ACA)</label>
+    </customValue>
+    <customValue>
+        <fullName>030</fullName>
+        <default>false</default>
+        <label>Cedricom</label>
+    </customValue>
+    <customValue>
+        <fullName>031</fullName>
+        <default>false</default>
+        <label>IS SB</label>
+    </customValue>
+    <customValue>
+        <fullName>032</fullName>
+        <default>false</default>
+        <label>Finance - Strategic Accounts</label>
+    </customValue>
+    <customValue>
+        <fullName>033</fullName>
+        <default>false</default>
+        <label>Finance - Large &amp; MID</label>
+    </customValue>
+    <customValue>
+        <fullName>034</fullName>
+        <default>false</default>
+        <label>Finance - SB</label>
+    </customValue>
+    <customValue>
+        <fullName>035</fullName>
+        <default>false</default>
+        <label>Finance - Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>036</fullName>
+        <default>false</default>
+        <label>HCM - Talentsoft</label>
+    </customValue>
+    <customValue>
+        <fullName>037</fullName>
+        <default>false</default>
+        <label>Finance - Notilus</label>
+    </customValue>
+    <customValue>
+        <fullName>004</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FISCALITE</label>
+    </customValue>
+    <customValue>
+        <fullName>002</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FINANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>007</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PUBLIC</label>
+    </customValue>
+    <customValue>
+        <fullName>011</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TDA</label>
+    </customValue>
+    <customValue>
+        <fullName>012</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MGE</label>
+    </customValue>
+    <customValue>
+        <fullName>020</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TECHNOMEDIA</label>
+    </customValue>
+    <customValue>
+        <fullName>013</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PME</label>
+    </customValue>
+    <customValue>
+        <fullName>015</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MT&amp;S</label>
+    </customValue>
+    <masterLabel>Commercial Organization</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

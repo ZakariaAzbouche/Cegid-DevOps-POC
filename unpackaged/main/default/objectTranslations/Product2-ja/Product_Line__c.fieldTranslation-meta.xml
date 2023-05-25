@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Line --></label>
+        <lookupFilter>
+            <errorMessage><!-- This Product Line is inactive. --></errorMessage>
+        </lookupFilter>
+        <name>Product_Line__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </CustomFieldTranslation>

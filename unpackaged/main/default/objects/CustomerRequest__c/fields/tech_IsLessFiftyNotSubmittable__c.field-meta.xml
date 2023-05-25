@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tech_IsLessFiftyNotSubmittable__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(TEXT(Type__c) = "Credit Note" , TEXT(Type__c) = "Cancellation with Credit Note") &amp;&amp;  CreditNoteAmount__c &lt; 50 &amp;&amp;  NOT(tech_IsFirstEuro__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>tech_IsLessFiftyNotSubmittable</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

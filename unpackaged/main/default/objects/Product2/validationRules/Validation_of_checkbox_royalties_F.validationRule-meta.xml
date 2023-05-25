@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_of_checkbox_royalties_F</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISPICKVAL(Brand__c, '839')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '836')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '860')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '873')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '871')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '872')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '837')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '864')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '870')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '833')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '861')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '838')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '824')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '829')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '884')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '885')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '844')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '834')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '874')) &amp;&amp; NOT(ISPICKVAL(Brand__c, '830')) &amp;&amp; NOT(ISBLANK(TEXT(Brand__c))) &amp;&amp; ( percentage_of_turnover__c = FALSE &amp;&amp; countermark__c = FALSE &amp;&amp; Prepaid__c = FALSE &amp;&amp; Quantity_Declarative__c = FALSE)</errorConditionFormula>
+    <errorMessage>At least one of the royalties must be selected</errorMessage>
+</ValidationRule>

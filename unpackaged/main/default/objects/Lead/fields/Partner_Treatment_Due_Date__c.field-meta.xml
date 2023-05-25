@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Treatment_Due_Date__c</fullName>
+    <description>Due date based on date assigned to partner + treatment limit (custom label in working days) - 1 hour</description>
+    <externalId>false</externalId>
+    <formula>ImpartnerPRM__DateAssignedToPartner__c +
+case(
+  MOD(
+    DATEVALUE(ImpartnerPRM__DateAssignedToPartner__c) - DATE(1900, 1, 1), 7),5,1,0
+)
++
+VALUE($Label.PRM_Lead_Treatment_Limit) 
++ 
+2 * (
+        FLOOR(
+          ( VALUE($Label.PRM_Lead_Treatment_Limit)   +
+            case(MOD(DATEVALUE(ImpartnerPRM__DateAssignedToPartner__c) - DATE(1900, 1, 1), 7),
+                    0,0, 
+                    1,1,
+                    2,2,
+                    3,3,
+                    4,4,
+                    5,-1,
+                    6,-1,
+                    0
+                    )
+          )/5
+        )
+      )
+-1/24</formula>
+    <label>Partner Treatment Due Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

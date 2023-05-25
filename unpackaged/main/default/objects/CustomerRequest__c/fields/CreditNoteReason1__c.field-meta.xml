@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CreditNoteReason1__c</fullName>
+    <externalId>false</externalId>
+    <label>Credit Note Reason 1</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>CreditNoteReason1</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Credit Note</controllingFieldValue>
+            <controllingFieldValue>Cancellation with Credit Note</controllingFieldValue>
+            <valueName>AA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit Note</controllingFieldValue>
+            <controllingFieldValue>Cancellation with Credit Note</controllingFieldValue>
+            <valueName>AC</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

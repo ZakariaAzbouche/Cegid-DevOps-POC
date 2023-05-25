@@ -1,0 +1,2822 @@
+<?xml version="1.0" encoding="utf-8"?><CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AADefault_RCC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default RCC</shortDescription>
+        <value>0053Y00000AO5maQAD</value>
+    </labels>
+    <labels>
+        <fullName>AADefault_RCC_Team_Leader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AADefault RCC Team Leader</shortDescription>
+        <value>0053Y00000AO5maQAD</value>
+    </labels>
+    <labels>
+        <fullName>AccountingSituation</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Accounting Situation</shortDescription>
+        <value>Accounting Situation</value>
+    </labels>
+    <labels>
+        <fullName>Amount</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Amount</shortDescription>
+        <value>Amount</value>
+    </labels>
+    <labels>
+        <fullName>AnnualTurnover</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Annual turnover</shortDescription>
+        <value>Annual turnover</value>
+    </labels>
+    <labels>
+        <fullName>AnnualTurnoverY1</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Annual turnover Y-1</shortDescription>
+        <value>Annual turnover Y-1</value>
+    </labels>
+    <labels>
+        <fullName>Article_Record_Type_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Article Record Type Id</shortDescription>
+        <value>0121t000000EJK1AAO</value>
+    </labels>
+    <labels>
+        <fullName>AuthentificationFailed</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Authentification Failed</shortDescription>
+        <value>Authentification Failed</value>
+    </labels>
+    <labels>
+        <fullName>Available</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Available</shortDescription>
+        <value>Available</value>
+    </labels>
+    <labels>
+        <fullName>B2BStorePricebookId</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2BStorePricebookId</shortDescription>
+        <value>01s3Y000004kO44QAE</value>
+    </labels>
+    <labels>
+        <fullName>B2B_BillingInfo_Screen_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b BillingInfo Screen 1</shortDescription>
+        <value>As a reminder, your Billing Address is :</value>
+    </labels>
+    <labels>
+        <fullName>B2B_BillingInfo_Screen_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b BillingInfo Screen 2</shortDescription>
+        <value>You will receive the Order Confirmation at the billing email address:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Expertise_Screen_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b Expertise Screen 1</shortDescription>
+        <value>We have identified that one or more products in your Order do not seem to correspond to the Cegid solutions used in your organization.
+
+The affected products are:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Expertise_Screen_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b Expertise Screen 2</shortDescription>
+        <value>Are you sure you want to continue?</value>
+    </labels>
+    <labels>
+        <fullName>B2B_OrderInfluence_Screen</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b OrderInfluence Screen</shortDescription>
+        <value>Thank you for your Order.
+
+Was this purchase recommended to you by your sales contact(s)? (Click Continue to say Yes)</value>
+    </labels>
+    <labels>
+        <fullName>B2B_StoreName</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_StoreName</shortDescription>
+        <value>B2BCegidStore</value>
+    </labels>
+    <labels>
+        <fullName>Booking_Months</fullName>
+        <categories>SM011_OpportunityCalculation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Booking Months</shortDescription>
+        <value>12</value>
+    </labels>
+    <labels>
+        <fullName>BuyMeURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BuyMeURL</shortDescription>
+        <value>https://buyme.cegid.com/buyme/accueil/BuyMe</value>
+    </labels>
+    <labels>
+        <fullName>CPQ_OrgRootUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CPQ_OrgRootUrl</shortDescription>
+        <value>https://cegid.lightning.force.com/lightning/</value>
+    </labels>
+    <labels>
+        <fullName>CPQ_QuoteLinesReport</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CPQ_QuoteLinesReport</shortDescription>
+        <value>https://cegid.lightning.force.com/lightning/r/Report/00O7S000001vR0YUAU/view?fv0=</value>
+    </labels>
+    <labels>
+        <fullName>CPQ_TrainingDescription</fullName>
+        <categories>cpq</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CPQ_TrainingDescription</shortDescription>
+        <value>The maximum number of trainees, per session, for this training is</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>ChargeArticle</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Charge/Article</shortDescription>
+        <value>Charge/Article</value>
+    </labels>
+    <labels>
+        <fullName>ChargeType</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Charge Type</shortDescription>
+        <value>Charge Type</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Lead_Record_Type_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Lead Record Type Id</shortDescription>
+        <value>0123Y000000LDV5QAO</value>
+    </labels>
+    <labels>
+        <fullName>CreateQueueInfra</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CreateQueueInfra</shortDescription>
+        <value>110=Infra CPA;350=Infra ERP HIGH;340=Infra ERP MIDDLE;320=Infra HCM;200=Infra RETAIL;100=Infra SMB;310=Infra TAX</value>
+    </labels>
+    <labels>
+        <fullName>CreatecasePSExpertise</fullName>
+        <categories>SM012_QuotePriceRule</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CreatecasePSExpertise</shortDescription>
+        <value>110=Functional CPA;350=Functional ERP HIGH;340=Functional ERP MIDDLE;320=Functional HCM;200=Functional RETAIL;100=Functional SMB;310=Functional TAX;999=Out of expertise</value>
+    </labels>
+    <labels>
+        <fullName>CreationDesContrats</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CreationDesContrats</shortDescription>
+        <value>https://prd-exp-cegid-salesforce-api.de-c1.eu1.cloudhub.io/api/exp-cegid-salesforce-api-production/v1/upsell/subscriptions/</value>
+    </labels>
+    <labels>
+        <fullName>CustomCustomerRequestFormSaveErrorerRequestFormSaveError</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormSaveError</shortDescription>
+        <value>An error occurred while saving rows.</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormAmountWarning</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormAmountWarning</shortDescription>
+        <value>The Min Amount must be less than the Max Amount</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnAmount</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnAmount</shortDescription>
+        <value>Amount</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnCNAmount</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnCNAmount</shortDescription>
+        <value>Credit Note Amount</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnCalculatedBU</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnCalculatedBU</shortDescription>
+        <value>Calculated BU</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnCancellationDate</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnCancellationDate</shortDescription>
+        <value>Cancellation Date</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnContractEndDate</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnContractEndDate</shortDescription>
+        <value>Contract End Date</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnDate</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnDate</shortDescription>
+        <value>Date</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnDiscount</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnDiscount</shortDescription>
+        <value>Discount (%)</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnEndDate</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnEndDate</shortDescription>
+        <value>End Date</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnInvoiceLineNum</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnInvoiceLineNum</shortDescription>
+        <value>Invoice Num</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnInvoiceNum</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnInvoiceNum</shortDescription>
+        <value>Invoice Num</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnLoadName</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnLoadName</shortDescription>
+        <value>Load Name</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnMRRCancelled</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnMRRCancelled</shortDescription>
+        <value>MRR Cancelled</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnMRRNew</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnMRRNew</shortDescription>
+        <value>MRR New</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnNewQuantity</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnNewQuantity</shortDescription>
+        <value>New Quantity</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnNextDateRenewal</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnNextDateRenewal</shortDescription>
+        <value>Next Date Renewal</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnProduct</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnProduct</shortDescription>
+        <value>Product</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnQuantity</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnQuantity</shortDescription>
+        <value>Quantity</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnQuantityCancelled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnQuantityCancelled</shortDescription>
+        <value>Quantity Cancelled</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnStartDate</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnStartDate</shortDescription>
+        <value>Start Date</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnSubscriptionNum</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnSubscriptionNum</shortDescription>
+        <value>Subscription Num</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnThirdParty</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnThirdParty</shortDescription>
+        <value>Third Party</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnTotalAmount</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnTotalAmount</shortDescription>
+        <value>Total Amount</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormColumnUnitPrice</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormColumnUnitPrice</shortDescription>
+        <value>Unit Price</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormDateWarning</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormDateWarning</shortDescription>
+        <value>The Min Date must be less than the Max Date</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormError</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormError</shortDescription>
+        <value>An error has occurred, please try again later</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormInputAccount</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormInputAccount</shortDescription>
+        <value>Account</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormLinesRequired</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormLinesRequired</shortDescription>
+        <value>Please select a row</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormNoData</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormNoData</shortDescription>
+        <value>No data found</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormNoMoreData</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormNoMoreData</shortDescription>
+        <value>No more Data</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormPopup</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormPopup</shortDescription>
+        <value>&lt;div&gt;
+       &lt;p&gt;You are in the process of registering a new application. &lt;/p&gt;
+       &lt;p&gt;The following fields will no longer be editable :&lt;/p&gt;
+       &lt;ul class="slds-list_dotted"&gt;
+              &lt;li&gt;Account&lt;/li&gt;
+              &lt;li&gt;Agency&lt;/li&gt;
+              &lt;li&gt;BusinessUnit&lt;/li&gt;
+              &lt;li&gt;Currency&lt;/li&gt;
+              &lt;li&gt;Structure Level 1&lt;/li&gt;
+              &lt;li&gt;Type&lt;/li&gt;
+       &lt;/ul&gt;
+        &lt;p&gt;You'll not able to add a new invoice line or subscription line once the request is created&lt;/p&gt;
+&lt;/div&gt;</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormRequired</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormRequired</shortDescription>
+        <value>Please fill in all required fields</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormSaveError</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormSaveError</shortDescription>
+        <value>An error occurred while saving rows</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormSuccess</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormSuccess</shortDescription>
+        <value>Your request has been successfully registered.</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestFormWSError</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestFormWSError</shortDescription>
+        <value>An error occurred while retrieving rows.</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestLinesAmountWarning</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestLinesAmountWarning</shortDescription>
+        <value>The amount of the credit note cannot be greater than the amount. Please check the following lines :</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestLinesDelete</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestLinesDelete</shortDescription>
+        <value>Are you sure you want to delete this line ?</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestLinesDeleteSuccess</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestLinesDeleteSuccess</shortDescription>
+        <value>Row deleted successfully.</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestLinesQuantityWarning</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestLinesQuantityWarning</shortDescription>
+        <value>The cancelled quantity cannot be greater than the quantity. Please check the following lines :</value>
+    </labels>
+    <labels>
+        <fullName>CustomerRequestLinesUpdate</fullName>
+        <categories>OneNoteS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequestLinesUpdate</shortDescription>
+        <value>Your changes have been saved.</value>
+    </labels>
+    <labels>
+        <fullName>DSO</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DSO</shortDescription>
+        <value>DSO (month year)</value>
+    </labels>
+    <labels>
+        <fullName>Decomissioning_duration_needed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decomissioning duration needed</shortDescription>
+        <value>You have to indicate the Decomissioning duration.</value>
+    </labels>
+    <labels>
+        <fullName>Default_Exceptional_Date_Validator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Exceptional Date Validator</shortDescription>
+        <value>0053Y00000A5SZIQA3</value>
+    </labels>
+    <labels>
+        <fullName>Default_Fusion_Lead_Status_For_Telemark</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Fusion Lead Status for Telemark</shortDescription>
+        <value>Assigned</value>
+    </labels>
+    <labels>
+        <fullName>Default_Marketing_Campaign_For_telemark</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Marketing Campaign for telemark</shortDescription>
+        <value>CORP-all-1-projectdetection</value>
+    </labels>
+    <labels>
+        <fullName>Default_Marketing_Status_For_PRM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Marketing Status for PRM</shortDescription>
+        <value>Warm</value>
+    </labels>
+    <labels>
+        <fullName>Default_Marketing_Status_For_Telemark</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Marketing Status for Telemark</shortDescription>
+        <value>AQL</value>
+    </labels>
+    <labels>
+        <fullName>Default_Quote_Record_Type_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Quote Record Type ID</shortDescription>
+        <value>0121t0000005xzrAAA</value>
+    </labels>
+    <labels>
+        <fullName>Delay</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delay</shortDescription>
+        <value>Delay</value>
+    </labels>
+    <labels>
+        <fullName>Delays121_150</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delays from 121 days to 150 days</shortDescription>
+        <value>Delays from 121 days to 150 days</value>
+    </labels>
+    <labels>
+        <fullName>Delays150</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delays greater than 150 day</shortDescription>
+        <value>Delays &gt; 150 days</value>
+    </labels>
+    <labels>
+        <fullName>Delays30</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delays less than 30 days</shortDescription>
+        <value>Delays &lt; 30 days</value>
+    </labels>
+    <labels>
+        <fullName>Delays31_60</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delays from 31 days to 60 days:</shortDescription>
+        <value>Delays from 31 days to 60 days:</value>
+    </labels>
+    <labels>
+        <fullName>Delays61_90</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delays from 61 days to 90 days</shortDescription>
+        <value>Delays from 61 days to 90 days</value>
+    </labels>
+    <labels>
+        <fullName>Delays91_120</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delays from 91 days to 120 days</shortDescription>
+        <value>Delays from 91 days to 120 days</value>
+    </labels>
+    <labels>
+        <fullName>Discard</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Discard</shortDescription>
+        <value>Discard changes</value>
+    </labels>
+    <labels>
+        <fullName>DiscountTier_Discount</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DiscountTier Discount</shortDescription>
+        <value>DiscountTier Discount</value>
+    </labels>
+    <labels>
+        <fullName>Discount_Tier_Lower_Bound</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Discount Tier Lower Bound</shortDescription>
+        <value>Discount Tier Lower Bound</value>
+    </labels>
+    <labels>
+        <fullName>Discount_Tier_Upper_Bound</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Discount Tier Upper Bound</shortDescription>
+        <value>Discount Tier Upper Bound</value>
+    </labels>
+    <labels>
+        <fullName>Disputed</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disputed</shortDescription>
+        <value>Disputed</value>
+    </labels>
+    <labels>
+        <fullName>EUR</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EUR</shortDescription>
+        <value>EUR</value>
+    </labels>
+    <labels>
+        <fullName>EclatementContractsToken</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EclatementContractsToken</shortDescription>
+        <value>https://prod-cegid-oauth-provider.de-c1.eu1.cloudhub.io/v2/access-token?client_id=112a28d1449e48ff869a131b01df95fd&amp;client_secret=4C91c03e35eB43db922d3227Bc06B994&amp;grant_type=client_credentials&amp;scope=READ</value>
+    </labels>
+    <labels>
+        <fullName>EclatementContrats</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EclatementContrats</shortDescription>
+        <value>https://prd-exp-cegid-sf-account-api.de-c1.eu1.cloudhub.io/api/exp-cegid-sf-account-api-production/v1/entities/</value>
+    </labels>
+    <labels>
+        <fullName>Endpoint_Passport_GetAdminSAAS</fullName>
+        <categories>Endpoint</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Endpoint Passport GetAdminSAAS</shortDescription>
+        <value>https://uat-exp-cegid-passport-api.de-c1.eu1.cloudhub.io/api/exp-cegid-passport-api-acceptance/v1/accountSaasAdmins/</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsgUpsellOppyNotCrossSell</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorMsgUpsellOppyNotCrossSell</shortDescription>
+        <value>You can’t create a G-Sales Ready opportunity with this Sales Purpose. Please, create a standard opportunity (Stage F).</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_WS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message WS</shortDescription>
+        <value>Le web service n'est pas disponible pour le moment.
+Veuillez contacter votre administrateur</value>
+    </labels>
+    <labels>
+        <fullName>Error_WS_Aston</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error WS Aston</shortDescription>
+        <value>Pas de fichier financières  pour ce compte</value>
+    </labels>
+    <labels>
+        <fullName>Error_WS_Parc</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error WS Parc</shortDescription>
+        <value>Pas de parc pour ce compte</value>
+    </labels>
+    <labels>
+        <fullName>Flow_CloneAlertMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Flow-CloneAlertMessage</shortDescription>
+        <value>ALERT : this product has got a Related Charge - the field "Main Charge Product" must be updated.</value>
+    </labels>
+    <labels>
+        <fullName>Flow_CloneSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Flow-CloneSuccess</shortDescription>
+        <value>Congratulation! You're clone product is created with all related items.
+
+You can find the new product here :</value>
+    </labels>
+    <labels>
+        <fullName>GeodeURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GeodeURL</shortDescription>
+        <value>http://geode/geode/livelink.exe</value>
+    </labels>
+    <labels>
+        <fullName>GetMandatSepa</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GetMandatSepa</shortDescription>
+        <value>https://prd-exp-cegid-account-mandates-api.de-c1.eu1.cloudhub.io/api/exp-cegid-account-mandates-prod/v1/accounts/</value>
+    </labels>
+    <labels>
+        <fullName>Getting_Started_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Header</shortDescription>
+        <value>Getting Started</value>
+    </labels>
+    <labels>
+        <fullName>Getting_Started_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Message</shortDescription>
+        <value>Please select an Apex class from the list on the left. You can then assign Profiles and Permission Sets. Classes marked with a red flag are unassigned, meaning that those classes will be unavailable to Lightning Web Components and Aura.&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;b&gt;&lt;i&gt;* The tool will not reveal Apex classes inside managed packages.&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>GlobalExportExcelName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Global Export Excel Name</shortDescription>
+        <value>CEGID | Global Export</value>
+    </labels>
+    <labels>
+        <fullName>GuestMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GuestMSG</shortDescription>
+        <value>Une authentification est nécessaire pour accéder au contenu  de votre panier</value>
+    </labels>
+    <labels>
+        <fullName>ID_user_Queue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID user Lead Queue</shortDescription>
+        <value>0051t0000030YyZAAU</value>
+    </labels>
+    <labels>
+        <fullName>IMG_Black</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IMG_Black</shortDescription>
+        <value>0153Y000006Cljm</value>
+    </labels>
+    <labels>
+        <fullName>IMG_Green</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IMG_Green</shortDescription>
+        <value>0153Y000006Cljr</value>
+    </labels>
+    <labels>
+        <fullName>IMG_Orange</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IMG_Orange</shortDescription>
+        <value>0153Y000006Clk1</value>
+    </labels>
+    <labels>
+        <fullName>IMG_Red</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IMG_Red</shortDescription>
+        <value>0153Y000006Cljw</value>
+    </labels>
+    <labels>
+        <fullName>IS_Synchro_StructureLevel3_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IS Synchro_StructureLevel3_List</shortDescription>
+        <value>316;503;602;</value>
+    </labels>
+    <labels>
+        <fullName>InfoTurnover</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Info Turnover</shortDescription>
+        <value>Information on turnover and outstandings (with VAT)</value>
+    </labels>
+    <labels>
+        <fullName>Internal_Request_Record_Type_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Internal Request Record Type ID</shortDescription>
+        <value>0123Y000000LDQtQAO</value>
+    </labels>
+    <labels>
+        <fullName>Invisible_Class_Flag</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Invisible Class Flag</shortDescription>
+        <value>Class not visible to LWC/Aura</value>
+    </labels>
+    <labels>
+        <fullName>Invoices</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoices</shortDescription>
+        <value>Invoices</value>
+    </labels>
+    <labels>
+        <fullName>LBL_ErrorMsgDuplicate</fullName>
+        <categories>LTN006</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_ErrorMsgDuplicate</shortDescription>
+        <value>The following account already has a PAC Account for this PAC, please withdraw it from your selection or choose another PAC :</value>
+    </labels>
+    <labels>
+        <fullName>LBL_ErrorMsgDuplicateValueFound</fullName>
+        <categories>LTN006</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_ErrorMsgDuplicateValueFound</shortDescription>
+        <value>duplicate value found</value>
+    </labels>
+    <labels>
+        <fullName>LBL_ErrorMsgOther</fullName>
+        <categories>LTN006</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_ErrorMsgOther</shortDescription>
+        <value>The following error occured, please contact your administrator for help :</value>
+    </labels>
+    <labels>
+        <fullName>LC004_OpportunityQuickAction_ErrorMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LC004_OpportunityQuickAction_ErrorMessage</shortDescription>
+        <value>Your contract has not been loaded, please contact your support team</value>
+    </labels>
+    <labels>
+        <fullName>Legal_Validators_Queue_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Legal Validators Queue ID</shortDescription>
+        <value>00G7S000000ZnSr</value>
+    </labels>
+    <labels>
+        <fullName>Litigation</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>In litigation</shortDescription>
+        <value>In litigation</value>
+    </labels>
+    <labels>
+        <fullName>Locked_Quote_Record_Type_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Locked Quote Record Type ID</shortDescription>
+        <value>0121t0000005xzsAAA</value>
+    </labels>
+    <labels>
+        <fullName>LowerBound</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LowerBound</shortDescription>
+        <value>LowerBound</value>
+    </labels>
+    <labels>
+        <fullName>MKT_Lead_Owner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MKT_Lead Owner</shortDescription>
+        <value>0051t0000030YpNAAU</value>
+    </labels>
+    <labels>
+        <fullName>MandatsSEPA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MandatsSEPA</shortDescription>
+        <value>https://prod-cegid-oauth-provider.de-c1.eu1.cloudhub.io/v2/access-token?client_id=112a28d1449e48ff869a131b01df95fd&amp;client_secret=4C91c03e35eB43db922d3227Bc06B994&amp;grant_type=client_credentials&amp;scope=READ</value>
+    </labels>
+    <labels>
+        <fullName>New_Group</fullName>
+        <categories>CEGID CPQ</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Group</shortDescription>
+        <value>New Value</value>
+    </labels>
+    <labels>
+        <fullName>NoProduct</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NoProduct</shortDescription>
+        <value>Pas de produit pour ce souscription</value>
+    </labels>
+    <labels>
+        <fullName>NoRoyalty</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Royalty</shortDescription>
+        <value>No Royalty</value>
+    </labels>
+    <labels>
+        <fullName>NoSubscriptions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Subscriptions</shortDescription>
+        <value>Pas de souscription pour ce compte</value>
+    </labels>
+    <labels>
+        <fullName>NonChargedCredits</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Non charged credits</shortDescription>
+        <value>Non charged credits</value>
+    </labels>
+    <labels>
+        <fullName>NumberUnpaid</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Number of unpaid</shortDescription>
+        <value>Number of unpaid</value>
+    </labels>
+    <labels>
+        <fullName>Open_Setup</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Open_Setup</shortDescription>
+        <value>Open Setup</value>
+    </labels>
+    <labels>
+        <fullName>OrangeFlagId</fullName>
+        <categories>SM013_QuoteLineCalculation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OrangeFlagId</shortDescription>
+        <value>0153Y000006Clk1</value>
+    </labels>
+    <labels>
+        <fullName>OrderInfuenceDuplicaterecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Infuence Duplicate record</shortDescription>
+        <value>Your Order Influence can't be registered because someone already created a similar one during last 15 days.</value>
+    </labels>
+    <labels>
+        <fullName>OrderInfuenceRegistration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Infuence Registration</shortDescription>
+        <value>Your Order Influence can't be registered because you are not assigned in at least one of the Account's Territories.</value>
+    </labels>
+    <labels>
+        <fullName>Outstanding</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Outstanding</shortDescription>
+        <value>Outstanding</value>
+    </labels>
+    <labels>
+        <fullName>PB_QuoteCreateContractTypeId</fullName>
+        <categories>PB</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PB_QuoteCreateContractTypeId</shortDescription>
+        <value>a3o3Y000001VvZcQAK</value>
+    </labels>
+    <labels>
+        <fullName>PRM_Lead_Treatment_Limit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PRM Lead Treatment Limit (in days)</shortDescription>
+        <value>2</value>
+    </labels>
+    <labels>
+        <fullName>Package</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Package</shortDescription>
+        <value>Package</value>
+    </labels>
+    <labels>
+        <fullName>Particular_Conditions_Request_Record_Type_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Particular Conditions Request Record Type ID</shortDescription>
+        <value>0127S000000oZ3ZQAU</value>
+    </labels>
+    <labels>
+        <fullName>Performance_Discount_RecordTypeId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Performance Discount RecordTypeId</shortDescription>
+        <value>0123Y000000XONGQA4</value>
+    </labels>
+    <labels>
+        <fullName>Permission_Sets</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Permission Sets</shortDescription>
+        <value>Permission Sets</value>
+    </labels>
+    <labels>
+        <fullName>Previous_Value</fullName>
+        <categories>CEGID CPQ</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous Value</shortDescription>
+        <value>Previous Value</value>
+    </labels>
+    <labels>
+        <fullName>Price</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Price</shortDescription>
+        <value>Price</value>
+    </labels>
+    <labels>
+        <fullName>Pricebook</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pricebook</shortDescription>
+        <value>Pricebook</value>
+    </labels>
+    <labels>
+        <fullName>PricingExportExcelName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PricingExportExcelName</shortDescription>
+        <value>Excel</value>
+    </labels>
+    <labels>
+        <fullName>Product</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product</shortDescription>
+        <value>Product</value>
+    </labels>
+    <labels>
+        <fullName>ProductName</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Name</shortDescription>
+        <value>Product Name</value>
+    </labels>
+    <labels>
+        <fullName>Professional_Services_Request_Record_Type_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Professional Services Request Record Type Id</shortDescription>
+        <value>Not Used</value>
+    </labels>
+    <labels>
+        <fullName>Profiles</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Profiles</shortDescription>
+        <value>Profiles</value>
+    </labels>
+    <labels>
+        <fullName>Queue_CPA_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queue CPA Id</shortDescription>
+        <value>00G3Y0000059S80UAE</value>
+    </labels>
+    <labels>
+        <fullName>Queue_Cases_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queue Cases Id</shortDescription>
+        <value>00G3Y0000059S81UAE</value>
+    </labels>
+    <labels>
+        <fullName>Queue_ERP_High_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queue ERP High Id</shortDescription>
+        <value>00G3Y0000059S82UAE</value>
+    </labels>
+    <labels>
+        <fullName>Queue_ERP_Middle_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queue ERP Middle Id</shortDescription>
+        <value>00G3Y0000059S83UAE</value>
+    </labels>
+    <labels>
+        <fullName>Queue_HCM_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queue HCM Id</shortDescription>
+        <value>00G3Y0000059S85UAE</value>
+    </labels>
+    <labels>
+        <fullName>Queue_Retail_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queue Retail Id</shortDescription>
+        <value>00G3Y0000059S87UAE</value>
+    </labels>
+    <labels>
+        <fullName>Queue_SMB_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queue SMB Id</shortDescription>
+        <value>00G3Y0000059S88UAE</value>
+    </labels>
+    <labels>
+        <fullName>Queue_TAX_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queue TAX Id</shortDescription>
+        <value>00G3Y0000059S89UAE</value>
+    </labels>
+    <labels>
+        <fullName>QuoteExecution</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QuoteExecution</shortDescription>
+        <value>4</value>
+    </labels>
+    <labels>
+        <fullName>QuotePriceBooKCegidEntity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QuotePriceBooKCegidEntity</shortDescription>
+        <value>Veuillez ajouter des produits dans votre devis avant de sélectionner un mandat</value>
+    </labels>
+    <labels>
+        <fullName>RealOutstanding</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Real outstanding incl. VAT</shortDescription>
+        <value>Real outstanding incl. VAT</value>
+    </labels>
+    <labels>
+        <fullName>RecordTypeName</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecordType Name</shortDescription>
+        <value>RecordType Name</value>
+    </labels>
+    <labels>
+        <fullName>RecuperationDesContrats</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecuperationDesContrats</shortDescription>
+        <value>https://prd-exp-cegid-salesforce-api.de-c1.eu1.cloudhub.io/api/exp-cegid-salesforce-api-production/v1/upsell/accounts/</value>
+    </labels>
+    <labels>
+        <fullName>RecuperationDesContratsToken</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecuperationDesContratsToken</shortDescription>
+        <value>https://prod-cegid-oauth-provider.de-c1.eu1.cloudhub.io/v2/access-token?client_id=ca1d65df28094f41bf1516c1739a9666&amp;client_secret=27fe512Bf1474a06BE73049d4984bb22&amp;grant_type=client_credentials&amp;scope=READ</value>
+    </labels>
+    <labels>
+        <fullName>RedFlagId</fullName>
+        <categories>SM013_QuoteLineCalculation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RedFlagId</shortDescription>
+        <value>0153Y000006Cljw</value>
+    </labels>
+    <labels>
+        <fullName>Reference</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reference</shortDescription>
+        <value>Reference</value>
+    </labels>
+    <labels>
+        <fullName>ReferenceNumber</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reference Number</shortDescription>
+        <value>Reference Number</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Purpose</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales Purpose</shortDescription>
+        <value>Sales Purpose</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Scorring</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Scorring</shortDescription>
+        <value>Scorring</value>
+    </labels>
+    <labels>
+        <fullName>Selected</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Selected</shortDescription>
+        <value>Selected</value>
+    </labels>
+    <labels>
+        <fullName>Standard_Pricebook_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard_Pricebook_ID</shortDescription>
+        <value>01s1t0000048XiVAAU</value>
+    </labels>
+    <labels>
+        <fullName>Status_Discount_RecordTypeId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status Discount RecordTypeId</shortDescription>
+        <value>0123Y000000XONHQA4</value>
+    </labels>
+    <labels>
+        <fullName>StructureLevel1</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Structure Level 1</shortDescription>
+        <value>Structure Level 1</value>
+    </labels>
+    <labels>
+        <fullName>StructureLevel2</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Structure Level 2</shortDescription>
+        <value>Structure Level 2</value>
+    </labels>
+    <labels>
+        <fullName>SubsctriptionURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Vue360_Souscription_URL</shortDescription>
+        <value>https://prd-exp-cegid-360View-api.de-c1.eu1.cloudhub.io/api/exp-cegid-360View-api-prod/v1/customer360/</value>
+    </labels>
+    <labels>
+        <fullName>SucessMsg</fullName>
+        <categories>LC004_OpportunityQuickAction</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SucessMsg</shortDescription>
+        <value>Contrat rapatrié sans erreur</value>
+    </labels>
+    <labels>
+        <fullName>TMK_Campaign</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMK Campaign</shortDescription>
+        <value>7013Y0000011J9EQAU</value>
+    </labels>
+    <labels>
+        <fullName>TMK_Queue_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMK Queue ID</shortDescription>
+        <value>00G3Y0000059S8AUAU</value>
+    </labels>
+    <labels>
+        <fullName>Total</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>UnpaidAmount</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unpaid amount</shortDescription>
+        <value>Unpaid amount</value>
+    </labels>
+    <labels>
+        <fullName>Unsaved_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unsaved Header</shortDescription>
+        <value>Unsaved Changes</value>
+    </labels>
+    <labels>
+        <fullName>Unsaved_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unsaved Message</shortDescription>
+        <value>You have not saved your changes. Are you sure you want to navigate away?</value>
+    </labels>
+    <labels>
+        <fullName>UpperBound</fullName>
+        <categories>Global Export</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UpperBound</shortDescription>
+        <value>UpperBound</value>
+    </labels>
+    <labels>
+        <fullName>UrlMsiOrg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UrlMsiOrg</shortDescription>
+        <value>https://cegid.lightning.force.com</value>
+    </labels>
+    <labels>
+        <fullName>UrlMsiVfAccount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UrlMsiVfAccount</shortDescription>
+        <value>https://cegid--mkto-si.visualforce.com/apex/Account</value>
+    </labels>
+    <labels>
+        <fullName>UrlMsiVfContact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UrlMsiVfContact</shortDescription>
+        <value>https://cegid--mkto-si.visualforce.com/apex/Contact</value>
+    </labels>
+    <labels>
+        <fullName>UrlMsiVfLead</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UrlMsiVfLead</shortDescription>
+        <value>https://cegid--mkto-si.visualforce.com/apex/Lead</value>
+    </labels>
+    <labels>
+        <fullName>UrlMsiVfOpportunity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UrlMsiVfOpportunity</shortDescription>
+        <value>https://cegid--mkto-si.visualforce.com/apex/opportunity</value>
+    </labels>
+    <labels>
+        <fullName>VR_Check_Competitors_Empty</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VR_Check_Competitors_Empty</shortDescription>
+        <value>Competitors is mondatory for Stage 'Closed Lost' and Loss Reason 'Competition choosen'</value>
+    </labels>
+    <labels>
+        <fullName>VR_Lead_PAM_NotIsDealReg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PAM user error Not is Deal registration message</shortDescription>
+        <value>This Lead is not linked to PRM. You do not have the necessary access rights to update it.</value>
+    </labels>
+    <labels>
+        <fullName>VR_Lead_PAM_NotLeadOwner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PRM/SDR User error not owner message</shortDescription>
+        <value>You are not the Owner of this Lead. Please, assign this Lead to yourself to update it.</value>
+    </labels>
+    <labels>
+        <fullName>VR_Lead_SDR_NotSDRLead</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VR_Lead_SDR_NotSDRLead</shortDescription>
+        <value>You can't assign this Lead to yourself when the lead source is different of SDR lead Purchase or SDR marketing Prospecting.</value>
+    </labels>
+    <labels>
+        <fullName>VR_Lead_Status_Telemarketing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VR_Lead_Status_Telemarketing</shortDescription>
+        <value>You are not allowed to change Lead Status value</value>
+    </labels>
+    <labels>
+        <fullName>VR_accountFieldsLocked</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VR_accountFieldsLocked</shortDescription>
+        <value>You don't have the necessary access rights on this field. Please, see your administrator for help.</value>
+    </labels>
+    <labels>
+        <fullName>VR_checkContactBeforValidateTheSolutionStage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VR_checkContactBeforValidateTheSolutionStage</shortDescription>
+        <value>Three contacts are mondatory to update the opportunity</value>
+    </labels>
+    <labels>
+        <fullName>VR_checkDoubleArticleForProduct</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VR_checkDoubleArticleForProduct</shortDescription>
+        <value>A product can have only 1 article</value>
+    </labels>
+    <labels>
+        <fullName>VR_checkEmailValidDecisionMaker</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VR_checkEmailValidDecisionMaker</shortDescription>
+        <value>The contact with a role of Decision Maker must have an valid email</value>
+    </labels>
+    <labels>
+        <fullName>Vue360SouscriptionToken</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Vue360SouscriptionToken</shortDescription>
+        <value>https://prod-cegid-oauth-provider.de-c1.eu1.cloudhub.io/v2/access-token?client_id=112a28d1449e48ff869a131b01df95fd&amp;client_secret=4C91c03e35eB43db922d3227Bc06B994&amp;grant_type=client_credentials&amp;scope=READ</value>
+    </labels>
+    <labels>
+        <fullName>Vue360_AstonURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Vue360_AstonURL</shortDescription>
+        <value>https://prd-exp-cegid-360view-api.de-c1.eu1.cloudhub.io/api/exp-cegid-360View-api-prod/v1/customer360/</value>
+    </labels>
+    <labels>
+        <fullName>Vue360_CaseURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Vue360_CaseURL</shortDescription>
+        <value>https://prd-exp-cegid-360view-api.de-c1.eu1.cloudhub.io/api/exp-cegid-360View-api-prod/v1/customer360/</value>
+    </labels>
+    <labels>
+        <fullName>Vue360_ParcURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Vue360_ParcURL</shortDescription>
+        <value>https://prd-exp-cegid-360view-api.de-c1.eu1.cloudhub.io/api/exp-cegid-360View-api-acceptance/v1/customer360/</value>
+    </labels>
+    <labels>
+        <fullName>Vue360_RaiseCase</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Vue360_RaiseCase</shortDescription>
+        <value>https://prd-exp-cegid-360view-api.de-c1.eu1.cloudhub.io/api/exp-cegid-360View-api-prod/v1/customer360/cases/</value>
+    </labels>
+    <labels>
+        <fullName>Warning_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Warning_Header</shortDescription>
+        <value>Well this is awkward...</value>
+    </labels>
+    <labels>
+        <fullName>Warning_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Warning Message</shortDescription>
+        <value>To use this app, you must assign yourself the 'AuraEnabled Scanner User' permission set in the Setup Menu first.</value>
+    </labels>
+    <labels>
+        <fullName>YearMonthRef</fullName>
+        <categories>WS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Year month ref</shortDescription>
+        <value>Year &amp; month ref</value>
+    </labels>
+    <labels>
+        <fullName>YellowFlagId</fullName>
+        <categories>SM013_QuoteLineCalculation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>YellowFlagId</shortDescription>
+        <value>0153Y000006CoRO</value>
+    </labels>
+    <labels>
+        <fullName>b2BFooterYoutubeURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2BFooterYoutubeURL</shortDescription>
+        <value>https://www.youtube.com/user/CegidOfficiel</value>
+    </labels>
+    <labels>
+        <fullName>b2bBlogURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bBlogURL</shortDescription>
+        <value>https://www.cegid.com/fr/blog/</value>
+    </labels>
+    <labels>
+        <fullName>b2bCGVUrl</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bCGVUrl</shortDescription>
+        <value>J'accepte les &lt;a class="terms a" href='https://www.cegid.com/fr/cgv/' target="_blank" &gt;conditions Générales de Vente&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>b2bCancelPayment</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bCancelPayment</shortDescription>
+        <value>Cancel Payment</value>
+    </labels>
+    <labels>
+        <fullName>b2bCardPaymentFlow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bCardPaymentFlow</shortDescription>
+        <value>CB</value>
+    </labels>
+    <labels>
+        <fullName>b2bCartProcessing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bCartProcessing</shortDescription>
+        <value>Your Cart is currently checking out state to do any modification to your cart.</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooter2NumeroDappel</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>numéro d'appel</shortDescription>
+        <value>04 82 29 60 60</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooter2PrixAppel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>+ prix appel</shortDescription>
+        <value>+ prix appel</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooter2ServiceGratuit</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service gratuit</shortDescription>
+        <value>Service gratuit</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooter2SuivezNous</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Suivez-nous</shortDescription>
+        <value>Suivez-nous</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooter2Titre</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer Title</shortDescription>
+        <value>Acteur majeur de la transformation numérique des entreprises, Cegid propose aux entreprises des services cloud et des logiciels de gestion.</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterAbout</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>About Cegid</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterApropos</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterApropos</shortDescription>
+        <value>À propos</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterBlog</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Blog</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterBlogUrl</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Blog</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterBoutique</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Boutique</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterCabinetExperts</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Cabinet experts comptables</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterCabinetExpertsURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterCabinetExpertsURL</shortDescription>
+        <value>https://www.cegid.com/fr/experts-comptables/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterCasClient</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Cas Client</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterCasClientURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterCasClientURL</shortDescription>
+        <value>https://www.cegid.com/fr/nos-cas-clients/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterCaseStudies</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Our case studies</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterCegid</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Cegid</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterCegidEducation</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Cegid Education</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterCegidSolidaire</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Cegid Solidaire</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterCegidSolidaireURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterCegidSolidaireURL</shortDescription>
+        <value>https://solidaire.cegid.com/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterClient</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Client</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterCloud</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Cegid Cloud</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterConditions</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Conditions générales de vente</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterConditionsURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterConditionsURL</shortDescription>
+        <value>https://www.cegid.com/fr/cgv/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterContact</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Contactez-nous</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterCustomerCare</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Customer Care</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterCustomerCareURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterCustomerCareURL</shortDescription>
+        <value>https://www.cegid.com/fr/repenser-la-relation-client/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterDecouvrirNosRessources</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterDecouvrirNosRessources</shortDescription>
+        <value>Découvrir nos resources</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterDevenirPartenaireDistributeur</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Devenir partenaire distributeur</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterDevenirPartenaireDistributeurURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterDevenirPartenaireDistributeurURL</shortDescription>
+        <value>https://www.cegid.com/fr/devenir-partenaire-distributeur/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterDossiersthematiques</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Dossiers thématiques</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterDossiersthematiquesURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterDossiersthematiquesURL</shortDescription>
+        <value>https://www.cegid.com/fr/pas/prelevement-a-la-source-dispositif/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterEBook</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>E-Books</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterETI</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>ETI</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterETIURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterETIURL</shortDescription>
+        <value>https://www.cegid.com/fr/gestion-pme/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterEngagerAvecVous</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterEngagerAvecVous</shortDescription>
+        <value>S'engager avec vous</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterEspacePresse</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Espace presse</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterEspacePresseURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterEspacePresseURL</shortDescription>
+        <value>https://www.cegid.com/fr/communique-presse/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterEvenements</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Événements</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterEvents</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Events</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterFAQ</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>FAQ</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterFAQURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterFAQURL</shortDescription>
+        <value>https://www.cegid.com/fr/faq-index/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterFacebookURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterFacebookURL</shortDescription>
+        <value>https://www.facebook.com/CegidGroup/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGererEtDevelopperMonCommerce</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Gérer et développer mon commerce</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGererEtDevelopperMonCommerceURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterGererEtDevelopperMonCommerceURL</shortDescription>
+        <value>https://www.cegid.com/fr/gestion-commerciale-facturation/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGererMaComptabilite</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Gérer ma comptabilité et ma facturation</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGererMaComptabiliteURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterGererMaComptabiliteURL</shortDescription>
+        <value>https://www.cegid.com/fr/gestion-finance-entreprise/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGererMaFinance</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Gérer ma finance et ma fiscalité</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGererMaFinanceURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterGererMaFinanceURL</shortDescription>
+        <value>https://www.cegid.com/fr/gestion-finance-entreprise/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGererMaProductionIndustrielle</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Gérer ma production industrielle</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGererMaProductionIndustrielleURL</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterGererMaProductionIndustrielleURL</shortDescription>
+        <value>https://www.cegid.com/fr/gestion-production-industrielle/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGererMonCabinetEtMesMission</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Gérer mon cabinet et mes missions</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGererMonCabinetEtMesMissionURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterGererMonCabinetEtMesMissionURL</shortDescription>
+        <value>https://www.cegid.com/fr/gestion-cabinet-expert-comptable/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGererMonEntreprise</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Gérer mon entreprise / ERP</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGererMonEntrepriseURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterGererMonEntrepriseURL</shortDescription>
+        <value>https://www.cegid.com/fr/gestion-finance-entreprise/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGlossaire</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Glossaire</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGlossaireURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterGlossaireURL</shortDescription>
+        <value>https://www.cegid.com/fr/glossaire-index/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGrandComptes</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Grands comptes</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterGrandComptesURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterGrandComptesURL</shortDescription>
+        <value>https://www.cegid.com/fr/eti-grande-entreprise/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterHrTalent</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>HR &amp; Talent</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterInnovStore</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Cegid Innovation Store</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterInnovationStore</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Innovation Store</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterJaiBesoinDe</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterJaiBesoinDe</shortDescription>
+        <value>J'ai besoin de</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterJeSuis</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterJeSuis</shortDescription>
+        <value>Je suis...</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterLeSaasByCegid</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Le Saas by Cegid</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterLeSaasByCegidURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterLeSaasByCegidURL</shortDescription>
+        <value>https://www.cegid.com/fr/saas-cloud-cegid/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterLinkedInURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterLinkedInURL</shortDescription>
+        <value>https://www.linkedin.com/company/cegid/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterMeFormerAvecCegid</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Me former avec Cegid Learning</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterMeFormerAvecCegidURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterMeFormerAvecCegidURL</shortDescription>
+        <value>https://www.cegid.com/fr-ca/produits/formation-et-developpement/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterMentionsLegales</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Mentions légales</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterMentionsLegalesURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterMentionsLegalesURL</shortDescription>
+        <value>https://www.cegid.com/fr/mentions-legales/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterMgmtSol</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Management Solutions</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterNosLivresBlancs</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Nos livres blancs</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterNosLivresBlancsURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterNosLivresBlancsURL</shortDescription>
+        <value>https://www.cegid.com/fr/nos-ressources/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterPME</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>PME</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterPMEURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterPMEURL</shortDescription>
+        <value>https://www.cegid.com/fr/gestion-pme/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterPaieEtRH</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Paie et RH</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterPaieEtRHURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterPaieEtRHURL</shortDescription>
+        <value>https://www.cegid.com/fr/paie-management/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterPartenaires</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Partenaires</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterPiloterUneActiviteRetail</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Piloter une activité retail</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterPiloterUneActiviteRetailURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterPiloterUneActiviteRetailURL</shortDescription>
+        <value>https://www.cegid.com/fr/retail/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterPolitiquesCookies</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Politique de confidentialité et cookies</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterPolitiquesCookiesURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterPolitiquesCookiesURL</shortDescription>
+        <value>https://www.cegid.com/fr/politique-de-confidentialite/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterPressRel</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Press release</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterQuestion</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>J'ai une question</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterQuiSommesNous</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Qui sommes-nous</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterQuiSommesNousURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterQuiSommesNousURL</shortDescription>
+        <value>https://www.cegid.com/fr/a-propos/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterRejoignezNous</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Rejoignez-nous</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterRejoignezNousURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterRejoignezNousURL</shortDescription>
+        <value>https://jobs.cegid.com/fr/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterResources</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Resources</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterRetailFashion</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Retail &amp; Fashion</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterRetailerEnseigne</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Retailer, enseigne ou marque spécialisée</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterRetailerEnseigneURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterRetailerEnseigneURL</shortDescription>
+        <value>https://www.cegid.com/fr/retail/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterSeConnecter</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Se connecter</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterSeConnecterPartenaires</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Se connecter</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterSeConnecterPartenairesURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSeConnecterPartenairesURL</shortDescription>
+        <value>https://signin.cegid.com/signincegid.onmicrosoft.com/B2C_1A_RP_ImPartner/samlp/sso/login</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterSeConnecterURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSeConnecterURL</shortDescription>
+        <value>https://www.cegid.com/fr/cegidlife-espace-client-personnalise/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterSiegeSocial</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Siège social : 52 Quai Paul Sédallian, 69009 Lyon</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterSolutions</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Solutions</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterStayCon</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Stay connected</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterTousDroit</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Tous droit réservés</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterTpeEntrepreneurs</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>TPE &amp; Entrepreneurs</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterTpeEntrepreneursURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterTpeEntrepreneursURL</shortDescription>
+        <value>https://www.cegid.com/fr/entrepreneurs-tpe/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterTrouverPartenaireDistributeur</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Trouver un partenaire distributeur</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterTrouverPartenaireDistributeurURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterTrouverPartenaireDistributeurURL</shortDescription>
+        <value>https://www.cegid.com/fr/je-recherche-un-partenaire-distributeur/</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterTwitterURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterTwitterURL</shortDescription>
+        <value>https://twitter.com/cegidgroup</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterWebdemoWebinar</fullName>
+        <categories>b2bfooterurl</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterSection</shortDescription>
+        <value>Webdémo / Webinar</value>
+    </labels>
+    <labels>
+        <fullName>b2bFooterWebdemoWebinarURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFooterWebdemoWebinarURL</shortDescription>
+        <value>https://www.cegid.com/fr/blog</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationDeveloppementDesVentes</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFormationDeveloppementDesVentes</shortDescription>
+        <value>Développement des ventes</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationGestionDuCabinet</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFormationGestionDuCabinet</shortDescription>
+        <value>Gestion du cabinet</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationGestionPaieEtDesRH</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFormationGestionPaieEtDesRH</shortDescription>
+        <value>Gestion de la paie et des RH</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationMigrationPrestations</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFormationMigrationPrestations</shortDescription>
+        <value>Migration &amp; prestations</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationPortailDeGestion</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFormationPortailDeGestion</shortDescription>
+        <value>Portail de gestion collaborative</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationProductionFinanciereOuComptable</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFormationProductionFinanciereOuComptable</shortDescription>
+        <value>Production financière ou comptable</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationProductionIndustrielle</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bFormationProductionIndustrielle</shortDescription>
+        <value>Production industrielle</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationsDeveloppementVentes</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b Formations Developpement Ventes</shortDescription>
+        <value>&lt;p&gt;
+	&lt;a href="https://www.cegidstore.com/catalogsearch/result/?q=prestation"&gt;Cegid Quadra Entreprise&lt;/a&gt;
+&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationsGestionCabinet</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b Formations Gestion Cabinet</shortDescription>
+        <value>&lt;p&gt;
+	&lt;a href="https://www.cegidstore.com/profession-comptable/formations.html?cegid_progiciel=1203"&gt;Cegid Expert&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;a href="https://www.cegidstore.com/profession-comptable/formations.html?cegid_progiciel=538"&gt;Cegid Quadra&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;a href="https://www.cegidstore.com/profession-comptable/formations.html?cegid_progiciel=1385"&gt;Cegid Loop&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;a href="https://www.cegidstore.com/catalogsearch/result/?q=LePortail.Cegid"&gt;Portail de gestion collaborative&lt;/a&gt;
+&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationsGestionPaieRH</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b Formation sGestion Paie RH</shortDescription>
+        <value>&lt;p&gt;&lt;a href="https://www.cegidstore.com/catalogsearch/result/index/?q=paie&amp;cegid_progiciel=515"&gt;Cegid Quadra Entreprise&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cegidstore.com/catalogsearch/result/index/?q=paie&amp;cegid_progiciel=1295"&gt;Cegid HR Sprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cegidstore.com/catalogsearch/result/index/?q=paie&amp;cegid_progiciel=1347"&gt;CegidHRUltimate&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cegidstore.com/catalogsearch/result/index/?q=paie&amp;cegid_progiciel=814"&gt;Cegid RHP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cegidstore.com/catalogsearch/result/index/?q=paie&amp;cegid_progiciel=431"&gt;Cegid RHPi&lt;/a&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationsMigrationsPrestations</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b Formations Migrations Prestations</shortDescription>
+        <value>&lt;p&gt;&lt;a href="https://store.cegid.com/s/category/produit/0ZG3Y000000Gma9?c__results_layout_state=%7B%22page_number%22%3A1%2C%22category_id%22%3A%220ZG3Y000000Gma9%22%2C%22refinements%22%3A%5B%7B%22nameOrId%22%3A%22Offer__c%22%2C%22type%22%3A%22DistinctValue%22%2C%22attributeType%22%3A%22Custom%22%2C%22values%22%3A%5B%22Cegid%20Tax%20Ultimate%22%5D%7D%5D%7D"&gt;Cegid Tax Ultimate&lt;/a&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationsProductionFinanciere</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b Formations Production Financiere</shortDescription>
+        <value>&lt;p&gt;&lt;a href="https://store.cegid.com/s/category/produit/0ZG3Y000000Gma9?c__results_layout_state=%7B%22page_number%22%3A1%2C%22category_id%22%3A%220ZG3Y000000Gma9%22%2C%22refinements%22%3A%5B%7B%22nameOrId%22%3A%22Offer__c%22%2C%22type%22%3A%22DistinctValue%22%2C%22attributeType%22%3A%22Custom%22%2C%22values%22%3A%5B%22YC%20Fiscalit%C3%A9%22%5D%7D%5D%7D"&gt;Yourcegid Fiscalité&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://store.cegid.com/s/category/produit/0ZG3Y000000Gma9?c__results_layout_state=%7B%22page_number%22%3A1%2C%22category_id%22%3A%220ZG3Y000000Gma9%22%2C%22refinements%22%3A%5B%7B%22nameOrId%22%3A%22Offer__c%22%2C%22type%22%3A%22DistinctValue%22%2C%22attributeType%22%3A%22Custom%22%2C%22values%22%3A%5B%22Cegid%20Tax%20Ultimate%22%5D%7D%5D%7D"&gt;Cegid Tax Ultimate&lt;/a&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>b2bFormationsProductionIndustrielle</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b Formations Production Industrielle</shortDescription>
+        <value>&lt;p&gt;&lt;a href="https://store.cegid.com/s/category/produit/0ZG3Y000000Gma9?c__results_layout_state=%7B%22page_number%22%3A1%2C%22category_id%22%3A%220ZG3Y000000Gma9%22%2C%22refinements%22%3A%5B%7B%22nameOrId%22%3A%22Offer__c%22%2C%22type%22%3A%22DistinctValue%22%2C%22attributeType%22%3A%22Custom%22%2C%22values%22%3A%5B%22Cegid%20Tax%20Ultimate%22%5D%7D%5D%7D"&gt;Cegid Tax Ultimate&lt;/a&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>b2bOrderRecapPromoMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bOrderRecapPromoMessage</shortDescription>
+        <value>Code promotionnel invalide</value>
+    </labels>
+    <labels>
+        <fullName>b2bSolutionsGestionCabinet</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b Solutions Gestion Cabinet</shortDescription>
+        <value>&lt;p&gt;&lt;a href="https://www.cegidstore.com/profession-comptable/logiciels-en-ligne.html?cegid_offer_contract=918"&gt;Cegid Expert&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cegidstore.com/profession-comptable/logiciels-en-ligne.html?cegid_offer_contract=917"&gt;Cegid Quadra&lt;/a&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>b2bSolutionsGestionPaieRH</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b Solutions Gestion Paie RH</shortDescription>
+        <value>&lt;p&gt;&lt;a href="https://www.cegidstore.com/profession-comptable/logiciels-en-ligne.html?cegid_functional_contract=54&amp;cegid_offer_contract=918"&gt;Cegid Expert&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cegidstore.com/profession-comptable/logiciels-en-ligne.html?cegid_functional_contract=54&amp;cegid_offer_contract=917"&gt;Cegid Quadra Entreprise&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cegidstore.com/ressources-humaines/logiciels-en-ligne.html?cegid_offer_contract=1321"&gt;Cegid HR Sprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cegidstore.com/ressources-humaines/logiciels-en-ligne.html?cegid_offer_contract=1018"&gt;Cegid RHP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cegidstore.com/ressources-humaines/logiciels-en-ligne.html?cegid_offer_contract=1316"&gt;Cegid RHPi&lt;/a&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>b2bSolutionsProductionFinanciere</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b Solutions Production Financiere</shortDescription>
+        <value>&lt;p&gt;&lt;a href="https://www.cegidstore.com/finance/logiciels-en-ligne.html?cegid_offer_contract=1342"&gt;Cegid XRP Sprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cegidstore.com/fiscalite/logiciels-en-ligne.html"&gt;Cegid Portail Etafi&lt;/a&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>b2bSubMenuDescriptionFormation</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Sub Menu Description Formation</shortDescription>
+        <value>Choisissez votre produit</value>
+    </labels>
+    <labels>
+        <fullName>b2bSubMenuDescriptionSolution</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Sub Menu Description Solution</shortDescription>
+        <value>Choisissez votre produit</value>
+    </labels>
+    <labels>
+        <fullName>b2bSubMenuPageDescription</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Sub Menu Page Description</shortDescription>
+        <value>Vous êtes utilisateur de nos produits dédiés à la profession comptables, aux ressources humaines ou encore à la finance ?  &lt;br&gt;
+Alors, accédez vite à l’ensemble de nos formations &amp; solutions spécifiquement développées pour tous nos clients.</value>
+    </labels>
+    <labels>
+        <fullName>b2bSubMenuTitleFormation</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Sub Menu Title Formation</shortDescription>
+        <value>Nos Formations</value>
+    </labels>
+    <labels>
+        <fullName>b2bSubMenuTitleSolution</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Sub Menu Title Solution</shortDescription>
+        <value>Nos Solutions</value>
+    </labels>
+    <labels>
+        <fullName>b2b_ERRMSG_CartTitle_NoItemAdded</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b_ERRMSG_CartTitle_NoItemAdded</shortDescription>
+        <value>Ce produit ne peut pas être ajouté à votre panier. Merci de réessayer plus tard.</value>
+    </labels>
+    <labels>
+        <fullName>b2b_ERRMSG_MandatSEPA_BIC_Required</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b_ERRMSG_MandatSEPA_BIC_Required</shortDescription>
+        <value>Merci de bien vouloir renseigner un BIC valide</value>
+    </labels>
+    <labels>
+        <fullName>b2b_MSG_CartItems_DeleteParticipants</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b_MSG_CartItems_DeleteParticipants</shortDescription>
+        <value>Je supprime un (ou des) participant(s)</value>
+    </labels>
+    <labels>
+        <fullName>b2b_MSG_CartMessage_Success</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b_MSG_CartMessage_Success</shortDescription>
+        <value>Votre panier a bien été mis à jour</value>
+    </labels>
+    <labels>
+        <fullName>b2b_MSG_CartTitle_Success</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b_MSG_CartTitle_Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>b2b_MSG_ProductCalendar_NoSessions</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b_MSG_ProductCalendar_NoSessions</shortDescription>
+        <value>Ce produit n'est pas ouvert à la vente en ce moment.</value>
+    </labels>
+    <labels>
+        <fullName>b2b_MSG_ProductCalendar_SelectSessions</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b_MSG_ProductCalendar_SelectSessions</shortDescription>
+        <value>Merci de selectionner la date de la session de formation souhaitée</value>
+    </labels>
+    <labels>
+        <fullName>b2b_MSG_ProductDetailsDisplay_OutOfStock</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b_MSG_ProductDetailsDisplay_OutOfStock</shortDescription>
+        <value>Ce produit est en rupture de stock</value>
+    </labels>
+    <labels>
+        <fullName>b2b_MSG_ProductDetailsDisplay_PriceNotAvailable</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b_MSG_ProductDetailsDisplay_PriceNotAvailable</shortDescription>
+        <value>Ce prix n'est pas disponible</value>
+    </labels>
+    <labels>
+        <fullName>b2b_MSG_ProductDetailsDisplay_QuanityExceedsAvailability</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b_MSG_ProductDetailsDisplay_QuanityExceedsAvailability</shortDescription>
+        <value>La quantité indiquée dépasse le nombre de places disponibles. Merci de choisir une autre session.</value>
+    </labels>
+    <labels>
+        <fullName>b2b_MSG_ProductDetailsDisplay_TotalPriceNotAvailable</fullName>
+        <categories>b2b</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b_MSG_ProductDetailsDisplay_TotalPriceNotAvailable</shortDescription>
+        <value>Le prix total n'est pas disponible</value>
+    </labels>
+    <labels>
+        <fullName>lds_error_doublon_telemarketing</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>lds error doublon telemarketing</shortDescription>
+        <value>Un lead en cours de traitement par le télémarketing existe déjà, merci de vous rapprocher de votre collègue</value>
+    </labels>
+    <labels>
+        <fullName>lds_telemarketing_form_title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lds telemarketing form title</shortDescription>
+        <value>New Lead: Lead Telemarketing</value>
+    </labels>
+    <labels>
+        <fullName>lds_telemarketing_section_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lds telemarketing section 1</shortDescription>
+        <value>Lead information</value>
+    </labels>
+    <labels>
+        <fullName>lds_telemarketing_section_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lds telemarketing section 2</shortDescription>
+        <value>Marketo</value>
+    </labels>
+    <labels>
+        <fullName>lds_telemarketing_section_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lds telemarketing section 3</shortDescription>
+        <value>Comments</value>
+    </labels>
+    <labels>
+        <fullName>lds_telemarketing_section_4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lds telemarketing section 4</shortDescription>
+        <value>MANACT - Ability</value>
+    </labels>
+    <labels>
+        <fullName>lds_telemarketing_section_5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lds telemarketing section 5</shortDescription>
+        <value>Company</value>
+    </labels>
+    <labels>
+        <fullName>leadOwnerFromTeleMarkLead</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>leadOwnerFromTeleMarkLead</shortDescription>
+        <value>Lola Kazek</value>
+    </labels>
+    <labels>
+        <fullName>username</fullName>
+        <categories>SM012_QuotePriceRule</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>username</shortDescription>
+        <value>mulesoftprd</value>
+    </labels>
+</CustomLabels>

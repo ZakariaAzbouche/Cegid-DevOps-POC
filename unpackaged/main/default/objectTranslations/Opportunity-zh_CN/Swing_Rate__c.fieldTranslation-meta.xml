@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Swing Rate (not used anymore) --></label>
+        <name>Swing_Rate__c</name>
+    </CustomFieldTranslation>

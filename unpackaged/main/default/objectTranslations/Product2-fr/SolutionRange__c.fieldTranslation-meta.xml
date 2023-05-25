@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Gamme de solution</label>
+        <name>SolutionRange__c</name>
+        <picklistValues>
+            <masterLabel>.-BO Civitas</masterLabel>
+            <translation><!-- .-BO Civitas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-CIVI GIBSI</masterLabel>
+            <translation><!-- .-CIVI GIBSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-CIVI MUST</masterLabel>
+            <translation><!-- .-CIVI MUST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-Ccmx Batiment</masterLabel>
+            <translation><!-- .-Ccmx Batiment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-Cegid Business BTP Line</masterLabel>
+            <translation><!-- .-Cegid Business BTP Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-Cegid Business BTP Place</masterLabel>
+            <translation><!-- .-Cegid Business BTP Place --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-Cegid Business BTP Suite</masterLabel>
+            <translation><!-- .-Cegid Business BTP Suite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-Cegid Business Line</masterLabel>
+            <translation><!-- .-Cegid Business Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-Civi - Rapports</masterLabel>
+            <translation><!-- .-Civi - Rapports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-Civi Etat civil</masterLabel>
+            <translation><!-- .-Civi Etat civil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-Divers</masterLabel>
+            <translation><!-- .-Divers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-Visa Autre</masterLabel>
+            <translation><!-- .-Visa Autre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-Yourcegid SP Finances Eric's C/S</masterLabel>
+            <translation><!-- .-Yourcegid SP Finances Eric&apos;s C/S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-Yourcegid SP Finances GC</masterLabel>
+            <translation><!-- .-Yourcegid SP Finances GC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-Yourcegid SP RH - Civi</masterLabel>
+            <translation><!-- .-Yourcegid SP RH - Civi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-eCIVI - GF</masterLabel>
+            <translation><!-- .-eCIVI - GF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-eCIVI MUST</masterLabel>
+            <translation><!-- .-eCIVI MUST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.-eETAT-CIVIL</masterLabel>
+            <translation><!-- .-eETAT-CIVIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advance</masterLabel>
+            <translation><!-- Advance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amphora</masterLabel>
+            <translation><!-- Amphora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atalante</masterLabel>
+            <translation><!-- Atalante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CGO</masterLabel>
+            <translation><!-- CGO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CV Manager</masterLabel>
+            <translation><!-- CV Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CWE</masterLabel>
+            <translation><!-- CWE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ccmx DialBank</masterLabel>
+            <translation><!-- Ccmx DialBank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ccmx Entreprise</masterLabel>
+            <translation><!-- Ccmx Entreprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ccmx Expert</masterLabel>
+            <translation><!-- Ccmx Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ccmx Expert 400</masterLabel>
+            <translation><!-- Ccmx Expert 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ccmx Finance</masterLabel>
+            <translation><!-- Ccmx Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ccmx Twin</masterLabel>
+            <translation><!-- Ccmx Twin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ccmx Win Winner</masterLabel>
+            <translation><!-- Ccmx Win Winner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ccmx Winner Cabinet</masterLabel>
+            <translation><!-- Ccmx Winner Cabinet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ccmx Winner PME</masterLabel>
+            <translation><!-- Ccmx Winner PME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Agrément</masterLabel>
+            <translation><!-- Cegid Agrément --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Alphabla</masterLabel>
+            <translation><!-- Cegid Alphabla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Authentification</masterLabel>
+            <translation><!-- Cegid Authentification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Etafi Conso</masterLabel>
+            <translation><!-- Cegid Etafi Conso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Expert</masterLabel>
+            <translation><!-- Cegid Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Finance Fiscalite</masterLabel>
+            <translation><!-- Cegid Finance Fiscalite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Formalités</masterLabel>
+            <translation><!-- Cegid Formalités --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Front RH G1</masterLabel>
+            <translation><!-- Cegid Front RH G1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Gamme II ENT</masterLabel>
+            <translation><!-- Cegid Gamme II ENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Gamme II OGA</masterLabel>
+            <translation><!-- Cegid Gamme II OGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Gamme II PCL</masterLabel>
+            <translation><!-- Cegid Gamme II PCL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid HR Ultimate</masterLabel>
+            <translation><!-- Cegid HR Ultimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Loop</masterLabel>
+            <translation><!-- Cegid Loop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Loop Entreprise</masterLabel>
+            <translation><!-- Cegid Loop Entreprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Prevent Care</masterLabel>
+            <translation><!-- Cegid Prevent Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid System</masterLabel>
+            <translation><!-- Cegid System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Tax Ultimate</masterLabel>
+            <translation><!-- Cegid Tax Ultimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Tax Ultimate España</masterLabel>
+            <translation><!-- Cegid Tax Ultimate España --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Viticole</masterLabel>
+            <translation><!-- Cegid Viticole --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid XRP Flex</masterLabel>
+            <translation><!-- Cegid XRP Flex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cegid Yes</masterLabel>
+            <translation><!-- Cegid Yes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civi Env. Technique</masterLabel>
+            <translation><!-- Civi Env. Technique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comptanoo</masterLabel>
+            <translation><!-- Comptanoo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DataFinance</masterLabel>
+            <translation><!-- DataFinance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dématérialisation Gammes RH</masterLabel>
+            <translation><!-- Dématérialisation Gammes RH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETAFI IF groupe</masterLabel>
+            <translation><!-- ETAFI IF groupe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EWS</masterLabel>
+            <translation><!-- EWS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert Sourcing</masterLabel>
+            <translation><!-- Expert Sourcing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jedeclare.com</masterLabel>
+            <translation><!-- Jedeclare.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lion Dialogue</masterLabel>
+            <translation><!-- Lion Dialogue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logam</masterLabel>
+            <translation><!-- Logam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magestel</masterLabel>
+            <translation><!-- Magestel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non concerné</masterLabel>
+            <translation><!-- Non concerné --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optim’Is</masterLabel>
+            <translation><!-- Optim’Is --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMICS</masterLabel>
+            <translation><!-- PMICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Produflex</masterLabel>
+            <translation><!-- Produflex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quadra Entreprise</masterLabel>
+            <translation><!-- Quadra Entreprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quadra Expert</masterLabel>
+            <translation><!-- Quadra Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quadra Propreté</masterLabel>
+            <translation><!-- Quadra Propreté --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualiac</masterLabel>
+            <translation><!-- Qualiac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RH Sourcing</masterLabel>
+            <translation><!-- RH Sourcing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RITA Carrière</masterLabel>
+            <translation><!-- RITA Carrière --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RITA Sourcer</masterLabel>
+            <translation><!-- RITA Sourcer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servant</masterLabel>
+            <translation><!-- Servant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start</masterLabel>
+            <translation><!-- Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syges</masterLabel>
+            <translation><!-- Syges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TDA</masterLabel>
+            <translation><!-- TDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ugal</masterLabel>
+            <translation><!-- Ugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wexperandyou</masterLabel>
+            <translation><!-- Wexperandyou --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winretail</masterLabel>
+            <translation><!-- Winretail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid BI</masterLabel>
+            <translation><!-- Yourcegid BI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid CB</masterLabel>
+            <translation><!-- Yourcegid CB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid CB Place</masterLabel>
+            <translation><!-- Yourcegid CB Place --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid CB Suite</masterLabel>
+            <translation><!-- Yourcegid CB Suite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid CBRH</masterLabel>
+            <translation><!-- Yourcegid CBRH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Consolidation</masterLabel>
+            <translation><!-- Yourcegid Consolidation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Entrepreneurs &amp; TPE</masterLabel>
+            <translation><!-- Yourcegid Entrepreneurs &amp; TPE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Etafi Start</masterLabel>
+            <translation><!-- Yourcegid Etafi Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid FCRS</masterLabel>
+            <translation><!-- Yourcegid FCRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid FRH</masterLabel>
+            <translation><!-- Yourcegid FRH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Fiscalite</masterLabel>
+            <translation><!-- Yourcegid Fiscalite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Hotel Restaurant CB Place</masterLabel>
+            <translation><!-- Yourcegid Hotel Restaurant CB Place --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Hotel Restaurant CB Suite</masterLabel>
+            <translation><!-- Yourcegid Hotel Restaurant CB Suite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Hotel Restaurant WIN</masterLabel>
+            <translation><!-- Yourcegid Hotel Restaurant WIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Manufacturing CBM</masterLabel>
+            <translation><!-- Yourcegid Manufacturing CBM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Manufacturing ISO</masterLabel>
+            <translation><!-- Yourcegid Manufacturing ISO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Manufacturing PACK</masterLabel>
+            <translation><!-- Yourcegid Manufacturing PACK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Manufacturing PMI</masterLabel>
+            <translation><!-- Yourcegid Manufacturing PMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Manufacturing SCM</masterLabel>
+            <translation><!-- Yourcegid Manufacturing SCM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid RH Intelligence</masterLabel>
+            <translation><!-- Yourcegid RH Intelligence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid RHP</masterLabel>
+            <translation><!-- Yourcegid RHP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid RHPI</masterLabel>
+            <translation><!-- Yourcegid RHPI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Retail .next</masterLabel>
+            <translation><!-- Yourcegid Retail .next --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Retail CBR Place</masterLabel>
+            <translation><!-- Yourcegid Retail CBR Place --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Retail CBR Suite</masterLabel>
+            <translation><!-- Yourcegid Retail CBR Suite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Retail Colombus</masterLabel>
+            <translation><!-- Yourcegid Retail Colombus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Retail Orli</masterLabel>
+            <translation><!-- Yourcegid Retail Orli --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Retail Winshop</masterLabel>
+            <translation><!-- Yourcegid Retail Winshop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Retail Y2</masterLabel>
+            <translation><!-- Yourcegid Retail Y2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Channel Citoyens</masterLabel>
+            <translation><!-- Yourcegid SP Channel Citoyens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Channel Facturation</masterLabel>
+            <translation><!-- Yourcegid SP Channel Facturation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Channel Gestion Interne</masterLabel>
+            <translation><!-- Yourcegid SP Channel Gestion Interne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Citoyens</masterLabel>
+            <translation><!-- Yourcegid SP Citoyens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Civi Citoyens</masterLabel>
+            <translation><!-- Yourcegid SP Civi Citoyens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Comptabilité</masterLabel>
+            <translation><!-- Yourcegid SP Comptabilité --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Facturation</masterLabel>
+            <translation><!-- Yourcegid SP Facturation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Finances</masterLabel>
+            <translation><!-- Yourcegid SP Finances --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Finances EPA</masterLabel>
+            <translation><!-- Yourcegid SP Finances EPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Finances Y2 Collectivités</masterLabel>
+            <translation><!-- Yourcegid SP Finances Y2 Collectivités --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Finances Y2 EP</masterLabel>
+            <translation><!-- Yourcegid SP Finances Y2 EP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Paie</masterLabel>
+            <translation><!-- Yourcegid SP Paie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Patrimoine</masterLabel>
+            <translation><!-- Yourcegid SP Patrimoine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP RH - Carrus</masterLabel>
+            <translation><!-- Yourcegid SP RH - Carrus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP SIRH</masterLabel>
+            <translation><!-- Yourcegid SP SIRH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP SIRH - Civi</masterLabel>
+            <translation><!-- Yourcegid SP SIRH - Civi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP SIRH Y2</masterLabel>
+            <translation><!-- Yourcegid SP SIRH Y2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Stratégie Financière</masterLabel>
+            <translation><!-- Yourcegid SP Stratégie Financière --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid SP Y2 intelligence</masterLabel>
+            <translation><!-- Yourcegid SP Y2 intelligence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid STARTRH</masterLabel>
+            <translation><!-- Yourcegid STARTRH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Solos</masterLabel>
+            <translation><!-- Yourcegid Solos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourcegid Syndicats</masterLabel>
+            <translation><!-- Yourcegid Syndicats --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yourecegid Associations</masterLabel>
+            <translation><!-- Yourecegid Associations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z - Non Affecté (Code: )</masterLabel>
+            <translation><!-- Z - Non Affecté (Code: ) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

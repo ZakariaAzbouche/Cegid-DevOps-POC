@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>140</fullName>
+        <default>false</default>
+        <label>Professional services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>110</fullName>
+        <default>false</default>
+        <label>Licenses</label>
+    </standardValue>
+    <standardValue>
+        <fullName>120</fullName>
+        <default>false</default>
+        <label>Maintenance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>130</fullName>
+        <default>false</default>
+        <label>Saas</label>
+    </standardValue>
+    <standardValue>
+        <fullName>190</fullName>
+        <default>false</default>
+        <label>Hardware</label>
+    </standardValue>
+</StandardValueSet>

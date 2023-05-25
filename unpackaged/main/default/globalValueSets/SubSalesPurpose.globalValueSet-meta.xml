@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Upsell Only - More of the same</fullName>
+        <default>false</default>
+        <label>Upsell Only - More of the same</label>
+    </customValue>
+    <customValue>
+        <fullName>Upsell Only - New Product</fullName>
+        <default>false</default>
+        <label>Upsell Only - New Product</label>
+    </customValue>
+    <masterLabel>Sub Sales Purpose</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

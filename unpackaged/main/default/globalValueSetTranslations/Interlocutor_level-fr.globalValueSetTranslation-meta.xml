@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Decision-maker</masterLabel>
+        <translation>Décideur</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Manager</masterLabel>
+        <translation><!-- Manager --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Operational</masterLabel>
+        <translation>Opérationnel</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

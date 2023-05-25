@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Targeting_Plan__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Targeting Plan</label>
+    <lookupFilter>
+        <active>false</active>
+        <errorMessage>PAC inactif</errorMessage>
+        <filterItems>
+            <field>Targeting_Plan__c.End_Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <valueField>Targeting_Plan__c.Date_du_jour__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Targeting_Plan__c</referenceTo>
+    <relationshipLabel>PAC / Accounts</relationshipLabel>
+    <relationshipName>Plan_Accounts</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

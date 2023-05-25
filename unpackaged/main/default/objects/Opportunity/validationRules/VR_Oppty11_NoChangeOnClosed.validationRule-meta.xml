@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty11_NoChangeOnClosed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+NOT( $User.BypassVR__c ),
+NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Oppty11_NoChangeOnClosed")),
+$Profile.Name &lt;&gt; "System Administrator",
+NOT ($Permission.Can_Modify_Closed_Opportunities),
+PRIORVALUE(IsClosed),
+NOT(ISCHANGED( TECH_By_Pass_VR__c )),
+NOT(TECH_By_Pass_VR__c),
+NOT(ISCHANGED(Kickoff_Date__c)),
+NOT(ISCHANGED(Go_live_Date__c)),
+NOT(ISCHANGED(Project_Team_Names__c)),
+NOT(ISCHANGED(Project_Manager_Workload__c)),
+NOT(ISCHANGED(Project_Functional_Consultant_Workload__c)),
+NOT(ISCHANGED(Professional_Services_External_Worload__c)),
+NOT(ISCHANGED(Average_daily_rate__c)),
+NOT(ISCHANGED(Project_Language__c)),
+NOT(ISCHANGED(Estimated_Project_Duration_in_Months__c)),
+NOT(ISCHANGED(Handover_Date_Sales_to_PM__c)),
+NOT(ISCHANGED(Professional_Services_Amount__c)),
+NOT(ISCHANGED(Estimated_Project_Margin__c)),
+NOT(ISCHANGED(PS_Comments__c)),
+NOT(ISCHANGED(Contributing_Consultant__c)),
+NOT(ISCHANGED(Project_Director_Workload__c)),
+NOT(ISCHANGED(Project_Technical_Consultant_Workload__c)),
+NOT(ISCHANGED(Estimated_Project_Workload__c)),
+NOT(ISCHANGED(Delivrables_Languages__c)),
+NOT(ISCHANGED(Expected_Project_Start_Date__c)),
+NOT(ISCHANGED(Deployment_Status__c)),
+NOT(ISCHANGED(Specific_Developments_Amounts__c))
+)</errorConditionFormula>
+    <errorMessage>Only an administrator or Sales Ops can update a closed opportunity.</errorMessage>
+</ValidationRule>

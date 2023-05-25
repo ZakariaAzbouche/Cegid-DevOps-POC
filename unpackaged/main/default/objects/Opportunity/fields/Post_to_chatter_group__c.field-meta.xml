@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Post_to_chatter_group__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check box used to lunch process to post on Sales chatter Group</description>
+    <externalId>false</externalId>
+    <label>Post_to_chatter_group</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

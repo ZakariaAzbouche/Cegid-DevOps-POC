@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- TECH Force MKT Sync False --></label>
+        <name>TECH_Force_MKT_Sync_False__c</name>
+    </CustomFieldTranslation>

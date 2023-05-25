@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Stage_D_or_higher_Booking_not_Blank</fullName>
+    <active>true</active>
+    <description>At least one of booking fields must be not null/Blank, even if the value is 0.</description>
+    <errorConditionFormula>AND 
+	( 
+	    NOT( $User.BypassVR__c ),
+					NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Stage_D_or_higher_Booking_not_Blank")), 
+					(ISPICKVAL( StageName ,'D - Draw up the solution')||
+	    ISPICKVAL( StageName ,'C - Validate the solution')|| 
+	    ISPICKVAL( StageName ,'B - Negotiate')||
+	    ISPICKVAL( StageName ,'A - Sign')||
+    ISPICKVAL( StageName ,'Closed Won')
+	    )
+					&amp;&amp;
+	    (ISBLANK( SaaS_Booking_Amount__c )&amp;&amp;
+	     ISBLANK( Licences_Booking_Amount__c )&amp;&amp;
+	     ISBLANK( Prof_Services_Booking_Amount__c )&amp;&amp;
+	     ISBLANK( Other_Amount__c ) 
+	    ) 
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>You can only update the Stage to 'D' or Higher if you have at least one of the Booking Dimensions field not null/blank</errorMessage>
+</ValidationRule>

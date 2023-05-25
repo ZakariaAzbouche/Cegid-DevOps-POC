@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CPA</fullName>
+        <default>false</default>
+        <label>CPA</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail</fullName>
+        <default>false</default>
+        <label>Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>HR</fullName>
+        <default>false</default>
+        <label>HR</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance</fullName>
+        <default>false</default>
+        <label>Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Manufacturing Industry</fullName>
+        <default>false</default>
+        <label>Manufacturing Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>TPE &amp; Association</fullName>
+        <default>false</default>
+        <label>TPE &amp; Association</label>
+    </customValue>
+    <masterLabel>Chosen Solution</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

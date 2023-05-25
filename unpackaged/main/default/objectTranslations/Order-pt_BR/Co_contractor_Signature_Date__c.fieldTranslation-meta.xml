@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Co-contractor Signature Date --></label>
+        <name>Co_contractor_Signature_Date__c</name>
+    </CustomFieldTranslation>

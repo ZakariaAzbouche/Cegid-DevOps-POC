@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table bgcolor="white" cellpadding="0" cellspacing="0" width="640">
+	
+		<tr>
+			<td><br />
+			<span style="color:#002c52;"><span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;">Bonjour&nbsp;{{{Recipient.Salutation}}}&nbsp;{{{Recipient.LastName}}},<br />
+			<br />
+			Nous avons bien reçu votre demande de formation et vous remercions pour l’intérêt que vous portez aux solutions Cegid.<br />
+			<br />
+			A ce jour, nous ne proposons pas de formation à nos logiciels à destination des particuliers.<br />
+			<br />
+			Nous vous recommandons donc de vous rapprocher d’organismes certifiés tels que :</span></span>
+			<ul>
+				<li><span style="color:#002c52;"><span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;">CNED</span></span></li>
+				<li><span style="color:#002c52;"><span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;">CNAM</span></span></li>
+				<li><span style="color:#002c52;"><span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;">AFPAS</span></span></li>
+				<li><span style="color:#002c52;"><span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;">GRETAS</span></span></li>
+			</ul>
+			<br />
+			<span style="color:#002c52;"><span style="font-family:Segoe UI,Arial,Helvetica,sans-serif;">Nous restons à votre écoute.<br />
+			<br />
+			<br />
+			Très cordialement,&nbsp;<br />
+			<br />
+			Les équipes Cegid</span></span></td>
+		</tr>
+	
+</table>
+
+</body></html>

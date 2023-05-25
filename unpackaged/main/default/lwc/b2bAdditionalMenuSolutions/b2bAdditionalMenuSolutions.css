@@ -1,0 +1,121 @@
+.titleSubMenu{
+	color: #0046FE;
+	font-size: 23px;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+.contentSubMenu{
+	font-family: 'gelion';
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+.slds-box{
+	background: #ffffff;
+	border: thin solid blue;
+	border-radius: 18px;
+	box-shadow: 0px 4px 12px 7px rgb(0 0 0 / 10%);
+}
+
+.content {
+	transition: max-height 0.2s ease-out;
+}
+
+input[type='checkbox'] {
+	display: none;
+} 
+
+.wrap-collabsible {
+	margin: 1.2rem 0;
+} 
+
+.lbl-toggle { 
+	background: #FF5C35;
+	border-radius: 8px;
+	/* box-shadow: 0px 4px 12px 7px rgb(0 0 0 / 10%);  */
+	color: #fff;
+	cursor: pointer; 
+	display: block;
+	font-family: 'gelion medium'; 
+	font-size: 16px;
+	padding: 1rem; 
+	text-align: left;
+	text-decoration: none; 
+	transition: all 0.25s ease-out;
+}
+
+.lbl-toggle::before { 
+	border-bottom: 5px solid transparent; 
+	border-left: 5px solid currentColor; 
+	border-top: 5px solid transparent; 
+	content: ' '; 
+	display: inline-block;
+	margin-right: .7rem; 
+	transform: translateY(-2px); 
+	transition: transform .2s ease-out; 
+	vertical-align: middle;
+} 
+	
+.toggle:checked+.lbl-toggle::before { 
+	transform: rotate(90deg) translateX(-3px);
+} 
+
+.collapsible-content {
+	/* box-shadow: 0px 4px 12px 7px rgb(0 0 0 / 10%); */
+	max-height: 0px;
+	overflow: hidden;
+	transition: max-height .25s ease-in-out;
+} 
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+	max-height: 350px;
+} 
+
+.toggle:checked+.lbl-toggle {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+} 
+
+.collapsible-content .content-inner { 
+	background: rgb(255, 255, 255);
+	border: 2px solid #c2d3ff;
+	border-radius: 0 0 8px 8px;
+	border-top: none; 
+	font-family: 'gelion medium';
+	font-size: 14px;
+	padding: .5rem 1rem;
+} 
+
+/* Ashvin 16 Nov 2021 */
+lightning-formatted-rich-text a {
+	display: block;
+}
+
+/* Ashvin 12 Nov 2021 */
+.page-description {
+	color: #0046FE;
+	font-family: 'gelion regular';
+	font-size: 20px;
+	line-height: 1;
+	margin: 40px auto 30px;
+	text-align: center;
+}
+
+.section-title {
+	color: #0046FE;
+	font-family: "gelion";
+	font-size: 22px;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: -0.01em;
+	line-height: 34px;
+	text-align: center;
+}
+
+.section-description {
+	font-family: 'gelion regular';
+	font-size: 16px;
+	text-align: center;
+}

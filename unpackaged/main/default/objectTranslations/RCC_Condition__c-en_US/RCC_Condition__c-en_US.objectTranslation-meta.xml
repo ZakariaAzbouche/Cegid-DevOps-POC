@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RCC Condition</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RCC Conditions</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>RCC Condition Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

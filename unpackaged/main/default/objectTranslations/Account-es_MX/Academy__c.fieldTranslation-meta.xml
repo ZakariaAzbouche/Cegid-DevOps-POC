@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Academy --></label>
+        <name>Academy__c</name>
+        <picklistValues>
+            <masterLabel>Academy of Aix-Marseille</masterLabel>
+            <translation><!-- Academy of Aix-Marseille --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Amiens</masterLabel>
+            <translation><!-- Academy of Amiens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Besançon</masterLabel>
+            <translation><!-- Academy of Besançon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Bordeaux</masterLabel>
+            <translation><!-- Academy of Bordeaux --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Caen</masterLabel>
+            <translation><!-- Academy of Caen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Clermont-Ferrand</masterLabel>
+            <translation><!-- Academy of Clermont-Ferrand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Corse</masterLabel>
+            <translation><!-- Academy of Corse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Créteil</masterLabel>
+            <translation><!-- Academy of Créteil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Dijon</masterLabel>
+            <translation><!-- Academy of Dijon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Grenoble</masterLabel>
+            <translation><!-- Academy of Grenoble --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Guadeloupe</masterLabel>
+            <translation><!-- Academy of Guadeloupe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Guyane</masterLabel>
+            <translation><!-- Academy of Guyane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of La Réunion</masterLabel>
+            <translation><!-- Academy of La Réunion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Lille</masterLabel>
+            <translation><!-- Academy of Lille --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Limoges</masterLabel>
+            <translation><!-- Academy of Limoges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Lyon</masterLabel>
+            <translation><!-- Academy of Lyon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Martinique</masterLabel>
+            <translation><!-- Academy of Martinique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Mayotte</masterLabel>
+            <translation><!-- Academy of Mayotte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Montpellier</masterLabel>
+            <translation><!-- Academy of Montpellier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Nancy-Metz</masterLabel>
+            <translation><!-- Academy of Nancy-Metz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Nantes</masterLabel>
+            <translation><!-- Academy of Nantes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Nice</masterLabel>
+            <translation><!-- Academy of Nice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Nouvelle-Calédonie</masterLabel>
+            <translation><!-- Academy of Nouvelle-Calédonie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Orléans-Tours</masterLabel>
+            <translation><!-- Academy of Orléans-Tours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Paris</masterLabel>
+            <translation><!-- Academy of Paris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Poitiers</masterLabel>
+            <translation><!-- Academy of Poitiers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Polynésie française</masterLabel>
+            <translation><!-- Academy of Polynésie française --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Reims</masterLabel>
+            <translation><!-- Academy of Reims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Rennes</masterLabel>
+            <translation><!-- Academy of Rennes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Rouen</masterLabel>
+            <translation><!-- Academy of Rouen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Strasbourg</masterLabel>
+            <translation><!-- Academy of Strasbourg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Toulouse</masterLabel>
+            <translation><!-- Academy of Toulouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academy of Versailles</masterLabel>
+            <translation><!-- Academy of Versailles --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

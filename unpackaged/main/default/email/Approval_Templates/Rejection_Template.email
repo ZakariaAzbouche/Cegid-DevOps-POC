@@ -1,0 +1,25 @@
+<messaging:emailTemplate subject="The quote you sent for approbation has been rejected" recipientType="User" relatedToType="sbaa__Approval__c">
+<messaging:htmlEmailBody > 
+<html>
+    <body>
+    
+        <!--Begin body of email. -->
+        Hello,<br/><br/>
+        
+        Your Quote's approval has been rejected. <br/>
+        Here is your manager comment : {!relatedTo.sbaa__CommentsLong__c} <br/>
+        To see more details, please click this link : <br/>
+        <apex:outputlink value="{!LEFT($Api.Partner_Server_URL_140,FIND('.com',$Api.Partner_Server_URL_140)+4)+relatedTo.Id}">
+        Quote Rejection</apex:outputlink> 
+        <br/><br/>
+       
+        <br/><br/>
+       
+        <p style="color:white">
+            <apex:outputText value="{!relatedTo.Id}"/>
+        </p>
+       
+    </body>
+</html>
+</messaging:htmlEmailBody>               
+</messaging:emailTemplate>

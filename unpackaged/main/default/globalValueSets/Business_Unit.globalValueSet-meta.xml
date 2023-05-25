@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>HCM</fullName>
+        <default>false</default>
+        <label>HCM</label>
+    </customValue>
+    <customValue>
+        <fullName>TAX</fullName>
+        <default>false</default>
+        <label>TAX</label>
+    </customValue>
+    <customValue>
+        <fullName>RETAIL</fullName>
+        <default>false</default>
+        <label>RETAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>ERP MIDDLE</fullName>
+        <default>false</default>
+        <label>ERP MIDDLE</label>
+    </customValue>
+    <customValue>
+        <fullName>ERP HIGH</fullName>
+        <default>false</default>
+        <label>ERP HIGH</label>
+    </customValue>
+    <customValue>
+        <fullName>CPA</fullName>
+        <default>false</default>
+        <label>CPA</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB</fullName>
+        <default>false</default>
+        <label>SMB</label>
+    </customValue>
+    <customValue>
+        <fullName>Public</fullName>
+        <default>false</default>
+        <label>Public</label>
+    </customValue>
+    <description>Plus utilisé - POC SFDC</description>
+    <masterLabel>Business Unit</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

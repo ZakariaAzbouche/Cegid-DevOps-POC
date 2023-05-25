@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_54693800</developerName>
+        <masterLabel>Sales purpose Bucket</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.Sales_Purpose__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>613</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>611</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>612</sourceValue>
+            </sourceValues>
+            <value>Migration</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>121</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>111</sourceValue>
+            </sourceValues>
+            <value>NewBiz</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>411</sourceValue>
+            </sourceValues>
+            <value>Upsell</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_16159272</developerName>
+        <masterLabel>Spécialiste</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>FULL_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Francois Thomain</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Nicolas Poncet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Thierry Folcher</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>David LERCH</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pierre-Nicolas Bernardeau</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Virginie Bolmont</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Albin Viossat</sourceValue>
+            </sourceValues>
+            <value>Albin</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Isabelle Ricca</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Julie Pageaut</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Xavier Finet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Olivier AGNES</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Daniel Dalmasso</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Julien Casali</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Louis-Hadrien Bry</sourceValue>
+            </sourceValues>
+            <value>Louis Hadrien</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Katia Slama</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Franck Nhoung</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Laura Mathieu</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Annie Nouali</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Benjamin Tavernier</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Nicolas Junca</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Olivier Faure</sourceValue>
+            </sourceValues>
+            <value>Olivier</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Alain Doret</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Alain Sadouk</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marjolaine Troquet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jacqueline Robin Remanaly</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Thomas CHABROL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Nicolas Dalle</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Thomas Joder</sourceValue>
+            </sourceValues>
+            <value>Nicolas</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Alexandre Lannoote</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Patrick Denivet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Laure Farrayre</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marine Gregoire</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lucas Delort</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marwa Dekhili</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Nadege Jannet</sourceValue>
+            </sourceValues>
+            <value>Marwa</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Alexis VEILLET</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Aldo Infantino</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Christophe GRANGE</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Johanne Amekudji</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Mira Ayech</sourceValue>
+            </sourceValues>
+            <value>Fabrice</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_31666936</developerName>
+        <masterLabel>stage bucket</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>STAGE_NAME</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>E - Analyze the needs</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>F - Identify the needs</sourceValue>
+            </sourceValues>
+            <value>Cycle BI</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>B - Negotiate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>C - Validate the solution</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>D - Draw up the solution</sourceValue>
+            </sourceValues>
+            <value>Cycle Spé</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>A - Sign</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Closed Won</sourceValue>
+            </sourceValues>
+            <value>Signatures</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Opportunity.Agency__c</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>BucketField_54693800</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.SaaS_Booking_Amount__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Forecast_Category_EDIT__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Score_MED__c</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>NEXT_STEP</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Targeting_Plan__c</field>
+    </columns>
+    <columns>
+        <field>BucketField_16159272</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>Vue nationale et par région, mois en cours</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>F - Identify the needs,E - Analyze the needs,D - Draw up the solution,C - Validate the solution,B - Negotiate,A - Sign,Closed Won</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Sales_Purpose__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,613,611,612,411</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Amount_Saas_and_Licences__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>EUR 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Forecast_Category_EDIT__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Upside,Probable,Firm,Signed,Omitted</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Product_Line__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>292,230,275,303,036,299</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.Agency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>340</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Month</dateGranularity>
+        <field>CLOSE_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Product_Line__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Sales_Evaluation__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>All Pipe par mois Grds Comptes C</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_THISMONTH</interval>
+    </timeFrameFilter>
+</Report>

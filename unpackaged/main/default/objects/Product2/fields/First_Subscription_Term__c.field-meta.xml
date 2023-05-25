@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Subscription_Term__c</fullName>
+    <description>W-1357</description>
+    <externalId>false</externalId>
+    <label>First Subscription Term</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Default_Subscription_Term</valueSetName>
+    </valueSet>
+</CustomField>

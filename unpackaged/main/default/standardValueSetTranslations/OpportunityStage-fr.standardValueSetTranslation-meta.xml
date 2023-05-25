@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>A - Sign</masterLabel>
+        <translation>A - Signature</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AQL</masterLabel>
+        <translation><!-- AQL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B - Negotiate</masterLabel>
+        <translation>B - Négocier</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C - Validate the solution</masterLabel>
+        <translation>C - Valider la solution</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Lost</masterLabel>
+        <translation>Perdue</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Won</masterLabel>
+        <translation>Finalisée</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D - Draw up the solution</masterLabel>
+        <translation>D - Élaborer la solution</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E - Analyze the needs</masterLabel>
+        <translation>E - Analyser les besoins</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F - Identify the needs</masterLabel>
+        <translation>F - Déterminer les besoins</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G - MQL</masterLabel>
+        <translation><!-- G - MQL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G - Sales Ready</masterLabel>
+        <translation><!-- G - Sales Ready --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MQL</masterLabel>
+        <translation><!-- MQL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>No Go CEGID</masterLabel>
+        <translation><!-- No Go CEGID --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>No Go Client</masterLabel>
+        <translation><!-- No Go Client --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SAL</masterLabel>
+        <translation><!-- SAL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SQL</masterLabel>
+        <translation><!-- SQL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TAL</masterLabel>
+        <translation><!-- TAL --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

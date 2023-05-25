@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_Finance_Large_2_4__c</fullName>
+    <description>Code NAF finance for territory assignment</description>
+    <externalId>false</externalId>
+    <formula>OR (
+BEGINS( Industry_Code__r.Name ,"21"),
+BEGINS( Industry_Code__r.Name ,"4646"),
+BEGINS( Industry_Code__r.Name ,"4773"),
+BEGINS( Industry_Code__r.Name ,"4774"),
+BEGINS( Industry_Code__r.Name ,"4778A"),
+BEGINS( Industry_Code__r.Name ,"65"),
+BEGINS( Industry_Code__r.Name ,"6621"),
+BEGINS( Industry_Code__r.Name ,"6622"),
+BEGINS( Industry_Code__r.Name ,"6629"),
+BEGINS( Industry_Code__r.Name ,"72"),
+BEGINS( Industry_Code__r.Name ,"75"),
+BEGINS( Industry_Code__r.Name ,"8430"),
+BEGINS( Industry_Code__r.Name ,"86")
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TECH Finance Large 2 - 4</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,45 @@
+.slds-dropdown-trigger ul{
+    max-height: 200px;
+    overflow: auto;
+}
+.ms-picklist-dropdown{
+    max-height: 300px;
+}
+.ms-clear-icon{
+    position: absolute;
+}
+.ms-refresh-icon{
+    position: absolute;
+}
+.ms-input{
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    width: 100%;
+    transition: border .1s linear,background-color .1s linear;
+    display: inline-block;
+    padding: 0 1rem 0 .75rem;
+    line-height: 1.875rem;
+    min-height: calc(1.875rem + (1px * 2));
+    /*margin-left: 10px;*/
+    margin-bottom: 5px;
+}
+.ms-filter-input{
+    margin: 0px 5%;
+    width: 50%;
+    height: 30px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: thin;
+    border-color: darkgray;
+}
+
+
+.slds-form-element__label{
+    margin-left: 10px;
+}
+
+.slds-dropdown-trigger_click.slds-is-open .slds-dropdown{
+    /*margin-left: 10px;*/
+    width: 100%;
+}

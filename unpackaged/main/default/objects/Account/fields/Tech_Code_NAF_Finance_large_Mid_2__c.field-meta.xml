@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Code_NAF_Finance_large_Mid_2__c</fullName>
+    <description>Code NAF finance for territory assignment</description>
+    <externalId>false</externalId>
+    <formula>OR(
+BEGINS( Industry_Code__r.Name  ,"4110A"),
+BEGINS( Industry_Code__r.Name  ,"4110B"),
+BEGINS( Industry_Code__r.Name  ,"4110C"),
+BEGINS( Industry_Code__r.Name  ,"4110D"),
+BEGINS( Industry_Code__r.Name  ,"4120A"),
+BEGINS( Industry_Code__r.Name  ,"4120B"),
+BEGINS( Industry_Code__r.Name  ,"4211Z"),
+BEGINS( Industry_Code__r.Name  ,"4212Z"),
+BEGINS( Industry_Code__r.Name  ,"4213A"),
+BEGINS( Industry_Code__r.Name  ,"4213B"),
+BEGINS( Industry_Code__r.Name  ,"4221Z"),
+BEGINS( Industry_Code__r.Name  ,"4222Z"),
+BEGINS( Industry_Code__r.Name  ,"4291Z"),
+BEGINS( Industry_Code__r.Name  ,"4299Z"),
+BEGINS( Industry_Code__r.Name  ,"4311Z"),
+BEGINS( Industry_Code__r.Name  ,"4312A"),
+BEGINS( Industry_Code__r.Name  ,"4312B"),
+BEGINS( Industry_Code__r.Name  ,"4313Z"),
+BEGINS( Industry_Code__r.Name  ,"4321A"),
+BEGINS( Industry_Code__r.Name  ,"4321B"),
+BEGINS( Industry_Code__r.Name  ,"4322A"),
+BEGINS( Industry_Code__r.Name  ,"4322B"),
+BEGINS( Industry_Code__r.Name  ,"4329A"),
+BEGINS( Industry_Code__r.Name  ,"4329B"),
+BEGINS( Industry_Code__r.Name  ,"4331Z"),
+BEGINS( Industry_Code__r.Name  ,"4332A"),
+BEGINS( Industry_Code__r.Name  ,"4332B"),
+BEGINS( Industry_Code__r.Name  ,"4332C"),
+BEGINS( Industry_Code__r.Name  ,"4333Z"),
+BEGINS( Industry_Code__r.Name  ,"4334Z"),
+BEGINS( Industry_Code__r.Name  ,"4339Z"),
+BEGINS( Industry_Code__r.Name  ,"4391A"),
+BEGINS( Industry_Code__r.Name  ,"4391B"),
+BEGINS( Industry_Code__r.Name  ,"4399A"),
+BEGINS( Industry_Code__r.Name  ,"4399B"),
+BEGINS( Industry_Code__r.Name  ,"4399C"),
+BEGINS( Industry_Code__r.Name  ,"4399D"),
+BEGINS( Industry_Code__r.Name  ,"4399E"),
+BEGINS( Industry_Code__r.Name  ,"7111Z"),
+BEGINS( Industry_Code__r.Name  ,"7112A"),
+BEGINS( Industry_Code__r.Name  ,"7112B"),
+BEGINS( Industry_Code__r.Name  ,"7120A"),
+BEGINS( Industry_Code__r.Name  ,"7120B"),
+BEGINS( Industry_Code__r.Name  ,"7410Z"),
+BEGINS( Industry_Code__r.Name  ,"7420Z"),
+BEGINS( Industry_Code__r.Name  ,"7430Z"),
+BEGINS( Industry_Code__r.Name  ,"7490A"),
+BEGINS( Industry_Code__r.Name  ,"7490B"))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tech Code NAF Finance large &amp; Mid 2</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

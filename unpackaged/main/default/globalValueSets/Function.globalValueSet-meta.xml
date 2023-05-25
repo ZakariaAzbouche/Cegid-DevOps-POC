@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Accountant</fullName>
+        <default>false</default>
+        <label>Accountant</label>
+    </customValue>
+    <customValue>
+        <fullName>Accounting Dir.</fullName>
+        <default>false</default>
+        <label>Accounting Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Accounting Mgr.</fullName>
+        <default>false</default>
+        <label>Accounting Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Accounting recoverings contact</fullName>
+        <default>false</default>
+        <label>Accounting recoverings contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Admin. &amp; Financial Dir.</fullName>
+        <default>false</default>
+        <label>Admin. &amp; Financial Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Admin. &amp; Financial Mgr.</fullName>
+        <default>false</default>
+        <label>Admin. &amp; Financial Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Administrative Dir.</fullName>
+        <default>false</default>
+        <label>Administrative Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Administrative Mgr.</fullName>
+        <default>false</default>
+        <label>Administrative Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Administrator</fullName>
+        <default>false</default>
+        <label>Administrator</label>
+    </customValue>
+    <customValue>
+        <fullName>After-Sales Service Dir.</fullName>
+        <default>false</default>
+        <label>After-Sales Service Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Assistant</fullName>
+        <default>false</default>
+        <label>Assistant</label>
+    </customValue>
+    <customValue>
+        <fullName>Associate</fullName>
+        <default>false</default>
+        <label>Associate</label>
+    </customValue>
+    <customValue>
+        <fullName>Auditor</fullName>
+        <default>false</default>
+        <label>Auditor</label>
+    </customValue>
+    <customValue>
+        <fullName>Board Member</fullName>
+        <default>false</default>
+        <label>Board Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Branch Mgr.</fullName>
+        <default>false</default>
+        <label>Branch Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Brand Dir.</fullName>
+        <default>false</default>
+        <label>Brand Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Brand Mgr.</fullName>
+        <default>false</default>
+        <label>Brand Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Business app Mgr.</fullName>
+        <default>false</default>
+        <label>Business app Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Development Mgr.</fullName>
+        <default>false</default>
+        <label>Business Development Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Buyer</fullName>
+        <default>false</default>
+        <label>Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>Career Planning Mgr.</fullName>
+        <default>false</default>
+        <label>Career Planning Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Chairman</fullName>
+        <default>false</default>
+        <label>Chairman</label>
+    </customValue>
+    <customValue>
+        <fullName>Chairman Board Directors</fullName>
+        <default>false</default>
+        <label>Chairman Board Directors</label>
+    </customValue>
+    <customValue>
+        <fullName>Chairman Board Management</fullName>
+        <default>false</default>
+        <label>Chairman Board Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Chairman Supervisory Board</fullName>
+        <default>false</default>
+        <label>Chairman Supervisory Board</label>
+    </customValue>
+    <customValue>
+        <fullName>Chartered accountant</fullName>
+        <default>false</default>
+        <label>Chartered accountant</label>
+    </customValue>
+    <customValue>
+        <fullName>Chief Accounting Officer</fullName>
+        <default>false</default>
+        <label>Chief Accounting Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Chief Digital Officer</fullName>
+        <default>false</default>
+        <label>Chief Digital Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Chief Executive Officer</fullName>
+        <default>false</default>
+        <label>Chief Executive Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Chief Information Officer</fullName>
+        <default>false</default>
+        <label>Chief Information Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Chief Learning Officer</fullName>
+        <default>false</default>
+        <label>Chief Learning Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Chief Legal Officer</fullName>
+        <default>false</default>
+        <label>Chief Legal Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Chief Marketing Officer</fullName>
+        <default>false</default>
+        <label>Chief Marketing Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Chief Operating Officer</fullName>
+        <default>false</default>
+        <label>Chief Operating Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Chief Strategy Officer</fullName>
+        <default>false</default>
+        <label>Chief Strategy Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Communication Mgr.</fullName>
+        <default>false</default>
+        <label>Communication Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Communications Dir.</fullName>
+        <default>false</default>
+        <label>Communications Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Comp. &amp; benefits Dir.</fullName>
+        <default>false</default>
+        <label>Comp. &amp; benefits Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Comp. &amp; benefits Mgr.</fullName>
+        <default>false</default>
+        <label>Comp. &amp; benefits Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Company Secretary</fullName>
+        <default>false</default>
+        <label>Company Secretary</label>
+    </customValue>
+    <customValue>
+        <fullName>Computer scientist</fullName>
+        <default>false</default>
+        <label>Computer scientist</label>
+    </customValue>
+    <customValue>
+        <fullName>Computer System Mgr.</fullName>
+        <default>false</default>
+        <label>Computer System Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Consolidation Mgr.</fullName>
+        <default>false</default>
+        <label>Consolidation Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultant</fullName>
+        <default>false</default>
+        <label>Consultant</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Care Mgr.</fullName>
+        <default>false</default>
+        <label>Customer Care Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Support</fullName>
+        <default>false</default>
+        <label>Customer Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Data Manager</fullName>
+        <default>false</default>
+        <label>Data Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Department Dir.</fullName>
+        <default>false</default>
+        <label>Department Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Deputy General Mgr.</fullName>
+        <default>false</default>
+        <label>Deputy General Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Developer</fullName>
+        <default>false</default>
+        <label>Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Development Dir.</fullName>
+        <default>false</default>
+        <label>Development Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Development Mgr.</fullName>
+        <default>false</default>
+        <label>Development Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Director</fullName>
+        <default>false</default>
+        <label>Director</label>
+    </customValue>
+    <customValue>
+        <fullName>E-commerce Mgr.</fullName>
+        <default>false</default>
+        <label>E-commerce Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Educational Mgr.</fullName>
+        <default>false</default>
+        <label>Educational Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Elected Member</fullName>
+        <default>false</default>
+        <label>Elected Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Employee</fullName>
+        <default>false</default>
+        <label>Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive assistant</fullName>
+        <default>false</default>
+        <label>Executive assistant</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive Dir.</fullName>
+        <default>false</default>
+        <label>Executive Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Export Dir.</fullName>
+        <default>false</default>
+        <label>Export Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Export Mgr.</fullName>
+        <default>false</default>
+        <label>Export Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Factory Dir.</fullName>
+        <default>false</default>
+        <label>Factory Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Factory Mgr.</fullName>
+        <default>false</default>
+        <label>Factory Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Dir.</fullName>
+        <default>false</default>
+        <label>Financial Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Mgr.</fullName>
+        <default>false</default>
+        <label>Financial Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Fiscal integration Mgr.</fullName>
+        <default>false</default>
+        <label>Fiscal integration Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Founder</fullName>
+        <default>false</default>
+        <label>Founder</label>
+    </customValue>
+    <customValue>
+        <fullName>Franchise Dir.</fullName>
+        <default>false</default>
+        <label>Franchise Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>General Services Mgr.</fullName>
+        <default>false</default>
+        <label>General Services Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Headmaster</fullName>
+        <default>false</default>
+        <label>Headmaster</label>
+    </customValue>
+    <customValue>
+        <fullName>HR Assistant</fullName>
+        <default>false</default>
+        <label>HR Assistant</label>
+    </customValue>
+    <customValue>
+        <fullName>HR Dir.</fullName>
+        <default>false</default>
+        <label>HR Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>HRIS Dir.</fullName>
+        <default>false</default>
+        <label>HRIS Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>HRIS Mgr.</fullName>
+        <default>false</default>
+        <label>HRIS Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>HR Mgr.</fullName>
+        <default>false</default>
+        <label>HR Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>International Dir.</fullName>
+        <default>false</default>
+        <label>International Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Intern Chartered accountant</fullName>
+        <default>false</default>
+        <label>Intern Chartered accountant</label>
+    </customValue>
+    <customValue>
+        <fullName>Inventory Mgr.</fullName>
+        <default>false</default>
+        <label>Inventory Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>IT Dir.</fullName>
+        <default>false</default>
+        <label>IT Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>IT Mgr.</fullName>
+        <default>false</default>
+        <label>IT Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Lawyer</fullName>
+        <default>false</default>
+        <label>Lawyer</label>
+    </customValue>
+    <customValue>
+        <fullName>Legal Mgr.</fullName>
+        <default>false</default>
+        <label>Legal Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Legal Officer</fullName>
+        <default>false</default>
+        <label>Legal Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Local Tax Mgr.</fullName>
+        <default>false</default>
+        <label>Local Tax Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Logistics Dir.</fullName>
+        <default>false</default>
+        <label>Logistics Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Logistics Mgr.</fullName>
+        <default>false</default>
+        <label>Logistics Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Maintenance Dir.</fullName>
+        <default>false</default>
+        <label>Maintenance Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Management Audit Mgr.</fullName>
+        <default>false</default>
+        <label>Management Audit Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Manager</fullName>
+        <default>false</default>
+        <label>Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing Mgr.</fullName>
+        <default>false</default>
+        <label>Marketing Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Mayor</fullName>
+        <default>false</default>
+        <label>Mayor</label>
+    </customValue>
+    <customValue>
+        <fullName>Mayor Secretary</fullName>
+        <default>false</default>
+        <label>Mayor Secretary</label>
+    </customValue>
+    <customValue>
+        <fullName>Member</fullName>
+        <default>false</default>
+        <label>Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Merchandising Dir.</fullName>
+        <default>false</default>
+        <label>Merchandising Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Merchandising Mgr.</fullName>
+        <default>false</default>
+        <label>Merchandising Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Network Dir.</fullName>
+        <default>false</default>
+        <label>Network Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Operating Mgr.</fullName>
+        <default>false</default>
+        <label>Operating Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Operations Dir.</fullName>
+        <default>false</default>
+        <label>Operations Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Operations Mgr.</fullName>
+        <default>false</default>
+        <label>Operations Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Organization Dir.</fullName>
+        <default>false</default>
+        <label>Organization Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Partnerships Mgr.</fullName>
+        <default>false</default>
+        <label>Partnerships Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Payroll Assistant</fullName>
+        <default>false</default>
+        <label>Payroll Assistant</label>
+    </customValue>
+    <customValue>
+        <fullName>Payroll Mgr.</fullName>
+        <default>false</default>
+        <label>Payroll Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Personnel Dir.</fullName>
+        <default>false</default>
+        <label>Personnel Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Personnel Mgr.</fullName>
+        <default>false</default>
+        <label>Personnel Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre sales</fullName>
+        <default>false</default>
+        <label>Pre sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Production Dir.</fullName>
+        <default>false</default>
+        <label>Production Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Production Mgr.</fullName>
+        <default>false</default>
+        <label>Production Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Mgr.</fullName>
+        <default>false</default>
+        <label>Product Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Professor</fullName>
+        <default>false</default>
+        <label>Professor</label>
+    </customValue>
+    <customValue>
+        <fullName>Project Dir.</fullName>
+        <default>false</default>
+        <label>Project Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Project Leader</fullName>
+        <default>false</default>
+        <label>Project Leader</label>
+    </customValue>
+    <customValue>
+        <fullName>Public accounting officer</fullName>
+        <default>false</default>
+        <label>Public accounting officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchasing Dir.</fullName>
+        <default>false</default>
+        <label>Purchasing Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchasing Mgr.</fullName>
+        <default>false</default>
+        <label>Purchasing Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality Dir.</fullName>
+        <default>false</default>
+        <label>Quality Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality Mgr.</fullName>
+        <default>false</default>
+        <label>Quality Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Recruitment Mgr.</fullName>
+        <default>false</default>
+        <label>Recruitment Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Regional Dir.</fullName>
+        <default>false</default>
+        <label>Regional Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Research and Dev Dir.</fullName>
+        <default>false</default>
+        <label>Research and Dev Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Research Development Mgr.</fullName>
+        <default>false</default>
+        <label>Research Development Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail Dir.</fullName>
+        <default>false</default>
+        <label>Retail Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail Mgr.</fullName>
+        <default>false</default>
+        <label>Retail Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Administration Mgr.</fullName>
+        <default>false</default>
+        <label>Sales Administration Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales assistant</fullName>
+        <default>false</default>
+        <label>Sales assistant</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Director</fullName>
+        <default>false</default>
+        <label>Sales Director</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Mgr.</fullName>
+        <default>false</default>
+        <label>Sales Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Representative</fullName>
+        <default>false</default>
+        <label>Sales Representative</label>
+    </customValue>
+    <customValue>
+        <fullName>Services Dir.</fullName>
+        <default>false</default>
+        <label>Services Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Sign of store Dir.</fullName>
+        <default>false</default>
+        <label>Sign of store Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Sign of store Mgr.</fullName>
+        <default>false</default>
+        <label>Sign of store Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Store Mgr.</fullName>
+        <default>false</default>
+        <label>Store Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Student</fullName>
+        <default>false</default>
+        <label>Student</label>
+    </customValue>
+    <customValue>
+        <fullName>Supplies Dir.</fullName>
+        <default>false</default>
+        <label>Supplies Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Supplies Mgr.</fullName>
+        <default>false</default>
+        <label>Supplies Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Supply Chain Dir.</fullName>
+        <default>false</default>
+        <label>Supply Chain Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Supply Chain Mgr.</fullName>
+        <default>false</default>
+        <label>Supply Chain Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Task Officer</fullName>
+        <default>false</default>
+        <label>Task Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Tax Dir.</fullName>
+        <default>false</default>
+        <label>Tax Dir.</label>
+    </customValue>
+    <customValue>
+        <fullName>Tax Mgr.</fullName>
+        <default>false</default>
+        <label>Tax Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Technical Director</fullName>
+        <default>false</default>
+        <label>Technical Director</label>
+    </customValue>
+    <customValue>
+        <fullName>Technical Mgr.</fullName>
+        <default>false</default>
+        <label>Technical Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Treasury Mgr.</fullName>
+        <default>false</default>
+        <label>Treasury Mgr.</label>
+    </customValue>
+    <customValue>
+        <fullName>Vice Chairman</fullName>
+        <default>false</default>
+        <label>Vice Chairman</label>
+    </customValue>
+    <customValue>
+        <fullName>Works Foreman</fullName>
+        <default>false</default>
+        <label>Works Foreman</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Manager</fullName>
+        <default>false</default>
+        <label>Travel Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Fleet Manager</fullName>
+        <default>false</default>
+        <label>Fleet Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Arranger</fullName>
+        <default>false</default>
+        <label>Travel Arranger</label>
+    </customValue>
+    <customValue>
+        <fullName>NR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NR</label>
+    </customValue>
+    <masterLabel>Function</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

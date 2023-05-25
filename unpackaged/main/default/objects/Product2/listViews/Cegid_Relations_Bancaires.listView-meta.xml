@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cegid_Relations_Bancaires</fullName>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Synchronization_Date_Zuora__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Reference_Number__c</columns>
+    <columns>id_buyme__c</columns>
+    <columns>Asset_Code__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Expertise__c</columns>
+    <columns>General_Terms_And_Conditions__c</columns>
+    <columns>Service_Book__c</columns>
+    <columns>SBQQ__BillingType__c</columns>
+    <columns>BU_Offer__c</columns>
+    <columns>SBQQ__ChargeType__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>Cegid Relations Bancaires</value>
+    </filters>
+    <label>Cegid Relations Bancaires</label>
+</ListView>

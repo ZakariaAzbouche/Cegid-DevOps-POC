@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- In Days. --></help>
+        <label><!-- Default Payment Term --></label>
+        <name>PaymentTerm__c</name>
+    </CustomFieldTranslation>

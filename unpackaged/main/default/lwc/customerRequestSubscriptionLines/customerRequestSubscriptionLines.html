@@ -1,0 +1,55 @@
+<template>
+    <!-- Spinner -->
+    <div if:true={showLoadingSpinner} class="main-spinner">
+        <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+    </div>
+
+    <article class="slds-card" style="background: #f3f3f3;">
+        <div class="slds-card__header slds-grid">
+          <header class="slds-media slds-media_center slds-has-flexi-truncate" style="margin-bottom: 12px;">
+            <div class="slds-media__figure">
+              <span class="slds-icon_container" style="width: 24px;background-color: #e7806f;" title="Lignes de souscriptions">
+                <img src="/img/icon/t4v35/custom/custom83_120.png" alt="">
+                <span class="slds-assistive-text">Lignes de souscriptions</span>
+              </span>
+            </div>
+            <div class="slds-media__body">
+              <h2 class="slds-card__header-title">
+                <a href="#" class="slds-card__header-link slds-truncate" title="Lignes de souscriptions">
+                  <span>Lignes de souscriptions ({subscriptionLinesDataLength})</span>
+                </a>
+              </h2>
+            </div>
+          </header>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">
+            <div style="max-height: 450px;overflow-y: scroll;">
+                <lightning-datatable
+                    key-field="SubscriptionLineId"
+                    show-row-number-column = false
+                    data={subscriptionLinesData}
+                    hide-checkbox-column = false
+                    draft-values={draftValues}
+                    onsave={handleSave}
+                    columns={columns}
+                    onrowaction={handleRowAction}>
+                </lightning-datatable>
+            </div>
+        </div>
+    </article>
+
+    <template if:true={isModalOpen}>
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                    <p style="text-align: center;color: red;font-size: 18px;">{CustomerRequestLinesDelete}</p>
+                </div>
+                <footer class="slds-modal__footer">
+                    <button class="slds-button slds-button_neutral" onclick={closeModal} title="Cancel">Cancel</button>
+                    <button class="slds-button slds-button_brand" onclick={deleteSubscriptionLine} title="Delete">Delete</button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

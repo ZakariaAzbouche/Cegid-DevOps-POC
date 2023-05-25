@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Check_End_Date_Start_Date</fullName>
+    <active>true</active>
+    <description>La date Fin de validité doit être supérieure à la date de Début.</description>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c ),
+End_Date__c &lt;= Start_Date__c
+)</errorConditionFormula>
+    <errorMessage>La date Fin de validité doit être supérieure à la date de Début.</errorMessage>
+</ValidationRule>

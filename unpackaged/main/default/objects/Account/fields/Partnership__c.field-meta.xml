@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partnership__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>A Reseller is a nonretail company that resells a vendor’s products.
+
+Independent software vendors are companies or individuals that build, develop and sell software products to consumers and/or businesses, often indirectly via distributors and Resellers through the Channel.
+
+A Systems Integrator is a company that builds and markets a complex solution using products and/or components form other compagnie, selling the solution and the service required to install it under its own name.</inlineHelpText>
+    <label>Subtype</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Partnership</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>003</controllingFieldValue>
+            <valueName>008</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>003</controllingFieldValue>
+            <valueName>009</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>003</controllingFieldValue>
+            <valueName>001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>003</controllingFieldValue>
+            <valueName>101</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>003</controllingFieldValue>
+            <valueName>002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>003</controllingFieldValue>
+            <valueName>003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>003</controllingFieldValue>
+            <valueName>005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>003</controllingFieldValue>
+            <valueName>004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>003</controllingFieldValue>
+            <valueName>006</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>003</controllingFieldValue>
+            <valueName>007</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>005</controllingFieldValue>
+            <valueName>013</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>005</controllingFieldValue>
+            <valueName>014</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>005</controllingFieldValue>
+            <valueName>010</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>005</controllingFieldValue>
+            <valueName>012</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>005</controllingFieldValue>
+            <valueName>011</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

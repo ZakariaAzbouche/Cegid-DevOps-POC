@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tech_IsFirstEuro__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(
+TEXT(CreditNoteReason2__c) = "C02",
+TEXT(CreditNoteReason2__c) = "A02",
+TEXT(CreditNoteReason2__c) = "A07",
+TEXT(CreditNoteReason3__c) = "230",
+TEXT(CreditNoteReason3__c) = "170",
+TEXT(CreditNoteReason3__c) = "043",
+TEXT(CreditNoteReason3__c) = "041",
+TEXT(CreditNoteReason3__c) = "052",
+AND(TEXT(CreditNoteReason2__c) = "A04",TEXT(CreditNoteReason3__c) = "031")
+)</formula>
+    <label>tech_IsFirstEuro</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

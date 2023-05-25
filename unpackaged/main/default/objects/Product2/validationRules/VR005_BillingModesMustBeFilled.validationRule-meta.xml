@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR005_BillingModesMustBeFilled</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( $User.BypassVR__c ),
+OR(RecordType.DeveloperName =='Package',RecordType.DeveloperName 
+ =='Product'), ISBLANK(Possible_Billing_Modes__c) )</errorConditionFormula>
+    <errorDisplayField>Possible_Billing_Modes__c</errorDisplayField>
+    <errorMessage>You must enter at least one possible Billing Mode for each Product and each Package.</errorMessage>
+</ValidationRule>

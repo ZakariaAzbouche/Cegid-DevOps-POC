@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Account_Nature__c</columns>
+    <columns>Account_Risk_Level__c</columns>
+    <columns>One_Time_Total__c</columns>
+    <columns>Recurring_Total_Monthly__c</columns>
+    <columns>Account_Aston_Amount__c</columns>
+    <columns>Account_Aston_Delay__c</columns>
+    <columns>RCC_Workflow_Level__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

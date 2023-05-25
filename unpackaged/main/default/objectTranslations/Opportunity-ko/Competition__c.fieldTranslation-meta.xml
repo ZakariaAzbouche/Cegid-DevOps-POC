@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Weak = Competition unknown or strong competitor in place | Moderate = No competition or weaker competitor known and strategy in place to address | Strong = Cegid competitive advantage, on price, product, relationship and brand --></help>
+        <label><!-- Competition --></label>
+        <name>Competition__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pre_Sales_Action__c</fullName>
+    <externalId>false</externalId>
+    <label>Pre-Sales Action</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Qualification</fullName>
+                <default>false</default>
+                <label>Qualification</label>
+            </value>
+            <value>
+                <fullName>RFI answer</fullName>
+                <default>false</default>
+                <label>RFI answer</label>
+            </value>
+            <value>
+                <fullName>RFP / Cdc answer</fullName>
+                <default>false</default>
+                <label>RFP / Cdc answer</label>
+            </value>
+            <value>
+                <fullName>Demonstration / POC</fullName>
+                <default>false</default>
+                <label>Demonstration / POC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

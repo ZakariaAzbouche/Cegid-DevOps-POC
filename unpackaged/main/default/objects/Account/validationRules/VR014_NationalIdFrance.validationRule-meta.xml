@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR014_NationalIdFrance</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT ( $User.BypassVR__c ),
+NOT(INCLUDES($User.List_of_VR_to_By_Pass__c,"VR014_NationalIdFrance")),
+NOT(ISBLANK( PRIORVALUE(National_ID__c))),
+ISCHANGED(National_ID__c ),
+OR(
+ISPICKVAL( BillingCountryCode, "FR"),
+ISPICKVAL( BillingCountryCode, "GP"),
+ISPICKVAL( BillingCountryCode, "YT"),
+ISPICKVAL( BillingCountryCode, "RE"),
+ISPICKVAL( BillingCountryCode, "BL"),
+ISPICKVAL( BillingCountryCode, "MF")),
+NOT(ISPICKVAL( Reason_Update_National_Id_VAT__c , "Legal merge")),
+AND(LEFT(National_ID__c , 9)  &lt;&gt; LEFT(PRIORVALUE(National_ID__c ),9) )
+)</errorConditionFormula>
+    <errorDisplayField>National_ID__c</errorDisplayField>
+    <errorMessage>Only the last 5 characters of the National ID can be changed.</errorMessage>
+</ValidationRule>

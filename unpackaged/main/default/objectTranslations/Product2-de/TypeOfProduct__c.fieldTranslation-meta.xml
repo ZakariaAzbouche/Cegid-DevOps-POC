@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- A for Article
+P for Product
+T for Tier --></help>
+        <label><!-- TypeOfProduct --></label>
+        <name>TypeOfProduct__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Conditions Générales de Vente --></label>
+        <name>Conditions_G_n_rales_de_Vente__c</name>
+    </CustomFieldTranslation>

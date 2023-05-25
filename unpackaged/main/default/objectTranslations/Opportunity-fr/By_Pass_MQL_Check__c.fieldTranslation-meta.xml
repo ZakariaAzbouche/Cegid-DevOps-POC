@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- By Pass MQL Check --></label>
+        <name>By_Pass_MQL_Check__c</name>
+    </CustomFieldTranslation>

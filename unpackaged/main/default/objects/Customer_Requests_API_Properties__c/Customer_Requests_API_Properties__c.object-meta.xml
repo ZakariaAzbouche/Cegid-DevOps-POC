@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>For OneNoteS Project &amp; Zuora API interface</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Customer Requests API Properties</label>
+    <visibility>Public</visibility>
+</CustomObject>

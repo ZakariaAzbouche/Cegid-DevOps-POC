@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR003_UsageRequiresConsumptionCode</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+AND(
+ISBLANK( Consommation_Code__c ),
+RecordType.DeveloperName =='Charge',
+INCLUDES(Main_Charge_Product__r.Possible_Billing_Modes__c,'Flat Rate and Excess Consumption'),
+ISPICKVAL( SBQQ__ChargeType__c ,'Usage')
+
+)
+,
+AND(
+ OR(RecordType.DeveloperName =='Package',
+ RecordType.DeveloperName =='Product'),
+ ISPICKVAL( SBQQ__ChargeType__c ,'Usage'),
+ ISBLANK( Consommation_Code__c )
+
+
+))</errorConditionFormula>
+    <errorDisplayField>Consommation_Code__c</errorDisplayField>
+    <errorMessage>If you want to insert a Product with a Charge Type equals to 'Usage', you have to fill the Consumption Code.</errorMessage>
+</ValidationRule>

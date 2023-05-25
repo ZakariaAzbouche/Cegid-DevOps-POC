@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Business Software --></label>
+        <name>Business_Software__c</name>
+        <picklistValues>
+            <masterLabel>Cegid</masterLabel>
+            <translation><!-- Cegid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ciel</masterLabel>
+            <translation><!-- Ciel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EBP</masterLabel>
+            <translation><!-- EBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Communiqué</masterLabel>
+            <translation><!-- Non Communiqué --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sage</masterLabel>
+            <translation><!-- Sage --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

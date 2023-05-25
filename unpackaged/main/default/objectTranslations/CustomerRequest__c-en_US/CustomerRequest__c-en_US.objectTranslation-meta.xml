@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Requests</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Customer Request Layout</layout>
+        <sections>
+            <label><!-- Approvers --></label>
+            <section>Approvers</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Motives --></label>
+            <section>Motives</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Change Current Approver --></label>
+        <name>Change_Current_Approver</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Clone --></label>
+        <name>Clone</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Process the request --></label>
+        <name>ProcessRequest</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Submit for Approval --></label>
+        <name>SubmitApprobal</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the status of a customer request before submitting it for approval. --></errorMessage>
+        <name>VR_CustomerReq01_ApprovalMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the status of a customer request that has been rejected. --></errorMessage>
+        <name>VR_CustomerReq02_RejectedLockStatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the status of a customer request that has been approved. --></errorMessage>
+        <name>VR_CustomerReq03_ApprovedLockStatus</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add --></label>
+        <name>Add</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateCustomerRequest --></label>
+        <name>CreateCustomerRequest</name>
+    </webLinks>
+</CustomObjectTranslation>

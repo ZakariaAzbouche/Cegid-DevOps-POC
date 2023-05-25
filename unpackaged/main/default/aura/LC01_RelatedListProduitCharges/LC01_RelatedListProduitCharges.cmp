@@ -1,0 +1,118 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="AP02_RelatedListProduit">
+    <lightning:overlayLibrary aura:id="overlayLib" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="data" type="list" access="global"/>
+    <aura:attribute name="customer" type="object" access="global"/>
+    <aura:attribute name="product" type="object" access="global"/>
+    <aura:attribute name="ratePlans" type="list" access="global"/>
+    <aura:attribute name="name" type="String"/>
+    <aura:attribute name="startDate" type="String"/>
+    <aura:attribute name="endDate" type="String"/>
+    <aura:attribute name="nextInvoiceDate" type="String"/>
+    <aura:attribute name="lastInvoiceDate" type="String"/>
+    <aura:attribute name="numero" type="String"/>
+    <aura:attribute name="codeUsage" type="String"/>
+    <aura:attribute name="mRR" type="integer"/>
+    <aura:attribute name="valeurTotal" type="integer"/>
+    <aura:attribute name="detailTranche" type="String"/>
+    <aura:attribute name ="pricingSummary" type ="string"/>
+    
+    <!--
+    <aura:if isTrue="{!v.mySpinner}">
+        <lightning:spinner variant="brand" size="medium" alternativeText="..." />
+    </aura:if>-->
+        <lightning:card title="{!v.name}" iconName="action:new_opportunity">
+            <div id="popover-body-id" class="slds-popover__body">
+                <div class="slds-grid slds-gutters bottom_large">
+                    <div class="slds-col">
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Numéro</span><br/>
+                            <aura:if isTrue="{!v.name!=null}">
+                                <ui:outputText class="slds-text-title" value="{!v.name}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Code usage</span><br/>
+                            <aura:if isTrue="{!v.codeUsage!=null}">
+                                <ui:outputText class="slds-text-title" value="{!v.codeUsage}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">MRR</span><br/>
+                            <aura:if isTrue="{!v.mRR!=null}">
+                                <ui:outputCurrency  class="slds-text-title" value="{!v.mRR}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Valeur total (TCV)</span><br/>
+                            <aura:if isTrue="{!v.valeurTotal!=null}">
+                                <ui:outputCurrency  class="slds-text-title" value="{!v.valeurTotal}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                    </div>
+                    <div class="slds-col">
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Date début</span><br/>
+                            <aura:if isTrue="{!v.startDate!=null}">
+                                <ui:outputText class="slds-text-title" value="{!v.startDate}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Date fin</span><br/>
+                            <aura:if isTrue="{!v.endDate!=null}">
+                                <ui:outputText class="slds-text-title" value="{!v.endDate}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Détails tranche de prix</span><br/>
+                            <aura:if isTrue="{!v.pricingSummary!=null}">
+                                <ui:outputText class="slds-text-title" value="{!v.pricingSummary}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                    </div>
+                    <div class="slds-col">
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Date dernière facturation</span><br/>
+                            <aura:if isTrue="{!v.lastInvoiceDate!=null}">
+                                <ui:outputText class="slds-text-title" value="{!v.lastInvoiceDate}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                        <div class="slds-p-bottom_medium">
+                            <span class="slds-text-heading_small slds-p-bottom_medium ">Date prochain facturation</span><br/>
+                            <aura:if isTrue="{!v.nextInvoiceDate!=null}">
+                                <ui:outputText class="slds-text-title" value="{!v.nextInvoiceDate}" />
+                                <aura:set attribute="else">
+                                    Null
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </lightning:card>
+    <!--</section>-->
+</aura:component>

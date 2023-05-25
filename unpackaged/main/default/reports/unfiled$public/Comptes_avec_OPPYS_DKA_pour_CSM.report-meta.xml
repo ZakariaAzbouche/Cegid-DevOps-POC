@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$ERP_Number__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Product_Line__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$StageName</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$CloseDate</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Opportunities$Amount_Saas_Licences_Prof__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Owner</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>Comptes avec OPPYS</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.Opportunities$StageName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Closed Won,Closed Lost,No Go Client,No Go CEGID</value>
+        </criteriaItems>
+        <language>fr</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Comptes avec OPPYS (DKA pour CSM)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Opp_with_or_without_Activities__c</reportType>
+    <scope>myterrs</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account.Opportunities$CreatedDate</dateColumn>
+        <endDate>2023-02-09</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2022-01-01</startDate>
+    </timeFrameFilter>
+</Report>

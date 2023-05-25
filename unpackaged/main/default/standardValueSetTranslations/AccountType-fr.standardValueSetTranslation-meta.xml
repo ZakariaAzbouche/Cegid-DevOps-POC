@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Direct</masterLabel>
+        <translation><!-- Direct --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Indirect</masterLabel>
+        <translation><!-- Indirect --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partner</masterLabel>
+        <translation>Partenaire</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

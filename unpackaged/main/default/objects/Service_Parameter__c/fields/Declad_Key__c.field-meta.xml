@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Declad_Key__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Utilisé par passeport pour indiquer si des API peuvent consommer ce service</description>
+    <externalId>false</externalId>
+    <label>Declad Key</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

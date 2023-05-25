@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>Opportunity.Id:UNIQUE</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Nb Oppys</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>Case.Id:UNIQUE</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA2</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Nb Case</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_87793686</developerName>
+        <masterLabel>Case Status</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.Cases__r$Status</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>New</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In progress2</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Scheduled</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>On Hold</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In progress</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Approved</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Escalated</sourceValue>
+            </sourceValues>
+            <value>Open</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed</sourceValue>
+            </sourceValues>
+            <value>Close</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Rejected</sourceValue>
+            </sourceValues>
+            <value>Rejected</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_72921442</developerName>
+        <masterLabel>Oppy Open / Close</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity$StageName</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>G - MQL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>G - Sales Ready</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>F - Identify the needs</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>E - Analyze the needs</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>D - Draw up the solution</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>C - Validate the solution</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>B - Negotiate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>A - Sign</sourceValue>
+            </sourceValues>
+            <value>Oppy Open</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed Won</sourceValue>
+            </sourceValues>
+            <value>Oppy Won</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed Lost</sourceValue>
+            </sourceValues>
+            <value>Oppy Lost</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>No Go Client</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>No Go CEGID</sourceValue>
+            </sourceValues>
+            <value>Oppy Close</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Opportunity$Account</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Partner_Distributor__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Owner</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Expertise__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Forecast_Category_EDIT__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Probability</field>
+    </columns>
+    <columns>
+        <field>Opportunity$StageName</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Status_Quote_BuyMe__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Amount_Saas_and_Licences__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Prof_Services_Booking_Amount__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$CloseDate</field>
+    </columns>
+    <columns>
+        <field>BucketField_87793686</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Cases__r$Status</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Cases__r$Reject_Cause__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Cases__r$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Cases__r$Owner</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Cases__r$Type</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Cases__r$Subject</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Cases__r$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Cases__r$Requested_Start_Date__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Cases__r$Requested_End_Date__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Cases__r$Scheduled_Date__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity$Amount_Saas_and_Licences__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>EUR 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$Product_Line__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>290,294,027,005,278,296,300,045,136,134,299,301,131,298,137,007,009,022,003,133,037,120,126,125,123,276,286,305,006</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Cases__r$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,New,In progress,Assigned,On Hold,In progress2,Scheduled,Closed,Rejected,Escalated,Approved</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_72921442</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity$Product_Line__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>AVV Finance 2</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_or_without_cases__c</reportType>
+    <roleHierarchyFilter>CEGID_Head</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Opportunity.Cases__r$Requested_Start_Date__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

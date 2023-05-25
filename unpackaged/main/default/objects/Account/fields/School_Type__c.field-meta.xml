@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>School_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>School Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Academie/ rectorat</fullName>
+                <default>false</default>
+                <label>Academie/ rectorat</label>
+            </value>
+            <value>
+                <fullName>Association étudiante</fullName>
+                <default>false</default>
+                <label>Association étudiante</label>
+            </value>
+            <value>
+                <fullName>CFA</fullName>
+                <default>false</default>
+                <label>CFA</label>
+            </value>
+            <value>
+                <fullName>Centre de formation</fullName>
+                <default>false</default>
+                <label>Centre de formation</label>
+            </value>
+            <value>
+                <fullName>Chambre commerce industrie</fullName>
+                <default>false</default>
+                <label>Chambre commerce industrie</label>
+            </value>
+            <value>
+                <fullName>Chambre des métiers</fullName>
+                <default>false</default>
+                <label>Chambre des métiers</label>
+            </value>
+            <value>
+                <fullName>Ecole BTP</fullName>
+                <default>false</default>
+                <label>Ecole BTP</label>
+            </value>
+            <value>
+                <fullName>Ecole d' Ingénieurs</fullName>
+                <default>false</default>
+                <label>Ecole d' Ingénieurs</label>
+            </value>
+            <value>
+                <fullName>Ecole de commerce</fullName>
+                <default>false</default>
+                <label>Ecole de commerce</label>
+            </value>
+            <value>
+                <fullName>Ecole hotelière</fullName>
+                <default>false</default>
+                <label>Ecole hotelière</label>
+            </value>
+            <value>
+                <fullName>Ecole mode</fullName>
+                <default>false</default>
+                <label>Ecole mode</label>
+            </value>
+            <value>
+                <fullName>Ecole sup informatique</fullName>
+                <default>false</default>
+                <label>Ecole sup informatique</label>
+            </value>
+            <value>
+                <fullName>Formation continue</fullName>
+                <default>false</default>
+                <label>Formation continue</label>
+            </value>
+            <value>
+                <fullName>Greta</fullName>
+                <default>false</default>
+                <label>Greta</label>
+            </value>
+            <value>
+                <fullName>IAE</fullName>
+                <default>false</default>
+                <label>IAE</label>
+            </value>
+            <value>
+                <fullName>IUT</fullName>
+                <default>false</default>
+                <label>IUT</label>
+            </value>
+            <value>
+                <fullName>Junior entreprise</fullName>
+                <default>false</default>
+                <label>Junior entreprise</label>
+            </value>
+            <value>
+                <fullName>Lycee général</fullName>
+                <default>false</default>
+                <label>Lycee général</label>
+            </value>
+            <value>
+                <fullName>Lycee hotelier</fullName>
+                <default>false</default>
+                <label>Lycee hotelier</label>
+            </value>
+            <value>
+                <fullName>Lycee polyvalent</fullName>
+                <default>false</default>
+                <label>Lycee polyvalent</label>
+            </value>
+            <value>
+                <fullName>Lycee privé</fullName>
+                <default>false</default>
+                <label>Lycee privé</label>
+            </value>
+            <value>
+                <fullName>Lycee professionnel</fullName>
+                <default>false</default>
+                <label>Lycee professionnel</label>
+            </value>
+            <value>
+                <fullName>Lycee technique</fullName>
+                <default>false</default>
+                <label>Lycee technique</label>
+            </value>
+            <value>
+                <fullName>Lycée</fullName>
+                <default>false</default>
+                <label>Lycée</label>
+            </value>
+            <value>
+                <fullName>Lycée public</fullName>
+                <default>false</default>
+                <label>Lycée public</label>
+            </value>
+            <value>
+                <fullName>Université</fullName>
+                <default>false</default>
+                <label>Université</label>
+            </value>
+            <value>
+                <fullName>Lycee technologique</fullName>
+                <default>false</default>
+                <label>Lycee technologique</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Oppty31_SellingContext</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  NOT( $User.BypassVR__c )
+, NOT(INCLUDES( $User.List_of_VR_to_By_Pass__c, "VR_Oppty31_SellingContext"))
+,NOT( $Profile.Name = "System Administrator")
+, ISBLANK(Partner_Distributor__c)
+, NOT(  ISBLANK(  TEXT( Selling_Context__c  ))  )
+)</errorConditionFormula>
+    <errorDisplayField>Selling_Context__c</errorDisplayField>
+    <errorMessage>You can choose a value only if the field Partner Distributor is filled</errorMessage>
+</ValidationRule>
